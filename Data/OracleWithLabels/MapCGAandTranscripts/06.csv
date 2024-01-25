@@ -1,0 +1,26 @@
+Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+21.12,24.51,S0: STATEMENT(red = 10),3,21.12,24.51,6,4,I will tell you that the red cube is ten grams
+63.42,66.0,S1: STATEMENT(red = 10),10,63.42,66.0,6,2,We got red ten
+72.45,76.17,S2: STATEMENT(red = blue),12,72.45,76.17,6,1,Seems like it might be about the same
+80.52,85.29,ACCEPT(S2),13,80.52,85.29,6,3,I would agree yeah so this one's ten
+85.47,86.92,R1: RECOMMENDATION(20 = ?),14,85.47,86.92,6,3,Alright let's see if we can find a twenty
+89.76,91.06,S3: STATEMENT(purple > red + blue),15,89.76,91.06,6,3,Too heavy so
+102.35,104.28,S4: STATEMENT(green = 20),20,102.3,103.5,6,1,That's looking pretty even
+104.76,109.2,R2: RECOMMENDATION(30 = ?),21,104.76,109.2,6,3,Alright let's see if we can find a thirty
+116.79,125.37,S5: STATEMENT(red = 10 and green = 20),26,116.79,125.37,6,2,It's just different at the bottom that's a so that's a ten and a twenty right now right that's looking
+130.66,135.96,R3: RECOMMENDATION(purple = 20?),31,131.79,132.58,6,1,Yeah it looks a little
+141.18,146.85,S6: STATEMENT(purple > 20 and purple < 30),34,141.18,146.85,6,2,Ok so it's more than twenty but it almost seems like the thirty takes it past but
+156.33,161.08,S7: STATEMENT(purple = 30),38,160.58,162.57,6,3,I think it could also be the position
+164.46,166.67,ACCEPT(S7),39,164.46,166.67,6,2,So big blue is probably thirty
+172.35,174.33,Q1: QUESTION(yellow = 40?),42,172.35,174.33,6,1,Forty
+177.57,178.08,S8: STATEMENT(yellow = 50),44,177.57,178.08,6,2,Fifty
+180.33,182.31,DOUBT(S8),46,180.33,182.31,6,1,Oh maybe not
+186.24,190.92,S9: STATEMENT(yellow < 50),47,186.24,190.92,6,3,Yeah that's considerably heavier so this one did we say this was thirty
+192.61,195.21,S10: STATEMENT(purple = 30 and green = 20),49,192.61,195.21,6,2,Yeah that's thirty green is twenty
+195.24,196.42,S11: STATEMENT( red = 10 and blue = 10),50,195.24,196.42,6,2,Red and small blue are both ten
+201.21,202.25,S12: STATEMENT(yellow < purple + green),52,201.21,202.25,6,3,But it's too heavy
+205.44,209.58,S13: STATEMENT(purple + green = 50),56,208.84,211.5,6,2,Yeah green and big blue
+211.56,222.66,R4: RECOMMENDATION(yellow = 40?),59,215.67,219.67,6,2,Unless she's messing with us and some of these are in increments of five
+224.5,226.56,S14: STATEMENT(purple + blue = 40),61,223.5,226.56,6,1,Big blue was forty
+237.36,240.75,S15: STATEMENT(yellow = 50),63,237.36,240.75,6,1,I would say that it is at least closest to fifty
+246.39,248.73,ACCEPT(S15),65,246.39,248.73,6,1,Alright

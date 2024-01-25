@@ -1,0 +1,14 @@
+Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+22.14,24.27,S0: STATEMENT(red = 10),3,22.14,24.27,9,4,The red cube is ten grams
+61.74,63.4,S1: STATEMENT(red = blue),12,61.74,63.4,9,2,I would say that's equal probably
+63.51,65.73,ACCEPT(S1),13,63.51,65.73,9,3,Looks equal yeah get
+77.85,79.58,ACCEPT(S1),17,78.25,79.01,9,2,Yeah that 's good
+96.66,97.83,S2: STATEMENT(green = red + blue),21,96.66,97.83,9,2,Yeah it's probably equal
+103.33,105.99,S3: STATEMENT(red = 10 and blue = 10),23,103.33,105.99,9,1,So we got ten ten
+108.23,111.27,S4: STATEMENT(green != purple),25,108.23,111.27,9,1,Definitely not equal
+130.26,133.35,S5: STATEMENT(green = 20 and blue = 10),32,131.58,132.83,9,3,That was twenty ten yep
+133.38,135.67,S6: STATEMENT(purple = 30),34,135.33,136.77,9,3,I think yep
+135.71,136.79,ACCEPT(S6),34,135.33,136.77,9,3,I think yep
+160.22,164.84,S7: STATEMENT(yellow = purple + green),40,159.72,167.91,9,3,I think it's sixty so this one was twenty
+168.42,170.83,S8: STATEMENT(purple = 30 and yellow = 50),41,168.42,170.83,9,3,This one was thirty so this should be fifty less
+171.75,173.75,ACCEPT(S8),42,171.75,173.75,9,1,Ok good deal
