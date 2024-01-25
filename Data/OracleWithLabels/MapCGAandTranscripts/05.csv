@@ -1,0 +1,24 @@
+Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+20.24,22.7,S0: STATEMENT(red = 10),3,20.25,22.68,5,4,I can tell you that the red cube is ten grams
+62.91,64.62,S1: STATEMENT(red = 10),15,62.91,64.62,5,2,So we know this is ten
+74.96,84.46,R1: RECOMMENDATION(red = blue?),21,77.25,85.57,5,3,It's heavy yep
+92.25,95.19,S2: STATEMENT(red = blue),24,92.25,95.19,5,1,I'd say that's basically the same because it's teetering
+95.79,99.0,ACCEPT(S2),25,95.79,99.0,5,3,Yeah if that's what we're going off of
+108.58,112.17,S3: STATEMENT(red = 10 and blue = 10),29,108.58,112.17,5,2,So these are both ten   
+112.62,113.02,ACCEPT(S3),30,112.62,113.02,5,3,Correct
+131.62,132.99,S4: STATEMENT(green = 20),34,131.62,132.99,5,2,So that one's twenty
+133.23,134.17,ACCEPT(S4),36,133.23,134.17,5,1,Ok in theory
+134.19,136.63,S5: STATEMENT(red = 10 and blue = 10 and green = 20),35,133.33,136.65,5,2,So these are both ten in theory ten ten twenty
+147.96,154.32,S6: STATEMENT(green = 20),41,149.68,151.01,5,2,The green is twenty
+154.47,159.75,S7: STATEMENT(purple > green),43,156.5,157.58,5,2,Which one is heavier
+161.42,163.86,R2: RECOMMENDATION(purple = ?),45,161.42,163.86,5,1,Ok so let's try purple
+164.07,168.25,S8: STATEMENT(purple > 20),47,167.06,170.07,5,3,So we have twenty
+170.23,172.5,R3: RECOMMENDATION(purple = 30?),50,170.1,173.01,5,1,Right what if we put ten on that
+174.48,183.63,S9: STATEMENT(purple = 30),52,175.5,181.24,5,1,What if I do this ok so less than forty likely thirty ok
+184.5,186.08,ACCEPT(S9),55,185.92,187.23,5,2,Purple's thirty
+199.38,200.84,S10: STATEMENT(purple = 30 and green = 20),59,200.25,201.26,5,2,Plus twenty
+207.25,218.67,S11: STATEMENT(yellow = 50),63,207.34,211.67,5,3,Yeah I'd make it a five if we had a five option 
+218.73,226.08,S12: STATEMENT(yellow = 50),66,225.75,226.67,5,3,Yellow fifty
+226.11,226.69,ACCEPT(S12),66,225.75,226.67,5,3,Yellow fifty
+233.58,236.64,S13: STATEMENT(yellow = 50 and purple = 30),71,235.08,235.92,5,2,I think that's fifty
+244.17,246.57,S14: STATEMENT(purple = 30),74,244.17,246.57,5,2,And that one's thirty thirty

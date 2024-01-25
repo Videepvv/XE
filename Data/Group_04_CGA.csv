@@ -1,0 +1,39 @@
+Begin Time - ss.msec,End Time - ss.msec,Common Ground
+33.3,36.23,S0: STATEMENT(red = 10)
+73.9,75.33,"O1: OBSERVATION: on(RedBlock and BlueBlock, LeftScale) and on(GreenBlock, RightScale) and Scale: lean(zero)"
+75.34,79.84,R1: RECOMMENDATION(red = blue?)
+80.44,80.77,"O1: OBSERVATION: on(RedBlock,  LeftScale) and on(BlueBlock, RightScale) and Scale: lean(zero) "
+80.78,81.6,I1: INFERENCE-FROM(O1 and red = 10)
+81.61,82.96,S1: STATEMENT(blue = 10)
+83.57,84.38,DOUBT(S1)
+90.31,91.14,I2: INFERENCE-FROM (O1 and O2 and red = 10) 
+91.14,91.75,S2: STATEMENT(green = 20)
+91.76,92.32,Q1: QUESTION(blue = 10?)
+93.15,94.53,"A1: ANSWER(Q1, yes)"
+99.4,101.66,"O3: OBSERVATION: on(GreenBlock, RightScale) and on(RedBlock, LeftScale) and on(BlueBlock, LeftScale) and Scale: lean(zero)"
+107.44,108.83,"O4: OBSERVATION: on(PurpleBlock, RightScale) and on(RedBlock, LeftScale) and on(BlueBlock, LeftScale) and Scale: lean(right)"
+108.85,110.32,R1: RECOMMENDATION(purple = green + blue + red?)
+110.32,110.55,"O5: OBSERVATION: on(PurpleBlock, RightScale) and on(GreenBlock, LeftScale) and on(RedBlock, LeftScale) and on(BlueBlock, LeftScale) and Scale: lean(left)"
+110.55,111.51,R2: RECOMMENDATION(purple = green + red?)
+116.34,118.32,"O6: OBSERVATION: on(PurpleBlock, RightScale) and on(RedBlock and GreenBlock, LeftScale) and Scale: lean(zero)"
+118.33,121.57,I3: INFERENCE-FROM (O6 and red = 10 and green = 20) 
+121.58,123.64,S3: STATEMENT(purple = 30)
+123.65,124.43,DOUBT(S3)
+124.63,125.46,I4: INFERENCE-FROM(O5 and green = 20 and red = 10 and blue = 10)
+125.49,127.16,S4: STATEMENT(purple != 40)
+127.2,127.94,I5: INFERENCE-FROM(O4 and red = 10 and blue = 10)
+127.96,129.29,S5: STATEMENT(purple != 20)
+129.51,130.62,S6: STATEMENT(purple = 30)
+130.65,131.94,ACCEPT(S6)
+151.98,154.94,"O7: OBSERVATION: on(YellowBlock, RightScale) and on(PurpleBlock and GreenBlock, LeftScale) and Scale: lean(zero)"
+154.97,157.83,I6: INFERENCE-FROM(O7 and green = 20 and purple = 30)
+157.84,159.83,S7: STATEMENT(yellow = 50)
+160.58,161.74,DOUBT(S7)
+161.88,162.59,S8: STATEMENT(blue = 10)
+162.59,163.86,Q2: QUESTION(yellow = 60?)
+164.65,166.04,Q2: QUESTION(purple = 30 and green = 30?)
+166.04,167.17,"A2: ANSWER(Q2, green = 20)"
+174.37,175.44,S9: STATEMENT(yellow = 50)
+175.47,176.11,ACCEPT(S9)
+185.43,186.64,Q3: QUESTION(green = 20?)
+186.64,187.39,"A3: ANSWER(Q3, green = 20)"
