@@ -66,8 +66,12 @@ class CrossEncoder(nn.Module):
         last_hidden_states = output.last_hidden_state
         cls_vector = output.pooler_output
 
-        arg1_vec = torch.mean(last_hidden_states, dim=1) if arg1 is None else (last_hidden_states * arg1.unsqueeze(-1)).sum(1)
-        arg2_vec = torch.mean(last_hidden_states, dim=1) if arg2 is None else (last_hidden_states * arg2.unsqueeze(-1)).sum(1)
+        arg1_vec = None
+        if arg1 is not None:
+            arg1_vec = (last_hidden_states * arg1.unsqueeze(-1)).sum(1)
+        arg2_vec = None
+        if arg2 is not None:
+            arg2_vec = (last_hidden_states * arg2.unsqueeze(-1)).sum(1)
 
         return cls_vector, arg1_vec, arg2_vec
 
@@ -76,7 +80,6 @@ class CrossEncoder(nn.Module):
         cls_vector, arg1_vec, arg2_vec = self.generate_cls_arg_vectors(input_ids, attention_mask, position_ids,
                                                                        global_attention_mask, arg1, arg2)
 
-       #print(arg1_vec, arg2_vec)
         return torch.cat([cls_vector, arg1_vec, arg2_vec, arg1_vec * arg2_vec], dim=1)
 
     def frozen_forward(self, input_):
