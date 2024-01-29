@@ -1,0 +1,14 @@
+,Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+0,24.42,27.72,red = 10,5,24.42,27.72,1,4,And we will tell you that this red cube on top is ten grams
+2,80.52,81.67,red = 10,24,78.08,80.58,1,1,ok well red block would be nine minus ten
+5,95.19,97.17,red = blue,30,95.19,97.17,1,3,"red block, blue block seems pretty balanced"
+7,99.78,102.03,blue = 10,31,97.56,102.03,1,1,yeah ok so now we know that blue block is also ten
+12,112.42,112.72,purple > 20,36,110.16,114.24,1,1,And then see if there's thats twenty which is not
+13,112.74,113.76,purple != 20,36,110.16,114.24,1,1,And then see if there's thats twenty which is not
+16,127.35,129.19,green = 20,41,127.35,132.0,1,2,ok so green block one is probably twenty ten ten twenty
+18,129.47,131.98,S209: STATEMENT(red = 10 and blue = 10 and green = 20,41,127.35,132.0,1,2,ok so green block one is probably twenty ten ten twenty
+22,140.73,142.81,purple = 30,47,140.73,145.89,1,1,Ooh its looking like thirty
+29,181.08,182.28,yellow > purple + red + blue,57,174.54,185.08,1,2,"yeah yeah the blue dark blue one is thirty purple block's the larger one purple block, red block, blue block's slightly heavier yeah"
+35,207.06,210.87,"red = 10, blue = 10, green = 20, purple = 30",65,207.06,210.87,1,1,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty"
+40,238.04,239.92,yellow < 50,73,234.27,239.82,1,1,"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing"
+45,265.5,268.13,yellow = 50,81,268.08,272.58,1,3,yeah fifty so we say yellow is fifty

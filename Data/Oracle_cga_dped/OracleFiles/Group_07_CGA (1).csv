@@ -1,0 +1,19 @@
+Begin Time - ss.msec,End Time - ss.msec,Common Ground
+30.9,34.59,S0: STATEMENT(red = 10)
+107.31,109.09,S1: STATEMENT(blue = 10)
+110.32,111.14,ACCEPT(S1)
+139.87,142.15,S2: STATEMENT(green = 20)
+147.5,148.95,Q1: QUESTION(green = 20?)
+148.95,149.25,"ANSWER(Q1, yes)"
+152.57,153.59,S3: STATEMENT(green + red + blue = 40)
+179.32,181.84,S4: STATEMENT(purple = 30)
+192.91,194.92,S5: STATEMENT(green = 20 and purple = 30)
+212.92,213.95,S6: STATEMENT(yellow = 50)
+226.5,228.62,ACCEPT(S6)
+243,246.17,DOUBT(S6)
+395.75,397.25,S7: STATEMENT(yellow = 50)
+422,422.5,Q2: QUESTION(yellow = 50?)
+424.5,425.75,ACCEPT(S7)
+441.41,444.42,It could be forty but can we measure forty
+458.08,458.84,S8: STATEMENT(yellow = 50)
+461.12,462.14,ACCEPT(S8)

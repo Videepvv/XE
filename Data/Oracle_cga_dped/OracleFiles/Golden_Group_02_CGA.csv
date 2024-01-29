@@ -1,0 +1,15 @@
+,Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+0,23.52,26.76,red =10,3,23.52,32.73,2,4,And we can tell you that that red cube right there is ten grams yep and you're going you're going to flip the piece of paper um
+1,88.98,91.58,red = blue,15,88.98,91.58,2,1,"needle goes over the red line that means red block, blue block're probably equal"
+2,104.08,106.23,blue = 10,20,104.08,106.23,2,1,so blue block one is probably ten grams too
+4,124.68,127.02,green = red + blue,28,124.68,127.02,2,2,and that looks like it might be about even
+5,144.92,149.08,green = 20,31,141.27,146.91,2,2,well on the first go through i noticed how it bounced twice and actually get some momentum ok so then
+7,152.31,153.75,red = 10 and blue = 10,34,152.31,153.75,2,1,The first two are ten
+9,158.13,164.17,green = 20,37,158.13,164.17,2,2,so knowing that uh oh sorry the green one was yeah
+12,192.69,195.87,purple = 30,42,192.69,195.87,2,1,So you know twenty plus ten thirty probably
+14,221.4,225.41,purple = 30,47,221.4,225.41,2,2,i guess and there's no increment so five so we could probably just go with thirty on purple block
+17,237.51,241.77,yellow > purple,52,237.51,241.77,2,1,Which is too much so we'll put twenty right
+18,247.95,250.17,green = 20 and purple = 30,53,247.95,250.17,2,2,"so purple block, green block's the twenty and the thirty"
+19,255.36,258.01,yellow < green + purple,54,255.36,258.01,2,2,it's leaning towards one side a bit much
+21,264.3,268.65,yellow > blue + purple,56,264.3,268.65,2,1,Oh not enough so probably
+22,271.92,275.16,yellow = 50,59,271.92,275.16,2,2,Oh yeah the twenty and the thirty so we'll go with the fifty

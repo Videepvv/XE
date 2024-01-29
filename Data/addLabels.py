@@ -39,6 +39,9 @@ for group in range(2,11):
                 for col in oracle_df.columns:
                     cga_df.at[index, col] = oracle_row[col]
 
+    
+    
+    
     #THE FOLLOWING WILL FILTER OUT ONLY THE STATEMENTS 
     # Save the modified CGA dataframe to a new CSV file
     modified_cga_path = f'OracleWithLabels/{group:02d}.csv'

@@ -1,0 +1,61 @@
+,Utterance,Participant,Start,End,Transcript,Action_Objects,Annotation,DPed
+0,0,2,5.97,8.04,or is [it],,[g],or is green block
+1,1,2,8.07,11.55,yeah green is for twenty,,,yeah green is for twenty
+2,3,3,15.45,18.21,i'll just take [these] off and then we can have a little more,"a1-PurpleBlock, a59-RedBlock, a83-RedBlock, a104-PurpleBlock",[rb],"i'll just take red block, blue block off and then we can have a little more"
+3,6,3,22.65,24.63,[it]'s ok,,[-],it's ok
+4,7,1,25.74,29.02,can i add the red one or blue one here maybe [it] might be thirty,,[p],can i add the red one or blue one here maybe purple block might be thirty
+5,9,2,32.52,35.67,so twenty [that]'s thirty,,[p],so twenty purple block's thirty
+6,11,3,42.6,47.75,i mean the fact [that] [it]'s teetering back and forth [it]'s close enough [they]'re just increments of ten grams,,[-] [-] [-] [rbgyp],"i mean the fact that it's teetering back and forth it's close enough red block, blue block, green block, yellow block, purple block're just increments of ten grams"
+7,12,1,45.45,48.72,yeah so the blue one is thirty,,,yeah so the blue one is thirty
+8,13,2,48.78,51.75,blue is thirty big blue is thirty,a105-PurpleBlock,,blue is thirty big blue is thirty
+9,15,3,51.87,54.33,so [it]'s thirty here,"a4-PurpleBlock, a5-GreenBlock, a106-GreenBlock",[p],so purple block's thirty here
+10,16,2,56.55,64.66,did we measure we didn't measure the the yellow one right we might,,,did we measure we didn't measure the the yellow one right we might
+11,17,1,58.58,64.86,did we measure we didn't measure the yellow just keep one,,,did we measure we didn't measure the yellow just keep one
+12,20,2,60.3,73.95,let's try both the green ones now i mean both the big ones yeah,"a7-YellowBlock, a8-RedBlock, a9-RedBlock, a10-PurpleBlock, a11-RedBlock, a62-BlueBlock, a63-PurpleBlock, a64-GreenBlock, a84-BlueBlock, a107-YellowBlock, a108-GreenBlock",,let's try both the green ones now i mean both the big ones yeah
+13,23,1,74.07,76.05,oh [that]'s too left,,[-],oh that's too left
+14,24,1,76.41,78.45,try the red,a65-GreenBlock,,try the red
+15,25,1,78.51,80.61,keep [that] one,"a12-GreenBlock, a109-GreenBlock",[b],keep blue block one
+16,26,2,84.75,88.17,what if we do the green one and the two smaller cubes,,,what if we do the green one and the two smaller cubes
+17,27,2,88.53,91.26,cause [that]'s going to be pushing [that] way,,[-] [-],cause that's going to be pushing that way
+18,28,3,91.53,92.76,gotcha are [they] centered,,[rbpy],"gotcha are red block, blue block, purple block, yellow block centered"
+19,29,1,93.62,95.79,[this] is twenty or thirty,a110-RedBlock,[p],purple block is twenty or thirty
+20,30,3,96.31,99.69,let's just make sure i guess [they] are centered,a13-RedBlock,[py],"let's just make sure i guess purple block, yellow block are centered"
+21,31,2,96.06,96.75,yeah i feel [that] way,,[-],yeah i feel that way
+22,32,3,98.25,99.25,[these] are ten,,[rb],"red block, blue block are ten"
+23,33,2,100.05,106.25,green green is twenty so green is twenty and then we said [this] one is thirty right,"a14-YellowBlock, a111-YellowBlock",[p],green green is twenty so green is twenty and then we said purple block one is thirty right
+24,34,3,100.45,106.77,green is twenty ok green is twenty thirty yeah,"a15-YellowBlock, a16-GreenBlock, a66-GreenBlock, a112-YellowBlock, a113-GreenBlock",,green is twenty ok green is twenty thirty yeah
+25,38,2,119.76,126.39,[that]'s too light and we know [that] green is equal to,"a18-RedBlock, a19-RedBlock, a67-RedBlock, a85-GreenBlock, a97-PurpleBlock",[rp] [-],"red block, purple block's too light and we know that green is equal to"
+26,39,2,126.42,128.4,[this] one and [that] one,,[b] [g],blue block one and green block one
+27,40,2,128.94,131.25,so let's try [this] one too,"a20-RedBlock, a68-BlueBlock",[b],so let's try blue block one too
+28,41,1,132.0,134.91,oh [it]'s more than forty,"a21-BlueBlock, a69-RedBlock",[y],oh yellow block's more than forty
+29,44,2,155.4,157.66,[it]'s definitely not staying in between right,,[-],it's definitely not staying in between right
+30,45,1,157.58,159.33,yeah [it]'s more than forty,,[y],yeah yellow block's more than forty
+31,47,1,162.3,164.88,[this] is thirty [this] is twenty,"a24-PurpleBlock, a71-GreenBlock",[p] [g],purple block is thirty green block is twenty
+32,51,1,166.66,168.09,[this] is more than forty,a25-YellowBlock,[y],yellow block is more than forty
+33,61,3,198.15,203.75,i mean [it] could be just like how [they] were placed on like measured at like i don't know,,[-] [rbg],"i mean it could be just like how red block, blue block, green block were placed on like measured at like i don't know"
+34,62,1,197.1,198.92,yeah [it] is between forty and fifty,,[y],yeah yellow block is between forty and fifty
+35,65,1,206.07,212.19,we tried all of the combinations yeah yeah we can try [this],,[-],we tried all of the combinations yeah yeah we can try this
+36,66,2,209.82,211.22,so we can move one of [these],,[rbp],"so we can move one of red block, blue block, purple block"
+37,68,3,215.97,220.35,we know [it]'s between forty and fifty we can't really,,[y],we know yellow block's between forty and fifty we can't really
+38,72,3,225.06,227.49,directly compare [it] um,,[y],directly compare yellow block um
+39,73,1,227.73,231.03,actually just adding one gram made [it] equal,,[-],actually just adding one gram made it equal
+40,75,2,234.93,237.9,oh yeah cause [it]'s a scale yeah so,,[-],oh yeah cause it's a scale yeah so
+41,77,1,237.93,239.33,so [it]'s forty one,,[y],so yellow block's forty one
+42,80,2,248.55,251.25,where should we put [it] then in forty,,[y],where should we put yellow block then in forty
+43,82,1,253.23,258.84,presume because [they] didn't come to [that] sect right shall we try to measure [it] accurately,a31-GreenBlock,[-] [-] [y],presume because they didn't come to that sect right shall we try to measure yellow block accurately
+44,83,3,259.22,261.87,wait so is [this] just in the wrong place or is [this] the twenty,,[g] [g],wait so is green block just in the wrong place or is green block the twenty
+45,85,3,264.17,271.62,is [this] in the wrong place or is [this] ok so [this] is thirty fifty minus one so,,[g] [g] [p],is green block in the wrong place or is green block ok so purple block is thirty fifty minus one so
+46,86,1,263.01,272.73,shall we try [that] no [it]'s twenty yeah one no not minus one minus nine,,[-] [-],shall we try that no it's twenty yeah one no not minus one minus nine
+47,87,1,272.91,277.75,ok minus one [it] is yeah so [it] is forty nine,,[-] [y],ok minus one it is yeah so yellow block is forty nine
+48,90,3,280.2,284.04,ok so [it]'s probably meant to be just fifty and was placed differently,"a33-BlueBlock, a74-RedBlock, a102-None",[y],ok so yellow block's probably meant to be just fifty and was placed differently
+49,91,3,284.34,286.32,and callibrate [it],,[-],and callibrate it
+50,92,3,287.28,289.59,would you agree with [that],"a34-PurpleBlock, a118-PurpleBlock",[-],would you agree with that
+51,97,3,310.2,312.5,should we double check anything or just assume [that] we got [it],,[-] [-],should we double check anything or just assume that we got it
+52,100,1,316.92,323.37,should we tenths length ok [that]'s fine yeah,"a38-BlueBlock, a122-BlueBlock",[-],should we tenths length ok that's fine yeah
+53,102,3,323.49,326.25,yeah we just got stumped cause [it] was like,"a39-PurpleBlock, a123-PurpleBlock",[-],yeah we just got stumped cause it was like
+54,107,2,340.06,348.0,so yellow is fifty [they] said yellow's cause [it] was forty so yellow's fifty green is twenty,"a42-PurpleBlock, a43-PurpleBlock, a44-GreenBlock, a126-PurpleBlock, a127-PurpleBlock, a128-GreenBlock",[-] [-],so yellow is fifty they said yellow's cause it was forty so yellow's fifty green is twenty
+55,109,2,349.74,352.02,um purple is thirty,,,um purple is thirty
+56,110,2,353.88,358.05,yeah and and um what's the other one blue blue is ten,,,yeah and and um what's the other one blue blue is ten
+57,112,2,365.91,368.13,so red is ten blue is,,,so red is ten blue is
+58,115,2,371.1,373.5,um green is twenty yep and then yellow,,,um green is twenty yep and then yellow
+59,118,3,382.26,384.24,mystery block,,,mystery block
