@@ -1,0 +1,64 @@
+,Utterance,Participant,Start,End,Transcript,Action_Objects,Annotation,DPed
+0,18,3,98.5,101.75,i think so as well or i think [it]'s the other way around uh,,[-],i think so as well or i think it's the other way around uh
+1,21,2,107.31,109.09,[it] seems to be ten,,[b],blue block seems to be ten
+2,23,2,112.42,114.67,is [that] blue or purple [this] is blue i guess,"a3-BlueBlock, a127-BlueBlock",[b] [b],is blue block blue or purple blue block is blue i guess
+3,24,3,114.41,115.17,[this] is blue,,[b],blue block is blue
+4,25,3,116.42,118.12,and [this] was ten,,[r],and red block was ten
+5,27,2,119.25,123.5,and we can now we have twenty so we can try to put one of [them],"a4-BlueBlock, a89-PurpleBlock, a128-PurpleBlock",[gpy],"and we can now we have twenty so we can try to put one of green block, purple block, yellow block"
+6,29,3,125.75,127.5,oh [that]'s the heaviest,"a5-PurpleBlock, a129-PurpleBlock",[p],oh purple block's the heaviest
+7,30,2,128.54,129.82,oh [this] seems to heavy,"a6-YellowBlock, a130-YellowBlock",[y],oh yellow block seems to heavy
+8,33,1,136.92,138.42,think [it] should be,,[g],think green block should be
+9,34,3,139.87,142.15,yeah [they] should be twenty as well,,[rb],"yeah red block, blue block should be twenty as well"
+10,36,3,147.5,149.0,should i put [this] as twenty,,[g],should i put green block as twenty
+11,38,1,149.74,150.25,green,"a9-GreenBlock, a133-GreenBlock",,green
+12,40,1,152.57,153.59,now [it]'s forty,,[rbg],"now red block, blue block, green block's forty"
+13,42,1,155.75,156.25,[this] is,a10-PurpleBlock,[p],purple block is
+14,44,1,159.06,160.01,no no no [that]'s silly,,[-],no no no that's silly
+15,45,2,160.86,161.59,i think [that]'s heavier,a12-Yellowblock,[y],i think yellow block's heavier
+16,46,1,162.17,163.67,[this] one or [this] one,a13-PurpleBlock,[p] [y],purple block one or yellow block one
+17,47,2,163.58,164.92,eh [that] one is lighter yeah,,[p],eh purple block one is lighter yeah
+18,48,3,179.32,181.84,yeah i think [it]'s yeah thirty,,[p],yeah i think purple block's yeah thirty
+19,56,2,207.51,211.07,so [it]'s not exactly aligning but [it] could be,,[-] [y],so it's not exactly aligning but yellow block could be
+20,62,2,227.54,229.59,fifty and the purple is,,,fifty and the purple is
+21,66,3,236.42,244.67,fifty oh purple is thirty yellow,a23-RedBlock,,fifty oh purple is thirty yellow
+22,67,1,239.45,242.67,i'm sorry [it] purple is thirty,,[p],i'm sorry purple block purple is thirty
+23,68,2,243.0,246.17,uh [it]'s not exactly aligning should i,,[-],uh it's not exactly aligning should i
+24,69,2,246.75,251.0,so [this] seem [it]'s little more yeah so should i put something here,,[pg] [-],"so purple block, green block seem it's little more yeah so should i put something here"
+25,71,1,250.0,252.09,do you want to put ten [it] is,"a93-BlueBlock, a140-BlueBlock",[b],do you want to put ten blue block is
+26,72,3,252.81,254.33,we can try [it] yeah,,[-],we can try it yeah
+27,76,2,260.24,262.17,but then [that]'ll even [this] is,a141-None,[-] [r],but then that'll even red block is
+28,77,2,263.17,264.67,[this] is ten ok we know [that] [this] is ten,,[r] [-] [r],red block is ten ok we know that red block is ten
+29,78,3,265.14,273.75,yeah no [it]'s still on the left,,[-],yeah no it's still on the left
+30,79,2,267.67,270.0,yeah but we put both ten so [that] [they] cancel out,,[-] [rb],"yeah but we put both ten so that red block, blue block cancel out"
+31,80,1,269.75,272.25,now [it]'s completely now,,[-],now it's completely now
+32,81,3,276.75,277.5,you mean like [this],"a25-BlueBlock, a142-BlueBlock",[-],you mean like this
+33,82,2,279.04,281.05,so [this] is thirty oops sorry,,[p],so purple block is thirty oops sorry
+34,88,1,300.75,304.0,[it]'s okay or we should just us scale [it] with [this] one,a94-GreenBlock,[-] [-] [-],it's okay or we should just us scale it with this one
+35,90,1,313.42,316.42,[it]'s [it]'s two gram i think,,[-] [-],it's it's two gram i think
+36,91,1,316.67,318.92,[it] has until five but,,[-],it has until five but
+37,93,3,323.17,325.75,yeah [it]'s i don't know,"a28-RedBlock, a95-PurpleBlock",[-],yeah it's i don't know
+38,94,2,323.5,324.56,what does [this] do,,[-],what does this do
+39,95,1,326.75,328.5,[it]'s five gram now,,[-],it's five gram now
+40,96,1,328.84,334.82,[it]'s mmm [it]'s [this] way plus five so you can,"a29-PurpleBlock, a144-PurpleBlock",[-] [-] [-],it's mmm it's this way plus five so you can
+41,98,3,340.08,341.85,oh ok so [it] could be,,[y],oh ok so yellow block could be
+42,104,3,358.33,363.17,so if you move [it] there then we're adding like five grams yeah to [that] one,,[-] [y],so if you move it there then we're adding like five grams yeah to yellow block one
+43,105,1,360.42,362.57,going to [this] one yeah,,[y],going to yellow block one yeah
+44,107,2,363.42,369.92,no so [it]'s divided [it]'s two point five and two point five so [it] can't be other five [that]'s not how [it] works,,[-] [-] [-] [-] [-],no so it's divided it's two point five and two point five so it can't be other five that's not how it works
+45,109,3,372.58,375.42,so is [it] to the right right now like the scale,,[-],so is it to the right right now like the scale
+46,110,3,378.21,381.52,like the center scale is [it] to the right okay so,,[-],like the center scale is it to the right okay so
+47,112,1,381.25,383.56,but [it] doesn't have any,,[-],but it doesn't have any
+48,116,1,394.03,397.25,ah yeah because yeah so [it]'s fifty,,[y],ah yeah because yeah so yellow block's fifty
+49,119,3,403.33,406.84,so if [it]'s an interval of ten [it] should be forty but,,[y] [y],so if yellow block's an interval of ten yellow block should be forty but
+50,120,3,408.33,411.34,[it]'s more balanced with fifty grams,,[-],it's more balanced with fifty grams
+51,123,3,429.0,432.0,otherwise uh like [it] wasn't balanced with,,[-],otherwise uh like it wasn't balanced with
+52,124,1,431.52,432.33,[it]'s slightly off,,[-],it's slightly off
+53,125,2,433.33,435.05,[it]'s slightly to the left [that]'s what [it],,[-] [-] [-],it's slightly to the left that's what it
+54,128,2,441.41,444.42,[it] could be forty but can we measure forty,,[y],yellow block could be forty but can we measure forty
+55,129,3,445.5,448.5,so so green,,,so so green
+56,130,2,445.67,449.42,so [that] is thirty plus ten so [that] is purple,"a33-BlueBlock, a34-RedBlock",[-] [-],so that is thirty plus ten so that is purple
+57,131,2,450.5,452.75,purple plus red i guess,a35-BlueBlock,,purple plus red i guess
+58,133,2,457.21,458.84,no okay i think [it]'s fifty,,[y],no okay i think yellow block's fifty
+59,136,3,469.42,476.25,yeah i think so so red ten yeah,a97-GreenBlock,,yeah i think so so red ten yeah
+60,137,2,470.13,477.0,[that] is correct yellow is fifty purple was thirty blue is ten,,[-],that is correct yellow is fifty purple was thirty blue is ten
+61,141,3,491.91,492.67,green was,a98-Greenblock,,green was
+62,142,3,494.42,496.14,twenty and purple was thirty,"a42-PurpleBlock, a150-PurpleBlock",,twenty and purple was thirty

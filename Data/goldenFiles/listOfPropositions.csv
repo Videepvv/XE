@@ -1,0 +1,1651 @@
+,Propositions
+0,red block equals ten
+1,red block equals twenty
+2,red block equals thirty
+3,red block equals forty
+4,red block equals fifty
+5,red block equals blue block
+6,red block equals green block
+7,red block equals purple block
+8,red block equals yellow block
+9,red block equals blue block plus green block
+10,red block equals blue block plus purple block
+11,red block equals blue block plus yellow block
+12,red block equals green block plus purple block
+13,red block equals green block plus yellow block
+14,red block equals purple block plus yellow block
+15,red block equals blue block plus green block plus purple block
+16,red block equals blue block plus green block plus yellow block
+17,red block equals blue block plus purple block plus yellow block
+18,red block equals green block plus purple block plus yellow block
+19,red block equals blue block plus green block plus purple block plus yellow block
+20,red block does not equal ten
+21,red block does not equal twenty
+22,red block does not equal thirty
+23,red block does not equal forty
+24,red block does not equal fifty
+25,red block does not equal blue block
+26,red block does not equal green block
+27,red block does not equal purple block
+28,red block does not equal yellow block
+29,red block does not equal blue block plus green block
+30,red block does not equal blue block plus purple block
+31,red block does not equal blue block plus yellow block
+32,red block does not equal green block plus purple block
+33,red block does not equal green block plus yellow block
+34,red block does not equal purple block plus yellow block
+35,red block does not equal blue block plus green block plus purple block
+36,red block does not equal blue block plus green block plus yellow block
+37,red block does not equal blue block plus purple block plus yellow block
+38,red block does not equal green block plus purple block plus yellow block
+39,red block does not equal blue block plus green block plus purple block plus yellow block
+40,red block is less than ten
+41,red block is less than twenty
+42,red block is less than thirty
+43,red block is less than forty
+44,red block is less than fifty
+45,red block is less than blue block
+46,red block is less than green block
+47,red block is less than purple block
+48,red block is less than yellow block
+49,red block is less than blue block plus green block
+50,red block is less than blue block plus purple block
+51,red block is less than blue block plus yellow block
+52,red block is less than green block plus purple block
+53,red block is less than green block plus yellow block
+54,red block is less than purple block plus yellow block
+55,red block is less than blue block plus green block plus purple block
+56,red block is less than blue block plus green block plus yellow block
+57,red block is less than blue block plus purple block plus yellow block
+58,red block is less than green block plus purple block plus yellow block
+59,red block is less than blue block plus green block plus purple block plus yellow block
+60,red block is more than ten
+61,red block is more than twenty
+62,red block is more than thirty
+63,red block is more than forty
+64,red block is more than fifty
+65,red block is more than blue block
+66,red block is more than green block
+67,red block is more than purple block
+68,red block is more than yellow block
+69,red block is more than blue block plus green block
+70,red block is more than blue block plus purple block
+71,red block is more than blue block plus yellow block
+72,red block is more than green block plus purple block
+73,red block is more than green block plus yellow block
+74,red block is more than purple block plus yellow block
+75,red block is more than blue block plus green block plus purple block
+76,red block is more than blue block plus green block plus yellow block
+77,red block is more than blue block plus purple block plus yellow block
+78,red block is more than green block plus purple block plus yellow block
+79,red block is more than blue block plus green block plus purple block plus yellow block
+80,blue block equals ten
+81,blue block equals twenty
+82,blue block equals thirty
+83,blue block equals forty
+84,blue block equals fifty
+85,blue block equals red block
+86,blue block equals green block
+87,blue block equals purple block
+88,blue block equals yellow block
+89,blue block equals red block plus green block
+90,blue block equals red block plus purple block
+91,blue block equals red block plus yellow block
+92,blue block equals green block plus purple block
+93,blue block equals green block plus yellow block
+94,blue block equals purple block plus yellow block
+95,blue block equals red block plus green block plus purple block
+96,blue block equals red block plus green block plus yellow block
+97,blue block equals red block plus purple block plus yellow block
+98,blue block equals green block plus purple block plus yellow block
+99,blue block equals red block plus green block plus purple block plus yellow block
+100,blue block does not equal ten
+101,blue block does not equal twenty
+102,blue block does not equal thirty
+103,blue block does not equal forty
+104,blue block does not equal fifty
+105,blue block does not equal red block
+106,blue block does not equal green block
+107,blue block does not equal purple block
+108,blue block does not equal yellow block
+109,blue block does not equal red block plus green block
+110,blue block does not equal red block plus purple block
+111,blue block does not equal red block plus yellow block
+112,blue block does not equal green block plus purple block
+113,blue block does not equal green block plus yellow block
+114,blue block does not equal purple block plus yellow block
+115,blue block does not equal red block plus green block plus purple block
+116,blue block does not equal red block plus green block plus yellow block
+117,blue block does not equal red block plus purple block plus yellow block
+118,blue block does not equal green block plus purple block plus yellow block
+119,blue block does not equal red block plus green block plus purple block plus yellow block
+120,blue block is less than ten
+121,blue block is less than twenty
+122,blue block is less than thirty
+123,blue block is less than forty
+124,blue block is less than fifty
+125,blue block is less than red block
+126,blue block is less than green block
+127,blue block is less than purple block
+128,blue block is less than yellow block
+129,blue block is less than red block plus green block
+130,blue block is less than red block plus purple block
+131,blue block is less than red block plus yellow block
+132,blue block is less than green block plus purple block
+133,blue block is less than green block plus yellow block
+134,blue block is less than purple block plus yellow block
+135,blue block is less than red block plus green block plus purple block
+136,blue block is less than red block plus green block plus yellow block
+137,blue block is less than red block plus purple block plus yellow block
+138,blue block is less than green block plus purple block plus yellow block
+139,blue block is less than red block plus green block plus purple block plus yellow block
+140,blue block is more than ten
+141,blue block is more than twenty
+142,blue block is more than thirty
+143,blue block is more than forty
+144,blue block is more than fifty
+145,blue block is more than red block
+146,blue block is more than green block
+147,blue block is more than purple block
+148,blue block is more than yellow block
+149,blue block is more than red block plus green block
+150,blue block is more than red block plus purple block
+151,blue block is more than red block plus yellow block
+152,blue block is more than green block plus purple block
+153,blue block is more than green block plus yellow block
+154,blue block is more than purple block plus yellow block
+155,blue block is more than red block plus green block plus purple block
+156,blue block is more than red block plus green block plus yellow block
+157,blue block is more than red block plus purple block plus yellow block
+158,blue block is more than green block plus purple block plus yellow block
+159,blue block is more than red block plus green block plus purple block plus yellow block
+160,green block equals ten
+161,green block equals twenty
+162,green block equals thirty
+163,green block equals forty
+164,green block equals fifty
+165,green block equals red block
+166,green block equals blue block
+167,green block equals purple block
+168,green block equals yellow block
+169,green block equals red block plus blue block
+170,green block equals red block plus purple block
+171,green block equals red block plus yellow block
+172,green block equals blue block plus purple block
+173,green block equals blue block plus yellow block
+174,green block equals purple block plus yellow block
+175,green block equals red block plus blue block plus purple block
+176,green block equals red block plus blue block plus yellow block
+177,green block equals red block plus purple block plus yellow block
+178,green block equals blue block plus purple block plus yellow block
+179,green block equals red block plus blue block plus purple block plus yellow block
+180,green block does not equal ten
+181,green block does not equal twenty
+182,green block does not equal thirty
+183,green block does not equal forty
+184,green block does not equal fifty
+185,green block does not equal red block
+186,green block does not equal blue block
+187,green block does not equal purple block
+188,green block does not equal yellow block
+189,green block does not equal red block plus blue block
+190,green block does not equal red block plus purple block
+191,green block does not equal red block plus yellow block
+192,green block does not equal blue block plus purple block
+193,green block does not equal blue block plus yellow block
+194,green block does not equal purple block plus yellow block
+195,green block does not equal red block plus blue block plus purple block
+196,green block does not equal red block plus blue block plus yellow block
+197,green block does not equal red block plus purple block plus yellow block
+198,green block does not equal blue block plus purple block plus yellow block
+199,green block does not equal red block plus blue block plus purple block plus yellow block
+200,green block is less than ten
+201,green block is less than twenty
+202,green block is less than thirty
+203,green block is less than forty
+204,green block is less than fifty
+205,green block is less than red block
+206,green block is less than blue block
+207,green block is less than purple block
+208,green block is less than yellow block
+209,green block is less than red block plus blue block
+210,green block is less than red block plus purple block
+211,green block is less than red block plus yellow block
+212,green block is less than blue block plus purple block
+213,green block is less than blue block plus yellow block
+214,green block is less than purple block plus yellow block
+215,green block is less than red block plus blue block plus purple block
+216,green block is less than red block plus blue block plus yellow block
+217,green block is less than red block plus purple block plus yellow block
+218,green block is less than blue block plus purple block plus yellow block
+219,green block is less than red block plus blue block plus purple block plus yellow block
+220,green block is more than ten
+221,green block is more than twenty
+222,green block is more than thirty
+223,green block is more than forty
+224,green block is more than fifty
+225,green block is more than red block
+226,green block is more than blue block
+227,green block is more than purple block
+228,green block is more than yellow block
+229,green block is more than red block plus blue block
+230,green block is more than red block plus purple block
+231,green block is more than red block plus yellow block
+232,green block is more than blue block plus purple block
+233,green block is more than blue block plus yellow block
+234,green block is more than purple block plus yellow block
+235,green block is more than red block plus blue block plus purple block
+236,green block is more than red block plus blue block plus yellow block
+237,green block is more than red block plus purple block plus yellow block
+238,green block is more than blue block plus purple block plus yellow block
+239,green block is more than red block plus blue block plus purple block plus yellow block
+240,purple block equals ten
+241,purple block equals twenty
+242,purple block equals thirty
+243,purple block equals forty
+244,purple block equals fifty
+245,purple block equals red block
+246,purple block equals blue block
+247,purple block equals green block
+248,purple block equals yellow block
+249,purple block equals red block plus blue block
+250,purple block equals red block plus green block
+251,purple block equals red block plus yellow block
+252,purple block equals blue block plus green block
+253,purple block equals blue block plus yellow block
+254,purple block equals green block plus yellow block
+255,purple block equals red block plus blue block plus green block
+256,purple block equals red block plus blue block plus yellow block
+257,purple block equals red block plus green block plus yellow block
+258,purple block equals blue block plus green block plus yellow block
+259,purple block equals red block plus blue block plus green block plus yellow block
+260,purple block does not equal ten
+261,purple block does not equal twenty
+262,purple block does not equal thirty
+263,purple block does not equal forty
+264,purple block does not equal fifty
+265,purple block does not equal red block
+266,purple block does not equal blue block
+267,purple block does not equal green block
+268,purple block does not equal yellow block
+269,purple block does not equal red block plus blue block
+270,purple block does not equal red block plus green block
+271,purple block does not equal red block plus yellow block
+272,purple block does not equal blue block plus green block
+273,purple block does not equal blue block plus yellow block
+274,purple block does not equal green block plus yellow block
+275,purple block does not equal red block plus blue block plus green block
+276,purple block does not equal red block plus blue block plus yellow block
+277,purple block does not equal red block plus green block plus yellow block
+278,purple block does not equal blue block plus green block plus yellow block
+279,purple block does not equal red block plus blue block plus green block plus yellow block
+280,purple block is less than ten
+281,purple block is less than twenty
+282,purple block is less than thirty
+283,purple block is less than forty
+284,purple block is less than fifty
+285,purple block is less than red block
+286,purple block is less than blue block
+287,purple block is less than green block
+288,purple block is less than yellow block
+289,purple block is less than red block plus blue block
+290,purple block is less than red block plus green block
+291,purple block is less than red block plus yellow block
+292,purple block is less than blue block plus green block
+293,purple block is less than blue block plus yellow block
+294,purple block is less than green block plus yellow block
+295,purple block is less than red block plus blue block plus green block
+296,purple block is less than red block plus blue block plus yellow block
+297,purple block is less than red block plus green block plus yellow block
+298,purple block is less than blue block plus green block plus yellow block
+299,purple block is less than red block plus blue block plus green block plus yellow block
+300,purple block is more than ten
+301,purple block is more than twenty
+302,purple block is more than thirty
+303,purple block is more than forty
+304,purple block is more than fifty
+305,purple block is more than red block
+306,purple block is more than blue block
+307,purple block is more than green block
+308,purple block is more than yellow block
+309,purple block is more than red block plus blue block
+310,purple block is more than red block plus green block
+311,purple block is more than red block plus yellow block
+312,purple block is more than blue block plus green block
+313,purple block is more than blue block plus yellow block
+314,purple block is more than green block plus yellow block
+315,purple block is more than red block plus blue block plus green block
+316,purple block is more than red block plus blue block plus yellow block
+317,purple block is more than red block plus green block plus yellow block
+318,purple block is more than blue block plus green block plus yellow block
+319,purple block is more than red block plus blue block plus green block plus yellow block
+320,yellow block equals ten
+321,yellow block equals twenty
+322,yellow block equals thirty
+323,yellow block equals forty
+324,yellow block equals fifty
+325,yellow block equals red block
+326,yellow block equals blue block
+327,yellow block equals green block
+328,yellow block equals purple block
+329,yellow block equals red block plus blue block
+330,yellow block equals red block plus green block
+331,yellow block equals red block plus purple block
+332,yellow block equals blue block plus green block
+333,yellow block equals blue block plus purple block
+334,yellow block equals green block plus purple block
+335,yellow block equals red block plus blue block plus green block
+336,yellow block equals red block plus blue block plus purple block
+337,yellow block equals red block plus green block plus purple block
+338,yellow block equals blue block plus green block plus purple block
+339,yellow block equals red block plus blue block plus green block plus purple block
+340,yellow block does not equal ten
+341,yellow block does not equal twenty
+342,yellow block does not equal thirty
+343,yellow block does not equal forty
+344,yellow block does not equal fifty
+345,yellow block does not equal red block
+346,yellow block does not equal blue block
+347,yellow block does not equal green block
+348,yellow block does not equal purple block
+349,yellow block does not equal red block plus blue block
+350,yellow block does not equal red block plus green block
+351,yellow block does not equal red block plus purple block
+352,yellow block does not equal blue block plus green block
+353,yellow block does not equal blue block plus purple block
+354,yellow block does not equal green block plus purple block
+355,yellow block does not equal red block plus blue block plus green block
+356,yellow block does not equal red block plus blue block plus purple block
+357,yellow block does not equal red block plus green block plus purple block
+358,yellow block does not equal blue block plus green block plus purple block
+359,yellow block does not equal red block plus blue block plus green block plus purple block
+360,yellow block is less than ten
+361,yellow block is less than twenty
+362,yellow block is less than thirty
+363,yellow block is less than forty
+364,yellow block is less than fifty
+365,yellow block is less than red block
+366,yellow block is less than blue block
+367,yellow block is less than green block
+368,yellow block is less than purple block
+369,yellow block is less than red block plus blue block
+370,yellow block is less than red block plus green block
+371,yellow block is less than red block plus purple block
+372,yellow block is less than blue block plus green block
+373,yellow block is less than blue block plus purple block
+374,yellow block is less than green block plus purple block
+375,yellow block is less than red block plus blue block plus green block
+376,yellow block is less than red block plus blue block plus purple block
+377,yellow block is less than red block plus green block plus purple block
+378,yellow block is less than blue block plus green block plus purple block
+379,yellow block is less than red block plus blue block plus green block plus purple block
+380,yellow block is more than ten
+381,yellow block is more than twenty
+382,yellow block is more than thirty
+383,yellow block is more than forty
+384,yellow block is more than fifty
+385,yellow block is more than red block
+386,yellow block is more than blue block
+387,yellow block is more than green block
+388,yellow block is more than purple block
+389,yellow block is more than red block plus blue block
+390,yellow block is more than red block plus green block
+391,yellow block is more than red block plus purple block
+392,yellow block is more than blue block plus green block
+393,yellow block is more than blue block plus purple block
+394,yellow block is more than green block plus purple block
+395,yellow block is more than red block plus blue block plus green block
+396,yellow block is more than red block plus blue block plus purple block
+397,yellow block is more than red block plus green block plus purple block
+398,yellow block is more than blue block plus green block plus purple block
+399,yellow block is more than red block plus blue block plus green block plus purple block
+400,red block equals ten and blue block equals ten and green block equals ten
+401,red block equals ten and blue block equals ten and green block equals twenty
+402,red block equals ten and blue block equals ten and green block equals thirty
+403,red block equals ten and blue block equals ten and green block equals forty
+404,red block equals ten and blue block equals ten and green block equals fifty
+405,red block equals ten and blue block equals ten and purple block equals ten
+406,red block equals ten and blue block equals ten and purple block equals twenty
+407,red block equals ten and blue block equals ten and purple block equals thirty
+408,red block equals ten and blue block equals ten and purple block equals forty
+409,red block equals ten and blue block equals ten and purple block equals fifty
+410,red block equals ten and blue block equals ten and yellow block equals ten
+411,red block equals ten and blue block equals ten and yellow block equals twenty
+412,red block equals ten and blue block equals ten and yellow block equals thirty
+413,red block equals ten and blue block equals ten and yellow block equals forty
+414,red block equals ten and blue block equals ten and yellow block equals fifty
+415,red block equals ten and blue block equals twenty and green block equals ten
+416,red block equals ten and blue block equals twenty and green block equals twenty
+417,red block equals ten and blue block equals twenty and green block equals thirty
+418,red block equals ten and blue block equals twenty and green block equals forty
+419,red block equals ten and blue block equals twenty and green block equals fifty
+420,red block equals ten and blue block equals twenty and purple block equals ten
+421,red block equals ten and blue block equals twenty and purple block equals twenty
+422,red block equals ten and blue block equals twenty and purple block equals thirty
+423,red block equals ten and blue block equals twenty and purple block equals forty
+424,red block equals ten and blue block equals twenty and purple block equals fifty
+425,red block equals ten and blue block equals twenty and yellow block equals ten
+426,red block equals ten and blue block equals twenty and yellow block equals twenty
+427,red block equals ten and blue block equals twenty and yellow block equals thirty
+428,red block equals ten and blue block equals twenty and yellow block equals forty
+429,red block equals ten and blue block equals twenty and yellow block equals fifty
+430,red block equals ten and blue block equals thirty and green block equals ten
+431,red block equals ten and blue block equals thirty and green block equals twenty
+432,red block equals ten and blue block equals thirty and green block equals thirty
+433,red block equals ten and blue block equals thirty and green block equals forty
+434,red block equals ten and blue block equals thirty and green block equals fifty
+435,red block equals ten and blue block equals thirty and purple block equals ten
+436,red block equals ten and blue block equals thirty and purple block equals twenty
+437,red block equals ten and blue block equals thirty and purple block equals thirty
+438,red block equals ten and blue block equals thirty and purple block equals forty
+439,red block equals ten and blue block equals thirty and purple block equals fifty
+440,red block equals ten and blue block equals thirty and yellow block equals ten
+441,red block equals ten and blue block equals thirty and yellow block equals twenty
+442,red block equals ten and blue block equals thirty and yellow block equals thirty
+443,red block equals ten and blue block equals thirty and yellow block equals forty
+444,red block equals ten and blue block equals thirty and yellow block equals fifty
+445,red block equals ten and blue block equals forty and green block equals ten
+446,red block equals ten and blue block equals forty and green block equals twenty
+447,red block equals ten and blue block equals forty and green block equals thirty
+448,red block equals ten and blue block equals forty and green block equals forty
+449,red block equals ten and blue block equals forty and green block equals fifty
+450,red block equals ten and blue block equals forty and purple block equals ten
+451,red block equals ten and blue block equals forty and purple block equals twenty
+452,red block equals ten and blue block equals forty and purple block equals thirty
+453,red block equals ten and blue block equals forty and purple block equals forty
+454,red block equals ten and blue block equals forty and purple block equals fifty
+455,red block equals ten and blue block equals forty and yellow block equals ten
+456,red block equals ten and blue block equals forty and yellow block equals twenty
+457,red block equals ten and blue block equals forty and yellow block equals thirty
+458,red block equals ten and blue block equals forty and yellow block equals forty
+459,red block equals ten and blue block equals forty and yellow block equals fifty
+460,red block equals ten and blue block equals fifty and green block equals ten
+461,red block equals ten and blue block equals fifty and green block equals twenty
+462,red block equals ten and blue block equals fifty and green block equals thirty
+463,red block equals ten and blue block equals fifty and green block equals forty
+464,red block equals ten and blue block equals fifty and green block equals fifty
+465,red block equals ten and blue block equals fifty and purple block equals ten
+466,red block equals ten and blue block equals fifty and purple block equals twenty
+467,red block equals ten and blue block equals fifty and purple block equals thirty
+468,red block equals ten and blue block equals fifty and purple block equals forty
+469,red block equals ten and blue block equals fifty and purple block equals fifty
+470,red block equals ten and blue block equals fifty and yellow block equals ten
+471,red block equals ten and blue block equals fifty and yellow block equals twenty
+472,red block equals ten and blue block equals fifty and yellow block equals thirty
+473,red block equals ten and blue block equals fifty and yellow block equals forty
+474,red block equals ten and blue block equals fifty and yellow block equals fifty
+475,red block equals ten and green block equals ten and purple block equals ten
+476,red block equals ten and green block equals ten and purple block equals twenty
+477,red block equals ten and green block equals ten and purple block equals thirty
+478,red block equals ten and green block equals ten and purple block equals forty
+479,red block equals ten and green block equals ten and purple block equals fifty
+480,red block equals ten and green block equals ten and yellow block equals ten
+481,red block equals ten and green block equals ten and yellow block equals twenty
+482,red block equals ten and green block equals ten and yellow block equals thirty
+483,red block equals ten and green block equals ten and yellow block equals forty
+484,red block equals ten and green block equals ten and yellow block equals fifty
+485,red block equals ten and green block equals twenty and purple block equals ten
+486,red block equals ten and green block equals twenty and purple block equals twenty
+487,red block equals ten and green block equals twenty and purple block equals thirty
+488,red block equals ten and green block equals twenty and purple block equals forty
+489,red block equals ten and green block equals twenty and purple block equals fifty
+490,red block equals ten and green block equals twenty and yellow block equals ten
+491,red block equals ten and green block equals twenty and yellow block equals twenty
+492,red block equals ten and green block equals twenty and yellow block equals thirty
+493,red block equals ten and green block equals twenty and yellow block equals forty
+494,red block equals ten and green block equals twenty and yellow block equals fifty
+495,red block equals ten and green block equals thirty and purple block equals ten
+496,red block equals ten and green block equals thirty and purple block equals twenty
+497,red block equals ten and green block equals thirty and purple block equals thirty
+498,red block equals ten and green block equals thirty and purple block equals forty
+499,red block equals ten and green block equals thirty and purple block equals fifty
+500,red block equals ten and green block equals thirty and yellow block equals ten
+501,red block equals ten and green block equals thirty and yellow block equals twenty
+502,red block equals ten and green block equals thirty and yellow block equals thirty
+503,red block equals ten and green block equals thirty and yellow block equals forty
+504,red block equals ten and green block equals thirty and yellow block equals fifty
+505,red block equals ten and green block equals forty and purple block equals ten
+506,red block equals ten and green block equals forty and purple block equals twenty
+507,red block equals ten and green block equals forty and purple block equals thirty
+508,red block equals ten and green block equals forty and purple block equals forty
+509,red block equals ten and green block equals forty and purple block equals fifty
+510,red block equals ten and green block equals forty and yellow block equals ten
+511,red block equals ten and green block equals forty and yellow block equals twenty
+512,red block equals ten and green block equals forty and yellow block equals thirty
+513,red block equals ten and green block equals forty and yellow block equals forty
+514,red block equals ten and green block equals forty and yellow block equals fifty
+515,red block equals ten and green block equals fifty and purple block equals ten
+516,red block equals ten and green block equals fifty and purple block equals twenty
+517,red block equals ten and green block equals fifty and purple block equals thirty
+518,red block equals ten and green block equals fifty and purple block equals forty
+519,red block equals ten and green block equals fifty and purple block equals fifty
+520,red block equals ten and green block equals fifty and yellow block equals ten
+521,red block equals ten and green block equals fifty and yellow block equals twenty
+522,red block equals ten and green block equals fifty and yellow block equals thirty
+523,red block equals ten and green block equals fifty and yellow block equals forty
+524,red block equals ten and green block equals fifty and yellow block equals fifty
+525,red block equals ten and purple block equals ten and yellow block equals ten
+526,red block equals ten and purple block equals ten and yellow block equals twenty
+527,red block equals ten and purple block equals ten and yellow block equals thirty
+528,red block equals ten and purple block equals ten and yellow block equals forty
+529,red block equals ten and purple block equals ten and yellow block equals fifty
+530,red block equals ten and purple block equals twenty and yellow block equals ten
+531,red block equals ten and purple block equals twenty and yellow block equals twenty
+532,red block equals ten and purple block equals twenty and yellow block equals thirty
+533,red block equals ten and purple block equals twenty and yellow block equals forty
+534,red block equals ten and purple block equals twenty and yellow block equals fifty
+535,red block equals ten and purple block equals thirty and yellow block equals ten
+536,red block equals ten and purple block equals thirty and yellow block equals twenty
+537,red block equals ten and purple block equals thirty and yellow block equals thirty
+538,red block equals ten and purple block equals thirty and yellow block equals forty
+539,red block equals ten and purple block equals thirty and yellow block equals fifty
+540,red block equals ten and purple block equals forty and yellow block equals ten
+541,red block equals ten and purple block equals forty and yellow block equals twenty
+542,red block equals ten and purple block equals forty and yellow block equals thirty
+543,red block equals ten and purple block equals forty and yellow block equals forty
+544,red block equals ten and purple block equals forty and yellow block equals fifty
+545,red block equals ten and purple block equals fifty and yellow block equals ten
+546,red block equals ten and purple block equals fifty and yellow block equals twenty
+547,red block equals ten and purple block equals fifty and yellow block equals thirty
+548,red block equals ten and purple block equals fifty and yellow block equals forty
+549,red block equals ten and purple block equals fifty and yellow block equals fifty
+550,red block equals twenty and blue block equals ten and green block equals ten
+551,red block equals twenty and blue block equals ten and green block equals twenty
+552,red block equals twenty and blue block equals ten and green block equals thirty
+553,red block equals twenty and blue block equals ten and green block equals forty
+554,red block equals twenty and blue block equals ten and green block equals fifty
+555,red block equals twenty and blue block equals ten and purple block equals ten
+556,red block equals twenty and blue block equals ten and purple block equals twenty
+557,red block equals twenty and blue block equals ten and purple block equals thirty
+558,red block equals twenty and blue block equals ten and purple block equals forty
+559,red block equals twenty and blue block equals ten and purple block equals fifty
+560,red block equals twenty and blue block equals ten and yellow block equals ten
+561,red block equals twenty and blue block equals ten and yellow block equals twenty
+562,red block equals twenty and blue block equals ten and yellow block equals thirty
+563,red block equals twenty and blue block equals ten and yellow block equals forty
+564,red block equals twenty and blue block equals ten and yellow block equals fifty
+565,red block equals twenty and blue block equals twenty and green block equals ten
+566,red block equals twenty and blue block equals twenty and green block equals twenty
+567,red block equals twenty and blue block equals twenty and green block equals thirty
+568,red block equals twenty and blue block equals twenty and green block equals forty
+569,red block equals twenty and blue block equals twenty and green block equals fifty
+570,red block equals twenty and blue block equals twenty and purple block equals ten
+571,red block equals twenty and blue block equals twenty and purple block equals twenty
+572,red block equals twenty and blue block equals twenty and purple block equals thirty
+573,red block equals twenty and blue block equals twenty and purple block equals forty
+574,red block equals twenty and blue block equals twenty and purple block equals fifty
+575,red block equals twenty and blue block equals twenty and yellow block equals ten
+576,red block equals twenty and blue block equals twenty and yellow block equals twenty
+577,red block equals twenty and blue block equals twenty and yellow block equals thirty
+578,red block equals twenty and blue block equals twenty and yellow block equals forty
+579,red block equals twenty and blue block equals twenty and yellow block equals fifty
+580,red block equals twenty and blue block equals thirty and green block equals ten
+581,red block equals twenty and blue block equals thirty and green block equals twenty
+582,red block equals twenty and blue block equals thirty and green block equals thirty
+583,red block equals twenty and blue block equals thirty and green block equals forty
+584,red block equals twenty and blue block equals thirty and green block equals fifty
+585,red block equals twenty and blue block equals thirty and purple block equals ten
+586,red block equals twenty and blue block equals thirty and purple block equals twenty
+587,red block equals twenty and blue block equals thirty and purple block equals thirty
+588,red block equals twenty and blue block equals thirty and purple block equals forty
+589,red block equals twenty and blue block equals thirty and purple block equals fifty
+590,red block equals twenty and blue block equals thirty and yellow block equals ten
+591,red block equals twenty and blue block equals thirty and yellow block equals twenty
+592,red block equals twenty and blue block equals thirty and yellow block equals thirty
+593,red block equals twenty and blue block equals thirty and yellow block equals forty
+594,red block equals twenty and blue block equals thirty and yellow block equals fifty
+595,red block equals twenty and blue block equals forty and green block equals ten
+596,red block equals twenty and blue block equals forty and green block equals twenty
+597,red block equals twenty and blue block equals forty and green block equals thirty
+598,red block equals twenty and blue block equals forty and green block equals forty
+599,red block equals twenty and blue block equals forty and green block equals fifty
+600,red block equals twenty and blue block equals forty and purple block equals ten
+601,red block equals twenty and blue block equals forty and purple block equals twenty
+602,red block equals twenty and blue block equals forty and purple block equals thirty
+603,red block equals twenty and blue block equals forty and purple block equals forty
+604,red block equals twenty and blue block equals forty and purple block equals fifty
+605,red block equals twenty and blue block equals forty and yellow block equals ten
+606,red block equals twenty and blue block equals forty and yellow block equals twenty
+607,red block equals twenty and blue block equals forty and yellow block equals thirty
+608,red block equals twenty and blue block equals forty and yellow block equals forty
+609,red block equals twenty and blue block equals forty and yellow block equals fifty
+610,red block equals twenty and blue block equals fifty and green block equals ten
+611,red block equals twenty and blue block equals fifty and green block equals twenty
+612,red block equals twenty and blue block equals fifty and green block equals thirty
+613,red block equals twenty and blue block equals fifty and green block equals forty
+614,red block equals twenty and blue block equals fifty and green block equals fifty
+615,red block equals twenty and blue block equals fifty and purple block equals ten
+616,red block equals twenty and blue block equals fifty and purple block equals twenty
+617,red block equals twenty and blue block equals fifty and purple block equals thirty
+618,red block equals twenty and blue block equals fifty and purple block equals forty
+619,red block equals twenty and blue block equals fifty and purple block equals fifty
+620,red block equals twenty and blue block equals fifty and yellow block equals ten
+621,red block equals twenty and blue block equals fifty and yellow block equals twenty
+622,red block equals twenty and blue block equals fifty and yellow block equals thirty
+623,red block equals twenty and blue block equals fifty and yellow block equals forty
+624,red block equals twenty and blue block equals fifty and yellow block equals fifty
+625,red block equals twenty and green block equals ten and purple block equals ten
+626,red block equals twenty and green block equals ten and purple block equals twenty
+627,red block equals twenty and green block equals ten and purple block equals thirty
+628,red block equals twenty and green block equals ten and purple block equals forty
+629,red block equals twenty and green block equals ten and purple block equals fifty
+630,red block equals twenty and green block equals ten and yellow block equals ten
+631,red block equals twenty and green block equals ten and yellow block equals twenty
+632,red block equals twenty and green block equals ten and yellow block equals thirty
+633,red block equals twenty and green block equals ten and yellow block equals forty
+634,red block equals twenty and green block equals ten and yellow block equals fifty
+635,red block equals twenty and green block equals twenty and purple block equals ten
+636,red block equals twenty and green block equals twenty and purple block equals twenty
+637,red block equals twenty and green block equals twenty and purple block equals thirty
+638,red block equals twenty and green block equals twenty and purple block equals forty
+639,red block equals twenty and green block equals twenty and purple block equals fifty
+640,red block equals twenty and green block equals twenty and yellow block equals ten
+641,red block equals twenty and green block equals twenty and yellow block equals twenty
+642,red block equals twenty and green block equals twenty and yellow block equals thirty
+643,red block equals twenty and green block equals twenty and yellow block equals forty
+644,red block equals twenty and green block equals twenty and yellow block equals fifty
+645,red block equals twenty and green block equals thirty and purple block equals ten
+646,red block equals twenty and green block equals thirty and purple block equals twenty
+647,red block equals twenty and green block equals thirty and purple block equals thirty
+648,red block equals twenty and green block equals thirty and purple block equals forty
+649,red block equals twenty and green block equals thirty and purple block equals fifty
+650,red block equals twenty and green block equals thirty and yellow block equals ten
+651,red block equals twenty and green block equals thirty and yellow block equals twenty
+652,red block equals twenty and green block equals thirty and yellow block equals thirty
+653,red block equals twenty and green block equals thirty and yellow block equals forty
+654,red block equals twenty and green block equals thirty and yellow block equals fifty
+655,red block equals twenty and green block equals forty and purple block equals ten
+656,red block equals twenty and green block equals forty and purple block equals twenty
+657,red block equals twenty and green block equals forty and purple block equals thirty
+658,red block equals twenty and green block equals forty and purple block equals forty
+659,red block equals twenty and green block equals forty and purple block equals fifty
+660,red block equals twenty and green block equals forty and yellow block equals ten
+661,red block equals twenty and green block equals forty and yellow block equals twenty
+662,red block equals twenty and green block equals forty and yellow block equals thirty
+663,red block equals twenty and green block equals forty and yellow block equals forty
+664,red block equals twenty and green block equals forty and yellow block equals fifty
+665,red block equals twenty and green block equals fifty and purple block equals ten
+666,red block equals twenty and green block equals fifty and purple block equals twenty
+667,red block equals twenty and green block equals fifty and purple block equals thirty
+668,red block equals twenty and green block equals fifty and purple block equals forty
+669,red block equals twenty and green block equals fifty and purple block equals fifty
+670,red block equals twenty and green block equals fifty and yellow block equals ten
+671,red block equals twenty and green block equals fifty and yellow block equals twenty
+672,red block equals twenty and green block equals fifty and yellow block equals thirty
+673,red block equals twenty and green block equals fifty and yellow block equals forty
+674,red block equals twenty and green block equals fifty and yellow block equals fifty
+675,red block equals twenty and purple block equals ten and yellow block equals ten
+676,red block equals twenty and purple block equals ten and yellow block equals twenty
+677,red block equals twenty and purple block equals ten and yellow block equals thirty
+678,red block equals twenty and purple block equals ten and yellow block equals forty
+679,red block equals twenty and purple block equals ten and yellow block equals fifty
+680,red block equals twenty and purple block equals twenty and yellow block equals ten
+681,red block equals twenty and purple block equals twenty and yellow block equals twenty
+682,red block equals twenty and purple block equals twenty and yellow block equals thirty
+683,red block equals twenty and purple block equals twenty and yellow block equals forty
+684,red block equals twenty and purple block equals twenty and yellow block equals fifty
+685,red block equals twenty and purple block equals thirty and yellow block equals ten
+686,red block equals twenty and purple block equals thirty and yellow block equals twenty
+687,red block equals twenty and purple block equals thirty and yellow block equals thirty
+688,red block equals twenty and purple block equals thirty and yellow block equals forty
+689,red block equals twenty and purple block equals thirty and yellow block equals fifty
+690,red block equals twenty and purple block equals forty and yellow block equals ten
+691,red block equals twenty and purple block equals forty and yellow block equals twenty
+692,red block equals twenty and purple block equals forty and yellow block equals thirty
+693,red block equals twenty and purple block equals forty and yellow block equals forty
+694,red block equals twenty and purple block equals forty and yellow block equals fifty
+695,red block equals twenty and purple block equals fifty and yellow block equals ten
+696,red block equals twenty and purple block equals fifty and yellow block equals twenty
+697,red block equals twenty and purple block equals fifty and yellow block equals thirty
+698,red block equals twenty and purple block equals fifty and yellow block equals forty
+699,red block equals twenty and purple block equals fifty and yellow block equals fifty
+700,red block equals thirty and blue block equals ten and green block equals ten
+701,red block equals thirty and blue block equals ten and green block equals twenty
+702,red block equals thirty and blue block equals ten and green block equals thirty
+703,red block equals thirty and blue block equals ten and green block equals forty
+704,red block equals thirty and blue block equals ten and green block equals fifty
+705,red block equals thirty and blue block equals ten and purple block equals ten
+706,red block equals thirty and blue block equals ten and purple block equals twenty
+707,red block equals thirty and blue block equals ten and purple block equals thirty
+708,red block equals thirty and blue block equals ten and purple block equals forty
+709,red block equals thirty and blue block equals ten and purple block equals fifty
+710,red block equals thirty and blue block equals ten and yellow block equals ten
+711,red block equals thirty and blue block equals ten and yellow block equals twenty
+712,red block equals thirty and blue block equals ten and yellow block equals thirty
+713,red block equals thirty and blue block equals ten and yellow block equals forty
+714,red block equals thirty and blue block equals ten and yellow block equals fifty
+715,red block equals thirty and blue block equals twenty and green block equals ten
+716,red block equals thirty and blue block equals twenty and green block equals twenty
+717,red block equals thirty and blue block equals twenty and green block equals thirty
+718,red block equals thirty and blue block equals twenty and green block equals forty
+719,red block equals thirty and blue block equals twenty and green block equals fifty
+720,red block equals thirty and blue block equals twenty and purple block equals ten
+721,red block equals thirty and blue block equals twenty and purple block equals twenty
+722,red block equals thirty and blue block equals twenty and purple block equals thirty
+723,red block equals thirty and blue block equals twenty and purple block equals forty
+724,red block equals thirty and blue block equals twenty and purple block equals fifty
+725,red block equals thirty and blue block equals twenty and yellow block equals ten
+726,red block equals thirty and blue block equals twenty and yellow block equals twenty
+727,red block equals thirty and blue block equals twenty and yellow block equals thirty
+728,red block equals thirty and blue block equals twenty and yellow block equals forty
+729,red block equals thirty and blue block equals twenty and yellow block equals fifty
+730,red block equals thirty and blue block equals thirty and green block equals ten
+731,red block equals thirty and blue block equals thirty and green block equals twenty
+732,red block equals thirty and blue block equals thirty and green block equals thirty
+733,red block equals thirty and blue block equals thirty and green block equals forty
+734,red block equals thirty and blue block equals thirty and green block equals fifty
+735,red block equals thirty and blue block equals thirty and purple block equals ten
+736,red block equals thirty and blue block equals thirty and purple block equals twenty
+737,red block equals thirty and blue block equals thirty and purple block equals thirty
+738,red block equals thirty and blue block equals thirty and purple block equals forty
+739,red block equals thirty and blue block equals thirty and purple block equals fifty
+740,red block equals thirty and blue block equals thirty and yellow block equals ten
+741,red block equals thirty and blue block equals thirty and yellow block equals twenty
+742,red block equals thirty and blue block equals thirty and yellow block equals thirty
+743,red block equals thirty and blue block equals thirty and yellow block equals forty
+744,red block equals thirty and blue block equals thirty and yellow block equals fifty
+745,red block equals thirty and blue block equals forty and green block equals ten
+746,red block equals thirty and blue block equals forty and green block equals twenty
+747,red block equals thirty and blue block equals forty and green block equals thirty
+748,red block equals thirty and blue block equals forty and green block equals forty
+749,red block equals thirty and blue block equals forty and green block equals fifty
+750,red block equals thirty and blue block equals forty and purple block equals ten
+751,red block equals thirty and blue block equals forty and purple block equals twenty
+752,red block equals thirty and blue block equals forty and purple block equals thirty
+753,red block equals thirty and blue block equals forty and purple block equals forty
+754,red block equals thirty and blue block equals forty and purple block equals fifty
+755,red block equals thirty and blue block equals forty and yellow block equals ten
+756,red block equals thirty and blue block equals forty and yellow block equals twenty
+757,red block equals thirty and blue block equals forty and yellow block equals thirty
+758,red block equals thirty and blue block equals forty and yellow block equals forty
+759,red block equals thirty and blue block equals forty and yellow block equals fifty
+760,red block equals thirty and blue block equals fifty and green block equals ten
+761,red block equals thirty and blue block equals fifty and green block equals twenty
+762,red block equals thirty and blue block equals fifty and green block equals thirty
+763,red block equals thirty and blue block equals fifty and green block equals forty
+764,red block equals thirty and blue block equals fifty and green block equals fifty
+765,red block equals thirty and blue block equals fifty and purple block equals ten
+766,red block equals thirty and blue block equals fifty and purple block equals twenty
+767,red block equals thirty and blue block equals fifty and purple block equals thirty
+768,red block equals thirty and blue block equals fifty and purple block equals forty
+769,red block equals thirty and blue block equals fifty and purple block equals fifty
+770,red block equals thirty and blue block equals fifty and yellow block equals ten
+771,red block equals thirty and blue block equals fifty and yellow block equals twenty
+772,red block equals thirty and blue block equals fifty and yellow block equals thirty
+773,red block equals thirty and blue block equals fifty and yellow block equals forty
+774,red block equals thirty and blue block equals fifty and yellow block equals fifty
+775,red block equals thirty and green block equals ten and purple block equals ten
+776,red block equals thirty and green block equals ten and purple block equals twenty
+777,red block equals thirty and green block equals ten and purple block equals thirty
+778,red block equals thirty and green block equals ten and purple block equals forty
+779,red block equals thirty and green block equals ten and purple block equals fifty
+780,red block equals thirty and green block equals ten and yellow block equals ten
+781,red block equals thirty and green block equals ten and yellow block equals twenty
+782,red block equals thirty and green block equals ten and yellow block equals thirty
+783,red block equals thirty and green block equals ten and yellow block equals forty
+784,red block equals thirty and green block equals ten and yellow block equals fifty
+785,red block equals thirty and green block equals twenty and purple block equals ten
+786,red block equals thirty and green block equals twenty and purple block equals twenty
+787,red block equals thirty and green block equals twenty and purple block equals thirty
+788,red block equals thirty and green block equals twenty and purple block equals forty
+789,red block equals thirty and green block equals twenty and purple block equals fifty
+790,red block equals thirty and green block equals twenty and yellow block equals ten
+791,red block equals thirty and green block equals twenty and yellow block equals twenty
+792,red block equals thirty and green block equals twenty and yellow block equals thirty
+793,red block equals thirty and green block equals twenty and yellow block equals forty
+794,red block equals thirty and green block equals twenty and yellow block equals fifty
+795,red block equals thirty and green block equals thirty and purple block equals ten
+796,red block equals thirty and green block equals thirty and purple block equals twenty
+797,red block equals thirty and green block equals thirty and purple block equals thirty
+798,red block equals thirty and green block equals thirty and purple block equals forty
+799,red block equals thirty and green block equals thirty and purple block equals fifty
+800,red block equals thirty and green block equals thirty and yellow block equals ten
+801,red block equals thirty and green block equals thirty and yellow block equals twenty
+802,red block equals thirty and green block equals thirty and yellow block equals thirty
+803,red block equals thirty and green block equals thirty and yellow block equals forty
+804,red block equals thirty and green block equals thirty and yellow block equals fifty
+805,red block equals thirty and green block equals forty and purple block equals ten
+806,red block equals thirty and green block equals forty and purple block equals twenty
+807,red block equals thirty and green block equals forty and purple block equals thirty
+808,red block equals thirty and green block equals forty and purple block equals forty
+809,red block equals thirty and green block equals forty and purple block equals fifty
+810,red block equals thirty and green block equals forty and yellow block equals ten
+811,red block equals thirty and green block equals forty and yellow block equals twenty
+812,red block equals thirty and green block equals forty and yellow block equals thirty
+813,red block equals thirty and green block equals forty and yellow block equals forty
+814,red block equals thirty and green block equals forty and yellow block equals fifty
+815,red block equals thirty and green block equals fifty and purple block equals ten
+816,red block equals thirty and green block equals fifty and purple block equals twenty
+817,red block equals thirty and green block equals fifty and purple block equals thirty
+818,red block equals thirty and green block equals fifty and purple block equals forty
+819,red block equals thirty and green block equals fifty and purple block equals fifty
+820,red block equals thirty and green block equals fifty and yellow block equals ten
+821,red block equals thirty and green block equals fifty and yellow block equals twenty
+822,red block equals thirty and green block equals fifty and yellow block equals thirty
+823,red block equals thirty and green block equals fifty and yellow block equals forty
+824,red block equals thirty and green block equals fifty and yellow block equals fifty
+825,red block equals thirty and purple block equals ten and yellow block equals ten
+826,red block equals thirty and purple block equals ten and yellow block equals twenty
+827,red block equals thirty and purple block equals ten and yellow block equals thirty
+828,red block equals thirty and purple block equals ten and yellow block equals forty
+829,red block equals thirty and purple block equals ten and yellow block equals fifty
+830,red block equals thirty and purple block equals twenty and yellow block equals ten
+831,red block equals thirty and purple block equals twenty and yellow block equals twenty
+832,red block equals thirty and purple block equals twenty and yellow block equals thirty
+833,red block equals thirty and purple block equals twenty and yellow block equals forty
+834,red block equals thirty and purple block equals twenty and yellow block equals fifty
+835,red block equals thirty and purple block equals thirty and yellow block equals ten
+836,red block equals thirty and purple block equals thirty and yellow block equals twenty
+837,red block equals thirty and purple block equals thirty and yellow block equals thirty
+838,red block equals thirty and purple block equals thirty and yellow block equals forty
+839,red block equals thirty and purple block equals thirty and yellow block equals fifty
+840,red block equals thirty and purple block equals forty and yellow block equals ten
+841,red block equals thirty and purple block equals forty and yellow block equals twenty
+842,red block equals thirty and purple block equals forty and yellow block equals thirty
+843,red block equals thirty and purple block equals forty and yellow block equals forty
+844,red block equals thirty and purple block equals forty and yellow block equals fifty
+845,red block equals thirty and purple block equals fifty and yellow block equals ten
+846,red block equals thirty and purple block equals fifty and yellow block equals twenty
+847,red block equals thirty and purple block equals fifty and yellow block equals thirty
+848,red block equals thirty and purple block equals fifty and yellow block equals forty
+849,red block equals thirty and purple block equals fifty and yellow block equals fifty
+850,red block equals forty and blue block equals ten and green block equals ten
+851,red block equals forty and blue block equals ten and green block equals twenty
+852,red block equals forty and blue block equals ten and green block equals thirty
+853,red block equals forty and blue block equals ten and green block equals forty
+854,red block equals forty and blue block equals ten and green block equals fifty
+855,red block equals forty and blue block equals ten and purple block equals ten
+856,red block equals forty and blue block equals ten and purple block equals twenty
+857,red block equals forty and blue block equals ten and purple block equals thirty
+858,red block equals forty and blue block equals ten and purple block equals forty
+859,red block equals forty and blue block equals ten and purple block equals fifty
+860,red block equals forty and blue block equals ten and yellow block equals ten
+861,red block equals forty and blue block equals ten and yellow block equals twenty
+862,red block equals forty and blue block equals ten and yellow block equals thirty
+863,red block equals forty and blue block equals ten and yellow block equals forty
+864,red block equals forty and blue block equals ten and yellow block equals fifty
+865,red block equals forty and blue block equals twenty and green block equals ten
+866,red block equals forty and blue block equals twenty and green block equals twenty
+867,red block equals forty and blue block equals twenty and green block equals thirty
+868,red block equals forty and blue block equals twenty and green block equals forty
+869,red block equals forty and blue block equals twenty and green block equals fifty
+870,red block equals forty and blue block equals twenty and purple block equals ten
+871,red block equals forty and blue block equals twenty and purple block equals twenty
+872,red block equals forty and blue block equals twenty and purple block equals thirty
+873,red block equals forty and blue block equals twenty and purple block equals forty
+874,red block equals forty and blue block equals twenty and purple block equals fifty
+875,red block equals forty and blue block equals twenty and yellow block equals ten
+876,red block equals forty and blue block equals twenty and yellow block equals twenty
+877,red block equals forty and blue block equals twenty and yellow block equals thirty
+878,red block equals forty and blue block equals twenty and yellow block equals forty
+879,red block equals forty and blue block equals twenty and yellow block equals fifty
+880,red block equals forty and blue block equals thirty and green block equals ten
+881,red block equals forty and blue block equals thirty and green block equals twenty
+882,red block equals forty and blue block equals thirty and green block equals thirty
+883,red block equals forty and blue block equals thirty and green block equals forty
+884,red block equals forty and blue block equals thirty and green block equals fifty
+885,red block equals forty and blue block equals thirty and purple block equals ten
+886,red block equals forty and blue block equals thirty and purple block equals twenty
+887,red block equals forty and blue block equals thirty and purple block equals thirty
+888,red block equals forty and blue block equals thirty and purple block equals forty
+889,red block equals forty and blue block equals thirty and purple block equals fifty
+890,red block equals forty and blue block equals thirty and yellow block equals ten
+891,red block equals forty and blue block equals thirty and yellow block equals twenty
+892,red block equals forty and blue block equals thirty and yellow block equals thirty
+893,red block equals forty and blue block equals thirty and yellow block equals forty
+894,red block equals forty and blue block equals thirty and yellow block equals fifty
+895,red block equals forty and blue block equals forty and green block equals ten
+896,red block equals forty and blue block equals forty and green block equals twenty
+897,red block equals forty and blue block equals forty and green block equals thirty
+898,red block equals forty and blue block equals forty and green block equals forty
+899,red block equals forty and blue block equals forty and green block equals fifty
+900,red block equals forty and blue block equals forty and purple block equals ten
+901,red block equals forty and blue block equals forty and purple block equals twenty
+902,red block equals forty and blue block equals forty and purple block equals thirty
+903,red block equals forty and blue block equals forty and purple block equals forty
+904,red block equals forty and blue block equals forty and purple block equals fifty
+905,red block equals forty and blue block equals forty and yellow block equals ten
+906,red block equals forty and blue block equals forty and yellow block equals twenty
+907,red block equals forty and blue block equals forty and yellow block equals thirty
+908,red block equals forty and blue block equals forty and yellow block equals forty
+909,red block equals forty and blue block equals forty and yellow block equals fifty
+910,red block equals forty and blue block equals fifty and green block equals ten
+911,red block equals forty and blue block equals fifty and green block equals twenty
+912,red block equals forty and blue block equals fifty and green block equals thirty
+913,red block equals forty and blue block equals fifty and green block equals forty
+914,red block equals forty and blue block equals fifty and green block equals fifty
+915,red block equals forty and blue block equals fifty and purple block equals ten
+916,red block equals forty and blue block equals fifty and purple block equals twenty
+917,red block equals forty and blue block equals fifty and purple block equals thirty
+918,red block equals forty and blue block equals fifty and purple block equals forty
+919,red block equals forty and blue block equals fifty and purple block equals fifty
+920,red block equals forty and blue block equals fifty and yellow block equals ten
+921,red block equals forty and blue block equals fifty and yellow block equals twenty
+922,red block equals forty and blue block equals fifty and yellow block equals thirty
+923,red block equals forty and blue block equals fifty and yellow block equals forty
+924,red block equals forty and blue block equals fifty and yellow block equals fifty
+925,red block equals forty and green block equals ten and purple block equals ten
+926,red block equals forty and green block equals ten and purple block equals twenty
+927,red block equals forty and green block equals ten and purple block equals thirty
+928,red block equals forty and green block equals ten and purple block equals forty
+929,red block equals forty and green block equals ten and purple block equals fifty
+930,red block equals forty and green block equals ten and yellow block equals ten
+931,red block equals forty and green block equals ten and yellow block equals twenty
+932,red block equals forty and green block equals ten and yellow block equals thirty
+933,red block equals forty and green block equals ten and yellow block equals forty
+934,red block equals forty and green block equals ten and yellow block equals fifty
+935,red block equals forty and green block equals twenty and purple block equals ten
+936,red block equals forty and green block equals twenty and purple block equals twenty
+937,red block equals forty and green block equals twenty and purple block equals thirty
+938,red block equals forty and green block equals twenty and purple block equals forty
+939,red block equals forty and green block equals twenty and purple block equals fifty
+940,red block equals forty and green block equals twenty and yellow block equals ten
+941,red block equals forty and green block equals twenty and yellow block equals twenty
+942,red block equals forty and green block equals twenty and yellow block equals thirty
+943,red block equals forty and green block equals twenty and yellow block equals forty
+944,red block equals forty and green block equals twenty and yellow block equals fifty
+945,red block equals forty and green block equals thirty and purple block equals ten
+946,red block equals forty and green block equals thirty and purple block equals twenty
+947,red block equals forty and green block equals thirty and purple block equals thirty
+948,red block equals forty and green block equals thirty and purple block equals forty
+949,red block equals forty and green block equals thirty and purple block equals fifty
+950,red block equals forty and green block equals thirty and yellow block equals ten
+951,red block equals forty and green block equals thirty and yellow block equals twenty
+952,red block equals forty and green block equals thirty and yellow block equals thirty
+953,red block equals forty and green block equals thirty and yellow block equals forty
+954,red block equals forty and green block equals thirty and yellow block equals fifty
+955,red block equals forty and green block equals forty and purple block equals ten
+956,red block equals forty and green block equals forty and purple block equals twenty
+957,red block equals forty and green block equals forty and purple block equals thirty
+958,red block equals forty and green block equals forty and purple block equals forty
+959,red block equals forty and green block equals forty and purple block equals fifty
+960,red block equals forty and green block equals forty and yellow block equals ten
+961,red block equals forty and green block equals forty and yellow block equals twenty
+962,red block equals forty and green block equals forty and yellow block equals thirty
+963,red block equals forty and green block equals forty and yellow block equals forty
+964,red block equals forty and green block equals forty and yellow block equals fifty
+965,red block equals forty and green block equals fifty and purple block equals ten
+966,red block equals forty and green block equals fifty and purple block equals twenty
+967,red block equals forty and green block equals fifty and purple block equals thirty
+968,red block equals forty and green block equals fifty and purple block equals forty
+969,red block equals forty and green block equals fifty and purple block equals fifty
+970,red block equals forty and green block equals fifty and yellow block equals ten
+971,red block equals forty and green block equals fifty and yellow block equals twenty
+972,red block equals forty and green block equals fifty and yellow block equals thirty
+973,red block equals forty and green block equals fifty and yellow block equals forty
+974,red block equals forty and green block equals fifty and yellow block equals fifty
+975,red block equals forty and purple block equals ten and yellow block equals ten
+976,red block equals forty and purple block equals ten and yellow block equals twenty
+977,red block equals forty and purple block equals ten and yellow block equals thirty
+978,red block equals forty and purple block equals ten and yellow block equals forty
+979,red block equals forty and purple block equals ten and yellow block equals fifty
+980,red block equals forty and purple block equals twenty and yellow block equals ten
+981,red block equals forty and purple block equals twenty and yellow block equals twenty
+982,red block equals forty and purple block equals twenty and yellow block equals thirty
+983,red block equals forty and purple block equals twenty and yellow block equals forty
+984,red block equals forty and purple block equals twenty and yellow block equals fifty
+985,red block equals forty and purple block equals thirty and yellow block equals ten
+986,red block equals forty and purple block equals thirty and yellow block equals twenty
+987,red block equals forty and purple block equals thirty and yellow block equals thirty
+988,red block equals forty and purple block equals thirty and yellow block equals forty
+989,red block equals forty and purple block equals thirty and yellow block equals fifty
+990,red block equals forty and purple block equals forty and yellow block equals ten
+991,red block equals forty and purple block equals forty and yellow block equals twenty
+992,red block equals forty and purple block equals forty and yellow block equals thirty
+993,red block equals forty and purple block equals forty and yellow block equals forty
+994,red block equals forty and purple block equals forty and yellow block equals fifty
+995,red block equals forty and purple block equals fifty and yellow block equals ten
+996,red block equals forty and purple block equals fifty and yellow block equals twenty
+997,red block equals forty and purple block equals fifty and yellow block equals thirty
+998,red block equals forty and purple block equals fifty and yellow block equals forty
+999,red block equals forty and purple block equals fifty and yellow block equals fifty
+1000,red block equals fifty and blue block equals ten and green block equals ten
+1001,red block equals fifty and blue block equals ten and green block equals twenty
+1002,red block equals fifty and blue block equals ten and green block equals thirty
+1003,red block equals fifty and blue block equals ten and green block equals forty
+1004,red block equals fifty and blue block equals ten and green block equals fifty
+1005,red block equals fifty and blue block equals ten and purple block equals ten
+1006,red block equals fifty and blue block equals ten and purple block equals twenty
+1007,red block equals fifty and blue block equals ten and purple block equals thirty
+1008,red block equals fifty and blue block equals ten and purple block equals forty
+1009,red block equals fifty and blue block equals ten and purple block equals fifty
+1010,red block equals fifty and blue block equals ten and yellow block equals ten
+1011,red block equals fifty and blue block equals ten and yellow block equals twenty
+1012,red block equals fifty and blue block equals ten and yellow block equals thirty
+1013,red block equals fifty and blue block equals ten and yellow block equals forty
+1014,red block equals fifty and blue block equals ten and yellow block equals fifty
+1015,red block equals fifty and blue block equals twenty and green block equals ten
+1016,red block equals fifty and blue block equals twenty and green block equals twenty
+1017,red block equals fifty and blue block equals twenty and green block equals thirty
+1018,red block equals fifty and blue block equals twenty and green block equals forty
+1019,red block equals fifty and blue block equals twenty and green block equals fifty
+1020,red block equals fifty and blue block equals twenty and purple block equals ten
+1021,red block equals fifty and blue block equals twenty and purple block equals twenty
+1022,red block equals fifty and blue block equals twenty and purple block equals thirty
+1023,red block equals fifty and blue block equals twenty and purple block equals forty
+1024,red block equals fifty and blue block equals twenty and purple block equals fifty
+1025,red block equals fifty and blue block equals twenty and yellow block equals ten
+1026,red block equals fifty and blue block equals twenty and yellow block equals twenty
+1027,red block equals fifty and blue block equals twenty and yellow block equals thirty
+1028,red block equals fifty and blue block equals twenty and yellow block equals forty
+1029,red block equals fifty and blue block equals twenty and yellow block equals fifty
+1030,red block equals fifty and blue block equals thirty and green block equals ten
+1031,red block equals fifty and blue block equals thirty and green block equals twenty
+1032,red block equals fifty and blue block equals thirty and green block equals thirty
+1033,red block equals fifty and blue block equals thirty and green block equals forty
+1034,red block equals fifty and blue block equals thirty and green block equals fifty
+1035,red block equals fifty and blue block equals thirty and purple block equals ten
+1036,red block equals fifty and blue block equals thirty and purple block equals twenty
+1037,red block equals fifty and blue block equals thirty and purple block equals thirty
+1038,red block equals fifty and blue block equals thirty and purple block equals forty
+1039,red block equals fifty and blue block equals thirty and purple block equals fifty
+1040,red block equals fifty and blue block equals thirty and yellow block equals ten
+1041,red block equals fifty and blue block equals thirty and yellow block equals twenty
+1042,red block equals fifty and blue block equals thirty and yellow block equals thirty
+1043,red block equals fifty and blue block equals thirty and yellow block equals forty
+1044,red block equals fifty and blue block equals thirty and yellow block equals fifty
+1045,red block equals fifty and blue block equals forty and green block equals ten
+1046,red block equals fifty and blue block equals forty and green block equals twenty
+1047,red block equals fifty and blue block equals forty and green block equals thirty
+1048,red block equals fifty and blue block equals forty and green block equals forty
+1049,red block equals fifty and blue block equals forty and green block equals fifty
+1050,red block equals fifty and blue block equals forty and purple block equals ten
+1051,red block equals fifty and blue block equals forty and purple block equals twenty
+1052,red block equals fifty and blue block equals forty and purple block equals thirty
+1053,red block equals fifty and blue block equals forty and purple block equals forty
+1054,red block equals fifty and blue block equals forty and purple block equals fifty
+1055,red block equals fifty and blue block equals forty and yellow block equals ten
+1056,red block equals fifty and blue block equals forty and yellow block equals twenty
+1057,red block equals fifty and blue block equals forty and yellow block equals thirty
+1058,red block equals fifty and blue block equals forty and yellow block equals forty
+1059,red block equals fifty and blue block equals forty and yellow block equals fifty
+1060,red block equals fifty and blue block equals fifty and green block equals ten
+1061,red block equals fifty and blue block equals fifty and green block equals twenty
+1062,red block equals fifty and blue block equals fifty and green block equals thirty
+1063,red block equals fifty and blue block equals fifty and green block equals forty
+1064,red block equals fifty and blue block equals fifty and green block equals fifty
+1065,red block equals fifty and blue block equals fifty and purple block equals ten
+1066,red block equals fifty and blue block equals fifty and purple block equals twenty
+1067,red block equals fifty and blue block equals fifty and purple block equals thirty
+1068,red block equals fifty and blue block equals fifty and purple block equals forty
+1069,red block equals fifty and blue block equals fifty and purple block equals fifty
+1070,red block equals fifty and blue block equals fifty and yellow block equals ten
+1071,red block equals fifty and blue block equals fifty and yellow block equals twenty
+1072,red block equals fifty and blue block equals fifty and yellow block equals thirty
+1073,red block equals fifty and blue block equals fifty and yellow block equals forty
+1074,red block equals fifty and blue block equals fifty and yellow block equals fifty
+1075,red block equals fifty and green block equals ten and purple block equals ten
+1076,red block equals fifty and green block equals ten and purple block equals twenty
+1077,red block equals fifty and green block equals ten and purple block equals thirty
+1078,red block equals fifty and green block equals ten and purple block equals forty
+1079,red block equals fifty and green block equals ten and purple block equals fifty
+1080,red block equals fifty and green block equals ten and yellow block equals ten
+1081,red block equals fifty and green block equals ten and yellow block equals twenty
+1082,red block equals fifty and green block equals ten and yellow block equals thirty
+1083,red block equals fifty and green block equals ten and yellow block equals forty
+1084,red block equals fifty and green block equals ten and yellow block equals fifty
+1085,red block equals fifty and green block equals twenty and purple block equals ten
+1086,red block equals fifty and green block equals twenty and purple block equals twenty
+1087,red block equals fifty and green block equals twenty and purple block equals thirty
+1088,red block equals fifty and green block equals twenty and purple block equals forty
+1089,red block equals fifty and green block equals twenty and purple block equals fifty
+1090,red block equals fifty and green block equals twenty and yellow block equals ten
+1091,red block equals fifty and green block equals twenty and yellow block equals twenty
+1092,red block equals fifty and green block equals twenty and yellow block equals thirty
+1093,red block equals fifty and green block equals twenty and yellow block equals forty
+1094,red block equals fifty and green block equals twenty and yellow block equals fifty
+1095,red block equals fifty and green block equals thirty and purple block equals ten
+1096,red block equals fifty and green block equals thirty and purple block equals twenty
+1097,red block equals fifty and green block equals thirty and purple block equals thirty
+1098,red block equals fifty and green block equals thirty and purple block equals forty
+1099,red block equals fifty and green block equals thirty and purple block equals fifty
+1100,red block equals fifty and green block equals thirty and yellow block equals ten
+1101,red block equals fifty and green block equals thirty and yellow block equals twenty
+1102,red block equals fifty and green block equals thirty and yellow block equals thirty
+1103,red block equals fifty and green block equals thirty and yellow block equals forty
+1104,red block equals fifty and green block equals thirty and yellow block equals fifty
+1105,red block equals fifty and green block equals forty and purple block equals ten
+1106,red block equals fifty and green block equals forty and purple block equals twenty
+1107,red block equals fifty and green block equals forty and purple block equals thirty
+1108,red block equals fifty and green block equals forty and purple block equals forty
+1109,red block equals fifty and green block equals forty and purple block equals fifty
+1110,red block equals fifty and green block equals forty and yellow block equals ten
+1111,red block equals fifty and green block equals forty and yellow block equals twenty
+1112,red block equals fifty and green block equals forty and yellow block equals thirty
+1113,red block equals fifty and green block equals forty and yellow block equals forty
+1114,red block equals fifty and green block equals forty and yellow block equals fifty
+1115,red block equals fifty and green block equals fifty and purple block equals ten
+1116,red block equals fifty and green block equals fifty and purple block equals twenty
+1117,red block equals fifty and green block equals fifty and purple block equals thirty
+1118,red block equals fifty and green block equals fifty and purple block equals forty
+1119,red block equals fifty and green block equals fifty and purple block equals fifty
+1120,red block equals fifty and green block equals fifty and yellow block equals ten
+1121,red block equals fifty and green block equals fifty and yellow block equals twenty
+1122,red block equals fifty and green block equals fifty and yellow block equals thirty
+1123,red block equals fifty and green block equals fifty and yellow block equals forty
+1124,red block equals fifty and green block equals fifty and yellow block equals fifty
+1125,red block equals fifty and purple block equals ten and yellow block equals ten
+1126,red block equals fifty and purple block equals ten and yellow block equals twenty
+1127,red block equals fifty and purple block equals ten and yellow block equals thirty
+1128,red block equals fifty and purple block equals ten and yellow block equals forty
+1129,red block equals fifty and purple block equals ten and yellow block equals fifty
+1130,red block equals fifty and purple block equals twenty and yellow block equals ten
+1131,red block equals fifty and purple block equals twenty and yellow block equals twenty
+1132,red block equals fifty and purple block equals twenty and yellow block equals thirty
+1133,red block equals fifty and purple block equals twenty and yellow block equals forty
+1134,red block equals fifty and purple block equals twenty and yellow block equals fifty
+1135,red block equals fifty and purple block equals thirty and yellow block equals ten
+1136,red block equals fifty and purple block equals thirty and yellow block equals twenty
+1137,red block equals fifty and purple block equals thirty and yellow block equals thirty
+1138,red block equals fifty and purple block equals thirty and yellow block equals forty
+1139,red block equals fifty and purple block equals thirty and yellow block equals fifty
+1140,red block equals fifty and purple block equals forty and yellow block equals ten
+1141,red block equals fifty and purple block equals forty and yellow block equals twenty
+1142,red block equals fifty and purple block equals forty and yellow block equals thirty
+1143,red block equals fifty and purple block equals forty and yellow block equals forty
+1144,red block equals fifty and purple block equals forty and yellow block equals fifty
+1145,red block equals fifty and purple block equals fifty and yellow block equals ten
+1146,red block equals fifty and purple block equals fifty and yellow block equals twenty
+1147,red block equals fifty and purple block equals fifty and yellow block equals thirty
+1148,red block equals fifty and purple block equals fifty and yellow block equals forty
+1149,red block equals fifty and purple block equals fifty and yellow block equals fifty
+1150,blue block equals ten and green block equals ten and purple block equals ten
+1151,blue block equals ten and green block equals ten and purple block equals twenty
+1152,blue block equals ten and green block equals ten and purple block equals thirty
+1153,blue block equals ten and green block equals ten and purple block equals forty
+1154,blue block equals ten and green block equals ten and purple block equals fifty
+1155,blue block equals ten and green block equals ten and yellow block equals ten
+1156,blue block equals ten and green block equals ten and yellow block equals twenty
+1157,blue block equals ten and green block equals ten and yellow block equals thirty
+1158,blue block equals ten and green block equals ten and yellow block equals forty
+1159,blue block equals ten and green block equals ten and yellow block equals fifty
+1160,blue block equals ten and green block equals twenty and purple block equals ten
+1161,blue block equals ten and green block equals twenty and purple block equals twenty
+1162,blue block equals ten and green block equals twenty and purple block equals thirty
+1163,blue block equals ten and green block equals twenty and purple block equals forty
+1164,blue block equals ten and green block equals twenty and purple block equals fifty
+1165,blue block equals ten and green block equals twenty and yellow block equals ten
+1166,blue block equals ten and green block equals twenty and yellow block equals twenty
+1167,blue block equals ten and green block equals twenty and yellow block equals thirty
+1168,blue block equals ten and green block equals twenty and yellow block equals forty
+1169,blue block equals ten and green block equals twenty and yellow block equals fifty
+1170,blue block equals ten and green block equals thirty and purple block equals ten
+1171,blue block equals ten and green block equals thirty and purple block equals twenty
+1172,blue block equals ten and green block equals thirty and purple block equals thirty
+1173,blue block equals ten and green block equals thirty and purple block equals forty
+1174,blue block equals ten and green block equals thirty and purple block equals fifty
+1175,blue block equals ten and green block equals thirty and yellow block equals ten
+1176,blue block equals ten and green block equals thirty and yellow block equals twenty
+1177,blue block equals ten and green block equals thirty and yellow block equals thirty
+1178,blue block equals ten and green block equals thirty and yellow block equals forty
+1179,blue block equals ten and green block equals thirty and yellow block equals fifty
+1180,blue block equals ten and green block equals forty and purple block equals ten
+1181,blue block equals ten and green block equals forty and purple block equals twenty
+1182,blue block equals ten and green block equals forty and purple block equals thirty
+1183,blue block equals ten and green block equals forty and purple block equals forty
+1184,blue block equals ten and green block equals forty and purple block equals fifty
+1185,blue block equals ten and green block equals forty and yellow block equals ten
+1186,blue block equals ten and green block equals forty and yellow block equals twenty
+1187,blue block equals ten and green block equals forty and yellow block equals thirty
+1188,blue block equals ten and green block equals forty and yellow block equals forty
+1189,blue block equals ten and green block equals forty and yellow block equals fifty
+1190,blue block equals ten and green block equals fifty and purple block equals ten
+1191,blue block equals ten and green block equals fifty and purple block equals twenty
+1192,blue block equals ten and green block equals fifty and purple block equals thirty
+1193,blue block equals ten and green block equals fifty and purple block equals forty
+1194,blue block equals ten and green block equals fifty and purple block equals fifty
+1195,blue block equals ten and green block equals fifty and yellow block equals ten
+1196,blue block equals ten and green block equals fifty and yellow block equals twenty
+1197,blue block equals ten and green block equals fifty and yellow block equals thirty
+1198,blue block equals ten and green block equals fifty and yellow block equals forty
+1199,blue block equals ten and green block equals fifty and yellow block equals fifty
+1200,blue block equals ten and purple block equals ten and yellow block equals ten
+1201,blue block equals ten and purple block equals ten and yellow block equals twenty
+1202,blue block equals ten and purple block equals ten and yellow block equals thirty
+1203,blue block equals ten and purple block equals ten and yellow block equals forty
+1204,blue block equals ten and purple block equals ten and yellow block equals fifty
+1205,blue block equals ten and purple block equals twenty and yellow block equals ten
+1206,blue block equals ten and purple block equals twenty and yellow block equals twenty
+1207,blue block equals ten and purple block equals twenty and yellow block equals thirty
+1208,blue block equals ten and purple block equals twenty and yellow block equals forty
+1209,blue block equals ten and purple block equals twenty and yellow block equals fifty
+1210,blue block equals ten and purple block equals thirty and yellow block equals ten
+1211,blue block equals ten and purple block equals thirty and yellow block equals twenty
+1212,blue block equals ten and purple block equals thirty and yellow block equals thirty
+1213,blue block equals ten and purple block equals thirty and yellow block equals forty
+1214,blue block equals ten and purple block equals thirty and yellow block equals fifty
+1215,blue block equals ten and purple block equals forty and yellow block equals ten
+1216,blue block equals ten and purple block equals forty and yellow block equals twenty
+1217,blue block equals ten and purple block equals forty and yellow block equals thirty
+1218,blue block equals ten and purple block equals forty and yellow block equals forty
+1219,blue block equals ten and purple block equals forty and yellow block equals fifty
+1220,blue block equals ten and purple block equals fifty and yellow block equals ten
+1221,blue block equals ten and purple block equals fifty and yellow block equals twenty
+1222,blue block equals ten and purple block equals fifty and yellow block equals thirty
+1223,blue block equals ten and purple block equals fifty and yellow block equals forty
+1224,blue block equals ten and purple block equals fifty and yellow block equals fifty
+1225,blue block equals twenty and green block equals ten and purple block equals ten
+1226,blue block equals twenty and green block equals ten and purple block equals twenty
+1227,blue block equals twenty and green block equals ten and purple block equals thirty
+1228,blue block equals twenty and green block equals ten and purple block equals forty
+1229,blue block equals twenty and green block equals ten and purple block equals fifty
+1230,blue block equals twenty and green block equals ten and yellow block equals ten
+1231,blue block equals twenty and green block equals ten and yellow block equals twenty
+1232,blue block equals twenty and green block equals ten and yellow block equals thirty
+1233,blue block equals twenty and green block equals ten and yellow block equals forty
+1234,blue block equals twenty and green block equals ten and yellow block equals fifty
+1235,blue block equals twenty and green block equals twenty and purple block equals ten
+1236,blue block equals twenty and green block equals twenty and purple block equals twenty
+1237,blue block equals twenty and green block equals twenty and purple block equals thirty
+1238,blue block equals twenty and green block equals twenty and purple block equals forty
+1239,blue block equals twenty and green block equals twenty and purple block equals fifty
+1240,blue block equals twenty and green block equals twenty and yellow block equals ten
+1241,blue block equals twenty and green block equals twenty and yellow block equals twenty
+1242,blue block equals twenty and green block equals twenty and yellow block equals thirty
+1243,blue block equals twenty and green block equals twenty and yellow block equals forty
+1244,blue block equals twenty and green block equals twenty and yellow block equals fifty
+1245,blue block equals twenty and green block equals thirty and purple block equals ten
+1246,blue block equals twenty and green block equals thirty and purple block equals twenty
+1247,blue block equals twenty and green block equals thirty and purple block equals thirty
+1248,blue block equals twenty and green block equals thirty and purple block equals forty
+1249,blue block equals twenty and green block equals thirty and purple block equals fifty
+1250,blue block equals twenty and green block equals thirty and yellow block equals ten
+1251,blue block equals twenty and green block equals thirty and yellow block equals twenty
+1252,blue block equals twenty and green block equals thirty and yellow block equals thirty
+1253,blue block equals twenty and green block equals thirty and yellow block equals forty
+1254,blue block equals twenty and green block equals thirty and yellow block equals fifty
+1255,blue block equals twenty and green block equals forty and purple block equals ten
+1256,blue block equals twenty and green block equals forty and purple block equals twenty
+1257,blue block equals twenty and green block equals forty and purple block equals thirty
+1258,blue block equals twenty and green block equals forty and purple block equals forty
+1259,blue block equals twenty and green block equals forty and purple block equals fifty
+1260,blue block equals twenty and green block equals forty and yellow block equals ten
+1261,blue block equals twenty and green block equals forty and yellow block equals twenty
+1262,blue block equals twenty and green block equals forty and yellow block equals thirty
+1263,blue block equals twenty and green block equals forty and yellow block equals forty
+1264,blue block equals twenty and green block equals forty and yellow block equals fifty
+1265,blue block equals twenty and green block equals fifty and purple block equals ten
+1266,blue block equals twenty and green block equals fifty and purple block equals twenty
+1267,blue block equals twenty and green block equals fifty and purple block equals thirty
+1268,blue block equals twenty and green block equals fifty and purple block equals forty
+1269,blue block equals twenty and green block equals fifty and purple block equals fifty
+1270,blue block equals twenty and green block equals fifty and yellow block equals ten
+1271,blue block equals twenty and green block equals fifty and yellow block equals twenty
+1272,blue block equals twenty and green block equals fifty and yellow block equals thirty
+1273,blue block equals twenty and green block equals fifty and yellow block equals forty
+1274,blue block equals twenty and green block equals fifty and yellow block equals fifty
+1275,blue block equals twenty and purple block equals ten and yellow block equals ten
+1276,blue block equals twenty and purple block equals ten and yellow block equals twenty
+1277,blue block equals twenty and purple block equals ten and yellow block equals thirty
+1278,blue block equals twenty and purple block equals ten and yellow block equals forty
+1279,blue block equals twenty and purple block equals ten and yellow block equals fifty
+1280,blue block equals twenty and purple block equals twenty and yellow block equals ten
+1281,blue block equals twenty and purple block equals twenty and yellow block equals twenty
+1282,blue block equals twenty and purple block equals twenty and yellow block equals thirty
+1283,blue block equals twenty and purple block equals twenty and yellow block equals forty
+1284,blue block equals twenty and purple block equals twenty and yellow block equals fifty
+1285,blue block equals twenty and purple block equals thirty and yellow block equals ten
+1286,blue block equals twenty and purple block equals thirty and yellow block equals twenty
+1287,blue block equals twenty and purple block equals thirty and yellow block equals thirty
+1288,blue block equals twenty and purple block equals thirty and yellow block equals forty
+1289,blue block equals twenty and purple block equals thirty and yellow block equals fifty
+1290,blue block equals twenty and purple block equals forty and yellow block equals ten
+1291,blue block equals twenty and purple block equals forty and yellow block equals twenty
+1292,blue block equals twenty and purple block equals forty and yellow block equals thirty
+1293,blue block equals twenty and purple block equals forty and yellow block equals forty
+1294,blue block equals twenty and purple block equals forty and yellow block equals fifty
+1295,blue block equals twenty and purple block equals fifty and yellow block equals ten
+1296,blue block equals twenty and purple block equals fifty and yellow block equals twenty
+1297,blue block equals twenty and purple block equals fifty and yellow block equals thirty
+1298,blue block equals twenty and purple block equals fifty and yellow block equals forty
+1299,blue block equals twenty and purple block equals fifty and yellow block equals fifty
+1300,blue block equals thirty and green block equals ten and purple block equals ten
+1301,blue block equals thirty and green block equals ten and purple block equals twenty
+1302,blue block equals thirty and green block equals ten and purple block equals thirty
+1303,blue block equals thirty and green block equals ten and purple block equals forty
+1304,blue block equals thirty and green block equals ten and purple block equals fifty
+1305,blue block equals thirty and green block equals ten and yellow block equals ten
+1306,blue block equals thirty and green block equals ten and yellow block equals twenty
+1307,blue block equals thirty and green block equals ten and yellow block equals thirty
+1308,blue block equals thirty and green block equals ten and yellow block equals forty
+1309,blue block equals thirty and green block equals ten and yellow block equals fifty
+1310,blue block equals thirty and green block equals twenty and purple block equals ten
+1311,blue block equals thirty and green block equals twenty and purple block equals twenty
+1312,blue block equals thirty and green block equals twenty and purple block equals thirty
+1313,blue block equals thirty and green block equals twenty and purple block equals forty
+1314,blue block equals thirty and green block equals twenty and purple block equals fifty
+1315,blue block equals thirty and green block equals twenty and yellow block equals ten
+1316,blue block equals thirty and green block equals twenty and yellow block equals twenty
+1317,blue block equals thirty and green block equals twenty and yellow block equals thirty
+1318,blue block equals thirty and green block equals twenty and yellow block equals forty
+1319,blue block equals thirty and green block equals twenty and yellow block equals fifty
+1320,blue block equals thirty and green block equals thirty and purple block equals ten
+1321,blue block equals thirty and green block equals thirty and purple block equals twenty
+1322,blue block equals thirty and green block equals thirty and purple block equals thirty
+1323,blue block equals thirty and green block equals thirty and purple block equals forty
+1324,blue block equals thirty and green block equals thirty and purple block equals fifty
+1325,blue block equals thirty and green block equals thirty and yellow block equals ten
+1326,blue block equals thirty and green block equals thirty and yellow block equals twenty
+1327,blue block equals thirty and green block equals thirty and yellow block equals thirty
+1328,blue block equals thirty and green block equals thirty and yellow block equals forty
+1329,blue block equals thirty and green block equals thirty and yellow block equals fifty
+1330,blue block equals thirty and green block equals forty and purple block equals ten
+1331,blue block equals thirty and green block equals forty and purple block equals twenty
+1332,blue block equals thirty and green block equals forty and purple block equals thirty
+1333,blue block equals thirty and green block equals forty and purple block equals forty
+1334,blue block equals thirty and green block equals forty and purple block equals fifty
+1335,blue block equals thirty and green block equals forty and yellow block equals ten
+1336,blue block equals thirty and green block equals forty and yellow block equals twenty
+1337,blue block equals thirty and green block equals forty and yellow block equals thirty
+1338,blue block equals thirty and green block equals forty and yellow block equals forty
+1339,blue block equals thirty and green block equals forty and yellow block equals fifty
+1340,blue block equals thirty and green block equals fifty and purple block equals ten
+1341,blue block equals thirty and green block equals fifty and purple block equals twenty
+1342,blue block equals thirty and green block equals fifty and purple block equals thirty
+1343,blue block equals thirty and green block equals fifty and purple block equals forty
+1344,blue block equals thirty and green block equals fifty and purple block equals fifty
+1345,blue block equals thirty and green block equals fifty and yellow block equals ten
+1346,blue block equals thirty and green block equals fifty and yellow block equals twenty
+1347,blue block equals thirty and green block equals fifty and yellow block equals thirty
+1348,blue block equals thirty and green block equals fifty and yellow block equals forty
+1349,blue block equals thirty and green block equals fifty and yellow block equals fifty
+1350,blue block equals thirty and purple block equals ten and yellow block equals ten
+1351,blue block equals thirty and purple block equals ten and yellow block equals twenty
+1352,blue block equals thirty and purple block equals ten and yellow block equals thirty
+1353,blue block equals thirty and purple block equals ten and yellow block equals forty
+1354,blue block equals thirty and purple block equals ten and yellow block equals fifty
+1355,blue block equals thirty and purple block equals twenty and yellow block equals ten
+1356,blue block equals thirty and purple block equals twenty and yellow block equals twenty
+1357,blue block equals thirty and purple block equals twenty and yellow block equals thirty
+1358,blue block equals thirty and purple block equals twenty and yellow block equals forty
+1359,blue block equals thirty and purple block equals twenty and yellow block equals fifty
+1360,blue block equals thirty and purple block equals thirty and yellow block equals ten
+1361,blue block equals thirty and purple block equals thirty and yellow block equals twenty
+1362,blue block equals thirty and purple block equals thirty and yellow block equals thirty
+1363,blue block equals thirty and purple block equals thirty and yellow block equals forty
+1364,blue block equals thirty and purple block equals thirty and yellow block equals fifty
+1365,blue block equals thirty and purple block equals forty and yellow block equals ten
+1366,blue block equals thirty and purple block equals forty and yellow block equals twenty
+1367,blue block equals thirty and purple block equals forty and yellow block equals thirty
+1368,blue block equals thirty and purple block equals forty and yellow block equals forty
+1369,blue block equals thirty and purple block equals forty and yellow block equals fifty
+1370,blue block equals thirty and purple block equals fifty and yellow block equals ten
+1371,blue block equals thirty and purple block equals fifty and yellow block equals twenty
+1372,blue block equals thirty and purple block equals fifty and yellow block equals thirty
+1373,blue block equals thirty and purple block equals fifty and yellow block equals forty
+1374,blue block equals thirty and purple block equals fifty and yellow block equals fifty
+1375,blue block equals forty and green block equals ten and purple block equals ten
+1376,blue block equals forty and green block equals ten and purple block equals twenty
+1377,blue block equals forty and green block equals ten and purple block equals thirty
+1378,blue block equals forty and green block equals ten and purple block equals forty
+1379,blue block equals forty and green block equals ten and purple block equals fifty
+1380,blue block equals forty and green block equals ten and yellow block equals ten
+1381,blue block equals forty and green block equals ten and yellow block equals twenty
+1382,blue block equals forty and green block equals ten and yellow block equals thirty
+1383,blue block equals forty and green block equals ten and yellow block equals forty
+1384,blue block equals forty and green block equals ten and yellow block equals fifty
+1385,blue block equals forty and green block equals twenty and purple block equals ten
+1386,blue block equals forty and green block equals twenty and purple block equals twenty
+1387,blue block equals forty and green block equals twenty and purple block equals thirty
+1388,blue block equals forty and green block equals twenty and purple block equals forty
+1389,blue block equals forty and green block equals twenty and purple block equals fifty
+1390,blue block equals forty and green block equals twenty and yellow block equals ten
+1391,blue block equals forty and green block equals twenty and yellow block equals twenty
+1392,blue block equals forty and green block equals twenty and yellow block equals thirty
+1393,blue block equals forty and green block equals twenty and yellow block equals forty
+1394,blue block equals forty and green block equals twenty and yellow block equals fifty
+1395,blue block equals forty and green block equals thirty and purple block equals ten
+1396,blue block equals forty and green block equals thirty and purple block equals twenty
+1397,blue block equals forty and green block equals thirty and purple block equals thirty
+1398,blue block equals forty and green block equals thirty and purple block equals forty
+1399,blue block equals forty and green block equals thirty and purple block equals fifty
+1400,blue block equals forty and green block equals thirty and yellow block equals ten
+1401,blue block equals forty and green block equals thirty and yellow block equals twenty
+1402,blue block equals forty and green block equals thirty and yellow block equals thirty
+1403,blue block equals forty and green block equals thirty and yellow block equals forty
+1404,blue block equals forty and green block equals thirty and yellow block equals fifty
+1405,blue block equals forty and green block equals forty and purple block equals ten
+1406,blue block equals forty and green block equals forty and purple block equals twenty
+1407,blue block equals forty and green block equals forty and purple block equals thirty
+1408,blue block equals forty and green block equals forty and purple block equals forty
+1409,blue block equals forty and green block equals forty and purple block equals fifty
+1410,blue block equals forty and green block equals forty and yellow block equals ten
+1411,blue block equals forty and green block equals forty and yellow block equals twenty
+1412,blue block equals forty and green block equals forty and yellow block equals thirty
+1413,blue block equals forty and green block equals forty and yellow block equals forty
+1414,blue block equals forty and green block equals forty and yellow block equals fifty
+1415,blue block equals forty and green block equals fifty and purple block equals ten
+1416,blue block equals forty and green block equals fifty and purple block equals twenty
+1417,blue block equals forty and green block equals fifty and purple block equals thirty
+1418,blue block equals forty and green block equals fifty and purple block equals forty
+1419,blue block equals forty and green block equals fifty and purple block equals fifty
+1420,blue block equals forty and green block equals fifty and yellow block equals ten
+1421,blue block equals forty and green block equals fifty and yellow block equals twenty
+1422,blue block equals forty and green block equals fifty and yellow block equals thirty
+1423,blue block equals forty and green block equals fifty and yellow block equals forty
+1424,blue block equals forty and green block equals fifty and yellow block equals fifty
+1425,blue block equals forty and purple block equals ten and yellow block equals ten
+1426,blue block equals forty and purple block equals ten and yellow block equals twenty
+1427,blue block equals forty and purple block equals ten and yellow block equals thirty
+1428,blue block equals forty and purple block equals ten and yellow block equals forty
+1429,blue block equals forty and purple block equals ten and yellow block equals fifty
+1430,blue block equals forty and purple block equals twenty and yellow block equals ten
+1431,blue block equals forty and purple block equals twenty and yellow block equals twenty
+1432,blue block equals forty and purple block equals twenty and yellow block equals thirty
+1433,blue block equals forty and purple block equals twenty and yellow block equals forty
+1434,blue block equals forty and purple block equals twenty and yellow block equals fifty
+1435,blue block equals forty and purple block equals thirty and yellow block equals ten
+1436,blue block equals forty and purple block equals thirty and yellow block equals twenty
+1437,blue block equals forty and purple block equals thirty and yellow block equals thirty
+1438,blue block equals forty and purple block equals thirty and yellow block equals forty
+1439,blue block equals forty and purple block equals thirty and yellow block equals fifty
+1440,blue block equals forty and purple block equals forty and yellow block equals ten
+1441,blue block equals forty and purple block equals forty and yellow block equals twenty
+1442,blue block equals forty and purple block equals forty and yellow block equals thirty
+1443,blue block equals forty and purple block equals forty and yellow block equals forty
+1444,blue block equals forty and purple block equals forty and yellow block equals fifty
+1445,blue block equals forty and purple block equals fifty and yellow block equals ten
+1446,blue block equals forty and purple block equals fifty and yellow block equals twenty
+1447,blue block equals forty and purple block equals fifty and yellow block equals thirty
+1448,blue block equals forty and purple block equals fifty and yellow block equals forty
+1449,blue block equals forty and purple block equals fifty and yellow block equals fifty
+1450,blue block equals fifty and green block equals ten and purple block equals ten
+1451,blue block equals fifty and green block equals ten and purple block equals twenty
+1452,blue block equals fifty and green block equals ten and purple block equals thirty
+1453,blue block equals fifty and green block equals ten and purple block equals forty
+1454,blue block equals fifty and green block equals ten and purple block equals fifty
+1455,blue block equals fifty and green block equals ten and yellow block equals ten
+1456,blue block equals fifty and green block equals ten and yellow block equals twenty
+1457,blue block equals fifty and green block equals ten and yellow block equals thirty
+1458,blue block equals fifty and green block equals ten and yellow block equals forty
+1459,blue block equals fifty and green block equals ten and yellow block equals fifty
+1460,blue block equals fifty and green block equals twenty and purple block equals ten
+1461,blue block equals fifty and green block equals twenty and purple block equals twenty
+1462,blue block equals fifty and green block equals twenty and purple block equals thirty
+1463,blue block equals fifty and green block equals twenty and purple block equals forty
+1464,blue block equals fifty and green block equals twenty and purple block equals fifty
+1465,blue block equals fifty and green block equals twenty and yellow block equals ten
+1466,blue block equals fifty and green block equals twenty and yellow block equals twenty
+1467,blue block equals fifty and green block equals twenty and yellow block equals thirty
+1468,blue block equals fifty and green block equals twenty and yellow block equals forty
+1469,blue block equals fifty and green block equals twenty and yellow block equals fifty
+1470,blue block equals fifty and green block equals thirty and purple block equals ten
+1471,blue block equals fifty and green block equals thirty and purple block equals twenty
+1472,blue block equals fifty and green block equals thirty and purple block equals thirty
+1473,blue block equals fifty and green block equals thirty and purple block equals forty
+1474,blue block equals fifty and green block equals thirty and purple block equals fifty
+1475,blue block equals fifty and green block equals thirty and yellow block equals ten
+1476,blue block equals fifty and green block equals thirty and yellow block equals twenty
+1477,blue block equals fifty and green block equals thirty and yellow block equals thirty
+1478,blue block equals fifty and green block equals thirty and yellow block equals forty
+1479,blue block equals fifty and green block equals thirty and yellow block equals fifty
+1480,blue block equals fifty and green block equals forty and purple block equals ten
+1481,blue block equals fifty and green block equals forty and purple block equals twenty
+1482,blue block equals fifty and green block equals forty and purple block equals thirty
+1483,blue block equals fifty and green block equals forty and purple block equals forty
+1484,blue block equals fifty and green block equals forty and purple block equals fifty
+1485,blue block equals fifty and green block equals forty and yellow block equals ten
+1486,blue block equals fifty and green block equals forty and yellow block equals twenty
+1487,blue block equals fifty and green block equals forty and yellow block equals thirty
+1488,blue block equals fifty and green block equals forty and yellow block equals forty
+1489,blue block equals fifty and green block equals forty and yellow block equals fifty
+1490,blue block equals fifty and green block equals fifty and purple block equals ten
+1491,blue block equals fifty and green block equals fifty and purple block equals twenty
+1492,blue block equals fifty and green block equals fifty and purple block equals thirty
+1493,blue block equals fifty and green block equals fifty and purple block equals forty
+1494,blue block equals fifty and green block equals fifty and purple block equals fifty
+1495,blue block equals fifty and green block equals fifty and yellow block equals ten
+1496,blue block equals fifty and green block equals fifty and yellow block equals twenty
+1497,blue block equals fifty and green block equals fifty and yellow block equals thirty
+1498,blue block equals fifty and green block equals fifty and yellow block equals forty
+1499,blue block equals fifty and green block equals fifty and yellow block equals fifty
+1500,blue block equals fifty and purple block equals ten and yellow block equals ten
+1501,blue block equals fifty and purple block equals ten and yellow block equals twenty
+1502,blue block equals fifty and purple block equals ten and yellow block equals thirty
+1503,blue block equals fifty and purple block equals ten and yellow block equals forty
+1504,blue block equals fifty and purple block equals ten and yellow block equals fifty
+1505,blue block equals fifty and purple block equals twenty and yellow block equals ten
+1506,blue block equals fifty and purple block equals twenty and yellow block equals twenty
+1507,blue block equals fifty and purple block equals twenty and yellow block equals thirty
+1508,blue block equals fifty and purple block equals twenty and yellow block equals forty
+1509,blue block equals fifty and purple block equals twenty and yellow block equals fifty
+1510,blue block equals fifty and purple block equals thirty and yellow block equals ten
+1511,blue block equals fifty and purple block equals thirty and yellow block equals twenty
+1512,blue block equals fifty and purple block equals thirty and yellow block equals thirty
+1513,blue block equals fifty and purple block equals thirty and yellow block equals forty
+1514,blue block equals fifty and purple block equals thirty and yellow block equals fifty
+1515,blue block equals fifty and purple block equals forty and yellow block equals ten
+1516,blue block equals fifty and purple block equals forty and yellow block equals twenty
+1517,blue block equals fifty and purple block equals forty and yellow block equals thirty
+1518,blue block equals fifty and purple block equals forty and yellow block equals forty
+1519,blue block equals fifty and purple block equals forty and yellow block equals fifty
+1520,blue block equals fifty and purple block equals fifty and yellow block equals ten
+1521,blue block equals fifty and purple block equals fifty and yellow block equals twenty
+1522,blue block equals fifty and purple block equals fifty and yellow block equals thirty
+1523,blue block equals fifty and purple block equals fifty and yellow block equals forty
+1524,blue block equals fifty and purple block equals fifty and yellow block equals fifty
+1525,green block equals ten and purple block equals ten and yellow block equals ten
+1526,green block equals ten and purple block equals ten and yellow block equals twenty
+1527,green block equals ten and purple block equals ten and yellow block equals thirty
+1528,green block equals ten and purple block equals ten and yellow block equals forty
+1529,green block equals ten and purple block equals ten and yellow block equals fifty
+1530,green block equals ten and purple block equals twenty and yellow block equals ten
+1531,green block equals ten and purple block equals twenty and yellow block equals twenty
+1532,green block equals ten and purple block equals twenty and yellow block equals thirty
+1533,green block equals ten and purple block equals twenty and yellow block equals forty
+1534,green block equals ten and purple block equals twenty and yellow block equals fifty
+1535,green block equals ten and purple block equals thirty and yellow block equals ten
+1536,green block equals ten and purple block equals thirty and yellow block equals twenty
+1537,green block equals ten and purple block equals thirty and yellow block equals thirty
+1538,green block equals ten and purple block equals thirty and yellow block equals forty
+1539,green block equals ten and purple block equals thirty and yellow block equals fifty
+1540,green block equals ten and purple block equals forty and yellow block equals ten
+1541,green block equals ten and purple block equals forty and yellow block equals twenty
+1542,green block equals ten and purple block equals forty and yellow block equals thirty
+1543,green block equals ten and purple block equals forty and yellow block equals forty
+1544,green block equals ten and purple block equals forty and yellow block equals fifty
+1545,green block equals ten and purple block equals fifty and yellow block equals ten
+1546,green block equals ten and purple block equals fifty and yellow block equals twenty
+1547,green block equals ten and purple block equals fifty and yellow block equals thirty
+1548,green block equals ten and purple block equals fifty and yellow block equals forty
+1549,green block equals ten and purple block equals fifty and yellow block equals fifty
+1550,green block equals twenty and purple block equals ten and yellow block equals ten
+1551,green block equals twenty and purple block equals ten and yellow block equals twenty
+1552,green block equals twenty and purple block equals ten and yellow block equals thirty
+1553,green block equals twenty and purple block equals ten and yellow block equals forty
+1554,green block equals twenty and purple block equals ten and yellow block equals fifty
+1555,green block equals twenty and purple block equals twenty and yellow block equals ten
+1556,green block equals twenty and purple block equals twenty and yellow block equals twenty
+1557,green block equals twenty and purple block equals twenty and yellow block equals thirty
+1558,green block equals twenty and purple block equals twenty and yellow block equals forty
+1559,green block equals twenty and purple block equals twenty and yellow block equals fifty
+1560,green block equals twenty and purple block equals thirty and yellow block equals ten
+1561,green block equals twenty and purple block equals thirty and yellow block equals twenty
+1562,green block equals twenty and purple block equals thirty and yellow block equals thirty
+1563,green block equals twenty and purple block equals thirty and yellow block equals forty
+1564,green block equals twenty and purple block equals thirty and yellow block equals fifty
+1565,green block equals twenty and purple block equals forty and yellow block equals ten
+1566,green block equals twenty and purple block equals forty and yellow block equals twenty
+1567,green block equals twenty and purple block equals forty and yellow block equals thirty
+1568,green block equals twenty and purple block equals forty and yellow block equals forty
+1569,green block equals twenty and purple block equals forty and yellow block equals fifty
+1570,green block equals twenty and purple block equals fifty and yellow block equals ten
+1571,green block equals twenty and purple block equals fifty and yellow block equals twenty
+1572,green block equals twenty and purple block equals fifty and yellow block equals thirty
+1573,green block equals twenty and purple block equals fifty and yellow block equals forty
+1574,green block equals twenty and purple block equals fifty and yellow block equals fifty
+1575,green block equals thirty and purple block equals ten and yellow block equals ten
+1576,green block equals thirty and purple block equals ten and yellow block equals twenty
+1577,green block equals thirty and purple block equals ten and yellow block equals thirty
+1578,green block equals thirty and purple block equals ten and yellow block equals forty
+1579,green block equals thirty and purple block equals ten and yellow block equals fifty
+1580,green block equals thirty and purple block equals twenty and yellow block equals ten
+1581,green block equals thirty and purple block equals twenty and yellow block equals twenty
+1582,green block equals thirty and purple block equals twenty and yellow block equals thirty
+1583,green block equals thirty and purple block equals twenty and yellow block equals forty
+1584,green block equals thirty and purple block equals twenty and yellow block equals fifty
+1585,green block equals thirty and purple block equals thirty and yellow block equals ten
+1586,green block equals thirty and purple block equals thirty and yellow block equals twenty
+1587,green block equals thirty and purple block equals thirty and yellow block equals thirty
+1588,green block equals thirty and purple block equals thirty and yellow block equals forty
+1589,green block equals thirty and purple block equals thirty and yellow block equals fifty
+1590,green block equals thirty and purple block equals forty and yellow block equals ten
+1591,green block equals thirty and purple block equals forty and yellow block equals twenty
+1592,green block equals thirty and purple block equals forty and yellow block equals thirty
+1593,green block equals thirty and purple block equals forty and yellow block equals forty
+1594,green block equals thirty and purple block equals forty and yellow block equals fifty
+1595,green block equals thirty and purple block equals fifty and yellow block equals ten
+1596,green block equals thirty and purple block equals fifty and yellow block equals twenty
+1597,green block equals thirty and purple block equals fifty and yellow block equals thirty
+1598,green block equals thirty and purple block equals fifty and yellow block equals forty
+1599,green block equals thirty and purple block equals fifty and yellow block equals fifty
+1600,green block equals forty and purple block equals ten and yellow block equals ten
+1601,green block equals forty and purple block equals ten and yellow block equals twenty
+1602,green block equals forty and purple block equals ten and yellow block equals thirty
+1603,green block equals forty and purple block equals ten and yellow block equals forty
+1604,green block equals forty and purple block equals ten and yellow block equals fifty
+1605,green block equals forty and purple block equals twenty and yellow block equals ten
+1606,green block equals forty and purple block equals twenty and yellow block equals twenty
+1607,green block equals forty and purple block equals twenty and yellow block equals thirty
+1608,green block equals forty and purple block equals twenty and yellow block equals forty
+1609,green block equals forty and purple block equals twenty and yellow block equals fifty
+1610,green block equals forty and purple block equals thirty and yellow block equals ten
+1611,green block equals forty and purple block equals thirty and yellow block equals twenty
+1612,green block equals forty and purple block equals thirty and yellow block equals thirty
+1613,green block equals forty and purple block equals thirty and yellow block equals forty
+1614,green block equals forty and purple block equals thirty and yellow block equals fifty
+1615,green block equals forty and purple block equals forty and yellow block equals ten
+1616,green block equals forty and purple block equals forty and yellow block equals twenty
+1617,green block equals forty and purple block equals forty and yellow block equals thirty
+1618,green block equals forty and purple block equals forty and yellow block equals forty
+1619,green block equals forty and purple block equals forty and yellow block equals fifty
+1620,green block equals forty and purple block equals fifty and yellow block equals ten
+1621,green block equals forty and purple block equals fifty and yellow block equals twenty
+1622,green block equals forty and purple block equals fifty and yellow block equals thirty
+1623,green block equals forty and purple block equals fifty and yellow block equals forty
+1624,green block equals forty and purple block equals fifty and yellow block equals fifty
+1625,green block equals fifty and purple block equals ten and yellow block equals ten
+1626,green block equals fifty and purple block equals ten and yellow block equals twenty
+1627,green block equals fifty and purple block equals ten and yellow block equals thirty
+1628,green block equals fifty and purple block equals ten and yellow block equals forty
+1629,green block equals fifty and purple block equals ten and yellow block equals fifty
+1630,green block equals fifty and purple block equals twenty and yellow block equals ten
+1631,green block equals fifty and purple block equals twenty and yellow block equals twenty
+1632,green block equals fifty and purple block equals twenty and yellow block equals thirty
+1633,green block equals fifty and purple block equals twenty and yellow block equals forty
+1634,green block equals fifty and purple block equals twenty and yellow block equals fifty
+1635,green block equals fifty and purple block equals thirty and yellow block equals ten
+1636,green block equals fifty and purple block equals thirty and yellow block equals twenty
+1637,green block equals fifty and purple block equals thirty and yellow block equals thirty
+1638,green block equals fifty and purple block equals thirty and yellow block equals forty
+1639,green block equals fifty and purple block equals thirty and yellow block equals fifty
+1640,green block equals fifty and purple block equals forty and yellow block equals ten
+1641,green block equals fifty and purple block equals forty and yellow block equals twenty
+1642,green block equals fifty and purple block equals forty and yellow block equals thirty
+1643,green block equals fifty and purple block equals forty and yellow block equals forty
+1644,green block equals fifty and purple block equals forty and yellow block equals fifty
+1645,green block equals fifty and purple block equals fifty and yellow block equals ten
+1646,green block equals fifty and purple block equals fifty and yellow block equals twenty
+1647,green block equals fifty and purple block equals fifty and yellow block equals thirty
+1648,green block equals fifty and purple block equals fifty and yellow block equals forty
+1649,green block equals fifty and purple block equals fifty and yellow block equals fifty

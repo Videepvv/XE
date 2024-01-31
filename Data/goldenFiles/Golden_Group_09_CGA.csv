@@ -1,0 +1,10 @@
+,Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+0,22.14,24.27,red = 10,3,22.14,24.27,9,4,The red cube is ten grams
+1,61.74,63.4,red = blue,11,61.74,63.4,9,2,"i would say red block, blue block's equal probably"
+4,96.66,97.83,green = red + blue,18,96.66,97.83,9,2,"yeah red block, blue block, green block's probably equal"
+5,103.33,105.99,red = 10 and blue = 10,19,103.33,105.99,9,1,So we got ten ten
+6,108.23,111.27,green != purple,21,108.23,111.27,9,1,Definitely not equal
+7,130.26,133.35,green = 20 and blue = 10,24,130.26,133.35,9,1,"green block, blue block was twenty and ten right ok"
+8,133.38,135.67,purple = 30,26,133.38,135.67,9,1,Look we have the thirty gram block and then
+10,160.22,164.84,yellow = purple + green,30,160.22,164.84,9,2,"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal"
+11,168.42,170.83,purple = 30 and yellow = 50,33,168.42,170.83,9,3,purple block one was thirty so yellow block should be fifty less

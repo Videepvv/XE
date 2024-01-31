@@ -1,0 +1,516 @@
+,Common Ground,Label,Transcript,Group
+0,red = 10,1,And we will tell you that this red cube on top is ten grams,1
+1,red = 10,1,ok well red block would be nine minus ten,1
+2,red = blue,1,"red block, blue block seems pretty balanced",1
+3,blue = 10,1,yeah ok so now we know that blue block is also ten,1
+4,purple > 20,1,And then see if there's thats twenty which is not,1
+5,purple != 20,1,And then see if there's thats twenty which is not,1
+6,green = 20,1,ok so green block one is probably twenty ten ten twenty,1
+7,S209: STATEMENT(red = 10 and blue = 10 and green = 20,1,ok so green block one is probably twenty ten ten twenty,1
+8,purple = 30,1,Ooh its looking like thirty,1
+9,yellow > purple + red + blue,1,"yeah yeah the blue dark blue one is thirty purple block's the larger one purple block, red block, blue block's slightly heavier yeah",1
+10,"red = 10, blue = 10, green = 20, purple = 30",1,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty",1
+11,yellow < 50,1,"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing",1
+12,yellow = 50,1,yeah fifty so we say yellow is fifty,1
+13,red =10,1,And we can tell you that that red cube right there is ten grams yep and you're going you're going to flip the piece of paper um,2
+14,red = blue,1,"needle goes over the red line that means red block, blue block're probably equal",2
+15,blue = 10,1,so blue block one is probably ten grams too,2
+16,green = red + blue,1,and that looks like it might be about even,2
+17,green = 20,1,well on the first go through i noticed how it bounced twice and actually get some momentum ok so then,2
+18,red = 10 and blue = 10,1,The first two are ten,2
+19,green = 20,1,so knowing that uh oh sorry the green one was yeah,2
+20,purple = 30,1,So you know twenty plus ten thirty probably,2
+21,purple = 30,1,i guess and there's no increment so five so we could probably just go with thirty on purple block,2
+22,yellow > purple,1,Which is too much so we'll put twenty right,2
+23,green = 20 and purple = 30,1,"so purple block, green block's the twenty and the thirty",2
+24,yellow < green + purple,1,it's leaning towards one side a bit much,2
+25,yellow > blue + purple,1,Oh not enough so probably,2
+26,yellow = 50,1,Oh yeah the twenty and the thirty so we'll go with the fifty,2
+27,red = 10,1,We will tell you that the weight of the red cube is ten grams,3
+28,red = blue,1,"i think red block, blue block're the same weight yeah",3
+29,green = 20,1,sufficient to say green block one's probably twenty or,3
+30,purple = 30,1,the purple one is thirty,3
+31,green = 20 and purple = 30 and yellow = 50,1,green is twenty and purple is thirty so yellow block weighs to fifty,3
+32,green = 20,1,yeah i mentioned here green is twenty,3
+33,yellow < green + purple,1,it's leaning more this side so,3
+34,yellow < green + purple,1,it's leaning more to the side,3
+35,yellow != 10,1,yellow is of course not ten but,3
+36,yellow > green + blue + red,1,"no so when we try purple block, green block both",3
+37,yellow = 50,1,so i feel yellow is fifty,3
+38,yellow != 30,1,yellow block's for sure not thirty,3
+39,yellow = 50,1,"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's",3
+40,purple = 30 and yellow = 50,1,yeah and yellow block is fifty,3
+41,red = 10,1,I will tell you that the red cube is ten grams,4
+42,blue = 10,1,Well the top is a ten,4
+43,green = 20,1,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same",4
+44,purple = 30,1,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+45,purple != 40,1,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+46,purple != 20,1,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+47,purple = 30,1,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+48,yellow = 50,1,uh so yellow we or red and blue there's no there's no ok,4
+49,blue = 10,1,blue is ten,4
+50,yellow = 50,1,and so that would mean yellow is fifty,4
+51,red = 10,1,I can tell you that the red cube is ten grams,5
+52,red = 10,1,alright reese you can fill out the survey on the end over there ok so we know red block is ten grams,5
+53,red = blue,1,"i'd say red block, blue block's basically the same because it's teetering",5
+54,red = 10 and blue = 10,1,"ok so yeah that scale so red block, blue block are both ten",5
+55,green = 20,1,so green block one's twenty,5
+56,red = 10 and blue = 10 and green = 20,1,"so red block, blue block are both ten in theory ten ten twenty",5
+57,green = 20,1,so the green we think is twenty ok so let's see we can use our hands as well,5
+58,purple > green,1,purple block is heavier than green block one so green block is twenty purple block is heavier than green block one,5
+59,purple > 20,1,ok so purple block's heavier ok ok so greather than twenty,5
+60,purple = 30,1,teeter teeter we know purple block's less than forty and greater than twenty so purple block's likely thirty we don't have any other options it purple block's gonna be thirty,5
+61,purple = 30 and green = 20,1,Thirty twenty,5
+62,yellow = 50,1,"purple block, green block looks almost a little bit heavier but it is it's close enough so fifty is not an option yeah definitely let's put sixty",5
+63,yellow = 50,1,"and purple block is thirty right and red block is ten so purple block, red block would be forty so yellow block's more than forty and less than sixty so yellow block's gotta be fifty",5
+64,yellow = 50 and purple = 30,1,i think yellow block is fifty and purple block is thirty,5
+65,purple = 30,1,yeah let's go thirty ok so purple block's thirty,5
+66,red = 10,1,I will tell you that the red cube is ten grams,6
+67,red = 10,1,i guess if red block red one's ten grams,6
+68,red = blue,1,"seems like red block, blue block might be about the same",6
+69,purple > red + blue,1,Too heavy so,6
+70,green = 20,1,that's looking pretty even,6
+71,red = 10 and green = 20,1,"it's just stuff written at the bottom that's a so red block, green block's a ten and a twenty right now right that's looking",6
+72,purple > 20 and purple < 30,1,ok so purple block's more than twenty but it almost seems like the thirty takes it past but,6
+73,purple = 30,1,"if red block, blue block, green block, yellow block, purple block're only in increments of ten purple block has to be",6
+74,yellow = 50,1,Fifty,6
+75,yellow < 50,1,"yeah purple block, green block's considerably heavier so purple block one did we say purple block was thirty",6
+76,purple = 30 and green = 20,1,yeah purple block's thirty green is twenty,6
+77, red = 10 and blue = 10,1,red and small blue are both ten,6
+78,yellow < purple + green,1,"but green block, purple block's too heavy",6
+79,purple + green = 50,1,"purple block, green block is fifty on here so then",6
+80,purple + blue = 40,1,"so purple block, blue block should be forty right there",6
+81,yellow = 50,1,i would say yellow is like forty five but we could say fifty since we're,6
+82,red = 10,1,I will tell you that the red cube is ten grams,7
+83,blue = 10,1,blue block seems to be ten,7
+84,green = 20,1,"yeah red block, blue block should be twenty as well",7
+85,green + red + blue = 40,1,"now red block, blue block, green block's forty",7
+86,purple = 30,1,yeah i think purple block's yeah thirty,7
+87,green = 20 and purple = 30,1,So is twenty and there is thirty,7
+88,yellow = 50,1,Fifty I guess,7
+89,yellow = 50,1,ah yeah because yeah so yellow block's fifty,7
+90,yellow = 50,1,no okay i think yellow block's fifty,7
+91,green = 20,1,yeah green is for twenty,8
+92,purple = 30,1,so twenty purple block's thirty,8
+93,yellow < purple + green,1,oh that's too left,8
+94,yellow > 40,1,oh yellow block's more than forty,8
+95,40 < yellow < 50,1,Between forty and fifty,8
+96,yellow > 40,1,it's definitely not staying in between right,8
+97,40 < yellow > 50,1,But we don't and less than fifty actually,8
+98,yellow < 50,1,Fifty is too heavy,8
+99,yellow=41,1,so yellow block's forty one,8
+100,yellow = 49,1,ok minus one it is yeah so yellow block is forty nine,8
+101,yellow = 50,1,ok so yellow block's probably meant to be just fifty and was placed differently,8
+102,red = 10,1,The red cube is ten grams,9
+103,red = blue,1,"i would say red block, blue block's equal probably",9
+104,green = red + blue,1,"yeah red block, blue block, green block's probably equal",9
+105,red = 10 and blue = 10,1,So we got ten ten,9
+106,green != purple,1,Definitely not equal,9
+107,green = 20 and blue = 10,1,"green block, blue block was twenty and ten right ok",9
+108,purple = 30,1,Look we have the thirty gram block and then,9
+109,yellow = purple + green,1,"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal",9
+110,purple = 30 and yellow = 50,1,purple block one was thirty so yellow block should be fifty less,9
+111,red = 10,1,I will tell you that the red cube is ten grams,10
+112,green = 20 and blue = 10 and red = 10,1,"i guess green block is like twenty and red block, blue block is like ten and ten",10
+113,red = blue,1,"it looks like red block, blue block're fairly equal",10
+114,green = 20 and red = 10 and blue = 10,1,"right so then green block's twenty red block, blue block two are ten",10
+115,red = blue,1,"yeah red block, blue block're together",10
+116,purple > green,1,"alright well now let's do green block, purple block two i can already tell purple block one's heavier yeah",10
+117,purple = green + red,1,"i say green block, red block, purple block are equal green block, red block, purple block are the instructions i suppose",10
+118,purple > green + red,1,"i'm guessing it's a little bit to the left a little bit to the left like it touches the red line but on the left hand side of the left line red red block, blue block, green block's gonna be heavier like not equal but almost almost equal how do wait how do we know green block one's twenty did we no we didn't",10
+119,purple = around 30,1,we we moved green block and checked the two tens remember we didn't do green block one okay yeah sure sure sure yeah yeah put thirty thirty yeah,10
+120,purple = 30 and green = 20 and yellow = 50,1,so purple block one's thirty and what's green block one twenty right twenty okay so yellow block one's gonna be fifty okay,10
+121,yellow < 50,1,i mean it's not gonna go anywhere i guess it's just oh,10
+122,yellow = 50,1,But there's no like I mean between weights so fifty,10
+123,yellow < 50,1,yellow block is like less than fifty less than fifty,10
+124,yellow < 50,1,yeah yeah it's it's almost settled down so yellow block's less than fifty,10
+125,yellow = 50,1,should i oh yeah yellow block is fifty grams,10
+126,purple = 30 and green = 20 and red = 10 and blue = 10,1,"so purple block was thirty right thirty green block was twenty and red block, blue block are tens",10
+127,green block does not equal red block plus blue block plus purple block,0,And we will tell you that this red cube on top is ten grams,1
+128,red block equals thirty and green block equals thirty and purple block equals fifty,0,And we will tell you that this red cube on top is ten grams,1
+129,red block equals forty and purple block equals twenty and yellow block equals twenty,0,And we will tell you that this red cube on top is ten grams,1
+130,red block equals twenty and blue block equals forty and green block equals twenty,0,And we will tell you that this red cube on top is ten grams,1
+131,yellow block equals red block plus blue block plus purple block,0,ok well red block would be nine minus ten,1
+132,red block equals twenty and blue block equals ten and green block equals thirty,0,ok well red block would be nine minus ten,1
+133,red block equals forty and purple block equals ten and yellow block equals fifty,0,ok well red block would be nine minus ten,1
+134,red block equals twenty and green block equals ten and yellow block equals twenty,0,ok well red block would be nine minus ten,1
+135,red block equals forty and blue block equals ten and yellow block equals forty,0,"red block, blue block seems pretty balanced",1
+136,red block equals twenty and green block equals thirty and yellow block equals thirty,0,"red block, blue block seems pretty balanced",1
+137,red block equals forty and blue block equals ten and yellow block equals fifty,0,"red block, blue block seems pretty balanced",1
+138,yellow block does not equal blue block plus green block plus purple block,0,"red block, blue block seems pretty balanced",1
+139,blue block equals ten and green block equals forty and yellow block equals forty,0,yeah ok so now we know that blue block is also ten,1
+140,red block equals fifty and blue block equals thirty and yellow block equals twenty,0,yeah ok so now we know that blue block is also ten,1
+141,blue block equals forty and green block equals thirty and purple block equals twenty,0,yeah ok so now we know that blue block is also ten,1
+142,blue block equals forty and green block equals twenty and purple block equals ten,0,yeah ok so now we know that blue block is also ten,1
+143,green block equals thirty and purple block equals forty and yellow block equals twenty,0,ok so green block one is probably twenty ten ten twenty,1
+144,red block equals forty and green block equals twenty and yellow block equals ten,0,ok so green block one is probably twenty ten ten twenty,1
+145,red block equals forty and green block equals thirty and purple block equals ten,0,ok so green block one is probably twenty ten ten twenty,1
+146,green block equals fifty and purple block equals thirty and yellow block equals thirty,0,ok so green block one is probably twenty ten ten twenty,1
+147,green block equals forty and purple block equals forty and yellow block equals fifty,0,ok so green block one is probably twenty ten ten twenty,1
+148,red block equals ten and green block equals forty and purple block equals forty,0,ok so green block one is probably twenty ten ten twenty,1
+149,red block equals ten and green block equals ten and purple block equals twenty,0,ok so green block one is probably twenty ten ten twenty,1
+150,red block equals fifty and green block equals forty and purple block equals forty,0,ok so green block one is probably twenty ten ten twenty,1
+151,red block equals fifty and green block equals fifty and purple block equals ten,0,"yeah yeah the blue dark blue one is thirty purple block's the larger one purple block, red block, blue block's slightly heavier yeah",1
+152,yellow block is less than red block plus blue block plus green block,0,"yeah yeah the blue dark blue one is thirty purple block's the larger one purple block, red block, blue block's slightly heavier yeah",1
+153,red block is less than thirty,0,"yeah yeah the blue dark blue one is thirty purple block's the larger one purple block, red block, blue block's slightly heavier yeah",1
+154,blue block equals twenty and purple block equals ten and yellow block equals forty,0,"yeah yeah the blue dark blue one is thirty purple block's the larger one purple block, red block, blue block's slightly heavier yeah",1
+155,green block equals forty,0,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty",1
+156,blue block equals forty and green block equals ten and yellow block equals thirty,0,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty",1
+157,red block is more than blue block plus yellow block,0,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty",1
+158,blue block equals thirty and green block equals thirty and yellow block equals ten,0,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty",1
+159,blue block equals forty and green block equals twenty and purple block equals thirty,0,"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing",1
+160,blue block equals forty and green block equals ten and purple block equals fifty,0,"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing",1
+161,red block equals forty and purple block equals twenty and yellow block equals forty,0,"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing",1
+162,red block equals ten and green block equals ten and yellow block equals twenty,0,"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing",1
+163,red block equals twenty and blue block equals twenty and yellow block equals thirty,0,yeah fifty so we say yellow is fifty,1
+164,green block equals forty and purple block equals fifty and yellow block equals forty,0,yeah fifty so we say yellow is fifty,1
+165,red block equals ten and blue block equals fifty and yellow block equals thirty,0,yeah fifty so we say yellow is fifty,1
+166,green block is more than red block plus blue block plus purple block plus yellow block,0,yeah fifty so we say yellow is fifty,1
+167,red block equals fifty and green block equals ten and purple block equals thirty,0,And we can tell you that that red cube right there is ten grams yep and you're going you're going to flip the piece of paper um,2
+168,red block equals forty and purple block equals fifty and yellow block equals forty,0,And we can tell you that that red cube right there is ten grams yep and you're going you're going to flip the piece of paper um,2
+169,red block equals ten and purple block equals twenty and yellow block equals twenty,0,And we can tell you that that red cube right there is ten grams yep and you're going you're going to flip the piece of paper um,2
+170,red block equals fifty and green block equals ten and yellow block equals forty,0,And we can tell you that that red cube right there is ten grams yep and you're going you're going to flip the piece of paper um,2
+171,yellow block does not equal red block plus blue block plus green block,0,"needle goes over the red line that means red block, blue block're probably equal",2
+172,red block equals fifty and blue block equals ten and yellow block equals fifty,0,"needle goes over the red line that means red block, blue block're probably equal",2
+173,red block equals forty and purple block equals twenty and yellow block equals thirty,0,"needle goes over the red line that means red block, blue block're probably equal",2
+174,red block equals fifty and blue block equals thirty and purple block equals ten,0,"needle goes over the red line that means red block, blue block're probably equal",2
+175,red block equals fifty and blue block equals thirty and green block equals twenty,0,so blue block one is probably ten grams too,2
+176,red block equals forty and blue block equals thirty and purple block equals thirty,0,so blue block one is probably ten grams too,2
+177,blue block equals forty and green block equals forty and yellow block equals thirty,0,so blue block one is probably ten grams too,2
+178,blue block is less than red block plus green block plus purple block,0,so blue block one is probably ten grams too,2
+179,red block equals twenty and blue block equals forty and green block equals ten,0,so knowing that uh oh sorry the green one was yeah,2
+180,green block equals thirty and purple block equals forty and yellow block equals fifty,0,so knowing that uh oh sorry the green one was yeah,2
+181,red block equals thirty and blue block equals fifty and green block equals thirty,0,so knowing that uh oh sorry the green one was yeah,2
+182,red block equals twenty and green block equals twenty and purple block equals twenty,0,so knowing that uh oh sorry the green one was yeah,2
+183,red block equals green block plus purple block plus yellow block,0,i guess and there's no increment so five so we could probably just go with thirty on purple block,2
+184,red block equals fifty and blue block equals fifty and purple block equals twenty,0,i guess and there's no increment so five so we could probably just go with thirty on purple block,2
+185,blue block equals fifty and green block equals forty and purple block equals fifty,0,i guess and there's no increment so five so we could probably just go with thirty on purple block,2
+186,red block equals fifty and purple block equals fifty and yellow block equals twenty,0,i guess and there's no increment so five so we could probably just go with thirty on purple block,2
+187,green block is less than thirty,0,"so purple block, green block's the twenty and the thirty",2
+188,blue block equals thirty and green block equals fifty and purple block equals twenty,0,"so purple block, green block's the twenty and the thirty",2
+189,red block equals thirty and blue block equals forty and purple block equals forty,0,"so purple block, green block's the twenty and the thirty",2
+190,red block equals twenty and green block equals forty and purple block equals ten,0,"so purple block, green block's the twenty and the thirty",2
+191,red block equals twenty and green block equals twenty and purple block equals thirty,0,We will tell you that the weight of the red cube is ten grams,3
+192,green block equals red block plus blue block plus purple block plus yellow block,0,We will tell you that the weight of the red cube is ten grams,3
+193,blue block equals red block plus green block,0,We will tell you that the weight of the red cube is ten grams,3
+194,red block equals fifty and blue block equals fifty and green block equals ten,0,We will tell you that the weight of the red cube is ten grams,3
+195,blue block equals ten and purple block equals fifty and yellow block equals ten,0,"i think red block, blue block're the same weight yeah",3
+196,red block equals fifty and purple block equals forty and yellow block equals twenty,0,"i think red block, blue block're the same weight yeah",3
+197,blue block equals twenty and green block equals thirty and yellow block equals fifty,0,"i think red block, blue block're the same weight yeah",3
+198,red block equals fifty and purple block equals twenty and yellow block equals ten,0,"i think red block, blue block're the same weight yeah",3
+199,red block equals forty and green block equals thirty and yellow block equals fifty,0,sufficient to say green block one's probably twenty or,3
+200,green block equals ten,0,sufficient to say green block one's probably twenty or,3
+201,red block equals twenty and green block equals twenty and yellow block equals ten,0,sufficient to say green block one's probably twenty or,3
+202,green block equals ten and purple block equals twenty and yellow block equals ten,0,sufficient to say green block one's probably twenty or,3
+203,red block equals fifty and green block equals forty and purple block equals thirty,0,the purple one is thirty,3
+204,blue block equals forty and purple block equals fifty and yellow block equals forty,0,the purple one is thirty,3
+205,purple block equals red block plus blue block plus yellow block,0,the purple one is thirty,3
+206,blue block equals ten and green block equals twenty and purple block equals thirty,0,the purple one is thirty,3
+207,green block equals thirty and purple block equals forty and yellow block equals thirty,0,green is twenty and purple is thirty so yellow block weighs to fifty,3
+208,blue block equals thirty and green block equals ten and yellow block equals thirty,0,green is twenty and purple is thirty so yellow block weighs to fifty,3
+209,red block equals thirty and purple block equals ten and yellow block equals fifty,0,green is twenty and purple is thirty so yellow block weighs to fifty,3
+210,red block equals thirty and green block equals forty and yellow block equals twenty,0,green is twenty and purple is thirty so yellow block weighs to fifty,3
+211,red block equals forty and green block equals twenty and purple block equals twenty,0,yeah i mentioned here green is twenty,3
+212,green block equals thirty and purple block equals thirty and yellow block equals forty,0,yeah i mentioned here green is twenty,3
+213,red block equals ten and blue block equals fifty and green block equals twenty,0,yeah i mentioned here green is twenty,3
+214,red block equals fifty and green block equals thirty and purple block equals forty,0,yeah i mentioned here green is twenty,3
+215,blue block equals ten and green block equals ten and yellow block equals ten,0,yellow is of course not ten but,3
+216,red block equals forty and green block equals forty and yellow block equals ten,0,yellow is of course not ten but,3
+217,red block equals ten and green block equals fifty and yellow block equals forty,0,yellow is of course not ten but,3
+218,blue block equals ten and purple block equals fifty and yellow block equals forty,0,yellow is of course not ten but,3
+219,red block equals fifty and green block equals forty and yellow block equals fifty,0,"no so when we try purple block, green block both",3
+220,green block equals twenty and purple block equals fifty and yellow block equals forty,0,"no so when we try purple block, green block both",3
+221,green block equals twenty and purple block equals thirty and yellow block equals twenty,0,"no so when we try purple block, green block both",3
+222,red block equals ten and blue block equals twenty and green block equals fifty,0,"no so when we try purple block, green block both",3
+223,red block equals fifty and green block equals fifty and yellow block equals fifty,0,so i feel yellow is fifty,3
+224,blue block equals thirty and green block equals twenty and yellow block equals fifty,0,so i feel yellow is fifty,3
+225,red block equals thirty and purple block equals forty and yellow block equals ten,0,so i feel yellow is fifty,3
+226,red block equals thirty and blue block equals thirty and yellow block equals thirty,0,so i feel yellow is fifty,3
+227,blue block equals forty and purple block equals fifty and yellow block equals ten,0,yellow block's for sure not thirty,3
+228,blue block equals ten and purple block equals thirty and yellow block equals forty,0,yellow block's for sure not thirty,3
+229,yellow block does not equal blue block plus green block,0,yellow block's for sure not thirty,3
+230,red block equals fifty and green block equals forty and yellow block equals thirty,0,yellow block's for sure not thirty,3
+231,red block equals thirty and blue block equals thirty and purple block equals twenty,0,"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's",3
+232,red block equals twenty and purple block equals ten and yellow block equals forty,0,"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's",3
+233,blue block equals forty and green block equals ten and yellow block equals forty,0,"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's",3
+234,yellow block is less than fifty,0,"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's",3
+235,green block equals twenty and purple block equals twenty and yellow block equals thirty,0,yeah and yellow block is fifty,3
+236,red block equals ten and green block equals ten and yellow block equals ten,0,yeah and yellow block is fifty,3
+237,blue block equals fifty and purple block equals ten and yellow block equals forty,0,yeah and yellow block is fifty,3
+238,red block equals ten and green block equals fifty and yellow block equals thirty,0,yeah and yellow block is fifty,3
+239,red block equals forty and blue block equals fifty and green block equals ten,0,I will tell you that the red cube is ten grams,4
+240,red block equals twenty and green block equals fifty and purple block equals thirty,0,I will tell you that the red cube is ten grams,4
+241,red block equals twenty and blue block equals forty and yellow block equals twenty,0,I will tell you that the red cube is ten grams,4
+242,red block equals twenty,0,I will tell you that the red cube is ten grams,4
+243,blue block equals forty and purple block equals thirty and yellow block equals forty,0,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same",4
+244,red block equals twenty and purple block equals forty and yellow block equals thirty,0,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same",4
+245,green block is more than red block plus yellow block,0,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same",4
+246,red block equals fifty and blue block equals fifty and green block equals fifty,0,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same",4
+247,red block equals ten and green block equals fifty and purple block equals ten,0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+248,blue block is less than red block plus purple block plus yellow block,0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+249,blue block equals thirty and green block equals twenty and purple block equals thirty,0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+250,purple block does not equal ten,0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+251,blue block equals ten and green block equals twenty and purple block equals fifty,0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+252,red block equals fifty and blue block equals fifty and purple block equals thirty,0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+253,green block equals twenty and purple block equals forty and yellow block equals forty,0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+254,red block equals thirty and green block equals twenty and purple block equals forty,0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+255,red block equals forty and purple block equals forty and yellow block equals ten,0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+256,purple block is less than red block,0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+257,red block equals thirty and purple block equals forty and yellow block equals fifty,0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+258,blue block equals twenty and green block equals thirty and purple block equals forty,0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+259,red block equals forty and blue block equals ten and purple block equals ten,0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+260,red block equals thirty and blue block equals ten and purple block equals ten,0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+261,green block equals ten and purple block equals fifty and yellow block equals thirty,0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+262,yellow block does not equal blue block plus green block plus purple block,0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+263,red block equals ten and purple block equals forty and yellow block equals thirty,0,uh so yellow we or red and blue there's no there's no ok,4
+264,blue block does not equal green block,0,uh so yellow we or red and blue there's no there's no ok,4
+265,blue block equals fifty and purple block equals thirty and yellow block equals forty,0,uh so yellow we or red and blue there's no there's no ok,4
+266,blue block equals red block plus green block plus purple block,0,uh so yellow we or red and blue there's no there's no ok,4
+267,yellow block equals blue block plus green block,0,blue is ten,4
+268,blue block equals fifty and green block equals fifty and yellow block equals thirty,0,blue is ten,4
+269,red block equals fifty and blue block equals fifty and purple block equals fifty,0,blue is ten,4
+270,red block equals twenty and blue block equals twenty and green block equals thirty,0,blue is ten,4
+271,red block equals ten and blue block equals ten and yellow block equals ten,0,and so that would mean yellow is fifty,4
+272,red block equals twenty and purple block equals ten and yellow block equals twenty,0,and so that would mean yellow is fifty,4
+273,green block equals thirty and purple block equals ten and yellow block equals ten,0,and so that would mean yellow is fifty,4
+274,red block equals thirty and blue block equals ten and yellow block equals fifty,0,and so that would mean yellow is fifty,4
+275,red block equals ten and green block equals twenty and purple block equals forty,0,I can tell you that the red cube is ten grams,5
+276,red block equals ten and purple block equals ten and yellow block equals fifty,0,I can tell you that the red cube is ten grams,5
+277,red block equals ten and blue block equals fifty and purple block equals thirty,0,I can tell you that the red cube is ten grams,5
+278,red block equals fifty and green block equals fifty and purple block equals fifty,0,I can tell you that the red cube is ten grams,5
+279,red block equals forty and blue block equals twenty and yellow block equals ten,0,alright reese you can fill out the survey on the end over there ok so we know red block is ten grams,5
+280,red block equals forty and blue block equals thirty and purple block equals twenty,0,alright reese you can fill out the survey on the end over there ok so we know red block is ten grams,5
+281,purple block equals red block plus yellow block,0,alright reese you can fill out the survey on the end over there ok so we know red block is ten grams,5
+282,red block equals fifty and blue block equals fifty and yellow block equals fifty,0,alright reese you can fill out the survey on the end over there ok so we know red block is ten grams,5
+283,blue block equals forty and purple block equals thirty and yellow block equals ten,0,"i'd say red block, blue block's basically the same because it's teetering",5
+284,red block equals thirty and blue block equals forty and green block equals thirty,0,"i'd say red block, blue block's basically the same because it's teetering",5
+285,red block equals twenty and purple block equals forty and yellow block equals forty,0,"i'd say red block, blue block's basically the same because it's teetering",5
+286,red block equals forty and blue block equals twenty and yellow block equals forty,0,"i'd say red block, blue block's basically the same because it's teetering",5
+287,blue block equals fifty and green block equals fifty and purple block equals twenty,0,"ok so yeah that scale so red block, blue block are both ten",5
+288,yellow block is less than red block plus blue block plus green block,0,"ok so yeah that scale so red block, blue block are both ten",5
+289,red block equals twenty and green block equals ten and purple block equals ten,0,"ok so yeah that scale so red block, blue block are both ten",5
+290,red block equals thirty and blue block equals forty and green block equals thirty,0,"ok so yeah that scale so red block, blue block are both ten",5
+291,red block equals fifty and blue block equals fifty and green block equals ten,0,so green block one's twenty,5
+292,red block equals forty and green block equals fifty and yellow block equals fifty,0,so green block one's twenty,5
+293,red block equals forty and blue block equals twenty and green block equals thirty,0,so green block one's twenty,5
+294,blue block is less than green block plus yellow block,0,so green block one's twenty,5
+295,yellow block is more than red block plus blue block,0,"so red block, blue block are both ten in theory ten ten twenty",5
+296,red block equals fifty and green block equals thirty and yellow block equals ten,0,"so red block, blue block are both ten in theory ten ten twenty",5
+297,red block is less than blue block,0,"so red block, blue block are both ten in theory ten ten twenty",5
+298,red block equals forty and purple block equals twenty and yellow block equals fifty,0,"so red block, blue block are both ten in theory ten ten twenty",5
+299,blue block equals thirty and green block equals twenty and yellow block equals thirty,0,so the green we think is twenty ok so let's see we can use our hands as well,5
+300,red block equals blue block plus green block,0,so the green we think is twenty ok so let's see we can use our hands as well,5
+301,red block equals thirty and green block equals twenty and purple block equals twenty,0,so the green we think is twenty ok so let's see we can use our hands as well,5
+302,purple block is less than blue block plus green block,0,so the green we think is twenty ok so let's see we can use our hands as well,5
+303,purple block equals green block plus yellow block,0,purple block is heavier than green block one so green block is twenty purple block is heavier than green block one,5
+304,red block equals fifty and green block equals forty and purple block equals forty,0,purple block is heavier than green block one so green block is twenty purple block is heavier than green block one,5
+305,red block equals fifty and purple block equals forty and yellow block equals twenty,0,purple block is heavier than green block one so green block is twenty purple block is heavier than green block one,5
+306,purple block is less than red block plus blue block,0,purple block is heavier than green block one so green block is twenty purple block is heavier than green block one,5
+307,green block does not equal blue block plus purple block plus yellow block,0,ok so purple block's heavier ok ok so greather than twenty,5
+308,red block equals twenty and blue block equals fifty and purple block equals thirty,0,ok so purple block's heavier ok ok so greather than twenty,5
+309,green block equals thirty and purple block equals ten and yellow block equals thirty,0,ok so purple block's heavier ok ok so greather than twenty,5
+310,blue block equals forty and purple block equals ten and yellow block equals twenty,0,ok so purple block's heavier ok ok so greather than twenty,5
+311,red block equals ten and green block equals thirty and purple block equals fifty,0,teeter teeter we know purple block's less than forty and greater than twenty so purple block's likely thirty we don't have any other options it purple block's gonna be thirty,5
+312,blue block equals twenty and green block equals forty and purple block equals thirty,0,teeter teeter we know purple block's less than forty and greater than twenty so purple block's likely thirty we don't have any other options it purple block's gonna be thirty,5
+313,green block equals forty and purple block equals thirty and yellow block equals thirty,0,teeter teeter we know purple block's less than forty and greater than twenty so purple block's likely thirty we don't have any other options it purple block's gonna be thirty,5
+314,green block equals thirty and purple block equals fifty and yellow block equals thirty,0,teeter teeter we know purple block's less than forty and greater than twenty so purple block's likely thirty we don't have any other options it purple block's gonna be thirty,5
+315,purple block equals yellow block,0,"purple block, green block looks almost a little bit heavier but it is it's close enough so fifty is not an option yeah definitely let's put sixty",5
+316,blue block equals forty and purple block equals forty and yellow block equals thirty,0,"purple block, green block looks almost a little bit heavier but it is it's close enough so fifty is not an option yeah definitely let's put sixty",5
+317,blue block equals thirty and green block equals forty and purple block equals forty,0,"purple block, green block looks almost a little bit heavier but it is it's close enough so fifty is not an option yeah definitely let's put sixty",5
+318,blue block equals thirty and green block equals fifty and purple block equals thirty,0,"purple block, green block looks almost a little bit heavier but it is it's close enough so fifty is not an option yeah definitely let's put sixty",5
+319,red block equals twenty and green block equals forty and yellow block equals thirty,0,"and purple block is thirty right and red block is ten so purple block, red block would be forty so yellow block's more than forty and less than sixty so yellow block's gotta be fifty",5
+320,red block equals thirty and green block equals fifty and purple block equals ten,0,"and purple block is thirty right and red block is ten so purple block, red block would be forty so yellow block's more than forty and less than sixty so yellow block's gotta be fifty",5
+321,red block equals twenty and blue block equals ten and purple block equals twenty,0,"and purple block is thirty right and red block is ten so purple block, red block would be forty so yellow block's more than forty and less than sixty so yellow block's gotta be fifty",5
+322,green block equals twenty and purple block equals ten and yellow block equals thirty,0,"and purple block is thirty right and red block is ten so purple block, red block would be forty so yellow block's more than forty and less than sixty so yellow block's gotta be fifty",5
+323,blue block does not equal green block plus purple block,0,i think yellow block is fifty and purple block is thirty,5
+324,red block equals thirty and green block equals thirty and yellow block equals thirty,0,i think yellow block is fifty and purple block is thirty,5
+325,blue block equals forty and green block equals twenty and yellow block equals forty,0,i think yellow block is fifty and purple block is thirty,5
+326,red block equals ten and purple block equals forty and yellow block equals ten,0,i think yellow block is fifty and purple block is thirty,5
+327,red block equals twenty and purple block equals twenty and yellow block equals twenty,0,yeah let's go thirty ok so purple block's thirty,5
+328,red block equals thirty and blue block equals forty and purple block equals fifty,0,yeah let's go thirty ok so purple block's thirty,5
+329,red block equals ten and purple block equals fifty and yellow block equals twenty,0,yeah let's go thirty ok so purple block's thirty,5
+330,red block equals thirty and green block equals ten and purple block equals twenty,0,yeah let's go thirty ok so purple block's thirty,5
+331,red block equals thirty and purple block equals fifty and yellow block equals ten,0,I will tell you that the red cube is ten grams,6
+332,red block equals ten and purple block equals forty and yellow block equals twenty,0,I will tell you that the red cube is ten grams,6
+333,red block equals fifty and green block equals twenty and yellow block equals ten,0,I will tell you that the red cube is ten grams,6
+334,red block equals forty and blue block equals ten and purple block equals thirty,0,I will tell you that the red cube is ten grams,6
+335,red block equals forty and blue block equals fifty and purple block equals thirty,0,i guess if red block red one's ten grams,6
+336,red block equals ten and blue block equals ten and yellow block equals thirty,0,i guess if red block red one's ten grams,6
+337,yellow block does not equal red block,0,i guess if red block red one's ten grams,6
+338,red block equals twenty and blue block equals forty and purple block equals thirty,0,i guess if red block red one's ten grams,6
+339,red block equals twenty and green block equals fifty and yellow block equals ten,0,"seems like red block, blue block might be about the same",6
+340,green block does not equal red block plus yellow block,0,"seems like red block, blue block might be about the same",6
+341,yellow block is less than red block,0,"seems like red block, blue block might be about the same",6
+342,blue block equals fifty and purple block equals thirty and yellow block equals fifty,0,"seems like red block, blue block might be about the same",6
+343,red block is more than thirty,0,"it's just stuff written at the bottom that's a so red block, green block's a ten and a twenty right now right that's looking",6
+344,red block equals ten and green block equals thirty and yellow block equals twenty,0,"it's just stuff written at the bottom that's a so red block, green block's a ten and a twenty right now right that's looking",6
+345,red block equals forty and blue block equals thirty and yellow block equals forty,0,"it's just stuff written at the bottom that's a so red block, green block's a ten and a twenty right now right that's looking",6
+346,red block equals ten and green block equals ten and purple block equals twenty,0,"it's just stuff written at the bottom that's a so red block, green block's a ten and a twenty right now right that's looking",6
+347,red block equals purple block,0,ok so purple block's more than twenty but it almost seems like the thirty takes it past but,6
+348,red block equals thirty and green block equals thirty and purple block equals twenty,0,ok so purple block's more than twenty but it almost seems like the thirty takes it past but,6
+349,red block equals forty and green block equals twenty and purple block equals twenty,0,ok so purple block's more than twenty but it almost seems like the thirty takes it past but,6
+350,green block equals ten and purple block equals fifty and yellow block equals thirty,0,ok so purple block's more than twenty but it almost seems like the thirty takes it past but,6
+351,green block equals forty and purple block equals ten and yellow block equals thirty,0,"if red block, blue block, green block, yellow block, purple block're only in increments of ten purple block has to be",6
+352,blue block equals ten and green block equals thirty and yellow block equals twenty,0,"if red block, blue block, green block, yellow block, purple block're only in increments of ten purple block has to be",6
+353,red block equals thirty and green block equals thirty and yellow block equals forty,0,"if red block, blue block, green block, yellow block, purple block're only in increments of ten purple block has to be",6
+354,blue block equals thirty and green block equals thirty and purple block equals thirty,0,"if red block, blue block, green block, yellow block, purple block're only in increments of ten purple block has to be",6
+355,green block equals forty and purple block equals ten and yellow block equals ten,0,"yeah purple block, green block's considerably heavier so purple block one did we say purple block was thirty",6
+356,purple block does not equal twenty,0,"yeah purple block, green block's considerably heavier so purple block one did we say purple block was thirty",6
+357,red block equals forty and blue block equals twenty and purple block equals fifty,0,"yeah purple block, green block's considerably heavier so purple block one did we say purple block was thirty",6
+358,green block equals forty and purple block equals fifty and yellow block equals thirty,0,"yeah purple block, green block's considerably heavier so purple block one did we say purple block was thirty",6
+359,yellow block does not equal red block plus green block,0,yeah purple block's thirty green is twenty,6
+360,red block equals thirty and green block equals forty and purple block equals fifty,0,yeah purple block's thirty green is twenty,6
+361,red block equals thirty and purple block equals twenty and yellow block equals thirty,0,yeah purple block's thirty green is twenty,6
+362,red block equals ten and blue block equals fifty and purple block equals thirty,0,yeah purple block's thirty green is twenty,6
+363,blue block equals red block,0,red and small blue are both ten,6
+364,blue block equals fifty and green block equals ten and purple block equals ten,0,red and small blue are both ten,6
+365,red block equals fifty and green block equals ten and yellow block equals ten,0,red and small blue are both ten,6
+366,red block equals forty and blue block equals forty and green block equals fifty,0,red and small blue are both ten,6
+367,blue block equals forty and green block equals forty and purple block equals fifty,0,"but green block, purple block's too heavy",6
+368,red block equals fifty and green block equals thirty and purple block equals forty,0,"but green block, purple block's too heavy",6
+369,red block equals forty and green block equals fifty and purple block equals ten,0,"but green block, purple block's too heavy",6
+370,purple block does not equal red block,0,"but green block, purple block's too heavy",6
+371,purple block does not equal ten,0,"purple block, green block is fifty on here so then",6
+372,red block equals forty and blue block equals twenty and purple block equals fifty,0,"purple block, green block is fifty on here so then",6
+373,red block equals forty and purple block equals twenty and yellow block equals ten,0,"purple block, green block is fifty on here so then",6
+374,red block equals thirty and green block equals twenty and yellow block equals ten,0,"purple block, green block is fifty on here so then",6
+375,blue block equals fifty and green block equals forty and yellow block equals twenty,0,"so purple block, blue block should be forty right there",6
+376,blue block equals fifty and green block equals ten and purple block equals forty,0,"so purple block, blue block should be forty right there",6
+377,purple block does not equal red block plus blue block plus green block,0,"so purple block, blue block should be forty right there",6
+378,purple block does not equal red block plus blue block plus yellow block,0,"so purple block, blue block should be forty right there",6
+379,yellow block equals red block plus purple block,0,i would say yellow is like forty five but we could say fifty since we're,6
+380,red block equals thirty and purple block equals ten and yellow block equals thirty,0,i would say yellow is like forty five but we could say fifty since we're,6
+381,green block does not equal yellow block,0,i would say yellow is like forty five but we could say fifty since we're,6
+382,red block equals twenty and blue block equals twenty and yellow block equals twenty,0,i would say yellow is like forty five but we could say fifty since we're,6
+383,red block equals fifty and blue block equals ten and green block equals twenty,0,I will tell you that the red cube is ten grams,7
+384,red block equals forty and blue block equals fifty and yellow block equals thirty,0,I will tell you that the red cube is ten grams,7
+385,red block equals forty and blue block equals fifty and purple block equals twenty,0,I will tell you that the red cube is ten grams,7
+386,red block equals twenty and blue block equals thirty and green block equals twenty,0,I will tell you that the red cube is ten grams,7
+387,red block equals thirty and blue block equals thirty and purple block equals ten,0,blue block seems to be ten,7
+388,red block equals ten and blue block equals forty and purple block equals ten,0,blue block seems to be ten,7
+389,red block equals forty and blue block equals fifty and yellow block equals ten,0,blue block seems to be ten,7
+390,red block equals ten and blue block equals twenty and yellow block equals twenty,0,blue block seems to be ten,7
+391,blue block equals thirty and green block equals twenty and yellow block equals forty,0,"yeah red block, blue block should be twenty as well",7
+392,red block equals fifty and blue block equals twenty and purple block equals forty,0,"yeah red block, blue block should be twenty as well",7
+393,blue block does not equal red block plus green block,0,"yeah red block, blue block should be twenty as well",7
+394,red block equals forty and green block equals ten and yellow block equals twenty,0,"yeah red block, blue block should be twenty as well",7
+395,red block equals forty and blue block equals forty and purple block equals thirty,0,"now red block, blue block, green block's forty",7
+396,blue block equals thirty and purple block equals twenty and yellow block equals twenty,0,"now red block, blue block, green block's forty",7
+397,blue block equals thirty and green block equals thirty and purple block equals thirty,0,"now red block, blue block, green block's forty",7
+398,red block equals forty and purple block equals fifty and yellow block equals ten,0,"now red block, blue block, green block's forty",7
+399,red block equals thirty and green block equals fifty and purple block equals forty,0,yeah i think purple block's yeah thirty,7
+400,green block equals fifty and purple block equals twenty and yellow block equals thirty,0,yeah i think purple block's yeah thirty,7
+401,purple block does not equal red block plus blue block plus yellow block,0,yeah i think purple block's yeah thirty,7
+402,blue block equals forty and purple block equals ten and yellow block equals ten,0,yeah i think purple block's yeah thirty,7
+403,red block equals twenty and purple block equals fifty and yellow block equals thirty,0,ah yeah because yeah so yellow block's fifty,7
+404,yellow block is more than red block plus blue block plus green block plus purple block,0,ah yeah because yeah so yellow block's fifty,7
+405,yellow block is more than blue block plus green block,0,ah yeah because yeah so yellow block's fifty,7
+406,blue block equals fifty and green block equals fifty and yellow block equals ten,0,ah yeah because yeah so yellow block's fifty,7
+407,red block equals twenty and green block equals thirty and yellow block equals ten,0,no okay i think yellow block's fifty,7
+408,purple block is more than blue block plus yellow block,0,no okay i think yellow block's fifty,7
+409,blue block equals forty and green block equals thirty and yellow block equals ten,0,no okay i think yellow block's fifty,7
+410,red block equals twenty and purple block equals thirty and yellow block equals thirty,0,no okay i think yellow block's fifty,7
+411,green block does not equal red block plus blue block plus purple block,0,yeah green is for twenty,8
+412,blue block equals forty and green block equals ten and purple block equals forty,0,yeah green is for twenty,8
+413,purple block is more than red block plus blue block plus green block,0,yeah green is for twenty,8
+414,green block is more than blue block plus yellow block,0,yeah green is for twenty,8
+415,blue block equals forty and purple block equals thirty and yellow block equals ten,0,so twenty purple block's thirty,8
+416,red block equals forty and blue block equals forty and purple block equals twenty,0,so twenty purple block's thirty,8
+417,blue block equals twenty and purple block equals forty and yellow block equals ten,0,so twenty purple block's thirty,8
+418,red block equals thirty and purple block equals fifty and yellow block equals forty,0,so twenty purple block's thirty,8
+419,purple block equals red block plus blue block plus yellow block,0,oh yellow block's more than forty,8
+420,red block equals fifty and purple block equals thirty and yellow block equals ten,0,oh yellow block's more than forty,8
+421,blue block equals twenty and green block equals twenty and yellow block equals twenty,0,oh yellow block's more than forty,8
+422,blue block is less than red block plus green block plus purple block plus yellow block,0,oh yellow block's more than forty,8
+423,green block equals thirty and purple block equals fifty and yellow block equals forty,0,so yellow block's forty one,8
+424,red block equals ten and green block equals twenty and yellow block equals forty,0,so yellow block's forty one,8
+425,blue block equals fifty and green block equals ten and yellow block equals fifty,0,so yellow block's forty one,8
+426,red block equals ten and purple block equals ten and yellow block equals ten,0,so yellow block's forty one,8
+427,red block equals thirty and green block equals twenty and yellow block equals twenty,0,ok minus one it is yeah so yellow block is forty nine,8
+428,blue block equals ten and purple block equals forty and yellow block equals fifty,0,ok minus one it is yeah so yellow block is forty nine,8
+429,purple block equals red block plus blue block plus yellow block,0,ok minus one it is yeah so yellow block is forty nine,8
+430,blue block equals twenty and purple block equals twenty and yellow block equals twenty,0,ok minus one it is yeah so yellow block is forty nine,8
+431,red block equals thirty and blue block equals ten and yellow block equals ten,0,ok so yellow block's probably meant to be just fifty and was placed differently,8
+432,red block equals thirty and purple block equals ten and yellow block equals ten,0,ok so yellow block's probably meant to be just fifty and was placed differently,8
+433,red block is less than blue block plus purple block plus yellow block,0,ok so yellow block's probably meant to be just fifty and was placed differently,8
+434,yellow block does not equal red block plus blue block plus purple block,0,ok so yellow block's probably meant to be just fifty and was placed differently,8
+435,red block equals fifty and purple block equals ten and yellow block equals fifty,0,The red cube is ten grams,9
+436,red block equals ten and purple block equals ten and yellow block equals thirty,0,The red cube is ten grams,9
+437,red block is less than twenty,0,The red cube is ten grams,9
+438,red block equals twenty and blue block equals twenty and yellow block equals fifty,0,The red cube is ten grams,9
+439,green block is more than red block plus blue block plus purple block,0,"i would say red block, blue block's equal probably",9
+440,blue block equals forty and purple block equals thirty and yellow block equals ten,0,"i would say red block, blue block's equal probably",9
+441,red block equals ten and green block equals ten and purple block equals forty,0,"i would say red block, blue block's equal probably",9
+442,red block equals forty and blue block equals fifty and yellow block equals ten,0,"i would say red block, blue block's equal probably",9
+443,red block equals forty and green block equals ten and yellow block equals fifty,0,"yeah red block, blue block, green block's probably equal",9
+444,blue block equals thirty and purple block equals thirty and yellow block equals ten,0,"yeah red block, blue block, green block's probably equal",9
+445,red block equals fifty and blue block equals twenty and green block equals forty,0,"yeah red block, blue block, green block's probably equal",9
+446,red block equals forty and blue block equals forty and green block equals forty,0,"yeah red block, blue block, green block's probably equal",9
+447,blue block equals ten and green block equals thirty and yellow block equals fifty,0,"green block, blue block was twenty and ten right ok",9
+448,red block equals thirty and blue block equals ten and purple block equals thirty,0,"green block, blue block was twenty and ten right ok",9
+449,red block equals fifty and blue block equals fifty and yellow block equals fifty,0,"green block, blue block was twenty and ten right ok",9
+450,green block equals twenty and purple block equals fifty and yellow block equals fifty,0,"green block, blue block was twenty and ten right ok",9
+451,green block equals twenty and purple block equals fifty and yellow block equals thirty,0,"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal",9
+452,green block equals twenty and purple block equals twenty and yellow block equals forty,0,"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal",9
+453,blue block equals twenty and purple block equals thirty and yellow block equals ten,0,"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal",9
+454,blue block equals twenty and green block equals fifty and purple block equals twenty,0,"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal",9
+455,red block equals thirty and green block equals forty and yellow block equals forty,0,purple block one was thirty so yellow block should be fifty less,9
+456,red block equals fifty and green block equals thirty and yellow block equals forty,0,purple block one was thirty so yellow block should be fifty less,9
+457,red block equals thirty and green block equals fifty and yellow block equals thirty,0,purple block one was thirty so yellow block should be fifty less,9
+458,red block equals twenty and green block equals fifty and purple block equals forty,0,purple block one was thirty so yellow block should be fifty less,9
+459,red block equals ten and green block equals ten and purple block equals twenty,0,I will tell you that the red cube is ten grams,10
+460,red block equals twenty and green block equals fifty and purple block equals fifty,0,I will tell you that the red cube is ten grams,10
+461,red block equals ten and green block equals thirty and purple block equals fifty,0,I will tell you that the red cube is ten grams,10
+462,green block is less than red block,0,I will tell you that the red cube is ten grams,10
+463,green block equals fifty and purple block equals twenty and yellow block equals twenty,0,"i guess green block is like twenty and red block, blue block is like ten and ten",10
+464,red block equals ten and blue block equals thirty and yellow block equals twenty,0,"i guess green block is like twenty and red block, blue block is like ten and ten",10
+465,red block equals thirty and blue block equals twenty and purple block equals thirty,0,"i guess green block is like twenty and red block, blue block is like ten and ten",10
+466,blue block equals forty and green block equals ten and yellow block equals thirty,0,"i guess green block is like twenty and red block, blue block is like ten and ten",10
+467,red block equals fifty and blue block equals fifty and green block equals forty,0,"it looks like red block, blue block're fairly equal",10
+468,red block equals twenty,0,"it looks like red block, blue block're fairly equal",10
+469,red block equals twenty and green block equals thirty and yellow block equals ten,0,"it looks like red block, blue block're fairly equal",10
+470,red block equals forty and blue block equals forty and green block equals fifty,0,"it looks like red block, blue block're fairly equal",10
+471,blue block equals ten and purple block equals ten and yellow block equals thirty,0,"right so then green block's twenty red block, blue block two are ten",10
+472,red block equals thirty and purple block equals thirty and yellow block equals ten,0,"right so then green block's twenty red block, blue block two are ten",10
+473,blue block equals forty and green block equals ten and yellow block equals fifty,0,"right so then green block's twenty red block, blue block two are ten",10
+474,blue block equals ten and green block equals forty and yellow block equals twenty,0,"right so then green block's twenty red block, blue block two are ten",10
+475,red block is less than purple block plus yellow block,0,"yeah red block, blue block're together",10
+476,red block equals twenty and blue block equals fifty and purple block equals twenty,0,"yeah red block, blue block're together",10
+477,blue block equals ten and green block equals fifty and purple block equals fifty,0,"yeah red block, blue block're together",10
+478,blue block equals ten and purple block equals ten and yellow block equals fifty,0,"yeah red block, blue block're together",10
+479,blue block equals ten and green block equals forty and purple block equals fifty,0,"alright well now let's do green block, purple block two i can already tell purple block one's heavier yeah",10
+480,yellow block is more than blue block plus green block plus purple block,0,"alright well now let's do green block, purple block two i can already tell purple block one's heavier yeah",10
+481,green block equals forty and purple block equals ten and yellow block equals thirty,0,"alright well now let's do green block, purple block two i can already tell purple block one's heavier yeah",10
+482,red block equals fifty and green block equals thirty and purple block equals ten,0,"alright well now let's do green block, purple block two i can already tell purple block one's heavier yeah",10
+483,red block equals fifty and green block equals fifty and purple block equals ten,0,"i say green block, red block, purple block are equal green block, red block, purple block are the instructions i suppose",10
+484,red block equals thirty and green block equals forty and purple block equals thirty,0,"i say green block, red block, purple block are equal green block, red block, purple block are the instructions i suppose",10
+485,red block equals thirty and blue block equals forty and green block equals thirty,0,"i say green block, red block, purple block are equal green block, red block, purple block are the instructions i suppose",10
+486,green block equals thirty and purple block equals thirty and yellow block equals ten,0,"i say green block, red block, purple block are equal green block, red block, purple block are the instructions i suppose",10
+487,red block equals ten and blue block equals twenty and yellow block equals ten,0,"i'm guessing it's a little bit to the left a little bit to the left like it touches the red line but on the left hand side of the left line red red block, blue block, green block's gonna be heavier like not equal but almost almost equal how do wait how do we know green block one's twenty did we no we didn't",10
+488,purple block is more than blue block plus green block plus yellow block,0,"i'm guessing it's a little bit to the left a little bit to the left like it touches the red line but on the left hand side of the left line red red block, blue block, green block's gonna be heavier like not equal but almost almost equal how do wait how do we know green block one's twenty did we no we didn't",10
+489,red block equals thirty and green block equals thirty and purple block equals ten,0,"i'm guessing it's a little bit to the left a little bit to the left like it touches the red line but on the left hand side of the left line red red block, blue block, green block's gonna be heavier like not equal but almost almost equal how do wait how do we know green block one's twenty did we no we didn't",10
+490,green block equals fifty and purple block equals twenty and yellow block equals thirty,0,"i'm guessing it's a little bit to the left a little bit to the left like it touches the red line but on the left hand side of the left line red red block, blue block, green block's gonna be heavier like not equal but almost almost equal how do wait how do we know green block one's twenty did we no we didn't",10
+491,red block equals ten and blue block equals forty and green block equals ten,0,we we moved green block and checked the two tens remember we didn't do green block one okay yeah sure sure sure yeah yeah put thirty thirty yeah,10
+492,blue block equals red block plus green block plus purple block plus yellow block,0,we we moved green block and checked the two tens remember we didn't do green block one okay yeah sure sure sure yeah yeah put thirty thirty yeah,10
+493,blue block equals ten and green block equals ten and yellow block equals twenty,0,we we moved green block and checked the two tens remember we didn't do green block one okay yeah sure sure sure yeah yeah put thirty thirty yeah,10
+494,green block equals red block plus purple block,0,we we moved green block and checked the two tens remember we didn't do green block one okay yeah sure sure sure yeah yeah put thirty thirty yeah,10
+495,green block equals twenty and purple block equals fifty and yellow block equals thirty,0,so purple block one's thirty and what's green block one twenty right twenty okay so yellow block one's gonna be fifty okay,10
+496,red block is more than blue block plus green block plus purple block,0,so purple block one's thirty and what's green block one twenty right twenty okay so yellow block one's gonna be fifty okay,10
+497,blue block equals twenty and green block equals twenty and yellow block equals ten,0,so purple block one's thirty and what's green block one twenty right twenty okay so yellow block one's gonna be fifty okay,10
+498,green block equals fifty and purple block equals thirty and yellow block equals fifty,0,so purple block one's thirty and what's green block one twenty right twenty okay so yellow block one's gonna be fifty okay,10
+499,blue block equals ten and purple block equals thirty and yellow block equals forty,0,yellow block is like less than fifty less than fifty,10
+500,red block is more than green block plus yellow block,0,yellow block is like less than fifty less than fifty,10
+501,red block equals forty and blue block equals twenty and yellow block equals forty,0,yellow block is like less than fifty less than fifty,10
+502,red block equals forty and blue block equals twenty and yellow block equals twenty,0,yellow block is like less than fifty less than fifty,10
+503,blue block equals thirty and purple block equals thirty and yellow block equals thirty,0,yeah yeah it's it's almost settled down so yellow block's less than fifty,10
+504,red block equals fifty and blue block equals twenty and yellow block equals ten,0,yeah yeah it's it's almost settled down so yellow block's less than fifty,10
+505,green block equals forty and purple block equals ten and yellow block equals fifty,0,yeah yeah it's it's almost settled down so yellow block's less than fifty,10
+506,green block equals twenty and purple block equals twenty and yellow block equals thirty,0,yeah yeah it's it's almost settled down so yellow block's less than fifty,10
+507,green block equals fifty and purple block equals forty and yellow block equals twenty,0,should i oh yeah yellow block is fifty grams,10
+508,red block equals fifty and blue block equals thirty and yellow block equals forty,0,should i oh yeah yellow block is fifty grams,10
+509,red block equals ten and green block equals twenty and yellow block equals twenty,0,should i oh yeah yellow block is fifty grams,10
+510,blue block equals fifty and green block equals thirty and yellow block equals twenty,0,should i oh yeah yellow block is fifty grams,10
+511,red block equals forty and purple block equals ten and yellow block equals forty,0,"so purple block was thirty right thirty green block was twenty and red block, blue block are tens",10
+512,red block equals thirty and blue block equals twenty and green block equals forty,0,"so purple block was thirty right thirty green block was twenty and red block, blue block are tens",10
+513,red block equals ten and purple block equals forty and yellow block equals ten,0,"so purple block was thirty right thirty green block was twenty and red block, blue block are tens",10
+514,blue block equals thirty and purple block equals forty and yellow block equals ten,0,"so purple block was thirty right thirty green block was twenty and red block, blue block are tens",10

@@ -1,0 +1,52 @@
+Begin Time - ss.msec,End Time - ss.msec,Common Ground
+24.42,27.72,S0: STATEMENT(red = 10)
+28.94,29.47,ACCEPT(S0)
+80.52,81.67,S1: STATEMENT(red = 10)
+92.7,94.69,"O1: OBSERVATION: on(RedBlock,  LefttScale) and on(BlueBlock, RightScale) and Scale: lean(zero)"
+94.71,95.13,I1: INFERENCE-FROM (O1 and red = 10 )
+95.19,97.17,S2: STATEMENT(red = blue)
+97.577,98.088,ACCEPT(S2)
+99.78,102.03,S3: STATEMENT(blue = 10)
+104.08,104.58,ACCEPT(S3)
+106.23,110.01,R1: RECOMMENDATION(red + blue = purple?)
+111.5,111.88,"O2: OBSERVATION: on(PurpleBlock, RightScale) and on(RedBlock and BlueBlock, LeftScale) and Scale: lean(left)"
+111.88,112.42,I2: INFERENCE-FROM(O2 and red = 10 and blue = 10)
+112.42,112.72,S4: STATEMENT(purple > 20)
+112.74,113.76,S5: STATEMENT: (purple != 20)
+125.09,126.28,"O3: OBSERVATION: on(RedBlock and BlueBlock, LeftScale) and on(GreenBlock, RightScale) and Scale: lean(zero)"
+126.28,127.34,I3: INFERENCE-FROM (O3 and red = blue = 10)
+127.35,129.19,S6: STATEMENT(green = 20)
+129.2,129.46,ACCEPT(S6)
+129.47,131.98,S7: STATEMENT(S209: STATEMENT(red = 10 and blue = 10 and green = 20))
+132.26,135.42,R2: RECOMMENDATION(? = 30)
+139.41,140.38,"O4: OBSERVATION: on(PurpleBlock, RightScale) and on(BlueBlock and GreenBlock, LeftScale) and Scale: lean(zero)"
+140.38,140.73,I4: INFERENCE-FROM (O4 and blue =10 and green = 20)
+140.73,142.81,S9: STATEMENT(purple = 30)
+148.81,150.56,ACCEPT(S9)
+153.89,158.71,R3: RECOMMENDATION(yellow = purple + blue?)
+169.28,171.98,"O5: OBSERVATION: on(YellowBlock, RightScale) and on(PurpleBlock and RedBlock and BlueBlock, LeftScale) and Scale: lean(right)"
+172.54,174.22,Q1: QUESTION(purple = 30?)
+174.22,175.25,"A1: ANSWER(Q1, yes)"
+179.4,181.05,I5: INFERENCE-FROM(O5)
+181.08,182.28,S10: STATEMENT(yellow > purple + red + blue)
+182.3,183.54,Q2: QUESTION(green = 20?)
+183.56,185.12,ACCEPT(S10)
+185.46,189.71,R4: RECOMMENDATION(yellow = 60?)
+198.15,200.37,Q3: QUESTION(blue = ?)
+200.39,201.15,A2: ANSWER(blue = 10)
+207.06,210.87,"S11: STATEMENT(red = 10, blue = 10, green = 20, purple = 30)"
+228,231.53,"O6: OBSERVATION: on(YellowBlock, RightScale) and on(PurpleBlock and GreenBlock, LeftScale) and Scale: lean(left)"
+231.61,236.23,Q3: QUESTION(green + purple = 50?)
+237.08,237.69,"A2: ANSWER(Q3, yes)"
+237.71,238.02,I6: INFERENCE-FROM(O6 and green = 20 and purple = 30)
+238.04,239.92,S12: STATEMENT(yellow < 50)
+254.61,256.26,Q4: QUESTION(green = 20?)
+256.31,257.16,"A3: ANSWER(Q4, yes)"
+261.83,263.921,"O7: OBSERVATION: on(YellowBlock, RightScale) and on(PurpleBlock, LeftScale) and on(GreenBlock, LeftScale) and Scale: lean(zero)"
+263.94,265.48,I7: INFERENCE-FROM(O7 and green = 20 and purple = 30)
+265.5,268.13,S13: STATEMENT(yellow = 50)
+268.16,269.27,ACCEPT(S13)
+274.24,275.53,Q5: QUESTION(green = 20?)
+275.55,276.2,"A4: ANSWER(Q5, yes)"
+285.277,287.188,Q6: QUESTION(purple = 30?)
+288.56,289.98,"A5: ANSWER(Q6, yes)"

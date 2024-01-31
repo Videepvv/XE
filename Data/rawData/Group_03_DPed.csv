@@ -1,0 +1,51 @@
+,Utterance,Participant,Start,End,Transcript,Action_Objects,Annotation,DPed
+0,12,1,86.43,87.67,prepare things for [this] one,"a2-RedBlock, a88-RedBlock",[r],prepare things for red block one
+1,14,1,112.41,114.39,so you think [they]'re the same weight or,,[rb],"so you think red block, blue block're the same weight or"
+2,15,1,116.13,118.17,[they]'re still teetering,,[rb],"red block, blue block're still teetering"
+3,16,1,144.5,147.27,i think [they]'re the same weight yeah,,[rb],"i think red block, blue block're the same weight yeah"
+4,17,2,142.38,145.07,i think [they] are same weight,,[rb],"i think red block, blue block are same weight"
+5,25,3,162.4,165.36,the blue one is also ten right,,,the blue one is also ten right
+6,26,3,165.45,167.82,so i should indicate [it] as ten,,[b],so i should indicate blue block as ten
+7,29,1,186.96,192.42,the suspense is killing me [it] takes forever,,[-],the suspense is killing me it takes forever
+8,30,3,214.42,219.93,yes [it]'s probably twenty so green one is twenty,,[g],yes green block's probably twenty so green one is twenty
+9,31,1,212.13,214.16,sufficient to say [that] one's probably twenty or,,[g],sufficient to say green block one's probably twenty or
+10,34,1,232.32,235.65,i think [that]'s a good guess,a17-YellowBlock,[-],i think that's a good guess
+11,36,2,238.47,240.45,the purple one is thirty,,,the purple one is thirty
+12,37,3,241.8,243.42,purple is thirty yeah,,,purple is thirty yeah
+13,38,2,243.66,246.0,which is blue and which is purple,a18-BlueBlock,,which is blue and which is purple
+14,39,2,246.36,247.42,hold [that] purple,,[-],hold that purple
+15,40,1,246.36,250.86,i think [this] is more purple-y yeah,"a19-BlueBlock, a20-PurpleBlock",[p],i think purple block is more purple-y yeah
+16,41,3,248.5,250.25,[this] is blue maybe,,[b],blue block is blue maybe
+17,43,1,254.04,264.18,[this] one feels just a smidge heavier yeah try [that] one,"a21-GreenBlock, a22-GreenBlock, a58-YellowBlock, a59-PurpleBlock, a60-RedBlock, a61-PurpleBlock, a95-YellowBlock, a96-GreenBlock",[y] [g],yellow block one feels just a smidge heavier yeah try green block one
+18,44,3,264.21,266.16,green is twenty right,,,green is twenty right
+19,45,2,265.65,268.29,green and [this] one,,[p],green and purple block one
+20,46,3,269.35,272.58,green is twenty and purple is thirty so [it] weighs to fifty,,[y],green is twenty and purple is thirty so yellow block weighs to fifty
+21,47,1,274.95,277.05,[it] seems to be,,[-],it seems to be
+22,48,3,277.53,279.75,yeah i mentioned here green is twenty,,,yeah i mentioned here green is twenty
+23,49,2,277.92,281.43,[it]'s leaning more [this] side so,,[-] [-],it's leaning more this side so
+24,50,2,285.18,287.82,[it]'s leaning more to the side,,[-],it's leaning more to the side
+25,51,3,288.93,294.3,so how about yellow,"a23-GreenBlock, a62-RedBlock",,so how about yellow
+26,52,2,298.35,300.96,then green is twenty and [they] weigh,a97-None,[-],then green is twenty and they weigh
+27,53,3,295.29,298.0,uh put both of [these],"a63-RedBlock, a64-BlueBlock, a81-RedBlock",[rg],"uh put both of red block, green block"
+28,55,1,305.46,309.58,wait purple is how much purple was thirty,,,wait purple is how much purple was thirty
+29,56,3,309.08,310.8,purple is thirty,,,purple is thirty
+30,57,3,314.1,315.58,yellow is of course not ten but,,,yellow is of course not ten but
+31,58,1,316.41,317.43,and green is,,,and green is
+32,60,1,326.85,330.69,have we tried [these] two and the green one cause [it]'s,a24-GreenBlock,[rb] [-],"have we tried red block, blue block two and the green one cause it's"
+33,62,1,336.06,338.42,nope [that]'s too light ok too light,,[-],nope that's too light ok too light
+34,63,3,337.33,341.55,no so when we try [these] both,"a27-BlueBlock, a67-PurpleBlock, a99-PurpleBlock",[pg],"no so when we try purple block, green block both"
+35,64,3,344.01,348.36,so i feel yellow is fifty,"a28-RedBlock, a100-RedBlock",,so i feel yellow is fifty
+36,65,1,345.75,347.42,[that] is equivalent to the,,[-],that is equivalent to the
+37,66,3,356.19,359.46,[this] has thirty and twenty,a29-RedBlock,[pg],"purple block, green block has thirty and twenty"
+38,67,3,359.91,362.94,yeah green is twenty and purple is thirty,,,yeah green is twenty and purple is thirty
+39,68,2,366.06,371.16,[it]'s for sure not thirty,a68-RedBlock,[y],yellow block's for sure not thirty
+40,69,1,371.49,378.24,so if you put the purple and just to verify [that] all of our weights are correct,"a30-PurpleBlock, a69-GreenBlock, a70-BlueBlock, a71-None",[-],so if you put the purple and just to verify that all of our weights are correct
+41,71,1,396.69,404.73,[it] must be [this] right because comparing [it] to forty [it]'s,,[y] [rbp] [y] [y],"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's"
+42,74,1,405.48,407.64,not [that] heavy,,[-],not that heavy
+43,76,1,413.94,415.92,try [it],"a31-YellowBlock, a32-GreenBlock",[-],try it
+44,77,3,427.92,430.44,twenty green yeah,a37-GreenBlock,,twenty green yeah
+45,78,3,432.25,433.84,yeah and [this] is fifty,,[y],yeah and yellow block is fifty
+46,79,2,431.58,435.75,thirty and yellow is fifty,"a38-PurpleBlock, a39-YellowBlock",,thirty and yellow is fifty
+47,80,2,435.78,440.73,maybe we should try [those] things here,,[-],maybe we should try those things here
+48,86,3,461.81,466.8,uh just till fifty so should i sumbit [it],,[-],uh just till fifty so should i sumbit it
+49,88,3,469.65,473.16,correct red is ten blue is ten,,,correct red is ten blue is ten

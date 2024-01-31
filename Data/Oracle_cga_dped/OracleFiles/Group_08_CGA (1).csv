@@ -1,0 +1,39 @@
+Begin Time - ss.msec,End Time - ss.msec,Common Ground
+5.48,7.68,"O1: OBSERVATION: on(RedBlock and BlueBlock, LeftScale) and on(GreenBlock, RightScale) and Scale: lean(zero)"
+7.69,10.09,I1: INFERENCE-FROM(O1)
+10.09,11.43,S1:  STATEMENT(green = 20)
+13.29,14.04,ACCEPT(S1)
+25.73,29.3,R1: RECOMMENDATION(purple = green + 10?)
+31.83,32.87,"O2: OBSERVATION: on(PurpleBlock, LeftScale) and on(RedBlock and GreenBlock, RightScale) and Scale: lean(zero)"
+32.9,33.94,I2: INFERENCE-FROM(O2 and green = 20 and red = 10)
+33.94,35.65,S2: STATEMENT(purple = 30)
+48.78,51.75,ACCEPT(S2)
+67.96,72.95,R2: RECOMMENDATION(yellow = green + purple?)
+72.97,73.44,"O3: OBSERVATION: on(YellowBlock, RightScale) and on(PurpleBlock and GreenBlock, LeftScale) and Scale: lean(left)"
+73.46,74.07,I3: INFERENCE-FROM (O3) 
+74.08,76.06,S3: STATEMENT(yellow < purple + green)
+84.75,88.17,R3: RECOMMENDATION(green + red + blue = ?)
+131.744,132.699,"O4: OBSERVATION: on(RedBlock and BlueBlock and GreenBlock, LeftScale) and on(YellowBlock, RightScale) and Scale: lean(right)"
+132.699,133.433,I4: INFERENCE-FROM(O4 and green = 20 and blue = 10 and red = 10)
+133.433,134.777,S4: STATEMENT(yellow > 40)
+143.92,144.78,I5: INFERENCE-FROM(O3 and O4)
+144.78,146.77,S5: STATEMENT(40 < yellow < 50)
+157.58,159.33,S6: STATEMENT(yellow > 40)
+159.52,160.93,Q1: QUESTION(? = 30)
+162.29,164.89,"A1: ANSWER(Q1, purple = 30 and green = 20)"
+168.19,170.67,S7: STATEMENT (40 < yellow > 50)
+192.888,193.966,"O5: OBSERVATION: on(RedBlock and BlueBlock and PurpleBlock, LeftScale) and on(YellowBlock, RightScale) and Scale: lean(left)"
+193.966,194.444,I6: INFERENCE-FROM(O5 and blue = 10 and red = 10 and purple = 30)
+194.45,196.62,S8: STATEMENT(yellow < 50)
+196.62,197.09,ACCEPT(S8)
+198.15,203.75,DOUBT(S8)
+234.45,236.7,"O6: OBSERVATION: on(YellowBlock, RightScale) and on(PurpleBlock and BlueBlock and RedBlock and 1, LeftScale) and Scale: lean(zero)"
+236.73,237.9,I7: INFERENCE-FROM(O6 and red = blue = 10 and purple = 30)
+237.91,240.34,S9: STATEMENT (yellow=41)
+241.63,243.21,ACCEPT(S9)
+259.22,261.87,Q2: QUESTION(green = 20?)
+265.809,267.285,A2: ANSWER(green = 20)
+276.176,277.705,S10: STATEMENT(yellow = 49)
+277.725,278.411,ACCEPT(S10)
+280.19,284.04,S11: STATEMENT(yellow = 50)
+288.666,289.49,ACCEPT(S11)

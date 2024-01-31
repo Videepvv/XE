@@ -1,0 +1,48 @@
+,Utterance,Participant,Start,End,Transcript,Action_Objects,Annotation,DPed
+0,9,1,61.23,64.67,i guess if [this] red one's ten grams,"a1-RedBlock, a177-RedBlock",[r],i guess if red block red one's ten grams
+1,10,2,63.42,66.0,we got red ten,"a2-BlueBlock, a178-BlueBlock",,we got red ten
+2,11,1,72.45,76.17,seems like [it] might be about the same,,[rb],"seems like red block, blue block might be about the same"
+3,12,3,80.52,85.29,i would agree yeah so [this] one's ten,"a3-BlueBlock, a179-BlueBlock",[b],i would agree yeah so blue block one's ten
+4,16,2,97.44,99.78,[this] is a sensitive scale,,[-],this is a sensitive scale
+5,18,1,102.3,103.5,[that]'s looking pretty even,,[-],that's looking pretty even
+6,20,1,110.82,113.19,so [this] one is noticeably heavier than,"a12-PurpleBlock, a186-GreenBlock",[y],so yellow block one is noticeably heavier than
+7,21,2,109.44,110.75,probably [that] big sucker,"a11-GreenBlock, a184-None, a185-GreenBlock",[y],probably yellow block big sucker
+8,22,1,113.94,115.95,the purple ish one,,,the purple ish one
+9,23,1,119.42,121.75,making sure [that] [it] didn't have the weight at the bottom,,[-] [p],making sure that purple block didn't have the weight at the bottom
+10,24,2,116.79,125.37,[it]'s just stuff written at the bottom [that]'s a so [that]'s a ten and a twenty right now right [that]'s looking,,[-] [-] [rg] [-],"it's just stuff written at the bottom that's a so red block, green block's a ten and a twenty right now right that's looking"
+11,26,2,127.62,130.21,[they]'re increments of ten i would say [that]'s probably,,[rbgyp] [-],"red block, blue block, green block, yellow block, purple block're increments of ten i would say that's probably"
+12,28,2,130.66,135.96,cause [that]'s also a twenty let's double check [that] [that]'s not also a twenty,a13-BlueBlock,[p] [-] [p],cause purple block's also a twenty let's double check that purple block's not also a twenty
+13,29,1,131.79,132.58,yeah [it] looks a little,,[-],yeah it looks a little
+14,30,2,136.44,141.09,cause [it] um just [that] one there,"a14-RedBlock, a126-GreenBlock, a163-RedBlock",[-] [p],cause it um just purple block one there
+15,31,3,137.36,138.33,is [this] one a twenty,,[b],is blue block one a twenty
+16,32,2,141.18,146.85,ok so [it]'s more than twenty but [it] almost seems like the thirty takes [it] past but,"a15-BlueBlock, a16-GreenBlock, a127-RedBlock, a128-RedBlock, a164-None",[p] [-] [-],ok so purple block's more than twenty but it almost seems like the thirty takes it past but
+17,33,2,148.2,150.18,[it]'s so sensitive,,[-],it's so sensitive
+18,34,2,157.58,159.58,if [they]'re only in increments of ten [it] has to be,,[rbgyp] [p],"if red block, blue block, green block, yellow block, purple block're only in increments of ten purple block has to be"
+19,35,1,156.33,161.08,i think yeah [it] has to be thirty [it],,[p] [p],i think yeah purple block has to be thirty purple block
+20,36,3,160.58,162.57,i think [it] could also be the position,a17-RedBlock,[-],i think it could also be the position
+21,37,2,164.46,166.67,so big blue is probably thirty,,,so big blue is probably thirty
+22,39,1,168.42,171.21,so i would guess the yellow one is gonna be,"a18-PurpleBlock, a129-PurpleBlock",,so i would guess the yellow one is gonna be
+23,44,3,186.24,190.92,yeah [that]'s considerably heavier so [this] one did we say [this] was thirty,a23-PurpleBlock,[pg] [p] [p],"yeah purple block, green block's considerably heavier so purple block one did we say purple block was thirty"
+24,45,3,191.01,192.58,and [this] was ten,a24-BlueBlock,[b],and blue block was ten
+25,46,2,192.61,195.21,yeah [that]'s thirty green is twenty,a25-RedBlock,[p],yeah purple block's thirty green is twenty
+26,47,2,195.24,196.42,red and small blue are both ten,a26-RedBlock,,red and small blue are both ten
+27,48,3,196.52,199.41,[it]'s definitely not thirty so [it] has to,"a27-PurpleBlock, a189-PurpleBlock",[y] [y],yellow block's definitely not thirty so yellow block has to
+28,49,3,201.21,202.25,but [it]'s too heavy,,[gp],"but green block, purple block's too heavy"
+29,50,1,202.58,203.97,so [that]'s,,[-],so that's
+30,51,1,205.44,209.58,[this] is fifty on here so then,,[pg],"purple block, green block is fifty on here so then"
+31,53,2,208.84,211.5,yeah green and big blue,,,yeah green and big blue
+32,54,3,211.56,222.66,did we try forty we did try forty because [this] one's thirty and then [this] one's or [this] one's twenty so [this],"a28-PurpleBlock, a29-BlueBlock, a130-GreenBlock, a165-BlueBlock, a190-PurpleBlock",[g] [b] [g] [pb],"did we try forty we did try forty because green block one's thirty and then blue block one's or green block one's twenty so purple block, blue block"
+33,55,1,211.56,211.92,big blue,,,big blue
+34,56,2,215.67,219.67,unless she's messing with us and some of [these] are in increments of five,,[rbgpy],"unless she's messing with us and some of red block, blue block, green block, purple block, yellow block are in increments of five"
+35,57,2,224.5,226.56,so [that] should be forty right there,,[pb],"so purple block, blue block should be forty right there"
+36,58,1,223.5,226.56,big blue was forty,"a30-RedBlock, a191-RedBlock",,big blue was forty
+37,59,2,239.41,243.39,i would say yellow is like forty five but we could say fifty since we're,,,i would say yellow is like forty five but we could say fifty since we're
+38,60,1,237.36,240.75,i would say [that] [it] is at least closest to fifty,,[-] [y],i would say that yellow block is at least closest to fifty
+39,61,2,243.57,246.33,forced with [these],"a31-YellowBlock, a192-YellowBlock",[-],forced with these
+40,67,1,268.74,271.38,yellow is fifty,,,yellow is fifty
+41,68,2,273.39,278.25,green's twenty big blue's thirty,,,green's twenty big blue's thirty
+42,69,3,278.11,279.48,yeah i guess [that] one's,,[p],yeah i guess purple block one's
+43,70,3,280.11,286.44,i think [that] one's purple so blue was ten and then purple was thirty,,[p],i think purple block one's purple so blue was ten and then purple was thirty
+44,71,2,282.21,282.5,oh [that]'s purple you're right,,[p],oh purple block's purple you're right
+45,73,3,291.99,299.55,so red was ten yellow was fifty we're great,,,so red was ten yellow was fifty we're great
+46,74,2,294.75,295.92,we got [it] right good job team,,[-],we got it right good job team

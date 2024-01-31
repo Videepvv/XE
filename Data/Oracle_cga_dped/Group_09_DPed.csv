@@ -1,0 +1,19 @@
+,Utterance,Participant,Start,End,Transcript,Action_Objects,Annotation,DPed
+0,11,2,61.74,63.4,i would say [that]'s equal probably,,[rb],"i would say red block, blue block's equal probably"
+1,13,1,77.08,77.75,i would say [that]'s equal,,[rb],"i would say red block, blue block's equal"
+2,14,3,77.85,79.58,yeah [it] should be same i guess,,[b],yeah blue block should be same i guess
+3,15,2,78.25,79.01,yeah [that] 's good,,[-],yeah that 's good
+4,16,1,79.83,82.33,yeah ok so [that] one will go,"a3-BlueBlock, a40-GreenBlock, a68-BlueBlock, a69-GreenBlock",[g],yeah ok so green block one will go
+5,17,3,91.05,93.03,i think [it]'s the,,[-],i think it's the
+6,18,2,96.66,97.83,yeah [it]'s probably equal,,[rbg],"yeah red block, blue block, green block's probably equal"
+7,20,3,107.83,108.58,[that]'s not,,[p],purple block's not
+8,24,1,130.26,133.35,[that] was twenty and ten right ok,,[gb],"green block, blue block was twenty and ten right ok"
+9,25,3,131.58,132.83,[that] was twenty ten yep,,[gb],"green block, blue block was twenty ten yep"
+10,29,1,140.7,146.1,the two the yellow and green i don't know just kidding,"a14-YellowBlock, a15-RedBlock, a16-GreenBlock, a44-RedBlock, a45-BlueBlock, a79-YellowBlock, a80-GreenBlock",,the two the yellow and green i don't know just kidding
+11,30,2,160.22,164.84,just like ever so slightly though so [it]'s probably probably say [that]'s equal,,[gpy] [gpy],"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal"
+12,32,3,159.72,167.91,i think [it]'s sixty so [this] one was twenty,"a17-PurpleBlock, a18-GreenBlock, a46-YellowBlock, a81-PurpleBlock, a82-YellowBlock",[y] [g],i think yellow block's sixty so green block one was twenty
+13,33,3,168.42,170.83,[this] one was thirty so [this] should be fifty less,a19-PurpleBlock,[p] [y],purple block one was thirty so yellow block should be fifty less
+14,36,3,186.51,188.61,yellow is,,,yellow is
+15,37,3,203.76,205.74,can i do [it],,[-],can i do it
+16,40,3,210.81,215.88,so [it] is ten yellow is fifty [that]'s right green is twenty,,[b] [-],so blue block is ten yellow is fifty that's right green is twenty
+17,41,3,216.03,222.27,yeah we are right which one is mystery block,,,yeah we are right which one is mystery block

@@ -1,0 +1,15 @@
+,Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+0,33.39,38.04,red = 10,2,33.39,38.04,3,4,We will tell you that the weight of the red cube is ten grams
+3,142.38,145.07,red = blue,16,144.5,147.27,3,1,"i think red block, blue block're the same weight yeah"
+7,212.13,214.16,green = 20,31,212.13,214.16,3,1,sufficient to say green block one's probably twenty or
+10,238.47,240.45,purple = 30,36,238.47,240.45,3,2,the purple one is thirty
+13,269.35,272.58,green = 20 and purple = 30 and yellow = 50,46,269.35,272.58,3,3,green is twenty and purple is thirty so yellow block weighs to fifty
+15,277.53,279.75,green = 20,48,277.53,279.75,3,3,yeah i mentioned here green is twenty
+16,279.77,281.42,yellow < green + purple,49,277.92,281.43,3,2,it's leaning more this side so
+17,285.18,287.82,yellow < green + purple,50,285.18,287.82,3,2,it's leaning more to the side
+21,314.1,315.58,yellow != 10,57,314.1,315.58,3,3,yellow is of course not ten but
+23,336.06,338.42,yellow > green + blue + red,63,337.33,341.55,3,3,"no so when we try purple block, green block both"
+24,344.01,348.36,yellow = 50,64,344.01,348.36,3,3,so i feel yellow is fifty
+27,366.06,371.16,yellow != 30,68,366.06,371.16,3,2,yellow block's for sure not thirty
+28,399.16,402.03,yellow = 50,71,396.69,404.73,3,1,"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's"
+29,431.58,435.75,purple = 30 and yellow = 50,78,432.25,433.84,3,3,yeah and yellow block is fifty

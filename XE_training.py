@@ -8,6 +8,7 @@ import os
 from models import CrossEncoder
 from collections import defaultdict
 import matplotlib.pyplot as plt
+from sklearn.model_selection import GroupKFold
 
 def make_proposition_map(dataset):
     data = f'./Data/{dataset}.csv'
@@ -18,6 +19,7 @@ def make_proposition_map(dataset):
         prop_dict[x]['common_ground'] = df['Common Ground'][x]
         prop_dict[x]['transcript'] = df['Transcript'][x]
         prop_dict[x]['label'] = df['Label'][x]
+        prop_dict[x]['group'] = df['Group'][x]
     return prop_dict, df
 
 
@@ -45,37 +47,54 @@ def predict_with_XE(parallel_model, dev_ab, dev_ba, device, batch_size):
             all_scores_ab.append(scores_ab.detach().cpu())
             all_scores_ba.append(scores_ba.detach().cpu())
 
-    return torch.cat(all_scores_ab), torch.cat(all_scores_ba)
+    return torch.cat(all_scores_ab), torch.cat(all_scores_ba) 
 
 
-def train_prop_XE(dataset, model_name=None):
+def train_prop_XE(dataset, model_name=None,n_splits=10):
     dataset_folder = f'./datasets/{dataset}/'
     device = torch.device('cuda:0')
     device_ids = list(range(1))
     #load the statement and proposition data
-    prop_dict, df = make_proposition_map("Dataset")
+    prop_dict, df = make_proposition_map("Dataset_Updated")
     proposition_map = add_special_tokens(prop_dict)
     
-    train_pairs  = [x for x in proposition_map.keys()]
-    train_labels = [y['label'] for x,y in proposition_map.items()]
+    #train_pairs  = [x for x in proposition_map.keys()]
+    #train_labels = [y['label'] for x,y in proposition_map.items()]
 
-    dev_pairs = [x for x in proposition_map.keys()]
-    dev_labels = [y['label'] for x,y in proposition_map.items()]
-    
-    #try a sample unit test with a smaller pos/neg set
-    train_pairs =train_pairs[0:50] + train_pairs[-50:] # 50 pos and 50 neg labels
-    train_labels = train_labels[0:50] + train_labels[-50:]
-    dev_pairs = dev_pairs[0:50] + dev_pairs[-50:]  # 50 pos and 50 neg labels
-    dev_labels = dev_labels[0:50] + dev_labels[-50:]
-    
-    
-    model_name = 'roberta-base'
-    scorer_module = CrossEncoder(is_training=True,long=False,  model_name=model_name).to(device)
+    #dev_pairs = [x for x in proposition_map.keys()]
+    #dev_labels = [y['label'] for x,y in proposition_map.items()]
+    groups = df['Group'].values
 
-    parallel_model = torch.nn.DataParallel(scorer_module, device_ids=device_ids)
-    parallel_model.module.to(device)
-    train(train_pairs, train_labels, train_pairs, train_labels, parallel_model, proposition_map, dataset_folder, device,
-          batch_size=20, n_iters=10, lr_lm=0.000001, lr_class=0.0001)
+    # Setting up group k-fold cross-validation
+    gkf = GroupKFold(n_splits=n_splits)
+
+    for fold, (train_idx, test_idx) in enumerate(gkf.split(df, groups=groups)):
+        print(f"Training on fold {fold+1}")
+
+        train_pairs = train_idx.tolist()  # Convert numpy array to list
+        train_labels = [df['Label'].iloc[idx] for idx in train_idx]
+        dev_pairs = test_idx.tolist()  # Convert numpy array to list
+        dev_labels = [df['Label'].iloc[idx] for idx in test_idx]
+        '''
+        #try a sample unit test with a smaller pos/neg set
+        train_pairs =train_pairs[0:50] + train_pairs[-50:] # 50 pos and 50 neg labels
+        train_labels = train_labels[0:50] + train_labels[-50:]
+        dev_pairs = dev_pairs[0:50] + dev_pairs[-50:]  # 50 pos and 50 neg labels
+        dev_labels = dev_labels[0:50] + dev_labels[-50:]
+        '''
+    
+        #print(train_pairs)
+        
+        model_name = 'roberta-base'
+        scorer_module = CrossEncoder(is_training=True,long=False,  model_name=model_name).to(device)
+
+        parallel_model = torch.nn.DataParallel(scorer_module, device_ids=device_ids)
+        parallel_model.module.to(device)
+        train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
+            batch_size=20, n_iters=10, lr_lm=0.000001, lr_class=0.0001)
+        #Create the test set here. it should be all the positive instances of the left out group 
+        #Run predict_with_XE on that and get the top 
+        
   
 def tokenize_props(tokenizer, proposition_ids, proposition_map, m_end, max_sentence_len=1024, truncate=True):
     if max_sentence_len is None:
@@ -187,7 +206,7 @@ def train(train_pairs,
 
     # prepare data
     train_ab, train_ba = tokenize_props(tokenizer, train_pairs, proposition_map, parallel_model.module.end_id, max_sentence_len=512)
-    dev_ab, dev_ba = tokenize_props(tokenizer, train_pairs, proposition_map, parallel_model.module.end_id, max_sentence_len=512)
+    dev_ab, dev_ba = tokenize_props(tokenizer, dev_pairs, proposition_map, parallel_model.module.end_id, max_sentence_len=512)
    
     #labels
     train_labels = torch.FloatTensor(train_labels)
@@ -197,7 +216,9 @@ def train(train_pairs,
     print("train label size", len(train_labels))
     print("dev label size", len(dev_labels))
     train_loss = []
+    print('This is the pairs - ', train_ab)
     for n in range(n_iters):
+        
         train_indices = list(range(len(train_pairs)))
         random.shuffle(train_indices)
         iteration_loss = 0.
@@ -229,7 +250,7 @@ def train(train_pairs,
         dev_predictions = (dev_scores_ab + dev_scores_ba)/2
         dev_predictions = dev_predictions > 0.5
         dev_predictions = torch.squeeze(dev_predictions)
-
+        print(dev_predictions, dev_labels)
         print("dev accuracy:", accuracy(dev_predictions, dev_labels))
         print("dev precision:", precision(dev_predictions, dev_labels))
         print("dev recall:", recall(dev_predictions, dev_labels))
@@ -258,3 +279,4 @@ def train(train_pairs,
 if __name__ == '__main__':
     train_prop_XE('ecb', model_name='roberta-base')
 
+predict_with_XE

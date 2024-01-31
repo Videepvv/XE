@@ -1,0 +1,33 @@
+,Utterance,Participant,Start,End,Transcript,Action_Objects,Annotation,DPed
+0,4,2,27.15,28.38,can we use [this] piece of paper,,[-],can we use this piece of paper
+1,13,1,81.33,85.53,yeah [it]'s like a bit slow to level up,,[-],yeah it's like a bit slow to level up
+2,14,1,86.82,88.95,so i would imagine if [this],,[-],so i would imagine if this
+3,15,1,88.98,91.58,needle goes over the red line [that] means [they]'re probably equal,,[-] [rb],"needle goes over the red line that means red block, blue block're probably equal"
+4,16,2,92.58,94.65,and i i think [they] are,,[rb],"and i i think red block, blue block are"
+5,17,2,94.77,97.05,especially since [it] keeps going back in a,,[-],especially since it keeps going back in a
+6,18,1,97.11,102.39,yeah [they] also just look like relatively the same size but [they] could be different material you know,"a3-BlueBlock, a64-Block",[rb] [rb],"yeah red block, blue block also just look like relatively the same size but red block, blue block could be different material you know"
+7,20,1,104.08,106.23,so [that] one is probably ten grams too,"a4-YellowBlock, a65-YellowBlock",[b],so blue block one is probably ten grams too
+8,22,1,108.06,111.3,and then if [that]'s ten grams then we have a two,a5-BlueBlock,[b],and then if blue block's ten grams then we have a two
+9,23,2,112.29,117.87,so i'm going to hold back on [that] one because i think [it]'s the heaviest,"a6-YellowBlock, a66-YellowBlock",[y] [y],so i'm going to hold back on yellow block one because i think yellow block's the heaviest
+10,26,2,120.5,121.59,the green one,"a7-GreenBlock, a196-GreenBlock",,the green one
+11,28,2,124.68,127.02,and [that] looks like [it] might be about even,,[-] [-],and that looks like it might be about even
+12,30,1,138.0,140.31,there we go [that]'s better,,[-],there we go that's better
+13,31,2,141.27,146.91,well on the first go through i noticed how [it] bounced twice and actually get some momentum ok so then,,[-],well on the first go through i noticed how it bounced twice and actually get some momentum ok so then
+14,32,1,144.92,149.08,yeah so [that]'s probably twenty grams,"a8-GreenBlock, a68-GreenBlock",[g],yeah so green block's probably twenty grams
+15,37,2,158.13,164.17,so knowing [that] uh oh sorry the green one was yeah,a11-GreenBlock,[-],so knowing that uh oh sorry the green one was yeah
+16,40,3,167.13,169.11,[this] is what we are looking at next,"a12-PurpleBlock, a70-PurpleBlock",[p],purple block is what we are looking at next
+17,43,2,195.93,199.5,yeah but [it] still feels like [it]'s leaning towards the two blocks,,[-] [-],yeah but it still feels like it's leaning towards the two blocks
+18,44,1,199.75,200.82,oh yeah [it] does,,[-],oh yeah it does
+19,45,1,216.87,220.01,i guess [it]'s leveling out a bit more but,,[-],i guess it's leveling out a bit more but
+20,47,2,221.4,225.41,i guess and there's no increment so five so we could probably just go with thirty on [that],,[p],i guess and there's no increment so five so we could probably just go with thirty on purple block
+21,51,1,233.61,236.49,putting [this] on [that] side checking [this] one,"a17-PurpleBlock, a18-YellowBlock, a73-PurpleBlock, a74-YellowBlock",[p] [-] [y],putting purple block on that side checking yellow block one
+22,53,2,247.95,250.17,so [that]'s the twenty and the thirty,,[pg],"so purple block, green block's the twenty and the thirty"
+23,54,2,255.36,258.01,[it]'s leaning towards one side a bit much,"a20-GreenBlock, a76-GreenBlock",[-],it's leaning towards one side a bit much
+24,55,1,258.08,260.67,yeah we could probably try [it] with just ten,a21-BlueBlock,[-],yeah we could probably try it with just ten
+25,62,1,288.12,290.1,wait did we mix [these] up or,a26-PurpleBlock,[pg],"wait did we mix purple block, green block up or"
+26,64,3,293.66,294.75,so [these] are both ten,,[rb],"so red block, blue block are both ten"
+27,66,3,297.06,297.75,blue or purple,,,blue or purple
+28,68,1,300.51,302.82,i think purple or,a29-BlueBlock,,i think purple or
+29,69,2,303.75,309.48,[this] would be blue [this] would be purple yeah i thought [they] were both blue until,,[b] [p] [bp],"blue block would be blue purple block would be purple yeah i thought blue block, purple block were both blue until"
+30,70,1,303.15,307.25,blue yeah no i see [that]'s like a navy blue,,[b],blue yeah no i see blue block's like a navy blue
+31,78,2,343.98,346.75,wait a mystery block,,,wait a mystery block

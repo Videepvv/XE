@@ -1,0 +1,43 @@
+,Utterance,Participant,Start,End,Transcript,Action_Objects,Annotation,DPed
+0,14,3,58.33,58.84,[it]'s right there,,[-],it's right there
+1,20,3,70.51,70.01,um [it]'s turned off,,[-],um it's turned off
+2,24,1,78.08,80.58,ok well [it] would be nine minus ten,"a2-RedBlock, a206-RedBlock",[r],ok well red block would be nine minus ten
+3,26,2,80.58,84.3,[that]'s ten so then,"a3-BlueBlock, a207-BlueBlock",[r],red block's ten so then
+4,27,1,86.07,87.41,just like put [it] on,,[-],just like put it on
+5,30,3,95.19,97.17,[it] seems pretty balanced,,[rb],"red block, blue block seems pretty balanced"
+6,31,1,97.56,102.03,yeah ok so now we know [that] [this] is also ten,"a4-BlueBlock, a208-BlueBlock",[-] [b],yeah ok so now we know that blue block is also ten
+7,34,1,106.23,110.01,what would we maybe put [that] one on there too,"a5-PurpleBlock, a6-BlueBlock, a209-PurpleBlock",[b],what would we maybe put blue block one on there too
+8,37,2,112.16,112.92,[it]'s more,,[p],purple block's more
+9,38,1,114.87,120.33,lets try [this] one oh gee louise [this] one,"a7-PurpleBlock, a8-YellowBlock, a9-YellowBlock, a10-GreenBlock, a210-PurpleBlock, a25-None, a26-None, a211-GreenBlock",[y] [g],lets try yellow block one oh gee louise green block one
+10,41,2,127.35,132.0,ok so [this] one is probably twenty ten ten twenty,,[g],ok so green block one is probably twenty ten ten twenty
+11,44,1,132.27,139.65,ok so now lets start at thirty alright put one of [those] on there,"a11-GreenBlock, a12-RedBlock, a13-GreenBlock, a14-PurpleBlock, a29-GreenBlock, a212-PurpleBlock",[yp],"ok so now lets start at thirty alright put one of yellow block, purple block on there"
+12,48,2,142.91,144.92,probably thirty at [this] point,,[-],probably thirty at this point
+13,49,1,148.86,159.42,ok so we got ok yeah [this] one is really heavy so lets do the a [this] and a ten,"a15-PurpleBlock, a16-YellowBlock, a17-GreenBlock, a31-PurpleBlock, a33-BlueBlock",[y] [p],ok so we got ok yeah yellow block one is really heavy so lets do the a purple block and a ten
+14,55,1,169.31,171.99,interesting so [that]'s ten twenty,,[prb],"interesting so purple block, red block, blue block's ten twenty"
+15,56,1,172.56,183.58,so we said [this] ones thirty i still feel like [that]'s heavier and [this] one is twenty,,[p] [prb] [g],"so we said purple block ones thirty i still feel like purple block, red block, blue block's heavier and green block one is twenty"
+16,57,2,174.54,185.08,yeah yeah the blue dark blue one is thirty [that]'s the larger one [it]'s slightly heavier yeah,a20-GreenBlock,[p] [prb],"yeah yeah the blue dark blue one is thirty purple block's the larger one purple block, red block, blue block's slightly heavier yeah"
+17,58,3,185.33,187.83,we can replace one of [these] with the twenty to get,,[rb],"we can replace one of red block, blue block with the twenty to get"
+18,60,1,189.91,196.44,ok and then put [that] on [that] one,"a36-BlueBlock, a37-BlueBlock, a228-BlueBlock, a229-GreenBlock, a49-BlueBlock, a58-GreenBlock",[b] [y],ok and then put blue block on yellow block one
+19,61,2,198.15,202.14,how much is the dark blue small one ten,,,how much is the dark blue small one ten
+20,62,1,200.31,201.37,ten [they]'re both,,[rb],"ten red block, blue block're both"
+21,63,1,203.49,204.34,assuming [that] [this] was,,[-] [-],assuming that this was
+22,64,2,204.58,206.37,oh gosh i think i got [them] mixed up,,[-],oh gosh i think i got them mixed up
+23,65,1,207.06,210.87,yeah im thinking [that] [it]'s ten ten twenty thirty,,[-] [rbgyp],"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty"
+24,69,2,216.16,217.66,[it]'s just like slightly,,[-],it's just like slightly
+25,71,1,228.06,231.51,and now [it] stopped being too heavy,,[-],and now it stopped being too heavy
+26,72,1,231.54,233.52,so [this] is supposedly,,[pg],"so purple block, green block is supposedly"
+27,73,1,234.27,239.82,thirty fourty fifty correct and [it]'s still heavier than [this] thing,,[pg] [y],"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing"
+28,76,1,251.88,258.72,so thirty [this] is also forty right so [this] if forty yeah,"a43-PurpleBlock, a61-GreenBlock, a62-BlueBlock",[pb] [pb],"so thirty purple block, blue block is also forty right so purple block, blue block if forty yeah"
+29,77,2,254.63,255.31,ok so [that] one's twenty right,,[g],ok so green block one's twenty right
+30,79,1,260.01,263.82,[this] is fifty [it]'s not,"a44-GreenBlock, a54-GreenBlock",[pg] [-],"purple block, green block is fifty it's not"
+31,80,1,264.93,267.36,yo [that]'s close enough ok so,,[-],yo that's close enough ok so
+32,81,3,268.08,272.58,yeah fifty so we say yellow is fifty,"a45-YellowBlock, a46-PurpleBlock, a55-YellowBlock, a56-PurpleBlock",,yeah fifty so we say yellow is fifty
+33,83,3,274.26,280.32,and green is twenty ok so which one is blue and which one is purple,,,and green is twenty ok so which one is blue and which one is purple
+34,85,1,275.83,277.75,i think [that]'s i think [that]'s good,,[-] [-],i think that's i think that's good
+35,86,2,281.25,283.48,i think [this] one is purple and [this] one is blue,,[p] [b],i think purple block one is purple and blue block one is blue
+36,87,3,282.25,286.26,ok so blue is ten and purple is,a214-BlueBlock,,ok so blue is ten and purple is
+37,89,1,288.92,292.47,yes verify real quick but i think [it] is,"a215-PurpleBlock, a47-GreenBlock, a65-PurpleBlock, a57-None, a119-PurpleBlock, a64-RedBlock",[p],yes verify real quick but i think purple block is
+38,91,1,295.32,304.62,yeah we got [them] yeah,"a66-PurpleBlock, a67-GreenBlock, a120-PurpleBlock, a121-None, a122-RedBlock",[-],yeah we got them yeah
+39,94,1,304.68,305.58,[that] looks good to me,,[-],that looks good to me
+40,97,1,308.28,312.3,uh blue yeah so you said purple sweet,,,uh blue yeah so you said purple sweet
+41,98,2,312.93,315.42,purple is thirty red is twenty yellow is fifty,,,purple is thirty red is twenty yellow is fifty
