@@ -21,7 +21,7 @@ dataset['Label'] = 1
 
 common_grounds_dataSet = (pd.read_csv('listOfPropositions.csv')) # This will have the list of all the possible propositions 
 common_grounds = list(common_grounds_dataSet['Propositions'])
-dataset = dataset[['Common Ground', 'Label', 'Transcript']]
+dataset = dataset[['Common Ground', 'Label', 'Transcript','Group']]
 # Duplicating rows with random common ground and label 0, creating 4 new instances for each row
 new_rows = []
 for index, row in dataset.iterrows():
