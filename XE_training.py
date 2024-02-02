@@ -9,6 +9,49 @@ from models import CrossEncoder
 from collections import defaultdict
 import matplotlib.pyplot as plt
 from sklearn.model_selection import GroupKFold
+import re
+from transformers import AutoTokenizer
+import torch
+from cosine_sim import CrossEncoder_cossim
+import torch.nn.functional as F
+##These methods are used for pruning 
+# Mapping words to numbers for comparison
+number_mapping = {
+    "ten": 10, "twenty": 20, "thirty": 30, 
+    "forty": 40, "fifty": 50
+}
+
+def extract_colors_and_numbers(text):
+    colors = ["red", "blue", "green", "yellow", "purple"]
+    numbers = list(number_mapping.keys())
+    found_elements = {"colors": [], "numbers": []}
+    for color in colors:
+        if color in text:
+            found_elements["colors"].append(color)
+    for number in numbers:
+        if number in text:
+            found_elements["numbers"].append(number_mapping[number])
+    return found_elements
+
+
+def is_valid_common_ground(cg, elements):
+    cg_colors = re.findall(r'\b(?:red|blue|green|yellow|purple)\b', cg)
+    cg_numbers = [number_mapping[num] for num in re.findall(r'\b(?:ten|twenty|thirty|forty|fifty)\b', cg)]
+
+    color_match = not elements["colors"] or set(cg_colors) == set(elements["colors"])
+    number_match = not elements["numbers"] or set(cg_numbers) == set(elements["numbers"])
+    return color_match and number_match
+
+def is_valid_individual_match(cg, elements):
+    cg_colors = re.findall(r'\b(?:red|blue|green|yellow|purple)\b', cg)
+    cg_numbers = [number_mapping[num] for num in re.findall(r'\b(?:ten|twenty|thirty|forty|fifty)\b', cg)]
+
+    for color in elements["colors"]:
+        for number in elements["numbers"]:
+            if color in cg_colors and number in cg_numbers:
+                return True
+    return False
+    
 
 def make_proposition_map(dataset):
     data = f'./Data/{dataset}.csv'
@@ -21,7 +64,17 @@ def make_proposition_map(dataset):
         prop_dict[x]['label'] = df['Label'][x]
         prop_dict[x]['group'] = df['Group'][x]
     return prop_dict, df
+def test_make_proposition_map(dataset):
+    
+    df = dataset
+    prop_dict = defaultdict(dict)
+    for x, y in enumerate(df.iterrows()):
 
+        prop_dict[x]['common_ground'] = df['Common Ground'][x]
+        prop_dict[x]['transcript'] = df['Transcript'][x]
+        prop_dict[x]['label'] = df['Label'][x]
+        prop_dict[x]['group'] = df['Group'][x]
+    return prop_dict, df
 
 def add_special_tokens(proposition_map):
     for x, y in proposition_map.items():
@@ -67,7 +120,9 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
 
     # Setting up group k-fold cross-validation
     gkf = GroupKFold(n_splits=n_splits)
-
+    #train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
+        #    batch_size=20, n_iters=10, lr_lm=0.000001, lr_class=0.0001)
+    
     for fold, (train_idx, test_idx) in enumerate(gkf.split(df, groups=groups)):
         print(f"Training on fold {fold+1}")
 
@@ -82,19 +137,23 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
         dev_pairs = dev_pairs[0:50] + dev_pairs[-50:]  # 50 pos and 50 neg labels
         dev_labels = dev_labels[0:50] + dev_labels[-50:]
         '''
-    
+
         #print(train_pairs)
-        
+        print('Training - ',train_pairs, len(train_pairs))
+        print('Testing = ', dev_pairs,len(dev_pairs))
         model_name = 'roberta-base'
         scorer_module = CrossEncoder(is_training=True,long=False,  model_name=model_name).to(device)
 
         parallel_model = torch.nn.DataParallel(scorer_module, device_ids=device_ids)
         parallel_model.module.to(device)
+        #Only using pos pairs
+        #train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
+        #    batch_size=20, n_iters=10, lr_lm=0.000001, lr_class=0.0001)
+        
         train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
             batch_size=20, n_iters=10, lr_lm=0.000001, lr_class=0.0001)
-        #Create the test set here. it should be all the positive instances of the left out group 
-        #Run predict_with_XE on that and get the top 
         
+ 
   
 def tokenize_props(tokenizer, proposition_ids, proposition_map, m_end, max_sentence_len=1024, truncate=True):
     if max_sentence_len is None:
@@ -178,6 +237,9 @@ def tokenize_props(tokenizer, proposition_ids, proposition_map, m_end, max_sente
     return tokenized_ab, tokenized_ba    
     
 
+# Tokenize the test_transcripts here, similarly to how you did for train and dev sets
+# You can use tokenize_props or a similar function, depending on how you need the data to be structured for testing
+
     
 def train(train_pairs,
           train_labels,
@@ -255,28 +317,113 @@ def train(train_pairs,
         print("dev precision:", precision(dev_predictions, dev_labels))
         print("dev recall:", recall(dev_predictions, dev_labels))
         print("dev f1:", f1_score(dev_predictions, dev_labels))
-    plt.plot(train_loss)
-    plt.show()
-#         if n % 2 == 0:
-#             scorer_folder = working_folder + f'/XE_scorer/chk_{n}'
-#             if not os.path.exists(scorer_folder):
-#                 os.makedirs(scorer_folder)
-#             model_path = scorer_folder + '/linear.chkpt'
-#             torch.save(parallel_model.module.linear.state_dict(), model_path)
-#             parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
-#             parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
-#             print(f'saved model at {n}')
+        plt.plot(train_loss)
+        plt.show()
+     
+        # if n % 2 == 0:
+        #     scorer_folder = working_folder + f'/XE_scorer/chk_{n}'
+        #     if not os.path.exists(scorer_folder):
+        #         os.makedirs(scorer_folder)
+        #     model_path = scorer_folder + '/linear.chkpt'
+        #     torch.save(parallel_model.module.linear.state_dict(), model_path)
+        #     parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
+        #     parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
+        #     print(f'saved model at {n}')
 
-#     scorer_folder = working_folder + '/XE_scorer/'
-#     if not os.path.exists(scorer_folder):
-#         os.makedirs(scorer_folder)
-#     model_path = scorer_folder + '/linear.chkpt'
-#     torch.save(parallel_model.module.linear.state_dict(), model_path)
-#     parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
-#     parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
+    
+    
+    def create_test_set(dev_pairs, dev_labels, proposition_map):
+        positive_dev_pairs = [pair for pair, label in zip(dev_pairs, dev_labels) if label == 1]
+
+        test_instances = []
+        for pair in positive_dev_pairs:
+            transcript = proposition_map[pair]['transcript'].replace("<m>", "").replace("</m>", "").strip()
+            common_ground = proposition_map[pair]['common_ground']
+            test_instances.append({'transcript': transcript, 'common_ground': common_ground})
+
+        return test_instances
+
+    # Call this function after your training loop
+    test_instances = create_test_set(dev_pairs, dev_labels, proposition_map)
+
+    # Create a DataFrame from the test instances
+    test_df = pd.DataFrame(test_instances, columns=['transcript', 'common_ground'])
+    test_df["Label"] = 1
+    
+    common_grounds_dataSet = pd.read_csv('Data/goldenFiles/listOfPropositions.csv')
+    common_grounds = list(common_grounds_dataSet['Propositions'])
+    
+    new_rows = []
+    #model = CrossEncoder_cossim(is_training=False, model_name='your_model_name')
+    parallel_model = parallel_model.to(device)
+    evaluation_results = []
+    for index, row in test_df.iterrows():
+        elements = extract_colors_and_numbers(row['transcript'].lower())
+        filtered_common_grounds = [cg for cg in common_grounds if is_valid_common_ground(cg, elements)]
+
+        if not filtered_common_grounds:  # If no match found, try individual color-number pairs
+            filtered_common_grounds = [cg for cg in common_grounds if is_valid_individual_match(cg, elements)]  
+        #This is where the cosine pruning will happen. filtered_common_grounds will be the top 5 cosine prunes
+        #print('Transcript = ', row['transcript'].lower())
+        #print("Pruned common ground = " , filtered_common_grounds) 
+        cosine_similarities = []
+        for cg in filtered_common_grounds:
+            # Tokenize and prepare inputs using the tokenizer from parallel_model
+            input = parallel_model.module.tokenizer.encode_plus(row['transcript'].lower(), cg, add_special_tokens=True, return_tensors="pt")
+            input_ids = input['input_ids'].to(device)
+            attention_mask = input['attention_mask'].to(device)
+            position_ids = torch.arange(input_ids.size(1)).unsqueeze(0).to(device)
+
+            # Generate vector representations
+            _, transcript_vec, common_ground_vec = parallel_model.module.generate_cls_arg_vectors(
+                input_ids, attention_mask, position_ids, None, None, None
+            )
+
+            # Calculate cosine similarity
+            cosine_similarity = F.cosine_similarity(transcript_vec, common_ground_vec).item()
+            cosine_similarities.append(cosine_similarity)
+
+        # Select top 5 matches based on cosine similarity
+        top_matches = sorted(zip(filtered_common_grounds, cosine_similarities), key=lambda x: x[1], reverse=True)[:5]
+        top_common_grounds = [match[0] for match in top_matches]
+        if row['common_ground'] in top_common_grounds:
+            evaluation_results.append(1)
+        else:
+            evaluation_results.append(0)
+        print("transcript - ", row['transcript'].lower())
+        print("common_ground - ", row['common_ground'])    
+        print("top matches - " , top_matches) 
+        
+        #top 5 cosine similarity for row['Transcript'].lower() against filtered_Common_grounds
+        #Use this to create the new dataset 
+    print('Evaluation Results:', evaluation_results)
+    for _ in range(4):
+        if filtered_common_grounds:
+            
+            selected_common_ground = random.choice(filtered_common_grounds)
+            new_row = row.copy()
+            new_row['Common Ground'] = selected_common_ground
+            new_row['Label'] = 0
+            new_rows.append(new_row)
+
+    #df_extended = pd.concat([dataset, pd.DataFrame(new_rows)], ignore_index=True)
+
+
+    #Predict here. Create the dataset. Prune with Heuristic. Prune with cosine. use predict_with_XE
+    #get all the positive labels from dev set 
+    #get the pruning done. This will have over 200 possible pairs for each positive label
+    #get the top cosine similarity of the top 5. 
+    # predict 
+
+    scorer_folder = working_folder + '/XE_scorer/'
+    if not os.path.exists(scorer_folder):
+        os.makedirs(scorer_folder)
+    model_path = scorer_folder + '/linear.chkpt'
+    torch.save(parallel_model.module.linear.state_dict(), model_path)
+    parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
+    parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
 
 
 if __name__ == '__main__':
     train_prop_XE('ecb', model_name='roberta-base')
 
-predict_with_XE
