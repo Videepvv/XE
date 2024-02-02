@@ -5,20 +5,10 @@ import numpy as np
 import pyhocon
 import os
 from inspect import getfullargspec
-
-# relative path of config file
-
-
-def init_weights(m):
-    if isinstance(m, nn.Linear):
-        nn.init.xavier_uniform_(m.weight)
-        nn.init.uniform_(m.bias)
-
-
-class CrossEncoder(nn.Module):
+class CrossEncoder_cossim(nn.Module):
     def __init__(self, is_training=True, long=True, model_name='allenai/longformer-base-4096',
                  linear_weights=None):
-        super(CrossEncoder, self).__init__()
+        super(CrossEncoder_cossim, self).__init__()
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.long = long
 
@@ -72,9 +62,7 @@ class CrossEncoder(nn.Module):
         arg2_vec = None
         if arg2 is not None:
             arg2_vec = (last_hidden_states * arg2.unsqueeze(-1)).sum(1)
-        
-        arg1_vec = torch.mean(last_hidden_states, dim=1) 
-        arg2_vec = torch.mean(last_hidden_states, dim=1)
+
         return cls_vector, arg1_vec, arg2_vec
 
     def generate_model_output(self, input_ids, attention_mask, position_ids,
@@ -82,7 +70,13 @@ class CrossEncoder(nn.Module):
         cls_vector, arg1_vec, arg2_vec = self.generate_cls_arg_vectors(input_ids, attention_mask, position_ids,
                                                                        global_attention_mask, arg1, arg2)
 
-        return torch.cat([cls_vector, arg1_vec, arg2_vec, arg1_vec * arg2_vec], dim=1)
+
+        cos = nn.CosineSimilarity(dim=1, eps=1e-6)
+        cosine_sim = cos(arg1_vec,  arg2_vec)
+        print("getting cosine similarities")
+        return cosine_sim
+
+        #return torch.cat([cls_vector, arg1_vec, arg2_vec, arg1_vec * arg2_vec], dim=1)
 
     def frozen_forward(self, input_):
         return self.linear(input_)
@@ -102,4 +96,4 @@ class CrossEncoder(nn.Module):
         if lm_only:
             return lm_output
 
-        return self.linear(lm_output)
+        return lm_output
