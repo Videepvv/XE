@@ -459,12 +459,12 @@ def train(train_pairs,
         if(len(filtered_common_grounds)==1650 or len(filtered_common_grounds)==1):
             continue
         if not is_proposition_present(original_common_ground, filtered_common_grounds):
-        mentioned_colors = elements['colors']
-        filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
-        
-        if not is_proposition_present(original_common_ground, filtered_common_grounds):
-            mentioned_numbers = elements['numbers']
-            filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
+            mentioned_colors = elements['colors']
+            filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+            
+            if not is_proposition_present(original_common_ground, filtered_common_grounds):
+                mentioned_numbers = elements['numbers']
+                filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
         
         
         #now get the cosine similarity between the current transcript in the test set and all possible common_grounds
