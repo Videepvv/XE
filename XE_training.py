@@ -174,7 +174,7 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
     device = torch.device('cuda:0')
     device_ids = list(range(1))
     #load the statement and proposition data
-    prop_dict, df = make_proposition_map("Dataset_Updated")
+    prop_dict, df = make_proposition_map("BigPrune_Dataset_Updated")
     proposition_map = add_special_tokens(prop_dict)
     
     #train_pairs  = [x for x in proposition_map.keys()]
@@ -420,7 +420,7 @@ def train(train_pairs,
     test_df["Label"] = 1
     
     #get the list of all possible common grounds
-    common_grounds_dataSet = pd.read_csv('/s/babbage/b/nobackup/nblancha/public-datasets/ilideep/XE/Data/OracleWithLabels/props/correctedList.csv')
+    common_grounds_dataSet = pd.read_csv('/s/babbage/b/nobackup/nblancha/public-datasets/ilideep/XE/Data/goldenFiles/NormalizedList.csv')
     common_grounds = list(common_grounds_dataSet['Propositions'])
     
     new_rows = []

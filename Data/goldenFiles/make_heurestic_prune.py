@@ -1,7 +1,20 @@
 import pandas as pd
 import random
 import re
-from helperMethods import is_proposition_present, normalize_expression, normalize_sub_expression, extract_colors_and_numbers, is_valid_common_ground, is_valid_individual_match
+from helperMethods import is_proposition_present, normalize_expression, \
+normalize_sub_expression, extract_colors_and_numbers, is_valid_common_ground, is_valid_individual_match
+
+def broaden_search_with_numbers(common_grounds, mentioned_numbers):
+    # Filter common grounds to include those mentioning any of the mentioned numbers
+    
+    broadened_common_grounds = [cg for cg in common_grounds if any(str(number) in cg for number in mentioned_numbers)]
+    
+    return broadened_common_grounds
+def broaden_search_with_colors(common_grounds, mentioned_colors):
+    # Filter common grounds to include those mentioning any of the mentioned colors
+    broadened_common_grounds = [cg for cg in common_grounds if any(color in cg for color in mentioned_colors)]
+    return broadened_common_grounds
+
 # def is_proposition_present(correct_proposition, filtered_common_grounds):
 #     # Normalize the correct proposition to match the format of filtered common grounds
 #     normalized_correct_proposition = normalize_expression(correct_proposition)
@@ -89,7 +102,7 @@ dataset = pd.concat(listOfDataFrames)
 print(dataset.shape)
 dataset['Label'] = 1
 #dataset['Common Ground']= dataset['Common Ground'].replace("and", " , ")
-common_grounds_dataSet = pd.read_csv('correctedList.csv')
+common_grounds_dataSet = pd.read_csv('NormalizedList.csv')
 common_grounds = list(common_grounds_dataSet['Propositions'])
 dataset = dataset[['Common Ground', 'Label', 'Transcript', 'Group']]
 listOfcommonGrounds = []
@@ -114,9 +127,19 @@ for index, row in dataset.iterrows():
         #print(row['Transcript'])
         continue
     if not is_proposition_present(original_common_ground, filtered_common_grounds):
-        print(original_common_ground)
-        propositions_lost += 1
-    
+        mentioned_colors = elements['colors']
+        filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+        
+        if not is_proposition_present(original_common_ground, filtered_common_grounds):
+            mentioned_numbers = elements['numbers']
+            filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
+            if not is_proposition_present(original_common_ground, filtered_common_grounds):
+                propositions_lost += 1
+                print("ORIGINAL COMMON GROUND - ", original_common_ground)
+                print("TRANSCRIPT - ", row['Transcript'].lower())
+                print("mentioned numbers - ", mentioned_numbers)
+
+
     total_transcripts += 1
     listOfcommonGrounds.append(len(filtered_common_grounds))
    
@@ -141,4 +164,4 @@ print(propositions_lost/total_transcripts)
 
 #print(sum(listOfcommonGrounds)/len(listOfcommonGrounds))
 #print(listOfcommonGrounds)
-#df_extended.to_csv('Testing_Dataset_Updated.csv')
+df_extended.to_csv('BigPrune_Dataset_Updated.csv')

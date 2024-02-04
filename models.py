@@ -73,8 +73,9 @@ class CrossEncoder(nn.Module):
         if arg2 is not None:
             arg2_vec = (last_hidden_states * arg2.unsqueeze(-1)).sum(1)
         
-        arg1_vec = torch.mean(last_hidden_states, dim=1) 
-        arg2_vec = torch.mean(last_hidden_states, dim=1)
+        #arg1_vec = torch.mean(last_hidden_states, dim=1) 
+        #arg2_vec = torch.mean(last_hidden_states, dim=1)
+        
         return cls_vector, arg1_vec, arg2_vec
 
     def generate_model_output(self, input_ids, attention_mask, position_ids,
