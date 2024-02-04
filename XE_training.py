@@ -37,34 +37,40 @@ number_mapping = {
 }
 
 def normalize_expression(expr):
-    # Split the expression into sub-expressions by commas, if any, for separate processing
+    # Split the expression into sub-expressions by commas for separate processing
     sub_expressions = expr.split(',')
-    # Normalize each sub-expression and track if it's a simple assignment
-    normalized_info = [(normalize_sub_expression(sub.strip()), 'simple' in sub.strip()) for sub in sub_expressions]
-    # Conditionally sort the normalized sub-expressions if they are not simple assignments
-    # Only sort if none of the sub-expressions are simple assignments or if their order is unchanged
-    if all(not is_simple for _, is_simple in normalized_info):
-        normalized_info.sort(key=lambda x: x[0])  # Sort based on the normalized expression
-    return ', '.join([ni[0] for ni in normalized_info])
+    normalized_sub_expressions = [normalize_sub_expression(sub.strip()) for sub in sub_expressions]
+    # Sort the equalities if they involve simple color and number assignments
+    if all('=' in sub and (sub.strip().split('=')[0].strip().isalpha() and sub.strip().split('=')[1].strip().isdigit()) for sub in normalized_sub_expressions):
+        normalized_sub_expressions.sort()
+    return ', '.join(normalized_sub_expressions)
 
 def normalize_sub_expression(sub_expr):
-    # Identify all components (words and numbers) and operators
-    components = re.findall(r'\w+|[=!<>]+', sub_expr)
-    if len(components) == 3 and components[1] in ['=', '!=']:  # Simple equalities or inequalities
-        # Sort the two elements for these cases, but mark as simple assignment if number is on the right
-        if components[0].isdigit() or components[2].isdigit():
-            # If a number is involved, it's a simple assignment, don't sort
-            pass
-        elif components[0] > components[2]:
-            components[0], components[2] = components[2], components[0]
-    elif len(components) > 3 and components[1] in ['=', '!=']:  # Complex expressions with operations
-        # Sort elements on the right side of the expression if it's a complex expression
-        if '+' in sub_expr:
-            # Split the right side further by '+' and sort
-            right_side = sorted(sub_expr.split(components[1])[1].replace(' ', '').split('+'))
-            # Reassemble the expression with the sorted right side
-            components = [components[0], components[1]] + ['+'.join(right_side)]
-    return ' '.join(components)
+    # Identify the first operator and split the expression around it
+    match = re.search(r'([=!<>]+)', sub_expr)
+    if match:
+        operator = match.group(1)
+        parts = re.split(r'([=!<>]+)', sub_expr, 1)
+        left_side = parts[0].strip()
+        right_side = parts[2].strip()
+
+        # Normalize right side if there is a '+' or for '=', '!=' without '+'
+        if '+' in right_side:
+            right_side_components = re.findall(r'\w+', right_side)
+            right_side_sorted = ' + '.join(sorted(right_side_components))
+            return f"{left_side} {operator} {right_side_sorted}"
+        elif operator in ['=', '!=']:
+            # For '=' and '!=', sort operands alphabetically if no '+' on the right side
+            if not right_side.isdigit() and left_side > right_side:  # Avoid sorting number assignments
+                return f"{right_side} {operator} {left_side}"
+            else:
+                return sub_expr
+        else:
+            # For '<' and '>', return as is when no '+' on the right side
+            return sub_expr
+    else:
+        # Return the expression as is if it doesn't match the above conditions
+        return sub_expr
 
 def extract_colors_and_numbers(text):
     colors = ["red", "blue", "green", "yellow", "purple"]
@@ -438,7 +444,7 @@ def train(train_pairs,
     common_grounds = list(common_grounds_dataSet['Propositions'])
     
     new_rows = []
-    
+    all_cosine_rows = []
     parallel_model = parallel_model.to(device)
     evaluation_results = []
     genericCosine = False
@@ -455,16 +461,17 @@ def train(train_pairs,
         
         #normalize the filtered common ground 
         filtered_common_grounds = [normalize_expression(expr) for expr in filtered_common_grounds]
+        original_common_ground = normalize_expression(original_common_ground) #normalize original
         #we do not want any instances where no color and weight was mentioned 
         if(len(filtered_common_grounds)==1650 or len(filtered_common_grounds)==1):
             continue
-        if not is_proposition_present(original_common_ground, filtered_common_grounds):
-            mentioned_colors = elements['colors']
-            filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+        # if not is_proposition_present(original_common_ground, filtered_common_grounds):
+        #     mentioned_colors = elements['colors']
+        #     filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
             
-            if not is_proposition_present(original_common_ground, filtered_common_grounds):
-                mentioned_numbers = elements['numbers']
-                filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
+        #     if not is_proposition_present(original_common_ground, filtered_common_grounds):
+        #         mentioned_numbers = elements['numbers']
+        #         filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
         
         
         #now get the cosine similarity between the current transcript in the test set and all possible common_grounds
@@ -525,8 +532,17 @@ def train(train_pairs,
                 "common_ground": match[0]  # match[0] is the common ground text
             }
             new_rows.append(new_row)
+        for cg, cosine_similarity in zip(filtered_common_grounds, cosine_similarities):
+            all_cosine_row = {
+                "transcript": row['transcript'],
+                "filtered_common_ground": cg,  # The filtered common ground text
+                "cosine_similarity": cosine_similarity,  # The cosine similarity score
+                "true_common_ground": row['common_ground']  # The true common ground from the original data
+            }
+            all_cosine_rows.append(all_cosine_row)
     
-    
+    all_cosine_rows_df = pd.DataFrame(all_cosine_rows, columns=["transcript", "filtered_common_ground", "cosine_similarity", "true_common_ground"])
+    all_cosine_rows_df.to_csv(f'cosineScores/cosine_Scores{group}.csv')
     new_df = pd.DataFrame(new_rows, columns=["transcript", "common_ground"])
     new_df.index.to_list()#the list of indicies in the dict that needs to be tokenized
     

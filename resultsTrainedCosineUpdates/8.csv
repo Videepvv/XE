@@ -1,0 +1,41 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,yeah green is for twenty,green = 20,0.6345471,<m> green = 20 </m>,8
+1,yeah green is for twenty,green != 20,0.23035827,<m> green = 20 </m>,8
+2,yeah green is for twenty,green < 20,0.15949494,<m> green = 20 </m>,8
+3,yeah green is for twenty,green > 20,0.16035004,<m> green = 20 </m>,8
+4,so twenty purple block's thirty,"purple = 10, red = 10, yellow = 30",0.6294211,<m> purple = 30 </m>,8
+5,so twenty purple block's thirty,"purple = 30, red = 10, yellow = 10",0.5926093,<m> purple = 30 </m>,8
+6,so twenty purple block's thirty,"green = 30, purple = 10, red = 10",0.59677005,<m> purple = 30 </m>,8
+7,so twenty purple block's thirty,"green = 10, purple = 10, red = 30",0.55123603,<m> purple = 30 </m>,8
+8,so twenty purple block's thirty,"purple = 10, red = 30, yellow = 10",0.5156584,<m> purple = 30 </m>,8
+9,oh yellow block's more than forty,yellow = 40,0.34320158,<m> yellow > 40 </m>,8
+10,oh yellow block's more than forty,yellow != 40,0.13106269,<m> yellow > 40 </m>,8
+11,oh yellow block's more than forty,yellow > 40,0.12067923,<m> yellow > 40 </m>,8
+12,oh yellow block's more than forty,yellow < 40,0.12033141,<m> yellow > 40 </m>,8
+13,Between forty and fifty,"blue = 40, green = 50, yellow = 50",0.06167271,<m> yellow < 50 </m>,8
+14,Between forty and fifty,"blue = 40, red = 50, yellow = 50",0.059542667,<m> yellow < 50 </m>,8
+15,Between forty and fifty,"green = 40, purple = 50, yellow = 50",0.059720404,<m> yellow < 50 </m>,8
+16,Between forty and fifty,"green = 40, red = 50, yellow = 50",0.058039833,<m> yellow < 50 </m>,8
+17,Between forty and fifty,"green = 50, purple = 40, yellow = 50",0.05421097,<m> yellow < 50 </m>,8
+18,But we don't and less than fifty actually,green = 50,0.31419194,<m> yellow > 50 </m>,8
+19,But we don't and less than fifty actually,red = 50,0.30845693,<m> yellow > 50 </m>,8
+20,But we don't and less than fifty actually,yellow = 50,0.2899133,<m> yellow > 50 </m>,8
+21,But we don't and less than fifty actually,blue = 50,0.28429925,<m> yellow > 50 </m>,8
+22,But we don't and less than fifty actually,purple = 50,0.27127904,<m> yellow > 50 </m>,8
+23,Fifty is too heavy,red = 50,0.4121709,<m> yellow < 50 </m>,8
+24,Fifty is too heavy,green = 50,0.38099667,<m> yellow < 50 </m>,8
+25,Fifty is too heavy,yellow = 50,0.3524074,<m> yellow < 50 </m>,8
+26,Fifty is too heavy,blue = 50,0.32634702,<m> yellow < 50 </m>,8
+27,Fifty is too heavy,purple = 50,0.31017536,<m> yellow < 50 </m>,8
+28,so yellow block's forty one,yellow = 40,0.28569087,<m> yellow = 40 </m>,8
+29,so yellow block's forty one,yellow != 40,0.13086817,<m> yellow = 40 </m>,8
+30,so yellow block's forty one,yellow < 40,0.1177495,<m> yellow = 40 </m>,8
+31,so yellow block's forty one,yellow > 40,0.11767665,<m> yellow = 40 </m>,8
+32,ok minus one it is yeah so yellow block is forty nine,yellow = 40,0.6518564,<m> yellow = 50 </m>,8
+33,ok minus one it is yeah so yellow block is forty nine,yellow != 40,0.21892235,<m> yellow = 50 </m>,8
+34,ok minus one it is yeah so yellow block is forty nine,yellow > 40,0.18187585,<m> yellow = 50 </m>,8
+35,ok minus one it is yeah so yellow block is forty nine,yellow < 40,0.17452621,<m> yellow = 50 </m>,8
+36,ok so yellow block's probably meant to be just fifty and was placed differently,yellow = 50,0.6734227,<m> yellow = 50 </m>,8
+37,ok so yellow block's probably meant to be just fifty and was placed differently,yellow != 50,0.47680378,<m> yellow = 50 </m>,8
+38,ok so yellow block's probably meant to be just fifty and was placed differently,yellow > 50,0.46282452,<m> yellow = 50 </m>,8
+39,ok so yellow block's probably meant to be just fifty and was placed differently,yellow < 50,0.43958816,<m> yellow = 50 </m>,8

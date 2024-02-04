@@ -39,3 +39,5 @@ def normalize_sub_expression(sub_expr):
 df = pd.read_csv("correctedList.csv")
 df['Propositions'] = [normalize_expression(expr) for expr in df['Propositions']]
 df.to_csv('NormalizedList.csv')
+
+

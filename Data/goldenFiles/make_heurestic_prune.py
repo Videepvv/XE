@@ -135,11 +135,12 @@ for index, row in dataset.iterrows():
             filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
             if not is_proposition_present(original_common_ground, filtered_common_grounds):
                 propositions_lost += 1
-                print("ORIGINAL COMMON GROUND - ", original_common_ground)
-                print("TRANSCRIPT - ", row['Transcript'].lower())
-                print("mentioned numbers - ", mentioned_numbers)
+                #print("ORIGINAL COMMON GROUND - ", original_common_ground)
+                #print("TRANSCRIPT - ", row['Transcript'].lower())
+                #print("mentioned numbers - ", mentioned_numbers)
 
-
+    if(row['Transcript'] == "I will tell you that the red cube is ten grams"):
+        print(filtered_common_grounds)
     total_transcripts += 1
     listOfcommonGrounds.append(len(filtered_common_grounds))
    
@@ -163,5 +164,7 @@ print(propositions_lost/total_transcripts)
 #df_extended = pd.concat([dataset, pd.DataFrame(new_rows)], ignore_index=True)
 
 #print(sum(listOfcommonGrounds)/len(listOfcommonGrounds))
-#print(listOfcommonGrounds)
-df_extended.to_csv('BigPrune_Dataset_Updated.csv')
+print(listOfcommonGrounds)
+
+df_extended['Common Ground'] = [normalize_expression(expr) for expr in df_extended['Common Ground']]
+#df_extended.to_csv('BigPrune_Dataset_Updated.csv')
