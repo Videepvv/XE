@@ -14,6 +14,7 @@ from transformers import AutoTokenizer
 import torch
 from cosine_sim import CrossEncoder_cossim
 import torch.nn.functional as F
+from helperMethods import is_proposition_present, normalize_expression, normalize_sub_expression, extract_colors
 ##These methods are used for pruning 
 # Mapping words to numbers for comparison
 number_mapping = {
