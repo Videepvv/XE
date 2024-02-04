@@ -218,7 +218,7 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
         
         train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
             batch_size=20, n_iters=10, lr_lm=0.000001, lr_class=0.0001,group =group)
-        break
+        #break
         
  
   
@@ -411,12 +411,13 @@ def train(train_pairs,
 
         return test_instances
 
-    
+    #this just gets all of the positive pairs from the test set
     test_instances = create_test_set(dev_pairs, dev_labels, proposition_map) 
 
     # Create a DataFrame from the test instances
     test_df = pd.DataFrame(test_instances, columns=['transcript', 'common_ground'])
     test_df["Label"] = 1
+    
     #get the list of all possible common grounds
     common_grounds_dataSet = pd.read_csv('/s/babbage/b/nobackup/nblancha/public-datasets/ilideep/XE/Data/OracleWithLabels/props/correctedList.csv')
     common_grounds = list(common_grounds_dataSet['Propositions'])
@@ -434,14 +435,13 @@ def train(train_pairs,
 
         if not filtered_common_grounds:  # If no match found, try individual color-number pairs
             filtered_common_grounds = [cg for cg in common_grounds if is_valid_individual_match(cg, elements)]  #If there is no match where only the mentioned colors and weights are present, get the individual combincations 
-        filtered_common_grounds = [normalize_expression(expr) for expr in filtered_common_grounds] #normalize filtered
-    
+        
+        #normalize the filtered common ground 
+        filtered_common_grounds = [normalize_expression(expr) for expr in filtered_common_grounds]
+        #we do not want any instances where no color and weight was mentioned 
         if(len(filtered_common_grounds)==1650 or len(filtered_common_grounds)==1):
             continue
-        #This is where the cosine pruning will happen. filtered_common_grounds is the list of all the pruned possible common grounds  
-        #We will now get the cosine similarity for row['transcript'] and those pruned (filtered common grounds) 
-        #Save the top 5 cosine pairs
-        
+        #now get the cosine similarity between the current transcript in the test set and all possible common_grounds
         cosine_similarities = []
         for cg in filtered_common_grounds:
             
@@ -460,7 +460,7 @@ def train(train_pairs,
                 cosine_similarity = F.cosine_similarity(transcript_vec, common_ground_vec).item()
                 cosine_similarities.append(cosine_similarity)
             else:
-            # Tokenize and prepare inputs using the tokenizer from parallel_model
+                # Tokenize and prepare inputs using the tokenizer from parallel_model
                 cg_with_token = "<m>" + " " + cg + " "  + "</m>"
                 trans_with_token = "<m>" + " "+ row['transcript'] +" " + "</m>"
                 theIndividualDict = {
@@ -519,8 +519,7 @@ def train(train_pairs,
     new_df["scores"] = test_predictions #Get the raw scores as given by the cross Encoder
     test_predictions = test_predictions > 0.5
     test_predictions = torch.squeeze(test_predictions)
-    #new_df["scores"] = test_predictions
-    highest_scoring_pairs = new_df.loc[new_df.groupby('transcript')['scores'].idxmax()]
+    
     
     # Step 3: Verify against the correct common grounds
     # Assuming 'test_df' has a unique row for each transcript with the correct common ground
@@ -529,29 +528,6 @@ def train(train_pairs,
     new_df['Group'] =  group
     new_df.to_csv(f'resultsTrainedCosine/{group}.csv')
 
-    correct_matches = 0
-    # for index, row in highest_scoring_pairs.iterrows():
-    #     transcript = row['transcript']
-    #     print('transcript - ', transcript)
-    #     predicted_common_ground = row['common_ground']
-    #     #actual_common_ground = test_df.loc[transcript, 'common_ground']
-    #     actual_common_ground = test_df.loc[test_df['transcript'] == transcript, 'common_ground'].values[0]
-    
-    #     actual_common_ground = actual_common_ground.replace("<m>", "").replace("</m>", "").replace(" ", "")
-    #     print('the actual common ground -', actual_common_ground)
-    #     print('predectied -', predicted_common_ground)
-    #     if predicted_common_ground == actual_common_ground:
-    #         correct_matches += 1
-    #         print("got a match")
-    # final_accuracy = correct_matches / len(highest_scoring_pairs)
-    # print(f"Accuracy of correctly identifying the true common ground: {final_accuracy:.2f}")
-    # print(new_df)
-    #ask abhijnan: I need to get the top common ground. I am only getting a label of 1 or 0. Where do i access the actual sentences/ common grond 
-    #print(test_predictions, test_labels)
-    #print("dev accuracy:", accuracy(dev_predictions, dev_labels))
-    #print("dev precision:", precision(dev_predictions, dev_labels))
-    #print("dev recall:", recall(dev_predictions, dev_labels))
-    #print("dev f1:", f1_score(dev_predictions, dev_labels))
 """
 
     #Predict here. Create the dataset. Prune with Heuristic. Prune with cosine. use predict_with_XE
