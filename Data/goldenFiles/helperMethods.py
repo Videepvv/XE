@@ -86,3 +86,13 @@ def is_valid_individual_match(cg, elements):
                 return True
     return False
     
+def broaden_search_with_numbers(common_grounds, mentioned_numbers):
+    # Filter common grounds to include those mentioning any of the mentioned numbers
+    
+    broadened_common_grounds = [cg for cg in common_grounds if any(str(number) in cg for number in mentioned_numbers)]
+    
+    return broadened_common_grounds
+def broaden_search_with_colors(common_grounds, mentioned_colors):
+    # Filter common grounds to include those mentioning any of the mentioned colors
+    broadened_common_grounds = [cg for cg in common_grounds if any(color in cg for color in mentioned_colors)]
+    return broadened_common_grounds

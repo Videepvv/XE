@@ -17,6 +17,20 @@ import torch.nn.functional as F
 from helperMethods import is_proposition_present, normalize_expression, normalize_sub_expression, extract_colors
 ##These methods are used for pruning 
 # Mapping words to numbers for comparison
+
+
+def broaden_search_with_numbers(common_grounds, mentioned_numbers):
+    # Filter common grounds to include those mentioning any of the mentioned numbers
+    
+    broadened_common_grounds = [cg for cg in common_grounds if any(str(number) in cg for number in mentioned_numbers)]
+    
+    return broadened_common_grounds
+def broaden_search_with_colors(common_grounds, mentioned_colors):
+    # Filter common grounds to include those mentioning any of the mentioned colors
+    broadened_common_grounds = [cg for cg in common_grounds if any(color in cg for color in mentioned_colors)]
+    return broadened_common_grounds
+
+
 number_mapping = {
     "ten": 10, "twenty": 20, "thirty": 30, 
     "forty": 40, "fifty": 50
@@ -430,6 +444,8 @@ def train(train_pairs,
     genericCosine = False
     #for each of the transctipt in the test dataset, get the transcript and generate the pruned possible common grounds. 
     for index, row in test_df.iterrows():
+        original_common_ground = row['common_ground'].replace("and", " , ") #raw common ground
+    
         elements = extract_colors_and_numbers(row['transcript'].lower()) #The list of colors / weights in the transcript
         filtered_common_grounds = []
         filtered_common_grounds = [cg for cg in common_grounds if is_valid_common_ground(cg, elements)]
@@ -442,6 +458,15 @@ def train(train_pairs,
         #we do not want any instances where no color and weight was mentioned 
         if(len(filtered_common_grounds)==1650 or len(filtered_common_grounds)==1):
             continue
+        if not is_proposition_present(original_common_ground, filtered_common_grounds):
+        mentioned_colors = elements['colors']
+        filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+        
+        if not is_proposition_present(original_common_ground, filtered_common_grounds):
+            mentioned_numbers = elements['numbers']
+            filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
+        
+        
         #now get the cosine similarity between the current transcript in the test set and all possible common_grounds
         cosine_similarities = []
         for cg in filtered_common_grounds:
@@ -527,7 +552,7 @@ def train(train_pairs,
     actual_common_ground_map = test_df.set_index('transcript')['common_ground'].to_dict()
     new_df['actual_common_ground'] = new_df['transcript'].map(actual_common_ground_map)# Set transcript as index for easy lookup
     new_df['Group'] =  group
-    new_df.to_csv(f'resultsTrainedCosine/{group}.csv')
+    new_df.to_csv(f'resultsTrainedCosineUpdates/{group}.csv')
 
 """
 
