@@ -10,7 +10,7 @@ class CrossEncoder_cossim(nn.Module):
                  linear_weights=None):
         super(CrossEncoder_cossim, self).__init__()
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.long = long
+        self.long = longinit_weights
 
         if is_training:
             self.tokenizer.add_tokens(['<m>', '</m>'], special_tokens=True)
