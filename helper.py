@@ -102,7 +102,7 @@ def get_arg_attention_mask(input_ids, parallel_model):
     return attention_mask_g, arg1, arg2
 
 
-def forward_ab(parallel_model, ab_dict, device, indices, lm_only=False):
+def forward_ab(parallel_model, ab_dict, device, indices, lm_only=False, cosine_sim =False):
     batch_tensor_ab = ab_dict['input_ids'][indices, :]
     batch_am_ab = ab_dict['attention_mask'][indices, :]
     batch_posits_ab = ab_dict['position_ids'][indices, :]
@@ -115,9 +115,9 @@ def forward_ab(parallel_model, ab_dict, device, indices, lm_only=False):
         am_g_ab.to(device)
     arg1_ab.to(device)
     arg2_ab.to(device)
-
+    
     return parallel_model(batch_tensor_ab, attention_mask=batch_am_ab, position_ids=batch_posits_ab,
-                          global_attention_mask=am_g_ab, arg1=arg1_ab, arg2=arg2_ab, lm_only=lm_only)
+                          global_attention_mask=am_g_ab, arg1=arg1_ab, arg2=arg2_ab, lm_only=lm_only, cosine_sim=False)
 
 
 

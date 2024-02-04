@@ -68,7 +68,7 @@ class CrossEncoder(nn.Module):
 
         arg1_vec = None
         if arg1 is not None:
-            arg1_vec = (last_hidden_states * arg1.unsqueeze(-1)).sum(1)
+            arg1_vec = (last_hidden_states * arg1   .unsqueeze(-1)).sum(1)
         arg2_vec = None
         if arg2 is not None:
             arg2_vec = (last_hidden_states * arg2.unsqueeze(-1)).sum(1)
@@ -78,17 +78,22 @@ class CrossEncoder(nn.Module):
         return cls_vector, arg1_vec, arg2_vec
 
     def generate_model_output(self, input_ids, attention_mask, position_ids,
-                              global_attention_mask, arg1, arg2):
+                              global_attention_mask, arg1, arg2, cosine_sim=False):
         cls_vector, arg1_vec, arg2_vec = self.generate_cls_arg_vectors(input_ids, attention_mask, position_ids,
                                                                        global_attention_mask, arg1, arg2)
-
+        if(cosine_sim):
+            cos = nn.CosineSimilarity(dim=1, eps=1e-6)
+            cosine_sim = cos(arg1_vec,  arg2_vec)
+            print("getting cosine similarities")
+            return cosine_sim
+        
         return torch.cat([cls_vector, arg1_vec, arg2_vec, arg1_vec * arg2_vec], dim=1)
 
     def frozen_forward(self, input_):
         return self.linear(input_)
 
     def forward(self, input_ids, attention_mask=None, position_ids=None,
-                global_attention_mask=None, arg1=None, arg2=None, lm_only=False, pre_lm_out=False):
+                global_attention_mask=None, arg1=None, arg2=None, lm_only=False, pre_lm_out=False, cosine_sim=False):
 
         # attention_mask[global_attention_mask == 1] = 2
 
@@ -98,8 +103,10 @@ class CrossEncoder(nn.Module):
         lm_output = self.generate_model_output(input_ids, attention_mask=attention_mask,
                                                global_attention_mask=global_attention_mask,
                                                position_ids=position_ids,
-                                               arg1=arg1, arg2=arg2)
+                                               arg1=arg1, arg2=arg2,cosine_sim=False)
         if lm_only:
             return lm_output
-
+        if cosine_sim:
+            return lm_output
+        
         return self.linear(lm_output)
