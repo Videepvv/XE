@@ -118,7 +118,7 @@ def make_proposition_map(dataset):
     df = pd.read_csv(data)
     prop_dict = defaultdict(dict)
     #normalise the common ground 
-    print(df['Common Ground'])
+    #print(df['Common Ground'])
     df['Common Ground'] = df['Common Ground'].apply(lambda x: normalize_expression(x.replace("and", ",")))
     df['Common Ground']
     for x, y in enumerate(df.iterrows()):
@@ -218,7 +218,7 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
         
         train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
             batch_size=20, n_iters=10, lr_lm=0.000001, lr_class=0.0001,group =group)
-        #break
+        break
         
  
   
