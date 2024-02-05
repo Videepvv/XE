@@ -234,11 +234,13 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
         parallel_model = torch.nn.DataParallel(scorer_module, device_ids=device_ids)
         parallel_model.module.to(device)
         #Only using pos pairs
-        #train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
-        #    batch_size=20, n_iters=10, lr_lm=0.000001, lr_class=0.0001)
+        positive_dev_pairs = [pair for pair, label in zip(train_pairs, dev_pairs) if label == 1]
         
+        #parallel_model = train(positive_dev_pairs, positive_dev_pairs, positive_dev_pairs, positive_dev_pairs, parallel_model, proposition_map, dataset_folder, device,
+        #    batch_size=20, n_iters=5, lr_lm=0.000001, lr_class=0.0001)
+        #parallel_model.module.to(device)
         train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
-            batch_size=20, n_iters=10, lr_lm=0.000001, lr_class=0.0001,group =group)
+            batch_size=20, n_iters=20, lr_lm=0.000001, lr_class=0.0001,group =group)
         #break
         
  
@@ -468,10 +470,11 @@ def train(train_pairs,
         # if not is_proposition_present(original_common_ground, filtered_common_grounds):
         #     mentioned_colors = elements['colors']
         #     filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
-            
+        
         #     if not is_proposition_present(original_common_ground, filtered_common_grounds):
         #         mentioned_numbers = elements['numbers']
         #         filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
+    
         
         
         #now get the cosine similarity between the current transcript in the test set and all possible common_grounds

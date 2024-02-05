@@ -1,4 +1,24 @@
 import re
+import nltk
+nltk.download('punkt')
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+def remove_stop_words(utterance):
+    stop_words = list(stopwords.words('english'))
+    stop_words += ['so','yeah','well','uh','ok','now','we','know','that','we','say','mean','this','think','guess',
+                  'just','like','imagine','yes','here','there']
+ 
+    word_tokens = word_tokenize(utterance)
+    # converts the words in word_tokens to lower case and then checks whether 
+    #they are present in stop_words or not
+    filtered_utterance = [w for w in word_tokens if not w.lower() in stop_words]
+    #with no lower case conversion
+    filtered_utterance = []
+
+    for w in word_tokens:
+        if w not in stop_words:
+            filtered_utterance.append(w)
+    return " ".join(filtered_utterance)
 def is_proposition_present(correct_proposition, filtered_common_grounds):
     # Normalize the correct proposition to match the format of filtered common grounds
     normalized_correct_proposition = normalize_expression(correct_proposition)
