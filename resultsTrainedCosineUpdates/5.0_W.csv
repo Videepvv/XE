@@ -1,0 +1,48 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,"red block , blue block",blue = red,0.9132732,"<m> blue = 10, red = 10 </m>",5.0
+1,"red block , blue block",blue = red,0.9132732,"<m> blue = 10, red = 10 </m>",5.0
+2,"red block , blue block",blue != red,0.12261894,"<m> blue = 10, red = 10 </m>",5.0
+3,"red block , blue block",blue != red,0.12261894,"<m> blue = 10, red = 10 </m>",5.0
+4,"red block , blue block",red < blue,0.081445545,"<m> blue = 10, red = 10 </m>",5.0
+5,purple block heavier green block one . put,green = purple,0.59649515,<m> green = 20 </m>,5.0
+6,purple block heavier green block one . put,green = purple,0.59649515,<m> green = 20 </m>,5.0
+7,purple block heavier green block one . put,green != purple,0.114166185,<m> green = 20 </m>,5.0
+8,purple block heavier green block one . put,green != purple,0.114166185,<m> green = 20 </m>,5.0
+9,purple block heavier green block one . put,green > purple,0.091667205,<m> green = 20 </m>,5.0
+10,purple block green block one .,green = purple,0.43000504,"<m> blue = 10, green = 20, red = 10 </m>",5.0
+11,purple block green block one .,green = purple,0.43000504,"<m> blue = 10, green = 20, red = 10 </m>",5.0
+12,purple block green block one .,green != purple,0.12760876,"<m> blue = 10, green = 20, red = 10 </m>",5.0
+13,purple block green block one .,green != purple,0.12760876,"<m> blue = 10, green = 20, red = 10 </m>",5.0
+14,purple block green block one .,purple < green,0.07488384,"<m> blue = 10, green = 20, red = 10 </m>",5.0
+15,see purple block 's thirty .,purple = 30,0.14960146,<m> green = 20 </m>,5.0
+16,see purple block 's thirty .,purple != 30,0.113153934,<m> green = 20 </m>,5.0
+17,see purple block 's thirty .,purple > 30,0.09149827,<m> green = 20 </m>,5.0
+18,see purple block 's thirty .,purple < 30,0.08783658,<m> green = 20 </m>,5.0
+19,"n't , n't n't options purple block 's gon na 30 .",purple = 10,0.906156,<m> purple > green </m>,5.0
+20,"n't , n't n't options purple block 's gon na 30 .",purple = 50,0.78748316,<m> purple > green </m>,5.0
+21,"n't , n't n't options purple block 's gon na 30 .",purple = 20,0.74913394,<m> purple > green </m>,5.0
+22,"n't , n't n't options purple block 's gon na 30 .",purple = 30,0.6228447,<m> purple > green </m>,5.0
+23,"n't , n't n't options purple block 's gon na 30 .",purple = 40,0.5613101,<m> purple > green </m>,5.0
+24,yellow block one 's obvious-,yellow = 40,0.96929485,<m> purple > 20 </m>,5.0
+25,yellow block one 's obvious-,yellow = 50,0.9670805,<m> purple > 20 </m>,5.0
+26,yellow block one 's obvious-,yellow = 30,0.96667814,<m> purple > 20 </m>,5.0
+27,yellow block one 's obvious-,yellow = 20,0.9658731,<m> purple > 20 </m>,5.0
+28,yellow block one 's obvious-,yellow = 10,0.96128595,<m> purple > 20 </m>,5.0
+29,"green block , purple block , green block , purple block fifty ri-",purple = 50,0.97064996,<m> purple = 30 </m>,5.0
+30,"green block , purple block , green block , purple block fifty ri-",green = 50,0.96826,<m> purple = 30 </m>,5.0
+31,"green block , purple block , green block , purple block fifty ri-","green = 10, red = 10, yellow = 50",0.8618048,<m> purple = 30 </m>,5.0
+32,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 10, red = 50",0.86646485,<m> purple = 30 </m>,5.0
+33,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, red = 10",0.85999346,<m> purple = 30 </m>,5.0
+34,purple block one 's thirty,purple = 30,0.45474508,<m> yellow = 50 </m>,5.0
+35,purple block one 's thirty,purple != 30,0.108543314,<m> yellow = 50 </m>,5.0
+36,purple block one 's thirty,purple < 30,0.09428003,<m> yellow = 50 </m>,5.0
+37,purple block one 's thirty,purple > 30,0.089208886,<m> yellow = 50 </m>,5.0
+38,"thirty , okay purple block 's thir-",purple = 30,0.36878076,<m> yellow = 50 </m>,5.0
+39,"thirty , okay purple block 's thir-",purple != 30,0.09772779,<m> yellow = 50 </m>,5.0
+40,"thirty , okay purple block 's thir-",purple > 30,0.07918503,<m> yellow = 50 </m>,5.0
+41,"thirty , okay purple block 's thir-",purple < 30,0.07476264,<m> yellow = 50 </m>,5.0
+42,"twenty , right",blue = 20,0.9627812,<m> purple = 30 </m>,5.0
+43,"twenty , right",green = 20,0.9618323,<m> purple = 30 </m>,5.0
+44,"twenty , right",purple = 20,0.9619926,<m> purple = 30 </m>,5.0
+45,"twenty , right",yellow = 20,0.9616704,<m> purple = 30 </m>,5.0
+46,"twenty , right",red = 20,0.9607985,<m> purple = 30 </m>,5.0

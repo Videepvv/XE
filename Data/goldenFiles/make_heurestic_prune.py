@@ -2,7 +2,7 @@ import pandas as pd
 import random
 import re
 from helperMethods import is_proposition_present, normalize_expression, \
-normalize_sub_expression, extract_colors_and_numbers, is_valid_common_ground, is_valid_individual_match
+normalize_sub_expression, extract_colors_and_numbers, is_valid_common_ground, is_valid_individual_match, remove_stop_words
 
 def broaden_search_with_numbers(common_grounds, mentioned_numbers):
     # Filter common grounds to include those mentioning any of the mentioned numbers
@@ -99,7 +99,8 @@ for group in range(1, 11):
     listOfDataFrames.append(pd.read_csv(f'Golden_Group_{group:02d}_CGA.csv'))
 
 dataset = pd.concat(listOfDataFrames)
-print(dataset.shape)
+#print(dataset.shape)
+dataset = pd.read_csv('updated.csv')
 dataset['Label'] = 1
 #dataset['Common Ground']= dataset['Common Ground'].replace("and", " , ")
 common_grounds_dataSet = pd.read_csv('NormalizedList.csv')
@@ -126,21 +127,21 @@ for index, row in dataset.iterrows():
     if(len(filtered_common_grounds)==1650 or len(filtered_common_grounds)==1 ):
         #print(row['Transcript'])
         continue
-    if not is_proposition_present(original_common_ground, filtered_common_grounds):
-        mentioned_colors = elements['colors']
-        filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+    # if not is_proposition_present(original_common_ground, filtered_common_grounds):
+    #     mentioned_colors = elements['colors']
+    #     filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
         
-        if not is_proposition_present(original_common_ground, filtered_common_grounds):
-            mentioned_numbers = elements['numbers']
-            filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
-            if not is_proposition_present(original_common_ground, filtered_common_grounds):
-                propositions_lost += 1
-                #print("ORIGINAL COMMON GROUND - ", original_common_ground)
-                #print("TRANSCRIPT - ", row['Transcript'].lower())
-                #print("mentioned numbers - ", mentioned_numbers)
+    #     if not is_proposition_present(original_common_ground, filtered_common_grounds):
+    #         mentioned_numbers = elements['numbers']
+    #         filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
+    #         if not is_proposition_present(original_common_ground, filtered_common_grounds):
+    #             propositions_lost += 1
+    #             print("ORIGINAL COMMON GROUND - ", original_common_ground)
+    #             print("TRANSCRIPT - ", row['Transcript'].lower())
+    #             print("mentioned numbers - ", mentioned_numbers)
 
-    if(row['Transcript'] == "I will tell you that the red cube is ten grams"):
-        print(filtered_common_grounds)
+    #if(row['Transcript'] == "I will tell you that the red cube is ten grams"):
+        #print(filtered_common_grounds)
     total_transcripts += 1
     listOfcommonGrounds.append(len(filtered_common_grounds))
    
@@ -160,11 +161,16 @@ for index, row in dataset.iterrows():
         df_extended = pd.concat([dataset, pd.DataFrame(new_rows)], ignore_index=True)
 
 
-print(propositions_lost/total_transcripts)    
+#print(propositions_lost/total_transcripts)    
 #df_extended = pd.concat([dataset, pd.DataFrame(new_rows)], ignore_index=True)
 
 #print(sum(listOfcommonGrounds)/len(listOfcommonGrounds))
-print(listOfcommonGrounds)
+#print(listOfcommonGrounds)
 
-df_extended['Common Ground'] = [normalize_expression(expr) for expr in df_extended['Common Ground']]
+#df_extended['Common Ground'] = [normalize_expression(expr) for expr in df_extended['Common Ground']]
 #df_extended.to_csv('BigPrune_Dataset_Updated.csv')
+df_extended['Transcript'] = df_extended['Transcript'].apply(remove_stop_words)
+df_extended['Common Ground'] = df_extended['Common Ground'].str.replace("and"," , ")
+df_extended['Common Ground'] = df_extended['Common Ground'].apply(normalize_expression)
+
+df_extended.to_csv('preprocessedTrainingData.csv')

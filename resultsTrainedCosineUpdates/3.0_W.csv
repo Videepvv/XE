@@ -1,0 +1,39 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,", green one twenty",green = 20,0.92083776,<m> green = 20 </m>,3.0
+1,", green one twenty",green != 20,0.034981433,<m> green = 20 </m>,3.0
+2,", green one twenty",green > 20,0.028912406,<m> green = 20 </m>,3.0
+3,", green one twenty",green < 20,0.028640803,<m> green = 20 </m>,3.0
+4,"wait , purple , much ? purple 30. green 20. 's . try",green = purple,0.62672263,"<m> green = 20, purple = 30, yellow = 50 </m>",3.0
+5,"wait , purple , much ? purple 30. green 20. 's . try",green = purple,0.62672263,"<m> green = 20, purple = 30, yellow = 50 </m>",3.0
+6,"wait , purple , much ? purple 30. green 20. 's . try",purple > green,0.053199165,"<m> green = 20, purple = 30, yellow = 50 </m>",3.0
+7,"wait , purple , much ? purple 30. green 20. 's . try",purple < green,0.048873346,"<m> green = 20, purple = 30, yellow = 50 </m>",3.0
+8,"wait , purple , much ? purple 30. green 20. 's . try",green > purple,0.04909123,"<m> green = 20, purple = 30, yellow = 50 </m>",3.0
+9,"red block , blue block two green one 's still kinda dipping",green = blue + red,0.9773263,<m> yellow < green + purple </m>,3.0
+10,"red block , blue block two green one 's still kinda dipping",blue = green + red,0.96887684,<m> yellow < green + purple </m>,3.0
+11,"red block , blue block two green one 's still kinda dipping",red = blue + green,0.96593046,<m> yellow < green + purple </m>,3.0
+12,"red block , blue block two green one 's still kinda dipping",red < blue + green,0.70502186,<m> yellow < green + purple </m>,3.0
+13,"red block , blue block two green one 's still kinda dipping",red != blue + green,0.75099623,<m> yellow < green + purple </m>,3.0
+14,"red block , blue block two green one 's still kinda dipping",green = blue + red,0.9773263,<m> yellow < green + purple </m>,3.0
+15,"red block , blue block two green one 's still kinda dipping",blue = green + red,0.96887684,<m> yellow < green + purple </m>,3.0
+16,"red block , blue block two green one 's still kinda dipping",red = blue + green,0.96593046,<m> yellow < green + purple </m>,3.0
+17,"red block , blue block two green one 's still kinda dipping",red < blue + green,0.70502186,<m> yellow < green + purple </m>,3.0
+18,"red block , blue block two green one 's still kinda dipping",red != blue + green,0.75099623,<m> yellow < green + purple </m>,3.0
+19,"red block , blue block , green block 's li-",red = blue + green,0.9354192,<m> yellow < green + purple </m>,3.0
+20,"red block , blue block , green block 's li-",green = blue + red,0.93448937,<m> yellow < green + purple </m>,3.0
+21,"red block , blue block , green block 's li-",blue = green + red,0.93270314,<m> yellow < green + purple </m>,3.0
+22,"red block , blue block , green block 's li-",green > blue + red,0.3317461,<m> yellow < green + purple </m>,3.0
+23,"red block , blue block , green block 's li-",green < blue + red,0.24221349,<m> yellow < green + purple </m>,3.0
+24,green yea,green = 10,0.96662575,<m> yellow = 50 </m>,3.0
+25,green yea,green = 20,0.9625509,<m> yellow = 50 </m>,3.0
+26,green yea,green = 50,0.9553169,<m> yellow = 50 </m>,3.0
+27,green yea,green = 30,0.9496524,<m> yellow = 50 </m>,3.0
+28,green yea,green = 40,0.9359401,<m> yellow = 50 </m>,3.0
+29,purple block thirty,purple = 30,0.21262163,<m> yellow != 30 </m>,3.0
+30,purple block thirty,purple != 30,0.046013266,<m> yellow != 30 </m>,3.0
+31,purple block thirty,purple < 30,0.041364506,<m> yellow != 30 </m>,3.0
+32,purple block thirty,purple > 30,0.039848607,<m> yellow != 30 </m>,3.0
+33,colored blocks,red = 50,0.9892806,<m> yellow = 50 </m>,3.0
+34,colored blocks,red = 10,0.98940027,<m> yellow = 50 </m>,3.0
+35,colored blocks,red = 20,0.9893283,<m> yellow = 50 </m>,3.0
+36,colored blocks,red = 30,0.9887798,<m> yellow = 50 </m>,3.0
+37,colored blocks,red = 40,0.9886776,<m> yellow = 50 </m>,3.0

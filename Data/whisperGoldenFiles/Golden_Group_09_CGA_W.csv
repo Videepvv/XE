@@ -1,0 +1,10 @@
+,Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+0,22.14,24.27,red = 10,4,24.0,28.0,9,4,You're going to determine the weights of the remaining cubes using this scale.
+1,61.74,63.4,red = blue,10,61.0,63.0,9,2,"i'd say red block, blue block's equal"
+4,96.66,97.83,green = red + blue,26,97.0,104.0,9,2,"red block, blue block, green block's probably equal"
+5,103.33,105.99,red = 10 and blue = 10,26,97.0,104.0,9,2,"red block, blue block, green block's probably equal"
+6,108.23,111.27,green != purple,30,104.0,122.0,9,3,"green block, purple block's not"
+7,130.26,133.35,green = 20 and blue = 10,33,130.0,134.0,9,1,"okay so blue block, green block was twenty and ten right? so we have"
+8,133.38,135.67,purple = 30,33,130.0,134.0,9,1,"okay so blue block, green block was twenty and ten right? so we have"
+10,160.22,164.84,yellow = purple + green,44,163.0,164.0,9,2,"probably just say green block, purple block, yellow block's equal."
+11,168.42,170.83,purple = 30 and yellow = 50,49,166.0,187.0,9,2,yeah.

@@ -1,46 +1,46 @@
 ,transcript,common_ground,scores,actual_common_ground,Group
-0,I will tell you that the red cube is ten grams,red = 10,0.9258567,<m> red = 10 </m>,4
-1,I will tell you that the red cube is ten grams,red < 10,0.06714943,<m> red = 10 </m>,4
-2,I will tell you that the red cube is ten grams,red > 10,0.0662445,<m> red = 10 </m>,4
-3,I will tell you that the red cube is ten grams,red != 10,0.06529991,<m> red = 10 </m>,4
-4,Well the top is a ten,green = 10,0.82474256,<m> blue = 10 </m>,4
-5,Well the top is a ten,blue = 10,0.77607286,<m> blue = 10 </m>,4
-6,Well the top is a ten,red = 10,0.76900804,<m> blue = 10 </m>,4
-7,Well the top is a ten,yellow = 10,0.7591675,<m> blue = 10 </m>,4
-8,Well the top is a ten,purple = 10,0.6645684,<m> blue = 10 </m>,4
-9,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same","blue = 20, green = 10, red = 10",0.02865352,<m> green = 20 </m>,4
-10,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same","blue = 10, green = 20, red = 10",0.028890785,<m> green = 20 </m>,4
-11,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same","blue = 20, green = 10, red = 20",0.026442714,<m> green = 20 </m>,4
-12,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same","blue = 10, green = 20, red = 20",0.027155312,<m> green = 20 </m>,4
-13,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same","blue = 20, green = 20, red = 10",0.023748195,<m> green = 20 </m>,4
-14,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple = 30,0.91438204,<m> purple != 40 </m>,4
-15,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple != 30,0.35578078,<m> purple != 40 </m>,4
-16,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple > 30,0.2371167,<m> purple != 40 </m>,4
-17,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple < 30,0.15761608,<m> purple != 40 </m>,4
-18,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple = 30,0.91438204,<m> purple != 40 </m>,4
-19,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple != 30,0.35578078,<m> purple != 40 </m>,4
-20,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple > 30,0.2371167,<m> purple != 40 </m>,4
-21,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple < 30,0.15761608,<m> purple != 40 </m>,4
-22,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple = 20,0.8260926,<m> purple = 30 </m>,4
-23,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple = 30,0.7145015,<m> purple = 30 </m>,4
-24,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple < 20,0.07043007,<m> purple = 30 </m>,4
-25,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple > 30,0.0698161,<m> purple = 30 </m>,4
-26,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple < 30,0.06970139,<m> purple = 30 </m>,4
-27,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple = 20,0.8260926,<m> purple = 30 </m>,4
-28,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple = 30,0.7145015,<m> purple = 30 </m>,4
-29,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple < 20,0.07043007,<m> purple = 30 </m>,4
-30,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple > 30,0.0698161,<m> purple = 30 </m>,4
-31,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple < 30,0.06970139,<m> purple = 30 </m>,4
-32,uh so yellow we or red and blue there's no there's no ok,yellow > blue + red,0.91758865,<m> yellow = 50 </m>,4
-33,uh so yellow we or red and blue there's no there's no ok,red > blue + yellow,0.9141813,<m> yellow = 50 </m>,4
-34,uh so yellow we or red and blue there's no there's no ok,yellow < blue + red,0.91390985,<m> yellow = 50 </m>,4
-35,uh so yellow we or red and blue there's no there's no ok,blue > red + yellow,0.8962494,<m> yellow = 50 </m>,4
-36,uh so yellow we or red and blue there's no there's no ok,blue < red + yellow,0.8892163,<m> yellow = 50 </m>,4
-37,blue is ten,blue = 10,0.8962668,<m> blue = 10 </m>,4
-38,blue is ten,blue != 10,0.06837814,<m> blue = 10 </m>,4
-39,blue is ten,blue > 10,0.05752653,<m> blue = 10 </m>,4
-40,blue is ten,blue < 10,0.054360006,<m> blue = 10 </m>,4
-41,and so that would mean yellow is fifty,yellow = 50,0.59190375,<m> yellow = 50 </m>,4
-42,and so that would mean yellow is fifty,yellow > 50,0.06825563,<m> yellow = 50 </m>,4
-43,and so that would mean yellow is fifty,yellow < 50,0.06752532,<m> yellow = 50 </m>,4
-44,and so that would mean yellow is fifty,yellow != 50,0.066636994,<m> yellow = 50 </m>,4
+0,I will tell you that the red cube is ten grams,red = 10,0.9782028,<m> red = 10 </m>,4
+1,I will tell you that the red cube is ten grams,red > 10,0.026027001,<m> red = 10 </m>,4
+2,I will tell you that the red cube is ten grams,red < 10,0.02586712,<m> red = 10 </m>,4
+3,I will tell you that the red cube is ten grams,red != 10,0.025517713,<m> red = 10 </m>,4
+4,Well the top is a ten,"blue = 10, green = 10, red = 10",0.9537535,<m> blue = 10 </m>,4
+5,Well the top is a ten,"green = 10, purple = 10, red = 10",0.93176633,<m> blue = 10 </m>,4
+6,Well the top is a ten,"blue = 10, green = 10, purple = 10",0.8988981,<m> blue = 10 </m>,4
+7,Well the top is a ten,"green = 10, red = 10, yellow = 10",0.8910682,<m> blue = 10 </m>,4
+8,Well the top is a ten,"blue = 10, purple = 10, red = 10",0.76608515,<m> blue = 10 </m>,4
+9,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same","blue = 10, green = 10, red = 20",0.1517164,<m> green = 20 </m>,4
+10,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same","blue = 10, green = 20, red = 10",0.08746843,<m> green = 20 </m>,4
+11,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same","blue = 20, green = 10, red = 10",0.072984494,<m> green = 20 </m>,4
+12,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same","blue = 20, green = 10, red = 20",0.07509909,<m> green = 20 </m>,4
+13,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same","blue = 10, green = 20, red = 20",0.05030452,<m> green = 20 </m>,4
+14,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple = 30,0.9796443,<m> purple != 40 </m>,4
+15,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple < 30,0.84542143,<m> purple != 40 </m>,4
+16,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple != 30,0.6303996,<m> purple != 40 </m>,4
+17,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple > 30,0.62536603,<m> purple != 40 </m>,4
+18,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple = 30,0.9796443,<m> purple != 40 </m>,4
+19,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple < 30,0.84542143,<m> purple != 40 </m>,4
+20,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple != 30,0.6303996,<m> purple != 40 </m>,4
+21,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,purple > 30,0.62536603,<m> purple != 40 </m>,4
+22,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple = 20,0.948948,<m> purple = 30 </m>,4
+23,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple = 30,0.9283891,<m> purple = 30 </m>,4
+24,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple < 30,0.7627464,<m> purple = 30 </m>,4
+25,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple < 20,0.78537583,<m> purple = 30 </m>,4
+26,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,"purple = 10, red = 10, yellow = 30",0.24306983,<m> purple = 30 </m>,4
+27,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple = 20,0.948948,<m> purple = 30 </m>,4
+28,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple = 30,0.9283891,<m> purple = 30 </m>,4
+29,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple < 30,0.7627464,<m> purple = 30 </m>,4
+30,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,purple < 20,0.78537583,<m> purple = 30 </m>,4
+31,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,"purple = 10, red = 10, yellow = 30",0.24306983,<m> purple = 30 </m>,4
+32,uh so yellow we or red and blue there's no there's no ok,blue = red + yellow,0.97479546,<m> yellow = 50 </m>,4
+33,uh so yellow we or red and blue there's no there's no ok,red = blue + yellow,0.96687645,<m> yellow = 50 </m>,4
+34,uh so yellow we or red and blue there's no there's no ok,yellow = blue + red,0.9525818,<m> yellow = 50 </m>,4
+35,uh so yellow we or red and blue there's no there's no ok,red != blue + yellow,0.7798525,<m> yellow = 50 </m>,4
+36,uh so yellow we or red and blue there's no there's no ok,blue != red + yellow,0.6887045,<m> yellow = 50 </m>,4
+37,blue is ten,blue = 10,0.95732445,<m> blue = 10 </m>,4
+38,blue is ten,blue != 10,0.023075227,<m> blue = 10 </m>,4
+39,blue is ten,blue > 10,0.021758849,<m> blue = 10 </m>,4
+40,blue is ten,blue < 10,0.020340297,<m> blue = 10 </m>,4
+41,and so that would mean yellow is fifty,yellow = 50,0.7676649,<m> yellow = 50 </m>,4
+42,and so that would mean yellow is fifty,yellow > 50,0.026474137,<m> yellow = 50 </m>,4
+43,and so that would mean yellow is fifty,yellow != 50,0.02594581,<m> yellow = 50 </m>,4
+44,and so that would mean yellow is fifty,yellow < 50,0.025760543,<m> yellow = 50 </m>,4

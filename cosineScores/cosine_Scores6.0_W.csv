@@ -1,0 +1,471 @@
+,transcript,filtered_common_ground,cosine_similarity,true_common_ground
+0,I tell red cube 10 grams .,red = 10,tensor([[1.0784]]),<m> red = 10 </m>
+1,I tell red cube 10 grams .,red = 20,tensor([[0.8457]]),<m> red = 10 </m>
+2,I tell red cube 10 grams .,red = 30,tensor([[0.4565]]),<m> red = 10 </m>
+3,I tell red cube 10 grams .,red = 40,tensor([[0.7244]]),<m> red = 10 </m>
+4,I tell red cube 10 grams .,red = 50,tensor([[0.9100]]),<m> red = 10 </m>
+5,I tell red cube 10 grams .,red != 10,tensor([[0.1347]]),<m> red = 10 </m>
+6,I tell red cube 10 grams .,red != 20,tensor([[0.1183]]),<m> red = 10 </m>
+7,I tell red cube 10 grams .,red != 30,tensor([[0.1108]]),<m> red = 10 </m>
+8,I tell red cube 10 grams .,red != 40,tensor([[0.1115]]),<m> red = 10 </m>
+9,I tell red cube 10 grams .,red != 50,tensor([[0.1370]]),<m> red = 10 </m>
+10,I tell red cube 10 grams .,red < 10,tensor([[0.1077]]),<m> red = 10 </m>
+11,I tell red cube 10 grams .,red < 20,tensor([[0.1042]]),<m> red = 10 </m>
+12,I tell red cube 10 grams .,red < 30,tensor([[0.1006]]),<m> red = 10 </m>
+13,I tell red cube 10 grams .,red < 40,tensor([[0.1019]]),<m> red = 10 </m>
+14,I tell red cube 10 grams .,red < 50,tensor([[0.1113]]),<m> red = 10 </m>
+15,I tell red cube 10 grams .,red > 10,tensor([[0.1141]]),<m> red = 10 </m>
+16,I tell red cube 10 grams .,red > 20,tensor([[0.1070]]),<m> red = 10 </m>
+17,I tell red cube 10 grams .,red > 30,tensor([[0.1023]]),<m> red = 10 </m>
+18,I tell red cube 10 grams .,red > 40,tensor([[0.1034]]),<m> red = 10 </m>
+19,I tell red cube 10 grams .,red > 50,tensor([[0.1152]]),<m> red = 10 </m>
+20,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue = red,tensor([[1.0494]]),<m> red = 10 </m>
+21,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue != red,tensor([[0.0718]]),<m> red = 10 </m>
+22,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",red < blue,tensor([[0.0862]]),<m> red = 10 </m>
+23,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",red > blue,tensor([[0.0682]]),<m> red = 10 </m>
+24,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue = red,tensor([[1.0494]]),<m> red = 10 </m>
+25,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue != red,tensor([[0.0718]]),<m> red = 10 </m>
+26,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue < red,tensor([[0.0782]]),<m> red = 10 </m>
+27,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue > red,tensor([[0.0609]]),<m> red = 10 </m>
+28,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue = red,tensor([[1.0494]]),<m> blue = red </m>
+29,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue != red,tensor([[0.0718]]),<m> blue = red </m>
+30,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",red < blue,tensor([[0.0862]]),<m> blue = red </m>
+31,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",red > blue,tensor([[0.0682]]),<m> blue = red </m>
+32,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue = red,tensor([[1.0494]]),<m> blue = red </m>
+33,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue != red,tensor([[0.0718]]),<m> blue = red </m>
+34,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue < red,tensor([[0.0782]]),<m> blue = red </m>
+35,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue > red,tensor([[0.0609]]),<m> blue = red </m>
+36,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow = 10,tensor([[1.1697]]),<m> green = 20 </m>
+37,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow = 20,tensor([[1.1742]]),<m> green = 20 </m>
+38,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow = 30,tensor([[1.1427]]),<m> green = 20 </m>
+39,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow = 40,tensor([[1.1522]]),<m> green = 20 </m>
+40,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow = 50,tensor([[1.1672]]),<m> green = 20 </m>
+41,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow != 10,tensor([[0.5868]]),<m> green = 20 </m>
+42,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow != 20,tensor([[0.5814]]),<m> green = 20 </m>
+43,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow != 30,tensor([[0.5070]]),<m> green = 20 </m>
+44,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow != 40,tensor([[0.6135]]),<m> green = 20 </m>
+45,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow != 50,tensor([[0.7104]]),<m> green = 20 </m>
+46,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow < 10,tensor([[0.5926]]),<m> green = 20 </m>
+47,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow < 20,tensor([[0.5139]]),<m> green = 20 </m>
+48,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow < 30,tensor([[0.4820]]),<m> green = 20 </m>
+49,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow < 40,tensor([[0.5555]]),<m> green = 20 </m>
+50,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow < 50,tensor([[0.7223]]),<m> green = 20 </m>
+51,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow > 10,tensor([[0.5323]]),<m> green = 20 </m>
+52,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow > 20,tensor([[0.5513]]),<m> green = 20 </m>
+53,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow > 30,tensor([[0.4333]]),<m> green = 20 </m>
+54,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow > 40,tensor([[0.5850]]),<m> green = 20 </m>
+55,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow > 50,tensor([[0.7279]]),<m> green = 20 </m>
+56,making sure purple block n't weight bottom .,purple = 10,tensor([[0.9322]]),"<m> green = 20, red = 10 </m>"
+57,making sure purple block n't weight bottom .,purple = 20,tensor([[1.0266]]),"<m> green = 20, red = 10 </m>"
+58,making sure purple block n't weight bottom .,purple = 30,tensor([[0.8110]]),"<m> green = 20, red = 10 </m>"
+59,making sure purple block n't weight bottom .,purple = 40,tensor([[0.9959]]),"<m> green = 20, red = 10 </m>"
+60,making sure purple block n't weight bottom .,purple = 50,tensor([[1.0673]]),"<m> green = 20, red = 10 </m>"
+61,making sure purple block n't weight bottom .,purple != 10,tensor([[0.1599]]),"<m> green = 20, red = 10 </m>"
+62,making sure purple block n't weight bottom .,purple != 20,tensor([[0.1571]]),"<m> green = 20, red = 10 </m>"
+63,making sure purple block n't weight bottom .,purple != 30,tensor([[0.1500]]),"<m> green = 20, red = 10 </m>"
+64,making sure purple block n't weight bottom .,purple != 40,tensor([[0.1611]]),"<m> green = 20, red = 10 </m>"
+65,making sure purple block n't weight bottom .,purple != 50,tensor([[0.1744]]),"<m> green = 20, red = 10 </m>"
+66,making sure purple block n't weight bottom .,purple < 10,tensor([[0.1663]]),"<m> green = 20, red = 10 </m>"
+67,making sure purple block n't weight bottom .,purple < 20,tensor([[0.1630]]),"<m> green = 20, red = 10 </m>"
+68,making sure purple block n't weight bottom .,purple < 30,tensor([[0.1557]]),"<m> green = 20, red = 10 </m>"
+69,making sure purple block n't weight bottom .,purple < 40,tensor([[0.1746]]),"<m> green = 20, red = 10 </m>"
+70,making sure purple block n't weight bottom .,purple < 50,tensor([[0.1928]]),"<m> green = 20, red = 10 </m>"
+71,making sure purple block n't weight bottom .,purple > 10,tensor([[0.1435]]),"<m> green = 20, red = 10 </m>"
+72,making sure purple block n't weight bottom .,purple > 20,tensor([[0.1482]]),"<m> green = 20, red = 10 </m>"
+73,making sure purple block n't weight bottom .,purple > 30,tensor([[0.1369]]),"<m> green = 20, red = 10 </m>"
+74,making sure purple block n't weight bottom .,purple > 40,tensor([[0.1458]]),"<m> green = 20, red = 10 </m>"
+75,making sure purple block n't weight bottom .,purple > 50,tensor([[0.1580]]),"<m> green = 20, red = 10 </m>"
+76,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",blue = green + purple,tensor([[0.0996]]),<m> yellow = 50 </m>
+77,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",blue != green + purple,tensor([[0.0625]]),<m> yellow = 50 </m>
+78,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",blue < green + purple,tensor([[0.0668]]),<m> yellow = 50 </m>
+79,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",blue > green + purple,tensor([[0.0557]]),<m> yellow = 50 </m>
+80,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",green = blue + purple,tensor([[0.1123]]),<m> yellow = 50 </m>
+81,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",green != blue + purple,tensor([[0.0622]]),<m> yellow = 50 </m>
+82,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",green < blue + purple,tensor([[0.0652]]),<m> yellow = 50 </m>
+83,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",green > blue + purple,tensor([[0.0587]]),<m> yellow = 50 </m>
+84,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",purple = blue + green,tensor([[0.1414]]),<m> yellow = 50 </m>
+85,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",purple != blue + green,tensor([[0.0653]]),<m> yellow = 50 </m>
+86,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",purple < blue + green,tensor([[0.0679]]),<m> yellow = 50 </m>
+87,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",purple > blue + green,tensor([[0.0597]]),<m> yellow = 50 </m>
+88,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 10, purple = 10",tensor([[0.0533]]),<m> yellow = 50 </m>
+89,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 10, purple = 20",tensor([[0.0739]]),<m> yellow = 50 </m>
+90,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 10, purple = 30",tensor([[0.0742]]),<m> yellow = 50 </m>
+91,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 10, purple = 40",tensor([[0.0784]]),<m> yellow = 50 </m>
+92,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 10, purple = 50",tensor([[0.0773]]),<m> yellow = 50 </m>
+93,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 20, purple = 10",tensor([[0.0660]]),<m> yellow = 50 </m>
+94,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 20, purple = 20",tensor([[0.0719]]),<m> yellow = 50 </m>
+95,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 20, purple = 30",tensor([[0.1155]]),<m> yellow = 50 </m>
+96,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 20, purple = 40",tensor([[0.1462]]),<m> yellow = 50 </m>
+97,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 20, purple = 50",tensor([[0.1439]]),<m> yellow = 50 </m>
+98,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 30, purple = 10",tensor([[0.0877]]),<m> yellow = 50 </m>
+99,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 30, purple = 20",tensor([[0.1316]]),<m> yellow = 50 </m>
+100,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 30, purple = 30",tensor([[0.1046]]),<m> yellow = 50 </m>
+101,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 30, purple = 40",tensor([[0.1416]]),<m> yellow = 50 </m>
+102,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 30, purple = 50",tensor([[0.1390]]),<m> yellow = 50 </m>
+103,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 40, purple = 10",tensor([[0.0999]]),<m> yellow = 50 </m>
+104,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 40, purple = 20",tensor([[0.1458]]),<m> yellow = 50 </m>
+105,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 40, purple = 30",tensor([[0.1321]]),<m> yellow = 50 </m>
+106,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 40, purple = 40",tensor([[0.0933]]),<m> yellow = 50 </m>
+107,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 40, purple = 50",tensor([[0.1552]]),<m> yellow = 50 </m>
+108,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 50, purple = 10",tensor([[0.0802]]),<m> yellow = 50 </m>
+109,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 50, purple = 20",tensor([[0.1221]]),<m> yellow = 50 </m>
+110,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 50, purple = 30",tensor([[0.1355]]),<m> yellow = 50 </m>
+111,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 50, purple = 40",tensor([[0.1512]]),<m> yellow = 50 </m>
+112,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 50, purple = 50",tensor([[0.0990]]),<m> yellow = 50 </m>
+113,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 10, purple = 10",tensor([[0.0657]]),<m> yellow = 50 </m>
+114,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 10, purple = 20",tensor([[0.0730]]),<m> yellow = 50 </m>
+115,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 10, purple = 30",tensor([[0.1187]]),<m> yellow = 50 </m>
+116,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 10, purple = 40",tensor([[0.1221]]),<m> yellow = 50 </m>
+117,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 10, purple = 50",tensor([[0.1169]]),<m> yellow = 50 </m>
+118,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 20, purple = 10",tensor([[0.0715]]),<m> yellow = 50 </m>
+119,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 20, purple = 20",tensor([[0.0692]]),<m> yellow = 50 </m>
+120,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 20, purple = 30",tensor([[0.1182]]),<m> yellow = 50 </m>
+121,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 20, purple = 40",tensor([[0.1201]]),<m> yellow = 50 </m>
+122,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 20, purple = 50",tensor([[0.1164]]),<m> yellow = 50 </m>
+123,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 30, purple = 10",tensor([[0.1272]]),<m> yellow = 50 </m>
+124,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 30, purple = 20",tensor([[0.0900]]),<m> yellow = 50 </m>
+125,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 30, purple = 30",tensor([[0.1312]]),<m> yellow = 50 </m>
+126,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 30, purple = 40",tensor([[0.1633]]),<m> yellow = 50 </m>
+127,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 30, purple = 50",tensor([[0.1605]]),<m> yellow = 50 </m>
+128,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 40, purple = 10",tensor([[0.1317]]),<m> yellow = 50 </m>
+129,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 40, purple = 20",tensor([[0.1242]]),<m> yellow = 50 </m>
+130,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 40, purple = 30",tensor([[0.1570]]),<m> yellow = 50 </m>
+131,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 40, purple = 40",tensor([[0.1241]]),<m> yellow = 50 </m>
+132,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 40, purple = 50",tensor([[0.1810]]),<m> yellow = 50 </m>
+133,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 50, purple = 10",tensor([[0.1194]]),<m> yellow = 50 </m>
+134,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 50, purple = 20",tensor([[0.1239]]),<m> yellow = 50 </m>
+135,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 50, purple = 30",tensor([[0.1580]]),<m> yellow = 50 </m>
+136,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 50, purple = 40",tensor([[0.1776]]),<m> yellow = 50 </m>
+137,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 50, purple = 50",tensor([[0.1267]]),<m> yellow = 50 </m>
+138,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 10, purple = 10",tensor([[0.0827]]),<m> yellow = 50 </m>
+139,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 10, purple = 20",tensor([[0.1238]]),<m> yellow = 50 </m>
+140,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 10, purple = 30",tensor([[0.1042]]),<m> yellow = 50 </m>
+141,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 10, purple = 40",tensor([[0.1254]]),<m> yellow = 50 </m>
+142,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 10, purple = 50",tensor([[0.1307]]),<m> yellow = 50 </m>
+143,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 20, purple = 10",tensor([[0.1336]]),<m> yellow = 50 </m>
+144,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 20, purple = 20",tensor([[0.0928]]),<m> yellow = 50 </m>
+145,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 20, purple = 30",tensor([[0.1099]]),<m> yellow = 50 </m>
+146,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 20, purple = 40",tensor([[0.1489]]),<m> yellow = 50 </m>
+147,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 20, purple = 50",tensor([[0.1576]]),<m> yellow = 50 </m>
+148,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 30, purple = 10",tensor([[0.0988]]),<m> yellow = 50 </m>
+149,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 30, purple = 20",tensor([[0.1133]]),<m> yellow = 50 </m>
+150,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 30, purple = 30",tensor([[0.0650]]),<m> yellow = 50 </m>
+151,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 30, purple = 40",tensor([[0.1374]]),<m> yellow = 50 </m>
+152,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 30, purple = 50",tensor([[0.1402]]),<m> yellow = 50 </m>
+153,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 40, purple = 10",tensor([[0.1331]]),<m> yellow = 50 </m>
+154,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 40, purple = 20",tensor([[0.1473]]),<m> yellow = 50 </m>
+155,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 40, purple = 30",tensor([[0.1247]]),<m> yellow = 50 </m>
+156,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 40, purple = 40",tensor([[0.1155]]),<m> yellow = 50 </m>
+157,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 40, purple = 50",tensor([[0.1796]]),<m> yellow = 50 </m>
+158,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 50, purple = 10",tensor([[0.1309]]),<m> yellow = 50 </m>
+159,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 50, purple = 20",tensor([[0.1563]]),<m> yellow = 50 </m>
+160,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 50, purple = 30",tensor([[0.1377]]),<m> yellow = 50 </m>
+161,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 50, purple = 40",tensor([[0.1751]]),<m> yellow = 50 </m>
+162,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 50, purple = 50",tensor([[0.1324]]),<m> yellow = 50 </m>
+163,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 10, purple = 10",tensor([[0.0997]]),<m> yellow = 50 </m>
+164,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 10, purple = 20",tensor([[0.1335]]),<m> yellow = 50 </m>
+165,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 10, purple = 30",tensor([[0.1404]]),<m> yellow = 50 </m>
+166,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 10, purple = 40",tensor([[0.1039]]),<m> yellow = 50 </m>
+167,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 10, purple = 50",tensor([[0.1404]]),<m> yellow = 50 </m>
+168,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 20, purple = 10",tensor([[0.1497]]),<m> yellow = 50 </m>
+169,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 20, purple = 20",tensor([[0.1267]]),<m> yellow = 50 </m>
+170,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 20, purple = 30",tensor([[0.1566]]),<m> yellow = 50 </m>
+171,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 20, purple = 40",tensor([[0.1263]]),<m> yellow = 50 </m>
+172,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 20, purple = 50",tensor([[0.1769]]),<m> yellow = 50 </m>
+173,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 30, purple = 10",tensor([[0.1370]]),<m> yellow = 50 </m>
+174,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 30, purple = 20",tensor([[0.1511]]),<m> yellow = 50 </m>
+175,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 30, purple = 30",tensor([[0.1267]]),<m> yellow = 50 </m>
+176,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 30, purple = 40",tensor([[0.1235]]),<m> yellow = 50 </m>
+177,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 30, purple = 50",tensor([[0.1798]]),<m> yellow = 50 </m>
+178,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 40, purple = 10",tensor([[0.0934]]),<m> yellow = 50 </m>
+179,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 40, purple = 20",tensor([[0.1264]]),<m> yellow = 50 </m>
+180,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 40, purple = 30",tensor([[0.1442]]),<m> yellow = 50 </m>
+181,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 40, purple = 40",tensor([[0.0973]]),<m> yellow = 50 </m>
+182,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 40, purple = 50",tensor([[0.1746]]),<m> yellow = 50 </m>
+183,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 50, purple = 10",tensor([[0.1329]]),<m> yellow = 50 </m>
+184,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 50, purple = 20",tensor([[0.1562]]),<m> yellow = 50 </m>
+185,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 50, purple = 30",tensor([[0.1752]]),<m> yellow = 50 </m>
+186,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 50, purple = 40",tensor([[0.1313]]),<m> yellow = 50 </m>
+187,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 50, purple = 50",tensor([[0.1488]]),<m> yellow = 50 </m>
+188,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 10, purple = 10",tensor([[0.0863]]),<m> yellow = 50 </m>
+189,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 10, purple = 20",tensor([[0.1258]]),<m> yellow = 50 </m>
+190,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 10, purple = 30",tensor([[0.1405]]),<m> yellow = 50 </m>
+191,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 10, purple = 40",tensor([[0.1302]]),<m> yellow = 50 </m>
+192,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 10, purple = 50",tensor([[0.1025]]),<m> yellow = 50 </m>
+193,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 20, purple = 10",tensor([[0.1387]]),<m> yellow = 50 </m>
+194,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 20, purple = 20",tensor([[0.1256]]),<m> yellow = 50 </m>
+195,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 20, purple = 30",tensor([[0.1563]]),<m> yellow = 50 </m>
+196,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 20, purple = 40",tensor([[0.1819]]),<m> yellow = 50 </m>
+197,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 20, purple = 50",tensor([[0.1320]]),<m> yellow = 50 </m>
+198,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 30, purple = 10",tensor([[0.1406]]),<m> yellow = 50 </m>
+199,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 30, purple = 20",tensor([[0.1590]]),<m> yellow = 50 </m>
+200,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 30, purple = 30",tensor([[0.1409]]),<m> yellow = 50 </m>
+201,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 30, purple = 40",tensor([[0.1773]]),<m> yellow = 50 </m>
+202,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 30, purple = 50",tensor([[0.1439]]),<m> yellow = 50 </m>
+203,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 40, purple = 10",tensor([[0.1461]]),<m> yellow = 50 </m>
+204,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 40, purple = 20",tensor([[0.1756]]),<m> yellow = 50 </m>
+205,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 40, purple = 30",tensor([[0.1795]]),<m> yellow = 50 </m>
+206,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 40, purple = 40",tensor([[0.1357]]),<m> yellow = 50 </m>
+207,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 40, purple = 50",tensor([[0.1617]]),<m> yellow = 50 </m>
+208,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 50, purple = 10",tensor([[0.0943]]),<m> yellow = 50 </m>
+209,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 50, purple = 20",tensor([[0.1211]]),<m> yellow = 50 </m>
+210,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 50, purple = 30",tensor([[0.1368]]),<m> yellow = 50 </m>
+211,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 50, purple = 40",tensor([[0.1603]]),<m> yellow = 50 </m>
+212,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 50, purple = 50",tensor([[0.0968]]),<m> yellow = 50 </m>
+213,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",blue = green + purple,tensor([[0.0996]]),<m> yellow < 50 </m>
+214,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",blue != green + purple,tensor([[0.0625]]),<m> yellow < 50 </m>
+215,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",blue < green + purple,tensor([[0.0668]]),<m> yellow < 50 </m>
+216,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",blue > green + purple,tensor([[0.0557]]),<m> yellow < 50 </m>
+217,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",green = blue + purple,tensor([[0.1123]]),<m> yellow < 50 </m>
+218,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",green != blue + purple,tensor([[0.0622]]),<m> yellow < 50 </m>
+219,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",green < blue + purple,tensor([[0.0652]]),<m> yellow < 50 </m>
+220,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",green > blue + purple,tensor([[0.0587]]),<m> yellow < 50 </m>
+221,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",purple = blue + green,tensor([[0.1414]]),<m> yellow < 50 </m>
+222,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",purple != blue + green,tensor([[0.0653]]),<m> yellow < 50 </m>
+223,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",purple < blue + green,tensor([[0.0679]]),<m> yellow < 50 </m>
+224,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .",purple > blue + green,tensor([[0.0597]]),<m> yellow < 50 </m>
+225,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 10, purple = 10",tensor([[0.0533]]),<m> yellow < 50 </m>
+226,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 10, purple = 20",tensor([[0.0739]]),<m> yellow < 50 </m>
+227,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 10, purple = 30",tensor([[0.0742]]),<m> yellow < 50 </m>
+228,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 10, purple = 40",tensor([[0.0784]]),<m> yellow < 50 </m>
+229,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 10, purple = 50",tensor([[0.0773]]),<m> yellow < 50 </m>
+230,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 20, purple = 10",tensor([[0.0660]]),<m> yellow < 50 </m>
+231,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 20, purple = 20",tensor([[0.0719]]),<m> yellow < 50 </m>
+232,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 20, purple = 30",tensor([[0.1155]]),<m> yellow < 50 </m>
+233,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 20, purple = 40",tensor([[0.1462]]),<m> yellow < 50 </m>
+234,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 20, purple = 50",tensor([[0.1439]]),<m> yellow < 50 </m>
+235,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 30, purple = 10",tensor([[0.0877]]),<m> yellow < 50 </m>
+236,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 30, purple = 20",tensor([[0.1316]]),<m> yellow < 50 </m>
+237,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 30, purple = 30",tensor([[0.1046]]),<m> yellow < 50 </m>
+238,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 30, purple = 40",tensor([[0.1416]]),<m> yellow < 50 </m>
+239,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 30, purple = 50",tensor([[0.1390]]),<m> yellow < 50 </m>
+240,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 40, purple = 10",tensor([[0.0999]]),<m> yellow < 50 </m>
+241,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 40, purple = 20",tensor([[0.1458]]),<m> yellow < 50 </m>
+242,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 40, purple = 30",tensor([[0.1321]]),<m> yellow < 50 </m>
+243,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 40, purple = 40",tensor([[0.0933]]),<m> yellow < 50 </m>
+244,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 40, purple = 50",tensor([[0.1552]]),<m> yellow < 50 </m>
+245,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 50, purple = 10",tensor([[0.0802]]),<m> yellow < 50 </m>
+246,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 50, purple = 20",tensor([[0.1221]]),<m> yellow < 50 </m>
+247,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 50, purple = 30",tensor([[0.1355]]),<m> yellow < 50 </m>
+248,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 50, purple = 40",tensor([[0.1512]]),<m> yellow < 50 </m>
+249,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 10, green = 50, purple = 50",tensor([[0.0990]]),<m> yellow < 50 </m>
+250,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 10, purple = 10",tensor([[0.0657]]),<m> yellow < 50 </m>
+251,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 10, purple = 20",tensor([[0.0730]]),<m> yellow < 50 </m>
+252,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 10, purple = 30",tensor([[0.1187]]),<m> yellow < 50 </m>
+253,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 10, purple = 40",tensor([[0.1221]]),<m> yellow < 50 </m>
+254,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 10, purple = 50",tensor([[0.1169]]),<m> yellow < 50 </m>
+255,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 20, purple = 10",tensor([[0.0715]]),<m> yellow < 50 </m>
+256,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 20, purple = 20",tensor([[0.0692]]),<m> yellow < 50 </m>
+257,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 20, purple = 30",tensor([[0.1182]]),<m> yellow < 50 </m>
+258,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 20, purple = 40",tensor([[0.1201]]),<m> yellow < 50 </m>
+259,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 20, purple = 50",tensor([[0.1164]]),<m> yellow < 50 </m>
+260,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 30, purple = 10",tensor([[0.1272]]),<m> yellow < 50 </m>
+261,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 30, purple = 20",tensor([[0.0900]]),<m> yellow < 50 </m>
+262,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 30, purple = 30",tensor([[0.1312]]),<m> yellow < 50 </m>
+263,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 30, purple = 40",tensor([[0.1633]]),<m> yellow < 50 </m>
+264,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 30, purple = 50",tensor([[0.1605]]),<m> yellow < 50 </m>
+265,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 40, purple = 10",tensor([[0.1317]]),<m> yellow < 50 </m>
+266,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 40, purple = 20",tensor([[0.1242]]),<m> yellow < 50 </m>
+267,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 40, purple = 30",tensor([[0.1570]]),<m> yellow < 50 </m>
+268,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 40, purple = 40",tensor([[0.1241]]),<m> yellow < 50 </m>
+269,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 40, purple = 50",tensor([[0.1810]]),<m> yellow < 50 </m>
+270,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 50, purple = 10",tensor([[0.1194]]),<m> yellow < 50 </m>
+271,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 50, purple = 20",tensor([[0.1239]]),<m> yellow < 50 </m>
+272,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 50, purple = 30",tensor([[0.1580]]),<m> yellow < 50 </m>
+273,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 50, purple = 40",tensor([[0.1776]]),<m> yellow < 50 </m>
+274,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 50, purple = 50",tensor([[0.1267]]),<m> yellow < 50 </m>
+275,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 10, purple = 10",tensor([[0.0827]]),<m> yellow < 50 </m>
+276,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 10, purple = 20",tensor([[0.1238]]),<m> yellow < 50 </m>
+277,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 10, purple = 30",tensor([[0.1042]]),<m> yellow < 50 </m>
+278,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 10, purple = 40",tensor([[0.1254]]),<m> yellow < 50 </m>
+279,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 10, purple = 50",tensor([[0.1307]]),<m> yellow < 50 </m>
+280,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 20, purple = 10",tensor([[0.1336]]),<m> yellow < 50 </m>
+281,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 20, purple = 20",tensor([[0.0928]]),<m> yellow < 50 </m>
+282,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 20, purple = 30",tensor([[0.1099]]),<m> yellow < 50 </m>
+283,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 20, purple = 40",tensor([[0.1489]]),<m> yellow < 50 </m>
+284,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 20, purple = 50",tensor([[0.1576]]),<m> yellow < 50 </m>
+285,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 30, purple = 10",tensor([[0.0988]]),<m> yellow < 50 </m>
+286,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 30, purple = 20",tensor([[0.1133]]),<m> yellow < 50 </m>
+287,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 30, purple = 30",tensor([[0.0650]]),<m> yellow < 50 </m>
+288,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 30, purple = 40",tensor([[0.1374]]),<m> yellow < 50 </m>
+289,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 30, purple = 50",tensor([[0.1402]]),<m> yellow < 50 </m>
+290,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 40, purple = 10",tensor([[0.1331]]),<m> yellow < 50 </m>
+291,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 40, purple = 20",tensor([[0.1473]]),<m> yellow < 50 </m>
+292,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 40, purple = 30",tensor([[0.1247]]),<m> yellow < 50 </m>
+293,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 40, purple = 40",tensor([[0.1155]]),<m> yellow < 50 </m>
+294,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 40, purple = 50",tensor([[0.1796]]),<m> yellow < 50 </m>
+295,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 50, purple = 10",tensor([[0.1309]]),<m> yellow < 50 </m>
+296,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 50, purple = 20",tensor([[0.1563]]),<m> yellow < 50 </m>
+297,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 50, purple = 30",tensor([[0.1377]]),<m> yellow < 50 </m>
+298,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 50, purple = 40",tensor([[0.1751]]),<m> yellow < 50 </m>
+299,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 50, purple = 50",tensor([[0.1324]]),<m> yellow < 50 </m>
+300,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 10, purple = 10",tensor([[0.0997]]),<m> yellow < 50 </m>
+301,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 10, purple = 20",tensor([[0.1335]]),<m> yellow < 50 </m>
+302,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 10, purple = 30",tensor([[0.1404]]),<m> yellow < 50 </m>
+303,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 10, purple = 40",tensor([[0.1039]]),<m> yellow < 50 </m>
+304,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 10, purple = 50",tensor([[0.1404]]),<m> yellow < 50 </m>
+305,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 20, purple = 10",tensor([[0.1497]]),<m> yellow < 50 </m>
+306,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 20, purple = 20",tensor([[0.1267]]),<m> yellow < 50 </m>
+307,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 20, purple = 30",tensor([[0.1566]]),<m> yellow < 50 </m>
+308,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 20, purple = 40",tensor([[0.1263]]),<m> yellow < 50 </m>
+309,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 20, purple = 50",tensor([[0.1769]]),<m> yellow < 50 </m>
+310,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 30, purple = 10",tensor([[0.1370]]),<m> yellow < 50 </m>
+311,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 30, purple = 20",tensor([[0.1511]]),<m> yellow < 50 </m>
+312,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 30, purple = 30",tensor([[0.1267]]),<m> yellow < 50 </m>
+313,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 30, purple = 40",tensor([[0.1235]]),<m> yellow < 50 </m>
+314,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 30, purple = 50",tensor([[0.1798]]),<m> yellow < 50 </m>
+315,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 40, purple = 10",tensor([[0.0934]]),<m> yellow < 50 </m>
+316,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 40, purple = 20",tensor([[0.1264]]),<m> yellow < 50 </m>
+317,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 40, purple = 30",tensor([[0.1442]]),<m> yellow < 50 </m>
+318,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 40, purple = 40",tensor([[0.0973]]),<m> yellow < 50 </m>
+319,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 40, purple = 50",tensor([[0.1746]]),<m> yellow < 50 </m>
+320,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 50, purple = 10",tensor([[0.1329]]),<m> yellow < 50 </m>
+321,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 50, purple = 20",tensor([[0.1562]]),<m> yellow < 50 </m>
+322,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 50, purple = 30",tensor([[0.1752]]),<m> yellow < 50 </m>
+323,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 50, purple = 40",tensor([[0.1313]]),<m> yellow < 50 </m>
+324,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 50, purple = 50",tensor([[0.1488]]),<m> yellow < 50 </m>
+325,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 10, purple = 10",tensor([[0.0863]]),<m> yellow < 50 </m>
+326,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 10, purple = 20",tensor([[0.1258]]),<m> yellow < 50 </m>
+327,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 10, purple = 30",tensor([[0.1405]]),<m> yellow < 50 </m>
+328,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 10, purple = 40",tensor([[0.1302]]),<m> yellow < 50 </m>
+329,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 10, purple = 50",tensor([[0.1025]]),<m> yellow < 50 </m>
+330,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 20, purple = 10",tensor([[0.1387]]),<m> yellow < 50 </m>
+331,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 20, purple = 20",tensor([[0.1256]]),<m> yellow < 50 </m>
+332,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 20, purple = 30",tensor([[0.1563]]),<m> yellow < 50 </m>
+333,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 20, purple = 40",tensor([[0.1819]]),<m> yellow < 50 </m>
+334,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 20, purple = 50",tensor([[0.1320]]),<m> yellow < 50 </m>
+335,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 30, purple = 10",tensor([[0.1406]]),<m> yellow < 50 </m>
+336,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 30, purple = 20",tensor([[0.1590]]),<m> yellow < 50 </m>
+337,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 30, purple = 30",tensor([[0.1409]]),<m> yellow < 50 </m>
+338,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 30, purple = 40",tensor([[0.1773]]),<m> yellow < 50 </m>
+339,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 30, purple = 50",tensor([[0.1439]]),<m> yellow < 50 </m>
+340,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 40, purple = 10",tensor([[0.1461]]),<m> yellow < 50 </m>
+341,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 40, purple = 20",tensor([[0.1756]]),<m> yellow < 50 </m>
+342,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 40, purple = 30",tensor([[0.1795]]),<m> yellow < 50 </m>
+343,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 40, purple = 40",tensor([[0.1357]]),<m> yellow < 50 </m>
+344,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 40, purple = 50",tensor([[0.1617]]),<m> yellow < 50 </m>
+345,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 50, purple = 10",tensor([[0.0943]]),<m> yellow < 50 </m>
+346,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 50, purple = 20",tensor([[0.1211]]),<m> yellow < 50 </m>
+347,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 50, purple = 30",tensor([[0.1368]]),<m> yellow < 50 </m>
+348,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 50, purple = 40",tensor([[0.1603]]),<m> yellow < 50 </m>
+349,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 50, purple = 50",tensor([[0.0968]]),<m> yellow < 50 </m>
+350,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 10,tensor([[1.1228]]),"<m> green = 20, purple = 30 </m>"
+351,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 20,tensor([[1.1817]]),"<m> green = 20, purple = 30 </m>"
+352,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 30,tensor([[1.1584]]),"<m> green = 20, purple = 30 </m>"
+353,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 40,tensor([[1.1789]]),"<m> green = 20, purple = 30 </m>"
+354,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 50,tensor([[1.1850]]),"<m> green = 20, purple = 30 </m>"
+355,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow != 10,tensor([[0.1698]]),"<m> green = 20, purple = 30 </m>"
+356,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow != 20,tensor([[0.1880]]),"<m> green = 20, purple = 30 </m>"
+357,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow != 30,tensor([[0.2287]]),"<m> green = 20, purple = 30 </m>"
+358,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow != 40,tensor([[0.2427]]),"<m> green = 20, purple = 30 </m>"
+359,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow != 50,tensor([[0.2238]]),"<m> green = 20, purple = 30 </m>"
+360,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow < 10,tensor([[0.2024]]),"<m> green = 20, purple = 30 </m>"
+361,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow < 20,tensor([[0.2047]]),"<m> green = 20, purple = 30 </m>"
+362,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow < 30,tensor([[0.1994]]),"<m> green = 20, purple = 30 </m>"
+363,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow < 40,tensor([[0.2874]]),"<m> green = 20, purple = 30 </m>"
+364,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow < 50,tensor([[0.2977]]),"<m> green = 20, purple = 30 </m>"
+365,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow > 10,tensor([[0.1579]]),"<m> green = 20, purple = 30 </m>"
+366,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow > 20,tensor([[0.1910]]),"<m> green = 20, purple = 30 </m>"
+367,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow > 30,tensor([[0.2154]]),"<m> green = 20, purple = 30 </m>"
+368,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow > 40,tensor([[0.2732]]),"<m> green = 20, purple = 30 </m>"
+369,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow > 50,tensor([[0.2341]]),"<m> green = 20, purple = 30 </m>"
+370,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 10,tensor([[1.1228]]),"<m> blue = 10, red = 10 </m>"
+371,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 20,tensor([[1.1817]]),"<m> blue = 10, red = 10 </m>"
+372,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 30,tensor([[1.1584]]),"<m> blue = 10, red = 10 </m>"
+373,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 40,tensor([[1.1789]]),"<m> blue = 10, red = 10 </m>"
+374,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 50,tensor([[1.1850]]),"<m> blue = 10, red = 10 </m>"
+375,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow != 10,tensor([[0.1698]]),"<m> blue = 10, red = 10 </m>"
+376,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow != 20,tensor([[0.1880]]),"<m> blue = 10, red = 10 </m>"
+377,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow != 30,tensor([[0.2287]]),"<m> blue = 10, red = 10 </m>"
+378,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow != 40,tensor([[0.2427]]),"<m> blue = 10, red = 10 </m>"
+379,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow != 50,tensor([[0.2238]]),"<m> blue = 10, red = 10 </m>"
+380,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow < 10,tensor([[0.2024]]),"<m> blue = 10, red = 10 </m>"
+381,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow < 20,tensor([[0.2047]]),"<m> blue = 10, red = 10 </m>"
+382,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow < 30,tensor([[0.1994]]),"<m> blue = 10, red = 10 </m>"
+383,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow < 40,tensor([[0.2874]]),"<m> blue = 10, red = 10 </m>"
+384,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow < 50,tensor([[0.2977]]),"<m> blue = 10, red = 10 </m>"
+385,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow > 10,tensor([[0.1579]]),"<m> blue = 10, red = 10 </m>"
+386,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow > 20,tensor([[0.1910]]),"<m> blue = 10, red = 10 </m>"
+387,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow > 30,tensor([[0.2154]]),"<m> blue = 10, red = 10 </m>"
+388,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow > 40,tensor([[0.2732]]),"<m> blue = 10, red = 10 </m>"
+389,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow > 50,tensor([[0.2341]]),"<m> blue = 10, red = 10 </m>"
+390,"big blue , 50 .",blue = 10,tensor([[1.2895]]),<m> yellow < green + purple </m>
+391,"big blue , 50 .",blue = 20,tensor([[1.2876]]),<m> yellow < green + purple </m>
+392,"big blue , 50 .",blue = 30,tensor([[1.2362]]),<m> yellow < green + purple </m>
+393,"big blue , 50 .",blue = 40,tensor([[1.2791]]),<m> yellow < green + purple </m>
+394,"big blue , 50 .",blue = 50,tensor([[1.2763]]),<m> yellow < green + purple </m>
+395,"big blue , 50 .",blue != 10,tensor([[0.1528]]),<m> yellow < green + purple </m>
+396,"big blue , 50 .",blue != 20,tensor([[0.1431]]),<m> yellow < green + purple </m>
+397,"big blue , 50 .",blue != 30,tensor([[0.1349]]),<m> yellow < green + purple </m>
+398,"big blue , 50 .",blue != 40,tensor([[0.2007]]),<m> yellow < green + purple </m>
+399,"big blue , 50 .",blue != 50,tensor([[0.1965]]),<m> yellow < green + purple </m>
+400,"big blue , 50 .",blue < 10,tensor([[0.1551]]),<m> yellow < green + purple </m>
+401,"big blue , 50 .",blue < 20,tensor([[0.1401]]),<m> yellow < green + purple </m>
+402,"big blue , 50 .",blue < 30,tensor([[0.1314]]),<m> yellow < green + purple </m>
+403,"big blue , 50 .",blue < 40,tensor([[0.2260]]),<m> yellow < green + purple </m>
+404,"big blue , 50 .",blue < 50,tensor([[0.2562]]),<m> yellow < green + purple </m>
+405,"big blue , 50 .",blue > 10,tensor([[0.1147]]),<m> yellow < green + purple </m>
+406,"big blue , 50 .",blue > 20,tensor([[0.1070]]),<m> yellow < green + purple </m>
+407,"big blue , 50 .",blue > 30,tensor([[0.1036]]),<m> yellow < green + purple </m>
+408,"big blue , 50 .",blue > 40,tensor([[0.1255]]),<m> yellow < green + purple </m>
+409,"big blue , 50 .",blue > 50,tensor([[0.1228]]),<m> yellow < green + purple </m>
+410,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",red = blue + green + purple + yellow,tensor([[0.0708]]),<m> purple + green = 50 </m>
+411,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",red != blue + green + purple + yellow,tensor([[0.0737]]),<m> purple + green = 50 </m>
+412,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",red < blue + green + purple + yellow,tensor([[0.0709]]),<m> purple + green = 50 </m>
+413,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",red > blue + green + purple + yellow,tensor([[0.0603]]),<m> purple + green = 50 </m>
+414,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",blue = green + purple + red + yellow,tensor([[0.0713]]),<m> purple + green = 50 </m>
+415,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",blue != green + purple + red + yellow,tensor([[0.0631]]),<m> purple + green = 50 </m>
+416,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",blue < green + purple + red + yellow,tensor([[0.0699]]),<m> purple + green = 50 </m>
+417,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",blue > green + purple + red + yellow,tensor([[0.0647]]),<m> purple + green = 50 </m>
+418,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",green = blue + purple + red + yellow,tensor([[0.0725]]),<m> purple + green = 50 </m>
+419,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",green != blue + purple + red + yellow,tensor([[0.0637]]),<m> purple + green = 50 </m>
+420,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",green < blue + purple + red + yellow,tensor([[0.0699]]),<m> purple + green = 50 </m>
+421,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",green > blue + purple + red + yellow,tensor([[0.0626]]),<m> purple + green = 50 </m>
+422,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",purple = blue + green + red + yellow,tensor([[0.0725]]),<m> purple + green = 50 </m>
+423,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",purple != blue + green + red + yellow,tensor([[0.0723]]),<m> purple + green = 50 </m>
+424,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",purple < blue + green + red + yellow,tensor([[0.0687]]),<m> purple + green = 50 </m>
+425,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",purple > blue + green + red + yellow,tensor([[0.0601]]),<m> purple + green = 50 </m>
+426,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",yellow = blue + green + purple + red,tensor([[0.0742]]),<m> purple + green = 50 </m>
+427,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",yellow != blue + green + purple + red,tensor([[0.0626]]),<m> purple + green = 50 </m>
+428,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",yellow < blue + green + purple + red,tensor([[0.0697]]),<m> purple + green = 50 </m>
+429,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",yellow > blue + green + purple + red,tensor([[0.0623]]),<m> purple + green = 50 </m>
+430,greens,green = 10,tensor([[1.2938]]),<m> purple + blue = 40 </m>
+431,greens,green = 20,tensor([[1.2672]]),<m> purple + blue = 40 </m>
+432,greens,green = 30,tensor([[1.2425]]),<m> purple + blue = 40 </m>
+433,greens,green = 40,tensor([[1.2457]]),<m> purple + blue = 40 </m>
+434,greens,green = 50,tensor([[1.2712]]),<m> purple + blue = 40 </m>
+435,greens,green != 10,tensor([[0.1815]]),<m> purple + blue = 40 </m>
+436,greens,green != 20,tensor([[0.1475]]),<m> purple + blue = 40 </m>
+437,greens,green != 30,tensor([[0.1322]]),<m> purple + blue = 40 </m>
+438,greens,green != 40,tensor([[0.1522]]),<m> purple + blue = 40 </m>
+439,greens,green != 50,tensor([[0.1894]]),<m> purple + blue = 40 </m>
+440,greens,green < 10,tensor([[0.1622]]),<m> purple + blue = 40 </m>
+441,greens,green < 20,tensor([[0.1318]]),<m> purple + blue = 40 </m>
+442,greens,green < 30,tensor([[0.1176]]),<m> purple + blue = 40 </m>
+443,greens,green < 40,tensor([[0.1340]]),<m> purple + blue = 40 </m>
+444,greens,green < 50,tensor([[0.1699]]),<m> purple + blue = 40 </m>
+445,greens,green > 10,tensor([[0.1595]]),<m> purple + blue = 40 </m>
+446,greens,green > 20,tensor([[0.1338]]),<m> purple + blue = 40 </m>
+447,greens,green > 30,tensor([[0.1133]]),<m> purple + blue = 40 </m>
+448,greens,green > 40,tensor([[0.1351]]),<m> purple + blue = 40 </m>
+449,greens,green > 50,tensor([[0.1660]]),<m> purple + blue = 40 </m>
+450,greens,green = 10,tensor([[1.2938]]),<m> yellow = 50 </m>
+451,greens,green = 20,tensor([[1.2672]]),<m> yellow = 50 </m>
+452,greens,green = 30,tensor([[1.2425]]),<m> yellow = 50 </m>
+453,greens,green = 40,tensor([[1.2457]]),<m> yellow = 50 </m>
+454,greens,green = 50,tensor([[1.2712]]),<m> yellow = 50 </m>
+455,greens,green != 10,tensor([[0.1815]]),<m> yellow = 50 </m>
+456,greens,green != 20,tensor([[0.1475]]),<m> yellow = 50 </m>
+457,greens,green != 30,tensor([[0.1322]]),<m> yellow = 50 </m>
+458,greens,green != 40,tensor([[0.1522]]),<m> yellow = 50 </m>
+459,greens,green != 50,tensor([[0.1894]]),<m> yellow = 50 </m>
+460,greens,green < 10,tensor([[0.1622]]),<m> yellow = 50 </m>
+461,greens,green < 20,tensor([[0.1318]]),<m> yellow = 50 </m>
+462,greens,green < 30,tensor([[0.1176]]),<m> yellow = 50 </m>
+463,greens,green < 40,tensor([[0.1340]]),<m> yellow = 50 </m>
+464,greens,green < 50,tensor([[0.1699]]),<m> yellow = 50 </m>
+465,greens,green > 10,tensor([[0.1595]]),<m> yellow = 50 </m>
+466,greens,green > 20,tensor([[0.1338]]),<m> yellow = 50 </m>
+467,greens,green > 30,tensor([[0.1133]]),<m> yellow = 50 </m>
+468,greens,green > 40,tensor([[0.1351]]),<m> yellow = 50 </m>
+469,greens,green > 50,tensor([[0.1660]]),<m> yellow = 50 </m>

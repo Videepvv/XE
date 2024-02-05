@@ -1,0 +1,664 @@
+,transcript,filtered_common_ground,cosine_similarity,true_common_ground
+0,"red block , blue block",blue = red,tensor([[1.3792]]),"<m> blue = 10, red = 10 </m>"
+1,"red block , blue block",blue != red,tensor([[0.1862]]),"<m> blue = 10, red = 10 </m>"
+2,"red block , blue block",red < blue,tensor([[0.1220]]),"<m> blue = 10, red = 10 </m>"
+3,"red block , blue block",red > blue,tensor([[0.1089]]),"<m> blue = 10, red = 10 </m>"
+4,"red block , blue block",blue = red,tensor([[1.3792]]),"<m> blue = 10, red = 10 </m>"
+5,"red block , blue block",blue != red,tensor([[0.1862]]),"<m> blue = 10, red = 10 </m>"
+6,"red block , blue block",blue < red,tensor([[0.1094]]),"<m> blue = 10, red = 10 </m>"
+7,"red block , blue block",blue > red,tensor([[0.1061]]),"<m> blue = 10, red = 10 </m>"
+8,purple block heavier green block one . put,green = purple,tensor([[0.9271]]),<m> green = 20 </m>
+9,purple block heavier green block one . put,green != purple,tensor([[0.1577]]),<m> green = 20 </m>
+10,purple block heavier green block one . put,green < purple,tensor([[0.1074]]),<m> green = 20 </m>
+11,purple block heavier green block one . put,green > purple,tensor([[0.1441]]),<m> green = 20 </m>
+12,purple block heavier green block one . put,green = purple,tensor([[0.9271]]),<m> green = 20 </m>
+13,purple block heavier green block one . put,green != purple,tensor([[0.1577]]),<m> green = 20 </m>
+14,purple block heavier green block one . put,purple < green,tensor([[0.1028]]),<m> green = 20 </m>
+15,purple block heavier green block one . put,purple > green,tensor([[0.1256]]),<m> green = 20 </m>
+16,purple block green block one .,green = purple,tensor([[0.5679]]),"<m> blue = 10, green = 20, red = 10 </m>"
+17,purple block green block one .,green != purple,tensor([[0.1962]]),"<m> blue = 10, green = 20, red = 10 </m>"
+18,purple block green block one .,green < purple,tensor([[0.1094]]),"<m> blue = 10, green = 20, red = 10 </m>"
+19,purple block green block one .,green > purple,tensor([[0.1048]]),"<m> blue = 10, green = 20, red = 10 </m>"
+20,purple block green block one .,green = purple,tensor([[0.5679]]),"<m> blue = 10, green = 20, red = 10 </m>"
+21,purple block green block one .,green != purple,tensor([[0.1962]]),"<m> blue = 10, green = 20, red = 10 </m>"
+22,purple block green block one .,purple < green,tensor([[0.1118]]),"<m> blue = 10, green = 20, red = 10 </m>"
+23,purple block green block one .,purple > green,tensor([[0.1076]]),"<m> blue = 10, green = 20, red = 10 </m>"
+24,see purple block 's thirty .,purple = 30,tensor([[0.2127]]),<m> green = 20 </m>
+25,see purple block 's thirty .,purple != 30,tensor([[0.1671]]),<m> green = 20 </m>
+26,see purple block 's thirty .,purple < 30,tensor([[0.1295]]),<m> green = 20 </m>
+27,see purple block 's thirty .,purple > 30,tensor([[0.1321]]),<m> green = 20 </m>
+28,"n't , n't n't options purple block 's gon na 30 .",purple = 10,tensor([[1.3287]]),<m> purple > green </m>
+29,"n't , n't n't options purple block 's gon na 30 .",purple = 20,tensor([[1.0183]]),<m> purple > green </m>
+30,"n't , n't n't options purple block 's gon na 30 .",purple = 30,tensor([[0.7888]]),<m> purple > green </m>
+31,"n't , n't n't options purple block 's gon na 30 .",purple = 40,tensor([[0.6661]]),<m> purple > green </m>
+32,"n't , n't n't options purple block 's gon na 30 .",purple = 50,tensor([[1.0959]]),<m> purple > green </m>
+33,"n't , n't n't options purple block 's gon na 30 .",purple != 10,tensor([[0.0952]]),<m> purple > green </m>
+34,"n't , n't n't options purple block 's gon na 30 .",purple != 20,tensor([[0.0972]]),<m> purple > green </m>
+35,"n't , n't n't options purple block 's gon na 30 .",purple != 30,tensor([[0.1079]]),<m> purple > green </m>
+36,"n't , n't n't options purple block 's gon na 30 .",purple != 40,tensor([[0.1188]]),<m> purple > green </m>
+37,"n't , n't n't options purple block 's gon na 30 .",purple != 50,tensor([[0.0875]]),<m> purple > green </m>
+38,"n't , n't n't options purple block 's gon na 30 .",purple < 10,tensor([[0.1050]]),<m> purple > green </m>
+39,"n't , n't n't options purple block 's gon na 30 .",purple < 20,tensor([[0.1037]]),<m> purple > green </m>
+40,"n't , n't n't options purple block 's gon na 30 .",purple < 30,tensor([[0.0849]]),<m> purple > green </m>
+41,"n't , n't n't options purple block 's gon na 30 .",purple < 40,tensor([[0.0924]]),<m> purple > green </m>
+42,"n't , n't n't options purple block 's gon na 30 .",purple < 50,tensor([[0.0946]]),<m> purple > green </m>
+43,"n't , n't n't options purple block 's gon na 30 .",purple > 10,tensor([[0.1148]]),<m> purple > green </m>
+44,"n't , n't n't options purple block 's gon na 30 .",purple > 20,tensor([[0.0980]]),<m> purple > green </m>
+45,"n't , n't n't options purple block 's gon na 30 .",purple > 30,tensor([[0.0832]]),<m> purple > green </m>
+46,"n't , n't n't options purple block 's gon na 30 .",purple > 40,tensor([[0.0827]]),<m> purple > green </m>
+47,"n't , n't n't options purple block 's gon na 30 .",purple > 50,tensor([[0.0954]]),<m> purple > green </m>
+48,yellow block one 's obvious-,yellow = 10,tensor([[1.4417]]),<m> purple > 20 </m>
+49,yellow block one 's obvious-,yellow = 20,tensor([[1.4492]]),<m> purple > 20 </m>
+50,yellow block one 's obvious-,yellow = 30,tensor([[1.4507]]),<m> purple > 20 </m>
+51,yellow block one 's obvious-,yellow = 40,tensor([[1.4549]]),<m> purple > 20 </m>
+52,yellow block one 's obvious-,yellow = 50,tensor([[1.4513]]),<m> purple > 20 </m>
+53,yellow block one 's obvious-,yellow != 10,tensor([[0.1849]]),<m> purple > 20 </m>
+54,yellow block one 's obvious-,yellow != 20,tensor([[0.1532]]),<m> purple > 20 </m>
+55,yellow block one 's obvious-,yellow != 30,tensor([[0.1384]]),<m> purple > 20 </m>
+56,yellow block one 's obvious-,yellow != 40,tensor([[0.0992]]),<m> purple > 20 </m>
+57,yellow block one 's obvious-,yellow != 50,tensor([[0.1327]]),<m> purple > 20 </m>
+58,yellow block one 's obvious-,yellow < 10,tensor([[0.5526]]),<m> purple > 20 </m>
+59,yellow block one 's obvious-,yellow < 20,tensor([[0.6967]]),<m> purple > 20 </m>
+60,yellow block one 's obvious-,yellow < 30,tensor([[0.6348]]),<m> purple > 20 </m>
+61,yellow block one 's obvious-,yellow < 40,tensor([[0.4309]]),<m> purple > 20 </m>
+62,yellow block one 's obvious-,yellow < 50,tensor([[0.5078]]),<m> purple > 20 </m>
+63,yellow block one 's obvious-,yellow > 10,tensor([[0.4586]]),<m> purple > 20 </m>
+64,yellow block one 's obvious-,yellow > 20,tensor([[0.6919]]),<m> purple > 20 </m>
+65,yellow block one 's obvious-,yellow > 30,tensor([[0.6060]]),<m> purple > 20 </m>
+66,yellow block one 's obvious-,yellow > 40,tensor([[0.4635]]),<m> purple > 20 </m>
+67,yellow block one 's obvious-,yellow > 50,tensor([[0.5166]]),<m> purple > 20 </m>
+68,"green block , purple block , green block , purple block fifty ri-",green = 50,tensor([[1.4533]]),<m> purple = 30 </m>
+69,"green block , purple block , green block , purple block fifty ri-",green != 50,tensor([[0.6634]]),<m> purple = 30 </m>
+70,"green block , purple block , green block , purple block fifty ri-",green < 50,tensor([[1.1950]]),<m> purple = 30 </m>
+71,"green block , purple block , green block , purple block fifty ri-",green > 50,tensor([[1.1512]]),<m> purple = 30 </m>
+72,"green block , purple block , green block , purple block fifty ri-",purple = 50,tensor([[1.4570]]),<m> purple = 30 </m>
+73,"green block , purple block , green block , purple block fifty ri-",purple != 50,tensor([[0.7594]]),<m> purple = 30 </m>
+74,"green block , purple block , green block , purple block fifty ri-",purple < 50,tensor([[1.1705]]),<m> purple = 30 </m>
+75,"green block , purple block , green block , purple block fifty ri-",purple > 50,tensor([[0.9169]]),<m> purple = 30 </m>
+76,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, red = 10",tensor([[1.2530]]),<m> purple = 30 </m>
+77,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 50, red = 10",tensor([[1.0051]]),<m> purple = 30 </m>
+78,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, red = 10",tensor([[1.2043]]),<m> purple = 30 </m>
+79,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 50, red = 10",tensor([[0.8879]]),<m> purple = 30 </m>
+80,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, red = 10",tensor([[1.0711]]),<m> purple = 30 </m>
+81,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 50, red = 10",tensor([[0.8109]]),<m> purple = 30 </m>
+82,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, red = 10",tensor([[1.1078]]),<m> purple = 30 </m>
+83,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 50, red = 10",tensor([[0.8158]]),<m> purple = 30 </m>
+84,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, red = 10",tensor([[1.2664]]),<m> purple = 30 </m>
+85,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, red = 10",tensor([[1.2597]]),<m> purple = 30 </m>
+86,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, red = 10",tensor([[1.2288]]),<m> purple = 30 </m>
+87,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, red = 10",tensor([[1.1508]]),<m> purple = 30 </m>
+88,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, red = 10",tensor([[1.1872]]),<m> purple = 30 </m>
+89,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 10, red = 10",tensor([[1.1139]]),<m> purple = 30 </m>
+90,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 20, red = 10",tensor([[1.0336]]),<m> purple = 30 </m>
+91,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 30, red = 10",tensor([[0.9032]]),<m> purple = 30 </m>
+92,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 40, red = 10",tensor([[0.8412]]),<m> purple = 30 </m>
+93,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 50, red = 10",tensor([[0.8849]]),<m> purple = 30 </m>
+94,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 50, red = 10",tensor([[1.0879]]),<m> purple = 30 </m>
+95,"green block , purple block , green block , purple block fifty ri-","green = 10, red = 10, yellow = 50",tensor([[1.2773]]),<m> purple = 30 </m>
+96,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 50, red = 10",tensor([[0.8790]]),<m> purple = 30 </m>
+97,"green block , purple block , green block , purple block fifty ri-","green = 20, red = 10, yellow = 50",tensor([[1.2471]]),<m> purple = 30 </m>
+98,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 50, red = 10",tensor([[0.8136]]),<m> purple = 30 </m>
+99,"green block , purple block , green block , purple block fifty ri-","green = 30, red = 10, yellow = 50",tensor([[1.1436]]),<m> purple = 30 </m>
+100,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 50, red = 10",tensor([[0.8032]]),<m> purple = 30 </m>
+101,"green block , purple block , green block , purple block fifty ri-","green = 40, red = 10, yellow = 50",tensor([[0.9089]]),<m> purple = 30 </m>
+102,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 10, red = 10",tensor([[1.1209]]),<m> purple = 30 </m>
+103,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 20, red = 10",tensor([[1.0691]]),<m> purple = 30 </m>
+104,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 30, red = 10",tensor([[0.9097]]),<m> purple = 30 </m>
+105,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 40, red = 10",tensor([[0.8826]]),<m> purple = 30 </m>
+106,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 50, red = 10",tensor([[0.9657]]),<m> purple = 30 </m>
+107,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 10, yellow = 10",tensor([[1.2061]]),<m> purple = 30 </m>
+108,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 10, yellow = 20",tensor([[1.1170]]),<m> purple = 30 </m>
+109,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 10, yellow = 30",tensor([[1.0953]]),<m> purple = 30 </m>
+110,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 10, yellow = 40",tensor([[1.0173]]),<m> purple = 30 </m>
+111,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 10, yellow = 50",tensor([[1.1029]]),<m> purple = 30 </m>
+112,"green block , purple block , green block , purple block fifty ri-","purple = 10, red = 10, yellow = 50",tensor([[1.1376]]),<m> purple = 30 </m>
+113,"green block , purple block , green block , purple block fifty ri-","purple = 20, red = 10, yellow = 50",tensor([[1.1059]]),<m> purple = 30 </m>
+114,"green block , purple block , green block , purple block fifty ri-","purple = 30, red = 10, yellow = 50",tensor([[0.8719]]),<m> purple = 30 </m>
+115,"green block , purple block , green block , purple block fifty ri-","purple = 40, red = 10, yellow = 50",tensor([[0.7385]]),<m> purple = 30 </m>
+116,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 10, yellow = 10",tensor([[1.0166]]),<m> purple = 30 </m>
+117,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 10, yellow = 20",tensor([[0.8019]]),<m> purple = 30 </m>
+118,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 10, yellow = 30",tensor([[0.8019]]),<m> purple = 30 </m>
+119,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 10, yellow = 40",tensor([[0.7331]]),<m> purple = 30 </m>
+120,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 10, yellow = 50",tensor([[0.8594]]),<m> purple = 30 </m>
+121,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, red = 20",tensor([[1.0986]]),<m> purple = 30 </m>
+122,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 50, red = 20",tensor([[0.8198]]),<m> purple = 30 </m>
+123,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, red = 20",tensor([[1.1742]]),<m> purple = 30 </m>
+124,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 50, red = 20",tensor([[0.8486]]),<m> purple = 30 </m>
+125,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, red = 20",tensor([[0.7908]]),<m> purple = 30 </m>
+126,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 50, red = 20",tensor([[0.5280]]),<m> purple = 30 </m>
+127,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, red = 20",tensor([[0.7646]]),<m> purple = 30 </m>
+128,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 50, red = 20",tensor([[0.5475]]),<m> purple = 30 </m>
+129,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, red = 20",tensor([[1.2164]]),<m> purple = 30 </m>
+130,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, red = 20",tensor([[1.1641]]),<m> purple = 30 </m>
+131,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, red = 20",tensor([[0.8448]]),<m> purple = 30 </m>
+132,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, red = 20",tensor([[0.8019]]),<m> purple = 30 </m>
+133,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, red = 20",tensor([[0.9185]]),<m> purple = 30 </m>
+134,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 10, red = 20",tensor([[0.9266]]),<m> purple = 30 </m>
+135,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 20, red = 20",tensor([[0.8774]]),<m> purple = 30 </m>
+136,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 30, red = 20",tensor([[0.5610]]),<m> purple = 30 </m>
+137,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 40, red = 20",tensor([[0.5589]]),<m> purple = 30 </m>
+138,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 50, red = 20",tensor([[0.6761]]),<m> purple = 30 </m>
+139,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 50, red = 20",tensor([[0.7994]]),<m> purple = 30 </m>
+140,"green block , purple block , green block , purple block fifty ri-","green = 10, red = 20, yellow = 50",tensor([[1.0042]]),<m> purple = 30 </m>
+141,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 50, red = 20",tensor([[0.8556]]),<m> purple = 30 </m>
+142,"green block , purple block , green block , purple block fifty ri-","green = 20, red = 20, yellow = 50",tensor([[1.1225]]),<m> purple = 30 </m>
+143,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 50, red = 20",tensor([[0.6683]]),<m> purple = 30 </m>
+144,"green block , purple block , green block , purple block fifty ri-","green = 30, red = 20, yellow = 50",tensor([[0.8141]]),<m> purple = 30 </m>
+145,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 50, red = 20",tensor([[0.6196]]),<m> purple = 30 </m>
+146,"green block , purple block , green block , purple block fifty ri-","green = 40, red = 20, yellow = 50",tensor([[0.7258]]),<m> purple = 30 </m>
+147,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 10, red = 20",tensor([[0.9390]]),<m> purple = 30 </m>
+148,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 20, red = 20",tensor([[0.8356]]),<m> purple = 30 </m>
+149,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 30, red = 20",tensor([[0.7033]]),<m> purple = 30 </m>
+150,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 40, red = 20",tensor([[0.6491]]),<m> purple = 30 </m>
+151,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 50, red = 20",tensor([[0.7108]]),<m> purple = 30 </m>
+152,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 20, yellow = 10",tensor([[1.1992]]),<m> purple = 30 </m>
+153,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 20, yellow = 20",tensor([[1.0578]]),<m> purple = 30 </m>
+154,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 20, yellow = 30",tensor([[0.7040]]),<m> purple = 30 </m>
+155,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 20, yellow = 40",tensor([[0.7043]]),<m> purple = 30 </m>
+156,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 20, yellow = 50",tensor([[0.8289]]),<m> purple = 30 </m>
+157,"green block , purple block , green block , purple block fifty ri-","purple = 10, red = 20, yellow = 50",tensor([[0.7712]]),<m> purple = 30 </m>
+158,"green block , purple block , green block , purple block fifty ri-","purple = 20, red = 20, yellow = 50",tensor([[0.8473]]),<m> purple = 30 </m>
+159,"green block , purple block , green block , purple block fifty ri-","purple = 30, red = 20, yellow = 50",tensor([[0.6755]]),<m> purple = 30 </m>
+160,"green block , purple block , green block , purple block fifty ri-","purple = 40, red = 20, yellow = 50",tensor([[0.4489]]),<m> purple = 30 </m>
+161,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 20, yellow = 10",tensor([[0.9180]]),<m> purple = 30 </m>
+162,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 20, yellow = 20",tensor([[0.7839]]),<m> purple = 30 </m>
+163,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 20, yellow = 30",tensor([[0.4480]]),<m> purple = 30 </m>
+164,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 20, yellow = 40",tensor([[0.4392]]),<m> purple = 30 </m>
+165,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 20, yellow = 50",tensor([[0.7068]]),<m> purple = 30 </m>
+166,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, red = 30",tensor([[0.9490]]),<m> purple = 30 </m>
+167,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 50, red = 30",tensor([[0.6626]]),<m> purple = 30 </m>
+168,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, red = 30",tensor([[0.6522]]),<m> purple = 30 </m>
+169,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 50, red = 30",tensor([[0.4547]]),<m> purple = 30 </m>
+170,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, red = 30",tensor([[0.8378]]),<m> purple = 30 </m>
+171,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 50, red = 30",tensor([[0.5995]]),<m> purple = 30 </m>
+172,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, red = 30",tensor([[0.4845]]),<m> purple = 30 </m>
+173,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 50, red = 30",tensor([[0.3797]]),<m> purple = 30 </m>
+174,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, red = 30",tensor([[1.1866]]),<m> purple = 30 </m>
+175,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, red = 30",tensor([[0.7619]]),<m> purple = 30 </m>
+176,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, red = 30",tensor([[0.9323]]),<m> purple = 30 </m>
+177,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, red = 30",tensor([[0.5310]]),<m> purple = 30 </m>
+178,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, red = 30",tensor([[0.6927]]),<m> purple = 30 </m>
+179,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 10, red = 30",tensor([[0.8941]]),<m> purple = 30 </m>
+180,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 20, red = 30",tensor([[0.5426]]),<m> purple = 30 </m>
+181,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 30, red = 30",tensor([[0.7126]]),<m> purple = 30 </m>
+182,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 40, red = 30",tensor([[0.3841]]),<m> purple = 30 </m>
+183,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 50, red = 30",tensor([[0.4523]]),<m> purple = 30 </m>
+184,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 50, red = 30",tensor([[0.7599]]),<m> purple = 30 </m>
+185,"green block , purple block , green block , purple block fifty ri-","green = 10, red = 30, yellow = 50",tensor([[0.8232]]),<m> purple = 30 </m>
+186,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 50, red = 30",tensor([[0.4435]]),<m> purple = 30 </m>
+187,"green block , purple block , green block , purple block fifty ri-","green = 20, red = 30, yellow = 50",tensor([[0.5473]]),<m> purple = 30 </m>
+188,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 50, red = 30",tensor([[0.6791]]),<m> purple = 30 </m>
+189,"green block , purple block , green block , purple block fifty ri-","green = 30, red = 30, yellow = 50",tensor([[0.7521]]),<m> purple = 30 </m>
+190,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 50, red = 30",tensor([[0.3810]]),<m> purple = 30 </m>
+191,"green block , purple block , green block , purple block fifty ri-","green = 40, red = 30, yellow = 50",tensor([[0.3978]]),<m> purple = 30 </m>
+192,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 10, red = 30",tensor([[0.9142]]),<m> purple = 30 </m>
+193,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 20, red = 30",tensor([[0.6227]]),<m> purple = 30 </m>
+194,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 30, red = 30",tensor([[0.6920]]),<m> purple = 30 </m>
+195,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 40, red = 30",tensor([[0.3997]]),<m> purple = 30 </m>
+196,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 50, red = 30",tensor([[0.4667]]),<m> purple = 30 </m>
+197,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 30, yellow = 10",tensor([[1.1219]]),<m> purple = 30 </m>
+198,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 30, yellow = 20",tensor([[0.7528]]),<m> purple = 30 </m>
+199,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 30, yellow = 30",tensor([[0.8060]]),<m> purple = 30 </m>
+200,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 30, yellow = 40",tensor([[0.4465]]),<m> purple = 30 </m>
+201,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 30, yellow = 50",tensor([[0.7041]]),<m> purple = 30 </m>
+202,"green block , purple block , green block , purple block fifty ri-","purple = 10, red = 30, yellow = 50",tensor([[0.6933]]),<m> purple = 30 </m>
+203,"green block , purple block , green block , purple block fifty ri-","purple = 20, red = 30, yellow = 50",tensor([[0.4122]]),<m> purple = 30 </m>
+204,"green block , purple block , green block , purple block fifty ri-","purple = 30, red = 30, yellow = 50",tensor([[0.5164]]),<m> purple = 30 </m>
+205,"green block , purple block , green block , purple block fifty ri-","purple = 40, red = 30, yellow = 50",tensor([[0.2517]]),<m> purple = 30 </m>
+206,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 30, yellow = 10",tensor([[0.8403]]),<m> purple = 30 </m>
+207,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 30, yellow = 20",tensor([[0.5761]]),<m> purple = 30 </m>
+208,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 30, yellow = 30",tensor([[0.6588]]),<m> purple = 30 </m>
+209,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 30, yellow = 40",tensor([[0.3610]]),<m> purple = 30 </m>
+210,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 30, yellow = 50",tensor([[0.4554]]),<m> purple = 30 </m>
+211,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, red = 40",tensor([[0.8487]]),<m> purple = 30 </m>
+212,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 50, red = 40",tensor([[0.5413]]),<m> purple = 30 </m>
+213,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, red = 40",tensor([[0.6484]]),<m> purple = 30 </m>
+214,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 50, red = 40",tensor([[0.4332]]),<m> purple = 30 </m>
+215,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, red = 40",tensor([[0.4419]]),<m> purple = 30 </m>
+216,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 50, red = 40",tensor([[0.3348]]),<m> purple = 30 </m>
+217,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, red = 40",tensor([[0.7744]]),<m> purple = 30 </m>
+218,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 50, red = 40",tensor([[0.4820]]),<m> purple = 30 </m>
+219,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, red = 40",tensor([[1.1047]]),<m> purple = 30 </m>
+220,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, red = 40",tensor([[0.7778]]),<m> purple = 30 </m>
+221,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, red = 40",tensor([[0.6093]]),<m> purple = 30 </m>
+222,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, red = 40",tensor([[0.8156]]),<m> purple = 30 </m>
+223,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, red = 40",tensor([[0.4691]]),<m> purple = 30 </m>
+224,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 10, red = 40",tensor([[0.8082]]),<m> purple = 30 </m>
+225,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 20, red = 40",tensor([[0.5399]]),<m> purple = 30 </m>
+226,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 30, red = 40",tensor([[0.4087]]),<m> purple = 30 </m>
+227,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 40, red = 40",tensor([[0.5781]]),<m> purple = 30 </m>
+228,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 50, red = 40",tensor([[0.3680]]),<m> purple = 30 </m>
+229,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 50, red = 40",tensor([[0.7003]]),<m> purple = 30 </m>
+230,"green block , purple block , green block , purple block fifty ri-","green = 10, red = 40, yellow = 50",tensor([[0.7372]]),<m> purple = 30 </m>
+231,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 50, red = 40",tensor([[0.4299]]),<m> purple = 30 </m>
+232,"green block , purple block , green block , purple block fifty ri-","green = 20, red = 40, yellow = 50",tensor([[0.4335]]),<m> purple = 30 </m>
+233,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 50, red = 40",tensor([[0.3405]]),<m> purple = 30 </m>
+234,"green block , purple block , green block , purple block fifty ri-","green = 30, red = 40, yellow = 50",tensor([[0.3300]]),<m> purple = 30 </m>
+235,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 50, red = 40",tensor([[0.5753]]),<m> purple = 30 </m>
+236,"green block , purple block , green block , purple block fifty ri-","green = 40, red = 40, yellow = 50",tensor([[0.4127]]),<m> purple = 30 </m>
+237,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 10, red = 40",tensor([[0.7943]]),<m> purple = 30 </m>
+238,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 20, red = 40",tensor([[0.5507]]),<m> purple = 30 </m>
+239,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 30, red = 40",tensor([[0.4011]]),<m> purple = 30 </m>
+240,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 40, red = 40",tensor([[0.6071]]),<m> purple = 30 </m>
+241,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 50, red = 40",tensor([[0.3694]]),<m> purple = 30 </m>
+242,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 40, yellow = 10",tensor([[1.0589]]),<m> purple = 30 </m>
+243,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 40, yellow = 20",tensor([[0.7364]]),<m> purple = 30 </m>
+244,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 40, yellow = 30",tensor([[0.4237]]),<m> purple = 30 </m>
+245,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 40, yellow = 40",tensor([[0.6745]]),<m> purple = 30 </m>
+246,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 40, yellow = 50",tensor([[0.5497]]),<m> purple = 30 </m>
+247,"green block , purple block , green block , purple block fifty ri-","purple = 10, red = 40, yellow = 50",tensor([[0.4940]]),<m> purple = 30 </m>
+248,"green block , purple block , green block , purple block fifty ri-","purple = 20, red = 40, yellow = 50",tensor([[0.3444]]),<m> purple = 30 </m>
+249,"green block , purple block , green block , purple block fifty ri-","purple = 30, red = 40, yellow = 50",tensor([[0.2273]]),<m> purple = 30 </m>
+250,"green block , purple block , green block , purple block fifty ri-","purple = 40, red = 40, yellow = 50",tensor([[0.2632]]),<m> purple = 30 </m>
+251,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 40, yellow = 10",tensor([[0.7544]]),<m> purple = 30 </m>
+252,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 40, yellow = 20",tensor([[0.4742]]),<m> purple = 30 </m>
+253,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 40, yellow = 30",tensor([[0.3411]]),<m> purple = 30 </m>
+254,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 40, yellow = 40",tensor([[0.5309]]),<m> purple = 30 </m>
+255,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 40, yellow = 50",tensor([[0.3608]]),<m> purple = 30 </m>
+256,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 10, red = 50",tensor([[1.2661]]),<m> purple = 30 </m>
+257,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 20, red = 50",tensor([[1.0890]]),<m> purple = 30 </m>
+258,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 30, red = 50",tensor([[0.9655]]),<m> purple = 30 </m>
+259,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 40, red = 50",tensor([[0.8399]]),<m> purple = 30 </m>
+260,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, red = 50",tensor([[1.0521]]),<m> purple = 30 </m>
+261,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 10, red = 50",tensor([[1.1119]]),<m> purple = 30 </m>
+262,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 20, red = 50",tensor([[0.8530]]),<m> purple = 30 </m>
+263,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 30, red = 50",tensor([[0.6252]]),<m> purple = 30 </m>
+264,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 40, red = 50",tensor([[0.5271]]),<m> purple = 30 </m>
+265,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 50, red = 50",tensor([[0.7765]]),<m> purple = 30 </m>
+266,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 10, red = 50",tensor([[1.2708]]),<m> purple = 30 </m>
+267,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 20, red = 50",tensor([[1.1232]]),<m> purple = 30 </m>
+268,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 30, red = 50",tensor([[0.5812]]),<m> purple = 30 </m>
+269,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 40, red = 50",tensor([[0.4773]]),<m> purple = 30 </m>
+270,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, red = 50",tensor([[0.8954]]),<m> purple = 30 </m>
+271,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 10, red = 50",tensor([[1.0923]]),<m> purple = 30 </m>
+272,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 20, red = 50",tensor([[0.8557]]),<m> purple = 30 </m>
+273,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 30, red = 50",tensor([[0.4522]]),<m> purple = 30 </m>
+274,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 40, red = 50",tensor([[0.3475]]),<m> purple = 30 </m>
+275,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 50, red = 50",tensor([[0.7174]]),<m> purple = 30 </m>
+276,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 10, red = 50",tensor([[1.2045]]),<m> purple = 30 </m>
+277,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 20, red = 50",tensor([[0.8922]]),<m> purple = 30 </m>
+278,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 30, red = 50",tensor([[0.7583]]),<m> purple = 30 </m>
+279,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 40, red = 50",tensor([[0.3792]]),<m> purple = 30 </m>
+280,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, red = 50",tensor([[0.6918]]),<m> purple = 30 </m>
+281,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 10, red = 50",tensor([[0.9184]]),<m> purple = 30 </m>
+282,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 20, red = 50",tensor([[0.6243]]),<m> purple = 30 </m>
+283,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 30, red = 50",tensor([[0.5200]]),<m> purple = 30 </m>
+284,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 40, red = 50",tensor([[0.2095]]),<m> purple = 30 </m>
+285,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 50, red = 50",tensor([[0.4447]]),<m> purple = 30 </m>
+286,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 10, red = 50",tensor([[1.0290]]),<m> purple = 30 </m>
+287,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 20, red = 50",tensor([[0.7841]]),<m> purple = 30 </m>
+288,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 30, red = 50",tensor([[0.4520]]),<m> purple = 30 </m>
+289,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 40, red = 50",tensor([[0.4409]]),<m> purple = 30 </m>
+290,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, red = 50",tensor([[0.5613]]),<m> purple = 30 </m>
+291,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 10, red = 50",tensor([[0.7984]]),<m> purple = 30 </m>
+292,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 20, red = 50",tensor([[0.5331]]),<m> purple = 30 </m>
+293,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 30, red = 50",tensor([[0.2772]]),<m> purple = 30 </m>
+294,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 40, red = 50",tensor([[0.2752]]),<m> purple = 30 </m>
+295,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 50, red = 50",tensor([[0.3558]]),<m> purple = 30 </m>
+296,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, red = 50",tensor([[1.1729]]),<m> purple = 30 </m>
+297,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, red = 50",tensor([[0.9905]]),<m> purple = 30 </m>
+298,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, red = 50",tensor([[0.7777]]),<m> purple = 30 </m>
+299,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, red = 50",tensor([[0.6915]]),<m> purple = 30 </m>
+300,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, red = 50",tensor([[0.9031]]),<m> purple = 30 </m>
+301,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 10, red = 50",tensor([[0.8931]]),<m> purple = 30 </m>
+302,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 20, red = 50",tensor([[0.7465]]),<m> purple = 30 </m>
+303,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 30, red = 50",tensor([[0.5136]]),<m> purple = 30 </m>
+304,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 40, red = 50",tensor([[0.4395]]),<m> purple = 30 </m>
+305,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 50, red = 50",tensor([[0.6896]]),<m> purple = 30 </m>
+306,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 10, red = 50",tensor([[1.2109]]),<m> purple = 30 </m>
+307,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 20, red = 50",tensor([[0.8582]]),<m> purple = 30 </m>
+308,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 30, red = 50",tensor([[0.8009]]),<m> purple = 30 </m>
+309,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 40, red = 50",tensor([[0.7013]]),<m> purple = 30 </m>
+310,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 50, red = 50",tensor([[0.8032]]),<m> purple = 30 </m>
+311,"green block , purple block , green block , purple block fifty ri-","green = 10, red = 50, yellow = 10",tensor([[1.2016]]),<m> purple = 30 </m>
+312,"green block , purple block , green block , purple block fifty ri-","green = 10, red = 50, yellow = 20",tensor([[1.0211]]),<m> purple = 30 </m>
+313,"green block , purple block , green block , purple block fifty ri-","green = 10, red = 50, yellow = 30",tensor([[0.8113]]),<m> purple = 30 </m>
+314,"green block , purple block , green block , purple block fifty ri-","green = 10, red = 50, yellow = 40",tensor([[0.7450]]),<m> purple = 30 </m>
+315,"green block , purple block , green block , purple block fifty ri-","green = 10, red = 50, yellow = 50",tensor([[0.9989]]),<m> purple = 30 </m>
+316,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 10, red = 50",tensor([[1.1888]]),<m> purple = 30 </m>
+317,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 20, red = 50",tensor([[0.9170]]),<m> purple = 30 </m>
+318,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 30, red = 50",tensor([[0.4661]]),<m> purple = 30 </m>
+319,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 40, red = 50",tensor([[0.4151]]),<m> purple = 30 </m>
+320,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 50, red = 50",tensor([[0.7095]]),<m> purple = 30 </m>
+321,"green block , purple block , green block , purple block fifty ri-","green = 20, red = 50, yellow = 10",tensor([[1.1266]]),<m> purple = 30 </m>
+322,"green block , purple block , green block , purple block fifty ri-","green = 20, red = 50, yellow = 20",tensor([[1.0777]]),<m> purple = 30 </m>
+323,"green block , purple block , green block , purple block fifty ri-","green = 20, red = 50, yellow = 30",tensor([[0.5704]]),<m> purple = 30 </m>
+324,"green block , purple block , green block , purple block fifty ri-","green = 20, red = 50, yellow = 40",tensor([[0.5642]]),<m> purple = 30 </m>
+325,"green block , purple block , green block , purple block fifty ri-","green = 20, red = 50, yellow = 50",tensor([[0.8679]]),<m> purple = 30 </m>
+326,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 10, red = 50",tensor([[1.0725]]),<m> purple = 30 </m>
+327,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 20, red = 50",tensor([[0.7894]]),<m> purple = 30 </m>
+328,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 30, red = 50",tensor([[0.6656]]),<m> purple = 30 </m>
+329,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 40, red = 50",tensor([[0.2825]]),<m> purple = 30 </m>
+330,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 50, red = 50",tensor([[0.5892]]),<m> purple = 30 </m>
+331,"green block , purple block , green block , purple block fifty ri-","green = 30, red = 50, yellow = 10",tensor([[1.0271]]),<m> purple = 30 </m>
+332,"green block , purple block , green block , purple block fifty ri-","green = 30, red = 50, yellow = 20",tensor([[0.7349]]),<m> purple = 30 </m>
+333,"green block , purple block , green block , purple block fifty ri-","green = 30, red = 50, yellow = 30",tensor([[0.7701]]),<m> purple = 30 </m>
+334,"green block , purple block , green block , purple block fifty ri-","green = 30, red = 50, yellow = 40",tensor([[0.4038]]),<m> purple = 30 </m>
+335,"green block , purple block , green block , purple block fifty ri-","green = 30, red = 50, yellow = 50",tensor([[0.6529]]),<m> purple = 30 </m>
+336,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 10, red = 50",tensor([[0.8233]]),<m> purple = 30 </m>
+337,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 20, red = 50",tensor([[0.6994]]),<m> purple = 30 </m>
+338,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 30, red = 50",tensor([[0.3773]]),<m> purple = 30 </m>
+339,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 40, red = 50",tensor([[0.3507]]),<m> purple = 30 </m>
+340,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 50, red = 50",tensor([[0.3569]]),<m> purple = 30 </m>
+341,"green block , purple block , green block , purple block fifty ri-","green = 40, red = 50, yellow = 10",tensor([[1.0248]]),<m> purple = 30 </m>
+342,"green block , purple block , green block , purple block fifty ri-","green = 40, red = 50, yellow = 20",tensor([[0.7216]]),<m> purple = 30 </m>
+343,"green block , purple block , green block , purple block fifty ri-","green = 40, red = 50, yellow = 30",tensor([[0.4163]]),<m> purple = 30 </m>
+344,"green block , purple block , green block , purple block fifty ri-","green = 40, red = 50, yellow = 40",tensor([[0.6686]]),<m> purple = 30 </m>
+345,"green block , purple block , green block , purple block fifty ri-","green = 40, red = 50, yellow = 50",tensor([[0.4707]]),<m> purple = 30 </m>
+346,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 10, red = 50",tensor([[0.9360]]),<m> purple = 30 </m>
+347,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 20, red = 50",tensor([[0.7234]]),<m> purple = 30 </m>
+348,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 30, red = 50",tensor([[0.6140]]),<m> purple = 30 </m>
+349,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 40, red = 50",tensor([[0.4469]]),<m> purple = 30 </m>
+350,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 50, red = 50",tensor([[0.6819]]),<m> purple = 30 </m>
+351,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 50, yellow = 10",tensor([[1.1518]]),<m> purple = 30 </m>
+352,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 50, yellow = 20",tensor([[0.8988]]),<m> purple = 30 </m>
+353,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 50, yellow = 30",tensor([[0.6908]]),<m> purple = 30 </m>
+354,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 50, yellow = 40",tensor([[0.4337]]),<m> purple = 30 </m>
+355,"green block , purple block , green block , purple block fifty ri-","green = 50, red = 50, yellow = 50",tensor([[0.8155]]),<m> purple = 30 </m>
+356,"green block , purple block , green block , purple block fifty ri-","purple = 10, red = 50, yellow = 10",tensor([[1.0077]]),<m> purple = 30 </m>
+357,"green block , purple block , green block , purple block fifty ri-","purple = 10, red = 50, yellow = 20",tensor([[0.7489]]),<m> purple = 30 </m>
+358,"green block , purple block , green block , purple block fifty ri-","purple = 10, red = 50, yellow = 30",tensor([[0.6985]]),<m> purple = 30 </m>
+359,"green block , purple block , green block , purple block fifty ri-","purple = 10, red = 50, yellow = 40",tensor([[0.5784]]),<m> purple = 30 </m>
+360,"green block , purple block , green block , purple block fifty ri-","purple = 10, red = 50, yellow = 50",tensor([[0.7601]]),<m> purple = 30 </m>
+361,"green block , purple block , green block , purple block fifty ri-","purple = 20, red = 50, yellow = 10",tensor([[0.8593]]),<m> purple = 30 </m>
+362,"green block , purple block , green block , purple block fifty ri-","purple = 20, red = 50, yellow = 20",tensor([[0.8061]]),<m> purple = 30 </m>
+363,"green block , purple block , green block , purple block fifty ri-","purple = 20, red = 50, yellow = 30",tensor([[0.3974]]),<m> purple = 30 </m>
+364,"green block , purple block , green block , purple block fifty ri-","purple = 20, red = 50, yellow = 40",tensor([[0.4016]]),<m> purple = 30 </m>
+365,"green block , purple block , green block , purple block fifty ri-","purple = 20, red = 50, yellow = 50",tensor([[0.6722]]),<m> purple = 30 </m>
+366,"green block , purple block , green block , purple block fifty ri-","purple = 30, red = 50, yellow = 10",tensor([[0.7708]]),<m> purple = 30 </m>
+367,"green block , purple block , green block , purple block fifty ri-","purple = 30, red = 50, yellow = 20",tensor([[0.5591]]),<m> purple = 30 </m>
+368,"green block , purple block , green block , purple block fifty ri-","purple = 30, red = 50, yellow = 30",tensor([[0.6482]]),<m> purple = 30 </m>
+369,"green block , purple block , green block , purple block fifty ri-","purple = 30, red = 50, yellow = 40",tensor([[0.3302]]),<m> purple = 30 </m>
+370,"green block , purple block , green block , purple block fifty ri-","purple = 30, red = 50, yellow = 50",tensor([[0.4884]]),<m> purple = 30 </m>
+371,"green block , purple block , green block , purple block fifty ri-","purple = 40, red = 50, yellow = 10",tensor([[0.7359]]),<m> purple = 30 </m>
+372,"green block , purple block , green block , purple block fifty ri-","purple = 40, red = 50, yellow = 20",tensor([[0.5433]]),<m> purple = 30 </m>
+373,"green block , purple block , green block , purple block fifty ri-","purple = 40, red = 50, yellow = 30",tensor([[0.3323]]),<m> purple = 30 </m>
+374,"green block , purple block , green block , purple block fifty ri-","purple = 40, red = 50, yellow = 40",tensor([[0.4978]]),<m> purple = 30 </m>
+375,"green block , purple block , green block , purple block fifty ri-","purple = 40, red = 50, yellow = 50",tensor([[0.3576]]),<m> purple = 30 </m>
+376,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 50, yellow = 10",tensor([[0.9072]]),<m> purple = 30 </m>
+377,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 50, yellow = 20",tensor([[0.7026]]),<m> purple = 30 </m>
+378,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 50, yellow = 30",tensor([[0.4541]]),<m> purple = 30 </m>
+379,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 50, yellow = 40",tensor([[0.3615]]),<m> purple = 30 </m>
+380,"green block , purple block , green block , purple block fifty ri-","purple = 50, red = 50, yellow = 50",tensor([[0.6306]]),<m> purple = 30 </m>
+381,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 10, purple = 50",tensor([[0.9765]]),<m> purple = 30 </m>
+382,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 10, yellow = 50",tensor([[1.1807]]),<m> purple = 30 </m>
+383,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 20, purple = 50",tensor([[0.6160]]),<m> purple = 30 </m>
+384,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 20, yellow = 50",tensor([[0.8436]]),<m> purple = 30 </m>
+385,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 30, purple = 50",tensor([[0.5703]]),<m> purple = 30 </m>
+386,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 30, yellow = 50",tensor([[0.6651]]),<m> purple = 30 </m>
+387,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 40, purple = 50",tensor([[0.4763]]),<m> purple = 30 </m>
+388,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 40, yellow = 50",tensor([[0.5245]]),<m> purple = 30 </m>
+389,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, purple = 10",tensor([[0.9060]]),<m> purple = 30 </m>
+390,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, purple = 20",tensor([[0.6244]]),<m> purple = 30 </m>
+391,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, purple = 30",tensor([[0.5607]]),<m> purple = 30 </m>
+392,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, purple = 40",tensor([[0.4970]]),<m> purple = 30 </m>
+393,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, purple = 50",tensor([[0.4924]]),<m> purple = 30 </m>
+394,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, yellow = 10",tensor([[1.0217]]),<m> purple = 30 </m>
+395,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, yellow = 20",tensor([[0.8106]]),<m> purple = 30 </m>
+396,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, yellow = 30",tensor([[0.6738]]),<m> purple = 30 </m>
+397,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, yellow = 40",tensor([[0.5278]]),<m> purple = 30 </m>
+398,"green block , purple block , green block , purple block fifty ri-","blue = 10, green = 50, yellow = 50",tensor([[0.7692]]),<m> purple = 30 </m>
+399,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 10, yellow = 50",tensor([[0.9754]]),<m> purple = 30 </m>
+400,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 20, yellow = 50",tensor([[0.6587]]),<m> purple = 30 </m>
+401,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 30, yellow = 50",tensor([[0.5556]]),<m> purple = 30 </m>
+402,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 40, yellow = 50",tensor([[0.4264]]),<m> purple = 30 </m>
+403,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 50, yellow = 10",tensor([[0.8294]]),<m> purple = 30 </m>
+404,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 50, yellow = 20",tensor([[0.6923]]),<m> purple = 30 </m>
+405,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 50, yellow = 30",tensor([[0.5183]]),<m> purple = 30 </m>
+406,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 50, yellow = 40",tensor([[0.4542]]),<m> purple = 30 </m>
+407,"green block , purple block , green block , purple block fifty ri-","blue = 10, purple = 50, yellow = 50",tensor([[0.5787]]),<m> purple = 30 </m>
+408,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 10, purple = 50",tensor([[0.9585]]),<m> purple = 30 </m>
+409,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 10, yellow = 50",tensor([[1.1913]]),<m> purple = 30 </m>
+410,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 20, purple = 50",tensor([[0.6483]]),<m> purple = 30 </m>
+411,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 20, yellow = 50",tensor([[0.8509]]),<m> purple = 30 </m>
+412,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 30, purple = 50",tensor([[0.3204]]),<m> purple = 30 </m>
+413,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 30, yellow = 50",tensor([[0.4195]]),<m> purple = 30 </m>
+414,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 40, purple = 50",tensor([[0.2700]]),<m> purple = 30 </m>
+415,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 40, yellow = 50",tensor([[0.3373]]),<m> purple = 30 </m>
+416,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, purple = 10",tensor([[0.7682]]),<m> purple = 30 </m>
+417,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, purple = 20",tensor([[0.6656]]),<m> purple = 30 </m>
+418,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, purple = 30",tensor([[0.3271]]),<m> purple = 30 </m>
+419,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, purple = 40",tensor([[0.3122]]),<m> purple = 30 </m>
+420,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, purple = 50",tensor([[0.4424]]),<m> purple = 30 </m>
+421,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, yellow = 10",tensor([[0.8732]]),<m> purple = 30 </m>
+422,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, yellow = 20",tensor([[0.8254]]),<m> purple = 30 </m>
+423,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, yellow = 30",tensor([[0.4289]]),<m> purple = 30 </m>
+424,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, yellow = 40",tensor([[0.4284]]),<m> purple = 30 </m>
+425,"green block , purple block , green block , purple block fifty ri-","blue = 20, green = 50, yellow = 50",tensor([[0.6255]]),<m> purple = 30 </m>
+426,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 10, yellow = 50",tensor([[0.9517]]),<m> purple = 30 </m>
+427,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 20, yellow = 50",tensor([[0.7400]]),<m> purple = 30 </m>
+428,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 30, yellow = 50",tensor([[0.3156]]),<m> purple = 30 </m>
+429,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 40, yellow = 50",tensor([[0.2510]]),<m> purple = 30 </m>
+430,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 50, yellow = 10",tensor([[0.7543]]),<m> purple = 30 </m>
+431,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 50, yellow = 20",tensor([[0.6867]]),<m> purple = 30 </m>
+432,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 50, yellow = 30",tensor([[0.3764]]),<m> purple = 30 </m>
+433,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 50, yellow = 40",tensor([[0.3013]]),<m> purple = 30 </m>
+434,"green block , purple block , green block , purple block fifty ri-","blue = 20, purple = 50, yellow = 50",tensor([[0.4553]]),<m> purple = 30 </m>
+435,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 10, purple = 50",tensor([[0.8607]]),<m> purple = 30 </m>
+436,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 10, yellow = 50",tensor([[0.9683]]),<m> purple = 30 </m>
+437,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 20, purple = 50",tensor([[0.5536]]),<m> purple = 30 </m>
+438,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 20, yellow = 50",tensor([[0.6829]]),<m> purple = 30 </m>
+439,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 30, purple = 50",tensor([[0.4061]]),<m> purple = 30 </m>
+440,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 30, yellow = 50",tensor([[0.5136]]),<m> purple = 30 </m>
+441,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 40, purple = 50",tensor([[0.1636]]),<m> purple = 30 </m>
+442,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 40, yellow = 50",tensor([[0.2056]]),<m> purple = 30 </m>
+443,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, purple = 10",tensor([[0.6080]]),<m> purple = 30 </m>
+444,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, purple = 20",tensor([[0.4759]]),<m> purple = 30 </m>
+445,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, purple = 30",tensor([[0.4326]]),<m> purple = 30 </m>
+446,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, purple = 40",tensor([[0.2077]]),<m> purple = 30 </m>
+447,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, purple = 50",tensor([[0.2960]]),<m> purple = 30 </m>
+448,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, yellow = 10",tensor([[0.7909]]),<m> purple = 30 </m>
+449,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, yellow = 20",tensor([[0.5060]]),<m> purple = 30 </m>
+450,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, yellow = 30",tensor([[0.4988]]),<m> purple = 30 </m>
+451,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, yellow = 40",tensor([[0.2719]]),<m> purple = 30 </m>
+452,"green block , purple block , green block , purple block fifty ri-","blue = 30, green = 50, yellow = 50",tensor([[0.3984]]),<m> purple = 30 </m>
+453,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 10, yellow = 50",tensor([[0.8695]]),<m> purple = 30 </m>
+454,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 20, yellow = 50",tensor([[0.5574]]),<m> purple = 30 </m>
+455,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 30, yellow = 50",tensor([[0.4290]]),<m> purple = 30 </m>
+456,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 40, yellow = 50",tensor([[0.1766]]),<m> purple = 30 </m>
+457,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 50, yellow = 10",tensor([[0.6283]]),<m> purple = 30 </m>
+458,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 50, yellow = 20",tensor([[0.4563]]),<m> purple = 30 </m>
+459,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 50, yellow = 30",tensor([[0.4432]]),<m> purple = 30 </m>
+460,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 50, yellow = 40",tensor([[0.2134]]),<m> purple = 30 </m>
+461,"green block , purple block , green block , purple block fifty ri-","blue = 30, purple = 50, yellow = 50",tensor([[0.3431]]),<m> purple = 30 </m>
+462,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 10, purple = 50",tensor([[0.6115]]),<m> purple = 30 </m>
+463,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 10, yellow = 50",tensor([[0.8028]]),<m> purple = 30 </m>
+464,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 20, purple = 50",tensor([[0.4507]]),<m> purple = 30 </m>
+465,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 20, yellow = 50",tensor([[0.5283]]),<m> purple = 30 </m>
+466,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 30, purple = 50",tensor([[0.2286]]),<m> purple = 30 </m>
+467,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 30, yellow = 50",tensor([[0.2633]]),<m> purple = 30 </m>
+468,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 40, purple = 50",tensor([[0.2156]]),<m> purple = 30 </m>
+469,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 40, yellow = 50",tensor([[0.2533]]),<m> purple = 30 </m>
+470,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, purple = 10",tensor([[0.6559]]),<m> purple = 30 </m>
+471,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, purple = 20",tensor([[0.4617]]),<m> purple = 30 </m>
+472,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, purple = 30",tensor([[0.2524]]),<m> purple = 30 </m>
+473,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, purple = 40",tensor([[0.3294]]),<m> purple = 30 </m>
+474,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, purple = 50",tensor([[0.2098]]),<m> purple = 30 </m>
+475,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, yellow = 10",tensor([[0.7992]]),<m> purple = 30 </m>
+476,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, yellow = 20",tensor([[0.4805]]),<m> purple = 30 </m>
+477,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, yellow = 30",tensor([[0.3613]]),<m> purple = 30 </m>
+478,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, yellow = 40",tensor([[0.4466]]),<m> purple = 30 </m>
+479,"green block , purple block , green block , purple block fifty ri-","blue = 40, green = 50, yellow = 50",tensor([[0.3245]]),<m> purple = 30 </m>
+480,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 10, yellow = 50",tensor([[0.6835]]),<m> purple = 30 </m>
+481,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 20, yellow = 50",tensor([[0.4638]]),<m> purple = 30 </m>
+482,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 30, yellow = 50",tensor([[0.2272]]),<m> purple = 30 </m>
+483,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 40, yellow = 50",tensor([[0.1900]]),<m> purple = 30 </m>
+484,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 50, yellow = 10",tensor([[0.6671]]),<m> purple = 30 </m>
+485,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 50, yellow = 20",tensor([[0.4275]]),<m> purple = 30 </m>
+486,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 50, yellow = 30",tensor([[0.2350]]),<m> purple = 30 </m>
+487,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 50, yellow = 40",tensor([[0.3795]]),<m> purple = 30 </m>
+488,"green block , purple block , green block , purple block fifty ri-","blue = 40, purple = 50, yellow = 50",tensor([[0.2265]]),<m> purple = 30 </m>
+489,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, purple = 10",tensor([[0.8857]]),<m> purple = 30 </m>
+490,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, purple = 20",tensor([[0.7446]]),<m> purple = 30 </m>
+491,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, purple = 30",tensor([[0.7409]]),<m> purple = 30 </m>
+492,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, purple = 40",tensor([[0.6410]]),<m> purple = 30 </m>
+493,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, purple = 50",tensor([[0.6432]]),<m> purple = 30 </m>
+494,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, yellow = 10",tensor([[1.0747]]),<m> purple = 30 </m>
+495,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, yellow = 20",tensor([[0.8896]]),<m> purple = 30 </m>
+496,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, yellow = 30",tensor([[0.8936]]),<m> purple = 30 </m>
+497,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, yellow = 40",tensor([[0.8262]]),<m> purple = 30 </m>
+498,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 10, yellow = 50",tensor([[0.8631]]),<m> purple = 30 </m>
+499,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, purple = 10",tensor([[0.9038]]),<m> purple = 30 </m>
+500,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, purple = 20",tensor([[0.5833]]),<m> purple = 30 </m>
+501,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, purple = 30",tensor([[0.4045]]),<m> purple = 30 </m>
+502,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, purple = 40",tensor([[0.3584]]),<m> purple = 30 </m>
+503,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, purple = 50",tensor([[0.4943]]),<m> purple = 30 </m>
+504,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, yellow = 10",tensor([[1.0222]]),<m> purple = 30 </m>
+505,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, yellow = 20",tensor([[0.8137]]),<m> purple = 30 </m>
+506,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, yellow = 30",tensor([[0.4820]]),<m> purple = 30 </m>
+507,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, yellow = 40",tensor([[0.4723]]),<m> purple = 30 </m>
+508,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 20, yellow = 50",tensor([[0.6642]]),<m> purple = 30 </m>
+509,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, purple = 10",tensor([[0.7921]]),<m> purple = 30 </m>
+510,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, purple = 20",tensor([[0.4792]]),<m> purple = 30 </m>
+511,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, purple = 30",tensor([[0.4221]]),<m> purple = 30 </m>
+512,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, purple = 40",tensor([[0.2573]]),<m> purple = 30 </m>
+513,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, purple = 50",tensor([[0.3651]]),<m> purple = 30 </m>
+514,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, yellow = 10",tensor([[0.9125]]),<m> purple = 30 </m>
+515,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, yellow = 20",tensor([[0.5527]]),<m> purple = 30 </m>
+516,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, yellow = 30",tensor([[0.5806]]),<m> purple = 30 </m>
+517,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, yellow = 40",tensor([[0.3736]]),<m> purple = 30 </m>
+518,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 30, yellow = 50",tensor([[0.4482]]),<m> purple = 30 </m>
+519,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, purple = 10",tensor([[0.7451]]),<m> purple = 30 </m>
+520,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, purple = 20",tensor([[0.4487]]),<m> purple = 30 </m>
+521,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, purple = 30",tensor([[0.2612]]),<m> purple = 30 </m>
+522,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, purple = 40",tensor([[0.3145]]),<m> purple = 30 </m>
+523,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, purple = 50",tensor([[0.2632]]),<m> purple = 30 </m>
+524,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, yellow = 10",tensor([[0.8462]]),<m> purple = 30 </m>
+525,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, yellow = 20",tensor([[0.5222]]),<m> purple = 30 </m>
+526,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, yellow = 30",tensor([[0.3719]]),<m> purple = 30 </m>
+527,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, yellow = 40",tensor([[0.4263]]),<m> purple = 30 </m>
+528,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 40, yellow = 50",tensor([[0.4051]]),<m> purple = 30 </m>
+529,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, purple = 10",tensor([[0.7363]]),<m> purple = 30 </m>
+530,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, purple = 20",tensor([[0.5047]]),<m> purple = 30 </m>
+531,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, purple = 30",tensor([[0.3404]]),<m> purple = 30 </m>
+532,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, purple = 40",tensor([[0.2506]]),<m> purple = 30 </m>
+533,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, purple = 50",tensor([[0.4015]]),<m> purple = 30 </m>
+534,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, yellow = 10",tensor([[0.8733]]),<m> purple = 30 </m>
+535,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, yellow = 20",tensor([[0.6434]]),<m> purple = 30 </m>
+536,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, yellow = 30",tensor([[0.4403]]),<m> purple = 30 </m>
+537,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, yellow = 40",tensor([[0.3200]]),<m> purple = 30 </m>
+538,"green block , purple block , green block , purple block fifty ri-","blue = 50, green = 50, yellow = 50",tensor([[0.5253]]),<m> purple = 30 </m>
+539,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 10, yellow = 10",tensor([[0.8715]]),<m> purple = 30 </m>
+540,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 10, yellow = 20",tensor([[0.8189]]),<m> purple = 30 </m>
+541,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 10, yellow = 30",tensor([[0.7919]]),<m> purple = 30 </m>
+542,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 10, yellow = 40",tensor([[0.6816]]),<m> purple = 30 </m>
+543,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 10, yellow = 50",tensor([[0.7692]]),<m> purple = 30 </m>
+544,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 20, yellow = 10",tensor([[0.8546]]),<m> purple = 30 </m>
+545,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 20, yellow = 20",tensor([[0.7091]]),<m> purple = 30 </m>
+546,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 20, yellow = 30",tensor([[0.4183]]),<m> purple = 30 </m>
+547,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 20, yellow = 40",tensor([[0.4048]]),<m> purple = 30 </m>
+548,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 20, yellow = 50",tensor([[0.5229]]),<m> purple = 30 </m>
+549,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 30, yellow = 10",tensor([[0.7792]]),<m> purple = 30 </m>
+550,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 30, yellow = 20",tensor([[0.4995]]),<m> purple = 30 </m>
+551,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 30, yellow = 30",tensor([[0.4627]]),<m> purple = 30 </m>
+552,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 30, yellow = 40",tensor([[0.2504]]),<m> purple = 30 </m>
+553,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 30, yellow = 50",tensor([[0.3972]]),<m> purple = 30 </m>
+554,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 40, yellow = 10",tensor([[0.7115]]),<m> purple = 30 </m>
+555,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 40, yellow = 20",tensor([[0.4486]]),<m> purple = 30 </m>
+556,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 40, yellow = 30",tensor([[0.2517]]),<m> purple = 30 </m>
+557,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 40, yellow = 40",tensor([[0.3947]]),<m> purple = 30 </m>
+558,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 40, yellow = 50",tensor([[0.3218]]),<m> purple = 30 </m>
+559,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 50, yellow = 10",tensor([[0.7544]]),<m> purple = 30 </m>
+560,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 50, yellow = 20",tensor([[0.5240]]),<m> purple = 30 </m>
+561,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 50, yellow = 30",tensor([[0.3850]]),<m> purple = 30 </m>
+562,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 50, yellow = 40",tensor([[0.2238]]),<m> purple = 30 </m>
+563,"green block , purple block , green block , purple block fifty ri-","blue = 50, purple = 50, yellow = 50",tensor([[0.3995]]),<m> purple = 30 </m>
+564,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 10, yellow = 50",tensor([[0.9848]]),<m> purple = 30 </m>
+565,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 20, yellow = 50",tensor([[0.7097]]),<m> purple = 30 </m>
+566,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 30, yellow = 50",tensor([[0.4798]]),<m> purple = 30 </m>
+567,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 40, yellow = 50",tensor([[0.4085]]),<m> purple = 30 </m>
+568,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 50, yellow = 10",tensor([[0.7270]]),<m> purple = 30 </m>
+569,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 50, yellow = 20",tensor([[0.6117]]),<m> purple = 30 </m>
+570,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 50, yellow = 30",tensor([[0.4406]]),<m> purple = 30 </m>
+571,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 50, yellow = 40",tensor([[0.4037]]),<m> purple = 30 </m>
+572,"green block , purple block , green block , purple block fifty ri-","green = 10, purple = 50, yellow = 50",tensor([[0.5851]]),<m> purple = 30 </m>
+573,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 10, yellow = 50",tensor([[0.9060]]),<m> purple = 30 </m>
+574,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 20, yellow = 50",tensor([[0.7266]]),<m> purple = 30 </m>
+575,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 30, yellow = 50",tensor([[0.3331]]),<m> purple = 30 </m>
+576,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 40, yellow = 50",tensor([[0.2269]]),<m> purple = 30 </m>
+577,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 50, yellow = 10",tensor([[0.6861]]),<m> purple = 30 </m>
+578,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 50, yellow = 20",tensor([[0.6603]]),<m> purple = 30 </m>
+579,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 50, yellow = 30",tensor([[0.2881]]),<m> purple = 30 </m>
+580,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 50, yellow = 40",tensor([[0.2558]]),<m> purple = 30 </m>
+581,"green block , purple block , green block , purple block fifty ri-","green = 20, purple = 50, yellow = 50",tensor([[0.4029]]),<m> purple = 30 </m>
+582,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 10, yellow = 50",tensor([[0.7728]]),<m> purple = 30 </m>
+583,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 20, yellow = 50",tensor([[0.4750]]),<m> purple = 30 </m>
+584,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 30, yellow = 50",tensor([[0.3970]]),<m> purple = 30 </m>
+585,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 40, yellow = 50",tensor([[0.1830]]),<m> purple = 30 </m>
+586,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 50, yellow = 10",tensor([[0.5753]]),<m> purple = 30 </m>
+587,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 50, yellow = 20",tensor([[0.3790]]),<m> purple = 30 </m>
+588,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 50, yellow = 30",tensor([[0.3744]]),<m> purple = 30 </m>
+589,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 50, yellow = 40",tensor([[0.2033]]),<m> purple = 30 </m>
+590,"green block , purple block , green block , purple block fifty ri-","green = 30, purple = 50, yellow = 50",tensor([[0.3361]]),<m> purple = 30 </m>
+591,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 10, yellow = 50",tensor([[0.6504]]),<m> purple = 30 </m>
+592,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 20, yellow = 50",tensor([[0.3946]]),<m> purple = 30 </m>
+593,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 30, yellow = 50",tensor([[0.2096]]),<m> purple = 30 </m>
+594,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 40, yellow = 50",tensor([[0.1924]]),<m> purple = 30 </m>
+595,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 50, yellow = 10",tensor([[0.5705]]),<m> purple = 30 </m>
+596,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 50, yellow = 20",tensor([[0.3479]]),<m> purple = 30 </m>
+597,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 50, yellow = 30",tensor([[0.2186]]),<m> purple = 30 </m>
+598,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 50, yellow = 40",tensor([[0.3345]]),<m> purple = 30 </m>
+599,"green block , purple block , green block , purple block fifty ri-","green = 40, purple = 50, yellow = 50",tensor([[0.2177]]),<m> purple = 30 </m>
+600,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 10, yellow = 10",tensor([[0.7400]]),<m> purple = 30 </m>
+601,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 10, yellow = 20",tensor([[0.7119]]),<m> purple = 30 </m>
+602,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 10, yellow = 30",tensor([[0.6882]]),<m> purple = 30 </m>
+603,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 10, yellow = 40",tensor([[0.5865]]),<m> purple = 30 </m>
+604,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 10, yellow = 50",tensor([[0.6671]]),<m> purple = 30 </m>
+605,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 20, yellow = 10",tensor([[0.7497]]),<m> purple = 30 </m>
+606,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 20, yellow = 20",tensor([[0.6183]]),<m> purple = 30 </m>
+607,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 20, yellow = 30",tensor([[0.3548]]),<m> purple = 30 </m>
+608,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 20, yellow = 40",tensor([[0.3163]]),<m> purple = 30 </m>
+609,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 20, yellow = 50",tensor([[0.4052]]),<m> purple = 30 </m>
+610,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 30, yellow = 10",tensor([[0.6740]]),<m> purple = 30 </m>
+611,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 30, yellow = 20",tensor([[0.3877]]),<m> purple = 30 </m>
+612,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 30, yellow = 30",tensor([[0.3853]]),<m> purple = 30 </m>
+613,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 30, yellow = 40",tensor([[0.2265]]),<m> purple = 30 </m>
+614,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 30, yellow = 50",tensor([[0.3426]]),<m> purple = 30 </m>
+615,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 40, yellow = 10",tensor([[0.6263]]),<m> purple = 30 </m>
+616,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 40, yellow = 20",tensor([[0.3721]]),<m> purple = 30 </m>
+617,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 40, yellow = 30",tensor([[0.2202]]),<m> purple = 30 </m>
+618,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 40, yellow = 40",tensor([[0.3498]]),<m> purple = 30 </m>
+619,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 40, yellow = 50",tensor([[0.2446]]),<m> purple = 30 </m>
+620,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 50, yellow = 10",tensor([[0.6683]]),<m> purple = 30 </m>
+621,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 50, yellow = 20",tensor([[0.4177]]),<m> purple = 30 </m>
+622,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 50, yellow = 30",tensor([[0.3282]]),<m> purple = 30 </m>
+623,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 50, yellow = 40",tensor([[0.2068]]),<m> purple = 30 </m>
+624,"green block , purple block , green block , purple block fifty ri-","green = 50, purple = 50, yellow = 50",tensor([[0.3590]]),<m> purple = 30 </m>
+625,purple block one 's thirty,purple = 30,tensor([[0.7934]]),<m> yellow = 50 </m>
+626,purple block one 's thirty,purple != 30,tensor([[0.1577]]),<m> yellow = 50 </m>
+627,purple block one 's thirty,purple < 30,tensor([[0.1365]]),<m> yellow = 50 </m>
+628,purple block one 's thirty,purple > 30,tensor([[0.1240]]),<m> yellow = 50 </m>
+629,"thirty , okay purple block 's thir-",purple = 30,tensor([[0.4257]]),<m> yellow = 50 </m>
+630,"thirty , okay purple block 's thir-",purple != 30,tensor([[0.1381]]),<m> yellow = 50 </m>
+631,"thirty , okay purple block 's thir-",purple < 30,tensor([[0.1107]]),<m> yellow = 50 </m>
+632,"thirty , okay purple block 's thir-",purple > 30,tensor([[0.1154]]),<m> yellow = 50 </m>
+633,"twenty , right",red = 20,tensor([[1.4411]]),<m> purple = 30 </m>
+634,"twenty , right",red != 20,tensor([[0.2007]]),<m> purple = 30 </m>
+635,"twenty , right",red < 20,tensor([[0.1777]]),<m> purple = 30 </m>
+636,"twenty , right",red > 20,tensor([[0.2554]]),<m> purple = 30 </m>
+637,"twenty , right",blue = 20,tensor([[1.4445]]),<m> purple = 30 </m>
+638,"twenty , right",blue != 20,tensor([[0.1397]]),<m> purple = 30 </m>
+639,"twenty , right",blue < 20,tensor([[0.1366]]),<m> purple = 30 </m>
+640,"twenty , right",blue > 20,tensor([[0.1397]]),<m> purple = 30 </m>
+641,"twenty , right",green = 20,tensor([[1.4429]]),<m> purple = 30 </m>
+642,"twenty , right",green != 20,tensor([[0.1453]]),<m> purple = 30 </m>
+643,"twenty , right",green < 20,tensor([[0.1614]]),<m> purple = 30 </m>
+644,"twenty , right",green > 20,tensor([[0.1485]]),<m> purple = 30 </m>
+645,"twenty , right",purple = 20,tensor([[1.4428]]),<m> purple = 30 </m>
+646,"twenty , right",purple != 20,tensor([[0.2641]]),<m> purple = 30 </m>
+647,"twenty , right",purple < 20,tensor([[0.3078]]),<m> purple = 30 </m>
+648,"twenty , right",purple > 20,tensor([[0.2244]]),<m> purple = 30 </m>
+649,"twenty , right",yellow = 20,tensor([[1.4425]]),<m> purple = 30 </m>
+650,"twenty , right",yellow != 20,tensor([[0.1954]]),<m> purple = 30 </m>
+651,"twenty , right",yellow < 20,tensor([[0.2022]]),<m> purple = 30 </m>
+652,"twenty , right",yellow > 20,tensor([[0.2051]]),<m> purple = 30 </m>
+653,"twenty , right","blue = 20, green = 20, red = 20",tensor([[1.4140]]),<m> purple = 30 </m>
+654,"twenty , right","blue = 20, purple = 20, red = 20",tensor([[1.3718]]),<m> purple = 30 </m>
+655,"twenty , right","blue = 20, red = 20, yellow = 20",tensor([[1.3010]]),<m> purple = 30 </m>
+656,"twenty , right","green = 20, purple = 20, red = 20",tensor([[1.4316]]),<m> purple = 30 </m>
+657,"twenty , right","green = 20, red = 20, yellow = 20",tensor([[1.3668]]),<m> purple = 30 </m>
+658,"twenty , right","purple = 20, red = 20, yellow = 20",tensor([[1.3274]]),<m> purple = 30 </m>
+659,"twenty , right","blue = 20, green = 20, purple = 20",tensor([[1.4290]]),<m> purple = 30 </m>
+660,"twenty , right","blue = 20, green = 20, yellow = 20",tensor([[1.3777]]),<m> purple = 30 </m>
+661,"twenty , right","blue = 20, purple = 20, yellow = 20",tensor([[1.3891]]),<m> purple = 30 </m>
+662,"twenty , right","green = 20, purple = 20, yellow = 20",tensor([[1.4033]]),<m> purple = 30 </m>

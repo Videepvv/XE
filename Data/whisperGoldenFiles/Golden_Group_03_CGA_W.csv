@@ -1,0 +1,15 @@
+,Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+0,33.39,38.04,red = 10,5,33.1,38.2,3,4,You will determine the weights of the remaining cubes using this scale. All
+3,142.38,145.07,red = blue,18,116.1,145.1,3,1,the same weight yeah.
+7,212.13,214.16,green = 20,27,212.1,216.1,3,3,"so, green one is twenty"
+10,238.47,240.45,purple = 30,41,225.1,244.1,3,1,one maybe?
+13,269.35,272.58,green = 20 and purple = 30 and yellow = 50,59,266.1,277.1,3,1,"wait, purple was, how much? purple was 30. and green is 20. it's. can we try"
+15,277.53,279.75,green = 20,60,277.1,283.1,3,1,"red block, blue block two and the green one because it's still kinda dipping"
+16,279.77,281.42,yellow < green + purple,60,277.1,283.1,3,1,"red block, blue block two and the green one because it's still kinda dipping"
+17,285.18,287.82,yellow < green + purple,65,283.1,290.1,3,1,"no red block, blue block, green block's too li-"
+21,314.1,315.58,yellow != 10,82,306.1,328.1,3,2,50?
+23,336.06,338.42,yellow > green + blue + red,88,338.1,339.1,3,1,"yeah, not that heavy. so, are we done? oh well, just to put these in the"
+24,344.01,348.36,yellow = 50,94,341.1,360.1,3,3,green yea
+27,366.06,371.16,yellow != 30,95,360.1,371.1,3,2,purple block is thirty
+28,399.16,402.03,yellow = 50,105,400.2,401.2,3,3,the colored blocks
+29,431.58,435.75,purple = 30 and yellow = 50,119,432.2,433.2,3,4,"for the next part of the task, you're going to determine the weight of this block"

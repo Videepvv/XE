@@ -1,0 +1,32 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,compare let 's compare red blue see get baseline blue .,blue = red,0.10567131,<m> blue = 10 </m>,4.0
+1,compare let 's compare red blue see get baseline blue .,blue = red,0.10567131,<m> blue = 10 </m>,4.0
+2,compare let 's compare red blue see get baseline blue .,blue != red,0.02623535,<m> blue = 10 </m>,4.0
+3,compare let 's compare red blue see get baseline blue .,blue != red,0.02623535,<m> blue = 10 </m>,4.0
+4,compare let 's compare red blue see get baseline blue .,blue < red,0.02532246,<m> blue = 10 </m>,4.0
+5,consider purple block 30,purple = 40,0.25446054,<m> purple = 30 </m>,4.0
+6,consider purple block 30,purple = 10,0.20880853,<m> purple = 30 </m>,4.0
+7,consider purple block 30,purple = 50,0.18857439,<m> purple = 30 </m>,4.0
+8,consider purple block 30,purple = 20,0.17201677,<m> purple = 30 </m>,4.0
+9,consider purple block 30,purple = 30,0.0971456,<m> purple = 30 </m>,4.0
+10,purple block 's purple block 's twenty,purple = 20,0.86391294,<m> purple != 20 </m>,4.0
+11,purple block 's purple block 's twenty,purple > 20,0.087067775,<m> purple != 20 </m>,4.0
+12,purple block 's purple block 's twenty,purple != 20,0.045664784,<m> purple != 20 </m>,4.0
+13,purple block 's purple block 's twenty,purple < 20,0.042269394,<m> purple != 20 </m>,4.0
+14,purple block 's purple block 's twenty,purple = 20,0.86391294,<m> purple != 20 </m>,4.0
+15,purple block 's purple block 's twenty,purple > 20,0.087067775,<m> purple != 20 </m>,4.0
+16,purple block 's purple block 's twenty,purple != 20,0.045664784,<m> purple != 20 </m>,4.0
+17,purple block 's purple block 's twenty,purple < 20,0.042269394,<m> purple != 20 </m>,4.0
+18,purple block 's got ta thi-,purple = 40,0.34031096,<m> purple = 30 </m>,4.0
+19,purple block 's got ta thi-,purple = 50,0.33062112,<m> purple = 30 </m>,4.0
+20,purple block 's got ta thi-,purple = 20,0.29907838,<m> purple = 30 </m>,4.0
+21,purple block 's got ta thi-,purple = 10,0.2515159,<m> purple = 30 </m>,4.0
+22,purple block 's got ta thi-,purple = 30,0.15764715,<m> purple = 30 </m>,4.0
+23,okay yellow block fifty,yellow = 50,0.85030943,<m> yellow = 50 </m>,4.0
+24,okay yellow block fifty,yellow > 50,0.16402446,<m> yellow = 50 </m>,4.0
+25,okay yellow block fifty,yellow < 50,0.103077374,<m> yellow = 50 </m>,4.0
+26,okay yellow block fifty,yellow != 50,0.08319454,<m> yellow = 50 </m>,4.0
+27,thirty would yellow,yellow = 30,0.8623253,<m> yellow = 50 </m>,4.0
+28,thirty would yellow,yellow > 30,0.3660999,<m> yellow = 50 </m>,4.0
+29,thirty would yellow,yellow < 30,0.21966395,<m> yellow = 50 </m>,4.0
+30,thirty would yellow,yellow != 30,0.17853686,<m> yellow = 50 </m>,4.0

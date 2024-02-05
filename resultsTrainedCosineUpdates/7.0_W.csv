@@ -1,0 +1,29 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,blue block blue . red block ten,red = 10,0.9125017,<m> blue = 10 </m>,7.0
+1,blue block blue . red block ten,blue = 10,0.7097285,<m> blue = 10 </m>,7.0
+2,blue block blue . red block ten,"blue = 10, green = 10, red = 10",0.12834683,<m> blue = 10 </m>,7.0
+3,blue block blue . red block ten,"blue = 10, green = 20, red = 10",0.08367665,<m> blue = 10 </m>,7.0
+4,blue block blue . red block ten,"blue = 10, green = 30, red = 10",0.079894684,<m> blue = 10 </m>,7.0
+5,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 50, purple = 50, yellow = 40",0.052774623,<m> green = 20 </m>,7.0
+6,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 20, purple = 40, yellow = 40",0.048475392,<m> green = 20 </m>,7.0
+7,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 20, purple = 50, yellow = 40",0.04756823,<m> green = 20 </m>,7.0
+8,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 40, purple = 40, yellow = 40",0.047688894,<m> green = 20 </m>,7.0
+9,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 40, purple = 50, yellow = 50",0.048502762,<m> green = 20 </m>,7.0
+10,try putting blue block,blue = 10,0.97566915,<m> green + red + blue = 40 </m>,7.0
+11,try putting blue block,blue = 50,0.9726297,<m> green + red + blue = 40 </m>,7.0
+12,try putting blue block,blue = 20,0.9687035,<m> green + red + blue = 40 </m>,7.0
+13,try putting blue block,blue = 30,0.9622325,<m> green + red + blue = 40 </m>,7.0
+14,try putting blue block,blue = 40,0.957548,<m> green + red + blue = 40 </m>,7.0
+15,"'ll , , red block",red = 10,0.9765669,<m> purple = 30 </m>,7.0
+16,"'ll , , red block",red = 30,0.9766755,<m> purple = 30 </m>,7.0
+17,"'ll , , red block",red = 50,0.9762423,<m> purple = 30 </m>,7.0
+18,"'ll , , red block",red = 20,0.9763479,<m> purple = 30 </m>,7.0
+19,"'ll , , red block",red = 40,0.9765105,<m> purple = 30 </m>,7.0
+20,"purple block thirty , oops , sorry",purple < 30,0.1308647,<m> yellow = 50 </m>,7.0
+21,"purple block thirty , oops , sorry",purple > 30,0.09502964,<m> yellow = 50 </m>,7.0
+22,"purple block thirty , oops , sorry",purple != 30,0.08483303,<m> yellow = 50 </m>,7.0
+23,"purple block thirty , oops , sorry",purple = 30,0.06465474,<m> yellow = 50 </m>,7.0
+24,"purple block thirty , oops , sorry",purple < 30,0.1308647,<m> yellow = 50 </m>,7.0
+25,"purple block thirty , oops , sorry",purple > 30,0.09502964,<m> yellow = 50 </m>,7.0
+26,"purple block thirty , oops , sorry",purple != 30,0.08483303,<m> yellow = 50 </m>,7.0
+27,"purple block thirty , oops , sorry",purple = 30,0.06465474,<m> yellow = 50 </m>,7.0

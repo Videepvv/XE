@@ -1,0 +1,31 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,"okay . . okay 'll take red block , blue block little fine grain con-",blue = red,0.91140974,<m> green = 20 </m>,8.0
+1,"okay . . okay 'll take red block , blue block little fine grain con-",blue = red,0.91140974,<m> green = 20 </m>,8.0
+2,"okay . . okay 'll take red block , blue block little fine grain con-",red < blue,0.072298825,<m> green = 20 </m>,8.0
+3,"okay . . okay 'll take red block , blue block little fine grain con-",blue != red,0.06620534,<m> green = 20 </m>,8.0
+4,"okay . . okay 'll take red block , blue block little fine grain con-",blue != red,0.06620534,<m> green = 20 </m>,8.0
+5,yellow block 's 40,yellow = 50,0.8320949,<m> yellow > 40 </m>,8.0
+6,yellow block 's 40,yellow = 10,0.8069825,<m> yellow > 40 </m>,8.0
+7,yellow block 's 40,yellow = 20,0.7662668,<m> yellow > 40 </m>,8.0
+8,yellow block 's 40,yellow = 40,0.6928547,<m> yellow > 40 </m>,8.0
+9,yellow block 's 40,yellow = 30,0.6699712,<m> yellow > 40 </m>,8.0
+10,yellow block 's 40 50,yellow = 10,0.88607454,<m> 40 < yellow </m>,8.0
+11,yellow block 's 40 50,yellow = 20,0.8689658,<m> 40 < yellow </m>,8.0
+12,yellow block 's 40 50,yellow = 50,0.83570087,<m> 40 < yellow </m>,8.0
+13,yellow block 's 40 50,yellow = 30,0.82981277,<m> 40 < yellow </m>,8.0
+14,yellow block 's 40 50,yellow = 40,0.8027241,<m> 40 < yellow </m>,8.0
+15,"yellow block 40. n't , less 50 actually .",yellow = 50,0.86072195,<m> 40 < yellow </m>,8.0
+16,"yellow block 40. n't , less 50 actually .",yellow = 10,0.8341793,<m> 40 < yellow </m>,8.0
+17,"yellow block 40. n't , less 50 actually .",yellow = 20,0.79058707,<m> 40 < yellow </m>,8.0
+18,"yellow block 40. n't , less 50 actually .",yellow = 40,0.78332686,<m> 40 < yellow </m>,8.0
+19,"yellow block 40. n't , less 50 actually .",yellow = 30,0.69373745,<m> 40 < yellow </m>,8.0
+20,yellow block 49 .,yellow = 20,0.8441747,<m> yellow = 50 </m>,8.0
+21,yellow block 49 .,yellow = 10,0.8427194,<m> yellow = 50 </m>,8.0
+22,yellow block 49 .,yellow = 40,0.7997811,<m> yellow = 50 </m>,8.0
+23,yellow block 49 .,yellow = 50,0.79633987,<m> yellow = 50 </m>,8.0
+24,yellow block 49 .,yellow = 30,0.7899635,<m> yellow = 50 </m>,8.0
+25,"okay , yellow block 's probably meant 50 yellow block placed differently , calibrated .",yellow = 20,0.95689994,<m> yellow = 50 </m>,8.0
+26,"okay , yellow block 's probably meant 50 yellow block placed differently , calibrated .",yellow = 10,0.9570403,<m> yellow = 50 </m>,8.0
+27,"okay , yellow block 's probably meant 50 yellow block placed differently , calibrated .",yellow = 50,0.951576,<m> yellow = 50 </m>,8.0
+28,"okay , yellow block 's probably meant 50 yellow block placed differently , calibrated .",yellow = 40,0.95300543,<m> yellow = 50 </m>,8.0
+29,"okay , yellow block 's probably meant 50 yellow block placed differently , calibrated .",yellow = 30,0.94742495,<m> yellow = 50 </m>,8.0

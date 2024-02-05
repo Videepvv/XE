@@ -1,36 +1,29 @@
 ,transcript,common_ground
-0,I will tell you that the red cube is ten grams,red = 10
-1,I will tell you that the red cube is ten grams,red != 10
-2,I will tell you that the red cube is ten grams,red < 10
-3,I will tell you that the red cube is ten grams,red > 10
-4,blue block seems to be ten,blue = 10
-5,blue block seems to be ten,blue < 10
-6,blue block seems to be ten,blue > 10
-7,blue block seems to be ten,blue != 10
-8,"yeah red block, blue block should be twenty as well",red = 20
-9,"yeah red block, blue block should be twenty as well",blue = 20
-10,"yeah red block, blue block should be twenty as well",red != 20
-11,"yeah red block, blue block should be twenty as well",blue < 20
-12,"yeah red block, blue block should be twenty as well",red < 20
-13,yeah i think purple block's yeah thirty,purple = 30
-14,yeah i think purple block's yeah thirty,purple < 30
-15,yeah i think purple block's yeah thirty,purple != 30
-16,yeah i think purple block's yeah thirty,purple > 30
-17,So is twenty and there is thirty,"blue = 20, green = 20, yellow = 30"
-18,So is twenty and there is thirty,"blue = 20, red = 20, yellow = 30"
-19,So is twenty and there is thirty,"blue = 20, red = 30, yellow = 30"
-20,So is twenty and there is thirty,"green = 20, red = 20, yellow = 30"
-21,So is twenty and there is thirty,"blue = 30, purple = 20, yellow = 20"
-22,Fifty I guess,green = 50
-23,Fifty I guess,red = 50
-24,Fifty I guess,purple = 50
-25,Fifty I guess,blue = 50
-26,Fifty I guess,yellow = 50
-27,ah yeah because yeah so yellow block's fifty,yellow = 50
-28,ah yeah because yeah so yellow block's fifty,yellow != 50
-29,ah yeah because yeah so yellow block's fifty,yellow > 50
-30,ah yeah because yeah so yellow block's fifty,yellow < 50
-31,no okay i think yellow block's fifty,yellow = 50
-32,no okay i think yellow block's fifty,yellow < 50
-33,no okay i think yellow block's fifty,yellow != 50
-34,no okay i think yellow block's fifty,yellow > 50
+0,blue block blue . red block ten,red = 10
+1,blue block blue . red block ten,blue = 10
+2,blue block blue . red block ten,"blue = 10, green = 10, red = 10"
+3,blue block blue . red block ten,"blue = 10, green = 20, red = 10"
+4,blue block blue . red block ten,"blue = 10, green = 30, red = 10"
+5,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 50, purple = 50, yellow = 40"
+6,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 20, purple = 40, yellow = 40"
+7,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 20, purple = 50, yellow = 40"
+8,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 40, purple = 40, yellow = 40"
+9,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 40, purple = 50, yellow = 50"
+10,try putting blue block,blue = 10
+11,try putting blue block,blue = 50
+12,try putting blue block,blue = 20
+13,try putting blue block,blue = 30
+14,try putting blue block,blue = 40
+15,"'ll , , red block",red = 10
+16,"'ll , , red block",red = 30
+17,"'ll , , red block",red = 50
+18,"'ll , , red block",red = 20
+19,"'ll , , red block",red = 40
+20,"purple block thirty , oops , sorry",purple < 30
+21,"purple block thirty , oops , sorry",purple > 30
+22,"purple block thirty , oops , sorry",purple != 30
+23,"purple block thirty , oops , sorry",purple = 30
+24,"purple block thirty , oops , sorry",purple < 30
+25,"purple block thirty , oops , sorry",purple > 30
+26,"purple block thirty , oops , sorry",purple != 30
+27,"purple block thirty , oops , sorry",purple = 30
