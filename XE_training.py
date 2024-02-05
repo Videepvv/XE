@@ -14,42 +14,63 @@ from transformers import AutoTokenizer
 import torch
 from cosine_sim import CrossEncoder_cossim
 import torch.nn.functional as F
+from helperMethods import is_proposition_present, normalize_expression, normalize_sub_expression, extract_colors
 ##These methods are used for pruning 
 # Mapping words to numbers for comparison
+
+
+def broaden_search_with_numbers(common_grounds, mentioned_numbers):
+    # Filter common grounds to include those mentioning any of the mentioned numbers
+    
+    broadened_common_grounds = [cg for cg in common_grounds if any(str(number) in cg for number in mentioned_numbers)]
+    
+    return broadened_common_grounds
+def broaden_search_with_colors(common_grounds, mentioned_colors):
+    # Filter common grounds to include those mentioning any of the mentioned colors
+    broadened_common_grounds = [cg for cg in common_grounds if any(color in cg for color in mentioned_colors)]
+    return broadened_common_grounds
+
+
 number_mapping = {
     "ten": 10, "twenty": 20, "thirty": 30, 
     "forty": 40, "fifty": 50
 }
 
 def normalize_expression(expr):
-    # Split the expression into sub-expressions by commas, if any, for separate processing
+    # Split the expression into sub-expressions by commas for separate processing
     sub_expressions = expr.split(',')
-    # Normalize each sub-expression and track if it's a simple assignment
-    normalized_info = [(normalize_sub_expression(sub.strip()), 'simple' in sub.strip()) for sub in sub_expressions]
-    # Conditionally sort the normalized sub-expressions if they are not simple assignments
-    # Only sort if none of the sub-expressions are simple assignments or if their order is unchanged
-    if all(not is_simple for _, is_simple in normalized_info):
-        normalized_info.sort(key=lambda x: x[0])  # Sort based on the normalized expression
-    return ', '.join([ni[0] for ni in normalized_info])
+    normalized_sub_expressions = [normalize_sub_expression(sub.strip()) for sub in sub_expressions]
+    # Sort the equalities if they involve simple color and number assignments
+    if all('=' in sub and (sub.strip().split('=')[0].strip().isalpha() and sub.strip().split('=')[1].strip().isdigit()) for sub in normalized_sub_expressions):
+        normalized_sub_expressions.sort()
+    return ', '.join(normalized_sub_expressions)
 
 def normalize_sub_expression(sub_expr):
-    # Identify all components (words and numbers) and operators
-    components = re.findall(r'\w+|[=!<>]+', sub_expr)
-    if len(components) == 3 and components[1] in ['=', '!=']:  # Simple equalities or inequalities
-        # Sort the two elements for these cases, but mark as simple assignment if number is on the right
-        if components[0].isdigit() or components[2].isdigit():
-            # If a number is involved, it's a simple assignment, don't sort
-            pass
-        elif components[0] > components[2]:
-            components[0], components[2] = components[2], components[0]
-    elif len(components) > 3 and components[1] in ['=', '!=']:  # Complex expressions with operations
-        # Sort elements on the right side of the expression if it's a complex expression
-        if '+' in sub_expr:
-            # Split the right side further by '+' and sort
-            right_side = sorted(sub_expr.split(components[1])[1].replace(' ', '').split('+'))
-            # Reassemble the expression with the sorted right side
-            components = [components[0], components[1]] + ['+'.join(right_side)]
-    return ' '.join(components)
+    # Identify the first operator and split the expression around it
+    match = re.search(r'([=!<>]+)', sub_expr)
+    if match:
+        operator = match.group(1)
+        parts = re.split(r'([=!<>]+)', sub_expr, 1)
+        left_side = parts[0].strip()
+        right_side = parts[2].strip()
+
+        # Normalize right side if there is a '+' or for '=', '!=' without '+'
+        if '+' in right_side:
+            right_side_components = re.findall(r'\w+', right_side)
+            right_side_sorted = ' + '.join(sorted(right_side_components))
+            return f"{left_side} {operator} {right_side_sorted}"
+        elif operator in ['=', '!=']:
+            # For '=' and '!=', sort operands alphabetically if no '+' on the right side
+            if not right_side.isdigit() and left_side > right_side:  # Avoid sorting number assignments
+                return f"{right_side} {operator} {left_side}"
+            else:
+                return sub_expr
+        else:
+            # For '<' and '>', return as is when no '+' on the right side
+            return sub_expr
+    else:
+        # Return the expression as is if it doesn't match the above conditions
+        return sub_expr
 
 def extract_colors_and_numbers(text):
     colors = ["red", "blue", "green", "yellow", "purple"]
@@ -173,7 +194,7 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
     device = torch.device('cuda:0')
     device_ids = list(range(1))
     #load the statement and proposition data
-    prop_dict, df = make_proposition_map("Dataset_Updated")
+    prop_dict, df = make_proposition_map("BigPrune_Dataset_Updated")
     proposition_map = add_special_tokens(prop_dict)
     
     #train_pairs  = [x for x in proposition_map.keys()]
@@ -218,7 +239,7 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
         
         train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
             batch_size=20, n_iters=10, lr_lm=0.000001, lr_class=0.0001,group =group)
-        break
+        #break
         
  
   
@@ -411,37 +432,49 @@ def train(train_pairs,
 
         return test_instances
 
-    
+    #this just gets all of the positive pairs from the test set
     test_instances = create_test_set(dev_pairs, dev_labels, proposition_map) 
 
     # Create a DataFrame from the test instances
     test_df = pd.DataFrame(test_instances, columns=['transcript', 'common_ground'])
     test_df["Label"] = 1
+    
     #get the list of all possible common grounds
-    common_grounds_dataSet = pd.read_csv('/s/babbage/b/nobackup/nblancha/public-datasets/ilideep/XE/Data/OracleWithLabels/props/correctedList.csv')
+    common_grounds_dataSet = pd.read_csv('/s/babbage/b/nobackup/nblancha/public-datasets/ilideep/XE/Data/goldenFiles/NormalizedList.csv')
     common_grounds = list(common_grounds_dataSet['Propositions'])
     
     new_rows = []
-    
+    all_cosine_rows = []
     parallel_model = parallel_model.to(device)
     evaluation_results = []
     genericCosine = False
     #for each of the transctipt in the test dataset, get the transcript and generate the pruned possible common grounds. 
     for index, row in test_df.iterrows():
+        original_common_ground = row['common_ground'].replace("and", " , ") #raw common ground
+    
         elements = extract_colors_and_numbers(row['transcript'].lower()) #The list of colors / weights in the transcript
         filtered_common_grounds = []
         filtered_common_grounds = [cg for cg in common_grounds if is_valid_common_ground(cg, elements)]
 
         if not filtered_common_grounds:  # If no match found, try individual color-number pairs
             filtered_common_grounds = [cg for cg in common_grounds if is_valid_individual_match(cg, elements)]  #If there is no match where only the mentioned colors and weights are present, get the individual combincations 
-        filtered_common_grounds = [normalize_expression(expr) for expr in filtered_common_grounds] #normalize filtered
-    
+        
+        #normalize the filtered common ground 
+        filtered_common_grounds = [normalize_expression(expr) for expr in filtered_common_grounds]
+        original_common_ground = normalize_expression(original_common_ground) #normalize original
+        #we do not want any instances where no color and weight was mentioned 
         if(len(filtered_common_grounds)==1650 or len(filtered_common_grounds)==1):
             continue
-        #This is where the cosine pruning will happen. filtered_common_grounds is the list of all the pruned possible common grounds  
-        #We will now get the cosine similarity for row['transcript'] and those pruned (filtered common grounds) 
-        #Save the top 5 cosine pairs
+        # if not is_proposition_present(original_common_ground, filtered_common_grounds):
+        #     mentioned_colors = elements['colors']
+        #     filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+            
+        #     if not is_proposition_present(original_common_ground, filtered_common_grounds):
+        #         mentioned_numbers = elements['numbers']
+        #         filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
         
+        
+        #now get the cosine similarity between the current transcript in the test set and all possible common_grounds
         cosine_similarities = []
         for cg in filtered_common_grounds:
             
@@ -460,7 +493,7 @@ def train(train_pairs,
                 cosine_similarity = F.cosine_similarity(transcript_vec, common_ground_vec).item()
                 cosine_similarities.append(cosine_similarity)
             else:
-            # Tokenize and prepare inputs using the tokenizer from parallel_model
+                # Tokenize and prepare inputs using the tokenizer from parallel_model
                 cg_with_token = "<m>" + " " + cg + " "  + "</m>"
                 trans_with_token = "<m>" + " "+ row['transcript'] +" " + "</m>"
                 theIndividualDict = {
@@ -499,8 +532,17 @@ def train(train_pairs,
                 "common_ground": match[0]  # match[0] is the common ground text
             }
             new_rows.append(new_row)
+        for cg, cosine_similarity in zip(filtered_common_grounds, cosine_similarities):
+            all_cosine_row = {
+                "transcript": row['transcript'],
+                "filtered_common_ground": cg,  # The filtered common ground text
+                "cosine_similarity": cosine_similarity,  # The cosine similarity score
+                "true_common_ground": row['common_ground']  # The true common ground from the original data
+            }
+            all_cosine_rows.append(all_cosine_row)
     
-    
+    all_cosine_rows_df = pd.DataFrame(all_cosine_rows, columns=["transcript", "filtered_common_ground", "cosine_similarity", "true_common_ground"])
+    all_cosine_rows_df.to_csv(f'cosineScores/cosine_Scores{group}.csv')
     new_df = pd.DataFrame(new_rows, columns=["transcript", "common_ground"])
     new_df.index.to_list()#the list of indicies in the dict that needs to be tokenized
     
@@ -519,39 +561,15 @@ def train(train_pairs,
     new_df["scores"] = test_predictions #Get the raw scores as given by the cross Encoder
     test_predictions = test_predictions > 0.5
     test_predictions = torch.squeeze(test_predictions)
-    #new_df["scores"] = test_predictions
-    highest_scoring_pairs = new_df.loc[new_df.groupby('transcript')['scores'].idxmax()]
+    
     
     # Step 3: Verify against the correct common grounds
     # Assuming 'test_df' has a unique row for each transcript with the correct common ground
     actual_common_ground_map = test_df.set_index('transcript')['common_ground'].to_dict()
     new_df['actual_common_ground'] = new_df['transcript'].map(actual_common_ground_map)# Set transcript as index for easy lookup
     new_df['Group'] =  group
-    new_df.to_csv(f'resultsTrainedCosine/{group}.csv')
+    new_df.to_csv(f'resultsTrainedCosineUpdates/{group}.csv')
 
-    correct_matches = 0
-    # for index, row in highest_scoring_pairs.iterrows():
-    #     transcript = row['transcript']
-    #     print('transcript - ', transcript)
-    #     predicted_common_ground = row['common_ground']
-    #     #actual_common_ground = test_df.loc[transcript, 'common_ground']
-    #     actual_common_ground = test_df.loc[test_df['transcript'] == transcript, 'common_ground'].values[0]
-    
-    #     actual_common_ground = actual_common_ground.replace("<m>", "").replace("</m>", "").replace(" ", "")
-    #     print('the actual common ground -', actual_common_ground)
-    #     print('predectied -', predicted_common_ground)
-    #     if predicted_common_ground == actual_common_ground:
-    #         correct_matches += 1
-    #         print("got a match")
-    # final_accuracy = correct_matches / len(highest_scoring_pairs)
-    # print(f"Accuracy of correctly identifying the true common ground: {final_accuracy:.2f}")
-    # print(new_df)
-    #ask abhijnan: I need to get the top common ground. I am only getting a label of 1 or 0. Where do i access the actual sentences/ common grond 
-    #print(test_predictions, test_labels)
-    #print("dev accuracy:", accuracy(dev_predictions, dev_labels))
-    #print("dev precision:", precision(dev_predictions, dev_labels))
-    #print("dev recall:", recall(dev_predictions, dev_labels))
-    #print("dev f1:", f1_score(dev_predictions, dev_labels))
 """
 
     #Predict here. Create the dataset. Prune with Heuristic. Prune with cosine. use predict_with_XE

@@ -1,0 +1,576 @@
+,Common Ground,Label,Transcript,Group
+0,red = 10,1,And we will tell you that this red cube on top is ten grams,1
+1,red = 10,1,ok well red block would be nine minus ten,1
+2,red = blue,1,"red block, blue block seems pretty balanced",1
+3,blue = 10,1,yeah ok so now we know that blue block is also ten,1
+4,purple > 20,1,And then see if there's thats twenty which is not,1
+5,purple != 20,1,And then see if there's thats twenty which is not,1
+6,green = 20,1,ok so green block one is probably twenty ten ten twenty,1
+7,red = 10 and blue = 10 and green = 20,1,ok so green block one is probably twenty ten ten twenty,1
+8,purple = 30,1,Ooh its looking like thirty,1
+9,yellow > purple + red + blue,1,"yeah yeah the blue dark blue one is thirty purple block's the larger one purple block, red block, blue block's slightly heavier yeah",1
+10,"red = 10, blue = 10, green = 20, purple = 30",1,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty",1
+11,yellow < 50,1,"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing",1
+12,yellow = 50,1,yeah fifty so we say yellow is fifty,1
+13,red = 10,1,And we can tell you that that red cube right there is ten grams yep and you're going you're going to flip the piece of paper um,2
+14,red = blue,1,"needle goes over the red line that means red block, blue block're probably equal",2
+15,blue = 10,1,so blue block one is probably ten grams too,2
+16,green = red + blue,1,and that looks like it might be about even,2
+17,green = 20,1,well on the first go through i noticed how it bounced twice and actually get some momentum ok so then,2
+18,red = 10 and blue = 10,1,The first two are ten,2
+19,green = 20,1,so knowing that uh oh sorry the green one was yeah,2
+20,purple = 30,1,So you know twenty plus ten thirty probably,2
+21,purple = 30,1,i guess and there's no increment so five so we could probably just go with thirty on purple block,2
+22,yellow > purple,1,Which is too much so we'll put twenty right,2
+23,green = 20 and purple = 30,1,"so purple block, green block's the twenty and the thirty",2
+24,yellow < green + purple,1,it's leaning towards one side a bit much,2
+25,yellow > blue + purple,1,Oh not enough so probably,2
+26,yellow = 50,1,Oh yeah the twenty and the thirty so we'll go with the fifty,2
+27,red = 10,1,We will tell you that the weight of the red cube is ten grams,3
+28,red = blue,1,"i think red block, blue block're the same weight yeah",3
+29,green = 20,1,sufficient to say green block one's probably twenty or,3
+30,purple = 30,1,the purple one is thirty,3
+31,green = 20 and purple = 30 and yellow = 50,1,green is twenty and purple is thirty so yellow block weighs to fifty,3
+32,green = 20,1,yeah i mentioned here green is twenty,3
+33,yellow < green + purple,1,it's leaning more this side so,3
+34,yellow < green + purple,1,it's leaning more to the side,3
+35,yellow != 10,1,yellow is of course not ten but,3
+36,yellow > green + blue + red,1,"no so when we try purple block, green block both",3
+37,yellow = 50,1,so i feel yellow is fifty,3
+38,yellow != 30,1,yellow block's for sure not thirty,3
+39,yellow = 50,1,"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's",3
+40,purple = 30 and yellow = 50,1,yeah and yellow block is fifty,3
+41,red = 10,1,I will tell you that the red cube is ten grams,4
+42,blue = 10,1,Well the top is a ten,4
+43,green = 20,1,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same",4
+44,purple = 30,1,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+45,purple != 40,1,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+46,purple != 20,1,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+47,purple = 30,1,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+48,yellow = 50,1,uh so yellow we or red and blue there's no there's no ok,4
+49,blue = 10,1,blue is ten,4
+50,yellow = 50,1,and so that would mean yellow is fifty,4
+51,red = 10,1,I can tell you that the red cube is ten grams,5
+52,red = 10,1,alright reese you can fill out the survey on the end over there ok so we know red block is ten grams,5
+53,red = blue,1,"i'd say red block, blue block's basically the same because it's teetering",5
+54,red = 10 and blue = 10,1,"ok so yeah that scale so red block, blue block are both ten",5
+55,green = 20,1,so green block one's twenty,5
+56,red = 10 and blue = 10 and green = 20,1,"so red block, blue block are both ten in theory ten ten twenty",5
+57,green = 20,1,so the green we think is twenty ok so let's see we can use our hands as well,5
+58,purple > green,1,purple block is heavier than green block one so green block is twenty purple block is heavier than green block one,5
+59,purple > 20,1,ok so purple block's heavier ok ok so greather than twenty,5
+60,purple = 30,1,teeter teeter we know purple block's less than forty and greater than twenty so purple block's likely thirty we don't have any other options it purple block's gonna be thirty,5
+61,purple = 30 and green = 20,1,Thirty twenty,5
+62,yellow = 50,1,"purple block, green block looks almost a little bit heavier but it is it's close enough so fifty is not an option yeah definitely let's put sixty",5
+63,yellow = 50,1,"and purple block is thirty right and red block is ten so purple block, red block would be forty so yellow block's more than forty and less than sixty so yellow block's gotta be fifty",5
+64,yellow = 50 and purple = 30,1,i think yellow block is fifty and purple block is thirty,5
+65,purple = 30,1,yeah let's go thirty ok so purple block's thirty,5
+66,red = 10,1,I will tell you that the red cube is ten grams,6
+67,red = 10,1,i guess if red block red one's ten grams,6
+68,red = blue,1,"seems like red block, blue block might be about the same",6
+69,purple > red + blue,1,Too heavy so,6
+70,green = 20,1,that's looking pretty even,6
+71,red = 10 and green = 20,1,"it's just stuff written at the bottom that's a so red block, green block's a ten and a twenty right now right that's looking",6
+72,purple > 20,1,ok so purple block's more than twenty but it almost seems like the thirty takes it past but,6
+73,purple = 30,1,"if red block, blue block, green block, yellow block, purple block're only in increments of ten purple block has to be",6
+74,yellow = 50,1,Fifty,6
+75,yellow < 50,1,"yeah purple block, green block's considerably heavier so purple block one did we say purple block was thirty",6
+76,purple = 30 and green = 20,1,yeah purple block's thirty green is twenty,6
+77, red = 10 and blue = 10,1,red and small blue are both ten,6
+78,yellow < purple + green,1,"but green block, purple block's too heavy",6
+79,purple + green = 50,1,"purple block, green block is fifty on here so then",6
+80,purple + blue = 40,1,"so purple block, blue block should be forty right there",6
+81,yellow = 50,1,i would say yellow is like forty five but we could say fifty since we're,6
+82,red = 10,1,I will tell you that the red cube is ten grams,7
+83,blue = 10,1,blue block seems to be ten,7
+84,green = 20,1,"yeah red block, blue block should be twenty as well",7
+85,green + red + blue = 40,1,"now red block, blue block, green block's forty",7
+86,purple = 30,1,yeah i think purple block's yeah thirty,7
+87,green = 20 and purple = 30,1,So is twenty and there is thirty,7
+88,yellow = 50,1,Fifty I guess,7
+89,yellow = 50,1,ah yeah because yeah so yellow block's fifty,7
+90,yellow = 50,1,no okay i think yellow block's fifty,7
+91,green = 20,1,yeah green is for twenty,8
+92,purple = 30,1,so twenty purple block's thirty,8
+93,yellow < purple + green,1,oh that's too left,8
+94,yellow > 40,1,oh yellow block's more than forty,8
+95,yellow < 50,1,Between forty and fifty,8
+96,yellow > 40,1,it's definitely not staying in between right,8
+97,yellow > 50,1,But we don't and less than fifty actually,8
+98,yellow < 50,1,Fifty is too heavy,8
+99,yellow = 40,1,so yellow block's forty one,8
+100,yellow = 50,1,ok minus one it is yeah so yellow block is forty nine,8
+101,yellow = 50,1,ok so yellow block's probably meant to be just fifty and was placed differently,8
+102,red = 10,1,The red cube is ten grams,9
+103,red = blue,1,"i would say red block, blue block's equal probably",9
+104,green = red + blue,1,"yeah red block, blue block, green block's probably equal",9
+105,red = 10 and blue = 10,1,So we got ten ten,9
+106,green != purple,1,Definitely not equal,9
+107,green = 20 and blue = 10,1,"green block, blue block was twenty and ten right ok",9
+108,purple = 30,1,Look we have the thirty gram block and then,9
+109,yellow = purple + green,1,"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal",9
+110,purple = 30 and yellow = 50,1,purple block one was thirty so yellow block should be fifty less,9
+111,red = 10,1,I will tell you that the red cube is ten grams,10
+112,green = 20 and blue = 10 and red = 10,1,"i guess green block is like twenty and red block, blue block is like ten and ten",10
+113,red = blue,1,"it looks like red block, blue block're fairly equal",10
+114,green = 20 and red = 10 and blue = 10,1,"right so then green block's twenty red block, blue block two are ten",10
+115,red = blue,1,"yeah red block, blue block're together",10
+116,purple > green,1,"alright well now let's do green block, purple block two i can already tell purple block one's heavier yeah",10
+117,purple = green + red,1,"i say green block, red block, purple block are equal green block, red block, purple block are the instructions i suppose",10
+118,purple > green + red,1,"i'm guessing it's a little bit to the left a little bit to the left like it touches the red line but on the left hand side of the left line red red block, blue block, green block's gonna be heavier like not equal but almost almost equal how do wait how do we know green block one's twenty did we no we didn't",10
+119,purple = 30,1,we we moved green block and checked the two tens remember we didn't do green block one okay yeah sure sure sure yeah yeah put thirty thirty yeah,10
+120,purple = 30 and green = 20 and yellow = 50,1,so purple block one's thirty and what's green block one twenty right twenty okay so yellow block one's gonna be fifty okay,10
+121,yellow < 50,1,i mean it's not gonna go anywhere i guess it's just oh,10
+122,yellow = 50,1,But there's no like I mean between weights so fifty,10
+123,yellow < 50,1,yellow block is like less than fifty less than fifty,10
+124,yellow < 50,1,yeah yeah it's it's almost settled down so yellow block's less than fifty,10
+125,yellow = 50,1,should i oh yeah yellow block is fifty grams,10
+126,purple = 30 and green = 20 and red = 10 and blue = 10,1,"so purple block was thirty right thirty green block was twenty and red block, blue block are tens",10
+127,red != 10,0,And we will tell you that this red cube on top is ten grams,1
+128,red < 10,0,And we will tell you that this red cube on top is ten grams,1
+129,red > 10,0,And we will tell you that this red cube on top is ten grams,1
+130,"green = 10, red = 40, yellow = 30",0,And we will tell you that this red cube on top is ten grams,1
+131,red != 10,0,ok well red block would be nine minus ten,1
+132,red < 10,0,ok well red block would be nine minus ten,1
+133,red > 10,0,ok well red block would be nine minus ten,1
+134,"green = 20, red = 50, yellow = 50",0,ok well red block would be nine minus ten,1
+135,red > blue,0,"red block, blue block seems pretty balanced",1
+136,blue < red,0,"red block, blue block seems pretty balanced",1
+137,red < blue,0,"red block, blue block seems pretty balanced",1
+138,blue != red,0,"red block, blue block seems pretty balanced",1
+139,blue != 10,0,yeah ok so now we know that blue block is also ten,1
+140,blue > 10,0,yeah ok so now we know that blue block is also ten,1
+141,blue < 10,0,yeah ok so now we know that blue block is also ten,1
+142,"blue = 30, green = 20, red = 50",0,yeah ok so now we know that blue block is also ten,1
+143,"blue = 20, green = 20, yellow = 20",0,And then see if there's thats twenty which is not,1
+144,red < 20,0,And then see if there's thats twenty which is not,1
+145,yellow < 20,0,And then see if there's thats twenty which is not,1
+146,green > 20,0,And then see if there's thats twenty which is not,1
+147,"blue = 20, green = 20, yellow = 20",0,And then see if there's thats twenty which is not,1
+148,red < 20,0,And then see if there's thats twenty which is not,1
+149,yellow < 20,0,And then see if there's thats twenty which is not,1
+150,green > 20,0,And then see if there's thats twenty which is not,1
+151,"green = 30, red = 30, yellow = 20",0,ok so green block one is probably twenty ten ten twenty,1
+152,"blue = 30, green = 50, red = 20",0,ok so green block one is probably twenty ten ten twenty,1
+153,"green = 30, purple = 20, red = 20",0,ok so green block one is probably twenty ten ten twenty,1
+154,"blue = 20, green = 40, yellow = 10",0,ok so green block one is probably twenty ten ten twenty,1
+155,"green = 30, red = 30, yellow = 20",0,ok so green block one is probably twenty ten ten twenty,1
+156,"blue = 30, green = 50, red = 20",0,ok so green block one is probably twenty ten ten twenty,1
+157,"green = 30, purple = 20, red = 20",0,ok so green block one is probably twenty ten ten twenty,1
+158,"blue = 20, green = 40, yellow = 10",0,ok so green block one is probably twenty ten ten twenty,1
+159,"green = 30, red = 30, yellow = 30",0,Ooh its looking like thirty,1
+160,purple < 30,0,Ooh its looking like thirty,1
+161,blue != 30,0,Ooh its looking like thirty,1
+162,blue = 30,0,Ooh its looking like thirty,1
+163,"purple = 30, red = 50, yellow = 40",0,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty",1
+164,"blue = 30, green = 50, red = 20",0,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty",1
+165,"blue = 30, green = 30, red = 50",0,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty",1
+166,"blue = 20, green = 40, yellow = 10",0,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty",1
+167,"purple = 30, red = 50, yellow = 40",0,"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing",1
+168,"blue = 30, green = 50, red = 20",0,"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing",1
+169,"blue = 30, green = 30, red = 50",0,"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing",1
+170,"blue = 20, green = 40, yellow = 10",0,"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing",1
+171,yellow < 50,0,yeah fifty so we say yellow is fifty,1
+172,yellow > 50,0,yeah fifty so we say yellow is fifty,1
+173,yellow != 50,0,yeah fifty so we say yellow is fifty,1
+174,"blue = 10, green = 30, yellow = 40",0,yeah fifty so we say yellow is fifty,1
+175,red != 10,0,And we can tell you that that red cube right there is ten grams yep and you're going you're going to flip the piece of paper um,2
+176,red < 10,0,And we can tell you that that red cube right there is ten grams yep and you're going you're going to flip the piece of paper um,2
+177,red > 10,0,And we can tell you that that red cube right there is ten grams yep and you're going you're going to flip the piece of paper um,2
+178,"blue = 30, purple = 40, yellow = 40",0,And we can tell you that that red cube right there is ten grams yep and you're going you're going to flip the piece of paper um,2
+179,red > blue,0,"needle goes over the red line that means red block, blue block're probably equal",2
+180,blue < red,0,"needle goes over the red line that means red block, blue block're probably equal",2
+181,red < blue,0,"needle goes over the red line that means red block, blue block're probably equal",2
+182,blue != red,0,"needle goes over the red line that means red block, blue block're probably equal",2
+183,blue != 10,0,so blue block one is probably ten grams too,2
+184,blue > 10,0,so blue block one is probably ten grams too,2
+185,blue < 10,0,so blue block one is probably ten grams too,2
+186,"purple = 50, red = 30, yellow = 20",0,so blue block one is probably ten grams too,2
+187,"purple = 20, red = 10, yellow = 20",0,The first two are ten,2
+188,"blue = 20, red = 50, yellow = 10",0,The first two are ten,2
+189,"blue = 30, purple = 30, yellow = 10",0,The first two are ten,2
+190,"blue = 20, green = 40, yellow = 10",0,The first two are ten,2
+191,green != 50,0,so knowing that uh oh sorry the green one was yeah,2
+192,green > 20,0,so knowing that uh oh sorry the green one was yeah,2
+193,green != 10,0,so knowing that uh oh sorry the green one was yeah,2
+194,green < 20,0,so knowing that uh oh sorry the green one was yeah,2
+195,"purple = 30, red = 50, yellow = 40",0,So you know twenty plus ten thirty probably,2
+196,"blue = 30, green = 50, red = 20",0,So you know twenty plus ten thirty probably,2
+197,"blue = 30, green = 30, red = 50",0,So you know twenty plus ten thirty probably,2
+198,"blue = 20, green = 40, yellow = 10",0,So you know twenty plus ten thirty probably,2
+199,purple != 30,0,i guess and there's no increment so five so we could probably just go with thirty on purple block,2
+200,purple > 30,0,i guess and there's no increment so five so we could probably just go with thirty on purple block,2
+201,purple < 30,0,i guess and there's no increment so five so we could probably just go with thirty on purple block,2
+202,"green = 40, purple = 40, yellow = 20",0,i guess and there's no increment so five so we could probably just go with thirty on purple block,2
+203,"purple = 20, red = 10, yellow = 20",0,Which is too much so we'll put twenty right,2
+204,"green = 30, red = 30, yellow = 20",0,Which is too much so we'll put twenty right,2
+205,"blue = 20, red = 50, yellow = 10",0,Which is too much so we'll put twenty right,2
+206,"blue = 30, green = 50, red = 20",0,Which is too much so we'll put twenty right,2
+207,"purple = 20, red = 10, yellow = 20",0,"so purple block, green block's the twenty and the thirty",2
+208,"green = 30, red = 30, yellow = 20",0,"so purple block, green block's the twenty and the thirty",2
+209,"green = 30, red = 30, yellow = 30",0,"so purple block, green block's the twenty and the thirty",2
+210,"blue = 20, red = 50, yellow = 10",0,"so purple block, green block's the twenty and the thirty",2
+211,"purple = 30, red = 50, yellow = 40",0,Oh yeah the twenty and the thirty so we'll go with the fifty,2
+212,"blue = 30, green = 50, red = 20",0,Oh yeah the twenty and the thirty so we'll go with the fifty,2
+213,"blue = 30, green = 30, red = 50",0,Oh yeah the twenty and the thirty so we'll go with the fifty,2
+214,"blue = 20, green = 40, yellow = 10",0,Oh yeah the twenty and the thirty so we'll go with the fifty,2
+215,red != 10,0,We will tell you that the weight of the red cube is ten grams,3
+216,red < 10,0,We will tell you that the weight of the red cube is ten grams,3
+217,red > 10,0,We will tell you that the weight of the red cube is ten grams,3
+218,"blue = 10, red = 40, yellow = 20",0,We will tell you that the weight of the red cube is ten grams,3
+219,red > blue,0,"i think red block, blue block're the same weight yeah",3
+220,blue < red,0,"i think red block, blue block're the same weight yeah",3
+221,red < blue,0,"i think red block, blue block're the same weight yeah",3
+222,blue != red,0,"i think red block, blue block're the same weight yeah",3
+223,green > 20,0,sufficient to say green block one's probably twenty or,3
+224,green != 20,0,sufficient to say green block one's probably twenty or,3
+225,green < 20,0,sufficient to say green block one's probably twenty or,3
+226,"blue = 40, purple = 10, yellow = 30",0,sufficient to say green block one's probably twenty or,3
+227,purple != 30,0,the purple one is thirty,3
+228,purple > 30,0,the purple one is thirty,3
+229,purple < 30,0,the purple one is thirty,3
+230,green != red,0,the purple one is thirty,3
+231,"green = 30, purple = 20, yellow = 50",0,green is twenty and purple is thirty so yellow block weighs to fifty,3
+232,"green = 30, purple = 50, yellow = 20",0,green is twenty and purple is thirty so yellow block weighs to fifty,3
+233,"green = 20, purple = 50, yellow = 30",0,green is twenty and purple is thirty so yellow block weighs to fifty,3
+234,"green = 50, purple = 30, yellow = 20",0,green is twenty and purple is thirty so yellow block weighs to fifty,3
+235,green > 20,0,yeah i mentioned here green is twenty,3
+236,green != 20,0,yeah i mentioned here green is twenty,3
+237,green < 20,0,yeah i mentioned here green is twenty,3
+238,"blue = 20, purple = 10, yellow = 10",0,yeah i mentioned here green is twenty,3
+239,yellow = 10,0,yellow is of course not ten but,3
+240,yellow < 10,0,yellow is of course not ten but,3
+241,yellow > 10,0,yellow is of course not ten but,3
+242,"green = 40, purple = 50, red = 10",0,yellow is of course not ten but,3
+243,"purple = 30, red = 50, yellow = 40",0,"no so when we try purple block, green block both",3
+244,"blue = 30, green = 50, red = 20",0,"no so when we try purple block, green block both",3
+245,"blue = 30, green = 30, red = 50",0,"no so when we try purple block, green block both",3
+246,"blue = 20, green = 40, yellow = 10",0,"no so when we try purple block, green block both",3
+247,yellow < 50,0,so i feel yellow is fifty,3
+248,yellow > 50,0,so i feel yellow is fifty,3
+249,yellow != 50,0,so i feel yellow is fifty,3
+250,red < 50,0,so i feel yellow is fifty,3
+251,yellow > 30,0,yellow block's for sure not thirty,3
+252,yellow < 30,0,yellow block's for sure not thirty,3
+253,yellow = 30,0,yellow block's for sure not thirty,3
+254,"blue = 30, green = 20, red = 10",0,yellow block's for sure not thirty,3
+255,"purple = 30, red = 50, yellow = 40",0,"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's",3
+256,"blue = 30, green = 50, red = 20",0,"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's",3
+257,"blue = 30, green = 30, red = 50",0,"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's",3
+258,"blue = 20, green = 40, yellow = 10",0,"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's",3
+259,"purple = 30, red = 50, yellow = 40",0,yeah and yellow block is fifty,3
+260,"blue = 20, red = 50, yellow = 10",0,yeah and yellow block is fifty,3
+261,"blue = 30, green = 50, red = 20",0,yeah and yellow block is fifty,3
+262,"blue = 30, green = 50, purple = 50",0,yeah and yellow block is fifty,3
+263,red != 10,0,I will tell you that the red cube is ten grams,4
+264,red < 10,0,I will tell you that the red cube is ten grams,4
+265,red > 10,0,I will tell you that the red cube is ten grams,4
+266,"green = 10, red = 40, yellow = 40",0,I will tell you that the red cube is ten grams,4
+267,blue < 10,0,Well the top is a ten,4
+268,yellow != 10,0,Well the top is a ten,4
+269,"green = 10, purple = 10, yellow = 10",0,Well the top is a ten,4
+270,"green = 10, red = 10, yellow = 10",0,Well the top is a ten,4
+271,"purple = 30, red = 50, yellow = 40",0,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same",4
+272,"blue = 30, green = 50, red = 20",0,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same",4
+273,"blue = 30, green = 30, red = 50",0,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same",4
+274,"blue = 20, green = 40, yellow = 10",0,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same",4
+275,purple != 30,0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+276,purple > 30,0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+277,purple < 30,0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+278,blue < 40,0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+279,"purple = 20, red = 10, yellow = 20",0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+280,"purple = 30, red = 50, yellow = 40",0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+281,"blue = 30, purple = 30, yellow = 10",0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+282,"blue = 30, green = 50, purple = 50",0,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop,4
+283,"purple = 20, red = 10, yellow = 20",0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+284,"purple = 30, red = 50, yellow = 40",0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+285,"blue = 30, purple = 30, yellow = 10",0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+286,"blue = 30, green = 50, purple = 50",0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+287,"purple = 20, red = 10, yellow = 20",0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+288,"purple = 30, red = 50, yellow = 40",0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+289,"blue = 30, purple = 30, yellow = 10",0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+290,"blue = 30, green = 50, purple = 50",0,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty,4
+291,"purple = 30, red = 50, yellow = 40",0,uh so yellow we or red and blue there's no there's no ok,4
+292,"blue = 30, green = 50, red = 20",0,uh so yellow we or red and blue there's no there's no ok,4
+293,"blue = 30, green = 30, red = 50",0,uh so yellow we or red and blue there's no there's no ok,4
+294,"blue = 20, green = 40, yellow = 10",0,uh so yellow we or red and blue there's no there's no ok,4
+295,blue != 10,0,blue is ten,4
+296,blue > 10,0,blue is ten,4
+297,blue < 10,0,blue is ten,4
+298,"blue = 20, green = 10, red = 30",0,blue is ten,4
+299,yellow < 50,0,and so that would mean yellow is fifty,4
+300,yellow > 50,0,and so that would mean yellow is fifty,4
+301,yellow != 50,0,and so that would mean yellow is fifty,4
+302,"blue = 50, green = 20, red = 40",0,and so that would mean yellow is fifty,4
+303,red != 10,0,I can tell you that the red cube is ten grams,5
+304,red < 10,0,I can tell you that the red cube is ten grams,5
+305,red > 10,0,I can tell you that the red cube is ten grams,5
+306,"blue = 40, red = 40, yellow = 40",0,I can tell you that the red cube is ten grams,5
+307,red != 10,0,alright reese you can fill out the survey on the end over there ok so we know red block is ten grams,5
+308,red < 10,0,alright reese you can fill out the survey on the end over there ok so we know red block is ten grams,5
+309,red > 10,0,alright reese you can fill out the survey on the end over there ok so we know red block is ten grams,5
+310,red = blue + green + yellow,0,alright reese you can fill out the survey on the end over there ok so we know red block is ten grams,5
+311,red > blue,0,"i'd say red block, blue block's basically the same because it's teetering",5
+312,blue < red,0,"i'd say red block, blue block's basically the same because it's teetering",5
+313,red < blue,0,"i'd say red block, blue block's basically the same because it's teetering",5
+314,blue != red,0,"i'd say red block, blue block's basically the same because it's teetering",5
+315,"purple = 20, red = 10, yellow = 20",0,"ok so yeah that scale so red block, blue block are both ten",5
+316,"blue = 20, red = 50, yellow = 10",0,"ok so yeah that scale so red block, blue block are both ten",5
+317,"blue = 30, purple = 30, yellow = 10",0,"ok so yeah that scale so red block, blue block are both ten",5
+318,"blue = 20, green = 40, yellow = 10",0,"ok so yeah that scale so red block, blue block are both ten",5
+319,green > 20,0,so green block one's twenty,5
+320,green != 20,0,so green block one's twenty,5
+321,green < 20,0,so green block one's twenty,5
+322,"blue = 50, purple = 20, red = 40",0,so green block one's twenty,5
+323,"purple = 20, red = 10, yellow = 20",0,"so red block, blue block are both ten in theory ten ten twenty",5
+324,"green = 30, red = 30, yellow = 20",0,"so red block, blue block are both ten in theory ten ten twenty",5
+325,"blue = 20, red = 50, yellow = 10",0,"so red block, blue block are both ten in theory ten ten twenty",5
+326,"blue = 30, green = 50, red = 20",0,"so red block, blue block are both ten in theory ten ten twenty",5
+327,green > 20,0,so the green we think is twenty ok so let's see we can use our hands as well,5
+328,green != 20,0,so the green we think is twenty ok so let's see we can use our hands as well,5
+329,green < 20,0,so the green we think is twenty ok so let's see we can use our hands as well,5
+330,"blue = 30, green = 20, yellow = 40",0,so the green we think is twenty ok so let's see we can use our hands as well,5
+331,"purple = 30, red = 50, yellow = 40",0,purple block is heavier than green block one so green block is twenty purple block is heavier than green block one,5
+332,"blue = 30, green = 50, red = 20",0,purple block is heavier than green block one so green block is twenty purple block is heavier than green block one,5
+333,"blue = 30, green = 30, red = 50",0,purple block is heavier than green block one so green block is twenty purple block is heavier than green block one,5
+334,"blue = 20, green = 40, yellow = 10",0,purple block is heavier than green block one so green block is twenty purple block is heavier than green block one,5
+335,purple < 20,0,ok so purple block's heavier ok ok so greather than twenty,5
+336,purple = 20,0,ok so purple block's heavier ok ok so greather than twenty,5
+337,purple != 20,0,ok so purple block's heavier ok ok so greather than twenty,5
+338,yellow < blue + green + purple + red,0,ok so purple block's heavier ok ok so greather than twenty,5
+339,"purple = 20, red = 10, yellow = 20",0,teeter teeter we know purple block's less than forty and greater than twenty so purple block's likely thirty we don't have any other options it purple block's gonna be thirty,5
+340,"purple = 30, red = 50, yellow = 40",0,teeter teeter we know purple block's less than forty and greater than twenty so purple block's likely thirty we don't have any other options it purple block's gonna be thirty,5
+341,"blue = 30, purple = 30, yellow = 10",0,teeter teeter we know purple block's less than forty and greater than twenty so purple block's likely thirty we don't have any other options it purple block's gonna be thirty,5
+342,"blue = 30, green = 50, purple = 50",0,teeter teeter we know purple block's less than forty and greater than twenty so purple block's likely thirty we don't have any other options it purple block's gonna be thirty,5
+343,"purple = 20, red = 10, yellow = 20",0,Thirty twenty,5
+344,"green = 30, red = 30, yellow = 20",0,Thirty twenty,5
+345,"green = 30, red = 30, yellow = 30",0,Thirty twenty,5
+346,"blue = 20, red = 50, yellow = 10",0,Thirty twenty,5
+347,"purple = 30, red = 50, yellow = 40",0,"purple block, green block looks almost a little bit heavier but it is it's close enough so fifty is not an option yeah definitely let's put sixty",5
+348,"blue = 20, red = 50, yellow = 10",0,"purple block, green block looks almost a little bit heavier but it is it's close enough so fifty is not an option yeah definitely let's put sixty",5
+349,"blue = 30, green = 50, red = 20",0,"purple block, green block looks almost a little bit heavier but it is it's close enough so fifty is not an option yeah definitely let's put sixty",5
+350,"blue = 30, green = 50, purple = 50",0,"purple block, green block looks almost a little bit heavier but it is it's close enough so fifty is not an option yeah definitely let's put sixty",5
+351,"purple = 30, red = 50, yellow = 40",0,"and purple block is thirty right and red block is ten so purple block, red block would be forty so yellow block's more than forty and less than sixty so yellow block's gotta be fifty",5
+352,"blue = 30, green = 50, red = 20",0,"and purple block is thirty right and red block is ten so purple block, red block would be forty so yellow block's more than forty and less than sixty so yellow block's gotta be fifty",5
+353,"blue = 30, green = 30, red = 50",0,"and purple block is thirty right and red block is ten so purple block, red block would be forty so yellow block's more than forty and less than sixty so yellow block's gotta be fifty",5
+354,"blue = 20, green = 40, yellow = 10",0,"and purple block is thirty right and red block is ten so purple block, red block would be forty so yellow block's more than forty and less than sixty so yellow block's gotta be fifty",5
+355,"green = 30, red = 30, yellow = 20",0,i think yellow block is fifty and purple block is thirty,5
+356,"green = 30, red = 30, yellow = 30",0,i think yellow block is fifty and purple block is thirty,5
+357,"blue = 20, red = 50, yellow = 10",0,i think yellow block is fifty and purple block is thirty,5
+358,"purple = 30, red = 50, yellow = 40",0,i think yellow block is fifty and purple block is thirty,5
+359,purple != 30,0,yeah let's go thirty ok so purple block's thirty,5
+360,purple > 30,0,yeah let's go thirty ok so purple block's thirty,5
+361,purple < 30,0,yeah let's go thirty ok so purple block's thirty,5
+362,"blue = 20, green = 30, yellow = 40",0,yeah let's go thirty ok so purple block's thirty,5
+363,red != 10,0,I will tell you that the red cube is ten grams,6
+364,red < 10,0,I will tell you that the red cube is ten grams,6
+365,red > 10,0,I will tell you that the red cube is ten grams,6
+366,"blue = 10, purple = 30, red = 20",0,I will tell you that the red cube is ten grams,6
+367,red != 10,0,i guess if red block red one's ten grams,6
+368,red < 10,0,i guess if red block red one's ten grams,6
+369,red > 10,0,i guess if red block red one's ten grams,6
+370,green != blue + purple + yellow,0,i guess if red block red one's ten grams,6
+371,red > blue,0,"seems like red block, blue block might be about the same",6
+372,blue < red,0,"seems like red block, blue block might be about the same",6
+373,red < blue,0,"seems like red block, blue block might be about the same",6
+374,blue != red,0,"seems like red block, blue block might be about the same",6
+375,"purple = 20, red = 10, yellow = 20",0,"it's just stuff written at the bottom that's a so red block, green block's a ten and a twenty right now right that's looking",6
+376,"green = 30, red = 30, yellow = 20",0,"it's just stuff written at the bottom that's a so red block, green block's a ten and a twenty right now right that's looking",6
+377,"blue = 20, red = 50, yellow = 10",0,"it's just stuff written at the bottom that's a so red block, green block's a ten and a twenty right now right that's looking",6
+378,"blue = 30, green = 50, red = 20",0,"it's just stuff written at the bottom that's a so red block, green block's a ten and a twenty right now right that's looking",6
+379,"purple = 20, red = 10, yellow = 20",0,ok so purple block's more than twenty but it almost seems like the thirty takes it past but,6
+380,"purple = 30, red = 50, yellow = 40",0,ok so purple block's more than twenty but it almost seems like the thirty takes it past but,6
+381,"blue = 30, purple = 30, yellow = 10",0,ok so purple block's more than twenty but it almost seems like the thirty takes it past but,6
+382,"blue = 30, green = 50, purple = 50",0,ok so purple block's more than twenty but it almost seems like the thirty takes it past but,6
+383,"purple = 30, red = 50, yellow = 40",0,"if red block, blue block, green block, yellow block, purple block're only in increments of ten purple block has to be",6
+384,"blue = 30, green = 50, red = 20",0,"if red block, blue block, green block, yellow block, purple block're only in increments of ten purple block has to be",6
+385,"blue = 30, green = 30, red = 50",0,"if red block, blue block, green block, yellow block, purple block're only in increments of ten purple block has to be",6
+386,"blue = 20, green = 40, yellow = 10",0,"if red block, blue block, green block, yellow block, purple block're only in increments of ten purple block has to be",6
+387,green != 50,0,Fifty,6
+388,"green = 50, purple = 50, yellow = 50",0,Fifty,6
+389,purple > 50,0,Fifty,6
+390,blue < 50,0,Fifty,6
+391,"green = 30, red = 30, yellow = 20",0,"yeah purple block, green block's considerably heavier so purple block one did we say purple block was thirty",6
+392,"green = 30, red = 30, yellow = 30",0,"yeah purple block, green block's considerably heavier so purple block one did we say purple block was thirty",6
+393,"purple = 30, red = 50, yellow = 40",0,"yeah purple block, green block's considerably heavier so purple block one did we say purple block was thirty",6
+394,"blue = 30, green = 50, red = 20",0,"yeah purple block, green block's considerably heavier so purple block one did we say purple block was thirty",6
+395,"purple = 20, red = 10, yellow = 20",0,yeah purple block's thirty green is twenty,6
+396,"green = 30, red = 30, yellow = 20",0,yeah purple block's thirty green is twenty,6
+397,"green = 30, red = 30, yellow = 30",0,yeah purple block's thirty green is twenty,6
+398,"blue = 20, red = 50, yellow = 10",0,yeah purple block's thirty green is twenty,6
+399,"purple = 20, red = 10, yellow = 20",0,red and small blue are both ten,6
+400,"blue = 20, red = 50, yellow = 10",0,red and small blue are both ten,6
+401,"blue = 30, purple = 30, yellow = 10",0,red and small blue are both ten,6
+402,"blue = 20, green = 40, yellow = 10",0,red and small blue are both ten,6
+403,"purple = 30, red = 50, yellow = 40",0,"but green block, purple block's too heavy",6
+404,"blue = 30, green = 50, red = 20",0,"but green block, purple block's too heavy",6
+405,"blue = 30, green = 30, red = 50",0,"but green block, purple block's too heavy",6
+406,"blue = 20, green = 40, yellow = 10",0,"but green block, purple block's too heavy",6
+407,"purple = 30, red = 50, yellow = 40",0,"purple block, green block is fifty on here so then",6
+408,"blue = 20, red = 50, yellow = 10",0,"purple block, green block is fifty on here so then",6
+409,"blue = 30, green = 50, red = 20",0,"purple block, green block is fifty on here so then",6
+410,"blue = 30, green = 50, purple = 50",0,"purple block, green block is fifty on here so then",6
+411,"purple = 30, red = 50, yellow = 40",0,"so purple block, blue block should be forty right there",6
+412,"blue = 20, green = 40, yellow = 10",0,"so purple block, blue block should be forty right there",6
+413,"green = 40, purple = 10, yellow = 30",0,"so purple block, blue block should be forty right there",6
+414,"purple = 40, red = 20, yellow = 30",0,"so purple block, blue block should be forty right there",6
+415,"purple = 30, red = 50, yellow = 40",0,i would say yellow is like forty five but we could say fifty since we're,6
+416,"blue = 20, red = 50, yellow = 10",0,i would say yellow is like forty five but we could say fifty since we're,6
+417,"blue = 20, green = 40, yellow = 10",0,i would say yellow is like forty five but we could say fifty since we're,6
+418,"green = 40, purple = 10, yellow = 30",0,i would say yellow is like forty five but we could say fifty since we're,6
+419,red != 10,0,I will tell you that the red cube is ten grams,7
+420,red < 10,0,I will tell you that the red cube is ten grams,7
+421,red > 10,0,I will tell you that the red cube is ten grams,7
+422,"blue = 50, red = 10, yellow = 20",0,I will tell you that the red cube is ten grams,7
+423,blue != 10,0,blue block seems to be ten,7
+424,blue > 10,0,blue block seems to be ten,7
+425,blue < 10,0,blue block seems to be ten,7
+426,"blue = 50, purple = 30, yellow = 40",0,blue block seems to be ten,7
+427,"purple = 20, red = 10, yellow = 20",0,"yeah red block, blue block should be twenty as well",7
+428,"green = 30, red = 30, yellow = 20",0,"yeah red block, blue block should be twenty as well",7
+429,"blue = 20, red = 50, yellow = 10",0,"yeah red block, blue block should be twenty as well",7
+430,"blue = 30, green = 50, red = 20",0,"yeah red block, blue block should be twenty as well",7
+431,purple != 30,0,yeah i think purple block's yeah thirty,7
+432,purple > 30,0,yeah i think purple block's yeah thirty,7
+433,purple < 30,0,yeah i think purple block's yeah thirty,7
+434,"blue = 40, red = 40, yellow = 30",0,yeah i think purple block's yeah thirty,7
+435,"purple = 20, red = 10, yellow = 20",0,So is twenty and there is thirty,7
+436,"green = 30, red = 30, yellow = 20",0,So is twenty and there is thirty,7
+437,"green = 30, red = 30, yellow = 30",0,So is twenty and there is thirty,7
+438,"blue = 20, red = 50, yellow = 10",0,So is twenty and there is thirty,7
+439,green != 50,0,Fifty I guess,7
+440,"green = 50, purple = 50, yellow = 50",0,Fifty I guess,7
+441,purple > 50,0,Fifty I guess,7
+442,blue < 50,0,Fifty I guess,7
+443,yellow < 50,0,ah yeah because yeah so yellow block's fifty,7
+444,yellow > 50,0,ah yeah because yeah so yellow block's fifty,7
+445,yellow != 50,0,ah yeah because yeah so yellow block's fifty,7
+446,blue < purple,0,ah yeah because yeah so yellow block's fifty,7
+447,yellow < 50,0,no okay i think yellow block's fifty,7
+448,yellow > 50,0,no okay i think yellow block's fifty,7
+449,yellow != 50,0,no okay i think yellow block's fifty,7
+450,"blue = 10, green = 50, yellow = 20",0,no okay i think yellow block's fifty,7
+451,green > 20,0,yeah green is for twenty,8
+452,green != 20,0,yeah green is for twenty,8
+453,green < 20,0,yeah green is for twenty,8
+454,green > 30,0,yeah green is for twenty,8
+455,"purple = 20, red = 10, yellow = 20",0,so twenty purple block's thirty,8
+456,"purple = 30, red = 50, yellow = 40",0,so twenty purple block's thirty,8
+457,"blue = 30, purple = 30, yellow = 10",0,so twenty purple block's thirty,8
+458,"blue = 30, green = 50, purple = 50",0,so twenty purple block's thirty,8
+459,yellow != 40,0,oh yellow block's more than forty,8
+460,yellow = 40,0,oh yellow block's more than forty,8
+461,yellow < 40,0,oh yellow block's more than forty,8
+462,red = 40,0,oh yellow block's more than forty,8
+463,"purple = 30, red = 50, yellow = 40",0,Between forty and fifty,8
+464,"blue = 20, red = 50, yellow = 10",0,Between forty and fifty,8
+465,"blue = 30, green = 50, red = 20",0,Between forty and fifty,8
+466,"blue = 30, green = 50, purple = 50",0,Between forty and fifty,8
+467,green != 50,0,But we don't and less than fifty actually,8
+468,"green = 50, purple = 50, yellow = 50",0,But we don't and less than fifty actually,8
+469,purple > 50,0,But we don't and less than fifty actually,8
+470,blue < 50,0,But we don't and less than fifty actually,8
+471,green != 50,0,Fifty is too heavy,8
+472,"green = 50, purple = 50, yellow = 50",0,Fifty is too heavy,8
+473,purple > 50,0,Fifty is too heavy,8
+474,blue < 50,0,Fifty is too heavy,8
+475,yellow != 40,0,so yellow block's forty one,8
+476,yellow > 40,0,so yellow block's forty one,8
+477,yellow < 40,0,so yellow block's forty one,8
+478,"purple = 50, red = 50, yellow = 30",0,so yellow block's forty one,8
+479,"purple = 20, red = 10, yellow = 20",0,ok minus one it is yeah so yellow block is forty nine,8
+480,"green = 30, red = 30, yellow = 20",0,ok minus one it is yeah so yellow block is forty nine,8
+481,"green = 30, red = 30, yellow = 30",0,ok minus one it is yeah so yellow block is forty nine,8
+482,"blue = 20, red = 50, yellow = 10",0,ok minus one it is yeah so yellow block is forty nine,8
+483,yellow < 50,0,ok so yellow block's probably meant to be just fifty and was placed differently,8
+484,yellow > 50,0,ok so yellow block's probably meant to be just fifty and was placed differently,8
+485,yellow != 50,0,ok so yellow block's probably meant to be just fifty and was placed differently,8
+486,"blue = 10, red = 10, yellow = 40",0,ok so yellow block's probably meant to be just fifty and was placed differently,8
+487,red != 10,0,The red cube is ten grams,9
+488,red < 10,0,The red cube is ten grams,9
+489,red > 10,0,The red cube is ten grams,9
+490,"blue = 30, green = 10, red = 20",0,The red cube is ten grams,9
+491,red > blue,0,"i would say red block, blue block's equal probably",9
+492,blue < red,0,"i would say red block, blue block's equal probably",9
+493,red < blue,0,"i would say red block, blue block's equal probably",9
+494,blue != red,0,"i would say red block, blue block's equal probably",9
+495,"blue = 10, green = 40, red = 50",0,"yeah red block, blue block, green block's probably equal",9
+496,"blue = 10, green = 20, red = 20",0,"yeah red block, blue block, green block's probably equal",9
+497,"blue = 10, green = 30, red = 10",0,"yeah red block, blue block, green block's probably equal",9
+498,"blue = 30, green = 50, red = 20",0,"yeah red block, blue block, green block's probably equal",9
+499,"purple = 20, red = 10, yellow = 20",0,So we got ten ten,9
+500,"blue = 20, red = 50, yellow = 10",0,So we got ten ten,9
+501,"blue = 30, purple = 30, yellow = 10",0,So we got ten ten,9
+502,"blue = 20, green = 40, yellow = 10",0,So we got ten ten,9
+503,"purple = 20, red = 10, yellow = 20",0,"green block, blue block was twenty and ten right ok",9
+504,"green = 30, red = 30, yellow = 20",0,"green block, blue block was twenty and ten right ok",9
+505,"blue = 20, red = 50, yellow = 10",0,"green block, blue block was twenty and ten right ok",9
+506,"blue = 30, green = 50, red = 20",0,"green block, blue block was twenty and ten right ok",9
+507,"green = 30, red = 30, yellow = 30",0,Look we have the thirty gram block and then,9
+508,purple < 30,0,Look we have the thirty gram block and then,9
+509,blue != 30,0,Look we have the thirty gram block and then,9
+510,blue = 30,0,Look we have the thirty gram block and then,9
+511,"green = 50, purple = 20, yellow = 40",0,"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal",9
+512,"green = 40, purple = 10, yellow = 30",0,"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal",9
+513,"green = 10, purple = 50, yellow = 50",0,"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal",9
+514,"green = 30, purple = 50, yellow = 20",0,"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal",9
+515,"green = 30, red = 30, yellow = 20",0,purple block one was thirty so yellow block should be fifty less,9
+516,"green = 30, red = 30, yellow = 30",0,purple block one was thirty so yellow block should be fifty less,9
+517,"blue = 20, red = 50, yellow = 10",0,purple block one was thirty so yellow block should be fifty less,9
+518,"purple = 30, red = 50, yellow = 40",0,purple block one was thirty so yellow block should be fifty less,9
+519,red != 10,0,I will tell you that the red cube is ten grams,10
+520,red < 10,0,I will tell you that the red cube is ten grams,10
+521,red > 10,0,I will tell you that the red cube is ten grams,10
+522,"blue = 50, purple = 50, yellow = 20",0,I will tell you that the red cube is ten grams,10
+523,"blue = 10, green = 20, red = 20",0,"i guess green block is like twenty and red block, blue block is like ten and ten",10
+524,"blue = 20, green = 10, red = 10",0,"i guess green block is like twenty and red block, blue block is like ten and ten",10
+525,"blue = 20, green = 10, red = 20",0,"i guess green block is like twenty and red block, blue block is like ten and ten",10
+526,"blue = 20, green = 20, red = 10",0,"i guess green block is like twenty and red block, blue block is like ten and ten",10
+527,red > blue,0,"it looks like red block, blue block're fairly equal",10
+528,blue < red,0,"it looks like red block, blue block're fairly equal",10
+529,red < blue,0,"it looks like red block, blue block're fairly equal",10
+530,blue != red,0,"it looks like red block, blue block're fairly equal",10
+531,"blue = 10, green = 20, red = 20",0,"right so then green block's twenty red block, blue block two are ten",10
+532,"blue = 20, green = 10, red = 10",0,"right so then green block's twenty red block, blue block two are ten",10
+533,"blue = 20, green = 10, red = 20",0,"right so then green block's twenty red block, blue block two are ten",10
+534,"blue = 20, green = 20, red = 10",0,"right so then green block's twenty red block, blue block two are ten",10
+535,red > blue,0,"yeah red block, blue block're together",10
+536,blue < red,0,"yeah red block, blue block're together",10
+537,red < blue,0,"yeah red block, blue block're together",10
+538,blue != red,0,"yeah red block, blue block're together",10
+539,purple < green,0,"alright well now let's do green block, purple block two i can already tell purple block one's heavier yeah",10
+540,green < purple,0,"alright well now let's do green block, purple block two i can already tell purple block one's heavier yeah",10
+541,green != purple,0,"alright well now let's do green block, purple block two i can already tell purple block one's heavier yeah",10
+542,green > purple,0,"alright well now let's do green block, purple block two i can already tell purple block one's heavier yeah",10
+543,"green = 40, purple = 40, red = 30",0,"i say green block, red block, purple block are equal green block, red block, purple block are the instructions i suppose",10
+544,"green = 30, purple = 20, red = 20",0,"i say green block, red block, purple block are equal green block, red block, purple block are the instructions i suppose",10
+545,"green = 10, purple = 40, red = 40",0,"i say green block, red block, purple block are equal green block, red block, purple block are the instructions i suppose",10
+546,"green = 20, purple = 30, red = 20",0,"i say green block, red block, purple block are equal green block, red block, purple block are the instructions i suppose",10
+547,"purple = 20, red = 10, yellow = 20",0,we we moved green block and checked the two tens remember we didn't do green block one okay yeah sure sure sure yeah yeah put thirty thirty yeah,10
+548,"green = 30, red = 30, yellow = 20",0,we we moved green block and checked the two tens remember we didn't do green block one okay yeah sure sure sure yeah yeah put thirty thirty yeah,10
+549,"green = 30, red = 30, yellow = 30",0,we we moved green block and checked the two tens remember we didn't do green block one okay yeah sure sure sure yeah yeah put thirty thirty yeah,10
+550,"blue = 20, red = 50, yellow = 10",0,we we moved green block and checked the two tens remember we didn't do green block one okay yeah sure sure sure yeah yeah put thirty thirty yeah,10
+551,"green = 30, purple = 20, yellow = 50",0,so purple block one's thirty and what's green block one twenty right twenty okay so yellow block one's gonna be fifty okay,10
+552,"green = 30, purple = 50, yellow = 20",0,so purple block one's thirty and what's green block one twenty right twenty okay so yellow block one's gonna be fifty okay,10
+553,"green = 20, purple = 50, yellow = 30",0,so purple block one's thirty and what's green block one twenty right twenty okay so yellow block one's gonna be fifty okay,10
+554,"green = 50, purple = 30, yellow = 20",0,so purple block one's thirty and what's green block one twenty right twenty okay so yellow block one's gonna be fifty okay,10
+555,green != 50,0,But there's no like I mean between weights so fifty,10
+556,"green = 50, purple = 50, yellow = 50",0,But there's no like I mean between weights so fifty,10
+557,purple > 50,0,But there's no like I mean between weights so fifty,10
+558,blue < 50,0,But there's no like I mean between weights so fifty,10
+559,yellow > 50,0,yellow block is like less than fifty less than fifty,10
+560,yellow != 50,0,yellow block is like less than fifty less than fifty,10
+561,yellow = 50,0,yellow block is like less than fifty less than fifty,10
+562,green < 20,0,yellow block is like less than fifty less than fifty,10
+563,yellow > 50,0,yeah yeah it's it's almost settled down so yellow block's less than fifty,10
+564,yellow != 50,0,yeah yeah it's it's almost settled down so yellow block's less than fifty,10
+565,yellow = 50,0,yeah yeah it's it's almost settled down so yellow block's less than fifty,10
+566,"blue = 50, green = 10, red = 50",0,yeah yeah it's it's almost settled down so yellow block's less than fifty,10
+567,yellow < 50,0,should i oh yeah yellow block is fifty grams,10
+568,yellow > 50,0,should i oh yeah yellow block is fifty grams,10
+569,yellow != 50,0,should i oh yeah yellow block is fifty grams,10
+570,"green = 40, purple = 10, yellow = 20",0,should i oh yeah yellow block is fifty grams,10
+571,"purple = 30, red = 50, yellow = 40",0,"so purple block was thirty right thirty green block was twenty and red block, blue block are tens",10
+572,"blue = 30, green = 50, red = 20",0,"so purple block was thirty right thirty green block was twenty and red block, blue block are tens",10
+573,"blue = 30, green = 30, red = 50",0,"so purple block was thirty right thirty green block was twenty and red block, blue block are tens",10
+574,"blue = 20, green = 40, yellow = 10",0,"so purple block was thirty right thirty green block was twenty and red block, blue block are tens",10

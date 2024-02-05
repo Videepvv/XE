@@ -6,7 +6,7 @@
 12,112.42,112.72,purple > 20,36,110.16,114.24,1,1,And then see if there's thats twenty which is not
 13,112.74,113.76,purple != 20,36,110.16,114.24,1,1,And then see if there's thats twenty which is not
 16,127.35,129.19,green = 20,41,127.35,132.0,1,2,ok so green block one is probably twenty ten ten twenty
-18,129.47,131.98,S209: STATEMENT(red = 10 and blue = 10 and green = 20,41,127.35,132.0,1,2,ok so green block one is probably twenty ten ten twenty
+18,129.47,131.98,red = 10 and blue = 10 and green = 20,41,127.35,132.0,1,2,ok so green block one is probably twenty ten ten twenty
 22,140.73,142.81,purple = 30,47,140.73,145.89,1,1,Ooh its looking like thirty
 29,181.08,182.28,yellow > purple + red + blue,57,174.54,185.08,1,2,"yeah yeah the blue dark blue one is thirty purple block's the larger one purple block, red block, blue block's slightly heavier yeah"
 35,207.06,210.87,"red = 10, blue = 10, green = 20, purple = 30",65,207.06,210.87,1,1,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty"

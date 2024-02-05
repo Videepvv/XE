@@ -1,0 +1,1651 @@
+,Unnamed: 0.1,Unnamed: 0,Propositions
+0,0,0,red = 10
+1,1,1,red = 20
+2,2,2,red = 30
+3,3,3,red = 40
+4,4,4,red = 50
+5,5,5,blue = red
+6,6,6,green = red
+7,7,7,purple = red
+8,8,8,red = yellow
+9,9,9,red = blue + green
+10,10,10,red = blue + purple
+11,11,11,red = blue + yellow
+12,12,12,red = green + purple
+13,13,13,red = green + yellow
+14,14,14,red = purple + yellow
+15,15,15,red = blue + green + purple
+16,16,16,red = blue + green + yellow
+17,17,17,red = blue + purple + yellow
+18,18,18,red = green + purple + yellow
+19,19,19,red = blue + green + purple + yellow
+20,20,20,red != 10
+21,21,21,red != 20
+22,22,22,red != 30
+23,23,23,red != 40
+24,24,24,red != 50
+25,25,25,blue != red
+26,26,26,green != red
+27,27,27,purple != red
+28,28,28,red != yellow
+29,29,29,red != blue + green
+30,30,30,red != blue + purple
+31,31,31,red != blue + yellow
+32,32,32,red != green + purple
+33,33,33,red != green + yellow
+34,34,34,red != purple + yellow
+35,35,35,red != blue + green + purple
+36,36,36,red != blue + green + yellow
+37,37,37,red != blue + purple + yellow
+38,38,38,red != green + purple + yellow
+39,39,39,red != blue + green + purple + yellow
+40,40,40,red < 10
+41,41,41,red < 20
+42,42,42,red < 30
+43,43,43,red < 40
+44,44,44,red < 50
+45,45,45,red < blue
+46,46,46,red < green
+47,47,47,red < purple
+48,48,48,red < yellow
+49,49,49,red < blue + green
+50,50,50,red < blue + purple
+51,51,51,red < blue + yellow
+52,52,52,red < green + purple
+53,53,53,red < green + yellow
+54,54,54,red < purple + yellow
+55,55,55,red < blue + green + purple
+56,56,56,red < blue + green + yellow
+57,57,57,red < blue + purple + yellow
+58,58,58,red < green + purple + yellow
+59,59,59,red < blue + green + purple + yellow
+60,60,60,red > 10
+61,61,61,red > 20
+62,62,62,red > 30
+63,63,63,red > 40
+64,64,64,red > 50
+65,65,65,red > blue
+66,66,66,red > green
+67,67,67,red > purple
+68,68,68,red > yellow
+69,69,69,red > blue + green
+70,70,70,red > blue + purple
+71,71,71,red > blue + yellow
+72,72,72,red > green + purple
+73,73,73,red > green + yellow
+74,74,74,red > purple + yellow
+75,75,75,red > blue + green + purple
+76,76,76,red > blue + green + yellow
+77,77,77,red > blue + purple + yellow
+78,78,78,red > green + purple + yellow
+79,79,79,red > blue + green + purple + yellow
+80,80,80,blue = 10
+81,81,81,blue = 20
+82,82,82,blue = 30
+83,83,83,blue = 40
+84,84,84,blue = 50
+85,85,85,blue = red
+86,86,86,blue = green
+87,87,87,blue = purple
+88,88,88,blue = yellow
+89,89,89,blue = green + red
+90,90,90,blue = purple + red
+91,91,91,blue = red + yellow
+92,92,92,blue = green + purple
+93,93,93,blue = green + yellow
+94,94,94,blue = purple + yellow
+95,95,95,blue = green + purple + red
+96,96,96,blue = green + red + yellow
+97,97,97,blue = purple + red + yellow
+98,98,98,blue = green + purple + yellow
+99,99,99,blue = green + purple + red + yellow
+100,100,100,blue != 10
+101,101,101,blue != 20
+102,102,102,blue != 30
+103,103,103,blue != 40
+104,104,104,blue != 50
+105,105,105,blue != red
+106,106,106,blue != green
+107,107,107,blue != purple
+108,108,108,blue != yellow
+109,109,109,blue != green + red
+110,110,110,blue != purple + red
+111,111,111,blue != red + yellow
+112,112,112,blue != green + purple
+113,113,113,blue != green + yellow
+114,114,114,blue != purple + yellow
+115,115,115,blue != green + purple + red
+116,116,116,blue != green + red + yellow
+117,117,117,blue != purple + red + yellow
+118,118,118,blue != green + purple + yellow
+119,119,119,blue != green + purple + red + yellow
+120,120,120,blue < 10
+121,121,121,blue < 20
+122,122,122,blue < 30
+123,123,123,blue < 40
+124,124,124,blue < 50
+125,125,125,blue < red
+126,126,126,blue < green
+127,127,127,blue < purple
+128,128,128,blue < yellow
+129,129,129,blue < green + red
+130,130,130,blue < purple + red
+131,131,131,blue < red + yellow
+132,132,132,blue < green + purple
+133,133,133,blue < green + yellow
+134,134,134,blue < purple + yellow
+135,135,135,blue < green + purple + red
+136,136,136,blue < green + red + yellow
+137,137,137,blue < purple + red + yellow
+138,138,138,blue < green + purple + yellow
+139,139,139,blue < green + purple + red + yellow
+140,140,140,blue > 10
+141,141,141,blue > 20
+142,142,142,blue > 30
+143,143,143,blue > 40
+144,144,144,blue > 50
+145,145,145,blue > red
+146,146,146,blue > green
+147,147,147,blue > purple
+148,148,148,blue > yellow
+149,149,149,blue > green + red
+150,150,150,blue > purple + red
+151,151,151,blue > red + yellow
+152,152,152,blue > green + purple
+153,153,153,blue > green + yellow
+154,154,154,blue > purple + yellow
+155,155,155,blue > green + purple + red
+156,156,156,blue > green + red + yellow
+157,157,157,blue > purple + red + yellow
+158,158,158,blue > green + purple + yellow
+159,159,159,blue > green + purple + red + yellow
+160,160,160,green = 10
+161,161,161,green = 20
+162,162,162,green = 30
+163,163,163,green = 40
+164,164,164,green = 50
+165,165,165,green = red
+166,166,166,blue = green
+167,167,167,green = purple
+168,168,168,green = yellow
+169,169,169,green = blue + red
+170,170,170,green = purple + red
+171,171,171,green = red + yellow
+172,172,172,green = blue + purple
+173,173,173,green = blue + yellow
+174,174,174,green = purple + yellow
+175,175,175,green = blue + purple + red
+176,176,176,green = blue + red + yellow
+177,177,177,green = purple + red + yellow
+178,178,178,green = blue + purple + yellow
+179,179,179,green = blue + purple + red + yellow
+180,180,180,green != 10
+181,181,181,green != 20
+182,182,182,green != 30
+183,183,183,green != 40
+184,184,184,green != 50
+185,185,185,green != red
+186,186,186,blue != green
+187,187,187,green != purple
+188,188,188,green != yellow
+189,189,189,green != blue + red
+190,190,190,green != purple + red
+191,191,191,green != red + yellow
+192,192,192,green != blue + purple
+193,193,193,green != blue + yellow
+194,194,194,green != purple + yellow
+195,195,195,green != blue + purple + red
+196,196,196,green != blue + red + yellow
+197,197,197,green != purple + red + yellow
+198,198,198,green != blue + purple + yellow
+199,199,199,green != blue + purple + red + yellow
+200,200,200,green < 10
+201,201,201,green < 20
+202,202,202,green < 30
+203,203,203,green < 40
+204,204,204,green < 50
+205,205,205,green < red
+206,206,206,green < blue
+207,207,207,green < purple
+208,208,208,green < yellow
+209,209,209,green < blue + red
+210,210,210,green < purple + red
+211,211,211,green < red + yellow
+212,212,212,green < blue + purple
+213,213,213,green < blue + yellow
+214,214,214,green < purple + yellow
+215,215,215,green < blue + purple + red
+216,216,216,green < blue + red + yellow
+217,217,217,green < purple + red + yellow
+218,218,218,green < blue + purple + yellow
+219,219,219,green < blue + purple + red + yellow
+220,220,220,green > 10
+221,221,221,green > 20
+222,222,222,green > 30
+223,223,223,green > 40
+224,224,224,green > 50
+225,225,225,green > red
+226,226,226,green > blue
+227,227,227,green > purple
+228,228,228,green > yellow
+229,229,229,green > blue + red
+230,230,230,green > purple + red
+231,231,231,green > red + yellow
+232,232,232,green > blue + purple
+233,233,233,green > blue + yellow
+234,234,234,green > purple + yellow
+235,235,235,green > blue + purple + red
+236,236,236,green > blue + red + yellow
+237,237,237,green > purple + red + yellow
+238,238,238,green > blue + purple + yellow
+239,239,239,green > blue + purple + red + yellow
+240,240,240,purple = 10
+241,241,241,purple = 20
+242,242,242,purple = 30
+243,243,243,purple = 40
+244,244,244,purple = 50
+245,245,245,purple = red
+246,246,246,blue = purple
+247,247,247,green = purple
+248,248,248,purple = yellow
+249,249,249,purple = blue + red
+250,250,250,purple = green + red
+251,251,251,purple = red + yellow
+252,252,252,purple = blue + green
+253,253,253,purple = blue + yellow
+254,254,254,purple = green + yellow
+255,255,255,purple = blue + green + red
+256,256,256,purple = blue + red + yellow
+257,257,257,purple = green + red + yellow
+258,258,258,purple = blue + green + yellow
+259,259,259,purple = blue + green + red + yellow
+260,260,260,purple != 10
+261,261,261,purple != 20
+262,262,262,purple != 30
+263,263,263,purple != 40
+264,264,264,purple != 50
+265,265,265,purple != red
+266,266,266,blue != purple
+267,267,267,green != purple
+268,268,268,purple != yellow
+269,269,269,purple != blue + red
+270,270,270,purple != green + red
+271,271,271,purple != red + yellow
+272,272,272,purple != blue + green
+273,273,273,purple != blue + yellow
+274,274,274,purple != green + yellow
+275,275,275,purple != blue + green + red
+276,276,276,purple != blue + red + yellow
+277,277,277,purple != green + red + yellow
+278,278,278,purple != blue + green + yellow
+279,279,279,purple != blue + green + red + yellow
+280,280,280,purple < 10
+281,281,281,purple < 20
+282,282,282,purple < 30
+283,283,283,purple < 40
+284,284,284,purple < 50
+285,285,285,purple < red
+286,286,286,purple < blue
+287,287,287,purple < green
+288,288,288,purple < yellow
+289,289,289,purple < blue + red
+290,290,290,purple < green + red
+291,291,291,purple < red + yellow
+292,292,292,purple < blue + green
+293,293,293,purple < blue + yellow
+294,294,294,purple < green + yellow
+295,295,295,purple < blue + green + red
+296,296,296,purple < blue + red + yellow
+297,297,297,purple < green + red + yellow
+298,298,298,purple < blue + green + yellow
+299,299,299,purple < blue + green + red + yellow
+300,300,300,purple > 10
+301,301,301,purple > 20
+302,302,302,purple > 30
+303,303,303,purple > 40
+304,304,304,purple > 50
+305,305,305,purple > red
+306,306,306,purple > blue
+307,307,307,purple > green
+308,308,308,purple > yellow
+309,309,309,purple > blue + red
+310,310,310,purple > green + red
+311,311,311,purple > red + yellow
+312,312,312,purple > blue + green
+313,313,313,purple > blue + yellow
+314,314,314,purple > green + yellow
+315,315,315,purple > blue + green + red
+316,316,316,purple > blue + red + yellow
+317,317,317,purple > green + red + yellow
+318,318,318,purple > blue + green + yellow
+319,319,319,purple > blue + green + red + yellow
+320,320,320,yellow = 10
+321,321,321,yellow = 20
+322,322,322,yellow = 30
+323,323,323,yellow = 40
+324,324,324,yellow = 50
+325,325,325,red = yellow
+326,326,326,blue = yellow
+327,327,327,green = yellow
+328,328,328,purple = yellow
+329,329,329,yellow = blue + red
+330,330,330,yellow = green + red
+331,331,331,yellow = purple + red
+332,332,332,yellow = blue + green
+333,333,333,yellow = blue + purple
+334,334,334,yellow = green + purple
+335,335,335,yellow = blue + green + red
+336,336,336,yellow = blue + purple + red
+337,337,337,yellow = green + purple + red
+338,338,338,yellow = blue + green + purple
+339,339,339,yellow = blue + green + purple + red
+340,340,340,yellow != 10
+341,341,341,yellow != 20
+342,342,342,yellow != 30
+343,343,343,yellow != 40
+344,344,344,yellow != 50
+345,345,345,red != yellow
+346,346,346,blue != yellow
+347,347,347,green != yellow
+348,348,348,purple != yellow
+349,349,349,yellow != blue + red
+350,350,350,yellow != green + red
+351,351,351,yellow != purple + red
+352,352,352,yellow != blue + green
+353,353,353,yellow != blue + purple
+354,354,354,yellow != green + purple
+355,355,355,yellow != blue + green + red
+356,356,356,yellow != blue + purple + red
+357,357,357,yellow != green + purple + red
+358,358,358,yellow != blue + green + purple
+359,359,359,yellow != blue + green + purple + red
+360,360,360,yellow < 10
+361,361,361,yellow < 20
+362,362,362,yellow < 30
+363,363,363,yellow < 40
+364,364,364,yellow < 50
+365,365,365,yellow < red
+366,366,366,yellow < blue
+367,367,367,yellow < green
+368,368,368,yellow < purple
+369,369,369,yellow < blue + red
+370,370,370,yellow < green + red
+371,371,371,yellow < purple + red
+372,372,372,yellow < blue + green
+373,373,373,yellow < blue + purple
+374,374,374,yellow < green + purple
+375,375,375,yellow < blue + green + red
+376,376,376,yellow < blue + purple + red
+377,377,377,yellow < green + purple + red
+378,378,378,yellow < blue + green + purple
+379,379,379,yellow < blue + green + purple + red
+380,380,380,yellow > 10
+381,381,381,yellow > 20
+382,382,382,yellow > 30
+383,383,383,yellow > 40
+384,384,384,yellow > 50
+385,385,385,yellow > red
+386,386,386,yellow > blue
+387,387,387,yellow > green
+388,388,388,yellow > purple
+389,389,389,yellow > blue + red
+390,390,390,yellow > green + red
+391,391,391,yellow > purple + red
+392,392,392,yellow > blue + green
+393,393,393,yellow > blue + purple
+394,394,394,yellow > green + purple
+395,395,395,yellow > blue + green + red
+396,396,396,yellow > blue + purple + red
+397,397,397,yellow > green + purple + red
+398,398,398,yellow > blue + green + purple
+399,399,399,yellow > blue + green + purple + red
+400,400,400,"blue = 10, green = 10, red = 10"
+401,401,401,"blue = 10, green = 20, red = 10"
+402,402,402,"blue = 10, green = 30, red = 10"
+403,403,403,"blue = 10, green = 40, red = 10"
+404,404,404,"blue = 10, green = 50, red = 10"
+405,405,405,"blue = 10, purple = 10, red = 10"
+406,406,406,"blue = 10, purple = 20, red = 10"
+407,407,407,"blue = 10, purple = 30, red = 10"
+408,408,408,"blue = 10, purple = 40, red = 10"
+409,409,409,"blue = 10, purple = 50, red = 10"
+410,410,410,"blue = 10, red = 10, yellow = 10"
+411,411,411,"blue = 10, red = 10, yellow = 20"
+412,412,412,"blue = 10, red = 10, yellow = 30"
+413,413,413,"blue = 10, red = 10, yellow = 40"
+414,414,414,"blue = 10, red = 10, yellow = 50"
+415,415,415,"blue = 20, green = 10, red = 10"
+416,416,416,"blue = 20, green = 20, red = 10"
+417,417,417,"blue = 20, green = 30, red = 10"
+418,418,418,"blue = 20, green = 40, red = 10"
+419,419,419,"blue = 20, green = 50, red = 10"
+420,420,420,"blue = 20, purple = 10, red = 10"
+421,421,421,"blue = 20, purple = 20, red = 10"
+422,422,422,"blue = 20, purple = 30, red = 10"
+423,423,423,"blue = 20, purple = 40, red = 10"
+424,424,424,"blue = 20, purple = 50, red = 10"
+425,425,425,"blue = 20, red = 10, yellow = 10"
+426,426,426,"blue = 20, red = 10, yellow = 20"
+427,427,427,"blue = 20, red = 10, yellow = 30"
+428,428,428,"blue = 20, red = 10, yellow = 40"
+429,429,429,"blue = 20, red = 10, yellow = 50"
+430,430,430,"blue = 30, green = 10, red = 10"
+431,431,431,"blue = 30, green = 20, red = 10"
+432,432,432,"blue = 30, green = 30, red = 10"
+433,433,433,"blue = 30, green = 40, red = 10"
+434,434,434,"blue = 30, green = 50, red = 10"
+435,435,435,"blue = 30, purple = 10, red = 10"
+436,436,436,"blue = 30, purple = 20, red = 10"
+437,437,437,"blue = 30, purple = 30, red = 10"
+438,438,438,"blue = 30, purple = 40, red = 10"
+439,439,439,"blue = 30, purple = 50, red = 10"
+440,440,440,"blue = 30, red = 10, yellow = 10"
+441,441,441,"blue = 30, red = 10, yellow = 20"
+442,442,442,"blue = 30, red = 10, yellow = 30"
+443,443,443,"blue = 30, red = 10, yellow = 40"
+444,444,444,"blue = 30, red = 10, yellow = 50"
+445,445,445,"blue = 40, green = 10, red = 10"
+446,446,446,"blue = 40, green = 20, red = 10"
+447,447,447,"blue = 40, green = 30, red = 10"
+448,448,448,"blue = 40, green = 40, red = 10"
+449,449,449,"blue = 40, green = 50, red = 10"
+450,450,450,"blue = 40, purple = 10, red = 10"
+451,451,451,"blue = 40, purple = 20, red = 10"
+452,452,452,"blue = 40, purple = 30, red = 10"
+453,453,453,"blue = 40, purple = 40, red = 10"
+454,454,454,"blue = 40, purple = 50, red = 10"
+455,455,455,"blue = 40, red = 10, yellow = 10"
+456,456,456,"blue = 40, red = 10, yellow = 20"
+457,457,457,"blue = 40, red = 10, yellow = 30"
+458,458,458,"blue = 40, red = 10, yellow = 40"
+459,459,459,"blue = 40, red = 10, yellow = 50"
+460,460,460,"blue = 50, green = 10, red = 10"
+461,461,461,"blue = 50, green = 20, red = 10"
+462,462,462,"blue = 50, green = 30, red = 10"
+463,463,463,"blue = 50, green = 40, red = 10"
+464,464,464,"blue = 50, green = 50, red = 10"
+465,465,465,"blue = 50, purple = 10, red = 10"
+466,466,466,"blue = 50, purple = 20, red = 10"
+467,467,467,"blue = 50, purple = 30, red = 10"
+468,468,468,"blue = 50, purple = 40, red = 10"
+469,469,469,"blue = 50, purple = 50, red = 10"
+470,470,470,"blue = 50, red = 10, yellow = 10"
+471,471,471,"blue = 50, red = 10, yellow = 20"
+472,472,472,"blue = 50, red = 10, yellow = 30"
+473,473,473,"blue = 50, red = 10, yellow = 40"
+474,474,474,"blue = 50, red = 10, yellow = 50"
+475,475,475,"green = 10, purple = 10, red = 10"
+476,476,476,"green = 10, purple = 20, red = 10"
+477,477,477,"green = 10, purple = 30, red = 10"
+478,478,478,"green = 10, purple = 40, red = 10"
+479,479,479,"green = 10, purple = 50, red = 10"
+480,480,480,"green = 10, red = 10, yellow = 10"
+481,481,481,"green = 10, red = 10, yellow = 20"
+482,482,482,"green = 10, red = 10, yellow = 30"
+483,483,483,"green = 10, red = 10, yellow = 40"
+484,484,484,"green = 10, red = 10, yellow = 50"
+485,485,485,"green = 20, purple = 10, red = 10"
+486,486,486,"green = 20, purple = 20, red = 10"
+487,487,487,"green = 20, purple = 30, red = 10"
+488,488,488,"green = 20, purple = 40, red = 10"
+489,489,489,"green = 20, purple = 50, red = 10"
+490,490,490,"green = 20, red = 10, yellow = 10"
+491,491,491,"green = 20, red = 10, yellow = 20"
+492,492,492,"green = 20, red = 10, yellow = 30"
+493,493,493,"green = 20, red = 10, yellow = 40"
+494,494,494,"green = 20, red = 10, yellow = 50"
+495,495,495,"green = 30, purple = 10, red = 10"
+496,496,496,"green = 30, purple = 20, red = 10"
+497,497,497,"green = 30, purple = 30, red = 10"
+498,498,498,"green = 30, purple = 40, red = 10"
+499,499,499,"green = 30, purple = 50, red = 10"
+500,500,500,"green = 30, red = 10, yellow = 10"
+501,501,501,"green = 30, red = 10, yellow = 20"
+502,502,502,"green = 30, red = 10, yellow = 30"
+503,503,503,"green = 30, red = 10, yellow = 40"
+504,504,504,"green = 30, red = 10, yellow = 50"
+505,505,505,"green = 40, purple = 10, red = 10"
+506,506,506,"green = 40, purple = 20, red = 10"
+507,507,507,"green = 40, purple = 30, red = 10"
+508,508,508,"green = 40, purple = 40, red = 10"
+509,509,509,"green = 40, purple = 50, red = 10"
+510,510,510,"green = 40, red = 10, yellow = 10"
+511,511,511,"green = 40, red = 10, yellow = 20"
+512,512,512,"green = 40, red = 10, yellow = 30"
+513,513,513,"green = 40, red = 10, yellow = 40"
+514,514,514,"green = 40, red = 10, yellow = 50"
+515,515,515,"green = 50, purple = 10, red = 10"
+516,516,516,"green = 50, purple = 20, red = 10"
+517,517,517,"green = 50, purple = 30, red = 10"
+518,518,518,"green = 50, purple = 40, red = 10"
+519,519,519,"green = 50, purple = 50, red = 10"
+520,520,520,"green = 50, red = 10, yellow = 10"
+521,521,521,"green = 50, red = 10, yellow = 20"
+522,522,522,"green = 50, red = 10, yellow = 30"
+523,523,523,"green = 50, red = 10, yellow = 40"
+524,524,524,"green = 50, red = 10, yellow = 50"
+525,525,525,"purple = 10, red = 10, yellow = 10"
+526,526,526,"purple = 10, red = 10, yellow = 20"
+527,527,527,"purple = 10, red = 10, yellow = 30"
+528,528,528,"purple = 10, red = 10, yellow = 40"
+529,529,529,"purple = 10, red = 10, yellow = 50"
+530,530,530,"purple = 20, red = 10, yellow = 10"
+531,531,531,"purple = 20, red = 10, yellow = 20"
+532,532,532,"purple = 20, red = 10, yellow = 30"
+533,533,533,"purple = 20, red = 10, yellow = 40"
+534,534,534,"purple = 20, red = 10, yellow = 50"
+535,535,535,"purple = 30, red = 10, yellow = 10"
+536,536,536,"purple = 30, red = 10, yellow = 20"
+537,537,537,"purple = 30, red = 10, yellow = 30"
+538,538,538,"purple = 30, red = 10, yellow = 40"
+539,539,539,"purple = 30, red = 10, yellow = 50"
+540,540,540,"purple = 40, red = 10, yellow = 10"
+541,541,541,"purple = 40, red = 10, yellow = 20"
+542,542,542,"purple = 40, red = 10, yellow = 30"
+543,543,543,"purple = 40, red = 10, yellow = 40"
+544,544,544,"purple = 40, red = 10, yellow = 50"
+545,545,545,"purple = 50, red = 10, yellow = 10"
+546,546,546,"purple = 50, red = 10, yellow = 20"
+547,547,547,"purple = 50, red = 10, yellow = 30"
+548,548,548,"purple = 50, red = 10, yellow = 40"
+549,549,549,"purple = 50, red = 10, yellow = 50"
+550,550,550,"blue = 10, green = 10, red = 20"
+551,551,551,"blue = 10, green = 20, red = 20"
+552,552,552,"blue = 10, green = 30, red = 20"
+553,553,553,"blue = 10, green = 40, red = 20"
+554,554,554,"blue = 10, green = 50, red = 20"
+555,555,555,"blue = 10, purple = 10, red = 20"
+556,556,556,"blue = 10, purple = 20, red = 20"
+557,557,557,"blue = 10, purple = 30, red = 20"
+558,558,558,"blue = 10, purple = 40, red = 20"
+559,559,559,"blue = 10, purple = 50, red = 20"
+560,560,560,"blue = 10, red = 20, yellow = 10"
+561,561,561,"blue = 10, red = 20, yellow = 20"
+562,562,562,"blue = 10, red = 20, yellow = 30"
+563,563,563,"blue = 10, red = 20, yellow = 40"
+564,564,564,"blue = 10, red = 20, yellow = 50"
+565,565,565,"blue = 20, green = 10, red = 20"
+566,566,566,"blue = 20, green = 20, red = 20"
+567,567,567,"blue = 20, green = 30, red = 20"
+568,568,568,"blue = 20, green = 40, red = 20"
+569,569,569,"blue = 20, green = 50, red = 20"
+570,570,570,"blue = 20, purple = 10, red = 20"
+571,571,571,"blue = 20, purple = 20, red = 20"
+572,572,572,"blue = 20, purple = 30, red = 20"
+573,573,573,"blue = 20, purple = 40, red = 20"
+574,574,574,"blue = 20, purple = 50, red = 20"
+575,575,575,"blue = 20, red = 20, yellow = 10"
+576,576,576,"blue = 20, red = 20, yellow = 20"
+577,577,577,"blue = 20, red = 20, yellow = 30"
+578,578,578,"blue = 20, red = 20, yellow = 40"
+579,579,579,"blue = 20, red = 20, yellow = 50"
+580,580,580,"blue = 30, green = 10, red = 20"
+581,581,581,"blue = 30, green = 20, red = 20"
+582,582,582,"blue = 30, green = 30, red = 20"
+583,583,583,"blue = 30, green = 40, red = 20"
+584,584,584,"blue = 30, green = 50, red = 20"
+585,585,585,"blue = 30, purple = 10, red = 20"
+586,586,586,"blue = 30, purple = 20, red = 20"
+587,587,587,"blue = 30, purple = 30, red = 20"
+588,588,588,"blue = 30, purple = 40, red = 20"
+589,589,589,"blue = 30, purple = 50, red = 20"
+590,590,590,"blue = 30, red = 20, yellow = 10"
+591,591,591,"blue = 30, red = 20, yellow = 20"
+592,592,592,"blue = 30, red = 20, yellow = 30"
+593,593,593,"blue = 30, red = 20, yellow = 40"
+594,594,594,"blue = 30, red = 20, yellow = 50"
+595,595,595,"blue = 40, green = 10, red = 20"
+596,596,596,"blue = 40, green = 20, red = 20"
+597,597,597,"blue = 40, green = 30, red = 20"
+598,598,598,"blue = 40, green = 40, red = 20"
+599,599,599,"blue = 40, green = 50, red = 20"
+600,600,600,"blue = 40, purple = 10, red = 20"
+601,601,601,"blue = 40, purple = 20, red = 20"
+602,602,602,"blue = 40, purple = 30, red = 20"
+603,603,603,"blue = 40, purple = 40, red = 20"
+604,604,604,"blue = 40, purple = 50, red = 20"
+605,605,605,"blue = 40, red = 20, yellow = 10"
+606,606,606,"blue = 40, red = 20, yellow = 20"
+607,607,607,"blue = 40, red = 20, yellow = 30"
+608,608,608,"blue = 40, red = 20, yellow = 40"
+609,609,609,"blue = 40, red = 20, yellow = 50"
+610,610,610,"blue = 50, green = 10, red = 20"
+611,611,611,"blue = 50, green = 20, red = 20"
+612,612,612,"blue = 50, green = 30, red = 20"
+613,613,613,"blue = 50, green = 40, red = 20"
+614,614,614,"blue = 50, green = 50, red = 20"
+615,615,615,"blue = 50, purple = 10, red = 20"
+616,616,616,"blue = 50, purple = 20, red = 20"
+617,617,617,"blue = 50, purple = 30, red = 20"
+618,618,618,"blue = 50, purple = 40, red = 20"
+619,619,619,"blue = 50, purple = 50, red = 20"
+620,620,620,"blue = 50, red = 20, yellow = 10"
+621,621,621,"blue = 50, red = 20, yellow = 20"
+622,622,622,"blue = 50, red = 20, yellow = 30"
+623,623,623,"blue = 50, red = 20, yellow = 40"
+624,624,624,"blue = 50, red = 20, yellow = 50"
+625,625,625,"green = 10, purple = 10, red = 20"
+626,626,626,"green = 10, purple = 20, red = 20"
+627,627,627,"green = 10, purple = 30, red = 20"
+628,628,628,"green = 10, purple = 40, red = 20"
+629,629,629,"green = 10, purple = 50, red = 20"
+630,630,630,"green = 10, red = 20, yellow = 10"
+631,631,631,"green = 10, red = 20, yellow = 20"
+632,632,632,"green = 10, red = 20, yellow = 30"
+633,633,633,"green = 10, red = 20, yellow = 40"
+634,634,634,"green = 10, red = 20, yellow = 50"
+635,635,635,"green = 20, purple = 10, red = 20"
+636,636,636,"green = 20, purple = 20, red = 20"
+637,637,637,"green = 20, purple = 30, red = 20"
+638,638,638,"green = 20, purple = 40, red = 20"
+639,639,639,"green = 20, purple = 50, red = 20"
+640,640,640,"green = 20, red = 20, yellow = 10"
+641,641,641,"green = 20, red = 20, yellow = 20"
+642,642,642,"green = 20, red = 20, yellow = 30"
+643,643,643,"green = 20, red = 20, yellow = 40"
+644,644,644,"green = 20, red = 20, yellow = 50"
+645,645,645,"green = 30, purple = 10, red = 20"
+646,646,646,"green = 30, purple = 20, red = 20"
+647,647,647,"green = 30, purple = 30, red = 20"
+648,648,648,"green = 30, purple = 40, red = 20"
+649,649,649,"green = 30, purple = 50, red = 20"
+650,650,650,"green = 30, red = 20, yellow = 10"
+651,651,651,"green = 30, red = 20, yellow = 20"
+652,652,652,"green = 30, red = 20, yellow = 30"
+653,653,653,"green = 30, red = 20, yellow = 40"
+654,654,654,"green = 30, red = 20, yellow = 50"
+655,655,655,"green = 40, purple = 10, red = 20"
+656,656,656,"green = 40, purple = 20, red = 20"
+657,657,657,"green = 40, purple = 30, red = 20"
+658,658,658,"green = 40, purple = 40, red = 20"
+659,659,659,"green = 40, purple = 50, red = 20"
+660,660,660,"green = 40, red = 20, yellow = 10"
+661,661,661,"green = 40, red = 20, yellow = 20"
+662,662,662,"green = 40, red = 20, yellow = 30"
+663,663,663,"green = 40, red = 20, yellow = 40"
+664,664,664,"green = 40, red = 20, yellow = 50"
+665,665,665,"green = 50, purple = 10, red = 20"
+666,666,666,"green = 50, purple = 20, red = 20"
+667,667,667,"green = 50, purple = 30, red = 20"
+668,668,668,"green = 50, purple = 40, red = 20"
+669,669,669,"green = 50, purple = 50, red = 20"
+670,670,670,"green = 50, red = 20, yellow = 10"
+671,671,671,"green = 50, red = 20, yellow = 20"
+672,672,672,"green = 50, red = 20, yellow = 30"
+673,673,673,"green = 50, red = 20, yellow = 40"
+674,674,674,"green = 50, red = 20, yellow = 50"
+675,675,675,"purple = 10, red = 20, yellow = 10"
+676,676,676,"purple = 10, red = 20, yellow = 20"
+677,677,677,"purple = 10, red = 20, yellow = 30"
+678,678,678,"purple = 10, red = 20, yellow = 40"
+679,679,679,"purple = 10, red = 20, yellow = 50"
+680,680,680,"purple = 20, red = 20, yellow = 10"
+681,681,681,"purple = 20, red = 20, yellow = 20"
+682,682,682,"purple = 20, red = 20, yellow = 30"
+683,683,683,"purple = 20, red = 20, yellow = 40"
+684,684,684,"purple = 20, red = 20, yellow = 50"
+685,685,685,"purple = 30, red = 20, yellow = 10"
+686,686,686,"purple = 30, red = 20, yellow = 20"
+687,687,687,"purple = 30, red = 20, yellow = 30"
+688,688,688,"purple = 30, red = 20, yellow = 40"
+689,689,689,"purple = 30, red = 20, yellow = 50"
+690,690,690,"purple = 40, red = 20, yellow = 10"
+691,691,691,"purple = 40, red = 20, yellow = 20"
+692,692,692,"purple = 40, red = 20, yellow = 30"
+693,693,693,"purple = 40, red = 20, yellow = 40"
+694,694,694,"purple = 40, red = 20, yellow = 50"
+695,695,695,"purple = 50, red = 20, yellow = 10"
+696,696,696,"purple = 50, red = 20, yellow = 20"
+697,697,697,"purple = 50, red = 20, yellow = 30"
+698,698,698,"purple = 50, red = 20, yellow = 40"
+699,699,699,"purple = 50, red = 20, yellow = 50"
+700,700,700,"blue = 10, green = 10, red = 30"
+701,701,701,"blue = 10, green = 20, red = 30"
+702,702,702,"blue = 10, green = 30, red = 30"
+703,703,703,"blue = 10, green = 40, red = 30"
+704,704,704,"blue = 10, green = 50, red = 30"
+705,705,705,"blue = 10, purple = 10, red = 30"
+706,706,706,"blue = 10, purple = 20, red = 30"
+707,707,707,"blue = 10, purple = 30, red = 30"
+708,708,708,"blue = 10, purple = 40, red = 30"
+709,709,709,"blue = 10, purple = 50, red = 30"
+710,710,710,"blue = 10, red = 30, yellow = 10"
+711,711,711,"blue = 10, red = 30, yellow = 20"
+712,712,712,"blue = 10, red = 30, yellow = 30"
+713,713,713,"blue = 10, red = 30, yellow = 40"
+714,714,714,"blue = 10, red = 30, yellow = 50"
+715,715,715,"blue = 20, green = 10, red = 30"
+716,716,716,"blue = 20, green = 20, red = 30"
+717,717,717,"blue = 20, green = 30, red = 30"
+718,718,718,"blue = 20, green = 40, red = 30"
+719,719,719,"blue = 20, green = 50, red = 30"
+720,720,720,"blue = 20, purple = 10, red = 30"
+721,721,721,"blue = 20, purple = 20, red = 30"
+722,722,722,"blue = 20, purple = 30, red = 30"
+723,723,723,"blue = 20, purple = 40, red = 30"
+724,724,724,"blue = 20, purple = 50, red = 30"
+725,725,725,"blue = 20, red = 30, yellow = 10"
+726,726,726,"blue = 20, red = 30, yellow = 20"
+727,727,727,"blue = 20, red = 30, yellow = 30"
+728,728,728,"blue = 20, red = 30, yellow = 40"
+729,729,729,"blue = 20, red = 30, yellow = 50"
+730,730,730,"blue = 30, green = 10, red = 30"
+731,731,731,"blue = 30, green = 20, red = 30"
+732,732,732,"blue = 30, green = 30, red = 30"
+733,733,733,"blue = 30, green = 40, red = 30"
+734,734,734,"blue = 30, green = 50, red = 30"
+735,735,735,"blue = 30, purple = 10, red = 30"
+736,736,736,"blue = 30, purple = 20, red = 30"
+737,737,737,"blue = 30, purple = 30, red = 30"
+738,738,738,"blue = 30, purple = 40, red = 30"
+739,739,739,"blue = 30, purple = 50, red = 30"
+740,740,740,"blue = 30, red = 30, yellow = 10"
+741,741,741,"blue = 30, red = 30, yellow = 20"
+742,742,742,"blue = 30, red = 30, yellow = 30"
+743,743,743,"blue = 30, red = 30, yellow = 40"
+744,744,744,"blue = 30, red = 30, yellow = 50"
+745,745,745,"blue = 40, green = 10, red = 30"
+746,746,746,"blue = 40, green = 20, red = 30"
+747,747,747,"blue = 40, green = 30, red = 30"
+748,748,748,"blue = 40, green = 40, red = 30"
+749,749,749,"blue = 40, green = 50, red = 30"
+750,750,750,"blue = 40, purple = 10, red = 30"
+751,751,751,"blue = 40, purple = 20, red = 30"
+752,752,752,"blue = 40, purple = 30, red = 30"
+753,753,753,"blue = 40, purple = 40, red = 30"
+754,754,754,"blue = 40, purple = 50, red = 30"
+755,755,755,"blue = 40, red = 30, yellow = 10"
+756,756,756,"blue = 40, red = 30, yellow = 20"
+757,757,757,"blue = 40, red = 30, yellow = 30"
+758,758,758,"blue = 40, red = 30, yellow = 40"
+759,759,759,"blue = 40, red = 30, yellow = 50"
+760,760,760,"blue = 50, green = 10, red = 30"
+761,761,761,"blue = 50, green = 20, red = 30"
+762,762,762,"blue = 50, green = 30, red = 30"
+763,763,763,"blue = 50, green = 40, red = 30"
+764,764,764,"blue = 50, green = 50, red = 30"
+765,765,765,"blue = 50, purple = 10, red = 30"
+766,766,766,"blue = 50, purple = 20, red = 30"
+767,767,767,"blue = 50, purple = 30, red = 30"
+768,768,768,"blue = 50, purple = 40, red = 30"
+769,769,769,"blue = 50, purple = 50, red = 30"
+770,770,770,"blue = 50, red = 30, yellow = 10"
+771,771,771,"blue = 50, red = 30, yellow = 20"
+772,772,772,"blue = 50, red = 30, yellow = 30"
+773,773,773,"blue = 50, red = 30, yellow = 40"
+774,774,774,"blue = 50, red = 30, yellow = 50"
+775,775,775,"green = 10, purple = 10, red = 30"
+776,776,776,"green = 10, purple = 20, red = 30"
+777,777,777,"green = 10, purple = 30, red = 30"
+778,778,778,"green = 10, purple = 40, red = 30"
+779,779,779,"green = 10, purple = 50, red = 30"
+780,780,780,"green = 10, red = 30, yellow = 10"
+781,781,781,"green = 10, red = 30, yellow = 20"
+782,782,782,"green = 10, red = 30, yellow = 30"
+783,783,783,"green = 10, red = 30, yellow = 40"
+784,784,784,"green = 10, red = 30, yellow = 50"
+785,785,785,"green = 20, purple = 10, red = 30"
+786,786,786,"green = 20, purple = 20, red = 30"
+787,787,787,"green = 20, purple = 30, red = 30"
+788,788,788,"green = 20, purple = 40, red = 30"
+789,789,789,"green = 20, purple = 50, red = 30"
+790,790,790,"green = 20, red = 30, yellow = 10"
+791,791,791,"green = 20, red = 30, yellow = 20"
+792,792,792,"green = 20, red = 30, yellow = 30"
+793,793,793,"green = 20, red = 30, yellow = 40"
+794,794,794,"green = 20, red = 30, yellow = 50"
+795,795,795,"green = 30, purple = 10, red = 30"
+796,796,796,"green = 30, purple = 20, red = 30"
+797,797,797,"green = 30, purple = 30, red = 30"
+798,798,798,"green = 30, purple = 40, red = 30"
+799,799,799,"green = 30, purple = 50, red = 30"
+800,800,800,"green = 30, red = 30, yellow = 10"
+801,801,801,"green = 30, red = 30, yellow = 20"
+802,802,802,"green = 30, red = 30, yellow = 30"
+803,803,803,"green = 30, red = 30, yellow = 40"
+804,804,804,"green = 30, red = 30, yellow = 50"
+805,805,805,"green = 40, purple = 10, red = 30"
+806,806,806,"green = 40, purple = 20, red = 30"
+807,807,807,"green = 40, purple = 30, red = 30"
+808,808,808,"green = 40, purple = 40, red = 30"
+809,809,809,"green = 40, purple = 50, red = 30"
+810,810,810,"green = 40, red = 30, yellow = 10"
+811,811,811,"green = 40, red = 30, yellow = 20"
+812,812,812,"green = 40, red = 30, yellow = 30"
+813,813,813,"green = 40, red = 30, yellow = 40"
+814,814,814,"green = 40, red = 30, yellow = 50"
+815,815,815,"green = 50, purple = 10, red = 30"
+816,816,816,"green = 50, purple = 20, red = 30"
+817,817,817,"green = 50, purple = 30, red = 30"
+818,818,818,"green = 50, purple = 40, red = 30"
+819,819,819,"green = 50, purple = 50, red = 30"
+820,820,820,"green = 50, red = 30, yellow = 10"
+821,821,821,"green = 50, red = 30, yellow = 20"
+822,822,822,"green = 50, red = 30, yellow = 30"
+823,823,823,"green = 50, red = 30, yellow = 40"
+824,824,824,"green = 50, red = 30, yellow = 50"
+825,825,825,"purple = 10, red = 30, yellow = 10"
+826,826,826,"purple = 10, red = 30, yellow = 20"
+827,827,827,"purple = 10, red = 30, yellow = 30"
+828,828,828,"purple = 10, red = 30, yellow = 40"
+829,829,829,"purple = 10, red = 30, yellow = 50"
+830,830,830,"purple = 20, red = 30, yellow = 10"
+831,831,831,"purple = 20, red = 30, yellow = 20"
+832,832,832,"purple = 20, red = 30, yellow = 30"
+833,833,833,"purple = 20, red = 30, yellow = 40"
+834,834,834,"purple = 20, red = 30, yellow = 50"
+835,835,835,"purple = 30, red = 30, yellow = 10"
+836,836,836,"purple = 30, red = 30, yellow = 20"
+837,837,837,"purple = 30, red = 30, yellow = 30"
+838,838,838,"purple = 30, red = 30, yellow = 40"
+839,839,839,"purple = 30, red = 30, yellow = 50"
+840,840,840,"purple = 40, red = 30, yellow = 10"
+841,841,841,"purple = 40, red = 30, yellow = 20"
+842,842,842,"purple = 40, red = 30, yellow = 30"
+843,843,843,"purple = 40, red = 30, yellow = 40"
+844,844,844,"purple = 40, red = 30, yellow = 50"
+845,845,845,"purple = 50, red = 30, yellow = 10"
+846,846,846,"purple = 50, red = 30, yellow = 20"
+847,847,847,"purple = 50, red = 30, yellow = 30"
+848,848,848,"purple = 50, red = 30, yellow = 40"
+849,849,849,"purple = 50, red = 30, yellow = 50"
+850,850,850,"blue = 10, green = 10, red = 40"
+851,851,851,"blue = 10, green = 20, red = 40"
+852,852,852,"blue = 10, green = 30, red = 40"
+853,853,853,"blue = 10, green = 40, red = 40"
+854,854,854,"blue = 10, green = 50, red = 40"
+855,855,855,"blue = 10, purple = 10, red = 40"
+856,856,856,"blue = 10, purple = 20, red = 40"
+857,857,857,"blue = 10, purple = 30, red = 40"
+858,858,858,"blue = 10, purple = 40, red = 40"
+859,859,859,"blue = 10, purple = 50, red = 40"
+860,860,860,"blue = 10, red = 40, yellow = 10"
+861,861,861,"blue = 10, red = 40, yellow = 20"
+862,862,862,"blue = 10, red = 40, yellow = 30"
+863,863,863,"blue = 10, red = 40, yellow = 40"
+864,864,864,"blue = 10, red = 40, yellow = 50"
+865,865,865,"blue = 20, green = 10, red = 40"
+866,866,866,"blue = 20, green = 20, red = 40"
+867,867,867,"blue = 20, green = 30, red = 40"
+868,868,868,"blue = 20, green = 40, red = 40"
+869,869,869,"blue = 20, green = 50, red = 40"
+870,870,870,"blue = 20, purple = 10, red = 40"
+871,871,871,"blue = 20, purple = 20, red = 40"
+872,872,872,"blue = 20, purple = 30, red = 40"
+873,873,873,"blue = 20, purple = 40, red = 40"
+874,874,874,"blue = 20, purple = 50, red = 40"
+875,875,875,"blue = 20, red = 40, yellow = 10"
+876,876,876,"blue = 20, red = 40, yellow = 20"
+877,877,877,"blue = 20, red = 40, yellow = 30"
+878,878,878,"blue = 20, red = 40, yellow = 40"
+879,879,879,"blue = 20, red = 40, yellow = 50"
+880,880,880,"blue = 30, green = 10, red = 40"
+881,881,881,"blue = 30, green = 20, red = 40"
+882,882,882,"blue = 30, green = 30, red = 40"
+883,883,883,"blue = 30, green = 40, red = 40"
+884,884,884,"blue = 30, green = 50, red = 40"
+885,885,885,"blue = 30, purple = 10, red = 40"
+886,886,886,"blue = 30, purple = 20, red = 40"
+887,887,887,"blue = 30, purple = 30, red = 40"
+888,888,888,"blue = 30, purple = 40, red = 40"
+889,889,889,"blue = 30, purple = 50, red = 40"
+890,890,890,"blue = 30, red = 40, yellow = 10"
+891,891,891,"blue = 30, red = 40, yellow = 20"
+892,892,892,"blue = 30, red = 40, yellow = 30"
+893,893,893,"blue = 30, red = 40, yellow = 40"
+894,894,894,"blue = 30, red = 40, yellow = 50"
+895,895,895,"blue = 40, green = 10, red = 40"
+896,896,896,"blue = 40, green = 20, red = 40"
+897,897,897,"blue = 40, green = 30, red = 40"
+898,898,898,"blue = 40, green = 40, red = 40"
+899,899,899,"blue = 40, green = 50, red = 40"
+900,900,900,"blue = 40, purple = 10, red = 40"
+901,901,901,"blue = 40, purple = 20, red = 40"
+902,902,902,"blue = 40, purple = 30, red = 40"
+903,903,903,"blue = 40, purple = 40, red = 40"
+904,904,904,"blue = 40, purple = 50, red = 40"
+905,905,905,"blue = 40, red = 40, yellow = 10"
+906,906,906,"blue = 40, red = 40, yellow = 20"
+907,907,907,"blue = 40, red = 40, yellow = 30"
+908,908,908,"blue = 40, red = 40, yellow = 40"
+909,909,909,"blue = 40, red = 40, yellow = 50"
+910,910,910,"blue = 50, green = 10, red = 40"
+911,911,911,"blue = 50, green = 20, red = 40"
+912,912,912,"blue = 50, green = 30, red = 40"
+913,913,913,"blue = 50, green = 40, red = 40"
+914,914,914,"blue = 50, green = 50, red = 40"
+915,915,915,"blue = 50, purple = 10, red = 40"
+916,916,916,"blue = 50, purple = 20, red = 40"
+917,917,917,"blue = 50, purple = 30, red = 40"
+918,918,918,"blue = 50, purple = 40, red = 40"
+919,919,919,"blue = 50, purple = 50, red = 40"
+920,920,920,"blue = 50, red = 40, yellow = 10"
+921,921,921,"blue = 50, red = 40, yellow = 20"
+922,922,922,"blue = 50, red = 40, yellow = 30"
+923,923,923,"blue = 50, red = 40, yellow = 40"
+924,924,924,"blue = 50, red = 40, yellow = 50"
+925,925,925,"green = 10, purple = 10, red = 40"
+926,926,926,"green = 10, purple = 20, red = 40"
+927,927,927,"green = 10, purple = 30, red = 40"
+928,928,928,"green = 10, purple = 40, red = 40"
+929,929,929,"green = 10, purple = 50, red = 40"
+930,930,930,"green = 10, red = 40, yellow = 10"
+931,931,931,"green = 10, red = 40, yellow = 20"
+932,932,932,"green = 10, red = 40, yellow = 30"
+933,933,933,"green = 10, red = 40, yellow = 40"
+934,934,934,"green = 10, red = 40, yellow = 50"
+935,935,935,"green = 20, purple = 10, red = 40"
+936,936,936,"green = 20, purple = 20, red = 40"
+937,937,937,"green = 20, purple = 30, red = 40"
+938,938,938,"green = 20, purple = 40, red = 40"
+939,939,939,"green = 20, purple = 50, red = 40"
+940,940,940,"green = 20, red = 40, yellow = 10"
+941,941,941,"green = 20, red = 40, yellow = 20"
+942,942,942,"green = 20, red = 40, yellow = 30"
+943,943,943,"green = 20, red = 40, yellow = 40"
+944,944,944,"green = 20, red = 40, yellow = 50"
+945,945,945,"green = 30, purple = 10, red = 40"
+946,946,946,"green = 30, purple = 20, red = 40"
+947,947,947,"green = 30, purple = 30, red = 40"
+948,948,948,"green = 30, purple = 40, red = 40"
+949,949,949,"green = 30, purple = 50, red = 40"
+950,950,950,"green = 30, red = 40, yellow = 10"
+951,951,951,"green = 30, red = 40, yellow = 20"
+952,952,952,"green = 30, red = 40, yellow = 30"
+953,953,953,"green = 30, red = 40, yellow = 40"
+954,954,954,"green = 30, red = 40, yellow = 50"
+955,955,955,"green = 40, purple = 10, red = 40"
+956,956,956,"green = 40, purple = 20, red = 40"
+957,957,957,"green = 40, purple = 30, red = 40"
+958,958,958,"green = 40, purple = 40, red = 40"
+959,959,959,"green = 40, purple = 50, red = 40"
+960,960,960,"green = 40, red = 40, yellow = 10"
+961,961,961,"green = 40, red = 40, yellow = 20"
+962,962,962,"green = 40, red = 40, yellow = 30"
+963,963,963,"green = 40, red = 40, yellow = 40"
+964,964,964,"green = 40, red = 40, yellow = 50"
+965,965,965,"green = 50, purple = 10, red = 40"
+966,966,966,"green = 50, purple = 20, red = 40"
+967,967,967,"green = 50, purple = 30, red = 40"
+968,968,968,"green = 50, purple = 40, red = 40"
+969,969,969,"green = 50, purple = 50, red = 40"
+970,970,970,"green = 50, red = 40, yellow = 10"
+971,971,971,"green = 50, red = 40, yellow = 20"
+972,972,972,"green = 50, red = 40, yellow = 30"
+973,973,973,"green = 50, red = 40, yellow = 40"
+974,974,974,"green = 50, red = 40, yellow = 50"
+975,975,975,"purple = 10, red = 40, yellow = 10"
+976,976,976,"purple = 10, red = 40, yellow = 20"
+977,977,977,"purple = 10, red = 40, yellow = 30"
+978,978,978,"purple = 10, red = 40, yellow = 40"
+979,979,979,"purple = 10, red = 40, yellow = 50"
+980,980,980,"purple = 20, red = 40, yellow = 10"
+981,981,981,"purple = 20, red = 40, yellow = 20"
+982,982,982,"purple = 20, red = 40, yellow = 30"
+983,983,983,"purple = 20, red = 40, yellow = 40"
+984,984,984,"purple = 20, red = 40, yellow = 50"
+985,985,985,"purple = 30, red = 40, yellow = 10"
+986,986,986,"purple = 30, red = 40, yellow = 20"
+987,987,987,"purple = 30, red = 40, yellow = 30"
+988,988,988,"purple = 30, red = 40, yellow = 40"
+989,989,989,"purple = 30, red = 40, yellow = 50"
+990,990,990,"purple = 40, red = 40, yellow = 10"
+991,991,991,"purple = 40, red = 40, yellow = 20"
+992,992,992,"purple = 40, red = 40, yellow = 30"
+993,993,993,"purple = 40, red = 40, yellow = 40"
+994,994,994,"purple = 40, red = 40, yellow = 50"
+995,995,995,"purple = 50, red = 40, yellow = 10"
+996,996,996,"purple = 50, red = 40, yellow = 20"
+997,997,997,"purple = 50, red = 40, yellow = 30"
+998,998,998,"purple = 50, red = 40, yellow = 40"
+999,999,999,"purple = 50, red = 40, yellow = 50"
+1000,1000,1000,"blue = 10, green = 10, red = 50"
+1001,1001,1001,"blue = 10, green = 20, red = 50"
+1002,1002,1002,"blue = 10, green = 30, red = 50"
+1003,1003,1003,"blue = 10, green = 40, red = 50"
+1004,1004,1004,"blue = 10, green = 50, red = 50"
+1005,1005,1005,"blue = 10, purple = 10, red = 50"
+1006,1006,1006,"blue = 10, purple = 20, red = 50"
+1007,1007,1007,"blue = 10, purple = 30, red = 50"
+1008,1008,1008,"blue = 10, purple = 40, red = 50"
+1009,1009,1009,"blue = 10, purple = 50, red = 50"
+1010,1010,1010,"blue = 10, red = 50, yellow = 10"
+1011,1011,1011,"blue = 10, red = 50, yellow = 20"
+1012,1012,1012,"blue = 10, red = 50, yellow = 30"
+1013,1013,1013,"blue = 10, red = 50, yellow = 40"
+1014,1014,1014,"blue = 10, red = 50, yellow = 50"
+1015,1015,1015,"blue = 20, green = 10, red = 50"
+1016,1016,1016,"blue = 20, green = 20, red = 50"
+1017,1017,1017,"blue = 20, green = 30, red = 50"
+1018,1018,1018,"blue = 20, green = 40, red = 50"
+1019,1019,1019,"blue = 20, green = 50, red = 50"
+1020,1020,1020,"blue = 20, purple = 10, red = 50"
+1021,1021,1021,"blue = 20, purple = 20, red = 50"
+1022,1022,1022,"blue = 20, purple = 30, red = 50"
+1023,1023,1023,"blue = 20, purple = 40, red = 50"
+1024,1024,1024,"blue = 20, purple = 50, red = 50"
+1025,1025,1025,"blue = 20, red = 50, yellow = 10"
+1026,1026,1026,"blue = 20, red = 50, yellow = 20"
+1027,1027,1027,"blue = 20, red = 50, yellow = 30"
+1028,1028,1028,"blue = 20, red = 50, yellow = 40"
+1029,1029,1029,"blue = 20, red = 50, yellow = 50"
+1030,1030,1030,"blue = 30, green = 10, red = 50"
+1031,1031,1031,"blue = 30, green = 20, red = 50"
+1032,1032,1032,"blue = 30, green = 30, red = 50"
+1033,1033,1033,"blue = 30, green = 40, red = 50"
+1034,1034,1034,"blue = 30, green = 50, red = 50"
+1035,1035,1035,"blue = 30, purple = 10, red = 50"
+1036,1036,1036,"blue = 30, purple = 20, red = 50"
+1037,1037,1037,"blue = 30, purple = 30, red = 50"
+1038,1038,1038,"blue = 30, purple = 40, red = 50"
+1039,1039,1039,"blue = 30, purple = 50, red = 50"
+1040,1040,1040,"blue = 30, red = 50, yellow = 10"
+1041,1041,1041,"blue = 30, red = 50, yellow = 20"
+1042,1042,1042,"blue = 30, red = 50, yellow = 30"
+1043,1043,1043,"blue = 30, red = 50, yellow = 40"
+1044,1044,1044,"blue = 30, red = 50, yellow = 50"
+1045,1045,1045,"blue = 40, green = 10, red = 50"
+1046,1046,1046,"blue = 40, green = 20, red = 50"
+1047,1047,1047,"blue = 40, green = 30, red = 50"
+1048,1048,1048,"blue = 40, green = 40, red = 50"
+1049,1049,1049,"blue = 40, green = 50, red = 50"
+1050,1050,1050,"blue = 40, purple = 10, red = 50"
+1051,1051,1051,"blue = 40, purple = 20, red = 50"
+1052,1052,1052,"blue = 40, purple = 30, red = 50"
+1053,1053,1053,"blue = 40, purple = 40, red = 50"
+1054,1054,1054,"blue = 40, purple = 50, red = 50"
+1055,1055,1055,"blue = 40, red = 50, yellow = 10"
+1056,1056,1056,"blue = 40, red = 50, yellow = 20"
+1057,1057,1057,"blue = 40, red = 50, yellow = 30"
+1058,1058,1058,"blue = 40, red = 50, yellow = 40"
+1059,1059,1059,"blue = 40, red = 50, yellow = 50"
+1060,1060,1060,"blue = 50, green = 10, red = 50"
+1061,1061,1061,"blue = 50, green = 20, red = 50"
+1062,1062,1062,"blue = 50, green = 30, red = 50"
+1063,1063,1063,"blue = 50, green = 40, red = 50"
+1064,1064,1064,"blue = 50, green = 50, red = 50"
+1065,1065,1065,"blue = 50, purple = 10, red = 50"
+1066,1066,1066,"blue = 50, purple = 20, red = 50"
+1067,1067,1067,"blue = 50, purple = 30, red = 50"
+1068,1068,1068,"blue = 50, purple = 40, red = 50"
+1069,1069,1069,"blue = 50, purple = 50, red = 50"
+1070,1070,1070,"blue = 50, red = 50, yellow = 10"
+1071,1071,1071,"blue = 50, red = 50, yellow = 20"
+1072,1072,1072,"blue = 50, red = 50, yellow = 30"
+1073,1073,1073,"blue = 50, red = 50, yellow = 40"
+1074,1074,1074,"blue = 50, red = 50, yellow = 50"
+1075,1075,1075,"green = 10, purple = 10, red = 50"
+1076,1076,1076,"green = 10, purple = 20, red = 50"
+1077,1077,1077,"green = 10, purple = 30, red = 50"
+1078,1078,1078,"green = 10, purple = 40, red = 50"
+1079,1079,1079,"green = 10, purple = 50, red = 50"
+1080,1080,1080,"green = 10, red = 50, yellow = 10"
+1081,1081,1081,"green = 10, red = 50, yellow = 20"
+1082,1082,1082,"green = 10, red = 50, yellow = 30"
+1083,1083,1083,"green = 10, red = 50, yellow = 40"
+1084,1084,1084,"green = 10, red = 50, yellow = 50"
+1085,1085,1085,"green = 20, purple = 10, red = 50"
+1086,1086,1086,"green = 20, purple = 20, red = 50"
+1087,1087,1087,"green = 20, purple = 30, red = 50"
+1088,1088,1088,"green = 20, purple = 40, red = 50"
+1089,1089,1089,"green = 20, purple = 50, red = 50"
+1090,1090,1090,"green = 20, red = 50, yellow = 10"
+1091,1091,1091,"green = 20, red = 50, yellow = 20"
+1092,1092,1092,"green = 20, red = 50, yellow = 30"
+1093,1093,1093,"green = 20, red = 50, yellow = 40"
+1094,1094,1094,"green = 20, red = 50, yellow = 50"
+1095,1095,1095,"green = 30, purple = 10, red = 50"
+1096,1096,1096,"green = 30, purple = 20, red = 50"
+1097,1097,1097,"green = 30, purple = 30, red = 50"
+1098,1098,1098,"green = 30, purple = 40, red = 50"
+1099,1099,1099,"green = 30, purple = 50, red = 50"
+1100,1100,1100,"green = 30, red = 50, yellow = 10"
+1101,1101,1101,"green = 30, red = 50, yellow = 20"
+1102,1102,1102,"green = 30, red = 50, yellow = 30"
+1103,1103,1103,"green = 30, red = 50, yellow = 40"
+1104,1104,1104,"green = 30, red = 50, yellow = 50"
+1105,1105,1105,"green = 40, purple = 10, red = 50"
+1106,1106,1106,"green = 40, purple = 20, red = 50"
+1107,1107,1107,"green = 40, purple = 30, red = 50"
+1108,1108,1108,"green = 40, purple = 40, red = 50"
+1109,1109,1109,"green = 40, purple = 50, red = 50"
+1110,1110,1110,"green = 40, red = 50, yellow = 10"
+1111,1111,1111,"green = 40, red = 50, yellow = 20"
+1112,1112,1112,"green = 40, red = 50, yellow = 30"
+1113,1113,1113,"green = 40, red = 50, yellow = 40"
+1114,1114,1114,"green = 40, red = 50, yellow = 50"
+1115,1115,1115,"green = 50, purple = 10, red = 50"
+1116,1116,1116,"green = 50, purple = 20, red = 50"
+1117,1117,1117,"green = 50, purple = 30, red = 50"
+1118,1118,1118,"green = 50, purple = 40, red = 50"
+1119,1119,1119,"green = 50, purple = 50, red = 50"
+1120,1120,1120,"green = 50, red = 50, yellow = 10"
+1121,1121,1121,"green = 50, red = 50, yellow = 20"
+1122,1122,1122,"green = 50, red = 50, yellow = 30"
+1123,1123,1123,"green = 50, red = 50, yellow = 40"
+1124,1124,1124,"green = 50, red = 50, yellow = 50"
+1125,1125,1125,"purple = 10, red = 50, yellow = 10"
+1126,1126,1126,"purple = 10, red = 50, yellow = 20"
+1127,1127,1127,"purple = 10, red = 50, yellow = 30"
+1128,1128,1128,"purple = 10, red = 50, yellow = 40"
+1129,1129,1129,"purple = 10, red = 50, yellow = 50"
+1130,1130,1130,"purple = 20, red = 50, yellow = 10"
+1131,1131,1131,"purple = 20, red = 50, yellow = 20"
+1132,1132,1132,"purple = 20, red = 50, yellow = 30"
+1133,1133,1133,"purple = 20, red = 50, yellow = 40"
+1134,1134,1134,"purple = 20, red = 50, yellow = 50"
+1135,1135,1135,"purple = 30, red = 50, yellow = 10"
+1136,1136,1136,"purple = 30, red = 50, yellow = 20"
+1137,1137,1137,"purple = 30, red = 50, yellow = 30"
+1138,1138,1138,"purple = 30, red = 50, yellow = 40"
+1139,1139,1139,"purple = 30, red = 50, yellow = 50"
+1140,1140,1140,"purple = 40, red = 50, yellow = 10"
+1141,1141,1141,"purple = 40, red = 50, yellow = 20"
+1142,1142,1142,"purple = 40, red = 50, yellow = 30"
+1143,1143,1143,"purple = 40, red = 50, yellow = 40"
+1144,1144,1144,"purple = 40, red = 50, yellow = 50"
+1145,1145,1145,"purple = 50, red = 50, yellow = 10"
+1146,1146,1146,"purple = 50, red = 50, yellow = 20"
+1147,1147,1147,"purple = 50, red = 50, yellow = 30"
+1148,1148,1148,"purple = 50, red = 50, yellow = 40"
+1149,1149,1149,"purple = 50, red = 50, yellow = 50"
+1150,1150,1150,"blue = 10, green = 10, purple = 10"
+1151,1151,1151,"blue = 10, green = 10, purple = 20"
+1152,1152,1152,"blue = 10, green = 10, purple = 30"
+1153,1153,1153,"blue = 10, green = 10, purple = 40"
+1154,1154,1154,"blue = 10, green = 10, purple = 50"
+1155,1155,1155,"blue = 10, green = 10, yellow = 10"
+1156,1156,1156,"blue = 10, green = 10, yellow = 20"
+1157,1157,1157,"blue = 10, green = 10, yellow = 30"
+1158,1158,1158,"blue = 10, green = 10, yellow = 40"
+1159,1159,1159,"blue = 10, green = 10, yellow = 50"
+1160,1160,1160,"blue = 10, green = 20, purple = 10"
+1161,1161,1161,"blue = 10, green = 20, purple = 20"
+1162,1162,1162,"blue = 10, green = 20, purple = 30"
+1163,1163,1163,"blue = 10, green = 20, purple = 40"
+1164,1164,1164,"blue = 10, green = 20, purple = 50"
+1165,1165,1165,"blue = 10, green = 20, yellow = 10"
+1166,1166,1166,"blue = 10, green = 20, yellow = 20"
+1167,1167,1167,"blue = 10, green = 20, yellow = 30"
+1168,1168,1168,"blue = 10, green = 20, yellow = 40"
+1169,1169,1169,"blue = 10, green = 20, yellow = 50"
+1170,1170,1170,"blue = 10, green = 30, purple = 10"
+1171,1171,1171,"blue = 10, green = 30, purple = 20"
+1172,1172,1172,"blue = 10, green = 30, purple = 30"
+1173,1173,1173,"blue = 10, green = 30, purple = 40"
+1174,1174,1174,"blue = 10, green = 30, purple = 50"
+1175,1175,1175,"blue = 10, green = 30, yellow = 10"
+1176,1176,1176,"blue = 10, green = 30, yellow = 20"
+1177,1177,1177,"blue = 10, green = 30, yellow = 30"
+1178,1178,1178,"blue = 10, green = 30, yellow = 40"
+1179,1179,1179,"blue = 10, green = 30, yellow = 50"
+1180,1180,1180,"blue = 10, green = 40, purple = 10"
+1181,1181,1181,"blue = 10, green = 40, purple = 20"
+1182,1182,1182,"blue = 10, green = 40, purple = 30"
+1183,1183,1183,"blue = 10, green = 40, purple = 40"
+1184,1184,1184,"blue = 10, green = 40, purple = 50"
+1185,1185,1185,"blue = 10, green = 40, yellow = 10"
+1186,1186,1186,"blue = 10, green = 40, yellow = 20"
+1187,1187,1187,"blue = 10, green = 40, yellow = 30"
+1188,1188,1188,"blue = 10, green = 40, yellow = 40"
+1189,1189,1189,"blue = 10, green = 40, yellow = 50"
+1190,1190,1190,"blue = 10, green = 50, purple = 10"
+1191,1191,1191,"blue = 10, green = 50, purple = 20"
+1192,1192,1192,"blue = 10, green = 50, purple = 30"
+1193,1193,1193,"blue = 10, green = 50, purple = 40"
+1194,1194,1194,"blue = 10, green = 50, purple = 50"
+1195,1195,1195,"blue = 10, green = 50, yellow = 10"
+1196,1196,1196,"blue = 10, green = 50, yellow = 20"
+1197,1197,1197,"blue = 10, green = 50, yellow = 30"
+1198,1198,1198,"blue = 10, green = 50, yellow = 40"
+1199,1199,1199,"blue = 10, green = 50, yellow = 50"
+1200,1200,1200,"blue = 10, purple = 10, yellow = 10"
+1201,1201,1201,"blue = 10, purple = 10, yellow = 20"
+1202,1202,1202,"blue = 10, purple = 10, yellow = 30"
+1203,1203,1203,"blue = 10, purple = 10, yellow = 40"
+1204,1204,1204,"blue = 10, purple = 10, yellow = 50"
+1205,1205,1205,"blue = 10, purple = 20, yellow = 10"
+1206,1206,1206,"blue = 10, purple = 20, yellow = 20"
+1207,1207,1207,"blue = 10, purple = 20, yellow = 30"
+1208,1208,1208,"blue = 10, purple = 20, yellow = 40"
+1209,1209,1209,"blue = 10, purple = 20, yellow = 50"
+1210,1210,1210,"blue = 10, purple = 30, yellow = 10"
+1211,1211,1211,"blue = 10, purple = 30, yellow = 20"
+1212,1212,1212,"blue = 10, purple = 30, yellow = 30"
+1213,1213,1213,"blue = 10, purple = 30, yellow = 40"
+1214,1214,1214,"blue = 10, purple = 30, yellow = 50"
+1215,1215,1215,"blue = 10, purple = 40, yellow = 10"
+1216,1216,1216,"blue = 10, purple = 40, yellow = 20"
+1217,1217,1217,"blue = 10, purple = 40, yellow = 30"
+1218,1218,1218,"blue = 10, purple = 40, yellow = 40"
+1219,1219,1219,"blue = 10, purple = 40, yellow = 50"
+1220,1220,1220,"blue = 10, purple = 50, yellow = 10"
+1221,1221,1221,"blue = 10, purple = 50, yellow = 20"
+1222,1222,1222,"blue = 10, purple = 50, yellow = 30"
+1223,1223,1223,"blue = 10, purple = 50, yellow = 40"
+1224,1224,1224,"blue = 10, purple = 50, yellow = 50"
+1225,1225,1225,"blue = 20, green = 10, purple = 10"
+1226,1226,1226,"blue = 20, green = 10, purple = 20"
+1227,1227,1227,"blue = 20, green = 10, purple = 30"
+1228,1228,1228,"blue = 20, green = 10, purple = 40"
+1229,1229,1229,"blue = 20, green = 10, purple = 50"
+1230,1230,1230,"blue = 20, green = 10, yellow = 10"
+1231,1231,1231,"blue = 20, green = 10, yellow = 20"
+1232,1232,1232,"blue = 20, green = 10, yellow = 30"
+1233,1233,1233,"blue = 20, green = 10, yellow = 40"
+1234,1234,1234,"blue = 20, green = 10, yellow = 50"
+1235,1235,1235,"blue = 20, green = 20, purple = 10"
+1236,1236,1236,"blue = 20, green = 20, purple = 20"
+1237,1237,1237,"blue = 20, green = 20, purple = 30"
+1238,1238,1238,"blue = 20, green = 20, purple = 40"
+1239,1239,1239,"blue = 20, green = 20, purple = 50"
+1240,1240,1240,"blue = 20, green = 20, yellow = 10"
+1241,1241,1241,"blue = 20, green = 20, yellow = 20"
+1242,1242,1242,"blue = 20, green = 20, yellow = 30"
+1243,1243,1243,"blue = 20, green = 20, yellow = 40"
+1244,1244,1244,"blue = 20, green = 20, yellow = 50"
+1245,1245,1245,"blue = 20, green = 30, purple = 10"
+1246,1246,1246,"blue = 20, green = 30, purple = 20"
+1247,1247,1247,"blue = 20, green = 30, purple = 30"
+1248,1248,1248,"blue = 20, green = 30, purple = 40"
+1249,1249,1249,"blue = 20, green = 30, purple = 50"
+1250,1250,1250,"blue = 20, green = 30, yellow = 10"
+1251,1251,1251,"blue = 20, green = 30, yellow = 20"
+1252,1252,1252,"blue = 20, green = 30, yellow = 30"
+1253,1253,1253,"blue = 20, green = 30, yellow = 40"
+1254,1254,1254,"blue = 20, green = 30, yellow = 50"
+1255,1255,1255,"blue = 20, green = 40, purple = 10"
+1256,1256,1256,"blue = 20, green = 40, purple = 20"
+1257,1257,1257,"blue = 20, green = 40, purple = 30"
+1258,1258,1258,"blue = 20, green = 40, purple = 40"
+1259,1259,1259,"blue = 20, green = 40, purple = 50"
+1260,1260,1260,"blue = 20, green = 40, yellow = 10"
+1261,1261,1261,"blue = 20, green = 40, yellow = 20"
+1262,1262,1262,"blue = 20, green = 40, yellow = 30"
+1263,1263,1263,"blue = 20, green = 40, yellow = 40"
+1264,1264,1264,"blue = 20, green = 40, yellow = 50"
+1265,1265,1265,"blue = 20, green = 50, purple = 10"
+1266,1266,1266,"blue = 20, green = 50, purple = 20"
+1267,1267,1267,"blue = 20, green = 50, purple = 30"
+1268,1268,1268,"blue = 20, green = 50, purple = 40"
+1269,1269,1269,"blue = 20, green = 50, purple = 50"
+1270,1270,1270,"blue = 20, green = 50, yellow = 10"
+1271,1271,1271,"blue = 20, green = 50, yellow = 20"
+1272,1272,1272,"blue = 20, green = 50, yellow = 30"
+1273,1273,1273,"blue = 20, green = 50, yellow = 40"
+1274,1274,1274,"blue = 20, green = 50, yellow = 50"
+1275,1275,1275,"blue = 20, purple = 10, yellow = 10"
+1276,1276,1276,"blue = 20, purple = 10, yellow = 20"
+1277,1277,1277,"blue = 20, purple = 10, yellow = 30"
+1278,1278,1278,"blue = 20, purple = 10, yellow = 40"
+1279,1279,1279,"blue = 20, purple = 10, yellow = 50"
+1280,1280,1280,"blue = 20, purple = 20, yellow = 10"
+1281,1281,1281,"blue = 20, purple = 20, yellow = 20"
+1282,1282,1282,"blue = 20, purple = 20, yellow = 30"
+1283,1283,1283,"blue = 20, purple = 20, yellow = 40"
+1284,1284,1284,"blue = 20, purple = 20, yellow = 50"
+1285,1285,1285,"blue = 20, purple = 30, yellow = 10"
+1286,1286,1286,"blue = 20, purple = 30, yellow = 20"
+1287,1287,1287,"blue = 20, purple = 30, yellow = 30"
+1288,1288,1288,"blue = 20, purple = 30, yellow = 40"
+1289,1289,1289,"blue = 20, purple = 30, yellow = 50"
+1290,1290,1290,"blue = 20, purple = 40, yellow = 10"
+1291,1291,1291,"blue = 20, purple = 40, yellow = 20"
+1292,1292,1292,"blue = 20, purple = 40, yellow = 30"
+1293,1293,1293,"blue = 20, purple = 40, yellow = 40"
+1294,1294,1294,"blue = 20, purple = 40, yellow = 50"
+1295,1295,1295,"blue = 20, purple = 50, yellow = 10"
+1296,1296,1296,"blue = 20, purple = 50, yellow = 20"
+1297,1297,1297,"blue = 20, purple = 50, yellow = 30"
+1298,1298,1298,"blue = 20, purple = 50, yellow = 40"
+1299,1299,1299,"blue = 20, purple = 50, yellow = 50"
+1300,1300,1300,"blue = 30, green = 10, purple = 10"
+1301,1301,1301,"blue = 30, green = 10, purple = 20"
+1302,1302,1302,"blue = 30, green = 10, purple = 30"
+1303,1303,1303,"blue = 30, green = 10, purple = 40"
+1304,1304,1304,"blue = 30, green = 10, purple = 50"
+1305,1305,1305,"blue = 30, green = 10, yellow = 10"
+1306,1306,1306,"blue = 30, green = 10, yellow = 20"
+1307,1307,1307,"blue = 30, green = 10, yellow = 30"
+1308,1308,1308,"blue = 30, green = 10, yellow = 40"
+1309,1309,1309,"blue = 30, green = 10, yellow = 50"
+1310,1310,1310,"blue = 30, green = 20, purple = 10"
+1311,1311,1311,"blue = 30, green = 20, purple = 20"
+1312,1312,1312,"blue = 30, green = 20, purple = 30"
+1313,1313,1313,"blue = 30, green = 20, purple = 40"
+1314,1314,1314,"blue = 30, green = 20, purple = 50"
+1315,1315,1315,"blue = 30, green = 20, yellow = 10"
+1316,1316,1316,"blue = 30, green = 20, yellow = 20"
+1317,1317,1317,"blue = 30, green = 20, yellow = 30"
+1318,1318,1318,"blue = 30, green = 20, yellow = 40"
+1319,1319,1319,"blue = 30, green = 20, yellow = 50"
+1320,1320,1320,"blue = 30, green = 30, purple = 10"
+1321,1321,1321,"blue = 30, green = 30, purple = 20"
+1322,1322,1322,"blue = 30, green = 30, purple = 30"
+1323,1323,1323,"blue = 30, green = 30, purple = 40"
+1324,1324,1324,"blue = 30, green = 30, purple = 50"
+1325,1325,1325,"blue = 30, green = 30, yellow = 10"
+1326,1326,1326,"blue = 30, green = 30, yellow = 20"
+1327,1327,1327,"blue = 30, green = 30, yellow = 30"
+1328,1328,1328,"blue = 30, green = 30, yellow = 40"
+1329,1329,1329,"blue = 30, green = 30, yellow = 50"
+1330,1330,1330,"blue = 30, green = 40, purple = 10"
+1331,1331,1331,"blue = 30, green = 40, purple = 20"
+1332,1332,1332,"blue = 30, green = 40, purple = 30"
+1333,1333,1333,"blue = 30, green = 40, purple = 40"
+1334,1334,1334,"blue = 30, green = 40, purple = 50"
+1335,1335,1335,"blue = 30, green = 40, yellow = 10"
+1336,1336,1336,"blue = 30, green = 40, yellow = 20"
+1337,1337,1337,"blue = 30, green = 40, yellow = 30"
+1338,1338,1338,"blue = 30, green = 40, yellow = 40"
+1339,1339,1339,"blue = 30, green = 40, yellow = 50"
+1340,1340,1340,"blue = 30, green = 50, purple = 10"
+1341,1341,1341,"blue = 30, green = 50, purple = 20"
+1342,1342,1342,"blue = 30, green = 50, purple = 30"
+1343,1343,1343,"blue = 30, green = 50, purple = 40"
+1344,1344,1344,"blue = 30, green = 50, purple = 50"
+1345,1345,1345,"blue = 30, green = 50, yellow = 10"
+1346,1346,1346,"blue = 30, green = 50, yellow = 20"
+1347,1347,1347,"blue = 30, green = 50, yellow = 30"
+1348,1348,1348,"blue = 30, green = 50, yellow = 40"
+1349,1349,1349,"blue = 30, green = 50, yellow = 50"
+1350,1350,1350,"blue = 30, purple = 10, yellow = 10"
+1351,1351,1351,"blue = 30, purple = 10, yellow = 20"
+1352,1352,1352,"blue = 30, purple = 10, yellow = 30"
+1353,1353,1353,"blue = 30, purple = 10, yellow = 40"
+1354,1354,1354,"blue = 30, purple = 10, yellow = 50"
+1355,1355,1355,"blue = 30, purple = 20, yellow = 10"
+1356,1356,1356,"blue = 30, purple = 20, yellow = 20"
+1357,1357,1357,"blue = 30, purple = 20, yellow = 30"
+1358,1358,1358,"blue = 30, purple = 20, yellow = 40"
+1359,1359,1359,"blue = 30, purple = 20, yellow = 50"
+1360,1360,1360,"blue = 30, purple = 30, yellow = 10"
+1361,1361,1361,"blue = 30, purple = 30, yellow = 20"
+1362,1362,1362,"blue = 30, purple = 30, yellow = 30"
+1363,1363,1363,"blue = 30, purple = 30, yellow = 40"
+1364,1364,1364,"blue = 30, purple = 30, yellow = 50"
+1365,1365,1365,"blue = 30, purple = 40, yellow = 10"
+1366,1366,1366,"blue = 30, purple = 40, yellow = 20"
+1367,1367,1367,"blue = 30, purple = 40, yellow = 30"
+1368,1368,1368,"blue = 30, purple = 40, yellow = 40"
+1369,1369,1369,"blue = 30, purple = 40, yellow = 50"
+1370,1370,1370,"blue = 30, purple = 50, yellow = 10"
+1371,1371,1371,"blue = 30, purple = 50, yellow = 20"
+1372,1372,1372,"blue = 30, purple = 50, yellow = 30"
+1373,1373,1373,"blue = 30, purple = 50, yellow = 40"
+1374,1374,1374,"blue = 30, purple = 50, yellow = 50"
+1375,1375,1375,"blue = 40, green = 10, purple = 10"
+1376,1376,1376,"blue = 40, green = 10, purple = 20"
+1377,1377,1377,"blue = 40, green = 10, purple = 30"
+1378,1378,1378,"blue = 40, green = 10, purple = 40"
+1379,1379,1379,"blue = 40, green = 10, purple = 50"
+1380,1380,1380,"blue = 40, green = 10, yellow = 10"
+1381,1381,1381,"blue = 40, green = 10, yellow = 20"
+1382,1382,1382,"blue = 40, green = 10, yellow = 30"
+1383,1383,1383,"blue = 40, green = 10, yellow = 40"
+1384,1384,1384,"blue = 40, green = 10, yellow = 50"
+1385,1385,1385,"blue = 40, green = 20, purple = 10"
+1386,1386,1386,"blue = 40, green = 20, purple = 20"
+1387,1387,1387,"blue = 40, green = 20, purple = 30"
+1388,1388,1388,"blue = 40, green = 20, purple = 40"
+1389,1389,1389,"blue = 40, green = 20, purple = 50"
+1390,1390,1390,"blue = 40, green = 20, yellow = 10"
+1391,1391,1391,"blue = 40, green = 20, yellow = 20"
+1392,1392,1392,"blue = 40, green = 20, yellow = 30"
+1393,1393,1393,"blue = 40, green = 20, yellow = 40"
+1394,1394,1394,"blue = 40, green = 20, yellow = 50"
+1395,1395,1395,"blue = 40, green = 30, purple = 10"
+1396,1396,1396,"blue = 40, green = 30, purple = 20"
+1397,1397,1397,"blue = 40, green = 30, purple = 30"
+1398,1398,1398,"blue = 40, green = 30, purple = 40"
+1399,1399,1399,"blue = 40, green = 30, purple = 50"
+1400,1400,1400,"blue = 40, green = 30, yellow = 10"
+1401,1401,1401,"blue = 40, green = 30, yellow = 20"
+1402,1402,1402,"blue = 40, green = 30, yellow = 30"
+1403,1403,1403,"blue = 40, green = 30, yellow = 40"
+1404,1404,1404,"blue = 40, green = 30, yellow = 50"
+1405,1405,1405,"blue = 40, green = 40, purple = 10"
+1406,1406,1406,"blue = 40, green = 40, purple = 20"
+1407,1407,1407,"blue = 40, green = 40, purple = 30"
+1408,1408,1408,"blue = 40, green = 40, purple = 40"
+1409,1409,1409,"blue = 40, green = 40, purple = 50"
+1410,1410,1410,"blue = 40, green = 40, yellow = 10"
+1411,1411,1411,"blue = 40, green = 40, yellow = 20"
+1412,1412,1412,"blue = 40, green = 40, yellow = 30"
+1413,1413,1413,"blue = 40, green = 40, yellow = 40"
+1414,1414,1414,"blue = 40, green = 40, yellow = 50"
+1415,1415,1415,"blue = 40, green = 50, purple = 10"
+1416,1416,1416,"blue = 40, green = 50, purple = 20"
+1417,1417,1417,"blue = 40, green = 50, purple = 30"
+1418,1418,1418,"blue = 40, green = 50, purple = 40"
+1419,1419,1419,"blue = 40, green = 50, purple = 50"
+1420,1420,1420,"blue = 40, green = 50, yellow = 10"
+1421,1421,1421,"blue = 40, green = 50, yellow = 20"
+1422,1422,1422,"blue = 40, green = 50, yellow = 30"
+1423,1423,1423,"blue = 40, green = 50, yellow = 40"
+1424,1424,1424,"blue = 40, green = 50, yellow = 50"
+1425,1425,1425,"blue = 40, purple = 10, yellow = 10"
+1426,1426,1426,"blue = 40, purple = 10, yellow = 20"
+1427,1427,1427,"blue = 40, purple = 10, yellow = 30"
+1428,1428,1428,"blue = 40, purple = 10, yellow = 40"
+1429,1429,1429,"blue = 40, purple = 10, yellow = 50"
+1430,1430,1430,"blue = 40, purple = 20, yellow = 10"
+1431,1431,1431,"blue = 40, purple = 20, yellow = 20"
+1432,1432,1432,"blue = 40, purple = 20, yellow = 30"
+1433,1433,1433,"blue = 40, purple = 20, yellow = 40"
+1434,1434,1434,"blue = 40, purple = 20, yellow = 50"
+1435,1435,1435,"blue = 40, purple = 30, yellow = 10"
+1436,1436,1436,"blue = 40, purple = 30, yellow = 20"
+1437,1437,1437,"blue = 40, purple = 30, yellow = 30"
+1438,1438,1438,"blue = 40, purple = 30, yellow = 40"
+1439,1439,1439,"blue = 40, purple = 30, yellow = 50"
+1440,1440,1440,"blue = 40, purple = 40, yellow = 10"
+1441,1441,1441,"blue = 40, purple = 40, yellow = 20"
+1442,1442,1442,"blue = 40, purple = 40, yellow = 30"
+1443,1443,1443,"blue = 40, purple = 40, yellow = 40"
+1444,1444,1444,"blue = 40, purple = 40, yellow = 50"
+1445,1445,1445,"blue = 40, purple = 50, yellow = 10"
+1446,1446,1446,"blue = 40, purple = 50, yellow = 20"
+1447,1447,1447,"blue = 40, purple = 50, yellow = 30"
+1448,1448,1448,"blue = 40, purple = 50, yellow = 40"
+1449,1449,1449,"blue = 40, purple = 50, yellow = 50"
+1450,1450,1450,"blue = 50, green = 10, purple = 10"
+1451,1451,1451,"blue = 50, green = 10, purple = 20"
+1452,1452,1452,"blue = 50, green = 10, purple = 30"
+1453,1453,1453,"blue = 50, green = 10, purple = 40"
+1454,1454,1454,"blue = 50, green = 10, purple = 50"
+1455,1455,1455,"blue = 50, green = 10, yellow = 10"
+1456,1456,1456,"blue = 50, green = 10, yellow = 20"
+1457,1457,1457,"blue = 50, green = 10, yellow = 30"
+1458,1458,1458,"blue = 50, green = 10, yellow = 40"
+1459,1459,1459,"blue = 50, green = 10, yellow = 50"
+1460,1460,1460,"blue = 50, green = 20, purple = 10"
+1461,1461,1461,"blue = 50, green = 20, purple = 20"
+1462,1462,1462,"blue = 50, green = 20, purple = 30"
+1463,1463,1463,"blue = 50, green = 20, purple = 40"
+1464,1464,1464,"blue = 50, green = 20, purple = 50"
+1465,1465,1465,"blue = 50, green = 20, yellow = 10"
+1466,1466,1466,"blue = 50, green = 20, yellow = 20"
+1467,1467,1467,"blue = 50, green = 20, yellow = 30"
+1468,1468,1468,"blue = 50, green = 20, yellow = 40"
+1469,1469,1469,"blue = 50, green = 20, yellow = 50"
+1470,1470,1470,"blue = 50, green = 30, purple = 10"
+1471,1471,1471,"blue = 50, green = 30, purple = 20"
+1472,1472,1472,"blue = 50, green = 30, purple = 30"
+1473,1473,1473,"blue = 50, green = 30, purple = 40"
+1474,1474,1474,"blue = 50, green = 30, purple = 50"
+1475,1475,1475,"blue = 50, green = 30, yellow = 10"
+1476,1476,1476,"blue = 50, green = 30, yellow = 20"
+1477,1477,1477,"blue = 50, green = 30, yellow = 30"
+1478,1478,1478,"blue = 50, green = 30, yellow = 40"
+1479,1479,1479,"blue = 50, green = 30, yellow = 50"
+1480,1480,1480,"blue = 50, green = 40, purple = 10"
+1481,1481,1481,"blue = 50, green = 40, purple = 20"
+1482,1482,1482,"blue = 50, green = 40, purple = 30"
+1483,1483,1483,"blue = 50, green = 40, purple = 40"
+1484,1484,1484,"blue = 50, green = 40, purple = 50"
+1485,1485,1485,"blue = 50, green = 40, yellow = 10"
+1486,1486,1486,"blue = 50, green = 40, yellow = 20"
+1487,1487,1487,"blue = 50, green = 40, yellow = 30"
+1488,1488,1488,"blue = 50, green = 40, yellow = 40"
+1489,1489,1489,"blue = 50, green = 40, yellow = 50"
+1490,1490,1490,"blue = 50, green = 50, purple = 10"
+1491,1491,1491,"blue = 50, green = 50, purple = 20"
+1492,1492,1492,"blue = 50, green = 50, purple = 30"
+1493,1493,1493,"blue = 50, green = 50, purple = 40"
+1494,1494,1494,"blue = 50, green = 50, purple = 50"
+1495,1495,1495,"blue = 50, green = 50, yellow = 10"
+1496,1496,1496,"blue = 50, green = 50, yellow = 20"
+1497,1497,1497,"blue = 50, green = 50, yellow = 30"
+1498,1498,1498,"blue = 50, green = 50, yellow = 40"
+1499,1499,1499,"blue = 50, green = 50, yellow = 50"
+1500,1500,1500,"blue = 50, purple = 10, yellow = 10"
+1501,1501,1501,"blue = 50, purple = 10, yellow = 20"
+1502,1502,1502,"blue = 50, purple = 10, yellow = 30"
+1503,1503,1503,"blue = 50, purple = 10, yellow = 40"
+1504,1504,1504,"blue = 50, purple = 10, yellow = 50"
+1505,1505,1505,"blue = 50, purple = 20, yellow = 10"
+1506,1506,1506,"blue = 50, purple = 20, yellow = 20"
+1507,1507,1507,"blue = 50, purple = 20, yellow = 30"
+1508,1508,1508,"blue = 50, purple = 20, yellow = 40"
+1509,1509,1509,"blue = 50, purple = 20, yellow = 50"
+1510,1510,1510,"blue = 50, purple = 30, yellow = 10"
+1511,1511,1511,"blue = 50, purple = 30, yellow = 20"
+1512,1512,1512,"blue = 50, purple = 30, yellow = 30"
+1513,1513,1513,"blue = 50, purple = 30, yellow = 40"
+1514,1514,1514,"blue = 50, purple = 30, yellow = 50"
+1515,1515,1515,"blue = 50, purple = 40, yellow = 10"
+1516,1516,1516,"blue = 50, purple = 40, yellow = 20"
+1517,1517,1517,"blue = 50, purple = 40, yellow = 30"
+1518,1518,1518,"blue = 50, purple = 40, yellow = 40"
+1519,1519,1519,"blue = 50, purple = 40, yellow = 50"
+1520,1520,1520,"blue = 50, purple = 50, yellow = 10"
+1521,1521,1521,"blue = 50, purple = 50, yellow = 20"
+1522,1522,1522,"blue = 50, purple = 50, yellow = 30"
+1523,1523,1523,"blue = 50, purple = 50, yellow = 40"
+1524,1524,1524,"blue = 50, purple = 50, yellow = 50"
+1525,1525,1525,"green = 10, purple = 10, yellow = 10"
+1526,1526,1526,"green = 10, purple = 10, yellow = 20"
+1527,1527,1527,"green = 10, purple = 10, yellow = 30"
+1528,1528,1528,"green = 10, purple = 10, yellow = 40"
+1529,1529,1529,"green = 10, purple = 10, yellow = 50"
+1530,1530,1530,"green = 10, purple = 20, yellow = 10"
+1531,1531,1531,"green = 10, purple = 20, yellow = 20"
+1532,1532,1532,"green = 10, purple = 20, yellow = 30"
+1533,1533,1533,"green = 10, purple = 20, yellow = 40"
+1534,1534,1534,"green = 10, purple = 20, yellow = 50"
+1535,1535,1535,"green = 10, purple = 30, yellow = 10"
+1536,1536,1536,"green = 10, purple = 30, yellow = 20"
+1537,1537,1537,"green = 10, purple = 30, yellow = 30"
+1538,1538,1538,"green = 10, purple = 30, yellow = 40"
+1539,1539,1539,"green = 10, purple = 30, yellow = 50"
+1540,1540,1540,"green = 10, purple = 40, yellow = 10"
+1541,1541,1541,"green = 10, purple = 40, yellow = 20"
+1542,1542,1542,"green = 10, purple = 40, yellow = 30"
+1543,1543,1543,"green = 10, purple = 40, yellow = 40"
+1544,1544,1544,"green = 10, purple = 40, yellow = 50"
+1545,1545,1545,"green = 10, purple = 50, yellow = 10"
+1546,1546,1546,"green = 10, purple = 50, yellow = 20"
+1547,1547,1547,"green = 10, purple = 50, yellow = 30"
+1548,1548,1548,"green = 10, purple = 50, yellow = 40"
+1549,1549,1549,"green = 10, purple = 50, yellow = 50"
+1550,1550,1550,"green = 20, purple = 10, yellow = 10"
+1551,1551,1551,"green = 20, purple = 10, yellow = 20"
+1552,1552,1552,"green = 20, purple = 10, yellow = 30"
+1553,1553,1553,"green = 20, purple = 10, yellow = 40"
+1554,1554,1554,"green = 20, purple = 10, yellow = 50"
+1555,1555,1555,"green = 20, purple = 20, yellow = 10"
+1556,1556,1556,"green = 20, purple = 20, yellow = 20"
+1557,1557,1557,"green = 20, purple = 20, yellow = 30"
+1558,1558,1558,"green = 20, purple = 20, yellow = 40"
+1559,1559,1559,"green = 20, purple = 20, yellow = 50"
+1560,1560,1560,"green = 20, purple = 30, yellow = 10"
+1561,1561,1561,"green = 20, purple = 30, yellow = 20"
+1562,1562,1562,"green = 20, purple = 30, yellow = 30"
+1563,1563,1563,"green = 20, purple = 30, yellow = 40"
+1564,1564,1564,"green = 20, purple = 30, yellow = 50"
+1565,1565,1565,"green = 20, purple = 40, yellow = 10"
+1566,1566,1566,"green = 20, purple = 40, yellow = 20"
+1567,1567,1567,"green = 20, purple = 40, yellow = 30"
+1568,1568,1568,"green = 20, purple = 40, yellow = 40"
+1569,1569,1569,"green = 20, purple = 40, yellow = 50"
+1570,1570,1570,"green = 20, purple = 50, yellow = 10"
+1571,1571,1571,"green = 20, purple = 50, yellow = 20"
+1572,1572,1572,"green = 20, purple = 50, yellow = 30"
+1573,1573,1573,"green = 20, purple = 50, yellow = 40"
+1574,1574,1574,"green = 20, purple = 50, yellow = 50"
+1575,1575,1575,"green = 30, purple = 10, yellow = 10"
+1576,1576,1576,"green = 30, purple = 10, yellow = 20"
+1577,1577,1577,"green = 30, purple = 10, yellow = 30"
+1578,1578,1578,"green = 30, purple = 10, yellow = 40"
+1579,1579,1579,"green = 30, purple = 10, yellow = 50"
+1580,1580,1580,"green = 30, purple = 20, yellow = 10"
+1581,1581,1581,"green = 30, purple = 20, yellow = 20"
+1582,1582,1582,"green = 30, purple = 20, yellow = 30"
+1583,1583,1583,"green = 30, purple = 20, yellow = 40"
+1584,1584,1584,"green = 30, purple = 20, yellow = 50"
+1585,1585,1585,"green = 30, purple = 30, yellow = 10"
+1586,1586,1586,"green = 30, purple = 30, yellow = 20"
+1587,1587,1587,"green = 30, purple = 30, yellow = 30"
+1588,1588,1588,"green = 30, purple = 30, yellow = 40"
+1589,1589,1589,"green = 30, purple = 30, yellow = 50"
+1590,1590,1590,"green = 30, purple = 40, yellow = 10"
+1591,1591,1591,"green = 30, purple = 40, yellow = 20"
+1592,1592,1592,"green = 30, purple = 40, yellow = 30"
+1593,1593,1593,"green = 30, purple = 40, yellow = 40"
+1594,1594,1594,"green = 30, purple = 40, yellow = 50"
+1595,1595,1595,"green = 30, purple = 50, yellow = 10"
+1596,1596,1596,"green = 30, purple = 50, yellow = 20"
+1597,1597,1597,"green = 30, purple = 50, yellow = 30"
+1598,1598,1598,"green = 30, purple = 50, yellow = 40"
+1599,1599,1599,"green = 30, purple = 50, yellow = 50"
+1600,1600,1600,"green = 40, purple = 10, yellow = 10"
+1601,1601,1601,"green = 40, purple = 10, yellow = 20"
+1602,1602,1602,"green = 40, purple = 10, yellow = 30"
+1603,1603,1603,"green = 40, purple = 10, yellow = 40"
+1604,1604,1604,"green = 40, purple = 10, yellow = 50"
+1605,1605,1605,"green = 40, purple = 20, yellow = 10"
+1606,1606,1606,"green = 40, purple = 20, yellow = 20"
+1607,1607,1607,"green = 40, purple = 20, yellow = 30"
+1608,1608,1608,"green = 40, purple = 20, yellow = 40"
+1609,1609,1609,"green = 40, purple = 20, yellow = 50"
+1610,1610,1610,"green = 40, purple = 30, yellow = 10"
+1611,1611,1611,"green = 40, purple = 30, yellow = 20"
+1612,1612,1612,"green = 40, purple = 30, yellow = 30"
+1613,1613,1613,"green = 40, purple = 30, yellow = 40"
+1614,1614,1614,"green = 40, purple = 30, yellow = 50"
+1615,1615,1615,"green = 40, purple = 40, yellow = 10"
+1616,1616,1616,"green = 40, purple = 40, yellow = 20"
+1617,1617,1617,"green = 40, purple = 40, yellow = 30"
+1618,1618,1618,"green = 40, purple = 40, yellow = 40"
+1619,1619,1619,"green = 40, purple = 40, yellow = 50"
+1620,1620,1620,"green = 40, purple = 50, yellow = 10"
+1621,1621,1621,"green = 40, purple = 50, yellow = 20"
+1622,1622,1622,"green = 40, purple = 50, yellow = 30"
+1623,1623,1623,"green = 40, purple = 50, yellow = 40"
+1624,1624,1624,"green = 40, purple = 50, yellow = 50"
+1625,1625,1625,"green = 50, purple = 10, yellow = 10"
+1626,1626,1626,"green = 50, purple = 10, yellow = 20"
+1627,1627,1627,"green = 50, purple = 10, yellow = 30"
+1628,1628,1628,"green = 50, purple = 10, yellow = 40"
+1629,1629,1629,"green = 50, purple = 10, yellow = 50"
+1630,1630,1630,"green = 50, purple = 20, yellow = 10"
+1631,1631,1631,"green = 50, purple = 20, yellow = 20"
+1632,1632,1632,"green = 50, purple = 20, yellow = 30"
+1633,1633,1633,"green = 50, purple = 20, yellow = 40"
+1634,1634,1634,"green = 50, purple = 20, yellow = 50"
+1635,1635,1635,"green = 50, purple = 30, yellow = 10"
+1636,1636,1636,"green = 50, purple = 30, yellow = 20"
+1637,1637,1637,"green = 50, purple = 30, yellow = 30"
+1638,1638,1638,"green = 50, purple = 30, yellow = 40"
+1639,1639,1639,"green = 50, purple = 30, yellow = 50"
+1640,1640,1640,"green = 50, purple = 40, yellow = 10"
+1641,1641,1641,"green = 50, purple = 40, yellow = 20"
+1642,1642,1642,"green = 50, purple = 40, yellow = 30"
+1643,1643,1643,"green = 50, purple = 40, yellow = 40"
+1644,1644,1644,"green = 50, purple = 40, yellow = 50"
+1645,1645,1645,"green = 50, purple = 50, yellow = 10"
+1646,1646,1646,"green = 50, purple = 50, yellow = 20"
+1647,1647,1647,"green = 50, purple = 50, yellow = 30"
+1648,1648,1648,"green = 50, purple = 50, yellow = 40"
+1649,1649,1649,"green = 50, purple = 50, yellow = 50"
