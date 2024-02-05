@@ -1,0 +1,65 @@
+,transcript,filtered_common_ground,cosine_similarity,true_common_ground
+0,compare let 's compare red blue see get baseline blue .,blue = red,tensor([[0.1544]]),<m> blue = 10 </m>
+1,compare let 's compare red blue see get baseline blue .,blue != red,tensor([[0.0411]]),<m> blue = 10 </m>
+2,compare let 's compare red blue see get baseline blue .,red < blue,tensor([[0.0356]]),<m> blue = 10 </m>
+3,compare let 's compare red blue see get baseline blue .,red > blue,tensor([[0.0308]]),<m> blue = 10 </m>
+4,compare let 's compare red blue see get baseline blue .,blue = red,tensor([[0.1544]]),<m> blue = 10 </m>
+5,compare let 's compare red blue see get baseline blue .,blue != red,tensor([[0.0411]]),<m> blue = 10 </m>
+6,compare let 's compare red blue see get baseline blue .,blue < red,tensor([[0.0390]]),<m> blue = 10 </m>
+7,compare let 's compare red blue see get baseline blue .,blue > red,tensor([[0.0266]]),<m> blue = 10 </m>
+8,consider purple block 30,purple = 10,tensor([[0.2773]]),<m> purple = 30 </m>
+9,consider purple block 30,purple = 20,tensor([[0.2130]]),<m> purple = 30 </m>
+10,consider purple block 30,purple = 30,tensor([[0.1332]]),<m> purple = 30 </m>
+11,consider purple block 30,purple = 40,tensor([[0.3342]]),<m> purple = 30 </m>
+12,consider purple block 30,purple = 50,tensor([[0.2495]]),<m> purple = 30 </m>
+13,consider purple block 30,purple != 10,tensor([[0.0550]]),<m> purple = 30 </m>
+14,consider purple block 30,purple != 20,tensor([[0.0526]]),<m> purple = 30 </m>
+15,consider purple block 30,purple != 30,tensor([[0.0482]]),<m> purple = 30 </m>
+16,consider purple block 30,purple != 40,tensor([[0.0462]]),<m> purple = 30 </m>
+17,consider purple block 30,purple != 50,tensor([[0.0518]]),<m> purple = 30 </m>
+18,consider purple block 30,purple < 10,tensor([[0.0445]]),<m> purple = 30 </m>
+19,consider purple block 30,purple < 20,tensor([[0.0445]]),<m> purple = 30 </m>
+20,consider purple block 30,purple < 30,tensor([[0.0412]]),<m> purple = 30 </m>
+21,consider purple block 30,purple < 40,tensor([[0.0422]]),<m> purple = 30 </m>
+22,consider purple block 30,purple < 50,tensor([[0.0441]]),<m> purple = 30 </m>
+23,consider purple block 30,purple > 10,tensor([[0.0500]]),<m> purple = 30 </m>
+24,consider purple block 30,purple > 20,tensor([[0.0477]]),<m> purple = 30 </m>
+25,consider purple block 30,purple > 30,tensor([[0.0450]]),<m> purple = 30 </m>
+26,consider purple block 30,purple > 40,tensor([[0.0443]]),<m> purple = 30 </m>
+27,consider purple block 30,purple > 50,tensor([[0.0478]]),<m> purple = 30 </m>
+28,purple block 's purple block 's twenty,purple = 20,tensor([[1.3316]]),<m> purple != 40 </m>
+29,purple block 's purple block 's twenty,purple != 20,tensor([[0.0734]]),<m> purple != 40 </m>
+30,purple block 's purple block 's twenty,purple < 20,tensor([[0.0676]]),<m> purple != 40 </m>
+31,purple block 's purple block 's twenty,purple > 20,tensor([[0.1549]]),<m> purple != 40 </m>
+32,purple block 's purple block 's twenty,purple = 20,tensor([[1.3316]]),<m> purple != 20 </m>
+33,purple block 's purple block 's twenty,purple != 20,tensor([[0.0734]]),<m> purple != 20 </m>
+34,purple block 's purple block 's twenty,purple < 20,tensor([[0.0676]]),<m> purple != 20 </m>
+35,purple block 's purple block 's twenty,purple > 20,tensor([[0.1549]]),<m> purple != 20 </m>
+36,purple block 's got ta thi-,purple = 10,tensor([[0.4271]]),<m> purple = 30 </m>
+37,purple block 's got ta thi-,purple = 20,tensor([[0.5174]]),<m> purple = 30 </m>
+38,purple block 's got ta thi-,purple = 30,tensor([[0.2580]]),<m> purple = 30 </m>
+39,purple block 's got ta thi-,purple = 40,tensor([[0.6026]]),<m> purple = 30 </m>
+40,purple block 's got ta thi-,purple = 50,tensor([[0.5929]]),<m> purple = 30 </m>
+41,purple block 's got ta thi-,purple != 10,tensor([[0.0972]]),<m> purple = 30 </m>
+42,purple block 's got ta thi-,purple != 20,tensor([[0.1076]]),<m> purple = 30 </m>
+43,purple block 's got ta thi-,purple != 30,tensor([[0.0956]]),<m> purple = 30 </m>
+44,purple block 's got ta thi-,purple != 40,tensor([[0.0936]]),<m> purple = 30 </m>
+45,purple block 's got ta thi-,purple != 50,tensor([[0.0963]]),<m> purple = 30 </m>
+46,purple block 's got ta thi-,purple < 10,tensor([[0.0952]]),<m> purple = 30 </m>
+47,purple block 's got ta thi-,purple < 20,tensor([[0.1082]]),<m> purple = 30 </m>
+48,purple block 's got ta thi-,purple < 30,tensor([[0.0917]]),<m> purple = 30 </m>
+49,purple block 's got ta thi-,purple < 40,tensor([[0.0921]]),<m> purple = 30 </m>
+50,purple block 's got ta thi-,purple < 50,tensor([[0.0925]]),<m> purple = 30 </m>
+51,purple block 's got ta thi-,purple > 10,tensor([[0.0923]]),<m> purple = 30 </m>
+52,purple block 's got ta thi-,purple > 20,tensor([[0.1058]]),<m> purple = 30 </m>
+53,purple block 's got ta thi-,purple > 30,tensor([[0.0929]]),<m> purple = 30 </m>
+54,purple block 's got ta thi-,purple > 40,tensor([[0.0854]]),<m> purple = 30 </m>
+55,purple block 's got ta thi-,purple > 50,tensor([[0.0888]]),<m> purple = 30 </m>
+56,okay yellow block fifty,yellow = 50,tensor([[1.2877]]),<m> yellow = 50 </m>
+57,okay yellow block fifty,yellow != 50,tensor([[0.1009]]),<m> yellow = 50 </m>
+58,okay yellow block fifty,yellow < 50,tensor([[0.1277]]),<m> yellow = 50 </m>
+59,okay yellow block fifty,yellow > 50,tensor([[0.1891]]),<m> yellow = 50 </m>
+60,thirty would yellow,yellow = 30,tensor([[1.3116]]),<m> yellow = 50 </m>
+61,thirty would yellow,yellow != 30,tensor([[0.2286]]),<m> yellow = 50 </m>
+62,thirty would yellow,yellow < 30,tensor([[0.3095]]),<m> yellow = 50 </m>
+63,thirty would yellow,yellow > 30,tensor([[0.5290]]),<m> yellow = 50 </m>

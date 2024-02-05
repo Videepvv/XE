@@ -1,0 +1,282 @@
+,transcript,filtered_common_ground,cosine_similarity,true_common_ground
+0,I tell red cube 10 grams .,red = 10,tensor([[0.0646]]),<m> red = 10 </m>
+1,I tell red cube 10 grams .,red = 20,tensor([[0.0476]]),<m> red = 10 </m>
+2,I tell red cube 10 grams .,red = 30,tensor([[0.0559]]),<m> red = 10 </m>
+3,I tell red cube 10 grams .,red = 40,tensor([[0.0444]]),<m> red = 10 </m>
+4,I tell red cube 10 grams .,red = 50,tensor([[0.0889]]),<m> red = 10 </m>
+5,I tell red cube 10 grams .,red != 10,tensor([[0.0478]]),<m> red = 10 </m>
+6,I tell red cube 10 grams .,red != 20,tensor([[0.0499]]),<m> red = 10 </m>
+7,I tell red cube 10 grams .,red != 30,tensor([[0.0461]]),<m> red = 10 </m>
+8,I tell red cube 10 grams .,red != 40,tensor([[0.0490]]),<m> red = 10 </m>
+9,I tell red cube 10 grams .,red != 50,tensor([[0.0455]]),<m> red = 10 </m>
+10,I tell red cube 10 grams .,red < 10,tensor([[0.0439]]),<m> red = 10 </m>
+11,I tell red cube 10 grams .,red < 20,tensor([[0.0457]]),<m> red = 10 </m>
+12,I tell red cube 10 grams .,red < 30,tensor([[0.0438]]),<m> red = 10 </m>
+13,I tell red cube 10 grams .,red < 40,tensor([[0.0466]]),<m> red = 10 </m>
+14,I tell red cube 10 grams .,red < 50,tensor([[0.0441]]),<m> red = 10 </m>
+15,I tell red cube 10 grams .,red > 10,tensor([[0.0377]]),<m> red = 10 </m>
+16,I tell red cube 10 grams .,red > 20,tensor([[0.0408]]),<m> red = 10 </m>
+17,I tell red cube 10 grams .,red > 30,tensor([[0.0361]]),<m> red = 10 </m>
+18,I tell red cube 10 grams .,red > 40,tensor([[0.0423]]),<m> red = 10 </m>
+19,I tell red cube 10 grams .,red > 50,tensor([[0.0369]]),<m> red = 10 </m>
+20,"green block 20 red block , blue block 10 10 .",red = blue + green,tensor([[1.1592]]),"<m> blue = 10, green = 20, red = 10 </m>"
+21,"green block 20 red block , blue block 10 10 .",red != blue + green,tensor([[0.1572]]),"<m> blue = 10, green = 20, red = 10 </m>"
+22,"green block 20 red block , blue block 10 10 .",red < blue + green,tensor([[0.3346]]),"<m> blue = 10, green = 20, red = 10 </m>"
+23,"green block 20 red block , blue block 10 10 .",red > blue + green,tensor([[0.2610]]),"<m> blue = 10, green = 20, red = 10 </m>"
+24,"green block 20 red block , blue block 10 10 .",blue = green + red,tensor([[1.1603]]),"<m> blue = 10, green = 20, red = 10 </m>"
+25,"green block 20 red block , blue block 10 10 .",blue != green + red,tensor([[0.1733]]),"<m> blue = 10, green = 20, red = 10 </m>"
+26,"green block 20 red block , blue block 10 10 .",blue < green + red,tensor([[0.5534]]),"<m> blue = 10, green = 20, red = 10 </m>"
+27,"green block 20 red block , blue block 10 10 .",blue > green + red,tensor([[0.3393]]),"<m> blue = 10, green = 20, red = 10 </m>"
+28,"green block 20 red block , blue block 10 10 .",green = blue + red,tensor([[1.1590]]),"<m> blue = 10, green = 20, red = 10 </m>"
+29,"green block 20 red block , blue block 10 10 .",green != blue + red,tensor([[0.2001]]),"<m> blue = 10, green = 20, red = 10 </m>"
+30,"green block 20 red block , blue block 10 10 .",green < blue + red,tensor([[0.4014]]),"<m> blue = 10, green = 20, red = 10 </m>"
+31,"green block 20 red block , blue block 10 10 .",green > blue + red,tensor([[0.2759]]),"<m> blue = 10, green = 20, red = 10 </m>"
+32,"green block 20 red block , blue block 10 10 .","blue = 10, green = 10, red = 10",tensor([[0.0354]]),"<m> blue = 10, green = 20, red = 10 </m>"
+33,"green block 20 red block , blue block 10 10 .","blue = 10, green = 20, red = 10",tensor([[0.0379]]),"<m> blue = 10, green = 20, red = 10 </m>"
+34,"green block 20 red block , blue block 10 10 .","blue = 10, green = 30, red = 10",tensor([[0.0374]]),"<m> blue = 10, green = 20, red = 10 </m>"
+35,"green block 20 red block , blue block 10 10 .","blue = 10, green = 40, red = 10",tensor([[0.0357]]),"<m> blue = 10, green = 20, red = 10 </m>"
+36,"green block 20 red block , blue block 10 10 .","blue = 10, green = 50, red = 10",tensor([[0.0354]]),"<m> blue = 10, green = 20, red = 10 </m>"
+37,"green block 20 red block , blue block 10 10 .","blue = 20, green = 10, red = 10",tensor([[0.0379]]),"<m> blue = 10, green = 20, red = 10 </m>"
+38,"green block 20 red block , blue block 10 10 .","blue = 20, green = 20, red = 10",tensor([[0.0381]]),"<m> blue = 10, green = 20, red = 10 </m>"
+39,"green block 20 red block , blue block 10 10 .","blue = 20, green = 30, red = 10",tensor([[0.0352]]),"<m> blue = 10, green = 20, red = 10 </m>"
+40,"green block 20 red block , blue block 10 10 .","blue = 20, green = 40, red = 10",tensor([[0.0365]]),"<m> blue = 10, green = 20, red = 10 </m>"
+41,"green block 20 red block , blue block 10 10 .","blue = 20, green = 50, red = 10",tensor([[0.0361]]),"<m> blue = 10, green = 20, red = 10 </m>"
+42,"green block 20 red block , blue block 10 10 .","blue = 30, green = 10, red = 10",tensor([[0.0365]]),"<m> blue = 10, green = 20, red = 10 </m>"
+43,"green block 20 red block , blue block 10 10 .","blue = 30, green = 20, red = 10",tensor([[0.0378]]),"<m> blue = 10, green = 20, red = 10 </m>"
+44,"green block 20 red block , blue block 10 10 .","blue = 30, green = 30, red = 10",tensor([[0.0365]]),"<m> blue = 10, green = 20, red = 10 </m>"
+45,"green block 20 red block , blue block 10 10 .","blue = 30, green = 40, red = 10",tensor([[0.0429]]),"<m> blue = 10, green = 20, red = 10 </m>"
+46,"green block 20 red block , blue block 10 10 .","blue = 30, green = 50, red = 10",tensor([[0.0402]]),"<m> blue = 10, green = 20, red = 10 </m>"
+47,"green block 20 red block , blue block 10 10 .","blue = 40, green = 10, red = 10",tensor([[0.0357]]),"<m> blue = 10, green = 20, red = 10 </m>"
+48,"green block 20 red block , blue block 10 10 .","blue = 40, green = 20, red = 10",tensor([[0.0408]]),"<m> blue = 10, green = 20, red = 10 </m>"
+49,"green block 20 red block , blue block 10 10 .","blue = 40, green = 30, red = 10",tensor([[0.0382]]),"<m> blue = 10, green = 20, red = 10 </m>"
+50,"green block 20 red block , blue block 10 10 .","blue = 40, green = 40, red = 10",tensor([[0.0355]]),"<m> blue = 10, green = 20, red = 10 </m>"
+51,"green block 20 red block , blue block 10 10 .","blue = 40, green = 50, red = 10",tensor([[0.0392]]),"<m> blue = 10, green = 20, red = 10 </m>"
+52,"green block 20 red block , blue block 10 10 .","blue = 50, green = 10, red = 10",tensor([[0.0354]]),"<m> blue = 10, green = 20, red = 10 </m>"
+53,"green block 20 red block , blue block 10 10 .","blue = 50, green = 20, red = 10",tensor([[0.0410]]),"<m> blue = 10, green = 20, red = 10 </m>"
+54,"green block 20 red block , blue block 10 10 .","blue = 50, green = 30, red = 10",tensor([[0.0365]]),"<m> blue = 10, green = 20, red = 10 </m>"
+55,"green block 20 red block , blue block 10 10 .","blue = 50, green = 40, red = 10",tensor([[0.0382]]),"<m> blue = 10, green = 20, red = 10 </m>"
+56,"green block 20 red block , blue block 10 10 .","blue = 50, green = 50, red = 10",tensor([[0.0353]]),"<m> blue = 10, green = 20, red = 10 </m>"
+57,"green block 20 red block , blue block 10 10 .","blue = 10, green = 10, red = 20",tensor([[0.0378]]),"<m> blue = 10, green = 20, red = 10 </m>"
+58,"green block 20 red block , blue block 10 10 .","blue = 10, green = 20, red = 20",tensor([[0.0357]]),"<m> blue = 10, green = 20, red = 10 </m>"
+59,"green block 20 red block , blue block 10 10 .","blue = 10, green = 30, red = 20",tensor([[0.0375]]),"<m> blue = 10, green = 20, red = 10 </m>"
+60,"green block 20 red block , blue block 10 10 .","blue = 10, green = 40, red = 20",tensor([[0.0363]]),"<m> blue = 10, green = 20, red = 10 </m>"
+61,"green block 20 red block , blue block 10 10 .","blue = 10, green = 50, red = 20",tensor([[0.0355]]),"<m> blue = 10, green = 20, red = 10 </m>"
+62,"green block 20 red block , blue block 10 10 .","blue = 20, green = 10, red = 20",tensor([[0.0362]]),"<m> blue = 10, green = 20, red = 10 </m>"
+63,"green block 20 red block , blue block 10 10 .","blue = 20, green = 20, red = 20",tensor([[0.0357]]),"<m> blue = 10, green = 20, red = 10 </m>"
+64,"green block 20 red block , blue block 10 10 .","blue = 20, green = 30, red = 20",tensor([[0.0380]]),"<m> blue = 10, green = 20, red = 10 </m>"
+65,"green block 20 red block , blue block 10 10 .","blue = 20, green = 40, red = 20",tensor([[0.0372]]),"<m> blue = 10, green = 20, red = 10 </m>"
+66,"green block 20 red block , blue block 10 10 .","blue = 20, green = 50, red = 20",tensor([[0.0364]]),"<m> blue = 10, green = 20, red = 10 </m>"
+67,"green block 20 red block , blue block 10 10 .","blue = 30, green = 10, red = 20",tensor([[0.0355]]),"<m> blue = 10, green = 20, red = 10 </m>"
+68,"green block 20 red block , blue block 10 10 .","blue = 30, green = 20, red = 20",tensor([[0.0364]]),"<m> blue = 10, green = 20, red = 10 </m>"
+69,"green block 20 red block , blue block 10 10 .","blue = 30, green = 30, red = 20",tensor([[0.0375]]),"<m> blue = 10, green = 20, red = 10 </m>"
+70,"green block 20 red block , blue block 10 10 .","blue = 30, green = 40, red = 20",tensor([[0.0441]]),"<m> blue = 10, green = 20, red = 10 </m>"
+71,"green block 20 red block , blue block 10 10 .","blue = 30, green = 50, red = 20",tensor([[0.0417]]),"<m> blue = 10, green = 20, red = 10 </m>"
+72,"green block 20 red block , blue block 10 10 .","blue = 40, green = 10, red = 20",tensor([[0.0360]]),"<m> blue = 10, green = 20, red = 10 </m>"
+73,"green block 20 red block , blue block 10 10 .","blue = 40, green = 20, red = 20",tensor([[0.0360]]),"<m> blue = 10, green = 20, red = 10 </m>"
+74,"green block 20 red block , blue block 10 10 .","blue = 40, green = 30, red = 20",tensor([[0.0415]]),"<m> blue = 10, green = 20, red = 10 </m>"
+75,"green block 20 red block , blue block 10 10 .","blue = 40, green = 40, red = 20",tensor([[0.0368]]),"<m> blue = 10, green = 20, red = 10 </m>"
+76,"green block 20 red block , blue block 10 10 .","blue = 40, green = 50, red = 20",tensor([[0.0407]]),"<m> blue = 10, green = 20, red = 10 </m>"
+77,"green block 20 red block , blue block 10 10 .","blue = 50, green = 10, red = 20",tensor([[0.0353]]),"<m> blue = 10, green = 20, red = 10 </m>"
+78,"green block 20 red block , blue block 10 10 .","blue = 50, green = 20, red = 20",tensor([[0.0361]]),"<m> blue = 10, green = 20, red = 10 </m>"
+79,"green block 20 red block , blue block 10 10 .","blue = 50, green = 30, red = 20",tensor([[0.0367]]),"<m> blue = 10, green = 20, red = 10 </m>"
+80,"green block 20 red block , blue block 10 10 .","blue = 50, green = 40, red = 20",tensor([[0.0363]]),"<m> blue = 10, green = 20, red = 10 </m>"
+81,"green block 20 red block , blue block 10 10 .","blue = 50, green = 50, red = 20",tensor([[0.0360]]),"<m> blue = 10, green = 20, red = 10 </m>"
+82,"green block 20 red block , blue block 10 10 .","blue = 10, green = 10, red = 30",tensor([[0.0355]]),"<m> blue = 10, green = 20, red = 10 </m>"
+83,"green block 20 red block , blue block 10 10 .","blue = 10, green = 20, red = 30",tensor([[0.0369]]),"<m> blue = 10, green = 20, red = 10 </m>"
+84,"green block 20 red block , blue block 10 10 .","blue = 10, green = 30, red = 30",tensor([[0.0372]]),"<m> blue = 10, green = 20, red = 10 </m>"
+85,"green block 20 red block , blue block 10 10 .","blue = 10, green = 40, red = 30",tensor([[0.0417]]),"<m> blue = 10, green = 20, red = 10 </m>"
+86,"green block 20 red block , blue block 10 10 .","blue = 10, green = 50, red = 30",tensor([[0.0390]]),"<m> blue = 10, green = 20, red = 10 </m>"
+87,"green block 20 red block , blue block 10 10 .","blue = 20, green = 10, red = 30",tensor([[0.0357]]),"<m> blue = 10, green = 20, red = 10 </m>"
+88,"green block 20 red block , blue block 10 10 .","blue = 20, green = 20, red = 30",tensor([[0.0412]]),"<m> blue = 10, green = 20, red = 10 </m>"
+89,"green block 20 red block , blue block 10 10 .","blue = 20, green = 30, red = 30",tensor([[0.0381]]),"<m> blue = 10, green = 20, red = 10 </m>"
+90,"green block 20 red block , blue block 10 10 .","blue = 20, green = 40, red = 30",tensor([[0.0426]]),"<m> blue = 10, green = 20, red = 10 </m>"
+91,"green block 20 red block , blue block 10 10 .","blue = 20, green = 50, red = 30",tensor([[0.0389]]),"<m> blue = 10, green = 20, red = 10 </m>"
+92,"green block 20 red block , blue block 10 10 .","blue = 30, green = 10, red = 30",tensor([[0.0366]]),"<m> blue = 10, green = 20, red = 10 </m>"
+93,"green block 20 red block , blue block 10 10 .","blue = 30, green = 20, red = 30",tensor([[0.0365]]),"<m> blue = 10, green = 20, red = 10 </m>"
+94,"green block 20 red block , blue block 10 10 .","blue = 30, green = 30, red = 30",tensor([[0.0361]]),"<m> blue = 10, green = 20, red = 10 </m>"
+95,"green block 20 red block , blue block 10 10 .","blue = 30, green = 40, red = 30",tensor([[0.0381]]),"<m> blue = 10, green = 20, red = 10 </m>"
+96,"green block 20 red block , blue block 10 10 .","blue = 30, green = 50, red = 30",tensor([[0.0378]]),"<m> blue = 10, green = 20, red = 10 </m>"
+97,"green block 20 red block , blue block 10 10 .","blue = 40, green = 10, red = 30",tensor([[0.0391]]),"<m> blue = 10, green = 20, red = 10 </m>"
+98,"green block 20 red block , blue block 10 10 .","blue = 40, green = 20, red = 30",tensor([[0.0397]]),"<m> blue = 10, green = 20, red = 10 </m>"
+99,"green block 20 red block , blue block 10 10 .","blue = 40, green = 30, red = 30",tensor([[0.0385]]),"<m> blue = 10, green = 20, red = 10 </m>"
+100,"green block 20 red block , blue block 10 10 .","blue = 40, green = 40, red = 30",tensor([[0.0379]]),"<m> blue = 10, green = 20, red = 10 </m>"
+101,"green block 20 red block , blue block 10 10 .","blue = 40, green = 50, red = 30",tensor([[0.0489]]),"<m> blue = 10, green = 20, red = 10 </m>"
+102,"green block 20 red block , blue block 10 10 .","blue = 50, green = 10, red = 30",tensor([[0.0374]]),"<m> blue = 10, green = 20, red = 10 </m>"
+103,"green block 20 red block , blue block 10 10 .","blue = 50, green = 20, red = 30",tensor([[0.0381]]),"<m> blue = 10, green = 20, red = 10 </m>"
+104,"green block 20 red block , blue block 10 10 .","blue = 50, green = 30, red = 30",tensor([[0.0382]]),"<m> blue = 10, green = 20, red = 10 </m>"
+105,"green block 20 red block , blue block 10 10 .","blue = 50, green = 40, red = 30",tensor([[0.0481]]),"<m> blue = 10, green = 20, red = 10 </m>"
+106,"green block 20 red block , blue block 10 10 .","blue = 50, green = 50, red = 30",tensor([[0.0369]]),"<m> blue = 10, green = 20, red = 10 </m>"
+107,"green block 20 red block , blue block 10 10 .","blue = 10, green = 10, red = 40",tensor([[0.0363]]),"<m> blue = 10, green = 20, red = 10 </m>"
+108,"green block 20 red block , blue block 10 10 .","blue = 10, green = 20, red = 40",tensor([[0.0362]]),"<m> blue = 10, green = 20, red = 10 </m>"
+109,"green block 20 red block , blue block 10 10 .","blue = 10, green = 30, red = 40",tensor([[0.0432]]),"<m> blue = 10, green = 20, red = 10 </m>"
+110,"green block 20 red block , blue block 10 10 .","blue = 10, green = 40, red = 40",tensor([[0.0362]]),"<m> blue = 10, green = 20, red = 10 </m>"
+111,"green block 20 red block , blue block 10 10 .","blue = 10, green = 50, red = 40",tensor([[0.0383]]),"<m> blue = 10, green = 20, red = 10 </m>"
+112,"green block 20 red block , blue block 10 10 .","blue = 20, green = 10, red = 40",tensor([[0.0358]]),"<m> blue = 10, green = 20, red = 10 </m>"
+113,"green block 20 red block , blue block 10 10 .","blue = 20, green = 20, red = 40",tensor([[0.0367]]),"<m> blue = 10, green = 20, red = 10 </m>"
+114,"green block 20 red block , blue block 10 10 .","blue = 20, green = 30, red = 40",tensor([[0.0450]]),"<m> blue = 10, green = 20, red = 10 </m>"
+115,"green block 20 red block , blue block 10 10 .","blue = 20, green = 40, red = 40",tensor([[0.0361]]),"<m> blue = 10, green = 20, red = 10 </m>"
+116,"green block 20 red block , blue block 10 10 .","blue = 20, green = 50, red = 40",tensor([[0.0382]]),"<m> blue = 10, green = 20, red = 10 </m>"
+117,"green block 20 red block , blue block 10 10 .","blue = 30, green = 10, red = 40",tensor([[0.0383]]),"<m> blue = 10, green = 20, red = 10 </m>"
+118,"green block 20 red block , blue block 10 10 .","blue = 30, green = 20, red = 40",tensor([[0.0378]]),"<m> blue = 10, green = 20, red = 10 </m>"
+119,"green block 20 red block , blue block 10 10 .","blue = 30, green = 30, red = 40",tensor([[0.0388]]),"<m> blue = 10, green = 20, red = 10 </m>"
+120,"green block 20 red block , blue block 10 10 .","blue = 30, green = 40, red = 40",tensor([[0.0379]]),"<m> blue = 10, green = 20, red = 10 </m>"
+121,"green block 20 red block , blue block 10 10 .","blue = 30, green = 50, red = 40",tensor([[0.0506]]),"<m> blue = 10, green = 20, red = 10 </m>"
+122,"green block 20 red block , blue block 10 10 .","blue = 40, green = 10, red = 40",tensor([[0.0360]]),"<m> blue = 10, green = 20, red = 10 </m>"
+123,"green block 20 red block , blue block 10 10 .","blue = 40, green = 20, red = 40",tensor([[0.0359]]),"<m> blue = 10, green = 20, red = 10 </m>"
+124,"green block 20 red block , blue block 10 10 .","blue = 40, green = 30, red = 40",tensor([[0.0371]]),"<m> blue = 10, green = 20, red = 10 </m>"
+125,"green block 20 red block , blue block 10 10 .","blue = 40, green = 40, red = 40",tensor([[0.0359]]),"<m> blue = 10, green = 20, red = 10 </m>"
+126,"green block 20 red block , blue block 10 10 .","blue = 40, green = 50, red = 40",tensor([[0.0370]]),"<m> blue = 10, green = 20, red = 10 </m>"
+127,"green block 20 red block , blue block 10 10 .","blue = 50, green = 10, red = 40",tensor([[0.0375]]),"<m> blue = 10, green = 20, red = 10 </m>"
+128,"green block 20 red block , blue block 10 10 .","blue = 50, green = 20, red = 40",tensor([[0.0365]]),"<m> blue = 10, green = 20, red = 10 </m>"
+129,"green block 20 red block , blue block 10 10 .","blue = 50, green = 30, red = 40",tensor([[0.0441]]),"<m> blue = 10, green = 20, red = 10 </m>"
+130,"green block 20 red block , blue block 10 10 .","blue = 50, green = 40, red = 40",tensor([[0.0371]]),"<m> blue = 10, green = 20, red = 10 </m>"
+131,"green block 20 red block , blue block 10 10 .","blue = 50, green = 50, red = 40",tensor([[0.0368]]),"<m> blue = 10, green = 20, red = 10 </m>"
+132,"green block 20 red block , blue block 10 10 .","blue = 10, green = 10, red = 50",tensor([[0.0363]]),"<m> blue = 10, green = 20, red = 10 </m>"
+133,"green block 20 red block , blue block 10 10 .","blue = 10, green = 20, red = 50",tensor([[0.0358]]),"<m> blue = 10, green = 20, red = 10 </m>"
+134,"green block 20 red block , blue block 10 10 .","blue = 10, green = 30, red = 50",tensor([[0.0389]]),"<m> blue = 10, green = 20, red = 10 </m>"
+135,"green block 20 red block , blue block 10 10 .","blue = 10, green = 40, red = 50",tensor([[0.0410]]),"<m> blue = 10, green = 20, red = 10 </m>"
+136,"green block 20 red block , blue block 10 10 .","blue = 10, green = 50, red = 50",tensor([[0.0359]]),"<m> blue = 10, green = 20, red = 10 </m>"
+137,"green block 20 red block , blue block 10 10 .","blue = 20, green = 10, red = 50",tensor([[0.0361]]),"<m> blue = 10, green = 20, red = 10 </m>"
+138,"green block 20 red block , blue block 10 10 .","blue = 20, green = 20, red = 50",tensor([[0.0362]]),"<m> blue = 10, green = 20, red = 10 </m>"
+139,"green block 20 red block , blue block 10 10 .","blue = 20, green = 30, red = 50",tensor([[0.0401]]),"<m> blue = 10, green = 20, red = 10 </m>"
+140,"green block 20 red block , blue block 10 10 .","blue = 20, green = 40, red = 50",tensor([[0.0384]]),"<m> blue = 10, green = 20, red = 10 </m>"
+141,"green block 20 red block , blue block 10 10 .","blue = 20, green = 50, red = 50",tensor([[0.0354]]),"<m> blue = 10, green = 20, red = 10 </m>"
+142,"green block 20 red block , blue block 10 10 .","blue = 30, green = 10, red = 50",tensor([[0.0371]]),"<m> blue = 10, green = 20, red = 10 </m>"
+143,"green block 20 red block , blue block 10 10 .","blue = 30, green = 20, red = 50",tensor([[0.0363]]),"<m> blue = 10, green = 20, red = 10 </m>"
+144,"green block 20 red block , blue block 10 10 .","blue = 30, green = 30, red = 50",tensor([[0.0362]]),"<m> blue = 10, green = 20, red = 10 </m>"
+145,"green block 20 red block , blue block 10 10 .","blue = 30, green = 40, red = 50",tensor([[0.0526]]),"<m> blue = 10, green = 20, red = 10 </m>"
+146,"green block 20 red block , blue block 10 10 .","blue = 30, green = 50, red = 50",tensor([[0.0380]]),"<m> blue = 10, green = 20, red = 10 </m>"
+147,"green block 20 red block , blue block 10 10 .","blue = 40, green = 10, red = 50",tensor([[0.0374]]),"<m> blue = 10, green = 20, red = 10 </m>"
+148,"green block 20 red block , blue block 10 10 .","blue = 40, green = 20, red = 50",tensor([[0.0364]]),"<m> blue = 10, green = 20, red = 10 </m>"
+149,"green block 20 red block , blue block 10 10 .","blue = 40, green = 30, red = 50",tensor([[0.0497]]),"<m> blue = 10, green = 20, red = 10 </m>"
+150,"green block 20 red block , blue block 10 10 .","blue = 40, green = 40, red = 50",tensor([[0.0361]]),"<m> blue = 10, green = 20, red = 10 </m>"
+151,"green block 20 red block , blue block 10 10 .","blue = 40, green = 50, red = 50",tensor([[0.0370]]),"<m> blue = 10, green = 20, red = 10 </m>"
+152,"green block 20 red block , blue block 10 10 .","blue = 50, green = 10, red = 50",tensor([[0.0359]]),"<m> blue = 10, green = 20, red = 10 </m>"
+153,"green block 20 red block , blue block 10 10 .","blue = 50, green = 20, red = 50",tensor([[0.0349]]),"<m> blue = 10, green = 20, red = 10 </m>"
+154,"green block 20 red block , blue block 10 10 .","blue = 50, green = 30, red = 50",tensor([[0.0365]]),"<m> blue = 10, green = 20, red = 10 </m>"
+155,"green block 20 red block , blue block 10 10 .","blue = 50, green = 40, red = 50",tensor([[0.0364]]),"<m> blue = 10, green = 20, red = 10 </m>"
+156,"green block 20 red block , blue block 10 10 .","blue = 50, green = 50, red = 50",tensor([[0.0353]]),"<m> blue = 10, green = 20, red = 10 </m>"
+157,"red block , blue block 're equal",blue = red,tensor([[0.7456]]),<m> blue = red </m>
+158,"red block , blue block 're equal",blue != red,tensor([[0.0375]]),<m> blue = red </m>
+159,"red block , blue block 're equal",red < blue,tensor([[0.0365]]),<m> blue = red </m>
+160,"red block , blue block 're equal",red > blue,tensor([[0.0357]]),<m> blue = red </m>
+161,"red block , blue block 're equal",blue = red,tensor([[0.7456]]),<m> blue = red </m>
+162,"red block , blue block 're equal",blue != red,tensor([[0.0375]]),<m> blue = red </m>
+163,"red block , blue block 're equal",blue < red,tensor([[0.0365]]),<m> blue = red </m>
+164,"red block , blue block 're equal",blue > red,tensor([[0.0351]]),<m> blue = red </m>
+165,tell purple block one 's heavier .,purple = 10,tensor([[0.4758]]),<m> purple > green </m>
+166,tell purple block one 's heavier .,purple = 20,tensor([[0.4756]]),<m> purple > green </m>
+167,tell purple block one 's heavier .,purple = 30,tensor([[0.4085]]),<m> purple > green </m>
+168,tell purple block one 's heavier .,purple = 40,tensor([[0.3976]]),<m> purple > green </m>
+169,tell purple block one 's heavier .,purple = 50,tensor([[0.4931]]),<m> purple > green </m>
+170,tell purple block one 's heavier .,purple != 10,tensor([[0.0551]]),<m> purple > green </m>
+171,tell purple block one 's heavier .,purple != 20,tensor([[0.0572]]),<m> purple > green </m>
+172,tell purple block one 's heavier .,purple != 30,tensor([[0.0473]]),<m> purple > green </m>
+173,tell purple block one 's heavier .,purple != 40,tensor([[0.0520]]),<m> purple > green </m>
+174,tell purple block one 's heavier .,purple != 50,tensor([[0.0422]]),<m> purple > green </m>
+175,tell purple block one 's heavier .,purple < 10,tensor([[0.0450]]),<m> purple > green </m>
+176,tell purple block one 's heavier .,purple < 20,tensor([[0.0420]]),<m> purple > green </m>
+177,tell purple block one 's heavier .,purple < 30,tensor([[0.0419]]),<m> purple > green </m>
+178,tell purple block one 's heavier .,purple < 40,tensor([[0.0485]]),<m> purple > green </m>
+179,tell purple block one 's heavier .,purple < 50,tensor([[0.0425]]),<m> purple > green </m>
+180,tell purple block one 's heavier .,purple > 10,tensor([[0.0414]]),<m> purple > green </m>
+181,tell purple block one 's heavier .,purple > 20,tensor([[0.0413]]),<m> purple > green </m>
+182,tell purple block one 's heavier .,purple > 30,tensor([[0.0402]]),<m> purple > green </m>
+183,tell purple block one 's heavier .,purple > 40,tensor([[0.0417]]),<m> purple > green </m>
+184,tell purple block one 's heavier .,purple > 50,tensor([[0.0413]]),<m> purple > green </m>
+185,green block one 's 20 ?,green = 10,tensor([[0.4533]]),<m> purple > green + red </m>
+186,green block one 's 20 ?,green = 20,tensor([[0.2694]]),<m> purple > green + red </m>
+187,green block one 's 20 ?,green = 30,tensor([[0.2670]]),<m> purple > green + red </m>
+188,green block one 's 20 ?,green = 40,tensor([[0.1977]]),<m> purple > green + red </m>
+189,green block one 's 20 ?,green = 50,tensor([[0.9803]]),<m> purple > green + red </m>
+190,green block one 's 20 ?,green != 10,tensor([[0.0408]]),<m> purple > green + red </m>
+191,green block one 's 20 ?,green != 20,tensor([[0.0403]]),<m> purple > green + red </m>
+192,green block one 's 20 ?,green != 30,tensor([[0.0396]]),<m> purple > green + red </m>
+193,green block one 's 20 ?,green != 40,tensor([[0.0460]]),<m> purple > green + red </m>
+194,green block one 's 20 ?,green != 50,tensor([[0.0387]]),<m> purple > green + red </m>
+195,green block one 's 20 ?,green < 10,tensor([[0.0389]]),<m> purple > green + red </m>
+196,green block one 's 20 ?,green < 20,tensor([[0.0430]]),<m> purple > green + red </m>
+197,green block one 's 20 ?,green < 30,tensor([[0.0365]]),<m> purple > green + red </m>
+198,green block one 's 20 ?,green < 40,tensor([[0.0383]]),<m> purple > green + red </m>
+199,green block one 's 20 ?,green < 50,tensor([[0.0379]]),<m> purple > green + red </m>
+200,green block one 's 20 ?,green > 10,tensor([[0.0375]]),<m> purple > green + red </m>
+201,green block one 's 20 ?,green > 20,tensor([[0.0397]]),<m> purple > green + red </m>
+202,green block one 's 20 ?,green > 30,tensor([[0.0357]]),<m> purple > green + red </m>
+203,green block one 's 20 ?,green > 40,tensor([[0.0388]]),<m> purple > green + red </m>
+204,green block one 's 20 ?,green > 50,tensor([[0.0383]]),<m> purple > green + red </m>
+205,would fifty okay,red = 50,tensor([[1.4675]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+206,would fifty okay,red != 50,tensor([[0.0447]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+207,would fifty okay,red < 50,tensor([[0.0488]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+208,would fifty okay,red > 50,tensor([[0.0598]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+209,would fifty okay,blue = 50,tensor([[1.4690]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+210,would fifty okay,blue != 50,tensor([[0.0417]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+211,would fifty okay,blue < 50,tensor([[0.0626]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+212,would fifty okay,blue > 50,tensor([[0.0548]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+213,would fifty okay,green = 50,tensor([[1.4661]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+214,would fifty okay,green != 50,tensor([[0.0539]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+215,would fifty okay,green < 50,tensor([[0.1016]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+216,would fifty okay,green > 50,tensor([[0.0732]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+217,would fifty okay,purple = 50,tensor([[1.4659]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+218,would fifty okay,purple != 50,tensor([[0.1308]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+219,would fifty okay,purple < 50,tensor([[0.3377]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+220,would fifty okay,purple > 50,tensor([[0.2579]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+221,would fifty okay,yellow = 50,tensor([[1.4669]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+222,would fifty okay,yellow != 50,tensor([[0.0909]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+223,would fifty okay,yellow < 50,tensor([[0.1231]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+224,would fifty okay,yellow > 50,tensor([[0.1292]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+225,would fifty okay,"blue = 50, green = 50, red = 50",tensor([[0.6238]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+226,would fifty okay,"blue = 50, purple = 50, red = 50",tensor([[0.4343]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+227,would fifty okay,"blue = 50, red = 50, yellow = 50",tensor([[0.3425]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+228,would fifty okay,"green = 50, purple = 50, red = 50",tensor([[0.6583]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+229,would fifty okay,"green = 50, red = 50, yellow = 50",tensor([[0.6204]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+230,would fifty okay,"purple = 50, red = 50, yellow = 50",tensor([[0.5116]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+231,would fifty okay,"blue = 50, green = 50, purple = 50",tensor([[0.6273]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+232,would fifty okay,"blue = 50, green = 50, yellow = 50",tensor([[0.4201]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+233,would fifty okay,"blue = 50, purple = 50, yellow = 50",tensor([[0.2735]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+234,would fifty okay,"green = 50, purple = 50, yellow = 50",tensor([[0.4395]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+235,I weights fifty,red = 50,tensor([[1.4642]]),<m> yellow = 50 </m>
+236,I weights fifty,red != 50,tensor([[0.0484]]),<m> yellow = 50 </m>
+237,I weights fifty,red < 50,tensor([[0.0682]]),<m> yellow = 50 </m>
+238,I weights fifty,red > 50,tensor([[0.0716]]),<m> yellow = 50 </m>
+239,I weights fifty,blue = 50,tensor([[1.4650]]),<m> yellow = 50 </m>
+240,I weights fifty,blue != 50,tensor([[0.0479]]),<m> yellow = 50 </m>
+241,I weights fifty,blue < 50,tensor([[0.0576]]),<m> yellow = 50 </m>
+242,I weights fifty,blue > 50,tensor([[0.0637]]),<m> yellow = 50 </m>
+243,I weights fifty,green = 50,tensor([[1.4628]]),<m> yellow = 50 </m>
+244,I weights fifty,green != 50,tensor([[0.0592]]),<m> yellow = 50 </m>
+245,I weights fifty,green < 50,tensor([[0.0982]]),<m> yellow = 50 </m>
+246,I weights fifty,green > 50,tensor([[0.0805]]),<m> yellow = 50 </m>
+247,I weights fifty,purple = 50,tensor([[1.4643]]),<m> yellow = 50 </m>
+248,I weights fifty,purple != 50,tensor([[0.2319]]),<m> yellow = 50 </m>
+249,I weights fifty,purple < 50,tensor([[0.3008]]),<m> yellow = 50 </m>
+250,I weights fifty,purple > 50,tensor([[0.1718]]),<m> yellow = 50 </m>
+251,I weights fifty,yellow = 50,tensor([[1.4637]]),<m> yellow = 50 </m>
+252,I weights fifty,yellow != 50,tensor([[0.1173]]),<m> yellow = 50 </m>
+253,I weights fifty,yellow < 50,tensor([[0.1677]]),<m> yellow = 50 </m>
+254,I weights fifty,yellow > 50,tensor([[0.1695]]),<m> yellow = 50 </m>
+255,I weights fifty,"blue = 50, green = 50, red = 50",tensor([[0.9726]]),<m> yellow = 50 </m>
+256,I weights fifty,"blue = 50, purple = 50, red = 50",tensor([[0.9384]]),<m> yellow = 50 </m>
+257,I weights fifty,"blue = 50, red = 50, yellow = 50",tensor([[0.8374]]),<m> yellow = 50 </m>
+258,I weights fifty,"green = 50, purple = 50, red = 50",tensor([[0.9986]]),<m> yellow = 50 </m>
+259,I weights fifty,"green = 50, red = 50, yellow = 50",tensor([[0.9387]]),<m> yellow = 50 </m>
+260,I weights fifty,"purple = 50, red = 50, yellow = 50",tensor([[0.9052]]),<m> yellow = 50 </m>
+261,I weights fifty,"blue = 50, green = 50, purple = 50",tensor([[0.9832]]),<m> yellow = 50 </m>
+262,I weights fifty,"blue = 50, green = 50, yellow = 50",tensor([[0.8715]]),<m> yellow = 50 </m>
+263,I weights fifty,"blue = 50, purple = 50, yellow = 50",tensor([[0.8323]]),<m> yellow = 50 </m>
+264,I weights fifty,"green = 50, purple = 50, yellow = 50",tensor([[0.9006]]),<m> yellow = 50 </m>
+265,yellow block less fifty less fifty,yellow = 50,tensor([[0.0473]]),<m> yellow < 50 </m>
+266,yellow block less fifty less fifty,yellow != 50,tensor([[0.0576]]),<m> yellow < 50 </m>
+267,yellow block less fifty less fifty,yellow < 50,tensor([[0.0519]]),<m> yellow < 50 </m>
+268,yellow block less fifty less fifty,yellow > 50,tensor([[0.0514]]),<m> yellow < 50 </m>
+269,yellow block fifty grams,yellow = 50,tensor([[0.2547]]),<m> yellow < 50 </m>
+270,yellow block fifty grams,yellow != 50,tensor([[0.0386]]),<m> yellow < 50 </m>
+271,yellow block fifty grams,yellow < 50,tensor([[0.0380]]),<m> yellow < 50 </m>
+272,yellow block fifty grams,yellow > 50,tensor([[0.0363]]),<m> yellow < 50 </m>
+273,purple block thirty right ?,purple = 30,tensor([[0.0608]]),<m> yellow = 50 </m>
+274,purple block thirty right ?,purple != 30,tensor([[0.0477]]),<m> yellow = 50 </m>
+275,purple block thirty right ?,purple < 30,tensor([[0.0445]]),<m> yellow = 50 </m>
+276,purple block thirty right ?,purple > 30,tensor([[0.0348]]),<m> yellow = 50 </m>
+277,yellow block 's fifty,yellow = 50,tensor([[0.1080]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+278,yellow block 's fifty,yellow != 50,tensor([[0.0464]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+279,yellow block 's fifty,yellow < 50,tensor([[0.0388]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+280,yellow block 's fifty,yellow > 50,tensor([[0.0382]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"

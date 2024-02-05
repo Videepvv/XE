@@ -1,0 +1,66 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,I tell red cube 10 grams .,red = 10,0.7487086,<m> red = 10 </m>,6.0
+1,I tell red cube 10 grams .,red = 50,0.6451201,<m> red = 10 </m>,6.0
+2,I tell red cube 10 grams .,red = 20,0.5869435,<m> red = 10 </m>,6.0
+3,I tell red cube 10 grams .,red = 40,0.52780396,<m> red = 10 </m>,6.0
+4,I tell red cube 10 grams .,red = 30,0.33416396,<m> red = 10 </m>,6.0
+5,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue = red,0.66148853,<m> blue = red </m>,6.0
+6,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue = red,0.66148853,<m> blue = red </m>,6.0
+7,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",red < blue,0.05356179,<m> blue = red </m>,6.0
+8,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue < red,0.049844764,<m> blue = red </m>,6.0
+9,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue != red,0.04654777,<m> blue = red </m>,6.0
+10,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue = red,0.66148853,<m> blue = red </m>,6.0
+11,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue = red,0.66148853,<m> blue = red </m>,6.0
+12,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",red < blue,0.05356179,<m> blue = red </m>,6.0
+13,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue < red,0.049844764,<m> blue = red </m>,6.0
+14,"right , red block red one 's 10 grams . let 's see , seems red block , blue block might .",blue != red,0.04654777,<m> blue = red </m>,6.0
+15,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow = 20,0.7960615,<m> green = 20 </m>,6.0
+16,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow = 10,0.7886083,<m> green = 20 </m>,6.0
+17,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow = 50,0.7895237,<m> green = 20 </m>,6.0
+18,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow = 40,0.7787853,<m> green = 20 </m>,6.0
+19,sensitive scale . 's looking kinda even . try yellow block big sucker .,yellow = 30,0.76979995,<m> green = 20 </m>,6.0
+20,making sure purple block n't weight bottom .,purple = 50,0.7228365,"<m> green = 20, red = 10 </m>",6.0
+21,making sure purple block n't weight bottom .,purple = 20,0.6872853,"<m> green = 20, red = 10 </m>",6.0
+22,making sure purple block n't weight bottom .,purple = 40,0.67211574,"<m> green = 20, red = 10 </m>",6.0
+23,making sure purple block n't weight bottom .,purple = 10,0.62231654,"<m> green = 20, red = 10 </m>",6.0
+24,making sure purple block n't weight bottom .,purple = 30,0.5268757,"<m> green = 20, red = 10 </m>",6.0
+25,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 20, purple = 40",0.11783637,<m> yellow < 50 </m>,6.0
+26,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 40, purple = 50",0.11346646,<m> yellow < 50 </m>,6.0
+27,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 30, purple = 50",0.11151017,<m> yellow < 50 </m>,6.0
+28,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 40, purple = 50",0.11207725,<m> yellow < 50 </m>,6.0
+29,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 40, purple = 30",0.11185679,<m> yellow < 50 </m>,6.0
+30,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 20, purple = 40",0.11783637,<m> yellow < 50 </m>,6.0
+31,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 20, green = 40, purple = 50",0.11346646,<m> yellow < 50 </m>,6.0
+32,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 40, green = 30, purple = 50",0.11151017,<m> yellow < 50 </m>,6.0
+33,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 30, green = 40, purple = 50",0.11207725,<m> yellow < 50 </m>,6.0
+34,", purple block , green block 's considerably heavier , purple block one , purple block 30 ? blue block 10 .","blue = 50, green = 40, purple = 30",0.11185679,<m> yellow < 50 </m>,6.0
+35,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 50,0.7795144,"<m> blue = 10, red = 10 </m>",6.0
+36,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 20,0.7860327,"<m> blue = 10, red = 10 </m>",6.0
+37,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 40,0.7781291,"<m> blue = 10, red = 10 </m>",6.0
+38,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 30,0.7683066,"<m> blue = 10, red = 10 </m>",6.0
+39,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 10,0.75884205,"<m> blue = 10, red = 10 </m>",6.0
+40,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 50,0.7795144,"<m> blue = 10, red = 10 </m>",6.0
+41,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 20,0.7860327,"<m> blue = 10, red = 10 </m>",6.0
+42,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 40,0.7781291,"<m> blue = 10, red = 10 </m>",6.0
+43,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 30,0.7683066,"<m> blue = 10, red = 10 </m>",6.0
+44,"yellow block 's definetly 30 yellow block , yellow block 's heavy",yellow = 10,0.75884205,"<m> blue = 10, red = 10 </m>",6.0
+45,"big blue , 50 .",blue = 10,0.86289567,<m> yellow < green + purple </m>,6.0
+46,"big blue , 50 .",blue = 20,0.86050886,<m> yellow < green + purple </m>,6.0
+47,"big blue , 50 .",blue = 40,0.85178745,<m> yellow < green + purple </m>,6.0
+48,"big blue , 50 .",blue = 50,0.8503658,<m> yellow < green + purple </m>,6.0
+49,"big blue , 50 .",blue = 30,0.8317076,<m> yellow < green + purple </m>,6.0
+50,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",yellow = blue + green + purple + red,0.049283203,<m> purple + green = 50 </m>,6.0
+51,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",red != blue + green + purple + yellow,0.049341865,<m> purple + green = 50 </m>,6.0
+52,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",green = blue + purple + red + yellow,0.047610156,<m> purple + green = 50 </m>,6.0
+53,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",purple = blue + green + red + yellow,0.04666876,<m> purple + green = 50 </m>,6.0
+54,"unless 's messing us red block , blue block , green block , purple block , yellow block increments five .",purple != blue + green + red + yellow,0.048010543,<m> purple + green = 50 </m>,6.0
+55,greens,green = 10,0.85888714,<m> yellow = 50 </m>,6.0
+56,greens,green = 50,0.84051335,<m> yellow = 50 </m>,6.0
+57,greens,green = 20,0.8386658,<m> yellow = 50 </m>,6.0
+58,greens,green = 40,0.8244401,<m> yellow = 50 </m>,6.0
+59,greens,green = 30,0.8230429,<m> yellow = 50 </m>,6.0
+60,greens,green = 10,0.8588871,<m> yellow = 50 </m>,6.0
+61,greens,green = 50,0.8405136,<m> yellow = 50 </m>,6.0
+62,greens,green = 20,0.83866584,<m> yellow = 50 </m>,6.0
+63,greens,green = 40,0.8244401,<m> yellow = 50 </m>,6.0
+64,greens,green = 30,0.8230432,<m> yellow = 50 </m>,6.0

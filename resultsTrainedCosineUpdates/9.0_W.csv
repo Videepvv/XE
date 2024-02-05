@@ -1,0 +1,36 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,"'d red block , blue block 's equal",blue = red,0.40081638,<m> blue = red </m>,9.0
+1,"'d red block , blue block 's equal",blue = red,0.40081638,<m> blue = red </m>,9.0
+2,"'d red block , blue block 's equal",blue != red,0.047219988,<m> blue = red </m>,9.0
+3,"'d red block , blue block 's equal",blue != red,0.047219988,<m> blue = red </m>,9.0
+4,"'d red block , blue block 's equal",red > blue,0.04379997,<m> blue = red </m>,9.0
+5,"red block , blue block , green block 's probably equal",red = blue + green,0.90866435,"<m> blue = 10, red = 10 </m>",9.0
+6,"red block , blue block , green block 's probably equal",green = blue + red,0.912915,"<m> blue = 10, red = 10 </m>",9.0
+7,"red block , blue block , green block 's probably equal",blue = green + red,0.7118721,"<m> blue = 10, red = 10 </m>",9.0
+8,"red block , blue block , green block 's probably equal",green < blue + red,0.63158596,"<m> blue = 10, red = 10 </m>",9.0
+9,"red block , blue block , green block 's probably equal",blue < green + red,0.39493787,"<m> blue = 10, red = 10 </m>",9.0
+10,"red block , blue block , green block 's probably equal",red = blue + green,0.90866435,"<m> blue = 10, red = 10 </m>",9.0
+11,"red block , blue block , green block 's probably equal",green = blue + red,0.912915,"<m> blue = 10, red = 10 </m>",9.0
+12,"red block , blue block , green block 's probably equal",blue = green + red,0.7118721,"<m> blue = 10, red = 10 </m>",9.0
+13,"red block , blue block , green block 's probably equal",green < blue + red,0.63158596,"<m> blue = 10, red = 10 </m>",9.0
+14,"red block , blue block , green block 's probably equal",blue < green + red,0.39493787,"<m> blue = 10, red = 10 </m>",9.0
+15,"green block , purple block 's",green = purple,0.14891878,<m> green != purple </m>,9.0
+16,"green block , purple block 's",green = purple,0.14891878,<m> green != purple </m>,9.0
+17,"green block , purple block 's",green != purple,0.07528871,<m> green != purple </m>,9.0
+18,"green block , purple block 's",green != purple,0.07528871,<m> green != purple </m>,9.0
+19,"green block , purple block 's",purple < green,0.05642405,<m> green != purple </m>,9.0
+20,"okay blue block , green block twenty ten right ?",green = 10,0.4853548,<m> purple = 30 </m>,9.0
+21,"okay blue block , green block twenty ten right ?",blue = 10,0.37494752,<m> purple = 30 </m>,9.0
+22,"okay blue block , green block twenty ten right ?",green = 20,0.33174103,<m> purple = 30 </m>,9.0
+23,"okay blue block , green block twenty ten right ?",blue != 20,0.13878566,<m> purple = 30 </m>,9.0
+24,"okay blue block , green block twenty ten right ?",blue > 20,0.13025102,<m> purple = 30 </m>,9.0
+25,"okay blue block , green block twenty ten right ?",green = 10,0.4853548,<m> purple = 30 </m>,9.0
+26,"okay blue block , green block twenty ten right ?",blue = 10,0.37494752,<m> purple = 30 </m>,9.0
+27,"okay blue block , green block twenty ten right ?",green = 20,0.33174103,<m> purple = 30 </m>,9.0
+28,"okay blue block , green block twenty ten right ?",blue != 20,0.13878566,<m> purple = 30 </m>,9.0
+29,"okay blue block , green block twenty ten right ?",blue > 20,0.13025102,<m> purple = 30 </m>,9.0
+30,"probably green block , purple block , yellow block 's equal .",purple = green + yellow,0.6052917,<m> yellow = green + purple </m>,9.0
+31,"probably green block , purple block , yellow block 's equal .",yellow = green + purple,0.5845261,<m> yellow = green + purple </m>,9.0
+32,"probably green block , purple block , yellow block 's equal .",green = purple + yellow,0.57260215,<m> yellow = green + purple </m>,9.0
+33,"probably green block , purple block , yellow block 's equal .",yellow < green + purple,0.44163176,<m> yellow = green + purple </m>,9.0
+34,"probably green block , purple block , yellow block 's equal .",purple < green + yellow,0.31446022,<m> yellow = green + purple </m>,9.0

@@ -135,7 +135,7 @@ def is_valid_individual_match(cg, elements):
     
 
 def make_proposition_map(dataset):
-    data = f'./Data/goldenFiles/{dataset}.csv'
+    data = f'./Data/whisperGoldenFiles/{dataset}.csv'
     df = pd.read_csv(data)
     prop_dict = defaultdict(dict)
     #normalise the common ground 
@@ -163,6 +163,7 @@ def add_special_tokens(proposition_map):
     for x, y in proposition_map.items():
         #print(y['common_ground'])
         cg_with_token = "<m>" + " " + y['common_ground']+ " "  + "</m>"
+        print(y['transcript'])
         prop_with_token = "<m>" + " "+ y['transcript'] +" " + "</m>"
         proposition_map[x]['common_ground'] = cg_with_token
         proposition_map[x]['transcript'] = prop_with_token
@@ -194,7 +195,7 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
     device = torch.device('cuda:0')
     device_ids = list(range(1))
     #load the statement and proposition data
-    prop_dict, df = make_proposition_map("BigPrune_Dataset_Updated")
+    prop_dict, df = make_proposition_map("whisper_preprocessedTrainingData")
     proposition_map = add_special_tokens(prop_dict)
     
     #train_pairs  = [x for x in proposition_map.keys()]
@@ -240,7 +241,7 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
         #    batch_size=20, n_iters=5, lr_lm=0.000001, lr_class=0.0001)
         #parallel_model.module.to(device)
         train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
-            batch_size=20, n_iters=20, lr_lm=0.000001, lr_class=0.0001,group =group)
+            batch_size=20, n_iters=12, lr_lm=0.000001, lr_class=0.0001,group =group)
         #break
         
  
@@ -545,7 +546,7 @@ def train(train_pairs,
             all_cosine_rows.append(all_cosine_row)
     
     all_cosine_rows_df = pd.DataFrame(all_cosine_rows, columns=["transcript", "filtered_common_ground", "cosine_similarity", "true_common_ground"])
-    all_cosine_rows_df.to_csv(f'cosineScores/cosine_Scores{group}.csv')
+    all_cosine_rows_df.to_csv(f'cosineScores/cosine_Scores{group}_W.csv')
     new_df = pd.DataFrame(new_rows, columns=["transcript", "common_ground"])
     new_df.index.to_list()#the list of indicies in the dict that needs to be tokenized
     
@@ -571,7 +572,7 @@ def train(train_pairs,
     actual_common_ground_map = test_df.set_index('transcript')['common_ground'].to_dict()
     new_df['actual_common_ground'] = new_df['transcript'].map(actual_common_ground_map)# Set transcript as index for easy lookup
     new_df['Group'] =  group
-    new_df.to_csv(f'resultsTrainedCosineUpdates/{group}.csv')
+    new_df.to_csv(f'resultsTrainedCosineUpdates/{group}_W.csv')
 
 """
 

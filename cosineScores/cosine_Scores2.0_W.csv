@@ -1,0 +1,173 @@
+,transcript,filtered_common_ground,cosine_similarity,true_common_ground
+0,I tell red cube right ten grams,red = 10,tensor([[1.2396]]),<m> red =10 </m>
+1,I tell red cube right ten grams,red != 10,tensor([[0.0278]]),<m> red =10 </m>
+2,I tell red cube right ten grams,red < 10,tensor([[0.0329]]),<m> red =10 </m>
+3,I tell red cube right ten grams,red > 10,tensor([[0.0378]]),<m> red =10 </m>
+4,", red block , blue block also look relatively size",blue = red,tensor([[1.4233]]),<m> blue = red </m>
+5,", red block , blue block also look relatively size",blue != red,tensor([[0.0575]]),<m> blue = red </m>
+6,", red block , blue block also look relatively size",red < blue,tensor([[0.0620]]),<m> blue = red </m>
+7,", red block , blue block also look relatively size",red > blue,tensor([[0.0922]]),<m> blue = red </m>
+8,", red block , blue block also look relatively size",blue = red,tensor([[1.4233]]),<m> blue = red </m>
+9,", red block , blue block also look relatively size",blue != red,tensor([[0.0575]]),<m> blue = red </m>
+10,", red block , blue block also look relatively size",blue < red,tensor([[0.0796]]),<m> blue = red </m>
+11,", red block , blue block also look relatively size",blue > red,tensor([[0.0951]]),<m> blue = red </m>
+12,'m going hold back yellow block one yellow block 's heaviest .,yellow = 10,tensor([[1.4518]]),<m> blue = 10 </m>
+13,'m going hold back yellow block one yellow block 's heaviest .,yellow = 20,tensor([[1.4467]]),<m> blue = 10 </m>
+14,'m going hold back yellow block one yellow block 's heaviest .,yellow = 30,tensor([[1.4416]]),<m> blue = 10 </m>
+15,'m going hold back yellow block one yellow block 's heaviest .,yellow = 40,tensor([[1.4373]]),<m> blue = 10 </m>
+16,'m going hold back yellow block one yellow block 's heaviest .,yellow = 50,tensor([[1.4495]]),<m> blue = 10 </m>
+17,'m going hold back yellow block one yellow block 's heaviest .,yellow != 10,tensor([[0.4212]]),<m> blue = 10 </m>
+18,'m going hold back yellow block one yellow block 's heaviest .,yellow != 20,tensor([[0.1718]]),<m> blue = 10 </m>
+19,'m going hold back yellow block one yellow block 's heaviest .,yellow != 30,tensor([[0.1208]]),<m> blue = 10 </m>
+20,'m going hold back yellow block one yellow block 's heaviest .,yellow != 40,tensor([[0.0995]]),<m> blue = 10 </m>
+21,'m going hold back yellow block one yellow block 's heaviest .,yellow != 50,tensor([[0.1232]]),<m> blue = 10 </m>
+22,'m going hold back yellow block one yellow block 's heaviest .,yellow < 10,tensor([[0.0879]]),<m> blue = 10 </m>
+23,'m going hold back yellow block one yellow block 's heaviest .,yellow < 20,tensor([[0.1029]]),<m> blue = 10 </m>
+24,'m going hold back yellow block one yellow block 's heaviest .,yellow < 30,tensor([[0.0910]]),<m> blue = 10 </m>
+25,'m going hold back yellow block one yellow block 's heaviest .,yellow < 40,tensor([[0.0801]]),<m> blue = 10 </m>
+26,'m going hold back yellow block one yellow block 's heaviest .,yellow < 50,tensor([[0.0629]]),<m> blue = 10 </m>
+27,'m going hold back yellow block one yellow block 's heaviest .,yellow > 10,tensor([[0.2932]]),<m> blue = 10 </m>
+28,'m going hold back yellow block one yellow block 's heaviest .,yellow > 20,tensor([[0.1623]]),<m> blue = 10 </m>
+29,'m going hold back yellow block one yellow block 's heaviest .,yellow > 30,tensor([[0.1573]]),<m> blue = 10 </m>
+30,'m going hold back yellow block one yellow block 's heaviest .,yellow > 40,tensor([[0.1111]]),<m> blue = 10 </m>
+31,'m going hold back yellow block one yellow block 's heaviest .,yellow > 50,tensor([[0.1633]]),<m> blue = 10 </m>
+32,"knowing , , oh , sorry , green one , , twenty",green = 20,tensor([[0.9540]]),<m> green = 20 </m>
+33,"knowing , , oh , sorry , green one , , twenty",green != 20,tensor([[0.0502]]),<m> green = 20 </m>
+34,"knowing , , oh , sorry , green one , , twenty",green < 20,tensor([[0.0416]]),<m> green = 20 </m>
+35,"knowing , , oh , sorry , green one , , twenty",green > 20,tensor([[0.0345]]),<m> green = 20 </m>
+36,"process putting purple block side , checking yellow block one .",purple = yellow,tensor([[0.3482]]),<m> purple = 30 </m>
+37,"process putting purple block side , checking yellow block one .",purple != yellow,tensor([[0.0513]]),<m> purple = 30 </m>
+38,"process putting purple block side , checking yellow block one .",purple < yellow,tensor([[0.0401]]),<m> purple = 30 </m>
+39,"process putting purple block side , checking yellow block one .",purple > yellow,tensor([[0.0302]]),<m> purple = 30 </m>
+40,"process putting purple block side , checking yellow block one .",purple = yellow,tensor([[0.3482]]),<m> purple = 30 </m>
+41,"process putting purple block side , checking yellow block one .",purple != yellow,tensor([[0.0513]]),<m> purple = 30 </m>
+42,"process putting purple block side , checking yellow block one .",yellow < purple,tensor([[0.0419]]),<m> purple = 30 </m>
+43,"process putting purple block side , checking yellow block one .",yellow > purple,tensor([[0.0389]]),<m> purple = 30 </m>
+44,"Yeah , could probably try ten .",red = 10,tensor([[1.4538]]),<m> yellow > purple </m>
+45,"Yeah , could probably try ten .",red != 10,tensor([[0.0502]]),<m> yellow > purple </m>
+46,"Yeah , could probably try ten .",red < 10,tensor([[0.3038]]),<m> yellow > purple </m>
+47,"Yeah , could probably try ten .",red > 10,tensor([[0.8889]]),<m> yellow > purple </m>
+48,"Yeah , could probably try ten .",blue = 10,tensor([[1.4559]]),<m> yellow > purple </m>
+49,"Yeah , could probably try ten .",blue != 10,tensor([[0.0576]]),<m> yellow > purple </m>
+50,"Yeah , could probably try ten .",blue < 10,tensor([[0.5959]]),<m> yellow > purple </m>
+51,"Yeah , could probably try ten .",blue > 10,tensor([[1.1542]]),<m> yellow > purple </m>
+52,"Yeah , could probably try ten .",green = 10,tensor([[1.4553]]),<m> yellow > purple </m>
+53,"Yeah , could probably try ten .",green != 10,tensor([[0.0654]]),<m> yellow > purple </m>
+54,"Yeah , could probably try ten .",green < 10,tensor([[0.5746]]),<m> yellow > purple </m>
+55,"Yeah , could probably try ten .",green > 10,tensor([[1.2252]]),<m> yellow > purple </m>
+56,"Yeah , could probably try ten .",purple = 10,tensor([[1.4565]]),<m> yellow > purple </m>
+57,"Yeah , could probably try ten .",purple != 10,tensor([[0.0566]]),<m> yellow > purple </m>
+58,"Yeah , could probably try ten .",purple < 10,tensor([[0.9621]]),<m> yellow > purple </m>
+59,"Yeah , could probably try ten .",purple > 10,tensor([[1.2809]]),<m> yellow > purple </m>
+60,"Yeah , could probably try ten .",yellow = 10,tensor([[1.4583]]),<m> yellow > purple </m>
+61,"Yeah , could probably try ten .",yellow != 10,tensor([[0.0853]]),<m> yellow > purple </m>
+62,"Yeah , could probably try ten .",yellow < 10,tensor([[0.9991]]),<m> yellow > purple </m>
+63,"Yeah , could probably try ten .",yellow > 10,tensor([[1.2966]]),<m> yellow > purple </m>
+64,"Yeah , could probably try ten .","blue = 10, green = 10, red = 10",tensor([[1.4274]]),<m> yellow > purple </m>
+65,"Yeah , could probably try ten .","blue = 10, purple = 10, red = 10",tensor([[1.4246]]),<m> yellow > purple </m>
+66,"Yeah , could probably try ten .","blue = 10, red = 10, yellow = 10",tensor([[1.4129]]),<m> yellow > purple </m>
+67,"Yeah , could probably try ten .","green = 10, purple = 10, red = 10",tensor([[1.4266]]),<m> yellow > purple </m>
+68,"Yeah , could probably try ten .","green = 10, red = 10, yellow = 10",tensor([[1.4215]]),<m> yellow > purple </m>
+69,"Yeah , could probably try ten .","purple = 10, red = 10, yellow = 10",tensor([[1.4158]]),<m> yellow > purple </m>
+70,"Yeah , could probably try ten .","blue = 10, green = 10, purple = 10",tensor([[1.4219]]),<m> yellow > purple </m>
+71,"Yeah , could probably try ten .","blue = 10, green = 10, yellow = 10",tensor([[1.4104]]),<m> yellow > purple </m>
+72,"Yeah , could probably try ten .","blue = 10, purple = 10, yellow = 10",tensor([[1.4139]]),<m> yellow > purple </m>
+73,"Yeah , could probably try ten .","green = 10, purple = 10, yellow = 10",tensor([[1.4117]]),<m> yellow > purple </m>
+74,"Yeah , could probably try ten .",red = 10,tensor([[1.4538]]),"<m> green = 20, purple = 30 </m>"
+75,"Yeah , could probably try ten .",red != 10,tensor([[0.0502]]),"<m> green = 20, purple = 30 </m>"
+76,"Yeah , could probably try ten .",red < 10,tensor([[0.3038]]),"<m> green = 20, purple = 30 </m>"
+77,"Yeah , could probably try ten .",red > 10,tensor([[0.8889]]),"<m> green = 20, purple = 30 </m>"
+78,"Yeah , could probably try ten .",blue = 10,tensor([[1.4559]]),"<m> green = 20, purple = 30 </m>"
+79,"Yeah , could probably try ten .",blue != 10,tensor([[0.0576]]),"<m> green = 20, purple = 30 </m>"
+80,"Yeah , could probably try ten .",blue < 10,tensor([[0.5959]]),"<m> green = 20, purple = 30 </m>"
+81,"Yeah , could probably try ten .",blue > 10,tensor([[1.1542]]),"<m> green = 20, purple = 30 </m>"
+82,"Yeah , could probably try ten .",green = 10,tensor([[1.4553]]),"<m> green = 20, purple = 30 </m>"
+83,"Yeah , could probably try ten .",green != 10,tensor([[0.0654]]),"<m> green = 20, purple = 30 </m>"
+84,"Yeah , could probably try ten .",green < 10,tensor([[0.5746]]),"<m> green = 20, purple = 30 </m>"
+85,"Yeah , could probably try ten .",green > 10,tensor([[1.2252]]),"<m> green = 20, purple = 30 </m>"
+86,"Yeah , could probably try ten .",purple = 10,tensor([[1.4565]]),"<m> green = 20, purple = 30 </m>"
+87,"Yeah , could probably try ten .",purple != 10,tensor([[0.0566]]),"<m> green = 20, purple = 30 </m>"
+88,"Yeah , could probably try ten .",purple < 10,tensor([[0.9621]]),"<m> green = 20, purple = 30 </m>"
+89,"Yeah , could probably try ten .",purple > 10,tensor([[1.2809]]),"<m> green = 20, purple = 30 </m>"
+90,"Yeah , could probably try ten .",yellow = 10,tensor([[1.4583]]),"<m> green = 20, purple = 30 </m>"
+91,"Yeah , could probably try ten .",yellow != 10,tensor([[0.0853]]),"<m> green = 20, purple = 30 </m>"
+92,"Yeah , could probably try ten .",yellow < 10,tensor([[0.9991]]),"<m> green = 20, purple = 30 </m>"
+93,"Yeah , could probably try ten .",yellow > 10,tensor([[1.2966]]),"<m> green = 20, purple = 30 </m>"
+94,"Yeah , could probably try ten .","blue = 10, green = 10, red = 10",tensor([[1.4274]]),"<m> green = 20, purple = 30 </m>"
+95,"Yeah , could probably try ten .","blue = 10, purple = 10, red = 10",tensor([[1.4246]]),"<m> green = 20, purple = 30 </m>"
+96,"Yeah , could probably try ten .","blue = 10, red = 10, yellow = 10",tensor([[1.4129]]),"<m> green = 20, purple = 30 </m>"
+97,"Yeah , could probably try ten .","green = 10, purple = 10, red = 10",tensor([[1.4266]]),"<m> green = 20, purple = 30 </m>"
+98,"Yeah , could probably try ten .","green = 10, red = 10, yellow = 10",tensor([[1.4215]]),"<m> green = 20, purple = 30 </m>"
+99,"Yeah , could probably try ten .","purple = 10, red = 10, yellow = 10",tensor([[1.4158]]),"<m> green = 20, purple = 30 </m>"
+100,"Yeah , could probably try ten .","blue = 10, green = 10, purple = 10",tensor([[1.4219]]),"<m> green = 20, purple = 30 </m>"
+101,"Yeah , could probably try ten .","blue = 10, green = 10, yellow = 10",tensor([[1.4104]]),"<m> green = 20, purple = 30 </m>"
+102,"Yeah , could probably try ten .","blue = 10, purple = 10, yellow = 10",tensor([[1.4139]]),"<m> green = 20, purple = 30 </m>"
+103,"Yeah , could probably try ten .","green = 10, purple = 10, yellow = 10",tensor([[1.4117]]),"<m> green = 20, purple = 30 </m>"
+104,oh twenty thirty 'll go 50 .,"blue = 20, green = 30, red = 20",tensor([[0.8376]]),<m> yellow > blue + purple </m>
+105,oh twenty thirty 'll go 50 .,"blue = 20, purple = 30, red = 20",tensor([[0.4763]]),<m> yellow > blue + purple </m>
+106,oh twenty thirty 'll go 50 .,"blue = 20, red = 20, yellow = 30",tensor([[0.2082]]),<m> yellow > blue + purple </m>
+107,oh twenty thirty 'll go 50 .,"blue = 30, green = 20, red = 20",tensor([[0.7924]]),<m> yellow > blue + purple </m>
+108,oh twenty thirty 'll go 50 .,"blue = 30, green = 30, red = 20",tensor([[0.7168]]),<m> yellow > blue + purple </m>
+109,oh twenty thirty 'll go 50 .,"blue = 30, purple = 20, red = 20",tensor([[0.3965]]),<m> yellow > blue + purple </m>
+110,oh twenty thirty 'll go 50 .,"blue = 30, purple = 30, red = 20",tensor([[0.3289]]),<m> yellow > blue + purple </m>
+111,oh twenty thirty 'll go 50 .,"blue = 30, red = 20, yellow = 20",tensor([[0.3586]]),<m> yellow > blue + purple </m>
+112,oh twenty thirty 'll go 50 .,"blue = 30, red = 20, yellow = 30",tensor([[0.4536]]),<m> yellow > blue + purple </m>
+113,oh twenty thirty 'll go 50 .,"green = 20, purple = 30, red = 20",tensor([[0.7535]]),<m> yellow > blue + purple </m>
+114,oh twenty thirty 'll go 50 .,"green = 20, red = 20, yellow = 30",tensor([[0.3758]]),<m> yellow > blue + purple </m>
+115,oh twenty thirty 'll go 50 .,"green = 30, purple = 20, red = 20",tensor([[0.7205]]),<m> yellow > blue + purple </m>
+116,oh twenty thirty 'll go 50 .,"green = 30, purple = 30, red = 20",tensor([[0.5353]]),<m> yellow > blue + purple </m>
+117,oh twenty thirty 'll go 50 .,"green = 30, red = 20, yellow = 20",tensor([[0.6314]]),<m> yellow > blue + purple </m>
+118,oh twenty thirty 'll go 50 .,"green = 30, red = 20, yellow = 30",tensor([[0.7084]]),<m> yellow > blue + purple </m>
+119,oh twenty thirty 'll go 50 .,"purple = 20, red = 20, yellow = 30",tensor([[0.2902]]),<m> yellow > blue + purple </m>
+120,oh twenty thirty 'll go 50 .,"purple = 30, red = 20, yellow = 20",tensor([[0.3978]]),<m> yellow > blue + purple </m>
+121,oh twenty thirty 'll go 50 .,"purple = 30, red = 20, yellow = 30",tensor([[0.5225]]),<m> yellow > blue + purple </m>
+122,oh twenty thirty 'll go 50 .,"blue = 20, green = 20, red = 30",tensor([[0.4317]]),<m> yellow > blue + purple </m>
+123,oh twenty thirty 'll go 50 .,"blue = 20, green = 30, red = 30",tensor([[0.3379]]),<m> yellow > blue + purple </m>
+124,oh twenty thirty 'll go 50 .,"blue = 20, purple = 20, red = 30",tensor([[0.2150]]),<m> yellow > blue + purple </m>
+125,oh twenty thirty 'll go 50 .,"blue = 20, purple = 30, red = 30",tensor([[0.1453]]),<m> yellow > blue + purple </m>
+126,oh twenty thirty 'll go 50 .,"blue = 20, red = 30, yellow = 20",tensor([[0.5039]]),<m> yellow > blue + purple </m>
+127,oh twenty thirty 'll go 50 .,"blue = 20, red = 30, yellow = 30",tensor([[0.1073]]),<m> yellow > blue + purple </m>
+128,oh twenty thirty 'll go 50 .,"blue = 30, green = 20, red = 30",tensor([[0.7576]]),<m> yellow > blue + purple </m>
+129,oh twenty thirty 'll go 50 .,"blue = 30, purple = 20, red = 30",tensor([[0.3800]]),<m> yellow > blue + purple </m>
+130,oh twenty thirty 'll go 50 .,"blue = 30, red = 30, yellow = 20",tensor([[0.3869]]),<m> yellow > blue + purple </m>
+131,oh twenty thirty 'll go 50 .,"green = 20, purple = 20, red = 30",tensor([[0.3560]]),<m> yellow > blue + purple </m>
+132,oh twenty thirty 'll go 50 .,"green = 20, purple = 30, red = 30",tensor([[0.2449]]),<m> yellow > blue + purple </m>
+133,oh twenty thirty 'll go 50 .,"green = 20, red = 30, yellow = 20",tensor([[0.7490]]),<m> yellow > blue + purple </m>
+134,oh twenty thirty 'll go 50 .,"green = 20, red = 30, yellow = 30",tensor([[0.2092]]),<m> yellow > blue + purple </m>
+135,oh twenty thirty 'll go 50 .,"green = 30, purple = 20, red = 30",tensor([[0.7087]]),<m> yellow > blue + purple </m>
+136,oh twenty thirty 'll go 50 .,"green = 30, red = 30, yellow = 20",tensor([[0.6462]]),<m> yellow > blue + purple </m>
+137,oh twenty thirty 'll go 50 .,"purple = 20, red = 30, yellow = 20",tensor([[0.5352]]),<m> yellow > blue + purple </m>
+138,oh twenty thirty 'll go 50 .,"purple = 20, red = 30, yellow = 30",tensor([[0.1514]]),<m> yellow > blue + purple </m>
+139,oh twenty thirty 'll go 50 .,"purple = 30, red = 30, yellow = 20",tensor([[0.4249]]),<m> yellow > blue + purple </m>
+140,oh twenty thirty 'll go 50 .,"blue = 20, green = 20, purple = 30",tensor([[0.3590]]),<m> yellow > blue + purple </m>
+141,oh twenty thirty 'll go 50 .,"blue = 20, green = 20, yellow = 30",tensor([[0.3325]]),<m> yellow > blue + purple </m>
+142,oh twenty thirty 'll go 50 .,"blue = 20, green = 30, purple = 20",tensor([[0.8056]]),<m> yellow > blue + purple </m>
+143,oh twenty thirty 'll go 50 .,"blue = 20, green = 30, purple = 30",tensor([[0.2843]]),<m> yellow > blue + purple </m>
+144,oh twenty thirty 'll go 50 .,"blue = 20, green = 30, yellow = 20",tensor([[0.6922]]),<m> yellow > blue + purple </m>
+145,oh twenty thirty 'll go 50 .,"blue = 20, green = 30, yellow = 30",tensor([[0.1931]]),<m> yellow > blue + purple </m>
+146,oh twenty thirty 'll go 50 .,"blue = 20, purple = 20, yellow = 30",tensor([[0.4011]]),<m> yellow > blue + purple </m>
+147,oh twenty thirty 'll go 50 .,"blue = 20, purple = 30, yellow = 20",tensor([[0.6436]]),<m> yellow > blue + purple </m>
+148,oh twenty thirty 'll go 50 .,"blue = 20, purple = 30, yellow = 30",tensor([[0.2571]]),<m> yellow > blue + purple </m>
+149,oh twenty thirty 'll go 50 .,"blue = 30, green = 20, purple = 20",tensor([[0.6701]]),<m> yellow > blue + purple </m>
+150,oh twenty thirty 'll go 50 .,"blue = 30, green = 20, purple = 30",tensor([[0.7288]]),<m> yellow > blue + purple </m>
+151,oh twenty thirty 'll go 50 .,"blue = 30, green = 20, yellow = 20",tensor([[0.5448]]),<m> yellow > blue + purple </m>
+152,oh twenty thirty 'll go 50 .,"blue = 30, green = 20, yellow = 30",tensor([[0.6339]]),<m> yellow > blue + purple </m>
+153,oh twenty thirty 'll go 50 .,"blue = 30, green = 30, purple = 20",tensor([[0.5830]]),<m> yellow > blue + purple </m>
+154,oh twenty thirty 'll go 50 .,"blue = 30, green = 30, yellow = 20",tensor([[0.4981]]),<m> yellow > blue + purple </m>
+155,oh twenty thirty 'll go 50 .,"blue = 30, purple = 20, yellow = 20",tensor([[0.5727]]),<m> yellow > blue + purple </m>
+156,oh twenty thirty 'll go 50 .,"blue = 30, purple = 20, yellow = 30",tensor([[0.6439]]),<m> yellow > blue + purple </m>
+157,oh twenty thirty 'll go 50 .,"blue = 30, purple = 30, yellow = 20",tensor([[0.4992]]),<m> yellow > blue + purple </m>
+158,oh twenty thirty 'll go 50 .,"green = 20, purple = 20, yellow = 30",tensor([[0.2693]]),<m> yellow > blue + purple </m>
+159,oh twenty thirty 'll go 50 .,"green = 20, purple = 30, yellow = 20",tensor([[0.5582]]),<m> yellow > blue + purple </m>
+160,oh twenty thirty 'll go 50 .,"green = 20, purple = 30, yellow = 30",tensor([[0.1441]]),<m> yellow > blue + purple </m>
+161,oh twenty thirty 'll go 50 .,"green = 30, purple = 20, yellow = 20",tensor([[0.4988]]),<m> yellow > blue + purple </m>
+162,oh twenty thirty 'll go 50 .,"green = 30, purple = 20, yellow = 30",tensor([[0.5756]]),<m> yellow > blue + purple </m>
+163,oh twenty thirty 'll go 50 .,"green = 30, purple = 30, yellow = 20",tensor([[0.4079]]),<m> yellow > blue + purple </m>
+164,"mix green block , purple block ? ?",green = purple,tensor([[0.0421]]),<m> yellow = 50 </m>
+165,"mix green block , purple block ? ?",green != purple,tensor([[0.0715]]),<m> yellow = 50 </m>
+166,"mix green block , purple block ? ?",green < purple,tensor([[0.0554]]),<m> yellow = 50 </m>
+167,"mix green block , purple block ? ?",green > purple,tensor([[0.0443]]),<m> yellow = 50 </m>
+168,"mix green block , purple block ? ?",green = purple,tensor([[0.0421]]),<m> yellow = 50 </m>
+169,"mix green block , purple block ? ?",green != purple,tensor([[0.0715]]),<m> yellow = 50 </m>
+170,"mix green block , purple block ? ?",purple < green,tensor([[0.0506]]),<m> yellow = 50 </m>
+171,"mix green block , purple block ? ?",purple > green,tensor([[0.0384]]),<m> yellow = 50 </m>

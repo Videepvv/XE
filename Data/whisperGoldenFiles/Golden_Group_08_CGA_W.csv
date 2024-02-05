@@ -1,0 +1,12 @@
+,Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+2,10.09,11.43,green = 20,1,0.0,20.0,8,3,"okay. so. okay so now i'll just take red block, blue block off because then we can have a little more fine grain con-"
+7,33.94,35.65,purple = 30,2,20.0,34.0,8,1,are you done? sorry. because you can add the red one or blue one here. maybe purple block might be thirty.
+12,74.08,76.06,yellow < purple + green,24,74.0,78.0,8,1,"um, that's too left."
+16,133.433,134.777,yellow > 40,42,133.0,138.0,8,1,yellow block's more than 40
+18,144.78,146.77,40 < yellow,44,144.0,155.0,8,1,yellow block's between 40 and 50
+19,157.58,159.33,yellow > 40,46,155.0,159.0,8,2,"because it's definitely not staying in between, right? it's going right."
+22,168.19,170.67,40 < yellow ,52,166.0,174.0,8,1,"yellow block is more than 40. but we don't, and less than 50 actually."
+25,194.45,196.62,yellow < 50,58,194.0,197.0,8,1,"mhh, 50 is too heavy."
+30,237.91,240.34,yellow=40,78,238.0,248.0,8,2,"Yeah, 41 i guess. So should we"
+34,276.176,277.705,yellow = 50,97,275.0,280.0,8,1,yeah so yellow block is 49.
+36,280.19,284.04,yellow = 50,98,280.0,287.0,8,3,"okay, so yellow block's probably just meant to be 50 and yellow block was just placed differently, when they like calibrated."

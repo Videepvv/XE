@@ -1,0 +1,44 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,I tell red cube right ten grams,red = 10,0.80939627,<m> red =10 </m>,2.0
+1,I tell red cube right ten grams,red > 10,0.023529578,<m> red =10 </m>,2.0
+2,I tell red cube right ten grams,red < 10,0.020942971,<m> red =10 </m>,2.0
+3,I tell red cube right ten grams,red != 10,0.018536672,<m> red =10 </m>,2.0
+4,", red block , blue block also look relatively size",blue = red,0.95075285,<m> blue = red </m>,2.0
+5,", red block , blue block also look relatively size",blue = red,0.95075285,<m> blue = red </m>,2.0
+6,", red block , blue block also look relatively size",blue > red,0.073360644,<m> blue = red </m>,2.0
+7,", red block , blue block also look relatively size",red > blue,0.07696947,<m> blue = red </m>,2.0
+8,", red block , blue block also look relatively size",blue < red,0.0663374,<m> blue = red </m>,2.0
+9,'m going hold back yellow block one yellow block 's heaviest .,yellow = 10,0.9679327,<m> blue = 10 </m>,2.0
+10,'m going hold back yellow block one yellow block 's heaviest .,yellow = 50,0.9656218,<m> blue = 10 </m>,2.0
+11,'m going hold back yellow block one yellow block 's heaviest .,yellow = 20,0.9628035,<m> blue = 10 </m>,2.0
+12,'m going hold back yellow block one yellow block 's heaviest .,yellow = 30,0.95863545,<m> blue = 10 </m>,2.0
+13,'m going hold back yellow block one yellow block 's heaviest .,yellow = 40,0.9566883,<m> blue = 10 </m>,2.0
+14,"knowing , , oh , sorry , green one , , twenty",green = 20,0.69241893,<m> green = 20 </m>,2.0
+15,"knowing , , oh , sorry , green one , , twenty",green != 20,0.030918133,<m> green = 20 </m>,2.0
+16,"knowing , , oh , sorry , green one , , twenty",green < 20,0.025238443,<m> green = 20 </m>,2.0
+17,"knowing , , oh , sorry , green one , , twenty",green > 20,0.0217578,<m> green = 20 </m>,2.0
+18,"process putting purple block side , checking yellow block one .",purple = yellow,0.29678226,<m> purple = 30 </m>,2.0
+19,"process putting purple block side , checking yellow block one .",purple = yellow,0.29678226,<m> purple = 30 </m>,2.0
+20,"process putting purple block side , checking yellow block one .",purple != yellow,0.032438055,<m> purple = 30 </m>,2.0
+21,"process putting purple block side , checking yellow block one .",purple != yellow,0.032438055,<m> purple = 30 </m>,2.0
+22,"process putting purple block side , checking yellow block one .",yellow < purple,0.026383024,<m> purple = 30 </m>,2.0
+23,"Yeah , could probably try ten .",yellow = 10,0.973403,"<m> green = 20, purple = 30 </m>",2.0
+24,"Yeah , could probably try ten .",purple = 10,0.97224295,"<m> green = 20, purple = 30 </m>",2.0
+25,"Yeah , could probably try ten .",blue = 10,0.9719832,"<m> green = 20, purple = 30 </m>",2.0
+26,"Yeah , could probably try ten .",green = 10,0.9713609,"<m> green = 20, purple = 30 </m>",2.0
+27,"Yeah , could probably try ten .",red = 10,0.97059804,"<m> green = 20, purple = 30 </m>",2.0
+28,"Yeah , could probably try ten .",yellow = 10,0.973403,"<m> green = 20, purple = 30 </m>",2.0
+29,"Yeah , could probably try ten .",purple = 10,0.97224295,"<m> green = 20, purple = 30 </m>",2.0
+30,"Yeah , could probably try ten .",blue = 10,0.9719832,"<m> green = 20, purple = 30 </m>",2.0
+31,"Yeah , could probably try ten .",green = 10,0.9713609,"<m> green = 20, purple = 30 </m>",2.0
+32,"Yeah , could probably try ten .",red = 10,0.97059804,"<m> green = 20, purple = 30 </m>",2.0
+33,oh twenty thirty 'll go 50 .,"blue = 20, green = 30, red = 20",0.4776579,<m> yellow > blue + purple </m>,2.0
+34,oh twenty thirty 'll go 50 .,"blue = 20, green = 30, purple = 20",0.45695907,<m> yellow > blue + purple </m>,2.0
+35,oh twenty thirty 'll go 50 .,"blue = 30, green = 20, red = 20",0.44304007,<m> yellow > blue + purple </m>,2.0
+36,oh twenty thirty 'll go 50 .,"blue = 30, green = 20, red = 30",0.41816545,<m> yellow > blue + purple </m>,2.0
+37,oh twenty thirty 'll go 50 .,"green = 20, purple = 30, red = 20",0.4209764,<m> yellow > blue + purple </m>,2.0
+38,"mix green block , purple block ? ?",green != purple,0.045654748,<m> yellow = 50 </m>,2.0
+39,"mix green block , purple block ? ?",green != purple,0.045654748,<m> yellow = 50 </m>,2.0
+40,"mix green block , purple block ? ?",green < purple,0.033762787,<m> yellow = 50 </m>,2.0
+41,"mix green block , purple block ? ?",purple < green,0.031094257,<m> yellow = 50 </m>,2.0
+42,"mix green block , purple block ? ?",green > purple,0.027788885,<m> yellow = 50 </m>,2.0

@@ -1,0 +1,14 @@
+,Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+0,24.42,27.72,red = 10,3,21.0,28.0,1.0,4,"Um and then, we will tell you that this red cube on top is 10 grams"
+2,80.52,81.67,red = 10,,,,,,
+5,95.19,97.17,red = blue,32,95.0,97.0,1.0,2,one red block's 10. like put it on. well hold on lets just uh slow that down
+7,99.78,102.03,blue = 10,35,99.0,103.0,1.0,1,Okay
+12,112.42,112.72,purple > 20,42,112.0,113.0,1.0,1,and then see if theres purple block's 20
+13,112.74,113.76,purple != 20,42,112.0,113.0,1.0,1,and then see if theres purple block's 20
+16,127.35,129.19,green = 20,49,129.0,132.0,1.0,2,okay so green block one is probably 20
+18,129.47,131.98,S209: STATEMENT(red = 10 and blue = 10 and green = 20,49,129.0,132.0,1.0,2,okay so green block one is probably 20
+22,140.73,142.81,purple = 30,57,140.0,143.0,1.0,2,thirty
+29,181.08,182.28,yellow > purple + red + blue,82,175.0,190.0,1.0,1,purple block ones thirty?
+35,207.06,210.87,"red = 10, blue = 10, green = 20, purple = 30",101,210.0,211.0,1.0,1,"that red block, blue block, green block, yellow block, purple block's ten ten"
+40,238.04,239.92,yellow < 50,110,239.0,245.0,1.0,2,fifty yeah
+45,265.5,268.13,yellow = 50,124,260.0,270.0,1.0,1,fourty

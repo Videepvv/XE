@@ -1,0 +1,17 @@
+,Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+0,21.12,24.51,red = 10,4,21.02,25.15,6,4,I will tell you that the red cube is 10 grams. all
+1,63.42,66.0,red = 10,13,59.0,80.13,6,1,"right, so i guess if red block red one's 10 grams. let's see, seems like red block, blue block might be about the same."
+2,72.45,76.17,red = blue,13,59.0,80.13,6,1,"right, so i guess if red block red one's 10 grams. let's see, seems like red block, blue block might be about the same."
+5,89.76,91.06,purple > red + blue,20,89.07,90.07,6,1,too heavy
+6,102.35,104.28,green = 20,24,95.07,113.07,6,2,this is a sensitive scale. that's looking kinda even. try yellow block big sucker.
+8,116.79,125.37,red = 10 and green = 20,28,119.17,121.07,6,1,making sure that purple block didn't have the weight on the bottom.
+10,141.18,146.85,purple > 20 and purple < 30,49,143.07,159.07,6,2,"but it almost seems like the 30 takes it past, but maybe not. it's just so sensitive. good god. if they're only in increments of 10"
+11,156.33,161.08,purple = 30,49,143.07,159.07,6,2,"but it almost seems like the 30 takes it past, but maybe not. it's just so sensitive. good god. if they're only in increments of 10"
+14,177.57,178.08,yellow = 50,66,177.07,192.07,6,3,"yeah, purple block, green block's considerably heavier, so purple block one, did we say purple block was 30? and blue block was 10."
+16,186.24,190.92,yellow < 50,66,177.07,192.07,6,3,"yeah, purple block, green block's considerably heavier, so purple block one, did we say purple block was 30? and blue block was 10."
+17,192.61,195.21,purple = 30 and green = 20,68,192.07,196.07,6,3,"yellow block's definetly not 30 so yellow block has to, but yellow block's too heavy"
+18,195.24,196.42, red = 10 and blue = 10,68,192.07,196.07,6,3,"yellow block's definetly not 30 so yellow block has to, but yellow block's too heavy"
+19,201.21,202.25,yellow < purple + green,74,199.07,202.07,6,2,"and big blue, 50."
+20,205.44,209.58,purple + green = 50,80,205.07,206.07,6,2,"unless she's messing with us and some of red block, blue block, green block, purple block, yellow block are in increments of five."
+22,224.5,226.56,purple + blue = 40,97,217.07,239.07,6,2,greens
+23,237.36,240.75,yellow = 50,97,217.07,239.07,6,2,greens

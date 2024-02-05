@@ -1,0 +1,468 @@
+,transcript,filtered_common_ground,cosine_similarity,true_common_ground
+0,", green one twenty",green = 20,tensor([[1.4050]]),<m> green = 20 </m>
+1,", green one twenty",green != 20,tensor([[0.0515]]),<m> green = 20 </m>
+2,", green one twenty",green < 20,tensor([[0.0427]]),<m> green = 20 </m>
+3,", green one twenty",green > 20,tensor([[0.0428]]),<m> green = 20 </m>
+4,"wait , purple , much ? purple 30. green 20. 's . try",green = purple,tensor([[0.7734]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+5,"wait , purple , much ? purple 30. green 20. 's . try",green != purple,tensor([[0.0570]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+6,"wait , purple , much ? purple 30. green 20. 's . try",green < purple,tensor([[0.0698]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+7,"wait , purple , much ? purple 30. green 20. 's . try",green > purple,tensor([[0.0701]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+8,"wait , purple , much ? purple 30. green 20. 's . try",green = purple,tensor([[0.7734]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+9,"wait , purple , much ? purple 30. green 20. 's . try",green != purple,tensor([[0.0570]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+10,"wait , purple , much ? purple 30. green 20. 's . try",purple < green,tensor([[0.0742]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+11,"wait , purple , much ? purple 30. green 20. 's . try",purple > green,tensor([[0.0802]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+12,"red block , blue block two green one 's still kinda dipping",red = blue + green,tensor([[1.4417]]),<m> green = 20 </m>
+13,"red block , blue block two green one 's still kinda dipping",red != blue + green,tensor([[1.0545]]),<m> green = 20 </m>
+14,"red block , blue block two green one 's still kinda dipping",red < blue + green,tensor([[1.0765]]),<m> green = 20 </m>
+15,"red block , blue block two green one 's still kinda dipping",red > blue + green,tensor([[0.9651]]),<m> green = 20 </m>
+16,"red block , blue block two green one 's still kinda dipping",blue = green + red,tensor([[1.4477]]),<m> green = 20 </m>
+17,"red block , blue block two green one 's still kinda dipping",blue != green + red,tensor([[0.6301]]),<m> green = 20 </m>
+18,"red block , blue block two green one 's still kinda dipping",blue < green + red,tensor([[0.6742]]),<m> green = 20 </m>
+19,"red block , blue block two green one 's still kinda dipping",blue > green + red,tensor([[0.6233]]),<m> green = 20 </m>
+20,"red block , blue block two green one 's still kinda dipping",green = blue + red,tensor([[1.4640]]),<m> green = 20 </m>
+21,"red block , blue block two green one 's still kinda dipping",green != blue + red,tensor([[0.6332]]),<m> green = 20 </m>
+22,"red block , blue block two green one 's still kinda dipping",green < blue + red,tensor([[0.8071]]),<m> green = 20 </m>
+23,"red block , blue block two green one 's still kinda dipping",green > blue + red,tensor([[0.6451]]),<m> green = 20 </m>
+24,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 10, red = 10",tensor([[0.5877]]),<m> green = 20 </m>
+25,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 20, red = 10",tensor([[0.5224]]),<m> green = 20 </m>
+26,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 30, red = 10",tensor([[0.4877]]),<m> green = 20 </m>
+27,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 40, red = 10",tensor([[0.4297]]),<m> green = 20 </m>
+28,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 50, red = 10",tensor([[0.4974]]),<m> green = 20 </m>
+29,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 10, red = 10",tensor([[0.5795]]),<m> green = 20 </m>
+30,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 20, red = 10",tensor([[0.4446]]),<m> green = 20 </m>
+31,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 30, red = 10",tensor([[0.2676]]),<m> green = 20 </m>
+32,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 40, red = 10",tensor([[0.2494]]),<m> green = 20 </m>
+33,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 50, red = 10",tensor([[0.3103]]),<m> green = 20 </m>
+34,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 10, red = 10",tensor([[0.5420]]),<m> green = 20 </m>
+35,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 20, red = 10",tensor([[0.3384]]),<m> green = 20 </m>
+36,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 30, red = 10",tensor([[0.4887]]),<m> green = 20 </m>
+37,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 40, red = 10",tensor([[0.2268]]),<m> green = 20 </m>
+38,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 50, red = 10",tensor([[0.2919]]),<m> green = 20 </m>
+39,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 10, red = 10",tensor([[0.5775]]),<m> green = 20 </m>
+40,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 20, red = 10",tensor([[0.4214]]),<m> green = 20 </m>
+41,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 30, red = 10",tensor([[0.3148]]),<m> green = 20 </m>
+42,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 40, red = 10",tensor([[0.4983]]),<m> green = 20 </m>
+43,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 50, red = 10",tensor([[0.2342]]),<m> green = 20 </m>
+44,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 10, red = 10",tensor([[0.5572]]),<m> green = 20 </m>
+45,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 20, red = 10",tensor([[0.4262]]),<m> green = 20 </m>
+46,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 30, red = 10",tensor([[0.3598]]),<m> green = 20 </m>
+47,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 40, red = 10",tensor([[0.2678]]),<m> green = 20 </m>
+48,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 50, red = 10",tensor([[0.4214]]),<m> green = 20 </m>
+49,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 10, red = 20",tensor([[0.5347]]),<m> green = 20 </m>
+50,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 20, red = 20",tensor([[0.4300]]),<m> green = 20 </m>
+51,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 30, red = 20",tensor([[0.1876]]),<m> green = 20 </m>
+52,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 40, red = 20",tensor([[0.2038]]),<m> green = 20 </m>
+53,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 50, red = 20",tensor([[0.2135]]),<m> green = 20 </m>
+54,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 10, red = 20",tensor([[0.4338]]),<m> green = 20 </m>
+55,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 20, red = 20",tensor([[0.4698]]),<m> green = 20 </m>
+56,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 30, red = 20",tensor([[0.2571]]),<m> green = 20 </m>
+57,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 40, red = 20",tensor([[0.2248]]),<m> green = 20 </m>
+58,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 50, red = 20",tensor([[0.2648]]),<m> green = 20 </m>
+59,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 10, red = 20",tensor([[0.2466]]),<m> green = 20 </m>
+60,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 20, red = 20",tensor([[0.2917]]),<m> green = 20 </m>
+61,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 30, red = 20",tensor([[0.2118]]),<m> green = 20 </m>
+62,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 40, red = 20",tensor([[0.1276]]),<m> green = 20 </m>
+63,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 50, red = 20",tensor([[0.1569]]),<m> green = 20 </m>
+64,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 10, red = 20",tensor([[0.2562]]),<m> green = 20 </m>
+65,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 20, red = 20",tensor([[0.3113]]),<m> green = 20 </m>
+66,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 30, red = 20",tensor([[0.1552]]),<m> green = 20 </m>
+67,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 40, red = 20",tensor([[0.1974]]),<m> green = 20 </m>
+68,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 50, red = 20",tensor([[0.1343]]),<m> green = 20 </m>
+69,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 10, red = 20",tensor([[0.2547]]),<m> green = 20 </m>
+70,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 20, red = 20",tensor([[0.3151]]),<m> green = 20 </m>
+71,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 30, red = 20",tensor([[0.1726]]),<m> green = 20 </m>
+72,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 40, red = 20",tensor([[0.1392]]),<m> green = 20 </m>
+73,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 50, red = 20",tensor([[0.2370]]),<m> green = 20 </m>
+74,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 10, red = 30",tensor([[0.5796]]),<m> green = 20 </m>
+75,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 20, red = 30",tensor([[0.2232]]),<m> green = 20 </m>
+76,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 30, red = 30",tensor([[0.3727]]),<m> green = 20 </m>
+77,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 40, red = 30",tensor([[0.1741]]),<m> green = 20 </m>
+78,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 50, red = 30",tensor([[0.2582]]),<m> green = 20 </m>
+79,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 10, red = 30",tensor([[0.2568]]),<m> green = 20 </m>
+80,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 20, red = 30",tensor([[0.2743]]),<m> green = 20 </m>
+81,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 30, red = 30",tensor([[0.2461]]),<m> green = 20 </m>
+82,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 40, red = 30",tensor([[0.0929]]),<m> green = 20 </m>
+83,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 50, red = 30",tensor([[0.1264]]),<m> green = 20 </m>
+84,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 10, red = 30",tensor([[0.3429]]),<m> green = 20 </m>
+85,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 20, red = 30",tensor([[0.2450]]),<m> green = 20 </m>
+86,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 30, red = 30",tensor([[0.3839]]),<m> green = 20 </m>
+87,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 40, red = 30",tensor([[0.1562]]),<m> green = 20 </m>
+88,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 50, red = 30",tensor([[0.2025]]),<m> green = 20 </m>
+89,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 10, red = 30",tensor([[0.2228]]),<m> green = 20 </m>
+90,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 20, red = 30",tensor([[0.1505]]),<m> green = 20 </m>
+91,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 30, red = 30",tensor([[0.2215]]),<m> green = 20 </m>
+92,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 40, red = 30",tensor([[0.1492]]),<m> green = 20 </m>
+93,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 50, red = 30",tensor([[0.0960]]),<m> green = 20 </m>
+94,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 10, red = 30",tensor([[0.2679]]),<m> green = 20 </m>
+95,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 20, red = 30",tensor([[0.1637]]),<m> green = 20 </m>
+96,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 30, red = 30",tensor([[0.2233]]),<m> green = 20 </m>
+97,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 40, red = 30",tensor([[0.1298]]),<m> green = 20 </m>
+98,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 50, red = 30",tensor([[0.2034]]),<m> green = 20 </m>
+99,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 10, red = 40",tensor([[0.6340]]),<m> green = 20 </m>
+100,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 20, red = 40",tensor([[0.2151]]),<m> green = 20 </m>
+101,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 30, red = 40",tensor([[0.1879]]),<m> green = 20 </m>
+102,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 40, red = 40",tensor([[0.3009]]),<m> green = 20 </m>
+103,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 50, red = 40",tensor([[0.1549]]),<m> green = 20 </m>
+104,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 10, red = 40",tensor([[0.3165]]),<m> green = 20 </m>
+105,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 20, red = 40",tensor([[0.2637]]),<m> green = 20 </m>
+106,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 30, red = 40",tensor([[0.1290]]),<m> green = 20 </m>
+107,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 40, red = 40",tensor([[0.1990]]),<m> green = 20 </m>
+108,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 50, red = 40",tensor([[0.1045]]),<m> green = 20 </m>
+109,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 10, red = 40",tensor([[0.2081]]),<m> green = 20 </m>
+110,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 20, red = 40",tensor([[0.1540]]),<m> green = 20 </m>
+111,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 30, red = 40",tensor([[0.1614]]),<m> green = 20 </m>
+112,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 40, red = 40",tensor([[0.1530]]),<m> green = 20 </m>
+113,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 50, red = 40",tensor([[0.0743]]),<m> green = 20 </m>
+114,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 10, red = 40",tensor([[0.3841]]),<m> green = 20 </m>
+115,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 20, red = 40",tensor([[0.2226]]),<m> green = 20 </m>
+116,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 30, red = 40",tensor([[0.1951]]),<m> green = 20 </m>
+117,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 40, red = 40",tensor([[0.2226]]),<m> green = 20 </m>
+118,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 50, red = 40",tensor([[0.1393]]),<m> green = 20 </m>
+119,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 10, red = 40",tensor([[0.2017]]),<m> green = 20 </m>
+120,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 20, red = 40",tensor([[0.1577]]),<m> green = 20 </m>
+121,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 30, red = 40",tensor([[0.0836]]),<m> green = 20 </m>
+122,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 40, red = 40",tensor([[0.1288]]),<m> green = 20 </m>
+123,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 50, red = 40",tensor([[0.0867]]),<m> green = 20 </m>
+124,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 10, red = 50",tensor([[0.5631]]),<m> green = 20 </m>
+125,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 20, red = 50",tensor([[0.2809]]),<m> green = 20 </m>
+126,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 30, red = 50",tensor([[0.2746]]),<m> green = 20 </m>
+127,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 40, red = 50",tensor([[0.1415]]),<m> green = 20 </m>
+128,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 50, red = 50",tensor([[0.2551]]),<m> green = 20 </m>
+129,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 10, red = 50",tensor([[0.4558]]),<m> green = 20 </m>
+130,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 20, red = 50",tensor([[0.3367]]),<m> green = 20 </m>
+131,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 30, red = 50",tensor([[0.1332]]),<m> green = 20 </m>
+132,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 40, red = 50",tensor([[0.1043]]),<m> green = 20 </m>
+133,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 50, red = 50",tensor([[0.2173]]),<m> green = 20 </m>
+134,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 10, red = 50",tensor([[0.3209]]),<m> green = 20 </m>
+135,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 20, red = 50",tensor([[0.2047]]),<m> green = 20 </m>
+136,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 30, red = 50",tensor([[0.1750]]),<m> green = 20 </m>
+137,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 40, red = 50",tensor([[0.0763]]),<m> green = 20 </m>
+138,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 50, red = 50",tensor([[0.1473]]),<m> green = 20 </m>
+139,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 10, red = 50",tensor([[0.1852]]),<m> green = 20 </m>
+140,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 20, red = 50",tensor([[0.1475]]),<m> green = 20 </m>
+141,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 30, red = 50",tensor([[0.0831]]),<m> green = 20 </m>
+142,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 40, red = 50",tensor([[0.1303]]),<m> green = 20 </m>
+143,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 50, red = 50",tensor([[0.0921]]),<m> green = 20 </m>
+144,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 10, red = 50",tensor([[0.2661]]),<m> green = 20 </m>
+145,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 20, red = 50",tensor([[0.2042]]),<m> green = 20 </m>
+146,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 30, red = 50",tensor([[0.1453]]),<m> green = 20 </m>
+147,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 40, red = 50",tensor([[0.1135]]),<m> green = 20 </m>
+148,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 50, red = 50",tensor([[0.2430]]),<m> green = 20 </m>
+149,"red block , blue block two green one 's still kinda dipping",red = blue + green,tensor([[1.4417]]),<m> yellow < green + purple </m>
+150,"red block , blue block two green one 's still kinda dipping",red != blue + green,tensor([[1.0545]]),<m> yellow < green + purple </m>
+151,"red block , blue block two green one 's still kinda dipping",red < blue + green,tensor([[1.0765]]),<m> yellow < green + purple </m>
+152,"red block , blue block two green one 's still kinda dipping",red > blue + green,tensor([[0.9651]]),<m> yellow < green + purple </m>
+153,"red block , blue block two green one 's still kinda dipping",blue = green + red,tensor([[1.4477]]),<m> yellow < green + purple </m>
+154,"red block , blue block two green one 's still kinda dipping",blue != green + red,tensor([[0.6301]]),<m> yellow < green + purple </m>
+155,"red block , blue block two green one 's still kinda dipping",blue < green + red,tensor([[0.6742]]),<m> yellow < green + purple </m>
+156,"red block , blue block two green one 's still kinda dipping",blue > green + red,tensor([[0.6233]]),<m> yellow < green + purple </m>
+157,"red block , blue block two green one 's still kinda dipping",green = blue + red,tensor([[1.4640]]),<m> yellow < green + purple </m>
+158,"red block , blue block two green one 's still kinda dipping",green != blue + red,tensor([[0.6332]]),<m> yellow < green + purple </m>
+159,"red block , blue block two green one 's still kinda dipping",green < blue + red,tensor([[0.8071]]),<m> yellow < green + purple </m>
+160,"red block , blue block two green one 's still kinda dipping",green > blue + red,tensor([[0.6451]]),<m> yellow < green + purple </m>
+161,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 10, red = 10",tensor([[0.5877]]),<m> yellow < green + purple </m>
+162,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 20, red = 10",tensor([[0.5224]]),<m> yellow < green + purple </m>
+163,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 30, red = 10",tensor([[0.4877]]),<m> yellow < green + purple </m>
+164,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 40, red = 10",tensor([[0.4297]]),<m> yellow < green + purple </m>
+165,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 50, red = 10",tensor([[0.4974]]),<m> yellow < green + purple </m>
+166,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 10, red = 10",tensor([[0.5795]]),<m> yellow < green + purple </m>
+167,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 20, red = 10",tensor([[0.4446]]),<m> yellow < green + purple </m>
+168,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 30, red = 10",tensor([[0.2676]]),<m> yellow < green + purple </m>
+169,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 40, red = 10",tensor([[0.2494]]),<m> yellow < green + purple </m>
+170,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 50, red = 10",tensor([[0.3103]]),<m> yellow < green + purple </m>
+171,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 10, red = 10",tensor([[0.5420]]),<m> yellow < green + purple </m>
+172,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 20, red = 10",tensor([[0.3384]]),<m> yellow < green + purple </m>
+173,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 30, red = 10",tensor([[0.4887]]),<m> yellow < green + purple </m>
+174,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 40, red = 10",tensor([[0.2268]]),<m> yellow < green + purple </m>
+175,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 50, red = 10",tensor([[0.2919]]),<m> yellow < green + purple </m>
+176,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 10, red = 10",tensor([[0.5775]]),<m> yellow < green + purple </m>
+177,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 20, red = 10",tensor([[0.4214]]),<m> yellow < green + purple </m>
+178,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 30, red = 10",tensor([[0.3148]]),<m> yellow < green + purple </m>
+179,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 40, red = 10",tensor([[0.4983]]),<m> yellow < green + purple </m>
+180,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 50, red = 10",tensor([[0.2342]]),<m> yellow < green + purple </m>
+181,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 10, red = 10",tensor([[0.5572]]),<m> yellow < green + purple </m>
+182,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 20, red = 10",tensor([[0.4262]]),<m> yellow < green + purple </m>
+183,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 30, red = 10",tensor([[0.3598]]),<m> yellow < green + purple </m>
+184,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 40, red = 10",tensor([[0.2678]]),<m> yellow < green + purple </m>
+185,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 50, red = 10",tensor([[0.4214]]),<m> yellow < green + purple </m>
+186,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 10, red = 20",tensor([[0.5347]]),<m> yellow < green + purple </m>
+187,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 20, red = 20",tensor([[0.4300]]),<m> yellow < green + purple </m>
+188,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 30, red = 20",tensor([[0.1876]]),<m> yellow < green + purple </m>
+189,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 40, red = 20",tensor([[0.2038]]),<m> yellow < green + purple </m>
+190,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 50, red = 20",tensor([[0.2135]]),<m> yellow < green + purple </m>
+191,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 10, red = 20",tensor([[0.4338]]),<m> yellow < green + purple </m>
+192,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 20, red = 20",tensor([[0.4698]]),<m> yellow < green + purple </m>
+193,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 30, red = 20",tensor([[0.2571]]),<m> yellow < green + purple </m>
+194,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 40, red = 20",tensor([[0.2248]]),<m> yellow < green + purple </m>
+195,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 50, red = 20",tensor([[0.2648]]),<m> yellow < green + purple </m>
+196,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 10, red = 20",tensor([[0.2466]]),<m> yellow < green + purple </m>
+197,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 20, red = 20",tensor([[0.2917]]),<m> yellow < green + purple </m>
+198,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 30, red = 20",tensor([[0.2118]]),<m> yellow < green + purple </m>
+199,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 40, red = 20",tensor([[0.1276]]),<m> yellow < green + purple </m>
+200,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 50, red = 20",tensor([[0.1569]]),<m> yellow < green + purple </m>
+201,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 10, red = 20",tensor([[0.2562]]),<m> yellow < green + purple </m>
+202,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 20, red = 20",tensor([[0.3113]]),<m> yellow < green + purple </m>
+203,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 30, red = 20",tensor([[0.1552]]),<m> yellow < green + purple </m>
+204,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 40, red = 20",tensor([[0.1974]]),<m> yellow < green + purple </m>
+205,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 50, red = 20",tensor([[0.1343]]),<m> yellow < green + purple </m>
+206,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 10, red = 20",tensor([[0.2547]]),<m> yellow < green + purple </m>
+207,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 20, red = 20",tensor([[0.3151]]),<m> yellow < green + purple </m>
+208,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 30, red = 20",tensor([[0.1726]]),<m> yellow < green + purple </m>
+209,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 40, red = 20",tensor([[0.1392]]),<m> yellow < green + purple </m>
+210,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 50, red = 20",tensor([[0.2370]]),<m> yellow < green + purple </m>
+211,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 10, red = 30",tensor([[0.5796]]),<m> yellow < green + purple </m>
+212,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 20, red = 30",tensor([[0.2232]]),<m> yellow < green + purple </m>
+213,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 30, red = 30",tensor([[0.3727]]),<m> yellow < green + purple </m>
+214,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 40, red = 30",tensor([[0.1741]]),<m> yellow < green + purple </m>
+215,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 50, red = 30",tensor([[0.2582]]),<m> yellow < green + purple </m>
+216,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 10, red = 30",tensor([[0.2568]]),<m> yellow < green + purple </m>
+217,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 20, red = 30",tensor([[0.2743]]),<m> yellow < green + purple </m>
+218,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 30, red = 30",tensor([[0.2461]]),<m> yellow < green + purple </m>
+219,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 40, red = 30",tensor([[0.0929]]),<m> yellow < green + purple </m>
+220,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 50, red = 30",tensor([[0.1264]]),<m> yellow < green + purple </m>
+221,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 10, red = 30",tensor([[0.3429]]),<m> yellow < green + purple </m>
+222,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 20, red = 30",tensor([[0.2450]]),<m> yellow < green + purple </m>
+223,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 30, red = 30",tensor([[0.3839]]),<m> yellow < green + purple </m>
+224,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 40, red = 30",tensor([[0.1562]]),<m> yellow < green + purple </m>
+225,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 50, red = 30",tensor([[0.2025]]),<m> yellow < green + purple </m>
+226,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 10, red = 30",tensor([[0.2228]]),<m> yellow < green + purple </m>
+227,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 20, red = 30",tensor([[0.1505]]),<m> yellow < green + purple </m>
+228,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 30, red = 30",tensor([[0.2215]]),<m> yellow < green + purple </m>
+229,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 40, red = 30",tensor([[0.1492]]),<m> yellow < green + purple </m>
+230,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 50, red = 30",tensor([[0.0960]]),<m> yellow < green + purple </m>
+231,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 10, red = 30",tensor([[0.2679]]),<m> yellow < green + purple </m>
+232,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 20, red = 30",tensor([[0.1637]]),<m> yellow < green + purple </m>
+233,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 30, red = 30",tensor([[0.2233]]),<m> yellow < green + purple </m>
+234,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 40, red = 30",tensor([[0.1298]]),<m> yellow < green + purple </m>
+235,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 50, red = 30",tensor([[0.2034]]),<m> yellow < green + purple </m>
+236,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 10, red = 40",tensor([[0.6340]]),<m> yellow < green + purple </m>
+237,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 20, red = 40",tensor([[0.2151]]),<m> yellow < green + purple </m>
+238,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 30, red = 40",tensor([[0.1879]]),<m> yellow < green + purple </m>
+239,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 40, red = 40",tensor([[0.3009]]),<m> yellow < green + purple </m>
+240,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 50, red = 40",tensor([[0.1549]]),<m> yellow < green + purple </m>
+241,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 10, red = 40",tensor([[0.3165]]),<m> yellow < green + purple </m>
+242,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 20, red = 40",tensor([[0.2637]]),<m> yellow < green + purple </m>
+243,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 30, red = 40",tensor([[0.1290]]),<m> yellow < green + purple </m>
+244,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 40, red = 40",tensor([[0.1990]]),<m> yellow < green + purple </m>
+245,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 50, red = 40",tensor([[0.1045]]),<m> yellow < green + purple </m>
+246,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 10, red = 40",tensor([[0.2081]]),<m> yellow < green + purple </m>
+247,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 20, red = 40",tensor([[0.1540]]),<m> yellow < green + purple </m>
+248,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 30, red = 40",tensor([[0.1614]]),<m> yellow < green + purple </m>
+249,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 40, red = 40",tensor([[0.1530]]),<m> yellow < green + purple </m>
+250,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 50, red = 40",tensor([[0.0743]]),<m> yellow < green + purple </m>
+251,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 10, red = 40",tensor([[0.3841]]),<m> yellow < green + purple </m>
+252,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 20, red = 40",tensor([[0.2226]]),<m> yellow < green + purple </m>
+253,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 30, red = 40",tensor([[0.1951]]),<m> yellow < green + purple </m>
+254,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 40, red = 40",tensor([[0.2226]]),<m> yellow < green + purple </m>
+255,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 50, red = 40",tensor([[0.1393]]),<m> yellow < green + purple </m>
+256,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 10, red = 40",tensor([[0.2017]]),<m> yellow < green + purple </m>
+257,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 20, red = 40",tensor([[0.1577]]),<m> yellow < green + purple </m>
+258,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 30, red = 40",tensor([[0.0836]]),<m> yellow < green + purple </m>
+259,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 40, red = 40",tensor([[0.1288]]),<m> yellow < green + purple </m>
+260,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 50, red = 40",tensor([[0.0867]]),<m> yellow < green + purple </m>
+261,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 10, red = 50",tensor([[0.5631]]),<m> yellow < green + purple </m>
+262,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 20, red = 50",tensor([[0.2809]]),<m> yellow < green + purple </m>
+263,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 30, red = 50",tensor([[0.2746]]),<m> yellow < green + purple </m>
+264,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 40, red = 50",tensor([[0.1415]]),<m> yellow < green + purple </m>
+265,"red block , blue block two green one 's still kinda dipping","blue = 10, green = 50, red = 50",tensor([[0.2551]]),<m> yellow < green + purple </m>
+266,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 10, red = 50",tensor([[0.4558]]),<m> yellow < green + purple </m>
+267,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 20, red = 50",tensor([[0.3367]]),<m> yellow < green + purple </m>
+268,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 30, red = 50",tensor([[0.1332]]),<m> yellow < green + purple </m>
+269,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 40, red = 50",tensor([[0.1043]]),<m> yellow < green + purple </m>
+270,"red block , blue block two green one 's still kinda dipping","blue = 20, green = 50, red = 50",tensor([[0.2173]]),<m> yellow < green + purple </m>
+271,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 10, red = 50",tensor([[0.3209]]),<m> yellow < green + purple </m>
+272,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 20, red = 50",tensor([[0.2047]]),<m> yellow < green + purple </m>
+273,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 30, red = 50",tensor([[0.1750]]),<m> yellow < green + purple </m>
+274,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 40, red = 50",tensor([[0.0763]]),<m> yellow < green + purple </m>
+275,"red block , blue block two green one 's still kinda dipping","blue = 30, green = 50, red = 50",tensor([[0.1473]]),<m> yellow < green + purple </m>
+276,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 10, red = 50",tensor([[0.1852]]),<m> yellow < green + purple </m>
+277,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 20, red = 50",tensor([[0.1475]]),<m> yellow < green + purple </m>
+278,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 30, red = 50",tensor([[0.0831]]),<m> yellow < green + purple </m>
+279,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 40, red = 50",tensor([[0.1303]]),<m> yellow < green + purple </m>
+280,"red block , blue block two green one 's still kinda dipping","blue = 40, green = 50, red = 50",tensor([[0.0921]]),<m> yellow < green + purple </m>
+281,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 10, red = 50",tensor([[0.2661]]),<m> yellow < green + purple </m>
+282,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 20, red = 50",tensor([[0.2042]]),<m> yellow < green + purple </m>
+283,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 30, red = 50",tensor([[0.1453]]),<m> yellow < green + purple </m>
+284,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 40, red = 50",tensor([[0.1135]]),<m> yellow < green + purple </m>
+285,"red block , blue block two green one 's still kinda dipping","blue = 50, green = 50, red = 50",tensor([[0.2430]]),<m> yellow < green + purple </m>
+286,"red block , blue block , green block 's li-",red = blue + green,tensor([[1.3842]]),<m> yellow < green + purple </m>
+287,"red block , blue block , green block 's li-",red != blue + green,tensor([[0.1769]]),<m> yellow < green + purple </m>
+288,"red block , blue block , green block 's li-",red < blue + green,tensor([[0.2100]]),<m> yellow < green + purple </m>
+289,"red block , blue block , green block 's li-",red > blue + green,tensor([[0.2231]]),<m> yellow < green + purple </m>
+290,"red block , blue block , green block 's li-",blue = green + red,tensor([[1.3787]]),<m> yellow < green + purple </m>
+291,"red block , blue block , green block 's li-",blue != green + red,tensor([[0.1624]]),<m> yellow < green + purple </m>
+292,"red block , blue block , green block 's li-",blue < green + red,tensor([[0.2229]]),<m> yellow < green + purple </m>
+293,"red block , blue block , green block 's li-",blue > green + red,tensor([[0.2146]]),<m> yellow < green + purple </m>
+294,"red block , blue block , green block 's li-",green = blue + red,tensor([[1.3810]]),<m> yellow < green + purple </m>
+295,"red block , blue block , green block 's li-",green != blue + red,tensor([[0.1854]]),<m> yellow < green + purple </m>
+296,"red block , blue block , green block 's li-",green < blue + red,tensor([[0.3113]]),<m> yellow < green + purple </m>
+297,"red block , blue block , green block 's li-",green > blue + red,tensor([[0.3831]]),<m> yellow < green + purple </m>
+298,"red block , blue block , green block 's li-","blue = 10, green = 10, red = 10",tensor([[0.2461]]),<m> yellow < green + purple </m>
+299,"red block , blue block , green block 's li-","blue = 10, green = 20, red = 10",tensor([[0.1747]]),<m> yellow < green + purple </m>
+300,"red block , blue block , green block 's li-","blue = 10, green = 30, red = 10",tensor([[0.1713]]),<m> yellow < green + purple </m>
+301,"red block , blue block , green block 's li-","blue = 10, green = 40, red = 10",tensor([[0.1610]]),<m> yellow < green + purple </m>
+302,"red block , blue block , green block 's li-","blue = 10, green = 50, red = 10",tensor([[0.1580]]),<m> yellow < green + purple </m>
+303,"red block , blue block , green block 's li-","blue = 20, green = 10, red = 10",tensor([[0.2018]]),<m> yellow < green + purple </m>
+304,"red block , blue block , green block 's li-","blue = 20, green = 20, red = 10",tensor([[0.1573]]),<m> yellow < green + purple </m>
+305,"red block , blue block , green block 's li-","blue = 20, green = 30, red = 10",tensor([[0.0771]]),<m> yellow < green + purple </m>
+306,"red block , blue block , green block 's li-","blue = 20, green = 40, red = 10",tensor([[0.0845]]),<m> yellow < green + purple </m>
+307,"red block , blue block , green block 's li-","blue = 20, green = 50, red = 10",tensor([[0.1034]]),<m> yellow < green + purple </m>
+308,"red block , blue block , green block 's li-","blue = 30, green = 10, red = 10",tensor([[0.1943]]),<m> yellow < green + purple </m>
+309,"red block , blue block , green block 's li-","blue = 30, green = 20, red = 10",tensor([[0.1175]]),<m> yellow < green + purple </m>
+310,"red block , blue block , green block 's li-","blue = 30, green = 30, red = 10",tensor([[0.1486]]),<m> yellow < green + purple </m>
+311,"red block , blue block , green block 's li-","blue = 30, green = 40, red = 10",tensor([[0.0655]]),<m> yellow < green + purple </m>
+312,"red block , blue block , green block 's li-","blue = 30, green = 50, red = 10",tensor([[0.0732]]),<m> yellow < green + purple </m>
+313,"red block , blue block , green block 's li-","blue = 40, green = 10, red = 10",tensor([[0.1724]]),<m> yellow < green + purple </m>
+314,"red block , blue block , green block 's li-","blue = 40, green = 20, red = 10",tensor([[0.1390]]),<m> yellow < green + purple </m>
+315,"red block , blue block , green block 's li-","blue = 40, green = 30, red = 10",tensor([[0.0794]]),<m> yellow < green + purple </m>
+316,"red block , blue block , green block 's li-","blue = 40, green = 40, red = 10",tensor([[0.1477]]),<m> yellow < green + purple </m>
+317,"red block , blue block , green block 's li-","blue = 40, green = 50, red = 10",tensor([[0.0662]]),<m> yellow < green + purple </m>
+318,"red block , blue block , green block 's li-","blue = 50, green = 10, red = 10",tensor([[0.1669]]),<m> yellow < green + purple </m>
+319,"red block , blue block , green block 's li-","blue = 50, green = 20, red = 10",tensor([[0.1365]]),<m> yellow < green + purple </m>
+320,"red block , blue block , green block 's li-","blue = 50, green = 30, red = 10",tensor([[0.1091]]),<m> yellow < green + purple </m>
+321,"red block , blue block , green block 's li-","blue = 50, green = 40, red = 10",tensor([[0.0700]]),<m> yellow < green + purple </m>
+322,"red block , blue block , green block 's li-","blue = 50, green = 50, red = 10",tensor([[0.1205]]),<m> yellow < green + purple </m>
+323,"red block , blue block , green block 's li-","blue = 10, green = 10, red = 20",tensor([[0.1599]]),<m> yellow < green + purple </m>
+324,"red block , blue block , green block 's li-","blue = 10, green = 20, red = 20",tensor([[0.1256]]),<m> yellow < green + purple </m>
+325,"red block , blue block , green block 's li-","blue = 10, green = 30, red = 20",tensor([[0.0708]]),<m> yellow < green + purple </m>
+326,"red block , blue block , green block 's li-","blue = 10, green = 40, red = 20",tensor([[0.0723]]),<m> yellow < green + purple </m>
+327,"red block , blue block , green block 's li-","blue = 10, green = 50, red = 20",tensor([[0.0752]]),<m> yellow < green + purple </m>
+328,"red block , blue block , green block 's li-","blue = 20, green = 10, red = 20",tensor([[0.1514]]),<m> yellow < green + purple </m>
+329,"red block , blue block , green block 's li-","blue = 20, green = 20, red = 20",tensor([[0.1342]]),<m> yellow < green + purple </m>
+330,"red block , blue block , green block 's li-","blue = 20, green = 30, red = 20",tensor([[0.0832]]),<m> yellow < green + purple </m>
+331,"red block , blue block , green block 's li-","blue = 20, green = 40, red = 20",tensor([[0.0802]]),<m> yellow < green + purple </m>
+332,"red block , blue block , green block 's li-","blue = 20, green = 50, red = 20",tensor([[0.0859]]),<m> yellow < green + purple </m>
+333,"red block , blue block , green block 's li-","blue = 30, green = 10, red = 20",tensor([[0.0820]]),<m> yellow < green + purple </m>
+334,"red block , blue block , green block 's li-","blue = 30, green = 20, red = 20",tensor([[0.0857]]),<m> yellow < green + purple </m>
+335,"red block , blue block , green block 's li-","blue = 30, green = 30, red = 20",tensor([[0.0694]]),<m> yellow < green + purple </m>
+336,"red block , blue block , green block 's li-","blue = 30, green = 40, red = 20",tensor([[0.0833]]),<m> yellow < green + purple </m>
+337,"red block , blue block , green block 's li-","blue = 30, green = 50, red = 20",tensor([[0.0762]]),<m> yellow < green + purple </m>
+338,"red block , blue block , green block 's li-","blue = 40, green = 10, red = 20",tensor([[0.0862]]),<m> yellow < green + purple </m>
+339,"red block , blue block , green block 's li-","blue = 40, green = 20, red = 20",tensor([[0.0840]]),<m> yellow < green + purple </m>
+340,"red block , blue block , green block 's li-","blue = 40, green = 30, red = 20",tensor([[0.0827]]),<m> yellow < green + purple </m>
+341,"red block , blue block , green block 's li-","blue = 40, green = 40, red = 20",tensor([[0.0697]]),<m> yellow < green + purple </m>
+342,"red block , blue block , green block 's li-","blue = 40, green = 50, red = 20",tensor([[0.0840]]),<m> yellow < green + purple </m>
+343,"red block , blue block , green block 's li-","blue = 50, green = 10, red = 20",tensor([[0.0843]]),<m> yellow < green + purple </m>
+344,"red block , blue block , green block 's li-","blue = 50, green = 20, red = 20",tensor([[0.0942]]),<m> yellow < green + purple </m>
+345,"red block , blue block , green block 's li-","blue = 50, green = 30, red = 20",tensor([[0.0719]]),<m> yellow < green + purple </m>
+346,"red block , blue block , green block 's li-","blue = 50, green = 40, red = 20",tensor([[0.0812]]),<m> yellow < green + purple </m>
+347,"red block , blue block , green block 's li-","blue = 50, green = 50, red = 20",tensor([[0.0722]]),<m> yellow < green + purple </m>
+348,"red block , blue block , green block 's li-","blue = 10, green = 10, red = 30",tensor([[0.1862]]),<m> yellow < green + purple </m>
+349,"red block , blue block , green block 's li-","blue = 10, green = 20, red = 30",tensor([[0.0759]]),<m> yellow < green + purple </m>
+350,"red block , blue block , green block 's li-","blue = 10, green = 30, red = 30",tensor([[0.1075]]),<m> yellow < green + purple </m>
+351,"red block , blue block , green block 's li-","blue = 10, green = 40, red = 30",tensor([[0.0679]]),<m> yellow < green + purple </m>
+352,"red block , blue block , green block 's li-","blue = 10, green = 50, red = 30",tensor([[0.0662]]),<m> yellow < green + purple </m>
+353,"red block , blue block , green block 's li-","blue = 20, green = 10, red = 30",tensor([[0.0916]]),<m> yellow < green + purple </m>
+354,"red block , blue block , green block 's li-","blue = 20, green = 20, red = 30",tensor([[0.0797]]),<m> yellow < green + purple </m>
+355,"red block , blue block , green block 's li-","blue = 20, green = 30, red = 30",tensor([[0.0698]]),<m> yellow < green + purple </m>
+356,"red block , blue block , green block 's li-","blue = 20, green = 40, red = 30",tensor([[0.0824]]),<m> yellow < green + purple </m>
+357,"red block , blue block , green block 's li-","blue = 20, green = 50, red = 30",tensor([[0.0771]]),<m> yellow < green + purple </m>
+358,"red block , blue block , green block 's li-","blue = 30, green = 10, red = 30",tensor([[0.1017]]),<m> yellow < green + purple </m>
+359,"red block , blue block , green block 's li-","blue = 30, green = 20, red = 30",tensor([[0.0675]]),<m> yellow < green + purple </m>
+360,"red block , blue block , green block 's li-","blue = 30, green = 30, red = 30",tensor([[0.0748]]),<m> yellow < green + purple </m>
+361,"red block , blue block , green block 's li-","blue = 30, green = 40, red = 30",tensor([[0.0708]]),<m> yellow < green + purple </m>
+362,"red block , blue block , green block 's li-","blue = 30, green = 50, red = 30",tensor([[0.0620]]),<m> yellow < green + purple </m>
+363,"red block , blue block , green block 's li-","blue = 40, green = 10, red = 30",tensor([[0.0660]]),<m> yellow < green + purple </m>
+364,"red block , blue block , green block 's li-","blue = 40, green = 20, red = 30",tensor([[0.0835]]),<m> yellow < green + purple </m>
+365,"red block , blue block , green block 's li-","blue = 40, green = 30, red = 30",tensor([[0.0647]]),<m> yellow < green + purple </m>
+366,"red block , blue block , green block 's li-","blue = 40, green = 40, red = 30",tensor([[0.0763]]),<m> yellow < green + purple </m>
+367,"red block , blue block , green block 's li-","blue = 40, green = 50, red = 30",tensor([[0.0752]]),<m> yellow < green + purple </m>
+368,"red block , blue block , green block 's li-","blue = 50, green = 10, red = 30",tensor([[0.0815]]),<m> yellow < green + purple </m>
+369,"red block , blue block , green block 's li-","blue = 50, green = 20, red = 30",tensor([[0.0794]]),<m> yellow < green + purple </m>
+370,"red block , blue block , green block 's li-","blue = 50, green = 30, red = 30",tensor([[0.0642]]),<m> yellow < green + purple </m>
+371,"red block , blue block , green block 's li-","blue = 50, green = 40, red = 30",tensor([[0.0770]]),<m> yellow < green + purple </m>
+372,"red block , blue block , green block 's li-","blue = 50, green = 50, red = 30",tensor([[0.0631]]),<m> yellow < green + purple </m>
+373,"red block , blue block , green block 's li-","blue = 10, green = 10, red = 40",tensor([[0.1796]]),<m> yellow < green + purple </m>
+374,"red block , blue block , green block 's li-","blue = 10, green = 20, red = 40",tensor([[0.0729]]),<m> yellow < green + purple </m>
+375,"red block , blue block , green block 's li-","blue = 10, green = 30, red = 40",tensor([[0.0756]]),<m> yellow < green + purple </m>
+376,"red block , blue block , green block 's li-","blue = 10, green = 40, red = 40",tensor([[0.0937]]),<m> yellow < green + purple </m>
+377,"red block , blue block , green block 's li-","blue = 10, green = 50, red = 40",tensor([[0.0750]]),<m> yellow < green + purple </m>
+378,"red block , blue block , green block 's li-","blue = 20, green = 10, red = 40",tensor([[0.1120]]),<m> yellow < green + purple </m>
+379,"red block , blue block , green block 's li-","blue = 20, green = 20, red = 40",tensor([[0.0785]]),<m> yellow < green + purple </m>
+380,"red block , blue block , green block 's li-","blue = 20, green = 30, red = 40",tensor([[0.0780]]),<m> yellow < green + purple </m>
+381,"red block , blue block , green block 's li-","blue = 20, green = 40, red = 40",tensor([[0.0715]]),<m> yellow < green + purple </m>
+382,"red block , blue block , green block 's li-","blue = 20, green = 50, red = 40",tensor([[0.0880]]),<m> yellow < green + purple </m>
+383,"red block , blue block , green block 's li-","blue = 30, green = 10, red = 40",tensor([[0.0642]]),<m> yellow < green + purple </m>
+384,"red block , blue block , green block 's li-","blue = 30, green = 20, red = 40",tensor([[0.0817]]),<m> yellow < green + purple </m>
+385,"red block , blue block , green block 's li-","blue = 30, green = 30, red = 40",tensor([[0.0768]]),<m> yellow < green + purple </m>
+386,"red block , blue block , green block 's li-","blue = 30, green = 40, red = 40",tensor([[0.0774]]),<m> yellow < green + purple </m>
+387,"red block , blue block , green block 's li-","blue = 30, green = 50, red = 40",tensor([[0.0739]]),<m> yellow < green + purple </m>
+388,"red block , blue block , green block 's li-","blue = 40, green = 10, red = 40",tensor([[0.0991]]),<m> yellow < green + purple </m>
+389,"red block , blue block , green block 's li-","blue = 40, green = 20, red = 40",tensor([[0.0738]]),<m> yellow < green + purple </m>
+390,"red block , blue block , green block 's li-","blue = 40, green = 30, red = 40",tensor([[0.0764]]),<m> yellow < green + purple </m>
+391,"red block , blue block , green block 's li-","blue = 40, green = 40, red = 40",tensor([[0.0685]]),<m> yellow < green + purple </m>
+392,"red block , blue block , green block 's li-","blue = 40, green = 50, red = 40",tensor([[0.0795]]),<m> yellow < green + purple </m>
+393,"red block , blue block , green block 's li-","blue = 50, green = 10, red = 40",tensor([[0.0685]]),<m> yellow < green + purple </m>
+394,"red block , blue block , green block 's li-","blue = 50, green = 20, red = 40",tensor([[0.0792]]),<m> yellow < green + purple </m>
+395,"red block , blue block , green block 's li-","blue = 50, green = 30, red = 40",tensor([[0.0811]]),<m> yellow < green + purple </m>
+396,"red block , blue block , green block 's li-","blue = 50, green = 40, red = 40",tensor([[0.0777]]),<m> yellow < green + purple </m>
+397,"red block , blue block , green block 's li-","blue = 50, green = 50, red = 40",tensor([[0.0746]]),<m> yellow < green + purple </m>
+398,"red block , blue block , green block 's li-","blue = 10, green = 10, red = 50",tensor([[0.1771]]),<m> yellow < green + purple </m>
+399,"red block , blue block , green block 's li-","blue = 10, green = 20, red = 50",tensor([[0.0811]]),<m> yellow < green + purple </m>
+400,"red block , blue block , green block 's li-","blue = 10, green = 30, red = 50",tensor([[0.0656]]),<m> yellow < green + purple </m>
+401,"red block , blue block , green block 's li-","blue = 10, green = 40, red = 50",tensor([[0.0800]]),<m> yellow < green + purple </m>
+402,"red block , blue block , green block 's li-","blue = 10, green = 50, red = 50",tensor([[0.0809]]),<m> yellow < green + purple </m>
+403,"red block , blue block , green block 's li-","blue = 20, green = 10, red = 50",tensor([[0.1561]]),<m> yellow < green + purple </m>
+404,"red block , blue block , green block 's li-","blue = 20, green = 20, red = 50",tensor([[0.0943]]),<m> yellow < green + purple </m>
+405,"red block , blue block , green block 's li-","blue = 20, green = 30, red = 50",tensor([[0.0799]]),<m> yellow < green + purple </m>
+406,"red block , blue block , green block 's li-","blue = 20, green = 40, red = 50",tensor([[0.0837]]),<m> yellow < green + purple </m>
+407,"red block , blue block , green block 's li-","blue = 20, green = 50, red = 50",tensor([[0.0745]]),<m> yellow < green + purple </m>
+408,"red block , blue block , green block 's li-","blue = 30, green = 10, red = 50",tensor([[0.1132]]),<m> yellow < green + purple </m>
+409,"red block , blue block , green block 's li-","blue = 30, green = 20, red = 50",tensor([[0.0682]]),<m> yellow < green + purple </m>
+410,"red block , blue block , green block 's li-","blue = 30, green = 30, red = 50",tensor([[0.0654]]),<m> yellow < green + purple </m>
+411,"red block , blue block , green block 's li-","blue = 30, green = 40, red = 50",tensor([[0.0768]]),<m> yellow < green + purple </m>
+412,"red block , blue block , green block 's li-","blue = 30, green = 50, red = 50",tensor([[0.0661]]),<m> yellow < green + purple </m>
+413,"red block , blue block , green block 's li-","blue = 40, green = 10, red = 50",tensor([[0.0684]]),<m> yellow < green + purple </m>
+414,"red block , blue block , green block 's li-","blue = 40, green = 20, red = 50",tensor([[0.0781]]),<m> yellow < green + purple </m>
+415,"red block , blue block , green block 's li-","blue = 40, green = 30, red = 50",tensor([[0.0804]]),<m> yellow < green + purple </m>
+416,"red block , blue block , green block 's li-","blue = 40, green = 40, red = 50",tensor([[0.0803]]),<m> yellow < green + purple </m>
+417,"red block , blue block , green block 's li-","blue = 40, green = 50, red = 50",tensor([[0.0732]]),<m> yellow < green + purple </m>
+418,"red block , blue block , green block 's li-","blue = 50, green = 10, red = 50",tensor([[0.0887]]),<m> yellow < green + purple </m>
+419,"red block , blue block , green block 's li-","blue = 50, green = 20, red = 50",tensor([[0.0726]]),<m> yellow < green + purple </m>
+420,"red block , blue block , green block 's li-","blue = 50, green = 30, red = 50",tensor([[0.0678]]),<m> yellow < green + purple </m>
+421,"red block , blue block , green block 's li-","blue = 50, green = 40, red = 50",tensor([[0.0744]]),<m> yellow < green + purple </m>
+422,"red block , blue block , green block 's li-","blue = 50, green = 50, red = 50",tensor([[0.0649]]),<m> yellow < green + purple </m>
+423,green yea,green = 10,tensor([[1.4515]]),<m> yellow = 50 </m>
+424,green yea,green = 20,tensor([[1.4449]]),<m> yellow = 50 </m>
+425,green yea,green = 30,tensor([[1.4268]]),<m> yellow = 50 </m>
+426,green yea,green = 40,tensor([[1.4041]]),<m> yellow = 50 </m>
+427,green yea,green = 50,tensor([[1.4368]]),<m> yellow = 50 </m>
+428,green yea,green != 10,tensor([[0.0287]]),<m> yellow = 50 </m>
+429,green yea,green != 20,tensor([[0.0310]]),<m> yellow = 50 </m>
+430,green yea,green != 30,tensor([[0.0250]]),<m> yellow = 50 </m>
+431,green yea,green != 40,tensor([[0.0252]]),<m> yellow = 50 </m>
+432,green yea,green != 50,tensor([[0.0312]]),<m> yellow = 50 </m>
+433,green yea,green < 10,tensor([[0.0291]]),<m> yellow = 50 </m>
+434,green yea,green < 20,tensor([[0.0276]]),<m> yellow = 50 </m>
+435,green yea,green < 30,tensor([[0.0226]]),<m> yellow = 50 </m>
+436,green yea,green < 40,tensor([[0.0291]]),<m> yellow = 50 </m>
+437,green yea,green < 50,tensor([[0.0311]]),<m> yellow = 50 </m>
+438,green yea,green > 10,tensor([[0.0301]]),<m> yellow = 50 </m>
+439,green yea,green > 20,tensor([[0.0294]]),<m> yellow = 50 </m>
+440,green yea,green > 30,tensor([[0.0233]]),<m> yellow = 50 </m>
+441,green yea,green > 40,tensor([[0.0305]]),<m> yellow = 50 </m>
+442,green yea,green > 50,tensor([[0.0320]]),<m> yellow = 50 </m>
+443,purple block thirty,purple = 30,tensor([[0.3266]]),<m> yellow != 30 </m>
+444,purple block thirty,purple != 30,tensor([[0.0679]]),<m> yellow != 30 </m>
+445,purple block thirty,purple < 30,tensor([[0.0630]]),<m> yellow != 30 </m>
+446,purple block thirty,purple > 30,tensor([[0.0609]]),<m> yellow != 30 </m>
+447,colored blocks,red = 10,tensor([[1.4838]]),<m> yellow = 50 </m>
+448,colored blocks,red = 20,tensor([[1.4837]]),<m> yellow = 50 </m>
+449,colored blocks,red = 30,tensor([[1.4828]]),<m> yellow = 50 </m>
+450,colored blocks,red = 40,tensor([[1.4828]]),<m> yellow = 50 </m>
+451,colored blocks,red = 50,tensor([[1.4839]]),<m> yellow = 50 </m>
+452,colored blocks,red != 10,tensor([[0.9849]]),<m> yellow = 50 </m>
+453,colored blocks,red != 20,tensor([[0.9828]]),<m> yellow = 50 </m>
+454,colored blocks,red != 30,tensor([[0.6036]]),<m> yellow = 50 </m>
+455,colored blocks,red != 40,tensor([[0.7866]]),<m> yellow = 50 </m>
+456,colored blocks,red != 50,tensor([[0.7696]]),<m> yellow = 50 </m>
+457,colored blocks,red < 10,tensor([[0.8459]]),<m> yellow = 50 </m>
+458,colored blocks,red < 20,tensor([[1.0451]]),<m> yellow = 50 </m>
+459,colored blocks,red < 30,tensor([[0.7106]]),<m> yellow = 50 </m>
+460,colored blocks,red < 40,tensor([[0.7862]]),<m> yellow = 50 </m>
+461,colored blocks,red < 50,tensor([[0.8682]]),<m> yellow = 50 </m>
+462,colored blocks,red > 10,tensor([[1.2699]]),<m> yellow = 50 </m>
+463,colored blocks,red > 20,tensor([[1.3511]]),<m> yellow = 50 </m>
+464,colored blocks,red > 30,tensor([[1.2634]]),<m> yellow = 50 </m>
+465,colored blocks,red > 40,tensor([[1.3291]]),<m> yellow = 50 </m>
+466,colored blocks,red > 50,tensor([[1.3281]]),<m> yellow = 50 </m>
