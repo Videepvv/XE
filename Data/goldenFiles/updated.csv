@@ -1,0 +1,128 @@
+,Begin Time - ss.msec,End Time - ss.msec,Common Ground,Utterance,Start,End,Group,Participant,Transcript
+0,24.42,27.72,red = 10,5,24.42,27.72,1,4,And we will tell you that this red cube on top is ten grams
+1,80.52,81.67,red = 10,24,78.08,80.58,1,1,ok well red block would be nine minus ten
+2,95.19,97.17,red = blue,30,95.19,97.17,1,3,"red block, blue block seems pretty balanced"
+3,99.78,102.03,blue = 10,31,97.56,102.03,1,1,yeah ok so now we know that blue block is also ten
+4,112.42,112.72,purple > 20,36,110.16,114.24,1,1,And then see if there's thats twenty which is not
+5,112.74,113.76,purple != 20,36,110.16,114.24,1,1,And then see if there's thats twenty which is not
+6,127.35,129.19,green = 20,41,127.35,132.0,1,2,ok so green block one is probably twenty ten ten twenty
+7,129.47,131.98,red = 10 and blue = 10 and green = 20,41,127.35,132.0,1,2,ok so green block one is probably twenty ten ten twenty
+8,140.73,142.81,purple = 30,47,140.73,145.89,1,1,Ooh its looking like thirty
+9,181.08,182.28,yellow > purple + red + blue,57,174.54,185.08,1,2,"yeah yeah the blue dark blue one is thirty purple block's the larger one purple block, red block, blue block's slightly heavier yeah"
+10,207.06,210.87,red = 10 and blue = 10 and green = 20 and purple = 30,65,207.06,210.87,1,1,"yeah im thinking that red block, blue block, green block, yellow block, purple block's ten ten twenty thirty"
+11,238.04,239.92,yellow < 50,73,234.27,239.82,1,1,"thirty fourty fifty correct and purple block, green block's still heavier than yellow block thing"
+12,265.5,268.13,yellow = 50,81,268.08,272.58,1,3,yeah fifty so we say yellow is fifty
+13,23.52,26.76,red = 10,3,23.52,32.73,2,4,And we can tell you that that red cube right there is ten grams yep and you're going you're going to flip the piece of paper um
+14,88.98,91.58,red = blue,15,88.98,91.58,2,1,"needle goes over the red line that means red block, blue block're probably equal"
+15,104.08,106.23,blue = 10,20,104.08,106.23,2,1,so blue block one is probably ten grams too
+16,124.68,127.02,green = red + blue,28,124.68,127.02,2,2,and that looks like it might be about even
+17,144.92,149.08,green = 20,31,141.27,146.91,2,2,well on the first go through i noticed how it bounced twice and actually get some momentum ok so then
+18,152.31,153.75,red = 10 and blue = 10,34,152.31,153.75,2,1,The first two are ten
+19,158.13,164.17,green = 20,37,158.13,164.17,2,2,so knowing that uh oh sorry the green one was yeah
+20,192.69,195.87,purple = 30,42,192.69,195.87,2,1,So you know twenty plus ten thirty probably
+21,221.4,225.41,purple = 30,47,221.4,225.41,2,2,i guess and there's no increment so five so we could probably just go with thirty on purple block
+22,237.51,241.77,yellow > purple,52,237.51,241.77,2,1,Which is too much so we'll put twenty right
+23,247.95,250.17,green = 20 and purple = 30,53,247.95,250.17,2,2,"so purple block, green block's the twenty and the thirty"
+24,255.36,258.01,yellow < green + purple,54,255.36,258.01,2,2,it's leaning towards one side a bit much
+25,264.3,268.65,yellow > blue + purple,56,264.3,268.65,2,1,Oh not enough so probably
+26,271.92,275.16,yellow = 50,59,271.92,275.16,2,2,Oh yeah the twenty and the thirty so we'll go with the fifty
+27,33.39,38.04,red = 10,2,33.39,38.04,3,4,We will tell you that the weight of the red cube is ten grams
+28,142.38,145.07,red = blue,16,144.5,147.27,3,1,"i think red block, blue block're the same weight yeah"
+29,212.13,214.16,green = 20,31,212.13,214.16,3,1,sufficient to say green block one's probably twenty or
+30,238.47,240.45,purple = 30,36,238.47,240.45,3,2,the purple one is thirty
+31,269.35,272.58,green = 20 and purple = 30 and yellow = 50,46,269.35,272.58,3,3,green is twenty and purple is thirty so yellow block weighs to fifty
+32,277.53,279.75,green = 20,48,277.53,279.75,3,3,yeah i mentioned here green is twenty
+33,279.77,281.42,yellow < green + purple,49,277.92,281.43,3,2,it's leaning more this side so
+34,285.18,287.82,yellow < green + purple,50,285.18,287.82,3,2,it's leaning more to the side
+35,314.1,315.58,yellow != 10,57,314.1,315.58,3,3,yellow is of course not ten but
+36,336.06,338.42,yellow > green + blue + red,63,337.33,341.55,3,3,"no so when we try purple block, green block both"
+37,344.01,348.36,yellow = 50,64,344.01,348.36,3,3,so i feel yellow is fifty
+38,366.06,371.16,yellow != 30,68,366.06,371.16,3,2,yellow block's for sure not thirty
+39,399.16,402.03,yellow = 50,71,396.69,404.73,3,1,"yellow block must be red block, blue block, purple block right because comparing yellow block to forty yellow block's"
+40,431.58,435.75,purple = 30 and yellow = 50,78,432.25,433.84,3,3,yeah and yellow block is fifty
+41,33.3,36.23,red = 10,6,33.3,36.24,4,4,I will tell you that the red cube is ten grams
+42,81.61,82.96,blue = 10,16,80.79,83.1,4,1,Well the top is a ten
+43,91.14,91.75,green = 20,19,89.82,97.32,4,1,"ok there easy so green block is twenty yeah cause red block is ten as long as it's not dropping red block, blue block's the same"
+44,121.58,123.64,purple = 30,28,119.94,125.75,4,1,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop
+45,125.49,127.16,purple != 40,28,119.94,125.75,4,1,it doesn't drop completely yeah we can consider purple block to be thirty then yeah because it doesn’t drop
+46,127.96,129.29,purple != 20,31,127.47,130.62,4,2,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty
+47,129.51,130.62,purple = 30,31,127.47,130.62,4,2,well purple block's not and purple block's not twenty yeah purple block's gotta be thirty
+48,157.84,159.83,yellow = 50,40,155.04,161.79,4,3,uh so yellow we or red and blue there's no there's no ok
+49,161.88,162.59,blue = 10,43,161.88,162.59,4,1,blue is ten
+50,174.37,175.44,yellow = 50,48,170.46,177.06,4,3,and so that would mean yellow is fifty
+51,20.24,22.7,red = 10,3,20.25,22.68,5,4,I can tell you that the red cube is ten grams
+52,62.91,64.62,red = 10,14,60.08,64.08,5,1,alright reese you can fill out the survey on the end over there ok so we know red block is ten grams
+53,92.25,95.19,red = blue,24,92.25,95.19,5,1,"i'd say red block, blue block's basically the same because it's teetering"
+54,108.58,112.17,red = 10 and blue = 10,28,108.33,112.17,5,1,"ok so yeah that scale so red block, blue block are both ten"
+55,131.62,132.99,green = 20,33,131.62,132.99,5,2,so green block one's twenty
+56,134.19,136.63,red = 10 and blue = 10 and green = 20,34,133.33,136.65,5,2,"so red block, blue block are both ten in theory ten ten twenty"
+57,147.96,154.32,green = 20,39,147.96,154.32,5,3,so the green we think is twenty ok so let's see we can use our hands as well
+58,154.47,159.75,purple > green,41,154.47,159.75,5,1,purple block is heavier than green block one so green block is twenty purple block is heavier than green block one
+59,164.07,168.25,purple > 20,45,164.07,168.25,5,1,ok so purple block's heavier ok ok so greather than twenty
+60,174.48,183.63,purple = 30,50,174.48,183.63,5,2,teeter teeter we know purple block's less than forty and greater than twenty so purple block's likely thirty we don't have any other options it purple block's gonna be thirty
+61,199.38,200.84,purple = 30 and green = 20,57,199.38,200.84,5,1,Thirty twenty
+62,207.25,218.67,yellow = 50,59,205.77,218.67,5,1,"purple block, green block looks almost a little bit heavier but it is it's close enough so fifty is not an option yeah definitely let's put sixty"
+63,218.73,226.08,yellow = 50,62,218.73,226.08,5,2,"and purple block is thirty right and red block is ten so purple block, red block would be forty so yellow block's more than forty and less than sixty so yellow block's gotta be fifty"
+64,233.58,236.64,yellow = 50 and purple = 30,68,233.58,236.64,5,1,i think yellow block is fifty and purple block is thirty
+65,244.17,246.57,purple = 30,71,242.34,246.57,5,1,yeah let's go thirty ok so purple block's thirty
+66,21.12,24.51,red = 10,3,21.12,24.51,6,4,I will tell you that the red cube is ten grams
+67,63.42,66.0,red = 10,9,61.23,64.67,6,1,i guess if red block red one's ten grams
+68,72.45,76.17,red = blue,11,72.45,76.17,6,1,"seems like red block, blue block might be about the same"
+69,89.76,91.06,purple > red + blue,14,89.76,91.06,6,3,Too heavy so
+70,102.35,104.28,green = 20,18,102.3,103.5,6,1,that's looking pretty even
+71,116.79,125.37,red = 10 and green = 20,24,116.79,125.37,6,2,"it's just stuff written at the bottom that's a so red block, green block's a ten and a twenty right now right that's looking"
+72,141.18,146.85,purple > 20 ,32,141.18,146.85,6,2,ok so purple block's more than twenty but it almost seems like the thirty takes it past but
+73,156.33,161.08,purple = 30,34,157.58,159.58,6,2,"if red block, blue block, green block, yellow block, purple block're only in increments of ten purple block has to be"
+74,177.57,178.08,yellow = 50,41,177.57,178.08,6,2,Fifty
+75,186.24,190.92,yellow < 50,44,186.24,190.92,6,3,"yeah purple block, green block's considerably heavier so purple block one did we say purple block was thirty"
+76,192.61,195.21,purple = 30 and green = 20,46,192.61,195.21,6,2,yeah purple block's thirty green is twenty
+77,195.24,196.42,red = 10 and blue = 10,47,195.24,196.42,6,2,red and small blue are both ten
+78,201.21,202.25,yellow < purple + green,49,201.21,202.25,6,3,"but green block, purple block's too heavy"
+79,205.44,209.58,purple + green = 50,51,205.44,209.58,6,1,"purple block, green block is fifty on here so then"
+80,224.5,226.56,purple + blue = 40,57,224.5,226.56,6,2,"so purple block, blue block should be forty right there"
+81,237.36,240.75,yellow = 50,59,239.41,243.39,6,2,i would say yellow is like forty five but we could say fifty since we're
+82,30.9,34.59,red = 10,5,30.9,33.5,7,4,I will tell you that the red cube is ten grams
+83,107.31,109.09,blue = 10,21,107.31,109.09,7,2,blue block seems to be ten
+84,139.87,142.15,green = 20,34,139.87,142.15,7,3,"yeah red block, blue block should be twenty as well"
+85,152.57,153.59,green + red + blue = 40,40,152.57,153.59,7,1,"now red block, blue block, green block's forty"
+86,179.32,181.84,purple = 30,48,179.32,181.84,7,3,yeah i think purple block's yeah thirty
+87,192.91,194.92,green = 20 and purple = 30,53,192.91,194.92,7,2,So is twenty and there is thirty
+88,212.92,213.95,yellow = 50,59,212.92,213.95,7,2,Fifty I guess
+89,395.75,397.25,yellow = 50,116,394.03,397.25,7,1,ah yeah because yeah so yellow block's fifty
+90,458.08,458.84,yellow = 50,133,457.21,458.84,7,2,no okay i think yellow block's fifty
+91,10.09,11.43,green = 20,1,8.07,11.55,8,2,yeah green is for twenty
+92,33.94,35.65,purple = 30,9,32.52,35.67,8,2,so twenty purple block's thirty
+93,74.08,76.06,yellow < purple + green,23,74.07,76.05,8,1,oh that's too left
+94,133.433,134.777,yellow > 40,41,132.0,134.91,8,1,oh yellow block's more than forty
+95,144.78,146.77,yellow > 40 and yellow < 50,43,144.78,146.76,8,1,Between forty and fifty
+96,157.58,159.33,yellow > 40,44,155.4,157.66,8,2,it's definitely not staying in between right
+97,168.19,170.67,yellow > 40 and yellow > 50,52,168.21,170.67,8,1,But we don't and less than fifty actually
+98,194.45,196.62,yellow < 50,60,194.46,196.62,8,1,Fifty is too heavy
+99,237.91,240.34,yellow = 41,77,237.93,239.33,8,1,so yellow block's forty one
+100,276.176,277.705,yellow = 49,87,272.91,277.75,8,1,ok minus one it is yeah so yellow block is forty nine
+101,280.19,284.04,yellow = 50,90,280.2,284.04,8,3,ok so yellow block's probably meant to be just fifty and was placed differently
+102,22.14,24.27,red = 10,3,22.14,24.27,9,4,The red cube is ten grams
+103,61.74,63.4,red = blue,11,61.74,63.4,9,2,"i would say red block, blue block's equal probably"
+104,96.66,97.83,green = red + blue,18,96.66,97.83,9,2,"yeah red block, blue block, green block's probably equal"
+105,103.33,105.99,red = 10 and blue = 10,19,103.33,105.99,9,1,So we got ten ten
+106,108.23,111.27,green != purple,21,108.23,111.27,9,1,Definitely not equal
+107,130.26,133.35,green = 20 and blue = 10,24,130.26,133.35,9,1,"green block, blue block was twenty and ten right ok"
+108,133.38,135.67,purple = 30,26,133.38,135.67,9,1,Look we have the thirty gram block and then
+109,160.22,164.84,yellow = purple + green,30,160.22,164.84,9,2,"just like ever so slightly though so green block, purple block, yellow block's probably probably say green block, purple block, yellow block's equal"
+110,168.42,170.83,purple = 30 and yellow = 50,33,168.42,170.83,9,3,purple block one was thirty so yellow block should be fifty less
+111,24.775,26.487,red = 10,5,24.01,26.75,10,4,I will tell you that the red cube is ten grams
+112,81.08,82.08,green = 20 and blue = 10 and red = 10,20,79.58,82.08,10,3,"i guess green block is like twenty and red block, blue block is like ten and ten"
+113,97.0,98.0,red = blue,25,96.5,98.0,10,3,"it looks like red block, blue block're fairly equal"
+114,101.85,102.85,green = 20 and red = 10 and blue = 10,27,100.84,102.85,10,3,"right so then green block's twenty red block, blue block two are ten"
+115,118.17,119.17,red = blue,34,117.46,118.87,10,2,"yeah red block, blue block're together"
+116,127.25,128.25,purple > green,35,119.75,128.25,10,3,"alright well now let's do green block, purple block two i can already tell purple block one's heavier yeah"
+117,141.91,142.91,purple = green + red,40,136.34,142.91,10,1,"i say green block, red block, purple block are equal green block, red block, purple block are the instructions i suppose"
+118,201.56,202.56,purple > green + red,52,180.78,202.56,10,2,"i'm guessing it's a little bit to the left a little bit to the left like it touches the red line but on the left hand side of the left line red red block, blue block, green block's gonna be heavier like not equal but almost almost equal how do wait how do we know green block one's twenty did we no we didn't"
+119,216.0,217.0,purple = 30,54,203.33,216.41,10,2,we we moved green block and checked the two tens remember we didn't do green block one okay yeah sure sure sure yeah yeah put thirty thirty yeah
+120,253.24,254.24,purple = 30 and green = 20 and yellow = 50,63,247.61,254.24,10,2,so purple block one's thirty and what's green block one twenty right twenty okay so yellow block one's gonna be fifty okay
+121,268.13,269.13,yellow < 50,67,263.83,268.91,10,3,i mean it's not gonna go anywhere i guess it's just oh
+122,273.0,274.0,yellow = 50,70,270.0,274.0,10,2,But there's no like I mean between weights so fifty
+123,285.57,286.57,yellow < 50,74,283.84,286.57,10,2,yellow block is like less than fifty less than fifty
+124,304.0,305.0,yellow < 50,81,303.0,305.0,10,2,yeah yeah it's it's almost settled down so yellow block's less than fifty
+125,306.26,307.26,yellow = 50,80,302.51,307.26,10,3,should i oh yeah yellow block is fifty grams
+126,311.48,312.48,purple = 30 and green = 20 and red = 10 and blue = 10,82,307.81,312.48,10,1,"so purple block was thirty right thirty green block was twenty and red block, blue block are tens"

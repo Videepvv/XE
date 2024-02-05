@@ -135,7 +135,7 @@ def is_valid_individual_match(cg, elements):
     
 
 def make_proposition_map(dataset):
-    data = f'./Data/{dataset}.csv'
+    data = f'./Data/goldenFiles/{dataset}.csv'
     df = pd.read_csv(data)
     prop_dict = defaultdict(dict)
     #normalise the common ground 

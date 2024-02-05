@@ -99,7 +99,8 @@ for group in range(1, 11):
     listOfDataFrames.append(pd.read_csv(f'Golden_Group_{group:02d}_CGA.csv'))
 
 dataset = pd.concat(listOfDataFrames)
-print(dataset.shape)
+#print(dataset.shape)
+dataset = pd.read_csv('updated.csv')
 dataset['Label'] = 1
 #dataset['Common Ground']= dataset['Common Ground'].replace("and", " , ")
 common_grounds_dataSet = pd.read_csv('NormalizedList.csv')
@@ -169,6 +170,7 @@ for index, row in dataset.iterrows():
 #df_extended['Common Ground'] = [normalize_expression(expr) for expr in df_extended['Common Ground']]
 #df_extended.to_csv('BigPrune_Dataset_Updated.csv')
 df_extended['Transcript'] = df_extended['Transcript'].apply(remove_stop_words)
+df_extended['Common Ground'] = df_extended['Common Ground'].str.replace("and"," , ")
 df_extended['Common Ground'] = df_extended['Common Ground'].apply(normalize_expression)
 
 df_extended.to_csv('preprocessedTrainingData.csv')
