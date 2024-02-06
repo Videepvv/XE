@@ -163,7 +163,7 @@ def add_special_tokens(proposition_map):
     for x, y in proposition_map.items():
         #print(y['common_ground'])
         cg_with_token = "<m>" + " " + y['common_ground']+ " "  + "</m>"
-        print(y['transcript'])
+        #print(y['transcript'])
         prop_with_token = "<m>" + " "+ y['transcript'] +" " + "</m>"
         proposition_map[x]['common_ground'] = cg_with_token
         proposition_map[x]['transcript'] = prop_with_token
@@ -453,8 +453,8 @@ def train(train_pairs,
     genericCosine = False
     #for each of the transctipt in the test dataset, get the transcript and generate the pruned possible common grounds. 
     for index, row in test_df.iterrows():
-        original_common_ground = row['common_ground'].replace("and", " , ") #raw common ground
-    
+        #original_common_ground = row['common_ground'].replace("and", " , ") #raw common ground
+        original_common_ground = row['common_ground'].replace("<m>", "").replace("</m>", "").strip()
         elements = extract_colors_and_numbers(row['transcript'].lower()) #The list of colors / weights in the transcript
         filtered_common_grounds = []
         filtered_common_grounds = [cg for cg in common_grounds if is_valid_common_ground(cg, elements)]
@@ -463,10 +463,12 @@ def train(train_pairs,
             filtered_common_grounds = [cg for cg in common_grounds if is_valid_individual_match(cg, elements)]  #If there is no match where only the mentioned colors and weights are present, get the individual combincations 
         
         #normalize the filtered common ground 
-        filtered_common_grounds = [normalize_expression(expr) for expr in filtered_common_grounds]
-        original_common_ground = normalize_expression(original_common_ground) #normalize original
+        #filtered_common_grounds = [normalize_expression(expr) for expr in filtered_common_grounds]
+        #original_common_ground = normalize_expression(original_common_ground) #normalize original
+        
         #we do not want any instances where no color and weight was mentioned 
         if(not elements['colors'] and not elements['numbers']):
+            print(f'{group} did not get')
             continue
         if not is_proposition_present(original_common_ground, filtered_common_grounds):
         #print("mentioned numbers - ", mentioned_numbers)
@@ -476,9 +478,12 @@ def train(train_pairs,
             if not is_proposition_present(original_common_ground, filtered_common_grounds):
                 mentioned_numbers = elements['numbers']
                 filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
+                if not is_proposition_present(original_common_ground, filtered_common_grounds):
+                    print('original' ,original_common_ground)
+                    print('not present ')
     
         
-        
+        print('Length of filtered Common grounds - ', len(filtered_common_grounds))
         #now get the cosine similarity between the current transcript in the test set and all possible common_grounds
         cosine_similarities = []
         for cg in filtered_common_grounds:
