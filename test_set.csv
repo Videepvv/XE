@@ -1,29 +1,34 @@
 ,transcript,common_ground
-0,blue block blue . red block ten,red = 10
-1,blue block blue . red block ten,blue = 10
-2,blue block blue . red block ten,"blue = 10, green = 10, red = 10"
-3,blue block blue . red block ten,"blue = 10, green = 20, red = 10"
-4,blue block blue . red block ten,"blue = 10, green = 30, red = 10"
-5,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 50, purple = 50, yellow = 40"
-6,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 20, purple = 40, yellow = 40"
-7,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 20, purple = 50, yellow = 40"
-8,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 40, purple = 40, yellow = 40"
-9,green block 20 purple block 30. 's 20 plus 30. 's exaclty aligning yellow block good 50,"green = 40, purple = 50, yellow = 50"
-10,try putting blue block,blue = 10
-11,try putting blue block,blue = 50
-12,try putting blue block,blue = 20
-13,try putting blue block,blue = 30
-14,try putting blue block,blue = 40
-15,"'ll , , red block",red = 10
-16,"'ll , , red block",red = 30
-17,"'ll , , red block",red = 50
-18,"'ll , , red block",red = 20
-19,"'ll , , red block",red = 40
-20,"purple block thirty , oops , sorry",purple < 30
-21,"purple block thirty , oops , sorry",purple > 30
-22,"purple block thirty , oops , sorry",purple != 30
-23,"purple block thirty , oops , sorry",purple = 30
-24,"purple block thirty , oops , sorry",purple < 30
-25,"purple block thirty , oops , sorry",purple > 30
-26,"purple block thirty , oops , sorry",purple != 30
-27,"purple block thirty , oops , sorry",purple = 30
+0,The red cube ten grams,red = 10
+1,The red cube ten grams,red != 10
+2,The red cube ten grams,red < 10
+3,The red cube ten grams,red > 10
+4,"would red block , blue block 's equal probably",blue = red
+5,"would red block , blue block 's equal probably",blue > red
+6,"would red block , blue block 's equal probably",red > blue
+7,"would red block , blue block 's equal probably",blue != red
+8,"would red block , blue block 's equal probably",red < blue
+9,"red block , blue block , green block 's probably equal",red = blue + green
+10,"red block , blue block , green block 's probably equal",blue != green + red
+11,"red block , blue block , green block 's probably equal",green != blue + red
+12,"red block , blue block , green block 's probably equal",blue > green + red
+13,"red block , blue block , green block 's probably equal",green = blue + red
+14,So got ten ten,yellow = 10
+15,So got ten ten,blue = 10
+16,So got ten ten,red = 10
+17,So got ten ten,green = 10
+18,So got ten ten,purple = 10
+19,"green block , blue block twenty ten right","blue = 20, green = 10"
+20,"green block , blue block twenty ten right","blue = 10, green = 20"
+21,Look thirty gram block,purple = 30
+22,Look thirty gram block,green = 30
+23,Look thirty gram block,yellow != 30
+24,Look thirty gram block,purple != 30
+25,Look thirty gram block,red != 30
+26,"ever slightly though green block , purple block , yellow block 's probably probably green block , purple block , yellow block 's equal",purple < green + yellow
+27,"ever slightly though green block , purple block , yellow block 's probably probably green block , purple block , yellow block 's equal",yellow < green + purple
+28,"ever slightly though green block , purple block , yellow block 's probably probably green block , purple block , yellow block 's equal",green < purple + yellow
+29,"ever slightly though green block , purple block , yellow block 's probably probably green block , purple block , yellow block 's equal",yellow != green + purple
+30,"ever slightly though green block , purple block , yellow block 's probably probably green block , purple block , yellow block 's equal",purple > green + yellow
+31,purple block one thirty yellow block fifty less,"purple = 30, yellow = 50"
+32,purple block one thirty yellow block fifty less,"purple = 50, yellow = 30"

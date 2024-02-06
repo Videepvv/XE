@@ -135,13 +135,13 @@ def is_valid_individual_match(cg, elements):
     
 
 def make_proposition_map(dataset):
-    data = f'./Data/whisperGoldenFiles/{dataset}.csv'
+    data = f'./Data/goldenFiles/{dataset}.csv'
     df = pd.read_csv(data)
     prop_dict = defaultdict(dict)
     #normalise the common ground 
     #print(df['Common Ground'])
-    df['Common Ground'] = df['Common Ground'].apply(lambda x: normalize_expression(x.replace("and", ",")))
-    df['Common Ground']
+    #df['Common Ground'] = df['Common Ground'].apply(lambda x: normalize_expression(x.replace("and", ",")))
+    #df['Common Ground']
     for x, y in enumerate(df.iterrows()):
 
         prop_dict[x]['common_ground'] = df['Common Ground'][x]
@@ -163,7 +163,7 @@ def add_special_tokens(proposition_map):
     for x, y in proposition_map.items():
         #print(y['common_ground'])
         cg_with_token = "<m>" + " " + y['common_ground']+ " "  + "</m>"
-        print(y['transcript'])
+        #print(y['transcript'])
         prop_with_token = "<m>" + " "+ y['transcript'] +" " + "</m>"
         proposition_map[x]['common_ground'] = cg_with_token
         proposition_map[x]['transcript'] = prop_with_token
@@ -195,7 +195,7 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
     device = torch.device('cuda:0')
     device_ids = list(range(1))
     #load the statement and proposition data
-    prop_dict, df = make_proposition_map("whisper_preprocessedTrainingData")
+    prop_dict, df = make_proposition_map("preprocessedTrainingData")
     proposition_map = add_special_tokens(prop_dict)
     
     #train_pairs  = [x for x in proposition_map.keys()]
@@ -453,8 +453,8 @@ def train(train_pairs,
     genericCosine = False
     #for each of the transctipt in the test dataset, get the transcript and generate the pruned possible common grounds. 
     for index, row in test_df.iterrows():
-        original_common_ground = row['common_ground'].replace("and", " , ") #raw common ground
-    
+        #original_common_ground = row['common_ground'].replace("and", " , ") #raw common ground
+        original_common_ground = row['common_ground'].replace("<m>", "").replace("</m>", "").strip()
         elements = extract_colors_and_numbers(row['transcript'].lower()) #The list of colors / weights in the transcript
         filtered_common_grounds = []
         filtered_common_grounds = [cg for cg in common_grounds if is_valid_common_ground(cg, elements)]
@@ -463,21 +463,27 @@ def train(train_pairs,
             filtered_common_grounds = [cg for cg in common_grounds if is_valid_individual_match(cg, elements)]  #If there is no match where only the mentioned colors and weights are present, get the individual combincations 
         
         #normalize the filtered common ground 
-        filtered_common_grounds = [normalize_expression(expr) for expr in filtered_common_grounds]
-        original_common_ground = normalize_expression(original_common_ground) #normalize original
-        #we do not want any instances where no color and weight was mentioned 
-        if(len(filtered_common_grounds)==1650 or len(filtered_common_grounds)==1):
-            continue
-        # if not is_proposition_present(original_common_ground, filtered_common_grounds):
-        #     mentioned_colors = elements['colors']
-        #     filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+        #filtered_common_grounds = [normalize_expression(expr) for expr in filtered_common_grounds]
+        #original_common_ground = normalize_expression(original_common_ground) #normalize original
         
-        #     if not is_proposition_present(original_common_ground, filtered_common_grounds):
-        #         mentioned_numbers = elements['numbers']
-        #         filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
+        #we do not want any instances where no color and weight was mentioned 
+        if(not elements['colors'] and not elements['numbers']):
+            print(f'{group} did not get')
+            continue
+        if not is_proposition_present(original_common_ground, filtered_common_grounds):
+        #print("mentioned numbers - ", mentioned_numbers)
+            mentioned_colors = elements['colors']
+            filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+        
+            if not is_proposition_present(original_common_ground, filtered_common_grounds):
+                mentioned_numbers = elements['numbers']
+                filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
+                if not is_proposition_present(original_common_ground, filtered_common_grounds):
+                    print('original' ,original_common_ground)
+                    print('not present ')
     
         
-        
+        print('Length of filtered Common grounds - ', len(filtered_common_grounds))
         #now get the cosine similarity between the current transcript in the test set and all possible common_grounds
         cosine_similarities = []
         for cg in filtered_common_grounds:
@@ -546,7 +552,7 @@ def train(train_pairs,
             all_cosine_rows.append(all_cosine_row)
     
     all_cosine_rows_df = pd.DataFrame(all_cosine_rows, columns=["transcript", "filtered_common_ground", "cosine_similarity", "true_common_ground"])
-    all_cosine_rows_df.to_csv(f'cosineScores/cosine_Scores{group}_W.csv')
+    all_cosine_rows_df.to_csv(f'cosineScores/cosine_Scores{group}.csv')
     new_df = pd.DataFrame(new_rows, columns=["transcript", "common_ground"])
     new_df.index.to_list()#the list of indicies in the dict that needs to be tokenized
     
@@ -572,7 +578,7 @@ def train(train_pairs,
     actual_common_ground_map = test_df.set_index('transcript')['common_ground'].to_dict()
     new_df['actual_common_ground'] = new_df['transcript'].map(actual_common_ground_map)# Set transcript as index for easy lookup
     new_df['Group'] =  group
-    new_df.to_csv(f'resultsTrainedCosineUpdates/{group}_W.csv')
+    new_df.to_csv(f'resultsTrainedCosineUpdates/{group}.csv')
 
 """
 

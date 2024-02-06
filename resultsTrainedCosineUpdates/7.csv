@@ -1,36 +1,41 @@
 ,transcript,common_ground,scores,actual_common_ground,Group
-0,I will tell you that the red cube is ten grams,red = 10,0.98869824,<m> red = 10 </m>,7
-1,I will tell you that the red cube is ten grams,red != 10,0.06388628,<m> red = 10 </m>,7
-2,I will tell you that the red cube is ten grams,red > 10,0.063406214,<m> red = 10 </m>,7
-3,I will tell you that the red cube is ten grams,red < 10,0.06330845,<m> red = 10 </m>,7
-4,blue block seems to be ten,blue = 10,0.98838675,<m> blue = 10 </m>,7
-5,blue block seems to be ten,blue != 10,0.06913381,<m> blue = 10 </m>,7
-6,blue block seems to be ten,blue < 10,0.06780621,<m> blue = 10 </m>,7
-7,blue block seems to be ten,blue > 10,0.06529431,<m> blue = 10 </m>,7
-8,"yeah red block, blue block should be twenty as well",red = 20,0.9843764,<m> green = 20 </m>,7
-9,"yeah red block, blue block should be twenty as well",blue = 20,0.98394006,<m> green = 20 </m>,7
-10,"yeah red block, blue block should be twenty as well",blue != 20,0.12057455,<m> green = 20 </m>,7
-11,"yeah red block, blue block should be twenty as well",blue < 20,0.117175475,<m> green = 20 </m>,7
-12,"yeah red block, blue block should be twenty as well",red != 20,0.09246504,<m> green = 20 </m>,7
-13,yeah i think purple block's yeah thirty,purple = 30,0.9804463,<m> purple = 30 </m>,7
-14,yeah i think purple block's yeah thirty,purple != 30,0.17743574,<m> purple = 30 </m>,7
-15,yeah i think purple block's yeah thirty,purple < 30,0.09961054,<m> purple = 30 </m>,7
-16,yeah i think purple block's yeah thirty,purple > 30,0.079359755,<m> purple = 30 </m>,7
-17,So is twenty and there is thirty,"blue = 20, green = 30, yellow = 30",0.025066443,"<m> green = 20, purple = 30 </m>",7
-18,So is twenty and there is thirty,"green = 20, purple = 20, yellow = 30",0.022259153,"<m> green = 20, purple = 30 </m>",7
-19,So is twenty and there is thirty,"blue = 20, green = 20, yellow = 30",0.022353664,"<m> green = 20, purple = 30 </m>",7
-20,So is twenty and there is thirty,"green = 20, purple = 30, yellow = 30",0.022747625,"<m> green = 20, purple = 30 </m>",7
-21,So is twenty and there is thirty,"blue = 20, red = 30, yellow = 30",0.024342678,"<m> green = 20, purple = 30 </m>",7
-22,Fifty I guess,green = 50,0.9835366,<m> yellow = 50 </m>,7
-23,Fifty I guess,purple = 50,0.9830593,<m> yellow = 50 </m>,7
-24,Fifty I guess,red = 50,0.98146063,<m> yellow = 50 </m>,7
-25,Fifty I guess,blue = 50,0.9808648,<m> yellow = 50 </m>,7
-26,Fifty I guess,yellow = 50,0.98013604,<m> yellow = 50 </m>,7
-27,ah yeah because yeah so yellow block's fifty,yellow = 50,0.9826854,<m> yellow = 50 </m>,7
-28,ah yeah because yeah so yellow block's fifty,yellow < 50,0.08560386,<m> yellow = 50 </m>,7
-29,ah yeah because yeah so yellow block's fifty,yellow != 50,0.07961104,<m> yellow = 50 </m>,7
-30,ah yeah because yeah so yellow block's fifty,yellow > 50,0.0770849,<m> yellow = 50 </m>,7
-31,no okay i think yellow block's fifty,yellow = 50,0.95441717,<m> yellow = 50 </m>,7
-32,no okay i think yellow block's fifty,yellow != 50,0.0769023,<m> yellow = 50 </m>,7
-33,no okay i think yellow block's fifty,yellow < 50,0.072287224,<m> yellow = 50 </m>,7
-34,no okay i think yellow block's fifty,yellow > 50,0.07127632,<m> yellow = 50 </m>,7
+0,I tell red cube ten grams,red = 10,0.7443168,<m> red = 10 </m>,7
+1,I tell red cube ten grams,red > 10,0.057379782,<m> red = 10 </m>,7
+2,I tell red cube ten grams,red != 10,0.054104906,<m> red = 10 </m>,7
+3,I tell red cube ten grams,red < 10,0.041744344,<m> red = 10 </m>,7
+4,blue block seems ten,blue = 10,0.648311,<m> blue = 10 </m>,7
+5,blue block seems ten,blue != 10,0.037221663,<m> blue = 10 </m>,7
+6,blue block seems ten,blue > 10,0.031704552,<m> blue = 10 </m>,7
+7,blue block seems ten,blue < 10,0.029389497,<m> blue = 10 </m>,7
+8,"red block , blue block twenty",blue = 20,0.86345196,<m> green = 20 </m>,7
+9,"red block , blue block twenty",green = 20,0.8594459,<m> green = 20 </m>,7
+10,"red block , blue block twenty",red = 20,0.8573969,<m> green = 20 </m>,7
+11,"red block , blue block twenty",purple = 20,0.82351136,<m> green = 20 </m>,7
+12,"red block , blue block twenty",yellow = 20,0.766061,<m> green = 20 </m>,7
+13,"red block , blue block , green block 's forty",green = 40,0.7589552,<m> green + red + blue = 40 </m>,7
+14,"red block , blue block , green block 's forty",purple = 40,0.68888474,<m> green + red + blue = 40 </m>,7
+15,"red block , blue block , green block 's forty",blue = 40,0.67528725,<m> green + red + blue = 40 </m>,7
+16,"red block , blue block , green block 's forty",red = 40,0.67204666,<m> green + red + blue = 40 </m>,7
+17,"red block , blue block , green block 's forty",yellow = 40,0.60720235,<m> green + red + blue = 40 </m>,7
+18,purple block 's thirty,purple = 30,0.6426972,<m> purple = 30 </m>,7
+19,purple block 's thirty,purple > 30,0.10445634,<m> purple = 30 </m>,7
+20,purple block 's thirty,purple != 30,0.098620296,<m> purple = 30 </m>,7
+21,purple block 's thirty,purple < 30,0.08650196,<m> purple = 30 </m>,7
+22,So twenty thirty,"blue = 20, green = 30",0.17306668,"<m> green = 20, purple = 30 </m>",7
+23,So twenty thirty,"purple = 20, red = 30",0.15631807,"<m> green = 20, purple = 30 </m>",7
+24,So twenty thirty,"green = 20, red = 30",0.14610012,"<m> green = 20, purple = 30 </m>",7
+25,So twenty thirty,"green = 20, purple = 30",0.14256378,"<m> green = 20, purple = 30 </m>",7
+26,So twenty thirty,"blue = 30, green = 20",0.14067641,"<m> green = 20, purple = 30 </m>",7
+27,Fifty I,purple = 50,0.8098063,<m> yellow = 50 </m>,7
+28,Fifty I,green = 50,0.80312306,<m> yellow = 50 </m>,7
+29,Fifty I,red = 50,0.8033459,<m> yellow = 50 </m>,7
+30,Fifty I,blue = 50,0.80362606,<m> yellow = 50 </m>,7
+31,Fifty I,yellow = 50,0.80131257,<m> yellow = 50 </m>,7
+32,ah yellow block 's fifty,yellow = 50,0.55982816,<m> yellow = 50 </m>,7
+33,ah yellow block 's fifty,yellow < 50,0.07882338,<m> yellow = 50 </m>,7
+34,ah yellow block 's fifty,yellow > 50,0.07260499,<m> yellow = 50 </m>,7
+35,ah yellow block 's fifty,yellow != 50,0.07065925,<m> yellow = 50 </m>,7
+36,okay yellow block 's fifty,yellow = 50,0.42997444,<m> yellow = 50 </m>,7
+37,okay yellow block 's fifty,yellow > 50,0.048115026,<m> yellow = 50 </m>,7
+38,okay yellow block 's fifty,yellow < 50,0.044728193,<m> yellow = 50 </m>,7
+39,okay yellow block 's fifty,yellow != 50,0.04658969,<m> yellow = 50 </m>,7
