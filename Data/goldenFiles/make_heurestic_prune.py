@@ -100,7 +100,7 @@ for group in range(1, 11):
 
 dataset = pd.concat(listOfDataFrames)
 #print(dataset.shape)
-dataset = pd.read_csv('updated.csv')
+#dataset = pd.read_csv('updated.csv')
 dataset['Label'] = 1
 #dataset['Common Ground']= dataset['Common Ground'].replace("and", " , ")
 common_grounds_dataSet = pd.read_csv('NormalizedList.csv')
@@ -124,20 +124,28 @@ for index, row in dataset.iterrows():
 
     if not filtered_common_grounds:  # If no match found, try individual color-number pairs
         filtered_common_grounds = [cg for cg in common_grounds if is_valid_individual_match(cg, elements)]
-    if(len(filtered_common_grounds)==1650 or len(filtered_common_grounds)==1 ):
-        #print(row['Transcript'])
+    #if(len(filtered_common_grounds)==5025 or len(filtered_common_grounds)==1 ):
+    #if(len(filtered_common_grounds)==5025):
+        #print("TRANSCRIPT - ", row['Transcript'].lower())
+        #continue
+    if(not elements['colors'] and not elements['numbers']):
         continue
-    # if not is_proposition_present(original_common_ground, filtered_common_grounds):
-    #     mentioned_colors = elements['colors']
-    #     filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+    if not is_proposition_present(original_common_ground, filtered_common_grounds):
         
-    #     if not is_proposition_present(original_common_ground, filtered_common_grounds):
-    #         mentioned_numbers = elements['numbers']
-    #         filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
-    #         if not is_proposition_present(original_common_ground, filtered_common_grounds):
-    #             propositions_lost += 1
-    #             print("ORIGINAL COMMON GROUND - ", original_common_ground)
-    #             print("TRANSCRIPT - ", row['Transcript'].lower())
+        #print("mentioned numbers - ", mentioned_numbers)
+        mentioned_colors = elements['colors']
+        filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+        
+        if not is_proposition_present(original_common_ground, filtered_common_grounds):
+            # propositions_lost += 1
+            # print("ORIGINAL COMMON GROUND - ", original_common_ground)
+            # print("TRANSCRIPT - ", row['Transcript'].lower(), '\n')
+            mentioned_numbers = elements['numbers']
+            filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
+            if not is_proposition_present(original_common_ground, filtered_common_grounds):
+                propositions_lost += 1
+                print("ORIGINAL COMMON GROUND - ", original_common_ground)
+                print("TRANSCRIPT - ", row['Transcript'].lower())
     #             print("mentioned numbers - ", mentioned_numbers)
 
     #if(row['Transcript'] == "I will tell you that the red cube is ten grams"):
@@ -161,9 +169,9 @@ for index, row in dataset.iterrows():
         df_extended = pd.concat([dataset, pd.DataFrame(new_rows)], ignore_index=True)
 
 
-#print(propositions_lost/total_transcripts)    
+print(propositions_lost/total_transcripts)    
 #df_extended = pd.concat([dataset, pd.DataFrame(new_rows)], ignore_index=True)
-
+print(listOfcommonGrounds)
 #print(sum(listOfcommonGrounds)/len(listOfcommonGrounds))
 #print(listOfcommonGrounds)
 
