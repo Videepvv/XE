@@ -181,4 +181,4 @@ df_extended['Transcript'] = df_extended['Transcript'].apply(remove_stop_words)
 df_extended['Common Ground'] = df_extended['Common Ground'].str.replace("and"," , ")
 df_extended['Common Ground'] = df_extended['Common Ground'].apply(normalize_expression)
 
-df_extended.to_csv('preprocessedTrainingData.csv')
+#df_extended.to_csv('preprocessedTrainingData.csv')

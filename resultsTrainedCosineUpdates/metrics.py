@@ -15,7 +15,7 @@ for file in csv_files:
 combined_df = pd.concat(dfs, ignore_index=True)
 
 # Step 4: Save the combined DataFrame to a new CSV file
-#combined_df.to_csv('combined_trainedcosine_results_csv.csv', index=False)
+combined_df.to_csv('combined_trainedcosine_results_csv.csv', index=False)
 # Load the CSV file
 file_path = 'combined_trainedcosine_results_csv.csv'  # Update this to your actual file path
 data = combined_df
@@ -49,21 +49,37 @@ def calculate_iou(common_ground, actual_common_ground):
     # Calculate intersection and union
     intersection = common_ground_elements & actual_common_ground_elements
     union = common_ground_elements | actual_common_ground_elements
-    # Calculate IoU
+    # Calculate IoU 
     iou = len(intersection) / len(union) if union else 0
     return iou
+def calculateJaccard(predicted_string, true_string):
+    # Define the set of possible elements (colors and numbers) to consider for Jaccard similarity
+    possible_elements = {"red", "blue", "yellow", "purple", "green", "10", "20", "30", "40", "50"}
 
+    # Convert each string into a set of words based on the defined possible elements
+    true_set_filtered = set(word for word in true_string.replace(',', '').split() if word in possible_elements)
+    predicted_set_filtered = set(word for word in predicted_string.replace(',', '').split() if word in possible_elements)
+
+    # Calculate the intersection and union of these two filtered sets
+    intersection_filtered = true_set_filtered.intersection(predicted_set_filtered)
+    union_filtered = true_set_filtered.union(predicted_set_filtered)
+
+    # Calculate the Jaccard similarity based on filtered elements
+    jaccard_similarity_filtered = len(intersection_filtered) / len(union_filtered)
+
+    return jaccard_similarity_filtered
 # Define a function to apply IoU calculation for the top score in each transcript group
 def get_top_iou_score(group):
     # Sort the group by scores in descending order and select the top row
     top_row = group.sort_values(by='scores', ascending=False).iloc[0]
     # Calculate IoU score for the top match
     iou_score = calculate_iou(top_row['common_ground'], group['actual_common_ground_cleaned'].iloc[0])
-    return iou_score
+    jac_score = calculateJaccard(top_row['common_ground'], group['actual_common_ground_cleaned'].iloc[0])
+    return jac_score
 
 # Apply the IoU calculation function to each group of transcripts for the top score
 iou_scores_top_1 = grouped.apply(get_top_iou_score)
-
+#Jacard = grouped.apply()
 # Now, iou_scores_top_1 contains the IoU score for the top match of each transcript
 # You can aggregate these scores or further analyze them based on your needs
 

@@ -400,11 +400,11 @@ def train(train_pairs,
         # iteration accuracy
         dev_scores_ab, dev_scores_ba = predict_with_XE(parallel_model, dev_ab, dev_ba, device, batch_size,cosine_sim=False)
         dev_predictions = (dev_scores_ab + dev_scores_ba)/2
-        print(dev_predictions)
+        #print(dev_predictions)
         dev_predictions = dev_predictions > 0.5
         dev_predictions = torch.squeeze(dev_predictions)
-        print(dev_predictions)
-        print(dev_predictions, dev_labels)
+        #print(dev_predictions)
+        #print(dev_predictions, dev_labels)
         print("dev accuracy:", accuracy(dev_predictions, dev_labels))
         print("dev precision:", precision(dev_predictions, dev_labels))
         print("dev recall:", recall(dev_predictions, dev_labels))
@@ -451,6 +451,7 @@ def train(train_pairs,
     parallel_model = parallel_model.to(device)
     evaluation_results = []
     genericCosine = False
+    propsLostCosine = 0
     #for each of the transctipt in the test dataset, get the transcript and generate the pruned possible common grounds. 
     for index, row in test_df.iterrows():
         #original_common_ground = row['common_ground'].replace("and", " , ") #raw common ground
@@ -520,12 +521,14 @@ def train(train_pairs,
                 
                 
                 cosine_test_scores_ab, cosine_test_scores_ba = predict_with_XE(parallel_model, test_ab, test_ba, device, batch_size,cosine_sim=True)
-                cosine_similarity = cosine_test_scores_ab + cosine_test_scores_ba /2
+                cosine_similarity = (cosine_test_scores_ab + cosine_test_scores_ba) /2
                 cosine_similarities.append(cosine_similarity)
             
 
         # Select top 5 matches based on cosine similarity
         top_matches = sorted(zip(filtered_common_grounds, cosine_similarities), key=lambda x: x[1], reverse=True)[:5]
+        if(original_common_ground not in top_matches):
+            propsLostCosine+=1
         if not top_matches:  # If top_matches is empty
             print(f"Transcript: {row['transcript'].lower()}")
             print("Filtered common grounds with no top matches:", filtered_common_grounds)
@@ -571,15 +574,23 @@ def train(train_pairs,
     new_df["scores"] = test_predictions #Get the raw scores as given by the cross Encoder
     test_predictions = test_predictions > 0.5
     test_predictions = torch.squeeze(test_predictions)
-    
-    
+    print(test_predictions)
+    test_predictions = test_predictions > 0.5
+    test_predictions = torch.squeeze(test_predictions)
+    #print(dev_predictions)
+    #print(test_predictions, dev_labels)
+    #print("dev accuracy:", accuracy(test_predictions, dev_labels))
+    #print("dev precision:", precision(test_predictions, dev_labels))
+    #print("dev recall:", recall(test_predictions, dev_labels))
+    #print("dev f1:", f1_score(test_predictions, dev_labels))
+
     # Step 3: Verify against the correct common grounds
     # Assuming 'test_df' has a unique row for each transcript with the correct common ground
     actual_common_ground_map = test_df.set_index('transcript')['common_ground'].to_dict()
     new_df['actual_common_ground'] = new_df['transcript'].map(actual_common_ground_map)# Set transcript as index for easy lookup
     new_df['Group'] =  group
     new_df.to_csv(f'resultsTrainedCosineUpdates/{group}.csv')
-
+    print('Total Props Lost - ' , propsLostCosine)
 """
 
     #Predict here. Create the dataset. Prune with Heuristic. Prune with cosine. use predict_with_XE

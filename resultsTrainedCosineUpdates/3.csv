@@ -1,54 +1,54 @@
 ,transcript,common_ground,scores,actual_common_ground,Group
-0,We tell weight red cube ten grams,red = 10,0.73411983,<m> red = 10 </m>,3
-1,We tell weight red cube ten grams,red != 10,0.23606369,<m> red = 10 </m>,3
-2,We tell weight red cube ten grams,red > 10,0.22861864,<m> red = 10 </m>,3
-3,We tell weight red cube ten grams,red < 10,0.22641768,<m> red = 10 </m>,3
-4,"red block , blue block 're weight",blue = red,0.6833472,<m> blue = red </m>,3
-5,"red block , blue block 're weight",blue > red,0.45292017,<m> blue = red </m>,3
-6,"red block , blue block 're weight",red > blue,0.36516738,<m> blue = red </m>,3
-7,"red block , blue block 're weight",blue != red,0.38426417,<m> blue = red </m>,3
-8,"red block , blue block 're weight",blue < red,0.29669333,<m> blue = red </m>,3
-9,sufficient green block one 's probably twenty,green = 20,0.62754196,<m> green = 20 </m>,3
-10,sufficient green block one 's probably twenty,green != 20,0.22984637,<m> green = 20 </m>,3
-11,sufficient green block one 's probably twenty,green < 20,0.22108321,<m> green = 20 </m>,3
-12,sufficient green block one 's probably twenty,green > 20,0.21821931,<m> green = 20 </m>,3
-13,purple one thirty,purple = 30,0.45590568,<m> purple = 30 </m>,3
-14,purple one thirty,purple != 30,0.22131492,<m> purple = 30 </m>,3
-15,purple one thirty,purple < 30,0.21866192,<m> purple = 30 </m>,3
-16,purple one thirty,purple > 30,0.21374422,<m> purple = 30 </m>,3
-17,green twenty purple thirty yellow block weighs fifty,"green = 30, purple = 20, yellow = 50",0.034167536,"<m> green = 20, purple = 30, yellow = 50 </m>",3
-18,green twenty purple thirty yellow block weighs fifty,"green = 20, purple = 30, yellow = 50",0.034446344,"<m> green = 20, purple = 30, yellow = 50 </m>",3
-19,green twenty purple thirty yellow block weighs fifty,"green = 20, purple = 50, yellow = 30",0.03255732,"<m> green = 20, purple = 30, yellow = 50 </m>",3
-20,green twenty purple thirty yellow block weighs fifty,"green = 30, purple = 50, yellow = 20",0.029721968,"<m> green = 20, purple = 30, yellow = 50 </m>",3
-21,green twenty purple thirty yellow block weighs fifty,"green = 50, purple = 30, yellow = 20",0.028290056,"<m> green = 20, purple = 30, yellow = 50 </m>",3
-22,mentioned green twenty,green = 20,0.5555143,<m> green = 20 </m>,3
-23,mentioned green twenty,green != 20,0.22385117,<m> green = 20 </m>,3
-24,mentioned green twenty,green < 20,0.2199463,<m> green = 20 </m>,3
-25,mentioned green twenty,green > 20,0.2170637,<m> green = 20 </m>,3
-26,yellow course ten,yellow = 10,0.58562326,<m> yellow != 10 </m>,3
-27,yellow course ten,yellow != 10,0.22391513,<m> yellow != 10 </m>,3
-28,yellow course ten,yellow < 10,0.21280977,<m> yellow != 10 </m>,3
-29,yellow course ten,yellow > 10,0.20918274,<m> yellow != 10 </m>,3
-30,"try purple block , green block",purple != blue + green + red + yellow,0.7693712,<m> yellow > blue + green + red </m>,3
-31,"try purple block , green block",green != blue + purple + red + yellow,0.7690453,<m> yellow > blue + green + red </m>,3
-32,"try purple block , green block",purple != blue + red + yellow,0.7687479,<m> yellow > blue + green + red </m>,3
-33,"try purple block , green block",red != green + purple + yellow,0.7685282,<m> yellow > blue + green + red </m>,3
-34,"try purple block , green block",blue != purple + red + yellow,0.76818407,<m> yellow > blue + green + red </m>,3
-35,feel yellow fifty,yellow = 50,0.6323533,<m> yellow = 50 </m>,3
-36,feel yellow fifty,yellow != 50,0.23297754,<m> yellow = 50 </m>,3
-37,feel yellow fifty,yellow < 50,0.22583231,<m> yellow = 50 </m>,3
-38,feel yellow fifty,yellow > 50,0.21507001,<m> yellow = 50 </m>,3
-39,yellow block 's sure thirty,yellow = 30,0.7072325,<m> yellow != 30 </m>,3
-40,yellow block 's sure thirty,yellow != 30,0.21563622,<m> yellow != 30 </m>,3
-41,yellow block 's sure thirty,yellow < 30,0.21397325,<m> yellow != 30 </m>,3
-42,yellow block 's sure thirty,yellow > 30,0.21318747,<m> yellow != 30 </m>,3
-43,"yellow block must red block , blue block , purple block right comparing yellow block forty yellow block 's",purple > green + red + yellow,0.76951456,<m> yellow = 50 </m>,3
-44,"yellow block must red block , blue block , purple block right comparing yellow block forty yellow block 's",green < purple + red + yellow,0.76951456,<m> yellow = 50 </m>,3
-45,"yellow block must red block , blue block , purple block right comparing yellow block forty yellow block 's",green > purple + red + yellow,0.7695145,<m> yellow = 50 </m>,3
-46,"yellow block must red block , blue block , purple block right comparing yellow block forty yellow block 's",green > purple + yellow,0.76951444,<m> yellow = 50 </m>,3
-47,"yellow block must red block , blue block , purple block right comparing yellow block forty yellow block 's",red > green + purple + yellow,0.76951444,<m> yellow = 50 </m>,3
-48,yellow block fifty,yellow != blue + green + purple + red,0.7498095,"<m> purple = 30, yellow = 50 </m>",3
-49,yellow block fifty,green != blue + purple + yellow,0.74403435,"<m> purple = 30, yellow = 50 </m>",3
-50,yellow block fifty,blue != green + purple + yellow,0.7393172,"<m> purple = 30, yellow = 50 </m>",3
-51,yellow block fifty,yellow != blue + purple + red,0.7420253,"<m> purple = 30, yellow = 50 </m>",3
-52,yellow block fifty,green != purple + red + yellow,0.74044627,"<m> purple = 30, yellow = 50 </m>",3
+0,We tell weight red cube ten grams,red = 10,0.81154454,<m> red = 10 </m>,3
+1,We tell weight red cube ten grams,red > 10,0.42821532,<m> red = 10 </m>,3
+2,We tell weight red cube ten grams,red < 10,0.22316924,<m> red = 10 </m>,3
+3,We tell weight red cube ten grams,red != 10,0.20538388,<m> red = 10 </m>,3
+4,"red block , blue block 're weight",blue = red,0.86570334,<m> blue = red </m>,3
+5,"red block , blue block 're weight",blue < red,0.8435813,<m> blue = red </m>,3
+6,"red block , blue block 're weight",red < blue,0.7934344,<m> blue = red </m>,3
+7,"red block , blue block 're weight",blue > red,0.7815902,<m> blue = red </m>,3
+8,"red block , blue block 're weight",red > blue,0.7717569,<m> blue = red </m>,3
+9,sufficient green block one 's probably twenty,green = 20,0.72811973,<m> green = 20 </m>,3
+10,sufficient green block one 's probably twenty,green < 20,0.7256309,<m> green = 20 </m>,3
+11,sufficient green block one 's probably twenty,green > 20,0.71595544,<m> green = 20 </m>,3
+12,sufficient green block one 's probably twenty,green != 20,0.45575953,<m> green = 20 </m>,3
+13,purple one thirty,purple = 30,0.7621826,<m> purple = 30 </m>,3
+14,purple one thirty,purple != 30,0.42212555,<m> purple = 30 </m>,3
+15,purple one thirty,purple > 30,0.4158725,<m> purple = 30 </m>,3
+16,purple one thirty,purple < 30,0.21367532,<m> purple = 30 </m>,3
+17,green twenty purple thirty yellow block weighs fifty,"green = 30, purple = 20, yellow = 50",0.10630556,"<m> green = 20, purple = 30, yellow = 50 </m>",3
+18,green twenty purple thirty yellow block weighs fifty,"green = 20, purple = 30, yellow = 50",0.1026072,"<m> green = 20, purple = 30, yellow = 50 </m>",3
+19,green twenty purple thirty yellow block weighs fifty,"green = 30, purple = 50, yellow = 20",0.052593533,"<m> green = 20, purple = 30, yellow = 50 </m>",3
+20,green twenty purple thirty yellow block weighs fifty,"green = 50, purple = 30, yellow = 20",0.040920418,"<m> green = 20, purple = 30, yellow = 50 </m>",3
+21,green twenty purple thirty yellow block weighs fifty,"green = 20, purple = 50, yellow = 30",0.03926646,"<m> green = 20, purple = 30, yellow = 50 </m>",3
+22,mentioned green twenty,green = 20,0.66797614,<m> green = 20 </m>,3
+23,mentioned green twenty,green < 20,0.36440486,<m> green = 20 </m>,3
+24,mentioned green twenty,green > 20,0.3498119,<m> green = 20 </m>,3
+25,mentioned green twenty,green != 20,0.10503586,<m> green = 20 </m>,3
+26,yellow course ten,yellow = 10,0.8104799,<m> yellow != 10 </m>,3
+27,yellow course ten,yellow < 10,0.102379486,<m> yellow != 10 </m>,3
+28,yellow course ten,yellow != 10,0.064873435,<m> yellow != 10 </m>,3
+29,yellow course ten,yellow > 10,0.059774764,<m> yellow != 10 </m>,3
+30,"try purple block , green block",yellow = green + purple,0.9197329,<m> yellow > blue + green + red </m>,3
+31,"try purple block , green block",green = blue + purple,0.91931736,<m> yellow > blue + green + red </m>,3
+32,"try purple block , green block",purple = blue + green,0.9191965,<m> yellow > blue + green + red </m>,3
+33,"try purple block , green block",red = green + purple,0.9182241,<m> yellow > blue + green + red </m>,3
+34,"try purple block , green block",green = purple + yellow,0.91799164,<m> yellow > blue + green + red </m>,3
+35,feel yellow fifty,yellow = 50,0.811127,<m> yellow = 50 </m>,3
+36,feel yellow fifty,yellow > 50,0.34402347,<m> yellow = 50 </m>,3
+37,feel yellow fifty,yellow < 50,0.2886393,<m> yellow = 50 </m>,3
+38,feel yellow fifty,yellow != 50,0.21762387,<m> yellow = 50 </m>,3
+39,yellow block 's sure thirty,yellow = 30,0.854902,<m> yellow != 30 </m>,3
+40,yellow block 's sure thirty,yellow < 30,0.11911273,<m> yellow != 30 </m>,3
+41,yellow block 's sure thirty,yellow > 30,0.09756126,<m> yellow != 30 </m>,3
+42,yellow block 's sure thirty,yellow != 30,0.06914137,<m> yellow != 30 </m>,3
+43,"yellow block must red block , blue block , purple block right comparing yellow block forty yellow block 's",blue = green + purple + yellow,0.9134084,<m> yellow = 50 </m>,3
+44,"yellow block must red block , blue block , purple block right comparing yellow block forty yellow block 's",green != blue + yellow,0.91340137,<m> yellow = 50 </m>,3
+45,"yellow block must red block , blue block , purple block right comparing yellow block forty yellow block 's",blue != green + red,0.9132614,<m> yellow = 50 </m>,3
+46,"yellow block must red block , blue block , purple block right comparing yellow block forty yellow block 's",red != blue + purple,0.91317666,<m> yellow = 50 </m>,3
+47,"yellow block must red block , blue block , purple block right comparing yellow block forty yellow block 's",purple != blue + yellow,0.9131123,<m> yellow = 50 </m>,3
+48,yellow block fifty,purple = blue + green + yellow,0.9081596,"<m> purple = 30, yellow = 50 </m>",3
+49,yellow block fifty,purple = green + red + yellow,0.9062941,"<m> purple = 30, yellow = 50 </m>",3
+50,yellow block fifty,purple = blue + red + yellow,0.9058677,"<m> purple = 30, yellow = 50 </m>",3
+51,yellow block fifty,green = blue + purple + yellow,0.9057698,"<m> purple = 30, yellow = 50 </m>",3
+52,yellow block fifty,green = blue + red + yellow,0.90530026,"<m> purple = 30, yellow = 50 </m>",3
