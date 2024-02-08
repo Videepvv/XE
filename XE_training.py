@@ -235,14 +235,15 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
         parallel_model = torch.nn.DataParallel(scorer_module, device_ids=device_ids)
         parallel_model.module.to(device)
         #Only using pos pairs
-        positive_dev_pairs = [pair for pair, label in zip(train_pairs, dev_pairs) if label == 1]
-        
+        positive_dev_pairs = [pair for pair, label in zip(dev_pairs, dev_labels) if label == 1]
+        #print(positive_dev_pairs)
+        #break
         #parallel_model = train(positive_dev_pairs, positive_dev_pairs, positive_dev_pairs, positive_dev_pairs, parallel_model, proposition_map, dataset_folder, device,
-        #    batch_size=20, n_iters=5, lr_lm=0.000001, lr_class=0.0001)
+         #   batch_size=20, n_iters=5, lr_lm=0.000001, lr_class=0.0001)
         #parallel_model.module.to(device)
         train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
-            batch_size=20, n_iters=12, lr_lm=0.000001, lr_class=0.0001,group =group)
-        #break
+            batch_size=20, n_iters=1, lr_lm=0.000001, lr_class=0.0001,group =group)
+        break
         
  
   
@@ -368,6 +369,8 @@ def train(train_pairs,
     print("train label size", len(train_labels))
     print("dev label size", len(dev_labels))
     train_loss = []
+    devTrain = ''
+    
     #print('This is the pairs - ', train_ab)
     for n in range(n_iters):
         
@@ -405,6 +408,8 @@ def train(train_pairs,
         dev_predictions = torch.squeeze(dev_predictions)
         #print(dev_predictions)
         #print(dev_predictions, dev_labels)
+        
+        
         print("dev accuracy:", accuracy(dev_predictions, dev_labels))
         print("dev precision:", precision(dev_predictions, dev_labels))
         print("dev recall:", recall(dev_predictions, dev_labels))
@@ -421,8 +426,36 @@ def train(train_pairs,
         #     parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
         #     parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
         #     print(f'saved model at {n}')
+        
+    import json
+    def save_metrics_and_predictions(filename, metrics, predictions, labels):
+        with open(filename, 'w') as f:
+            json.dump({'metrics': metrics, 'predictions': predictions.tolist(), 'labels': labels.tolist()}, f)
+    final_accuracy = accuracy(dev_predictions, dev_labels)
+    final_precision = precision(dev_predictions, dev_labels)
+    final_recall = recall(dev_predictions, dev_labels)
+    final_f1 = f1_score(dev_predictions, dev_labels)
 
-    
+    # Save metrics and predictions
+    metrics = {
+        'accuracy': final_accuracy,
+        'precision': final_precision,
+        'recall': final_recall,
+        'f1': final_f1
+    }
+
+    # Assuming dev_labels are in a tensor that can be converted to a list
+    #predictions = dev_predictions.cpu()
+    #labels = dev_labels.cpu()
+
+    # Define the filename based on the group number
+    filename = f'trainDevMetrics/group{group}.json'  # Save as JSON for easy readability and access
+
+    # Call the save function
+    save_metrics_and_predictions(filename, metrics, dev_predictions, dev_labels)
+
+    print(f'Metrics and predictions saved to {filename}')
+
     #This creates the test dataset with only the positive pairs 
     def create_test_set(dev_pairs, dev_labels, proposition_map):
         positive_dev_pairs = [pair for pair, label in zip(dev_pairs, dev_labels) if label == 1]
@@ -591,6 +624,7 @@ def train(train_pairs,
     new_df['Group'] =  group
     new_df.to_csv(f'resultsTrainedCosineUpdates/{group}.csv')
     print('Total Props Lost - ' , propsLostCosine)
+    return parallel_model
 """
 
     #Predict here. Create the dataset. Prune with Heuristic. Prune with cosine. use predict_with_XE

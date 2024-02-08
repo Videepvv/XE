@@ -1,72 +1,72 @@
 ,transcript,common_ground,scores,actual_common_ground,Group
-0,I tell red cube ten grams,red = 10,0.90010244,<m> red = 10 </m>,10
-1,I tell red cube ten grams,red < 10,0.043403685,<m> red = 10 </m>,10
-2,I tell red cube ten grams,red > 10,0.03989171,<m> red = 10 </m>,10
-3,I tell red cube ten grams,red != 10,0.039886937,<m> red = 10 </m>,10
-4,"green block twenty red block , blue block ten ten","blue = 10, green = 20, red = 10",0.042293433,"<m> blue = 10, green = 20, red = 10 </m>",10
-5,"green block twenty red block , blue block ten ten","blue = 20, green = 10, red = 10",0.037494026,"<m> blue = 10, green = 20, red = 10 </m>",10
-6,"green block twenty red block , blue block ten ten","blue = 10, green = 10, red = 20",0.027727313,"<m> blue = 10, green = 20, red = 10 </m>",10
-7,"green block twenty red block , blue block ten ten","blue = 10, green = 20, red = 20",0.024790827,"<m> blue = 10, green = 20, red = 10 </m>",10
-8,"green block twenty red block , blue block ten ten","blue = 20, green = 10, red = 20",0.024758693,"<m> blue = 10, green = 20, red = 10 </m>",10
-9,"looks red block , blue block 're fairly equal",blue = red,0.9165818,<m> blue = red </m>,10
-10,"looks red block , blue block 're fairly equal",blue > red,0.90544856,<m> blue = red </m>,10
-11,"looks red block , blue block 're fairly equal",blue != red,0.8967144,<m> blue = red </m>,10
-12,"looks red block , blue block 're fairly equal",blue < red,0.85001576,<m> blue = red </m>,10
-13,"looks red block , blue block 're fairly equal",red > blue,0.84373844,<m> blue = red </m>,10
-14,"right green block 's twenty red block , blue block two ten","blue = 20, green = 10, red = 10",0.033844154,"<m> blue = 10, green = 20, red = 10 </m>",10
-15,"right green block 's twenty red block , blue block two ten","blue = 10, green = 20, red = 10",0.031272925,"<m> blue = 10, green = 20, red = 10 </m>",10
-16,"right green block 's twenty red block , blue block two ten","blue = 10, green = 10, red = 20",0.029371735,"<m> blue = 10, green = 20, red = 10 </m>",10
-17,"right green block 's twenty red block , blue block two ten","blue = 10, green = 20, red = 20",0.025188044,"<m> blue = 10, green = 20, red = 10 </m>",10
-18,"right green block 's twenty red block , blue block two ten","blue = 20, green = 20, red = 10",0.020855026,"<m> blue = 10, green = 20, red = 10 </m>",10
-19,"red block , blue block 're together",blue = red,0.914577,<m> blue = red </m>,10
-20,"red block , blue block 're together",blue > red,0.5913828,<m> blue = red </m>,10
-21,"red block , blue block 're together",blue < red,0.50324255,<m> blue = red </m>,10
-22,"red block , blue block 're together",red < blue,0.19748783,<m> blue = red </m>,10
-23,"red block , blue block 're together",red > blue,0.18883118,<m> blue = red </m>,10
-24,"alright let 's green block , purple block two already tell purple block one 's heavier",green < purple,0.91902286,<m> purple > green </m>,10
-25,"alright let 's green block , purple block two already tell purple block one 's heavier",green != purple,0.9183451,<m> purple > green </m>,10
-26,"alright let 's green block , purple block two already tell purple block one 's heavier",purple < green,0.91709244,<m> purple > green </m>,10
-27,"alright let 's green block , purple block two already tell purple block one 's heavier",purple > green,0.8769284,<m> purple > green </m>,10
-28,"alright let 's green block , purple block two already tell purple block one 's heavier",green > purple,0.8739284,<m> purple > green </m>,10
-29,"green block , red block , purple block equal green block , red block , purple block instructions suppose",purple < green + red,0.8867508,<m> purple = green + red </m>,10
-30,"green block , red block , purple block equal green block , red block , purple block instructions suppose",green < purple + red,0.88630533,<m> purple = green + red </m>,10
-31,"green block , red block , purple block equal green block , red block , purple block instructions suppose",red < green + purple,0.8776498,<m> purple = green + red </m>,10
-32,"green block , red block , purple block equal green block , red block , purple block instructions suppose",purple != green + red,0.851084,<m> purple = green + red </m>,10
-33,"green block , red block , purple block equal green block , red block , purple block instructions suppose",purple > green + red,0.8416002,<m> purple = green + red </m>,10
-34,"'m guessing 's little bit left little bit left touches red line left hand side left line red red block , blue block , green block 's gon na heavier equal almost almost equal wait green block one 's twenty n't",green = 20,0.92400014,<m> purple > green + red </m>,10
-35,"'m guessing 's little bit left little bit left touches red line left hand side left line red red block , blue block , green block 's gon na heavier equal almost almost equal wait green block one 's twenty n't",blue != green,0.9206483,<m> purple > green + red </m>,10
-36,"'m guessing 's little bit left little bit left touches red line left hand side left line red red block , blue block , green block 's gon na heavier equal almost almost equal wait green block one 's twenty n't",blue = 20,0.91978407,<m> purple > green + red </m>,10
-37,"'m guessing 's little bit left little bit left touches red line left hand side left line red red block , blue block , green block 's gon na heavier equal almost almost equal wait green block one 's twenty n't",green != yellow,0.919582,<m> purple > green + red </m>,10
-38,"'m guessing 's little bit left little bit left touches red line left hand side left line red red block , blue block , green block 's gon na heavier equal almost almost equal wait green block one 's twenty n't",green = 30,0.9139035,<m> purple > green + red </m>,10
-39,moved green block checked two tens remember n't green block one okay sure sure sure put thirty thirty,blue < 30,0.907593,<m> purple = 30 </m>,10
-40,moved green block checked two tens remember n't green block one okay sure sure sure put thirty thirty,blue != 10,0.90568554,<m> purple = 30 </m>,10
-41,moved green block checked two tens remember n't green block one okay sure sure sure put thirty thirty,red != 30,0.90400755,<m> purple = 30 </m>,10
-42,moved green block checked two tens remember n't green block one okay sure sure sure put thirty thirty,yellow < 30,0.9039732,<m> purple = 30 </m>,10
-43,moved green block checked two tens remember n't green block one okay sure sure sure put thirty thirty,green < 30,0.9037992,<m> purple = 30 </m>,10
-44,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 30, purple = 20, yellow = 50",0.020261442,"<m> green = 20, purple = 30, yellow = 50 </m>",10
-45,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 50, purple = 30, yellow = 20",0.014223531,"<m> green = 20, purple = 30, yellow = 50 </m>",10
-46,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 20, purple = 30, yellow = 50",0.013104403,"<m> green = 20, purple = 30, yellow = 50 </m>",10
-47,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 30, purple = 50, yellow = 20",0.012980292,"<m> green = 20, purple = 30, yellow = 50 </m>",10
-48,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 50, purple = 20, yellow = 30",0.0127466805,"<m> green = 20, purple = 30, yellow = 50 </m>",10
-49,But 's I weights fifty,green = 50,0.8336647,<m> yellow = 50 </m>,10
-50,But 's I weights fifty,yellow = 50,0.74243164,<m> yellow = 50 </m>,10
-51,But 's I weights fifty,red = 50,0.722172,<m> yellow = 50 </m>,10
-52,But 's I weights fifty,blue = 50,0.680962,<m> yellow = 50 </m>,10
-53,But 's I weights fifty,purple = 50,0.6059908,<m> yellow = 50 </m>,10
-54,yellow block less fifty less fifty,yellow = 50,0.90511787,<m> yellow < 50 </m>,10
-55,yellow block less fifty less fifty,yellow != 50,0.64125824,<m> yellow < 50 </m>,10
-56,yellow block less fifty less fifty,yellow < 50,0.4210597,<m> yellow < 50 </m>,10
-57,yellow block less fifty less fifty,yellow > 50,0.0938669,<m> yellow < 50 </m>,10
-58,'s 's almost settled yellow block 's less fifty,yellow = 50,0.9251636,<m> yellow < 50 </m>,10
-59,'s 's almost settled yellow block 's less fifty,yellow != 50,0.6345509,<m> yellow < 50 </m>,10
-60,'s 's almost settled yellow block 's less fifty,yellow < 50,0.2678632,<m> yellow < 50 </m>,10
-61,'s 's almost settled yellow block 's less fifty,yellow > 50,0.118479915,<m> yellow < 50 </m>,10
-62,oh yellow block fifty grams,yellow = 50,0.9185572,<m> yellow = 50 </m>,10
-63,oh yellow block fifty grams,yellow < 50,0.06013561,<m> yellow = 50 </m>,10
-64,oh yellow block fifty grams,yellow > 50,0.047457702,<m> yellow = 50 </m>,10
-65,oh yellow block fifty grams,yellow != 50,0.045159575,<m> yellow = 50 </m>,10
-66,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 30, purple = 10, red = 10",0.016698057,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",10
-67,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 20, purple = 10, red = 10",0.014582813,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",10
-68,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 10, purple = 30, red = 10",0.013073962,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",10
-69,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 10, purple = 10, red = 30",0.01235066,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",10
-70,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 20, purple = 10, red = 30",0.0117137525,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",10
+0,I tell red cube ten grams,red = 10,0.92161214,<m> red = 10 </m>,10
+1,I tell red cube ten grams,red > 10,0.064021416,<m> red = 10 </m>,10
+2,I tell red cube ten grams,red != 10,0.06359178,<m> red = 10 </m>,10
+3,I tell red cube ten grams,red < 10,0.06015864,<m> red = 10 </m>,10
+4,"green block twenty red block , blue block ten ten","blue = 10, green = 20, red = 10",0.52567303,"<m> blue = 10, green = 20, red = 10 </m>",10
+5,"green block twenty red block , blue block ten ten","blue = 20, green = 10, red = 10",0.4700694,"<m> blue = 10, green = 20, red = 10 </m>",10
+6,"green block twenty red block , blue block ten ten","blue = 10, green = 10, red = 20",0.40710294,"<m> blue = 10, green = 20, red = 10 </m>",10
+7,"green block twenty red block , blue block ten ten","blue = 10, green = 20, red = 20",0.35752738,"<m> blue = 10, green = 20, red = 10 </m>",10
+8,"green block twenty red block , blue block ten ten","blue = 20, green = 10, red = 20",0.34678543,"<m> blue = 10, green = 20, red = 10 </m>",10
+9,"looks red block , blue block 're fairly equal",blue = red,0.94274306,<m> blue = red </m>,10
+10,"looks red block , blue block 're fairly equal",blue > red,0.93720484,<m> blue = red </m>,10
+11,"looks red block , blue block 're fairly equal",red > blue,0.91551876,<m> blue = red </m>,10
+12,"looks red block , blue block 're fairly equal",blue != red,0.8694507,<m> blue = red </m>,10
+13,"looks red block , blue block 're fairly equal",blue < red,0.58561087,<m> blue = red </m>,10
+14,"right green block 's twenty red block , blue block two ten","blue = 10, green = 20, red = 10",0.4722671,"<m> blue = 10, green = 20, red = 10 </m>",10
+15,"right green block 's twenty red block , blue block two ten","blue = 20, green = 10, red = 10",0.45722967,"<m> blue = 10, green = 20, red = 10 </m>",10
+16,"right green block 's twenty red block , blue block two ten","blue = 10, green = 10, red = 20",0.4051598,"<m> blue = 10, green = 20, red = 10 </m>",10
+17,"right green block 's twenty red block , blue block two ten","blue = 20, green = 10, red = 20",0.31113833,"<m> blue = 10, green = 20, red = 10 </m>",10
+18,"right green block 's twenty red block , blue block two ten","blue = 10, green = 20, red = 20",0.30734622,"<m> blue = 10, green = 20, red = 10 </m>",10
+19,"red block , blue block 're together",blue = red,0.94100744,<m> blue = red </m>,10
+20,"red block , blue block 're together","blue = 10, red = 10",0.4796136,<m> blue = red </m>,10
+21,"red block , blue block 're together","blue = 30, red = 30",0.34629786,<m> blue = red </m>,10
+22,"red block , blue block 're together",blue > red,0.31903344,<m> blue = red </m>,10
+23,"red block , blue block 're together","blue = 20, red = 20",0.28853557,<m> blue = red </m>,10
+24,"alright let 's green block , purple block two already tell purple block one 's heavier",purple < green,0.9431453,<m> purple > green </m>,10
+25,"alright let 's green block , purple block two already tell purple block one 's heavier",green < purple,0.9430619,<m> purple > green </m>,10
+26,"alright let 's green block , purple block two already tell purple block one 's heavier",green != purple,0.93531895,<m> purple > green </m>,10
+27,"alright let 's green block , purple block two already tell purple block one 's heavier",green > purple,0.931435,<m> purple > green </m>,10
+28,"alright let 's green block , purple block two already tell purple block one 's heavier",purple > green,0.9310343,<m> purple > green </m>,10
+29,"green block , red block , purple block equal green block , red block , purple block instructions suppose",purple < green + red,0.9005006,<m> purple = green + red </m>,10
+30,"green block , red block , purple block equal green block , red block , purple block instructions suppose",green < purple + red,0.8972572,<m> purple = green + red </m>,10
+31,"green block , red block , purple block equal green block , red block , purple block instructions suppose",red < green + purple,0.8800552,<m> purple = green + red </m>,10
+32,"green block , red block , purple block equal green block , red block , purple block instructions suppose",purple != green + red,0.8682313,<m> purple = green + red </m>,10
+33,"green block , red block , purple block equal green block , red block , purple block instructions suppose",green != purple + red,0.84968543,<m> purple = green + red </m>,10
+34,"'m guessing 's little bit left little bit left touches red line left hand side left line red red block , blue block , green block 's gon na heavier equal almost almost equal wait green block one 's twenty n't",green != blue + red,0.9354671,<m> purple > green + red </m>,10
+35,"'m guessing 's little bit left little bit left touches red line left hand side left line red red block , blue block , green block 's gon na heavier equal almost almost equal wait green block one 's twenty n't",blue != green,0.9325131,<m> purple > green + red </m>,10
+36,"'m guessing 's little bit left little bit left touches red line left hand side left line red red block , blue block , green block 's gon na heavier equal almost almost equal wait green block one 's twenty n't",green != purple + red,0.9322263,<m> purple > green + red </m>,10
+37,"'m guessing 's little bit left little bit left touches red line left hand side left line red red block , blue block , green block 's gon na heavier equal almost almost equal wait green block one 's twenty n't",red < green + purple,0.93209016,<m> purple > green + red </m>,10
+38,"'m guessing 's little bit left little bit left touches red line left hand side left line red red block , blue block , green block 's gon na heavier equal almost almost equal wait green block one 's twenty n't",blue = green,0.9317676,<m> purple > green + red </m>,10
+39,moved green block checked two tens remember n't green block one okay sure sure sure put thirty thirty,blue = 10,0.92248374,<m> purple = 30 </m>,10
+40,moved green block checked two tens remember n't green block one okay sure sure sure put thirty thirty,red = 10,0.9216781,<m> purple = 30 </m>,10
+41,moved green block checked two tens remember n't green block one okay sure sure sure put thirty thirty,red = 30,0.9208546,<m> purple = 30 </m>,10
+42,moved green block checked two tens remember n't green block one okay sure sure sure put thirty thirty,blue = 30,0.9205271,<m> purple = 30 </m>,10
+43,moved green block checked two tens remember n't green block one okay sure sure sure put thirty thirty,yellow != 30,0.9182449,<m> purple = 30 </m>,10
+44,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 30, purple = 20, yellow = 50",0.21774572,"<m> green = 20, purple = 30, yellow = 50 </m>",10
+45,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 20, purple = 30, yellow = 50",0.16818604,"<m> green = 20, purple = 30, yellow = 50 </m>",10
+46,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 30, purple = 50, yellow = 20",0.13956717,"<m> green = 20, purple = 30, yellow = 50 </m>",10
+47,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 20, purple = 50, yellow = 30",0.13045888,"<m> green = 20, purple = 30, yellow = 50 </m>",10
+48,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 50, purple = 20, yellow = 30",0.083459854,"<m> green = 20, purple = 30, yellow = 50 </m>",10
+49,But 's I weights fifty,green = 50,0.91233945,<m> yellow = 50 </m>,10
+50,But 's I weights fifty,purple = 50,0.90671206,<m> yellow = 50 </m>,10
+51,But 's I weights fifty,blue = 50,0.9051168,<m> yellow = 50 </m>,10
+52,But 's I weights fifty,red = 50,0.9036185,<m> yellow = 50 </m>,10
+53,But 's I weights fifty,yellow = 50,0.8982365,<m> yellow = 50 </m>,10
+54,yellow block less fifty less fifty,yellow = 50,0.9162315,<m> yellow < 50 </m>,10
+55,yellow block less fifty less fifty,yellow != 50,0.4635673,<m> yellow < 50 </m>,10
+56,yellow block less fifty less fifty,yellow < 50,0.30154863,<m> yellow < 50 </m>,10
+57,yellow block less fifty less fifty,yellow > 50,0.2548378,<m> yellow < 50 </m>,10
+58,'s 's almost settled yellow block 's less fifty,yellow = 50,0.93273544,<m> yellow < 50 </m>,10
+59,'s 's almost settled yellow block 's less fifty,yellow != 50,0.7111418,<m> yellow < 50 </m>,10
+60,'s 's almost settled yellow block 's less fifty,yellow < 50,0.5287494,<m> yellow < 50 </m>,10
+61,'s 's almost settled yellow block 's less fifty,yellow > 50,0.2310145,<m> yellow < 50 </m>,10
+62,oh yellow block fifty grams,yellow = 50,0.92611015,<m> yellow = 50 </m>,10
+63,oh yellow block fifty grams,yellow != 50,0.21296686,<m> yellow = 50 </m>,10
+64,oh yellow block fifty grams,yellow < 50,0.09120658,<m> yellow = 50 </m>,10
+65,oh yellow block fifty grams,yellow > 50,0.08227852,<m> yellow = 50 </m>,10
+66,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 30, purple = 10, red = 10",0.16018786,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",10
+67,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 30, purple = 10, red = 30",0.12269211,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",10
+68,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 20, purple = 10, red = 10",0.11812004,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",10
+69,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 10, purple = 30, red = 30",0.09435126,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",10
+70,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 10, purple = 30, red = 10",0.08723872,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",10
