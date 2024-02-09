@@ -23,9 +23,9 @@ count_transcripts_no_true_common_ground_uploaded = (grouped_uploaded['true label
 transcripts_no_match = grouped_uploaded[grouped_uploaded['true label'] == 0].index.tolist()
 df_cleaned = df[~df['transcript'].isin(transcripts_no_match)]
 
-accuracy = accuracy_score(df_cleaned["true label"], df_cleaned["predicted label"])
+accuracy = accuracy_score(df["true label"], df["predicted label"])
 print('acc' ,accuracy)
-print('f1' , f1_score(df_cleaned["true label"], df_cleaned["predicted label"]))
+print('f1' , f1_score(df["true label"], df["predicted label"]))
 # First, identify the transcripts with no true common ground match
 transcripts_no_match = grouped_uploaded[grouped_uploaded['true label'] == 0].index.tolist()
 
