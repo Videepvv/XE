@@ -582,7 +582,7 @@ def train(train_pairs,
             all_cosine_rows.append(all_cosine_row)
     
     all_cosine_rows_df = pd.DataFrame(all_cosine_rows, columns=["transcript", "filtered_common_ground", "cosine_similarity", "true_common_ground"])
-    all_cosine_rows_df.to_csv(f'cosineScores/cosine_Scores{group}.csv')
+    all_cosine_rows_df.to_csv(f'cosineScores/cosine_Scores{group}.csv') 
     new_df = pd.DataFrame(new_rows, columns=["transcript", "common_ground"])
     new_df.index.to_list()#the list of indicies in the dict that needs to be tokenized
     
