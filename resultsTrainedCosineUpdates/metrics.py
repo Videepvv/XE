@@ -75,7 +75,7 @@ def get_top_iou_score(group):
     # Calculate IoU score for the top match
     iou_score = calculate_iou(top_row['common_ground'], group['actual_common_ground_cleaned'].iloc[0])
     jac_score = calculateJaccard(top_row['common_ground'], group['actual_common_ground_cleaned'].iloc[0])
-    return jac_score
+    return iou_score
 
 # Apply the IoU calculation function to each group of transcripts for the top score
 iou_scores_top_1 = grouped.apply(get_top_iou_score)

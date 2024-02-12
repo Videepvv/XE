@@ -229,7 +229,7 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
         #print(train_pairs)
         #print('Training - ',train_pairs, len(train_pairs))
         #print('Testing = ', dev_pairs,len(dev_pairs))
-        model_name = 'roberta-base'
+        #model_name = 'roberta-base'
         scorer_module = CrossEncoder(is_training=True,long=False,  model_name=model_name).to(device)
 
         parallel_model = torch.nn.DataParallel(scorer_module, device_ids=device_ids)
@@ -242,8 +242,8 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
          #   batch_size=20, n_iters=5, lr_lm=0.000001, lr_class=0.0001)
         #parallel_model.module.to(device)
         train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
-            batch_size=20, n_iters=1, lr_lm=0.000001, lr_class=0.0001,group =group)
-        break
+            batch_size=20, n_iters=12, lr_lm=0.000001, lr_class=0.0001,group =group)
+        
         
  
   
@@ -429,32 +429,26 @@ def train(train_pairs,
         
     import json
     def save_metrics_and_predictions(filename, metrics, predictions, labels):
+    # Make sure this function only deals with Python data types, not PyTorch tensors
         with open(filename, 'w') as f:
-            json.dump({'metrics': metrics, 'predictions': predictions.tolist(), 'labels': labels.tolist()}, f)
+            json.dump({'metrics': metrics, 'predictions': predictions, 'labels': labels}, f)
     final_accuracy = accuracy(dev_predictions, dev_labels)
     final_precision = precision(dev_predictions, dev_labels)
     final_recall = recall(dev_predictions, dev_labels)
     final_f1 = f1_score(dev_predictions, dev_labels)
-
-    # Save metrics and predictions
+    # Before calling the function, convert tensors to Python lists (or numbers for metrics)
     metrics = {
-        'accuracy': final_accuracy,
-        'precision': final_precision,
-        'recall': final_recall,
-        'f1': final_f1
+        'accuracy': final_accuracy.item() if torch.is_tensor(final_accuracy) else final_accuracy,
+        'precision': final_precision.item() if torch.is_tensor(final_precision) else final_precision,
+        'recall': final_recall.item() if torch.is_tensor(final_recall) else final_recall,
+        'f1': final_f1.item() if torch.is_tensor(final_f1) else final_f1,
     }
 
-    # Assuming dev_labels are in a tensor that can be converted to a list
-    #predictions = dev_predictions.cpu()
-    #labels = dev_labels.cpu()
+    predictions = dev_predictions.cpu().tolist() if torch.is_tensor(dev_predictions) else dev_predictions
+    labels = dev_labels.cpu().tolist() if torch.is_tensor(dev_labels) else dev_labels
 
-    # Define the filename based on the group number
-    filename = f'trainDevMetrics/group{group}.json'  # Save as JSON for easy readability and access
-
-    # Call the save function
-    save_metrics_and_predictions(filename, metrics, dev_predictions, dev_labels)
-
-    print(f'Metrics and predictions saved to {filename}')
+    filename = f'trainDevMetrics/group{group}.json'
+    save_metrics_and_predictions(filename, metrics, predictions, labels)
 
     #This creates the test dataset with only the positive pairs 
     def create_test_set(dev_pairs, dev_labels, proposition_map):
@@ -624,8 +618,8 @@ def train(train_pairs,
     new_df['Group'] =  group
     new_df.to_csv(f'resultsTrainedCosineUpdates/{group}.csv')
     print('Total Props Lost - ' , propsLostCosine)
-    return parallel_model
-"""
+    
+
 
     #Predict here. Create the dataset. Prune with Heuristic. Prune with cosine. use predict_with_XE
     #get all the positive labels from dev set 
@@ -633,14 +627,14 @@ def train(train_pairs,
     #get the top cosine similarity of the top 5. 
     # predict 
 
-    # scorer_folder = working_folder + '/XE_scorer/'
-    # if not os.path.exists(scorer_folder):
-    #     os.makedirs(scorer_folder)
-    # model_path = scorer_folder + '/linear.chkpt'
-    # torch.save(parallel_model.module.linear.state_dict(), model_path)
-    # parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
-    # parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
-"""
+    scorer_folder = '../' + working_folder + f'/XE_scorerOralce{group}/' 
+    if not os.path.exists(scorer_folder):
+        os.makedirs(scorer_folder)
+    model_path = scorer_folder + '/linear.chkpt'
+    torch.save(parallel_model.module.linear.state_dict(), model_path)
+    parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
+    parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
+    return parallel_model
 
 if __name__ == '__main__':
     train_prop_XE('ecb', model_name='roberta-base')

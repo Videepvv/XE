@@ -1,47 +1,47 @@
 ,transcript,common_ground,scores,actual_common_ground,Group
-0,I tell red cube ten grams,red = 10,0.8093822,<m> red = 10 </m>,4
-1,I tell red cube ten grams,red < 10,0.28394777,<m> red = 10 </m>,4
-2,I tell red cube ten grams,red > 10,0.20134139,<m> red = 10 </m>,4
-3,I tell red cube ten grams,red != 10,0.14587307,<m> red = 10 </m>,4
-4,Well top ten,purple = 10,0.77556175,<m> blue = 10 </m>,4
-5,Well top ten,blue = 10,0.77273035,<m> blue = 10 </m>,4
-6,Well top ten,yellow = 10,0.75669456,<m> blue = 10 </m>,4
-7,Well top ten,green = 10,0.7423586,<m> blue = 10 </m>,4
-8,Well top ten,red = 10,0.7240051,<m> blue = 10 </m>,4
-9,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",red = blue + green,0.8743346,<m> green = 20 </m>,4
-10,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",blue = green,0.87127745,<m> green = 20 </m>,4
-11,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",green = purple,0.8709339,<m> green = 20 </m>,4
-12,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",red = green + purple,0.87011385,<m> green = 20 </m>,4
-13,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",green = yellow,0.870018,<m> green = 20 </m>,4
-14,n't drop completely consider purple block thirty ’ drop,purple = 30,0.8250295,<m> purple != 40 </m>,4
-15,n't drop completely consider purple block thirty ’ drop,purple < 30,0.28683966,<m> purple != 40 </m>,4
-16,n't drop completely consider purple block thirty ’ drop,purple != 30,0.27067083,<m> purple != 40 </m>,4
-17,n't drop completely consider purple block thirty ’ drop,purple > 30,0.16030003,<m> purple != 40 </m>,4
-18,n't drop completely consider purple block thirty ’ drop,green != purple + red + yellow,0.8719199,<m> purple != 40 </m>,4
-19,n't drop completely consider purple block thirty ’ drop,green > purple + red + yellow,0.87187266,<m> purple != 40 </m>,4
-20,n't drop completely consider purple block thirty ’ drop,red != blue + purple + yellow,0.87181175,<m> purple != 40 </m>,4
-21,n't drop completely consider purple block thirty ’ drop,purple < blue + green + red + yellow,0.87174666,<m> purple != 40 </m>,4
-22,n't drop completely consider purple block thirty ’ drop,blue < green + purple + red + yellow,0.8716593,<m> purple != 40 </m>,4
-23,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 30,0.85565174,<m> purple = 30 </m>,4
-24,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 20,0.8503678,<m> purple = 30 </m>,4
-25,purple block 's purple block 's twenty purple block 's got ta thirty,purple < 30,0.8299469,<m> purple = 30 </m>,4
-26,purple block 's purple block 's twenty purple block 's got ta thirty,purple < 20,0.8087809,<m> purple = 30 </m>,4
-27,purple block 's purple block 's twenty purple block 's got ta thirty,purple > 30,0.75871384,<m> purple = 30 </m>,4
-28,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 30,0.85565174,<m> purple = 30 </m>,4
-29,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 20,0.8503678,<m> purple = 30 </m>,4
-30,purple block 's purple block 's twenty purple block 's got ta thirty,purple < 30,0.8299469,<m> purple = 30 </m>,4
-31,purple block 's purple block 's twenty purple block 's got ta thirty,purple < 20,0.8087809,<m> purple = 30 </m>,4
-32,purple block 's purple block 's twenty purple block 's got ta thirty,purple > 30,0.75871384,<m> purple = 30 </m>,4
-33,yellow red blue 's 's,green > blue + purple + red,0.8722307,<m> yellow = 50 </m>,4
-34,yellow red blue 's 's,green < blue + purple + red,0.8722089,<m> yellow = 50 </m>,4
-35,yellow red blue 's 's,purple < blue + green + red,0.87219906,<m> yellow = 50 </m>,4
-36,yellow red blue 's 's,red != blue + green + purple,0.8721981,<m> yellow = 50 </m>,4
-37,yellow red blue 's 's,purple > blue + green + red,0.8721971,<m> yellow = 50 </m>,4
-38,blue ten,blue = 10,0.7031082,<m> blue = 10 </m>,4
-39,blue ten,blue < 10,0.1251325,<m> blue = 10 </m>,4
-40,blue ten,blue != 10,0.12485337,<m> blue = 10 </m>,4
-41,blue ten,blue > 10,0.108111635,<m> blue = 10 </m>,4
-42,would yellow fifty,yellow = 50,0.78314066,<m> yellow = 50 </m>,4
-43,would yellow fifty,yellow < 50,0.573604,<m> yellow = 50 </m>,4
-44,would yellow fifty,yellow != 50,0.40309942,<m> yellow = 50 </m>,4
-45,would yellow fifty,yellow > 50,0.21065159,<m> yellow = 50 </m>,4
+0,I tell red cube ten grams,red = 10,0.85209024,<m> red = 10 </m>,4
+1,I tell red cube ten grams,red > 10,0.05441031,<m> red = 10 </m>,4
+2,I tell red cube ten grams,red < 10,0.054263756,<m> red = 10 </m>,4
+3,I tell red cube ten grams,red != 10,0.05313553,<m> red = 10 </m>,4
+4,Well top ten,red = 10,0.8322146,<m> blue = 10 </m>,4
+5,Well top ten,green = 10,0.82694185,<m> blue = 10 </m>,4
+6,Well top ten,yellow = 10,0.794932,<m> blue = 10 </m>,4
+7,Well top ten,blue = 10,0.78747606,<m> blue = 10 </m>,4
+8,Well top ten,purple = 10,0.7167139,<m> blue = 10 </m>,4
+9,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",green = blue + purple + red + yellow,0.8685595,<m> green = 20 </m>,4
+10,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",purple = blue + green + red + yellow,0.86849445,<m> green = 20 </m>,4
+11,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",blue = green + purple + red + yellow,0.86846775,<m> green = 20 </m>,4
+12,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",blue = purple + red + yellow,0.86789316,<m> green = 20 </m>,4
+13,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",yellow = blue + green + purple + red,0.86755025,<m> green = 20 </m>,4
+14,n't drop completely consider purple block thirty ’ drop,purple = 30,0.6529368,<m> purple != 40 </m>,4
+15,n't drop completely consider purple block thirty ’ drop,purple > 30,0.10179505,<m> purple != 40 </m>,4
+16,n't drop completely consider purple block thirty ’ drop,purple != 30,0.09062973,<m> purple != 40 </m>,4
+17,n't drop completely consider purple block thirty ’ drop,purple < 30,0.0802494,<m> purple != 40 </m>,4
+18,n't drop completely consider purple block thirty ’ drop,"purple = 10, red = 10",0.868948,<m> purple != 40 </m>,4
+19,n't drop completely consider purple block thirty ’ drop,purple = blue + green + red + yellow,0.86805826,<m> purple != 40 </m>,4
+20,n't drop completely consider purple block thirty ’ drop,"purple = 10, yellow = 10",0.8679732,<m> purple != 40 </m>,4
+21,n't drop completely consider purple block thirty ’ drop,green = blue + purple + red + yellow,0.8671212,<m> purple != 40 </m>,4
+22,n't drop completely consider purple block thirty ’ drop,blue = green + purple + red + yellow,0.86642337,<m> purple != 40 </m>,4
+23,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 30,0.8667783,<m> purple = 30 </m>,4
+24,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 20,0.8649323,<m> purple = 30 </m>,4
+25,purple block 's purple block 's twenty purple block 's got ta thirty,purple < 30,0.79157484,<m> purple = 30 </m>,4
+26,purple block 's purple block 's twenty purple block 's got ta thirty,purple > 30,0.7332635,<m> purple = 30 </m>,4
+27,purple block 's purple block 's twenty purple block 's got ta thirty,purple < 20,0.70438546,<m> purple = 30 </m>,4
+28,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 30,0.8667783,<m> purple = 30 </m>,4
+29,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 20,0.8649323,<m> purple = 30 </m>,4
+30,purple block 's purple block 's twenty purple block 's got ta thirty,purple < 30,0.79157484,<m> purple = 30 </m>,4
+31,purple block 's purple block 's twenty purple block 's got ta thirty,purple > 30,0.7332635,<m> purple = 30 </m>,4
+32,purple block 's purple block 's twenty purple block 's got ta thirty,purple < 20,0.70438546,<m> purple = 30 </m>,4
+33,yellow red blue 's 's,purple = blue + green + yellow,0.86909044,<m> yellow = 50 </m>,4
+34,yellow red blue 's 's,green = blue + purple + yellow,0.86900026,<m> yellow = 50 </m>,4
+35,yellow red blue 's 's,blue = green + purple + yellow,0.86898106,<m> yellow = 50 </m>,4
+36,yellow red blue 's 's,purple = blue + green + red + yellow,0.86895066,<m> yellow = 50 </m>,4
+37,yellow red blue 's 's,blue = green + purple + red,0.8689167,<m> yellow = 50 </m>,4
+38,blue ten,blue = 10,0.4808091,<m> blue = 10 </m>,4
+39,blue ten,blue > 10,0.08830789,<m> blue = 10 </m>,4
+40,blue ten,blue != 10,0.08441165,<m> blue = 10 </m>,4
+41,blue ten,blue < 10,0.07152946,<m> blue = 10 </m>,4
+42,would yellow fifty,yellow = 50,0.83063626,<m> yellow = 50 </m>,4
+43,would yellow fifty,yellow < 50,0.07806725,<m> yellow = 50 </m>,4
+44,would yellow fifty,yellow > 50,0.06455153,<m> yellow = 50 </m>,4
+45,would yellow fifty,yellow != 50,0.060695447,<m> yellow = 50 </m>,4

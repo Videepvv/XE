@@ -110,7 +110,7 @@ listOfcommonGrounds = []
 new_rows = []
 total_transcripts = 0
 propositions_lost = 0
-
+rows_to_remove = []
 for index, row in dataset.iterrows():
    
     elements = extract_colors_and_numbers(row['Transcript'].lower())
@@ -129,6 +129,10 @@ for index, row in dataset.iterrows():
         #print("TRANSCRIPT - ", row['Transcript'].lower())
         #continue
     if(not elements['colors'] and not elements['numbers']):
+        print("ORIGINAL COMMON GROUND - ", original_common_ground)
+        print("TRANSCRIPT - ", row['Transcript'].lower())
+        rows_to_remove.append(row['Transcript'])
+        
         continue
     if not is_proposition_present(original_common_ground, filtered_common_grounds):
         
@@ -147,7 +151,8 @@ for index, row in dataset.iterrows():
                 print("ORIGINAL COMMON GROUND - ", original_common_ground)
                 print("TRANSCRIPT - ", row['Transcript'].lower())
     #             print("mentioned numbers - ", mentioned_numbers)
-
+                rows_to_remove.append(row['Transcript'])
+                continue
     #if(row['Transcript'] == "I will tell you that the red cube is ten grams"):
         #print(filtered_common_grounds)
     total_transcripts += 1
@@ -155,7 +160,7 @@ for index, row in dataset.iterrows():
    
     filtered_common_grounds = [cg for cg in filtered_common_grounds if cg != original_common_ground]
     
-    listOfcommonGrounds.append(len(filtered_common_grounds))
+    #listOfcommonGrounds.append(len(filtered_common_grounds))
     selected_common_grounds = set(filtered_common_grounds)  # Keep track of selected common grounds to avoid repeats
     for _ in range(4):
         if not selected_common_grounds:  # If no unique common ground left, choose randomly from all common grounds
@@ -168,17 +173,18 @@ for index, row in dataset.iterrows():
         new_rows.append(new_row)
         df_extended = pd.concat([dataset, pd.DataFrame(new_rows)], ignore_index=True)
 
-
+print(df_extended.shape)
 print(propositions_lost/total_transcripts)    
 #df_extended = pd.concat([dataset, pd.DataFrame(new_rows)], ignore_index=True)
-print(listOfcommonGrounds)
+print(len(listOfcommonGrounds))
 #print(sum(listOfcommonGrounds)/len(listOfcommonGrounds))
 #print(listOfcommonGrounds)
-
+df_extended = df_extended[~df_extended['Transcript'].isin(rows_to_remove)]
+print(df_extended.shape)
 #df_extended['Common Ground'] = [normalize_expression(expr) for expr in df_extended['Common Ground']]
 #df_extended.to_csv('BigPrune_Dataset_Updated.csv')
 df_extended['Transcript'] = df_extended['Transcript'].apply(remove_stop_words)
 df_extended['Common Ground'] = df_extended['Common Ground'].str.replace("and"," , ")
 df_extended['Common Ground'] = df_extended['Common Ground'].apply(normalize_expression)
 
-#df_extended.to_csv('preprocessedTrainingData.csv')
+df_extended.to_csv('preprocessedTrainingData.csv')
