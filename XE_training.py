@@ -229,20 +229,21 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
         #print(train_pairs)
         #print('Training - ',train_pairs, len(train_pairs))
         #print('Testing = ', dev_pairs,len(dev_pairs))
-        model_name = 'roberta-base'
+        #model_name = 'roberta-base'
         scorer_module = CrossEncoder(is_training=True,long=False,  model_name=model_name).to(device)
 
         parallel_model = torch.nn.DataParallel(scorer_module, device_ids=device_ids)
         parallel_model.module.to(device)
         #Only using pos pairs
-        positive_dev_pairs = [pair for pair, label in zip(train_pairs, dev_pairs) if label == 1]
-        
+        positive_dev_pairs = [pair for pair, label in zip(dev_pairs, dev_labels) if label == 1]
+        #print(positive_dev_pairs)
+        #break
         #parallel_model = train(positive_dev_pairs, positive_dev_pairs, positive_dev_pairs, positive_dev_pairs, parallel_model, proposition_map, dataset_folder, device,
-        #    batch_size=20, n_iters=5, lr_lm=0.000001, lr_class=0.0001)
+         #   batch_size=20, n_iters=5, lr_lm=0.000001, lr_class=0.0001)
         #parallel_model.module.to(device)
         train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
             batch_size=20, n_iters=12, lr_lm=0.000001, lr_class=0.0001,group =group)
-        #break
+        
         
  
   
@@ -368,6 +369,8 @@ def train(train_pairs,
     print("train label size", len(train_labels))
     print("dev label size", len(dev_labels))
     train_loss = []
+    devTrain = ''
+    
     #print('This is the pairs - ', train_ab)
     for n in range(n_iters):
         
@@ -400,11 +403,13 @@ def train(train_pairs,
         # iteration accuracy
         dev_scores_ab, dev_scores_ba = predict_with_XE(parallel_model, dev_ab, dev_ba, device, batch_size,cosine_sim=False)
         dev_predictions = (dev_scores_ab + dev_scores_ba)/2
-        print(dev_predictions)
+        #print(dev_predictions)
         dev_predictions = dev_predictions > 0.5
         dev_predictions = torch.squeeze(dev_predictions)
-        print(dev_predictions)
-        print(dev_predictions, dev_labels)
+        #print(dev_predictions)
+        #print(dev_predictions, dev_labels)
+        
+        
         print("dev accuracy:", accuracy(dev_predictions, dev_labels))
         print("dev precision:", precision(dev_predictions, dev_labels))
         print("dev recall:", recall(dev_predictions, dev_labels))
@@ -421,8 +426,30 @@ def train(train_pairs,
         #     parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
         #     parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
         #     print(f'saved model at {n}')
+        
+    import json
+    def save_metrics_and_predictions(filename, metrics, predictions, labels):
+    # Make sure this function only deals with Python data types, not PyTorch tensors
+        with open(filename, 'w') as f:
+            json.dump({'metrics': metrics, 'predictions': predictions, 'labels': labels}, f)
+    final_accuracy = accuracy(dev_predictions, dev_labels)
+    final_precision = precision(dev_predictions, dev_labels)
+    final_recall = recall(dev_predictions, dev_labels)
+    final_f1 = f1_score(dev_predictions, dev_labels)
+    # Before calling the function, convert tensors to Python lists (or numbers for metrics)
+    metrics = {
+        'accuracy': final_accuracy.item() if torch.is_tensor(final_accuracy) else final_accuracy,
+        'precision': final_precision.item() if torch.is_tensor(final_precision) else final_precision,
+        'recall': final_recall.item() if torch.is_tensor(final_recall) else final_recall,
+        'f1': final_f1.item() if torch.is_tensor(final_f1) else final_f1,
+    }
 
-    
+    predictions = dev_predictions.cpu().tolist() if torch.is_tensor(dev_predictions) else dev_predictions
+    labels = dev_labels.cpu().tolist() if torch.is_tensor(dev_labels) else dev_labels
+
+    filename = f'trainDevMetrics/group{group}.json'
+    save_metrics_and_predictions(filename, metrics, predictions, labels)
+
     #This creates the test dataset with only the positive pairs 
     def create_test_set(dev_pairs, dev_labels, proposition_map):
         positive_dev_pairs = [pair for pair, label in zip(dev_pairs, dev_labels) if label == 1]
@@ -451,6 +478,7 @@ def train(train_pairs,
     parallel_model = parallel_model.to(device)
     evaluation_results = []
     genericCosine = False
+    propsLostCosine = 0
     #for each of the transctipt in the test dataset, get the transcript and generate the pruned possible common grounds. 
     for index, row in test_df.iterrows():
         #original_common_ground = row['common_ground'].replace("and", " , ") #raw common ground
@@ -520,12 +548,14 @@ def train(train_pairs,
                 
                 
                 cosine_test_scores_ab, cosine_test_scores_ba = predict_with_XE(parallel_model, test_ab, test_ba, device, batch_size,cosine_sim=True)
-                cosine_similarity = cosine_test_scores_ab + cosine_test_scores_ba /2
+                cosine_similarity = (cosine_test_scores_ab + cosine_test_scores_ba) /2
                 cosine_similarities.append(cosine_similarity)
             
 
         # Select top 5 matches based on cosine similarity
         top_matches = sorted(zip(filtered_common_grounds, cosine_similarities), key=lambda x: x[1], reverse=True)[:5]
+        if(original_common_ground not in top_matches):
+            propsLostCosine+=1
         if not top_matches:  # If top_matches is empty
             print(f"Transcript: {row['transcript'].lower()}")
             print("Filtered common grounds with no top matches:", filtered_common_grounds)
@@ -552,7 +582,7 @@ def train(train_pairs,
             all_cosine_rows.append(all_cosine_row)
     
     all_cosine_rows_df = pd.DataFrame(all_cosine_rows, columns=["transcript", "filtered_common_ground", "cosine_similarity", "true_common_ground"])
-    all_cosine_rows_df.to_csv(f'cosineScores/cosine_Scores{group}.csv')
+    all_cosine_rows_df.to_csv(f'cosineScores/cosine_Scores{group}.csv') 
     new_df = pd.DataFrame(new_rows, columns=["transcript", "common_ground"])
     new_df.index.to_list()#the list of indicies in the dict that needs to be tokenized
     
@@ -571,16 +601,25 @@ def train(train_pairs,
     new_df["scores"] = test_predictions #Get the raw scores as given by the cross Encoder
     test_predictions = test_predictions > 0.5
     test_predictions = torch.squeeze(test_predictions)
-    
-    
+    print(test_predictions)
+    test_predictions = test_predictions > 0.5
+    test_predictions = torch.squeeze(test_predictions)
+    #print(dev_predictions)
+    #print(test_predictions, dev_labels)
+    #print("dev accuracy:", accuracy(test_predictions, dev_labels))
+    #print("dev precision:", precision(test_predictions, dev_labels))
+    #print("dev recall:", recall(test_predictions, dev_labels))
+    #print("dev f1:", f1_score(test_predictions, dev_labels))
+
     # Step 3: Verify against the correct common grounds
     # Assuming 'test_df' has a unique row for each transcript with the correct common ground
     actual_common_ground_map = test_df.set_index('transcript')['common_ground'].to_dict()
     new_df['actual_common_ground'] = new_df['transcript'].map(actual_common_ground_map)# Set transcript as index for easy lookup
     new_df['Group'] =  group
     new_df.to_csv(f'resultsTrainedCosineUpdates/{group}.csv')
+    print('Total Props Lost - ' , propsLostCosine)
+    
 
-"""
 
     #Predict here. Create the dataset. Prune with Heuristic. Prune with cosine. use predict_with_XE
     #get all the positive labels from dev set 
@@ -588,14 +627,14 @@ def train(train_pairs,
     #get the top cosine similarity of the top 5. 
     # predict 
 
-    # scorer_folder = working_folder + '/XE_scorer/'
-    # if not os.path.exists(scorer_folder):
-    #     os.makedirs(scorer_folder)
-    # model_path = scorer_folder + '/linear.chkpt'
-    # torch.save(parallel_model.module.linear.state_dict(), model_path)
-    # parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
-    # parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
-"""
+    scorer_folder = '../' + working_folder + f'/XE_scorerOralce{group}/' 
+    if not os.path.exists(scorer_folder):
+        os.makedirs(scorer_folder)
+    model_path = scorer_folder + '/linear.chkpt'
+    torch.save(parallel_model.module.linear.state_dict(), model_path)
+    parallel_model.module.model.save_pretrained(scorer_folder + '/bert')
+    parallel_model.module.tokenizer.save_pretrained(scorer_folder + '/bert')
+    return parallel_model
 
 if __name__ == '__main__':
     train_prop_XE('ecb', model_name='roberta-base')
