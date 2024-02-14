@@ -1,0 +1,42 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,green twenty,green = 20,0.9222692,<m> green = 20 </m>,8
+1,green twenty,green != 20,0.00701935,<m> green = 20 </m>,8
+2,green twenty,green < 20,0.0019362097,<m> green = 20 </m>,8
+3,green twenty,green > 20,0.0012993166,<m> green = 20 </m>,8
+4,twenty purple block 's thirty,purple = 20,0.94220304,<m> purple = 30 </m>,8
+5,twenty purple block 's thirty,purple = 30,0.9373051,<m> purple = 30 </m>,8
+6,twenty purple block 's thirty,"green = 10, purple = 20",0.36723372,<m> purple = 30 </m>,8
+7,twenty purple block 's thirty,"green = 20, purple = 20",0.3571627,<m> purple = 30 </m>,8
+8,twenty purple block 's thirty,"green = 10, purple = 30",0.34369752,<m> purple = 30 </m>,8
+9,oh yellow block 's forty,yellow = 40,0.89261997,<m> yellow > 40 </m>,8
+10,oh yellow block 's forty,yellow != 40,0.002491464,<m> yellow > 40 </m>,8
+11,oh yellow block 's forty,yellow < 40,0.0014062979,<m> yellow > 40 </m>,8
+12,oh yellow block 's forty,yellow > 40,0.0009931894,<m> yellow > 40 </m>,8
+13,Between forty fifty,red = 50,0.925344,<m> yellow < 50 </m>,8
+14,Between forty fifty,green = 50,0.9067092,<m> yellow < 50 </m>,8
+15,Between forty fifty,red = 40,0.90155363,<m> yellow < 50 </m>,8
+16,Between forty fifty,green = 40,0.89863074,<m> yellow < 50 </m>,8
+17,Between forty fifty,yellow = 50,0.8946036,<m> yellow < 50 </m>,8
+18,But n't less fifty actually,red = 50,0.920179,<m> yellow > 50 </m>,8
+19,But n't less fifty actually,yellow = 50,0.87816226,<m> yellow > 50 </m>,8
+20,But n't less fifty actually,blue = 50,0.86028004,<m> yellow > 50 </m>,8
+21,But n't less fifty actually,green = 50,0.85512567,<m> yellow > 50 </m>,8
+22,But n't less fifty actually,purple = 50,0.85123944,<m> yellow > 50 </m>,8
+23,Fifty heavy,yellow = 50,0.9299717,<m> yellow < 50 </m>,8
+24,Fifty heavy,green = 50,0.8746816,<m> yellow < 50 </m>,8
+25,Fifty heavy,red = 50,0.7512729,<m> yellow < 50 </m>,8
+26,Fifty heavy,blue = 50,0.68543285,<m> yellow < 50 </m>,8
+27,Fifty heavy,purple = 50,0.5539817,<m> yellow < 50 </m>,8
+28,yellow block 's forty one,yellow = 40,0.8816992,<m> yellow = 40 </m>,8
+29,yellow block 's forty one,yellow != 40,0.042779077,<m> yellow = 40 </m>,8
+30,yellow block 's forty one,yellow < 40,0.011265197,<m> yellow = 40 </m>,8
+31,yellow block 's forty one,yellow > 40,0.009575897,<m> yellow = 40 </m>,8
+32,minus one yellow block forty nine,blue = yellow,0.9478007,<m> yellow = 50 </m>,8
+33,minus one yellow block forty nine,purple = yellow,0.94446206,<m> yellow = 50 </m>,8
+34,minus one yellow block forty nine,yellow = 30,0.9357008,<m> yellow = 50 </m>,8
+35,minus one yellow block forty nine,green = yellow,0.9327301,<m> yellow = 50 </m>,8
+36,minus one yellow block forty nine,purple = green + yellow,0.9179569,<m> yellow = 50 </m>,8
+37,yellow block 's probably meant fifty placed differently,yellow = 50,0.8591354,<m> yellow = 50 </m>,8
+38,yellow block 's probably meant fifty placed differently,yellow < 50,0.38910294,<m> yellow = 50 </m>,8
+39,yellow block 's probably meant fifty placed differently,yellow > 50,0.35387462,<m> yellow = 50 </m>,8
+40,yellow block 's probably meant fifty placed differently,yellow != 50,0.35221046,<m> yellow = 50 </m>,8

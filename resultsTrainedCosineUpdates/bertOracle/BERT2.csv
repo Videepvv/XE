@@ -1,0 +1,40 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,And tell red cube right ten grams yep 're going 're going flip piece paper um,red = 10,0.86582947,<m> red = 10 </m>,2
+1,And tell red cube right ten grams yep 're going 're going flip piece paper um,red > 10,0.3182307,<m> red = 10 </m>,2
+2,And tell red cube right ten grams yep 're going 're going flip piece paper um,red != 10,0.2576742,<m> red = 10 </m>,2
+3,And tell red cube right ten grams yep 're going 're going flip piece paper um,red < 10,0.20996003,<m> red = 10 </m>,2
+4,"needle goes red line means red block , blue block 're probably equal",blue = red,0.9648471,<m> blue = red </m>,2
+5,"needle goes red line means red block , blue block 're probably equal",blue > red,0.9052799,<m> blue = red </m>,2
+6,"needle goes red line means red block , blue block 're probably equal",red > blue,0.8910552,<m> blue = red </m>,2
+7,"needle goes red line means red block , blue block 're probably equal",red < blue,0.8216843,<m> blue = red </m>,2
+8,"needle goes red line means red block , blue block 're probably equal",blue < red,0.78501034,<m> blue = red </m>,2
+9,blue block one probably ten grams,blue = 10,0.91359615,<m> blue = 10 </m>,2
+10,blue block one probably ten grams,blue > 10,0.016292768,<m> blue = 10 </m>,2
+11,blue block one probably ten grams,blue != 10,0.010554024,<m> blue = 10 </m>,2
+12,blue block one probably ten grams,blue < 10,0.009697404,<m> blue = 10 </m>,2
+13,The first two ten,green = 10,0.9727864,"<m> blue = 10, red = 10 </m>",2
+14,The first two ten,red = 10,0.9709476,"<m> blue = 10, red = 10 </m>",2
+15,The first two ten,blue = 10,0.96816546,"<m> blue = 10, red = 10 </m>",2
+16,The first two ten,yellow = 10,0.9614841,"<m> blue = 10, red = 10 </m>",2
+17,The first two ten,purple = 10,0.7225243,"<m> blue = 10, red = 10 </m>",2
+18,knowing oh sorry green one,green = 30,0.9221335,<m> green = 20 </m>,2
+19,knowing oh sorry green one,green = 10,0.91848016,<m> green = 20 </m>,2
+20,knowing oh sorry green one,green = 50,0.9040284,<m> green = 20 </m>,2
+21,knowing oh sorry green one,green = 20,0.88591665,<m> green = 20 </m>,2
+22,knowing oh sorry green one,green = 40,0.8459134,<m> green = 20 </m>,2
+23,So twenty plus ten thirty probably,green = 10,0.97040117,<m> purple = 30 </m>,2
+24,So twenty plus ten thirty probably,blue = 10,0.96968186,<m> purple = 30 </m>,2
+25,So twenty plus ten thirty probably,green = 20,0.9695152,<m> purple = 30 </m>,2
+26,So twenty plus ten thirty probably,green = 30,0.96869576,<m> purple = 30 </m>,2
+27,So twenty plus ten thirty probably,blue = 30,0.96746904,<m> purple = 30 </m>,2
+28,'s increment five could probably go thirty purple block,purple = 30,0.85071445,<m> purple = 30 </m>,2
+29,'s increment five could probably go thirty purple block,purple != 30,0.32307,<m> purple = 30 </m>,2
+30,'s increment five could probably go thirty purple block,purple > 30,0.22674948,<m> purple = 30 </m>,2
+31,'s increment five could probably go thirty purple block,purple < 30,0.19124073,<m> purple = 30 </m>,2
+32,"purple block , green block 's twenty thirty","green = 20, purple = 30",0.34365395,"<m> green = 20, purple = 30 </m>",2
+33,"purple block , green block 's twenty thirty","green = 30, purple = 20",0.25890177,"<m> green = 20, purple = 30 </m>",2
+34,Oh twenty thirty 'll go fifty,green = 50,0.9236868,<m> yellow = 50 </m>,2
+35,Oh twenty thirty 'll go fifty,yellow = 50,0.9128176,<m> yellow = 50 </m>,2
+36,Oh twenty thirty 'll go fifty,green = 20,0.8999214,<m> yellow = 50 </m>,2
+37,Oh twenty thirty 'll go fifty,green = 30,0.8793607,<m> yellow = 50 </m>,2
+38,Oh twenty thirty 'll go fifty,red = 50,0.8782414,<m> yellow = 50 </m>,2

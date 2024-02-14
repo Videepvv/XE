@@ -1,0 +1,47 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,I tell red cube ten grams,red = 10,0.9912009,<m> red = 10 </m>,4
+1,I tell red cube ten grams,red < 10,0.005151494,<m> red = 10 </m>,4
+2,I tell red cube ten grams,red != 10,0.0039326423,<m> red = 10 </m>,4
+3,I tell red cube ten grams,red > 10,0.0028216064,<m> red = 10 </m>,4
+4,Well top ten,yellow = 10,0.86534154,<m> blue = 10 </m>,4
+5,Well top ten,purple = 10,0.8466913,<m> blue = 10 </m>,4
+6,Well top ten,green = 10,0.7738965,<m> blue = 10 </m>,4
+7,Well top ten,red = 10,0.75506043,<m> blue = 10 </m>,4
+8,Well top ten,blue = 10,0.68474734,<m> blue = 10 </m>,4
+9,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",purple = red,0.9926219,<m> green = 20 </m>,4
+10,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",green = purple,0.99130094,<m> green = 20 </m>,4
+11,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",blue = red,0.990963,<m> green = 20 </m>,4
+12,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",green = red,0.99076325,<m> green = 20 </m>,4
+13,"easy green block twenty cause red block ten long 's dropping red block , blue block 's",blue = purple,0.99017525,<m> green = 20 </m>,4
+14,n't drop completely consider purple block thirty ’ drop,purple = 30,0.9337262,<m> purple != 40 </m>,4
+15,n't drop completely consider purple block thirty ’ drop,purple > 30,0.6472827,<m> purple != 40 </m>,4
+16,n't drop completely consider purple block thirty ’ drop,purple < 30,0.5705997,<m> purple != 40 </m>,4
+17,n't drop completely consider purple block thirty ’ drop,purple != 30,0.55345035,<m> purple != 40 </m>,4
+18,n't drop completely consider purple block thirty ’ drop,purple = red,0.9582411,<m> purple != 40 </m>,4
+19,n't drop completely consider purple block thirty ’ drop,green = purple,0.9525075,<m> purple != 40 </m>,4
+20,n't drop completely consider purple block thirty ’ drop,blue = purple,0.9488319,<m> purple != 40 </m>,4
+21,n't drop completely consider purple block thirty ’ drop,purple = yellow,0.94701314,<m> purple != 40 </m>,4
+22,n't drop completely consider purple block thirty ’ drop,purple = green + red,0.94642514,<m> purple != 40 </m>,4
+23,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 20,0.9722291,<m> purple = 30 </m>,4
+24,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 30,0.9637296,<m> purple = 30 </m>,4
+25,purple block 's purple block 's twenty purple block 's got ta thirty,purple < 20,0.5130546,<m> purple = 30 </m>,4
+26,purple block 's purple block 's twenty purple block 's got ta thirty,purple > 20,0.49214578,<m> purple = 30 </m>,4
+27,purple block 's purple block 's twenty purple block 's got ta thirty,purple != 20,0.44110328,<m> purple = 30 </m>,4
+28,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 20,0.9722291,<m> purple = 30 </m>,4
+29,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 30,0.9637296,<m> purple = 30 </m>,4
+30,purple block 's purple block 's twenty purple block 's got ta thirty,purple < 20,0.5130546,<m> purple = 30 </m>,4
+31,purple block 's purple block 's twenty purple block 's got ta thirty,purple > 20,0.49214578,<m> purple = 30 </m>,4
+32,purple block 's purple block 's twenty purple block 's got ta thirty,purple != 20,0.44110328,<m> purple = 30 </m>,4
+33,yellow red blue 's 's,red = 10,0.97918975,<m> yellow = 50 </m>,4
+34,yellow red blue 's 's,red = yellow,0.97549236,<m> yellow = 50 </m>,4
+35,yellow red blue 's 's,yellow = 10,0.9746964,<m> yellow = 50 </m>,4
+36,yellow red blue 's 's,red = 20,0.97361255,<m> yellow = 50 </m>,4
+37,yellow red blue 's 's,yellow = 20,0.96896076,<m> yellow = 50 </m>,4
+38,blue ten,blue = 10,0.87344956,<m> blue = 10 </m>,4
+39,blue ten,blue != 10,0.013948024,<m> blue = 10 </m>,4
+40,blue ten,blue < 10,0.0036241752,<m> blue = 10 </m>,4
+41,blue ten,blue > 10,0.0009899433,<m> blue = 10 </m>,4
+42,would yellow fifty,yellow = 50,0.9758223,<m> yellow = 50 </m>,4
+43,would yellow fifty,yellow < 50,0.1769728,<m> yellow = 50 </m>,4
+44,would yellow fifty,yellow != 50,0.05293196,<m> yellow = 50 </m>,4
+45,would yellow fifty,yellow > 50,0.045342434,<m> yellow = 50 </m>,4

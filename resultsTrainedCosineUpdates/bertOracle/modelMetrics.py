@@ -2,7 +2,7 @@ import pandas as pd
 import sklearn
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 # Load the uploaded file
-file_path = '/s/babbage/b/nobackup/nblancha/public-datasets/ilideep/XE/resultsTrainedCosineUpdates/combined_trainedcosine_results_csv.csv'
+file_path = 'combined_trainedcosine_results_csv.csv'
 df = pd.read_csv(file_path)
 
 # Remove <m> and </m> tags from "actual common ground"

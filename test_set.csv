@@ -1,36 +1,36 @@
 ,transcript,common_ground
 0,I tell red cube ten grams,red = 10
-1,I tell red cube ten grams,red != 10
-2,I tell red cube ten grams,red < 10
-3,I tell red cube ten grams,red > 10
+1,I tell red cube ten grams,red > 10
+2,I tell red cube ten grams,red != 10
+3,I tell red cube ten grams,red < 10
 4,blue block seems ten,blue = 10
-5,blue block seems ten,blue < 10
-6,blue block seems ten,blue != 10
+5,blue block seems ten,blue != 10
+6,blue block seems ten,blue < 10
 7,blue block seems ten,blue > 10
 8,"red block , blue block twenty",purple = 20
-9,"red block , blue block twenty",yellow = 20
-10,"red block , blue block twenty",green = 20
-11,"red block , blue block twenty",blue = 20
-12,"red block , blue block twenty",red = 20
+9,"red block , blue block twenty",red = 20
+10,"red block , blue block twenty",blue = 20
+11,"red block , blue block twenty",green = 20
+12,"red block , blue block twenty",yellow = 20
 13,purple block 's thirty,purple = 30
-14,purple block 's thirty,purple != 30
-15,purple block 's thirty,purple < 30
-16,purple block 's thirty,purple > 30
+14,purple block 's thirty,purple > 30
+15,purple block 's thirty,purple != 30
+16,purple block 's thirty,purple < 30
 17,So twenty thirty,"green = 20, purple = 30"
-18,So twenty thirty,"purple = 20, red = 30"
-19,So twenty thirty,"blue = 20, purple = 30"
-20,So twenty thirty,"purple = 20, yellow = 30"
-21,So twenty thirty,"green = 20, red = 30"
-22,Fifty I,"purple = 50, red = 50"
-23,Fifty I,"green = 50, red = 50"
-24,Fifty I,"green = 50, purple = 50"
-25,Fifty I,"blue = 50, purple = 50"
-26,Fifty I,"blue = 50, red = 50"
+18,So twenty thirty,"green = 30, purple = 20"
+19,So twenty thirty,"blue = 30, green = 20"
+20,So twenty thirty,"green = 30, yellow = 20"
+21,So twenty thirty,"blue = 20, green = 30"
+22,Fifty I,yellow = 50
+23,Fifty I,red = 50
+24,Fifty I,blue = 50
+25,Fifty I,green = 50
+26,Fifty I,purple = 50
 27,ah yellow block 's fifty,yellow = 50
-28,ah yellow block 's fifty,yellow < 50
-29,ah yellow block 's fifty,yellow > 50
+28,ah yellow block 's fifty,yellow > 50
+29,ah yellow block 's fifty,yellow < 50
 30,ah yellow block 's fifty,yellow != 50
 31,okay yellow block 's fifty,yellow = 50
-32,okay yellow block 's fifty,yellow < 50
-33,okay yellow block 's fifty,yellow > 50
+32,okay yellow block 's fifty,yellow > 50
+33,okay yellow block 's fifty,yellow < 50
 34,okay yellow block 's fifty,yellow != 50

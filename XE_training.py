@@ -192,8 +192,9 @@ def predict_with_XE(parallel_model, dev_ab, dev_ba, device, batch_size, cosine_s
 
 def train_prop_XE(dataset, model_name=None,n_splits=10):
     dataset_folder = f'./datasets/{dataset}/'
-    device = torch.device('cuda:0')
-    device_ids = list(range(1))
+    device = torch.device('cuda:1')
+    #device_ids = list(range(1))
+    device_ids = [1]
     #load the statement and proposition data
     prop_dict, df = make_proposition_map("preprocessedTrainingData")
     proposition_map = add_special_tokens(prop_dict)
@@ -447,7 +448,7 @@ def train(train_pairs,
     predictions = dev_predictions.cpu().tolist() if torch.is_tensor(dev_predictions) else dev_predictions
     labels = dev_labels.cpu().tolist() if torch.is_tensor(dev_labels) else dev_labels
 
-    filename = f'trainDevMetrics/group{group}.json'
+    filename = f'trainDevMetrics/BERTgroup{group}.json'
     save_metrics_and_predictions(filename, metrics, predictions, labels)
 
     #This creates the test dataset with only the positive pairs 
@@ -582,7 +583,7 @@ def train(train_pairs,
             all_cosine_rows.append(all_cosine_row)
     
     all_cosine_rows_df = pd.DataFrame(all_cosine_rows, columns=["transcript", "filtered_common_ground", "cosine_similarity", "true_common_ground"])
-    all_cosine_rows_df.to_csv(f'cosineScores/cosine_Scores{group}.csv') 
+    all_cosine_rows_df.to_csv(f'cosineScores/BERTcosine_Scores{group}.csv') 
     new_df = pd.DataFrame(new_rows, columns=["transcript", "common_ground"])
     new_df.index.to_list()#the list of indicies in the dict that needs to be tokenized
     
@@ -616,7 +617,7 @@ def train(train_pairs,
     actual_common_ground_map = test_df.set_index('transcript')['common_ground'].to_dict()
     new_df['actual_common_ground'] = new_df['transcript'].map(actual_common_ground_map)# Set transcript as index for easy lookup
     new_df['Group'] =  group
-    new_df.to_csv(f'resultsTrainedCosineUpdates/{group}.csv')
+    new_df.to_csv(f'resultsTrainedCosineUpdates/BERT{group}.csv')
     print('Total Props Lost - ' , propsLostCosine)
     
 
@@ -627,7 +628,7 @@ def train(train_pairs,
     #get the top cosine similarity of the top 5. 
     # predict 
 
-    scorer_folder = '../' + working_folder + f'/XE_scorerOralce{group}/' 
+    scorer_folder = '../' + working_folder + f'/BERTXE_scorerOralce{group}/' 
     if not os.path.exists(scorer_folder):
         os.makedirs(scorer_folder)
     model_path = scorer_folder + '/linear.chkpt'
@@ -637,5 +638,5 @@ def train(train_pairs,
     return parallel_model
 
 if __name__ == '__main__':
-    train_prop_XE('ecb', model_name='roberta-base')
+    train_prop_XE('ecb', model_name='bert-base-uncased')
 
