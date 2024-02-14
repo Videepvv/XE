@@ -3,7 +3,7 @@ import pandas as pd
 import glob
 
 # Step 1: List all CSV files in the current directory
-csv_files = glob.glob('*.csv')
+csv_files = glob.glob('bertOracle*.csv')
 
 # Step 2: Read each CSV file and append it to a list
 dfs = []  # Initialize an empty list to store DataFrames

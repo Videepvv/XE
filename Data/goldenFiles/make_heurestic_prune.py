@@ -112,47 +112,69 @@ total_transcripts = 0
 propositions_lost = 0
 rows_to_remove = []
 for index, row in dataset.iterrows():
-   
+    #row['Transcript'] = "between forty and fifty"
     elements = extract_colors_and_numbers(row['Transcript'].lower())
     original_common_ground = row['Common Ground'].replace("and", " , ") #raw common ground
     filtered_common_grounds = [cg for cg in common_grounds if is_valid_common_ground(cg, elements)] #list of possible common grounds
     
     original_common_ground = normalize_expression(original_common_ground) #normalize original
     filtered_common_grounds = [normalize_expression(expr) for expr in filtered_common_grounds] #normalize filtered
-   
     
+
+    if(len(elements['colors']) > 0 and len(elements['numbers']) == 0 ):
+        print('no numbers just colors')
+        print(row['Transcript'].lower())
+    if(len(elements['numbers']) > 0 and len(elements['colors']) == 0 ): 
+        print('no colors just numbers')
+        print(row['Transcript'].lower())
+    # if(row['Transcript'].lower() == "fifty"):
+    #     print('INDIVIDUAL \n')
+    #     print("ORIGINAL COMMON GROUND - ", original_common_ground)
+    #     print("TRANSCRIPT - ", row['Transcript'].lower())
+    #     print('elements' ,elements)
+    #     print(filtered_common_grounds)
+    #     break
 
     if not filtered_common_grounds:  # If no match found, try individual color-number pairs
         filtered_common_grounds = [cg for cg in common_grounds if is_valid_individual_match(cg, elements)]
+    
+    
     #if(len(filtered_common_grounds)==5025 or len(filtered_common_grounds)==1 ):
     #if(len(filtered_common_grounds)==5025):
         #print("TRANSCRIPT - ", row['Transcript'].lower())
         #continue
     if(not elements['colors'] and not elements['numbers']):
+        
+        print('No colors or numbers \n')
         print("ORIGINAL COMMON GROUND - ", original_common_ground)
         print("TRANSCRIPT - ", row['Transcript'].lower())
         rows_to_remove.append(row['Transcript'])
-        
+        propositions_lost += 1
         continue
     if not is_proposition_present(original_common_ground, filtered_common_grounds):
         
-        #print("mentioned numbers - ", mentioned_numbers)
-        mentioned_colors = elements['colors']
-        filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+        propositions_lost += 1
+        print('No proposition \n')
+        print("ORIGINAL COMMON GROUND - ", original_common_ground)
+        print("TRANSCRIPT - ", row['Transcript'].lower())
+        rows_to_remove.append(row['Transcript'])
+        continue
         
-        if not is_proposition_present(original_common_ground, filtered_common_grounds):
-            # propositions_lost += 1
-            # print("ORIGINAL COMMON GROUND - ", original_common_ground)
-            # print("TRANSCRIPT - ", row['Transcript'].lower(), '\n')
-            mentioned_numbers = elements['numbers']
-            filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
-            if not is_proposition_present(original_common_ground, filtered_common_grounds):
-                propositions_lost += 1
-                print("ORIGINAL COMMON GROUND - ", original_common_ground)
-                print("TRANSCRIPT - ", row['Transcript'].lower())
+        # #print("mentioned numbers - ", mentioned_numbers)
+        # mentioned_colors = elements['colors']
+        # filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+        
+        # if not is_proposition_present(original_common_ground, filtered_common_grounds):
+        #     # propositions_lost += 1
+        #     # print("ORIGINAL COMMON GROUND - ", original_common_ground)
+        #     # print("TRANSCRIPT - ", row['Transcript'].lower(), '\n')
+        #     mentioned_numbers = elements['numbers']
+        #     filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
+        #     if not is_proposition_present(original_common_ground, filtered_common_grounds):
+        #         propositions_lost += 1
+                
     #             print("mentioned numbers - ", mentioned_numbers)
-                rows_to_remove.append(row['Transcript'])
-                continue
+                
     #if(row['Transcript'] == "I will tell you that the red cube is ten grams"):
         #print(filtered_common_grounds)
     total_transcripts += 1
@@ -173,8 +195,8 @@ for index, row in dataset.iterrows():
         new_rows.append(new_row)
         df_extended = pd.concat([dataset, pd.DataFrame(new_rows)], ignore_index=True)
 
-print(df_extended.shape)
-print(propositions_lost/total_transcripts)    
+
+print(propositions_lost)    
 #df_extended = pd.concat([dataset, pd.DataFrame(new_rows)], ignore_index=True)
 print(len(listOfcommonGrounds))
 #print(sum(listOfcommonGrounds)/len(listOfcommonGrounds))
@@ -187,4 +209,4 @@ df_extended['Transcript'] = df_extended['Transcript'].apply(remove_stop_words)
 df_extended['Common Ground'] = df_extended['Common Ground'].str.replace("and"," , ")
 df_extended['Common Ground'] = df_extended['Common Ground'].apply(normalize_expression)
 
-df_extended.to_csv('preprocessedTrainingData.csv')
+#df_extended.to_csv('preprocessedTrainingData.csv')

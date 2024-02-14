@@ -1,0 +1,216 @@
+,transcript,filtered_common_ground,cosine_similarity,true_common_ground
+0,I tell red cube ten grams,red = 10,tensor([[0.8497]]),<m> red = 10 </m>
+1,I tell red cube ten grams,red != 10,tensor([[0.3783]]),<m> red = 10 </m>
+2,I tell red cube ten grams,red < 10,tensor([[0.0678]]),<m> red = 10 </m>
+3,I tell red cube ten grams,red > 10,tensor([[0.0698]]),<m> red = 10 </m>
+4,blue block seems ten,blue = 10,tensor([[0.4956]]),<m> blue = 10 </m>
+5,blue block seems ten,blue != 10,tensor([[0.1130]]),<m> blue = 10 </m>
+6,blue block seems ten,blue < 10,tensor([[0.1874]]),<m> blue = 10 </m>
+7,blue block seems ten,blue > 10,tensor([[0.2405]]),<m> blue = 10 </m>
+8,purple block 's thirty,purple = 30,tensor([[0.5303]]),<m> purple = 30 </m>
+9,purple block 's thirty,purple != 30,tensor([[0.3918]]),<m> purple = 30 </m>
+10,purple block 's thirty,purple < 30,tensor([[0.0917]]),<m> purple = 30 </m>
+11,purple block 's thirty,purple > 30,tensor([[0.0941]]),<m> purple = 30 </m>
+12,So twenty thirty,"blue = 20, green = 30, red = 20",tensor([[0.0321]]),"<m> green = 20, purple = 30 </m>"
+13,So twenty thirty,"blue = 20, purple = 30, red = 20",tensor([[0.0299]]),"<m> green = 20, purple = 30 </m>"
+14,So twenty thirty,"blue = 20, red = 20, yellow = 30",tensor([[0.0612]]),"<m> green = 20, purple = 30 </m>"
+15,So twenty thirty,"blue = 30, green = 20, red = 20",tensor([[0.0311]]),"<m> green = 20, purple = 30 </m>"
+16,So twenty thirty,"blue = 30, green = 30, red = 20",tensor([[0.0362]]),"<m> green = 20, purple = 30 </m>"
+17,So twenty thirty,"blue = 30, purple = 20, red = 20",tensor([[0.0308]]),"<m> green = 20, purple = 30 </m>"
+18,So twenty thirty,"blue = 30, purple = 30, red = 20",tensor([[0.0314]]),"<m> green = 20, purple = 30 </m>"
+19,So twenty thirty,"blue = 30, red = 20, yellow = 20",tensor([[0.0305]]),"<m> green = 20, purple = 30 </m>"
+20,So twenty thirty,"blue = 30, red = 20, yellow = 30",tensor([[0.0321]]),"<m> green = 20, purple = 30 </m>"
+21,So twenty thirty,"green = 20, purple = 30, red = 20",tensor([[0.0295]]),"<m> green = 20, purple = 30 </m>"
+22,So twenty thirty,"green = 20, red = 20, yellow = 30",tensor([[0.0432]]),"<m> green = 20, purple = 30 </m>"
+23,So twenty thirty,"green = 30, purple = 20, red = 20",tensor([[0.0309]]),"<m> green = 20, purple = 30 </m>"
+24,So twenty thirty,"green = 30, purple = 30, red = 20",tensor([[0.0312]]),"<m> green = 20, purple = 30 </m>"
+25,So twenty thirty,"green = 30, red = 20, yellow = 20",tensor([[0.0303]]),"<m> green = 20, purple = 30 </m>"
+26,So twenty thirty,"green = 30, red = 20, yellow = 30",tensor([[0.0313]]),"<m> green = 20, purple = 30 </m>"
+27,So twenty thirty,"purple = 20, red = 20, yellow = 30",tensor([[0.0409]]),"<m> green = 20, purple = 30 </m>"
+28,So twenty thirty,"purple = 30, red = 20, yellow = 20",tensor([[0.0270]]),"<m> green = 20, purple = 30 </m>"
+29,So twenty thirty,"purple = 30, red = 20, yellow = 30",tensor([[0.0302]]),"<m> green = 20, purple = 30 </m>"
+30,So twenty thirty,"blue = 20, green = 20, red = 30",tensor([[0.0791]]),"<m> green = 20, purple = 30 </m>"
+31,So twenty thirty,"blue = 20, green = 30, red = 30",tensor([[0.0272]]),"<m> green = 20, purple = 30 </m>"
+32,So twenty thirty,"blue = 20, purple = 20, red = 30",tensor([[0.0544]]),"<m> green = 20, purple = 30 </m>"
+33,So twenty thirty,"blue = 20, purple = 30, red = 30",tensor([[0.0248]]),"<m> green = 20, purple = 30 </m>"
+34,So twenty thirty,"blue = 20, red = 30, yellow = 20",tensor([[0.0309]]),"<m> green = 20, purple = 30 </m>"
+35,So twenty thirty,"blue = 20, red = 30, yellow = 30",tensor([[0.0273]]),"<m> green = 20, purple = 30 </m>"
+36,So twenty thirty,"blue = 30, green = 20, red = 30",tensor([[0.0358]]),"<m> green = 20, purple = 30 </m>"
+37,So twenty thirty,"blue = 30, purple = 20, red = 30",tensor([[0.0335]]),"<m> green = 20, purple = 30 </m>"
+38,So twenty thirty,"blue = 30, red = 30, yellow = 20",tensor([[0.0459]]),"<m> green = 20, purple = 30 </m>"
+39,So twenty thirty,"green = 20, purple = 20, red = 30",tensor([[0.0469]]),"<m> green = 20, purple = 30 </m>"
+40,So twenty thirty,"green = 20, purple = 30, red = 30",tensor([[0.0250]]),"<m> green = 20, purple = 30 </m>"
+41,So twenty thirty,"green = 20, red = 30, yellow = 20",tensor([[0.0342]]),"<m> green = 20, purple = 30 </m>"
+42,So twenty thirty,"green = 20, red = 30, yellow = 30",tensor([[0.0345]]),"<m> green = 20, purple = 30 </m>"
+43,So twenty thirty,"green = 30, purple = 20, red = 30",tensor([[0.0326]]),"<m> green = 20, purple = 30 </m>"
+44,So twenty thirty,"green = 30, red = 30, yellow = 20",tensor([[0.0438]]),"<m> green = 20, purple = 30 </m>"
+45,So twenty thirty,"purple = 20, red = 30, yellow = 20",tensor([[0.0286]]),"<m> green = 20, purple = 30 </m>"
+46,So twenty thirty,"purple = 20, red = 30, yellow = 30",tensor([[0.0256]]),"<m> green = 20, purple = 30 </m>"
+47,So twenty thirty,"purple = 30, red = 30, yellow = 20",tensor([[0.0308]]),"<m> green = 20, purple = 30 </m>"
+48,So twenty thirty,"blue = 20, green = 20, purple = 30",tensor([[0.0327]]),"<m> green = 20, purple = 30 </m>"
+49,So twenty thirty,"blue = 20, green = 20, yellow = 30",tensor([[0.0388]]),"<m> green = 20, purple = 30 </m>"
+50,So twenty thirty,"blue = 20, green = 30, purple = 20",tensor([[0.0261]]),"<m> green = 20, purple = 30 </m>"
+51,So twenty thirty,"blue = 20, green = 30, purple = 30",tensor([[0.0246]]),"<m> green = 20, purple = 30 </m>"
+52,So twenty thirty,"blue = 20, green = 30, yellow = 20",tensor([[0.0279]]),"<m> green = 20, purple = 30 </m>"
+53,So twenty thirty,"blue = 20, green = 30, yellow = 30",tensor([[0.0269]]),"<m> green = 20, purple = 30 </m>"
+54,So twenty thirty,"blue = 20, purple = 20, yellow = 30",tensor([[0.0366]]),"<m> green = 20, purple = 30 </m>"
+55,So twenty thirty,"blue = 20, purple = 30, yellow = 20",tensor([[0.0258]]),"<m> green = 20, purple = 30 </m>"
+56,So twenty thirty,"blue = 20, purple = 30, yellow = 30",tensor([[0.0252]]),"<m> green = 20, purple = 30 </m>"
+57,So twenty thirty,"blue = 30, green = 20, purple = 20",tensor([[0.0261]]),"<m> green = 20, purple = 30 </m>"
+58,So twenty thirty,"blue = 30, green = 20, purple = 30",tensor([[0.0288]]),"<m> green = 20, purple = 30 </m>"
+59,So twenty thirty,"blue = 30, green = 20, yellow = 20",tensor([[0.0279]]),"<m> green = 20, purple = 30 </m>"
+60,So twenty thirty,"blue = 30, green = 20, yellow = 30",tensor([[0.0305]]),"<m> green = 20, purple = 30 </m>"
+61,So twenty thirty,"blue = 30, green = 30, purple = 20",tensor([[0.0302]]),"<m> green = 20, purple = 30 </m>"
+62,So twenty thirty,"blue = 30, green = 30, yellow = 20",tensor([[0.0330]]),"<m> green = 20, purple = 30 </m>"
+63,So twenty thirty,"blue = 30, purple = 20, yellow = 20",tensor([[0.0278]]),"<m> green = 20, purple = 30 </m>"
+64,So twenty thirty,"blue = 30, purple = 20, yellow = 30",tensor([[0.0300]]),"<m> green = 20, purple = 30 </m>"
+65,So twenty thirty,"blue = 30, purple = 30, yellow = 20",tensor([[0.0301]]),"<m> green = 20, purple = 30 </m>"
+66,So twenty thirty,"green = 20, purple = 20, yellow = 30",tensor([[0.0303]]),"<m> green = 20, purple = 30 </m>"
+67,So twenty thirty,"green = 20, purple = 30, yellow = 20",tensor([[0.0260]]),"<m> green = 20, purple = 30 </m>"
+68,So twenty thirty,"green = 20, purple = 30, yellow = 30",tensor([[0.0261]]),"<m> green = 20, purple = 30 </m>"
+69,So twenty thirty,"green = 30, purple = 20, yellow = 20",tensor([[0.0259]]),"<m> green = 20, purple = 30 </m>"
+70,So twenty thirty,"green = 30, purple = 20, yellow = 30",tensor([[0.0265]]),"<m> green = 20, purple = 30 </m>"
+71,So twenty thirty,"green = 30, purple = 30, yellow = 20",tensor([[0.0276]]),"<m> green = 20, purple = 30 </m>"
+72,So twenty thirty,"blue = 30, red = 20",tensor([[0.4264]]),"<m> green = 20, purple = 30 </m>"
+73,So twenty thirty,"green = 30, red = 20",tensor([[0.4253]]),"<m> green = 20, purple = 30 </m>"
+74,So twenty thirty,"purple = 30, red = 20",tensor([[0.4094]]),"<m> green = 20, purple = 30 </m>"
+75,So twenty thirty,"red = 20, yellow = 30",tensor([[0.4271]]),"<m> green = 20, purple = 30 </m>"
+76,So twenty thirty,"blue = 20, red = 30",tensor([[0.4598]]),"<m> green = 20, purple = 30 </m>"
+77,So twenty thirty,"green = 20, red = 30",tensor([[0.4588]]),"<m> green = 20, purple = 30 </m>"
+78,So twenty thirty,"purple = 20, red = 30",tensor([[0.4644]]),"<m> green = 20, purple = 30 </m>"
+79,So twenty thirty,"red = 30, yellow = 20",tensor([[0.4285]]),"<m> green = 20, purple = 30 </m>"
+80,So twenty thirty,"blue = 20, green = 30",tensor([[0.5343]]),"<m> green = 20, purple = 30 </m>"
+81,So twenty thirty,"blue = 20, purple = 30",tensor([[0.5072]]),"<m> green = 20, purple = 30 </m>"
+82,So twenty thirty,"blue = 20, yellow = 30",tensor([[0.4641]]),"<m> green = 20, purple = 30 </m>"
+83,So twenty thirty,"blue = 30, green = 20",tensor([[0.4100]]),"<m> green = 20, purple = 30 </m>"
+84,So twenty thirty,"blue = 30, purple = 20",tensor([[0.3847]]),"<m> green = 20, purple = 30 </m>"
+85,So twenty thirty,"blue = 30, yellow = 20",tensor([[0.4305]]),"<m> green = 20, purple = 30 </m>"
+86,So twenty thirty,"green = 20, purple = 30",tensor([[0.5755]]),"<m> green = 20, purple = 30 </m>"
+87,So twenty thirty,"green = 20, yellow = 30",tensor([[0.5195]]),"<m> green = 20, purple = 30 </m>"
+88,So twenty thirty,"green = 30, purple = 20",tensor([[0.4265]]),"<m> green = 20, purple = 30 </m>"
+89,So twenty thirty,"green = 30, yellow = 20",tensor([[0.4283]]),"<m> green = 20, purple = 30 </m>"
+90,So twenty thirty,"purple = 20, yellow = 30",tensor([[0.4814]]),"<m> green = 20, purple = 30 </m>"
+91,So twenty thirty,"purple = 30, yellow = 20",tensor([[0.3971]]),"<m> green = 20, purple = 30 </m>"
+92,So twenty thirty,"blue = 20, green = 20, purple = 30, red = 20",tensor([[0.0210]]),"<m> green = 20, purple = 30 </m>"
+93,So twenty thirty,"blue = 20, green = 20, red = 20, yellow = 30",tensor([[0.0204]]),"<m> green = 20, purple = 30 </m>"
+94,So twenty thirty,"blue = 20, green = 30, purple = 20, red = 20",tensor([[0.0217]]),"<m> green = 20, purple = 30 </m>"
+95,So twenty thirty,"blue = 20, green = 30, purple = 30, red = 20",tensor([[0.0246]]),"<m> green = 20, purple = 30 </m>"
+96,So twenty thirty,"blue = 20, green = 30, red = 20, yellow = 20",tensor([[0.0259]]),"<m> green = 20, purple = 30 </m>"
+97,So twenty thirty,"blue = 20, green = 30, red = 20, yellow = 30",tensor([[0.0307]]),"<m> green = 20, purple = 30 </m>"
+98,So twenty thirty,"blue = 20, purple = 20, red = 20, yellow = 30",tensor([[0.0221]]),"<m> green = 20, purple = 30 </m>"
+99,So twenty thirty,"blue = 20, purple = 30, red = 20, yellow = 20",tensor([[0.0248]]),"<m> green = 20, purple = 30 </m>"
+100,So twenty thirty,"blue = 20, purple = 30, red = 20, yellow = 30",tensor([[0.0327]]),"<m> green = 20, purple = 30 </m>"
+101,So twenty thirty,"blue = 30, green = 20, purple = 20, red = 20",tensor([[0.0179]]),"<m> green = 20, purple = 30 </m>"
+102,So twenty thirty,"blue = 30, green = 20, purple = 30, red = 20",tensor([[0.0178]]),"<m> green = 20, purple = 30 </m>"
+103,So twenty thirty,"blue = 30, green = 20, red = 20, yellow = 20",tensor([[0.0182]]),"<m> green = 20, purple = 30 </m>"
+104,So twenty thirty,"blue = 30, green = 20, red = 20, yellow = 30",tensor([[0.0186]]),"<m> green = 20, purple = 30 </m>"
+105,So twenty thirty,"blue = 30, green = 30, purple = 20, red = 20",tensor([[0.0223]]),"<m> green = 20, purple = 30 </m>"
+106,So twenty thirty,"blue = 30, green = 30, purple = 30, red = 20",tensor([[0.0245]]),"<m> green = 20, purple = 30 </m>"
+107,So twenty thirty,"blue = 30, green = 30, red = 20, yellow = 20",tensor([[0.0223]]),"<m> green = 20, purple = 30 </m>"
+108,So twenty thirty,"blue = 30, green = 30, red = 20, yellow = 30",tensor([[0.0217]]),"<m> green = 20, purple = 30 </m>"
+109,So twenty thirty,"blue = 30, purple = 20, red = 20, yellow = 20",tensor([[0.0185]]),"<m> green = 20, purple = 30 </m>"
+110,So twenty thirty,"blue = 30, purple = 20, red = 20, yellow = 30",tensor([[0.0204]]),"<m> green = 20, purple = 30 </m>"
+111,So twenty thirty,"blue = 30, purple = 30, red = 20, yellow = 20",tensor([[0.0217]]),"<m> green = 20, purple = 30 </m>"
+112,So twenty thirty,"blue = 30, purple = 30, red = 20, yellow = 30",tensor([[0.0206]]),"<m> green = 20, purple = 30 </m>"
+113,So twenty thirty,"green = 20, purple = 20, red = 20, yellow = 30",tensor([[0.0221]]),"<m> green = 20, purple = 30 </m>"
+114,So twenty thirty,"green = 20, purple = 30, red = 20, yellow = 20",tensor([[0.0272]]),"<m> green = 20, purple = 30 </m>"
+115,So twenty thirty,"green = 20, purple = 30, red = 20, yellow = 30",tensor([[0.0311]]),"<m> green = 20, purple = 30 </m>"
+116,So twenty thirty,"green = 30, purple = 20, red = 20, yellow = 20",tensor([[0.0205]]),"<m> green = 20, purple = 30 </m>"
+117,So twenty thirty,"green = 30, purple = 20, red = 20, yellow = 30",tensor([[0.0208]]),"<m> green = 20, purple = 30 </m>"
+118,So twenty thirty,"green = 30, purple = 30, red = 20, yellow = 20",tensor([[0.0222]]),"<m> green = 20, purple = 30 </m>"
+119,So twenty thirty,"green = 30, purple = 30, red = 20, yellow = 30",tensor([[0.0213]]),"<m> green = 20, purple = 30 </m>"
+120,So twenty thirty,"blue = 20, green = 20, purple = 20, red = 30",tensor([[0.0207]]),"<m> green = 20, purple = 30 </m>"
+121,So twenty thirty,"blue = 20, green = 20, purple = 30, red = 30",tensor([[0.0206]]),"<m> green = 20, purple = 30 </m>"
+122,So twenty thirty,"blue = 20, green = 20, red = 30, yellow = 20",tensor([[0.0249]]),"<m> green = 20, purple = 30 </m>"
+123,So twenty thirty,"blue = 20, green = 20, red = 30, yellow = 30",tensor([[0.0223]]),"<m> green = 20, purple = 30 </m>"
+124,So twenty thirty,"blue = 20, green = 30, purple = 20, red = 30",tensor([[0.0258]]),"<m> green = 20, purple = 30 </m>"
+125,So twenty thirty,"blue = 20, green = 30, purple = 30, red = 30",tensor([[0.0247]]),"<m> green = 20, purple = 30 </m>"
+126,So twenty thirty,"blue = 20, green = 30, red = 30, yellow = 20",tensor([[0.0262]]),"<m> green = 20, purple = 30 </m>"
+127,So twenty thirty,"blue = 20, green = 30, red = 30, yellow = 30",tensor([[0.0257]]),"<m> green = 20, purple = 30 </m>"
+128,So twenty thirty,"blue = 20, purple = 20, red = 30, yellow = 20",tensor([[0.0223]]),"<m> green = 20, purple = 30 </m>"
+129,So twenty thirty,"blue = 20, purple = 20, red = 30, yellow = 30",tensor([[0.0214]]),"<m> green = 20, purple = 30 </m>"
+130,So twenty thirty,"blue = 20, purple = 30, red = 30, yellow = 20",tensor([[0.0270]]),"<m> green = 20, purple = 30 </m>"
+131,So twenty thirty,"blue = 20, purple = 30, red = 30, yellow = 30",tensor([[0.0281]]),"<m> green = 20, purple = 30 </m>"
+132,So twenty thirty,"blue = 30, green = 20, purple = 20, red = 30",tensor([[0.0177]]),"<m> green = 20, purple = 30 </m>"
+133,So twenty thirty,"blue = 30, green = 20, purple = 30, red = 30",tensor([[0.0180]]),"<m> green = 20, purple = 30 </m>"
+134,So twenty thirty,"blue = 30, green = 20, red = 30, yellow = 20",tensor([[0.0208]]),"<m> green = 20, purple = 30 </m>"
+135,So twenty thirty,"blue = 30, green = 20, red = 30, yellow = 30",tensor([[0.0189]]),"<m> green = 20, purple = 30 </m>"
+136,So twenty thirty,"blue = 30, green = 30, purple = 20, red = 30",tensor([[0.0216]]),"<m> green = 20, purple = 30 </m>"
+137,So twenty thirty,"blue = 30, green = 30, red = 30, yellow = 20",tensor([[0.0245]]),"<m> green = 20, purple = 30 </m>"
+138,So twenty thirty,"blue = 30, purple = 20, red = 30, yellow = 20",tensor([[0.0203]]),"<m> green = 20, purple = 30 </m>"
+139,So twenty thirty,"blue = 30, purple = 20, red = 30, yellow = 30",tensor([[0.0182]]),"<m> green = 20, purple = 30 </m>"
+140,So twenty thirty,"blue = 30, purple = 30, red = 30, yellow = 20",tensor([[0.0217]]),"<m> green = 20, purple = 30 </m>"
+141,So twenty thirty,"green = 20, purple = 20, red = 30, yellow = 20",tensor([[0.0230]]),"<m> green = 20, purple = 30 </m>"
+142,So twenty thirty,"green = 20, purple = 20, red = 30, yellow = 30",tensor([[0.0221]]),"<m> green = 20, purple = 30 </m>"
+143,So twenty thirty,"green = 20, purple = 30, red = 30, yellow = 20",tensor([[0.0319]]),"<m> green = 20, purple = 30 </m>"
+144,So twenty thirty,"green = 20, purple = 30, red = 30, yellow = 30",tensor([[0.0316]]),"<m> green = 20, purple = 30 </m>"
+145,So twenty thirty,"green = 30, purple = 20, red = 30, yellow = 20",tensor([[0.0213]]),"<m> green = 20, purple = 30 </m>"
+146,So twenty thirty,"green = 30, purple = 20, red = 30, yellow = 30",tensor([[0.0196]]),"<m> green = 20, purple = 30 </m>"
+147,So twenty thirty,"green = 30, purple = 30, red = 30, yellow = 20",tensor([[0.0238]]),"<m> green = 20, purple = 30 </m>"
+148,So twenty thirty,"blue = 20, green = 20, purple = 20, yellow = 30",tensor([[0.0224]]),"<m> green = 20, purple = 30 </m>"
+149,So twenty thirty,"blue = 20, green = 20, purple = 30, yellow = 20",tensor([[0.0215]]),"<m> green = 20, purple = 30 </m>"
+150,So twenty thirty,"blue = 20, green = 20, purple = 30, yellow = 30",tensor([[0.0219]]),"<m> green = 20, purple = 30 </m>"
+151,So twenty thirty,"blue = 20, green = 30, purple = 20, yellow = 20",tensor([[0.0217]]),"<m> green = 20, purple = 30 </m>"
+152,So twenty thirty,"blue = 20, green = 30, purple = 20, yellow = 30",tensor([[0.0320]]),"<m> green = 20, purple = 30 </m>"
+153,So twenty thirty,"blue = 20, green = 30, purple = 30, yellow = 20",tensor([[0.0322]]),"<m> green = 20, purple = 30 </m>"
+154,So twenty thirty,"blue = 20, green = 30, purple = 30, yellow = 30",tensor([[0.0304]]),"<m> green = 20, purple = 30 </m>"
+155,So twenty thirty,"blue = 30, green = 20, purple = 20, yellow = 20",tensor([[0.0198]]),"<m> green = 20, purple = 30 </m>"
+156,So twenty thirty,"blue = 30, green = 20, purple = 20, yellow = 30",tensor([[0.0203]]),"<m> green = 20, purple = 30 </m>"
+157,So twenty thirty,"blue = 30, green = 20, purple = 30, yellow = 20",tensor([[0.0204]]),"<m> green = 20, purple = 30 </m>"
+158,So twenty thirty,"blue = 30, green = 20, purple = 30, yellow = 30",tensor([[0.0184]]),"<m> green = 20, purple = 30 </m>"
+159,So twenty thirty,"blue = 30, green = 30, purple = 20, yellow = 20",tensor([[0.0213]]),"<m> green = 20, purple = 30 </m>"
+160,So twenty thirty,"blue = 30, green = 30, purple = 20, yellow = 30",tensor([[0.0212]]),"<m> green = 20, purple = 30 </m>"
+161,So twenty thirty,"blue = 30, green = 30, purple = 30, yellow = 20",tensor([[0.0250]]),"<m> green = 20, purple = 30 </m>"
+162,Fifty I,red = 50,tensor([[0.3021]]),<m> yellow = 50 </m>
+163,Fifty I,red != 50,tensor([[0.0882]]),<m> yellow = 50 </m>
+164,Fifty I,red < 50,tensor([[0.1896]]),<m> yellow = 50 </m>
+165,Fifty I,red > 50,tensor([[0.2336]]),<m> yellow = 50 </m>
+166,Fifty I,blue = 50,tensor([[0.3765]]),<m> yellow = 50 </m>
+167,Fifty I,blue != 50,tensor([[0.0862]]),<m> yellow = 50 </m>
+168,Fifty I,blue < 50,tensor([[0.1820]]),<m> yellow = 50 </m>
+169,Fifty I,blue > 50,tensor([[0.2104]]),<m> yellow = 50 </m>
+170,Fifty I,green = 50,tensor([[0.3841]]),<m> yellow = 50 </m>
+171,Fifty I,green != 50,tensor([[0.0851]]),<m> yellow = 50 </m>
+172,Fifty I,green < 50,tensor([[0.1778]]),<m> yellow = 50 </m>
+173,Fifty I,green > 50,tensor([[0.1653]]),<m> yellow = 50 </m>
+174,Fifty I,purple = 50,tensor([[0.2905]]),<m> yellow = 50 </m>
+175,Fifty I,purple != 50,tensor([[0.3272]]),<m> yellow = 50 </m>
+176,Fifty I,purple < 50,tensor([[0.1293]]),<m> yellow = 50 </m>
+177,Fifty I,purple > 50,tensor([[0.0893]]),<m> yellow = 50 </m>
+178,Fifty I,yellow = 50,tensor([[0.3171]]),<m> yellow = 50 </m>
+179,Fifty I,yellow != 50,tensor([[0.1469]]),<m> yellow = 50 </m>
+180,Fifty I,yellow < 50,tensor([[0.1915]]),<m> yellow = 50 </m>
+181,Fifty I,yellow > 50,tensor([[0.2293]]),<m> yellow = 50 </m>
+182,Fifty I,"blue = 50, green = 50, red = 50",tensor([[0.1234]]),<m> yellow = 50 </m>
+183,Fifty I,"blue = 50, purple = 50, red = 50",tensor([[0.1246]]),<m> yellow = 50 </m>
+184,Fifty I,"blue = 50, red = 50, yellow = 50",tensor([[0.1183]]),<m> yellow = 50 </m>
+185,Fifty I,"green = 50, purple = 50, red = 50",tensor([[0.1208]]),<m> yellow = 50 </m>
+186,Fifty I,"green = 50, red = 50, yellow = 50",tensor([[0.1209]]),<m> yellow = 50 </m>
+187,Fifty I,"purple = 50, red = 50, yellow = 50",tensor([[0.1181]]),<m> yellow = 50 </m>
+188,Fifty I,"blue = 50, green = 50, purple = 50",tensor([[0.1251]]),<m> yellow = 50 </m>
+189,Fifty I,"blue = 50, green = 50, yellow = 50",tensor([[0.1171]]),<m> yellow = 50 </m>
+190,Fifty I,"blue = 50, purple = 50, yellow = 50",tensor([[0.1200]]),<m> yellow = 50 </m>
+191,Fifty I,"green = 50, purple = 50, yellow = 50",tensor([[0.1196]]),<m> yellow = 50 </m>
+192,Fifty I,"blue = 50, red = 50",tensor([[0.1463]]),<m> yellow = 50 </m>
+193,Fifty I,"green = 50, red = 50",tensor([[0.1369]]),<m> yellow = 50 </m>
+194,Fifty I,"purple = 50, red = 50",tensor([[0.1382]]),<m> yellow = 50 </m>
+195,Fifty I,"red = 50, yellow = 50",tensor([[0.3904]]),<m> yellow = 50 </m>
+196,Fifty I,"blue = 50, green = 50",tensor([[0.1468]]),<m> yellow = 50 </m>
+197,Fifty I,"blue = 50, purple = 50",tensor([[0.1531]]),<m> yellow = 50 </m>
+198,Fifty I,"blue = 50, yellow = 50",tensor([[0.1592]]),<m> yellow = 50 </m>
+199,Fifty I,"green = 50, purple = 50",tensor([[0.1417]]),<m> yellow = 50 </m>
+200,Fifty I,"green = 50, yellow = 50",tensor([[0.1335]]),<m> yellow = 50 </m>
+201,Fifty I,"purple = 50, yellow = 50",tensor([[0.1517]]),<m> yellow = 50 </m>
+202,Fifty I,"blue = 50, green = 50, purple = 50, red = 50",tensor([[0.1033]]),<m> yellow = 50 </m>
+203,Fifty I,"blue = 50, green = 50, red = 50, yellow = 50",tensor([[0.1031]]),<m> yellow = 50 </m>
+204,Fifty I,"blue = 50, purple = 50, red = 50, yellow = 50",tensor([[0.1015]]),<m> yellow = 50 </m>
+205,Fifty I,"green = 50, purple = 50, red = 50, yellow = 50",tensor([[0.0894]]),<m> yellow = 50 </m>
+206,Fifty I,"blue = 50, green = 50, purple = 50, yellow = 50",tensor([[0.0969]]),<m> yellow = 50 </m>
+207,ah yellow block 's fifty,yellow = 50,tensor([[0.5152]]),<m> yellow = 50 </m>
+208,ah yellow block 's fifty,yellow != 50,tensor([[0.2034]]),<m> yellow = 50 </m>
+209,ah yellow block 's fifty,yellow < 50,tensor([[0.2249]]),<m> yellow = 50 </m>
+210,ah yellow block 's fifty,yellow > 50,tensor([[0.1457]]),<m> yellow = 50 </m>
+211,okay yellow block 's fifty,yellow = 50,tensor([[0.4721]]),<m> yellow = 50 </m>
+212,okay yellow block 's fifty,yellow != 50,tensor([[0.1930]]),<m> yellow = 50 </m>
+213,okay yellow block 's fifty,yellow < 50,tensor([[0.1232]]),<m> yellow = 50 </m>
+214,okay yellow block 's fifty,yellow > 50,tensor([[0.1189]]),<m> yellow = 50 </m>

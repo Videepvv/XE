@@ -1,0 +1,34 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,The red cube ten grams,red = 10,0.97631115,<m> red = 10 </m>,9
+1,The red cube ten grams,red > 10,0.04458698,<m> red = 10 </m>,9
+2,The red cube ten grams,red != 10,0.0406534,<m> red = 10 </m>,9
+3,The red cube ten grams,red < 10,0.028606467,<m> red = 10 </m>,9
+4,"would red block , blue block 's equal probably",blue = red,0.9828457,<m> blue = red </m>,9
+5,"would red block , blue block 's equal probably",blue < red,0.9312259,<m> blue = red </m>,9
+6,"would red block , blue block 's equal probably",red < blue,0.9281092,<m> blue = red </m>,9
+7,"would red block , blue block 's equal probably",blue != red,0.90076447,<m> blue = red </m>,9
+8,"would red block , blue block 's equal probably",blue > red,0.9003061,<m> blue = red </m>,9
+9,"red block , blue block , green block 's probably equal",red > blue + green,0.7244674,<m> green = blue + red </m>,9
+10,"red block , blue block , green block 's probably equal",red = blue + green,0.7045502,<m> green = blue + red </m>,9
+11,"red block , blue block , green block 's probably equal",blue = green + red,0.7010852,<m> green = blue + red </m>,9
+12,"red block , blue block , green block 's probably equal",red < blue + green,0.6838825,<m> green = blue + red </m>,9
+13,"red block , blue block , green block 's probably equal",blue > green + red,0.66903603,<m> green = blue + red </m>,9
+14,So got ten ten,purple = 10,0.9957806,"<m> blue = 10, red = 10 </m>",9
+15,So got ten ten,red = 10,0.9950305,"<m> blue = 10, red = 10 </m>",9
+16,So got ten ten,blue = 10,0.99498713,"<m> blue = 10, red = 10 </m>",9
+17,So got ten ten,green = 10,0.99405,"<m> blue = 10, red = 10 </m>",9
+18,So got ten ten,yellow = 10,0.9930587,"<m> blue = 10, red = 10 </m>",9
+19,"green block , blue block twenty ten right","blue = 20, green = 10",0.7515141,"<m> blue = 10, green = 20 </m>",9
+20,"green block , blue block twenty ten right","blue = 10, green = 20",0.6567,"<m> blue = 10, green = 20 </m>",9
+21,Look thirty gram block,"purple = 30, red = 30",0.97070265,<m> purple = 30 </m>,9
+22,Look thirty gram block,"blue = 30, red = 30",0.96670747,<m> purple = 30 </m>,9
+23,Look thirty gram block,"blue = 30, purple = 30",0.9564472,<m> purple = 30 </m>,9
+24,Look thirty gram block,"green = 30, red = 30",0.95282996,<m> purple = 30 </m>,9
+25,Look thirty gram block,"blue = 30, green = 30",0.9524101,<m> purple = 30 </m>,9
+26,"ever slightly though green block , purple block , yellow block 's probably probably green block , purple block , yellow block 's equal",purple = green + yellow,0.5558282,<m> yellow = green + purple </m>,9
+27,"ever slightly though green block , purple block , yellow block 's probably probably green block , purple block , yellow block 's equal",yellow < green + purple,0.46438807,<m> yellow = green + purple </m>,9
+28,"ever slightly though green block , purple block , yellow block 's probably probably green block , purple block , yellow block 's equal",green = purple + yellow,0.455925,<m> yellow = green + purple </m>,9
+29,"ever slightly though green block , purple block , yellow block 's probably probably green block , purple block , yellow block 's equal",yellow = green + purple,0.45326123,<m> yellow = green + purple </m>,9
+30,"ever slightly though green block , purple block , yellow block 's probably probably green block , purple block , yellow block 's equal",purple < green + yellow,0.4044792,<m> yellow = green + purple </m>,9
+31,purple block one thirty yellow block fifty less,"purple = 50, yellow = 30",0.5912844,"<m> purple = 30, yellow = 50 </m>",9
+32,purple block one thirty yellow block fifty less,"purple = 30, yellow = 50",0.508357,"<m> purple = 30, yellow = 50 </m>",9

@@ -1,0 +1,111 @@
+,transcript,filtered_common_ground,cosine_similarity,true_common_ground
+0,And tell red cube right ten grams yep 're going 're going flip piece paper um,red = 10,tensor([[0.5559]]),<m> red = 10 </m>
+1,And tell red cube right ten grams yep 're going 're going flip piece paper um,red != 10,tensor([[0.0445]]),<m> red = 10 </m>
+2,And tell red cube right ten grams yep 're going 're going flip piece paper um,red < 10,tensor([[0.0452]]),<m> red = 10 </m>
+3,And tell red cube right ten grams yep 're going 're going flip piece paper um,red > 10,tensor([[0.0462]]),<m> red = 10 </m>
+4,"needle goes red line means red block , blue block 're probably equal",blue = red,tensor([[0.5410]]),<m> blue = red </m>
+5,"needle goes red line means red block , blue block 're probably equal",blue != red,tensor([[0.0422]]),<m> blue = red </m>
+6,"needle goes red line means red block , blue block 're probably equal",red < blue,tensor([[0.0520]]),<m> blue = red </m>
+7,"needle goes red line means red block , blue block 're probably equal",red > blue,tensor([[0.0463]]),<m> blue = red </m>
+8,"needle goes red line means red block , blue block 're probably equal",blue < red,tensor([[0.0563]]),<m> blue = red </m>
+9,"needle goes red line means red block , blue block 're probably equal",blue > red,tensor([[0.0478]]),<m> blue = red </m>
+10,"needle goes red line means red block , blue block 're probably equal","blue = 10, red = 10",tensor([[0.0933]]),<m> blue = red </m>
+11,"needle goes red line means red block , blue block 're probably equal","blue = 20, red = 10",tensor([[0.0387]]),<m> blue = red </m>
+12,"needle goes red line means red block , blue block 're probably equal","blue = 30, red = 10",tensor([[0.0383]]),<m> blue = red </m>
+13,"needle goes red line means red block , blue block 're probably equal","blue = 40, red = 10",tensor([[0.0372]]),<m> blue = red </m>
+14,"needle goes red line means red block , blue block 're probably equal","blue = 50, red = 10",tensor([[0.0366]]),<m> blue = red </m>
+15,"needle goes red line means red block , blue block 're probably equal","blue = 10, red = 20",tensor([[0.0384]]),<m> blue = red </m>
+16,"needle goes red line means red block , blue block 're probably equal","blue = 20, red = 20",tensor([[0.0497]]),<m> blue = red </m>
+17,"needle goes red line means red block , blue block 're probably equal","blue = 30, red = 20",tensor([[0.0425]]),<m> blue = red </m>
+18,"needle goes red line means red block , blue block 're probably equal","blue = 40, red = 20",tensor([[0.0423]]),<m> blue = red </m>
+19,"needle goes red line means red block , blue block 're probably equal","blue = 50, red = 20",tensor([[0.0408]]),<m> blue = red </m>
+20,"needle goes red line means red block , blue block 're probably equal","blue = 10, red = 30",tensor([[0.0394]]),<m> blue = red </m>
+21,"needle goes red line means red block , blue block 're probably equal","blue = 20, red = 30",tensor([[0.0419]]),<m> blue = red </m>
+22,"needle goes red line means red block , blue block 're probably equal","blue = 30, red = 30",tensor([[0.0418]]),<m> blue = red </m>
+23,"needle goes red line means red block , blue block 're probably equal","blue = 40, red = 30",tensor([[0.0450]]),<m> blue = red </m>
+24,"needle goes red line means red block , blue block 're probably equal","blue = 50, red = 30",tensor([[0.0393]]),<m> blue = red </m>
+25,"needle goes red line means red block , blue block 're probably equal","blue = 10, red = 40",tensor([[0.0393]]),<m> blue = red </m>
+26,"needle goes red line means red block , blue block 're probably equal","blue = 20, red = 40",tensor([[0.0466]]),<m> blue = red </m>
+27,"needle goes red line means red block , blue block 're probably equal","blue = 30, red = 40",tensor([[0.0469]]),<m> blue = red </m>
+28,"needle goes red line means red block , blue block 're probably equal","blue = 40, red = 40",tensor([[0.0399]]),<m> blue = red </m>
+29,"needle goes red line means red block , blue block 're probably equal","blue = 50, red = 40",tensor([[0.0445]]),<m> blue = red </m>
+30,"needle goes red line means red block , blue block 're probably equal","blue = 10, red = 50",tensor([[0.0403]]),<m> blue = red </m>
+31,"needle goes red line means red block , blue block 're probably equal","blue = 20, red = 50",tensor([[0.0385]]),<m> blue = red </m>
+32,"needle goes red line means red block , blue block 're probably equal","blue = 30, red = 50",tensor([[0.0434]]),<m> blue = red </m>
+33,"needle goes red line means red block , blue block 're probably equal","blue = 40, red = 50",tensor([[0.0454]]),<m> blue = red </m>
+34,"needle goes red line means red block , blue block 're probably equal","blue = 50, red = 50",tensor([[0.0404]]),<m> blue = red </m>
+35,blue block one probably ten grams,blue = 10,tensor([[0.7429]]),<m> blue = 10 </m>
+36,blue block one probably ten grams,blue != 10,tensor([[0.0398]]),<m> blue = 10 </m>
+37,blue block one probably ten grams,blue < 10,tensor([[0.0416]]),<m> blue = 10 </m>
+38,blue block one probably ten grams,blue > 10,tensor([[0.0396]]),<m> blue = 10 </m>
+39,The first two ten,red = 10,tensor([[0.7569]]),"<m> blue = 10, red = 10 </m>"
+40,The first two ten,red != 10,tensor([[0.0487]]),"<m> blue = 10, red = 10 </m>"
+41,The first two ten,red < 10,tensor([[0.0303]]),"<m> blue = 10, red = 10 </m>"
+42,The first two ten,red > 10,tensor([[0.0269]]),"<m> blue = 10, red = 10 </m>"
+43,The first two ten,blue = 10,tensor([[0.7626]]),"<m> blue = 10, red = 10 </m>"
+44,The first two ten,blue != 10,tensor([[0.0432]]),"<m> blue = 10, red = 10 </m>"
+45,The first two ten,blue < 10,tensor([[0.0274]]),"<m> blue = 10, red = 10 </m>"
+46,The first two ten,blue > 10,tensor([[0.0247]]),"<m> blue = 10, red = 10 </m>"
+47,The first two ten,green = 10,tensor([[0.7616]]),"<m> blue = 10, red = 10 </m>"
+48,The first two ten,green != 10,tensor([[0.0310]]),"<m> blue = 10, red = 10 </m>"
+49,The first two ten,green < 10,tensor([[0.0287]]),"<m> blue = 10, red = 10 </m>"
+50,The first two ten,green > 10,tensor([[0.0237]]),"<m> blue = 10, red = 10 </m>"
+51,The first two ten,purple = 10,tensor([[0.7423]]),"<m> blue = 10, red = 10 </m>"
+52,The first two ten,purple != 10,tensor([[0.0714]]),"<m> blue = 10, red = 10 </m>"
+53,The first two ten,purple < 10,tensor([[0.0505]]),"<m> blue = 10, red = 10 </m>"
+54,The first two ten,purple > 10,tensor([[0.0360]]),"<m> blue = 10, red = 10 </m>"
+55,The first two ten,yellow = 10,tensor([[0.7541]]),"<m> blue = 10, red = 10 </m>"
+56,The first two ten,yellow != 10,tensor([[0.0387]]),"<m> blue = 10, red = 10 </m>"
+57,The first two ten,yellow < 10,tensor([[0.0265]]),"<m> blue = 10, red = 10 </m>"
+58,The first two ten,yellow > 10,tensor([[0.0246]]),"<m> blue = 10, red = 10 </m>"
+59,The first two ten,"blue = 10, green = 10, red = 10",tensor([[0.0387]]),"<m> blue = 10, red = 10 </m>"
+60,The first two ten,"blue = 10, purple = 10, red = 10",tensor([[0.0385]]),"<m> blue = 10, red = 10 </m>"
+61,The first two ten,"blue = 10, red = 10, yellow = 10",tensor([[0.0391]]),"<m> blue = 10, red = 10 </m>"
+62,The first two ten,"green = 10, purple = 10, red = 10",tensor([[0.0464]]),"<m> blue = 10, red = 10 </m>"
+63,The first two ten,"green = 10, red = 10, yellow = 10",tensor([[0.0408]]),"<m> blue = 10, red = 10 </m>"
+64,The first two ten,"purple = 10, red = 10, yellow = 10",tensor([[0.0387]]),"<m> blue = 10, red = 10 </m>"
+65,The first two ten,"blue = 10, green = 10, purple = 10",tensor([[0.0373]]),"<m> blue = 10, red = 10 </m>"
+66,The first two ten,"blue = 10, green = 10, yellow = 10",tensor([[0.0367]]),"<m> blue = 10, red = 10 </m>"
+67,The first two ten,"blue = 10, purple = 10, yellow = 10",tensor([[0.0392]]),"<m> blue = 10, red = 10 </m>"
+68,The first two ten,"green = 10, purple = 10, yellow = 10",tensor([[0.0389]]),"<m> blue = 10, red = 10 </m>"
+69,The first two ten,"blue = 10, red = 10",tensor([[0.5021]]),"<m> blue = 10, red = 10 </m>"
+70,The first two ten,"green = 10, red = 10",tensor([[0.6352]]),"<m> blue = 10, red = 10 </m>"
+71,The first two ten,"purple = 10, red = 10",tensor([[0.6375]]),"<m> blue = 10, red = 10 </m>"
+72,The first two ten,"red = 10, yellow = 10",tensor([[0.5574]]),"<m> blue = 10, red = 10 </m>"
+73,The first two ten,"blue = 10, green = 10",tensor([[0.4941]]),"<m> blue = 10, red = 10 </m>"
+74,The first two ten,"blue = 10, purple = 10",tensor([[0.5077]]),"<m> blue = 10, red = 10 </m>"
+75,The first two ten,"blue = 10, yellow = 10",tensor([[0.4007]]),"<m> blue = 10, red = 10 </m>"
+76,The first two ten,"green = 10, purple = 10",tensor([[0.5680]]),"<m> blue = 10, red = 10 </m>"
+77,The first two ten,"green = 10, yellow = 10",tensor([[0.4796]]),"<m> blue = 10, red = 10 </m>"
+78,The first two ten,"purple = 10, yellow = 10",tensor([[0.5561]]),"<m> blue = 10, red = 10 </m>"
+79,The first two ten,"blue = 10, green = 10, purple = 10, red = 10",tensor([[0.0374]]),"<m> blue = 10, red = 10 </m>"
+80,The first two ten,"blue = 10, green = 10, red = 10, yellow = 10",tensor([[0.0358]]),"<m> blue = 10, red = 10 </m>"
+81,The first two ten,"blue = 10, purple = 10, red = 10, yellow = 10",tensor([[0.0354]]),"<m> blue = 10, red = 10 </m>"
+82,The first two ten,"green = 10, purple = 10, red = 10, yellow = 10",tensor([[0.0358]]),"<m> blue = 10, red = 10 </m>"
+83,The first two ten,"blue = 10, green = 10, purple = 10, yellow = 10",tensor([[0.0344]]),"<m> blue = 10, red = 10 </m>"
+84,knowing oh sorry green one,green = 10,tensor([[0.6224]]),<m> green = 20 </m>
+85,knowing oh sorry green one,green = 20,tensor([[0.4806]]),<m> green = 20 </m>
+86,knowing oh sorry green one,green = 30,tensor([[0.3298]]),<m> green = 20 </m>
+87,knowing oh sorry green one,green = 40,tensor([[0.3999]]),<m> green = 20 </m>
+88,knowing oh sorry green one,green = 50,tensor([[0.5777]]),<m> green = 20 </m>
+89,knowing oh sorry green one,green != 10,tensor([[0.0299]]),<m> green = 20 </m>
+90,knowing oh sorry green one,green != 20,tensor([[0.0297]]),<m> green = 20 </m>
+91,knowing oh sorry green one,green != 30,tensor([[0.0300]]),<m> green = 20 </m>
+92,knowing oh sorry green one,green != 40,tensor([[0.0300]]),<m> green = 20 </m>
+93,knowing oh sorry green one,green != 50,tensor([[0.0293]]),<m> green = 20 </m>
+94,knowing oh sorry green one,green < 10,tensor([[0.0292]]),<m> green = 20 </m>
+95,knowing oh sorry green one,green < 20,tensor([[0.0276]]),<m> green = 20 </m>
+96,knowing oh sorry green one,green < 30,tensor([[0.0294]]),<m> green = 20 </m>
+97,knowing oh sorry green one,green < 40,tensor([[0.0294]]),<m> green = 20 </m>
+98,knowing oh sorry green one,green < 50,tensor([[0.0283]]),<m> green = 20 </m>
+99,knowing oh sorry green one,green > 10,tensor([[0.0273]]),<m> green = 20 </m>
+100,knowing oh sorry green one,green > 20,tensor([[0.0279]]),<m> green = 20 </m>
+101,knowing oh sorry green one,green > 30,tensor([[0.0278]]),<m> green = 20 </m>
+102,knowing oh sorry green one,green > 40,tensor([[0.0282]]),<m> green = 20 </m>
+103,knowing oh sorry green one,green > 50,tensor([[0.0282]]),<m> green = 20 </m>
+104,'s increment five could probably go thirty purple block,purple = 30,tensor([[0.8166]]),<m> purple = 30 </m>
+105,'s increment five could probably go thirty purple block,purple != 30,tensor([[0.0746]]),<m> purple = 30 </m>
+106,'s increment five could probably go thirty purple block,purple < 30,tensor([[0.1095]]),<m> purple = 30 </m>
+107,'s increment five could probably go thirty purple block,purple > 30,tensor([[0.1342]]),<m> purple = 30 </m>
+108,"purple block , green block 's twenty thirty","green = 20, purple = 30",tensor([[0.0840]]),"<m> green = 20, purple = 30 </m>"
+109,"purple block , green block 's twenty thirty","green = 30, purple = 20",tensor([[0.0942]]),"<m> green = 20, purple = 30 </m>"

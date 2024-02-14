@@ -1,0 +1,32 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,green twenty,green = 20,0.97532225,<m> green = 20 </m>,8
+1,green twenty,green != 20,0.025339372,<m> green = 20 </m>,8
+2,green twenty,green > 20,0.0034462898,<m> green = 20 </m>,8
+3,green twenty,green < 20,0.0014405707,<m> green = 20 </m>,8
+4,twenty purple block 's thirty,purple = 30,0.9597308,<m> purple = 30 </m>,8
+5,twenty purple block 's thirty,purple = 20,0.9596503,<m> purple = 30 </m>,8
+6,twenty purple block 's thirty,"green = 10, purple = 20",0.5649546,<m> purple = 30 </m>,8
+7,twenty purple block 's thirty,"green = 10, purple = 30",0.5235817,<m> purple = 30 </m>,8
+8,twenty purple block 's thirty,"green = 40, purple = 20",0.51823086,<m> purple = 30 </m>,8
+9,oh yellow block 's forty,yellow = 40,0.7727313,<m> yellow > 40 </m>,8
+10,oh yellow block 's forty,yellow != 40,0.03007042,<m> yellow > 40 </m>,8
+11,oh yellow block 's forty,yellow < 40,0.008144353,<m> yellow > 40 </m>,8
+12,oh yellow block 's forty,yellow > 40,0.0028790033,<m> yellow > 40 </m>,8
+13,But n't less fifty actually,yellow = 50,0.7613007,<m> yellow > 50 </m>,8
+14,But n't less fifty actually,purple = 50,0.7345693,<m> yellow > 50 </m>,8
+15,But n't less fifty actually,blue = 50,0.67765546,<m> yellow > 50 </m>,8
+16,But n't less fifty actually,red = 50,0.6532711,<m> yellow > 50 </m>,8
+17,But n't less fifty actually,green = 50,0.6497711,<m> yellow > 50 </m>,8
+18,Fifty heavy,purple = 50,0.9797104,<m> yellow < 50 </m>,8
+19,Fifty heavy,yellow = 50,0.97729874,<m> yellow < 50 </m>,8
+20,Fifty heavy,blue = 50,0.9761593,<m> yellow < 50 </m>,8
+21,Fifty heavy,red = 50,0.9705841,<m> yellow < 50 </m>,8
+22,Fifty heavy,green = 50,0.9682457,<m> yellow < 50 </m>,8
+23,yellow block 's forty one,yellow = 40,0.7304364,<m> yellow = 40 </m>,8
+24,yellow block 's forty one,yellow != 40,0.254119,<m> yellow = 40 </m>,8
+25,yellow block 's forty one,yellow < 40,0.02605556,<m> yellow = 40 </m>,8
+26,yellow block 's forty one,yellow > 40,0.020503096,<m> yellow = 40 </m>,8
+27,yellow block 's probably meant fifty placed differently,yellow = 50,0.9460304,<m> yellow = 50 </m>,8
+28,yellow block 's probably meant fifty placed differently,yellow < 50,0.7046219,<m> yellow = 50 </m>,8
+29,yellow block 's probably meant fifty placed differently,yellow > 50,0.60372484,<m> yellow = 50 </m>,8
+30,yellow block 's probably meant fifty placed differently,yellow != 50,0.5222669,<m> yellow = 50 </m>,8

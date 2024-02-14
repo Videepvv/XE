@@ -1,4 +1,5 @@
 import pickle
+import sys
 import torch
 from helper import tokenize, forward_ab, f1_score, accuracy, precision, recall
 import pandas as pd
@@ -190,7 +191,7 @@ def predict_with_XE(parallel_model, dev_ab, dev_ba, device, batch_size, cosine_s
     return torch.cat(all_scores_ab), torch.cat(all_scores_ba) 
 
 
-def train_prop_XE(dataset, model_name=None,n_splits=10):
+def train_prop_XE(dataset, model_name=None,n_splits=10, resultsFolder = ''):
     dataset_folder = f'./datasets/{dataset}/'
     device = torch.device('cuda:1')
     #device_ids = list(range(1))
@@ -243,7 +244,7 @@ def train_prop_XE(dataset, model_name=None,n_splits=10):
          #   batch_size=20, n_iters=5, lr_lm=0.000001, lr_class=0.0001)
         #parallel_model.module.to(device)
         train(train_pairs, train_labels, dev_pairs, dev_labels, parallel_model, proposition_map, dataset_folder, device,
-            batch_size=20, n_iters=12, lr_lm=0.000001, lr_class=0.0001,group =group)
+            batch_size=20, n_iters=12, lr_lm=0.000001, lr_class=0.0001,group =group, resultsFolder = resultsFolder)
         
         
  
@@ -346,7 +347,8 @@ def train(train_pairs,
           n_iters=50,
           lr_lm=0.00001,
           lr_class=0.001,
-          group=20):
+          group=20,
+          resultsFolder = ''):
     bce_loss = torch.nn.BCELoss()
     # mse_loss = torch.nn.MSELoss()
 
@@ -448,7 +450,7 @@ def train(train_pairs,
     predictions = dev_predictions.cpu().tolist() if torch.is_tensor(dev_predictions) else dev_predictions
     labels = dev_labels.cpu().tolist() if torch.is_tensor(dev_labels) else dev_labels
 
-    filename = f'trainDevMetrics/BERTgroup{group}.json'
+    filename = f'trainDevMetrics/{resultsFolder}group{group}.json'
     save_metrics_and_predictions(filename, metrics, predictions, labels)
 
     #This creates the test dataset with only the positive pairs 
@@ -490,26 +492,30 @@ def train(train_pairs,
 
         if not filtered_common_grounds:  # If no match found, try individual color-number pairs
             filtered_common_grounds = [cg for cg in common_grounds if is_valid_individual_match(cg, elements)]  #If there is no match where only the mentioned colors and weights are present, get the individual combincations 
+        if not is_proposition_present(original_common_ground, filtered_common_grounds):
+            print('{group} did not have a proposition. \n')
+            print('original' ,original_common_ground , '\n')
+            print('transcirpt' ,row['transcript'].lower())
         
         #normalize the filtered common ground 
         #filtered_common_grounds = [normalize_expression(expr) for expr in filtered_common_grounds]
         #original_common_ground = normalize_expression(original_common_ground) #normalize original
         
         #we do not want any instances where no color and weight was mentioned 
-        if(not elements['colors'] and not elements['numbers']):
-            print(f'{group} did not get')
-            continue
-        if not is_proposition_present(original_common_ground, filtered_common_grounds):
-        #print("mentioned numbers - ", mentioned_numbers)
-            mentioned_colors = elements['colors']
-            filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
+        # if(not elements['colors'] and not elements['numbers']):
+        #     print(f'{group} did not get')
+        #     continue
+        # if not is_proposition_present(original_common_ground, filtered_common_grounds):
+        # #print("mentioned numbers - ", mentioned_numbers)
+        #     mentioned_colors = elements['colors']
+        #     filtered_common_grounds = broaden_search_with_colors(common_grounds, mentioned_colors)
         
-            if not is_proposition_present(original_common_ground, filtered_common_grounds):
-                mentioned_numbers = elements['numbers']
-                filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
-                if not is_proposition_present(original_common_ground, filtered_common_grounds):
-                    print('original' ,original_common_ground)
-                    print('not present ')
+        #     if not is_proposition_present(original_common_ground, filtered_common_grounds):
+        #         mentioned_numbers = elements['numbers']
+        #         filtered_common_grounds = broaden_search_with_numbers(common_grounds, mentioned_numbers)
+        #         if not is_proposition_present(original_common_ground, filtered_common_grounds):
+        #             print('original' ,original_common_ground)
+        #             print('not present ')
     
         
         print('Length of filtered Common grounds - ', len(filtered_common_grounds))
@@ -583,7 +589,7 @@ def train(train_pairs,
             all_cosine_rows.append(all_cosine_row)
     
     all_cosine_rows_df = pd.DataFrame(all_cosine_rows, columns=["transcript", "filtered_common_ground", "cosine_similarity", "true_common_ground"])
-    all_cosine_rows_df.to_csv(f'cosineScores/BERTcosine_Scores{group}.csv') 
+    all_cosine_rows_df.to_csv(f'cosineScores/{resultsFolder}cosine_Scores{group}.csv') 
     new_df = pd.DataFrame(new_rows, columns=["transcript", "common_ground"])
     new_df.index.to_list()#the list of indicies in the dict that needs to be tokenized
     
@@ -617,8 +623,8 @@ def train(train_pairs,
     actual_common_ground_map = test_df.set_index('transcript')['common_ground'].to_dict()
     new_df['actual_common_ground'] = new_df['transcript'].map(actual_common_ground_map)# Set transcript as index for easy lookup
     new_df['Group'] =  group
-    new_df.to_csv(f'resultsTrainedCosineUpdates/BERT{group}.csv')
-    print('Total Props Lost - ' , propsLostCosine)
+    new_df.to_csv(f'resultsTrainedCosineUpdates/{resultsFolder}{group}.csv')
+    #print('Total Props Lost - ' , propsLostCosine)
     
 
 
@@ -628,7 +634,7 @@ def train(train_pairs,
     #get the top cosine similarity of the top 5. 
     # predict 
 
-    scorer_folder = '../' + working_folder + f'/BERTXE_scorerOralce{group}/' 
+    scorer_folder = '../' + working_folder + f'/{resultsFolder}/BERTXE_scorerOralce{group}/' 
     if not os.path.exists(scorer_folder):
         os.makedirs(scorer_folder)
     model_path = scorer_folder + '/linear.chkpt'
@@ -638,5 +644,8 @@ def train(train_pairs,
     return parallel_model
 
 if __name__ == '__main__':
-    train_prop_XE('ecb', model_name='bert-base-uncased')
+    resultsFolderArgs = str(sys.argv[1])
+    print(resultsFolderArgs)
+    model_name = str(sys.argv[2])
+    train_prop_XE('ecb', model_name=model_name,resultsFolder = resultsFolderArgs)
 

@@ -1,0 +1,28 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,I tell red cube ten grams,red = 10,0.97846854,<m> red = 10 </m>,4
+1,I tell red cube ten grams,red != 10,0.017639128,<m> red = 10 </m>,4
+2,I tell red cube ten grams,red < 10,0.009372171,<m> red = 10 </m>,4
+3,I tell red cube ten grams,red > 10,0.0085341055,<m> red = 10 </m>,4
+4,Well top ten,red = 10,0.97344255,<m> blue = 10 </m>,4
+5,Well top ten,purple = 10,0.96859825,<m> blue = 10 </m>,4
+6,Well top ten,green = 10,0.9617728,<m> blue = 10 </m>,4
+7,Well top ten,blue = 10,0.9537921,<m> blue = 10 </m>,4
+8,Well top ten,yellow = 10,0.9468194,<m> blue = 10 </m>,4
+9,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 20,0.666547,<m> purple = 30 </m>,4
+10,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 30,0.60811627,<m> purple = 30 </m>,4
+11,purple block 's purple block 's twenty purple block 's got ta thirty,"purple = 10, yellow = 20",0.10965096,<m> purple = 30 </m>,4
+12,purple block 's purple block 's twenty purple block 's got ta thirty,purple > 20,0.108005166,<m> purple = 30 </m>,4
+13,purple block 's purple block 's twenty purple block 's got ta thirty,"green = 10, purple = 20",0.10696148,<m> purple = 30 </m>,4
+14,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 20,0.666547,<m> purple = 30 </m>,4
+15,purple block 's purple block 's twenty purple block 's got ta thirty,purple = 30,0.60811627,<m> purple = 30 </m>,4
+16,purple block 's purple block 's twenty purple block 's got ta thirty,"purple = 10, yellow = 20",0.10965096,<m> purple = 30 </m>,4
+17,purple block 's purple block 's twenty purple block 's got ta thirty,purple > 20,0.108005166,<m> purple = 30 </m>,4
+18,purple block 's purple block 's twenty purple block 's got ta thirty,"green = 10, purple = 20",0.10696148,<m> purple = 30 </m>,4
+19,blue ten,blue = 10,0.94396067,<m> blue = 10 </m>,4
+20,blue ten,blue != 10,0.16191989,<m> blue = 10 </m>,4
+21,blue ten,blue < 10,0.030366678,<m> blue = 10 </m>,4
+22,blue ten,blue > 10,0.021742664,<m> blue = 10 </m>,4
+23,would yellow fifty,yellow = 50,0.938077,<m> yellow = 50 </m>,4
+24,would yellow fifty,yellow != 50,0.32560295,<m> yellow = 50 </m>,4
+25,would yellow fifty,yellow < 50,0.0761024,<m> yellow = 50 </m>,4
+26,would yellow fifty,yellow > 50,0.028548077,<m> yellow = 50 </m>,4

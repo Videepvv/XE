@@ -1,0 +1,52 @@
+,transcript,common_ground,scores,actual_common_ground,Group
+0,And tell red cube top ten grams,red = 10,0.48510447,<m> red = 10 </m>,1
+1,And tell red cube top ten grams,red != 10,0.05292745,<m> red = 10 </m>,1
+2,And tell red cube top ten grams,red < 10,0.052637316,<m> red = 10 </m>,1
+3,And tell red cube top ten grams,red > 10,0.051880263,<m> red = 10 </m>,1
+4,red block would nine minus ten,red = 10,0.7294806,<m> red = 10 </m>,1
+5,red block would nine minus ten,red != 10,0.30321592,<m> red = 10 </m>,1
+6,red block would nine minus ten,red > 10,0.13525179,<m> red = 10 </m>,1
+7,red block would nine minus ten,red < 10,0.10922978,<m> red = 10 </m>,1
+8,"red block , blue block seems pretty balanced",blue > red,0.74925673,<m> blue = red </m>,1
+9,"red block , blue block seems pretty balanced",blue = red,0.7439656,<m> blue = red </m>,1
+10,"red block , blue block seems pretty balanced",red > blue,0.69220936,<m> blue = red </m>,1
+11,"red block , blue block seems pretty balanced",blue != red,0.61606574,<m> blue = red </m>,1
+12,"red block , blue block seems pretty balanced",blue < red,0.4331924,<m> blue = red </m>,1
+13,blue block also ten,blue = 10,0.7675432,<m> blue = 10 </m>,1
+14,blue block also ten,blue != 10,0.053948708,<m> blue = 10 </m>,1
+15,blue block also ten,blue > 10,0.05100058,<m> blue = 10 </m>,1
+16,blue block also ten,blue < 10,0.05082414,<m> blue = 10 </m>,1
+17,And see 's thats twenty,"purple = 20, red = 20",0.69655764,<m> purple != 20 </m>,1
+18,And see 's thats twenty,red = 20,0.69559836,<m> purple != 20 </m>,1
+19,And see 's thats twenty,green = 20,0.6925007,<m> purple != 20 </m>,1
+20,And see 's thats twenty,"purple = 20, yellow = 20",0.6911135,<m> purple != 20 </m>,1
+21,And see 's thats twenty,"green = 20, red = 20",0.68470573,<m> purple != 20 </m>,1
+22,And see 's thats twenty,"purple = 20, red = 20",0.69655764,<m> purple != 20 </m>,1
+23,And see 's thats twenty,red = 20,0.69559836,<m> purple != 20 </m>,1
+24,And see 's thats twenty,green = 20,0.6925007,<m> purple != 20 </m>,1
+25,And see 's thats twenty,"purple = 20, yellow = 20",0.6911135,<m> purple != 20 </m>,1
+26,And see 's thats twenty,"green = 20, red = 20",0.68470573,<m> purple != 20 </m>,1
+27,green block one probably twenty ten ten twenty,green = 10,0.7580191,"<m> blue = 10, green = 20, red = 10 </m>",1
+28,green block one probably twenty ten ten twenty,green = 20,0.7258329,"<m> blue = 10, green = 20, red = 10 </m>",1
+29,green block one probably twenty ten ten twenty,"green = 10, purple = 10",0.680827,"<m> blue = 10, green = 20, red = 10 </m>",1
+30,green block one probably twenty ten ten twenty,"green = 10, red = 10",0.6651831,"<m> blue = 10, green = 20, red = 10 </m>",1
+31,green block one probably twenty ten ten twenty,"green = 10, red = 40",0.65611863,"<m> blue = 10, green = 20, red = 10 </m>",1
+32,green block one probably twenty ten ten twenty,green = 10,0.7580191,"<m> blue = 10, green = 20, red = 10 </m>",1
+33,green block one probably twenty ten ten twenty,green = 20,0.7258329,"<m> blue = 10, green = 20, red = 10 </m>",1
+34,green block one probably twenty ten ten twenty,"green = 10, purple = 10",0.680827,"<m> blue = 10, green = 20, red = 10 </m>",1
+35,green block one probably twenty ten ten twenty,"green = 10, red = 10",0.6651831,"<m> blue = 10, green = 20, red = 10 </m>",1
+36,green block one probably twenty ten ten twenty,"green = 10, red = 40",0.65611863,"<m> blue = 10, green = 20, red = 10 </m>",1
+37,Ooh looking thirty,green = 30,0.72767913,<m> purple = 30 </m>,1
+38,Ooh looking thirty,red = 30,0.7222302,<m> purple = 30 </m>,1
+39,Ooh looking thirty,purple = 30,0.7162528,<m> purple = 30 </m>,1
+40,Ooh looking thirty,yellow = 30,0.7041437,<m> purple = 30 </m>,1
+41,Ooh looking thirty,blue = 30,0.69486845,<m> purple = 30 </m>,1
+42,"im thinking red block , blue block , green block , yellow block , purple block 's ten ten twenty thirty",blue != 10,0.7268927,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",1
+43,"im thinking red block , blue block , green block , yellow block , purple block 's ten ten twenty thirty",green != 30,0.72672355,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",1
+44,"im thinking red block , blue block , green block , yellow block , purple block 's ten ten twenty thirty",yellow != 10,0.72412884,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",1
+45,"im thinking red block , blue block , green block , yellow block , purple block 's ten ten twenty thirty",green != 10,0.723559,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",1
+46,"im thinking red block , blue block , green block , yellow block , purple block 's ten ten twenty thirty",blue != 30,0.7229774,"<m> blue = 10, green = 20, purple = 30, red = 10 </m>",1
+47,fifty yellow fifty,yellow = 50,0.7568122,<m> yellow = 50 </m>,1
+48,fifty yellow fifty,yellow != 50,0.15892608,<m> yellow = 50 </m>,1
+49,fifty yellow fifty,yellow > 50,0.08408609,<m> yellow = 50 </m>,1
+50,fifty yellow fifty,yellow < 50,0.06602372,<m> yellow = 50 </m>,1

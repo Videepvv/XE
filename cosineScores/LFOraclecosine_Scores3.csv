@@ -1,0 +1,66 @@
+,transcript,filtered_common_ground,cosine_similarity,true_common_ground
+0,We tell weight red cube ten grams,red = 10,tensor([[0.3472]]),<m> red = 10 </m>
+1,We tell weight red cube ten grams,red != 10,tensor([[0.2860]]),<m> red = 10 </m>
+2,We tell weight red cube ten grams,red < 10,tensor([[0.2205]]),<m> red = 10 </m>
+3,We tell weight red cube ten grams,red > 10,tensor([[0.3264]]),<m> red = 10 </m>
+4,"red block , blue block 're weight",blue = red,tensor([[0.4610]]),<m> blue = red </m>
+5,"red block , blue block 're weight",blue != red,tensor([[0.2248]]),<m> blue = red </m>
+6,"red block , blue block 're weight",red < blue,tensor([[0.1033]]),<m> blue = red </m>
+7,"red block , blue block 're weight",red > blue,tensor([[0.2266]]),<m> blue = red </m>
+8,"red block , blue block 're weight",blue < red,tensor([[0.2277]]),<m> blue = red </m>
+9,"red block , blue block 're weight",blue > red,tensor([[0.2312]]),<m> blue = red </m>
+10,"red block , blue block 're weight","blue = 10, red = 10",tensor([[0.2554]]),<m> blue = red </m>
+11,"red block , blue block 're weight","blue = 20, red = 10",tensor([[0.2360]]),<m> blue = red </m>
+12,"red block , blue block 're weight","blue = 30, red = 10",tensor([[0.2443]]),<m> blue = red </m>
+13,"red block , blue block 're weight","blue = 40, red = 10",tensor([[0.2681]]),<m> blue = red </m>
+14,"red block , blue block 're weight","blue = 50, red = 10",tensor([[0.2400]]),<m> blue = red </m>
+15,"red block , blue block 're weight","blue = 10, red = 20",tensor([[0.2507]]),<m> blue = red </m>
+16,"red block , blue block 're weight","blue = 20, red = 20",tensor([[0.2418]]),<m> blue = red </m>
+17,"red block , blue block 're weight","blue = 30, red = 20",tensor([[0.2505]]),<m> blue = red </m>
+18,"red block , blue block 're weight","blue = 40, red = 20",tensor([[0.2390]]),<m> blue = red </m>
+19,"red block , blue block 're weight","blue = 50, red = 20",tensor([[0.2483]]),<m> blue = red </m>
+20,"red block , blue block 're weight","blue = 10, red = 30",tensor([[0.2549]]),<m> blue = red </m>
+21,"red block , blue block 're weight","blue = 20, red = 30",tensor([[0.2507]]),<m> blue = red </m>
+22,"red block , blue block 're weight","blue = 30, red = 30",tensor([[0.2498]]),<m> blue = red </m>
+23,"red block , blue block 're weight","blue = 40, red = 30",tensor([[0.2878]]),<m> blue = red </m>
+24,"red block , blue block 're weight","blue = 50, red = 30",tensor([[0.2834]]),<m> blue = red </m>
+25,"red block , blue block 're weight","blue = 10, red = 40",tensor([[0.2573]]),<m> blue = red </m>
+26,"red block , blue block 're weight","blue = 20, red = 40",tensor([[0.2458]]),<m> blue = red </m>
+27,"red block , blue block 're weight","blue = 30, red = 40",tensor([[0.2415]]),<m> blue = red </m>
+28,"red block , blue block 're weight","blue = 40, red = 40",tensor([[0.2320]]),<m> blue = red </m>
+29,"red block , blue block 're weight","blue = 50, red = 40",tensor([[0.2463]]),<m> blue = red </m>
+30,"red block , blue block 're weight","blue = 10, red = 50",tensor([[0.2373]]),<m> blue = red </m>
+31,"red block , blue block 're weight","blue = 20, red = 50",tensor([[0.2617]]),<m> blue = red </m>
+32,"red block , blue block 're weight","blue = 30, red = 50",tensor([[0.2561]]),<m> blue = red </m>
+33,"red block , blue block 're weight","blue = 40, red = 50",tensor([[0.2334]]),<m> blue = red </m>
+34,"red block , blue block 're weight","blue = 50, red = 50",tensor([[0.2324]]),<m> blue = red </m>
+35,sufficient green block one 's probably twenty,green = 20,tensor([[0.2949]]),<m> green = 20 </m>
+36,sufficient green block one 's probably twenty,green != 20,tensor([[0.3239]]),<m> green = 20 </m>
+37,sufficient green block one 's probably twenty,green < 20,tensor([[0.3054]]),<m> green = 20 </m>
+38,sufficient green block one 's probably twenty,green > 20,tensor([[0.3085]]),<m> green = 20 </m>
+39,purple one thirty,purple = 30,tensor([[0.3417]]),<m> purple = 30 </m>
+40,purple one thirty,purple != 30,tensor([[0.2186]]),<m> purple = 30 </m>
+41,purple one thirty,purple < 30,tensor([[0.1795]]),<m> purple = 30 </m>
+42,purple one thirty,purple > 30,tensor([[0.2034]]),<m> purple = 30 </m>
+43,green twenty purple thirty yellow block weighs fifty,"green = 20, purple = 30, yellow = 50",tensor([[0.0390]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+44,green twenty purple thirty yellow block weighs fifty,"green = 20, purple = 50, yellow = 30",tensor([[0.0363]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+45,green twenty purple thirty yellow block weighs fifty,"green = 30, purple = 20, yellow = 50",tensor([[0.0425]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+46,green twenty purple thirty yellow block weighs fifty,"green = 30, purple = 50, yellow = 20",tensor([[0.0354]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+47,green twenty purple thirty yellow block weighs fifty,"green = 50, purple = 20, yellow = 30",tensor([[0.0376]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+48,green twenty purple thirty yellow block weighs fifty,"green = 50, purple = 30, yellow = 20",tensor([[0.0378]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+49,mentioned green twenty,green = 20,tensor([[0.3312]]),<m> green = 20 </m>
+50,mentioned green twenty,green != 20,tensor([[0.1896]]),<m> green = 20 </m>
+51,mentioned green twenty,green < 20,tensor([[0.2506]]),<m> green = 20 </m>
+52,mentioned green twenty,green > 20,tensor([[0.2780]]),<m> green = 20 </m>
+53,yellow course ten,yellow = 10,tensor([[0.2291]]),<m> yellow != 10 </m>
+54,yellow course ten,yellow != 10,tensor([[0.1530]]),<m> yellow != 10 </m>
+55,yellow course ten,yellow < 10,tensor([[0.1933]]),<m> yellow != 10 </m>
+56,yellow course ten,yellow > 10,tensor([[0.2042]]),<m> yellow != 10 </m>
+57,feel yellow fifty,yellow = 50,tensor([[0.3386]]),<m> yellow = 50 </m>
+58,feel yellow fifty,yellow != 50,tensor([[0.1591]]),<m> yellow = 50 </m>
+59,feel yellow fifty,yellow < 50,tensor([[0.1422]]),<m> yellow = 50 </m>
+60,feel yellow fifty,yellow > 50,tensor([[0.1306]]),<m> yellow = 50 </m>
+61,yellow block 's sure thirty,yellow = 30,tensor([[0.3063]]),<m> yellow != 30 </m>
+62,yellow block 's sure thirty,yellow != 30,tensor([[0.1647]]),<m> yellow != 30 </m>
+63,yellow block 's sure thirty,yellow < 30,tensor([[0.1753]]),<m> yellow != 30 </m>
+64,yellow block 's sure thirty,yellow > 30,tensor([[0.2437]]),<m> yellow != 30 </m>

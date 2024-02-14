@@ -1,0 +1,346 @@
+,transcript,filtered_common_ground,cosine_similarity,true_common_ground
+0,I tell red cube ten grams,red = 10,tensor([[0.8187]]),<m> red = 10 </m>
+1,I tell red cube ten grams,red != 10,tensor([[0.1009]]),<m> red = 10 </m>
+2,I tell red cube ten grams,red < 10,tensor([[0.0648]]),<m> red = 10 </m>
+3,I tell red cube ten grams,red > 10,tensor([[0.0669]]),<m> red = 10 </m>
+4,"green block twenty red block , blue block ten ten","blue = 10, green = 20, red = 10",tensor([[0.0154]]),"<m> blue = 10, green = 20, red = 10 </m>"
+5,"green block twenty red block , blue block ten ten","blue = 20, green = 10, red = 10",tensor([[0.0138]]),"<m> blue = 10, green = 20, red = 10 </m>"
+6,"green block twenty red block , blue block ten ten","blue = 20, green = 20, red = 10",tensor([[0.0069]]),"<m> blue = 10, green = 20, red = 10 </m>"
+7,"green block twenty red block , blue block ten ten","blue = 10, green = 10, red = 20",tensor([[0.0070]]),"<m> blue = 10, green = 20, red = 10 </m>"
+8,"green block twenty red block , blue block ten ten","blue = 10, green = 20, red = 20",tensor([[0.0070]]),"<m> blue = 10, green = 20, red = 10 </m>"
+9,"green block twenty red block , blue block ten ten","blue = 20, green = 10, red = 20",tensor([[0.0066]]),"<m> blue = 10, green = 20, red = 10 </m>"
+10,"looks red block , blue block 're fairly equal",blue = red,tensor([[0.7996]]),<m> blue = red </m>
+11,"looks red block , blue block 're fairly equal",blue != red,tensor([[0.5080]]),<m> blue = red </m>
+12,"looks red block , blue block 're fairly equal",red < blue,tensor([[0.2167]]),<m> blue = red </m>
+13,"looks red block , blue block 're fairly equal",red > blue,tensor([[0.4014]]),<m> blue = red </m>
+14,"looks red block , blue block 're fairly equal",blue < red,tensor([[0.2391]]),<m> blue = red </m>
+15,"looks red block , blue block 're fairly equal",blue > red,tensor([[0.4858]]),<m> blue = red </m>
+16,"looks red block , blue block 're fairly equal","blue = 10, red = 10",tensor([[0.4380]]),<m> blue = red </m>
+17,"looks red block , blue block 're fairly equal","blue = 20, red = 10",tensor([[0.1833]]),<m> blue = red </m>
+18,"looks red block , blue block 're fairly equal","blue = 30, red = 10",tensor([[0.2199]]),<m> blue = red </m>
+19,"looks red block , blue block 're fairly equal","blue = 40, red = 10",tensor([[0.2052]]),<m> blue = red </m>
+20,"looks red block , blue block 're fairly equal","blue = 50, red = 10",tensor([[0.1817]]),<m> blue = red </m>
+21,"looks red block , blue block 're fairly equal","blue = 10, red = 20",tensor([[0.2016]]),<m> blue = red </m>
+22,"looks red block , blue block 're fairly equal","blue = 20, red = 20",tensor([[0.2944]]),<m> blue = red </m>
+23,"looks red block , blue block 're fairly equal","blue = 30, red = 20",tensor([[0.0946]]),<m> blue = red </m>
+24,"looks red block , blue block 're fairly equal","blue = 40, red = 20",tensor([[0.0811]]),<m> blue = red </m>
+25,"looks red block , blue block 're fairly equal","blue = 50, red = 20",tensor([[0.0873]]),<m> blue = red </m>
+26,"looks red block , blue block 're fairly equal","blue = 10, red = 30",tensor([[0.2415]]),<m> blue = red </m>
+27,"looks red block , blue block 're fairly equal","blue = 20, red = 30",tensor([[0.1444]]),<m> blue = red </m>
+28,"looks red block , blue block 're fairly equal","blue = 30, red = 30",tensor([[0.2924]]),<m> blue = red </m>
+29,"looks red block , blue block 're fairly equal","blue = 40, red = 30",tensor([[0.0795]]),<m> blue = red </m>
+30,"looks red block , blue block 're fairly equal","blue = 50, red = 30",tensor([[0.0740]]),<m> blue = red </m>
+31,"looks red block , blue block 're fairly equal","blue = 10, red = 40",tensor([[0.2314]]),<m> blue = red </m>
+32,"looks red block , blue block 're fairly equal","blue = 20, red = 40",tensor([[0.1106]]),<m> blue = red </m>
+33,"looks red block , blue block 're fairly equal","blue = 30, red = 40",tensor([[0.1161]]),<m> blue = red </m>
+34,"looks red block , blue block 're fairly equal","blue = 40, red = 40",tensor([[0.2611]]),<m> blue = red </m>
+35,"looks red block , blue block 're fairly equal","blue = 50, red = 40",tensor([[0.0538]]),<m> blue = red </m>
+36,"looks red block , blue block 're fairly equal","blue = 10, red = 50",tensor([[0.1833]]),<m> blue = red </m>
+37,"looks red block , blue block 're fairly equal","blue = 20, red = 50",tensor([[0.0933]]),<m> blue = red </m>
+38,"looks red block , blue block 're fairly equal","blue = 30, red = 50",tensor([[0.0798]]),<m> blue = red </m>
+39,"looks red block , blue block 're fairly equal","blue = 40, red = 50",tensor([[0.0624]]),<m> blue = red </m>
+40,"looks red block , blue block 're fairly equal","blue = 50, red = 50",tensor([[0.1983]]),<m> blue = red </m>
+41,"right green block 's twenty red block , blue block two ten","blue = 10, green = 20, red = 10",tensor([[0.0221]]),"<m> blue = 10, green = 20, red = 10 </m>"
+42,"right green block 's twenty red block , blue block two ten","blue = 20, green = 10, red = 10",tensor([[0.0253]]),"<m> blue = 10, green = 20, red = 10 </m>"
+43,"right green block 's twenty red block , blue block two ten","blue = 20, green = 20, red = 10",tensor([[0.0151]]),"<m> blue = 10, green = 20, red = 10 </m>"
+44,"right green block 's twenty red block , blue block two ten","blue = 10, green = 10, red = 20",tensor([[0.0204]]),"<m> blue = 10, green = 20, red = 10 </m>"
+45,"right green block 's twenty red block , blue block two ten","blue = 10, green = 20, red = 20",tensor([[0.0207]]),"<m> blue = 10, green = 20, red = 10 </m>"
+46,"right green block 's twenty red block , blue block two ten","blue = 20, green = 10, red = 20",tensor([[0.0192]]),"<m> blue = 10, green = 20, red = 10 </m>"
+47,"red block , blue block 're together",blue = red,tensor([[0.7941]]),<m> blue = red </m>
+48,"red block , blue block 're together",blue != red,tensor([[0.3620]]),<m> blue = red </m>
+49,"red block , blue block 're together",red < blue,tensor([[0.1921]]),<m> blue = red </m>
+50,"red block , blue block 're together",red > blue,tensor([[0.3547]]),<m> blue = red </m>
+51,"red block , blue block 're together",blue < red,tensor([[0.1974]]),<m> blue = red </m>
+52,"red block , blue block 're together",blue > red,tensor([[0.4506]]),<m> blue = red </m>
+53,"red block , blue block 're together","blue = 10, red = 10",tensor([[0.2156]]),<m> blue = red </m>
+54,"red block , blue block 're together","blue = 20, red = 10",tensor([[0.0417]]),<m> blue = red </m>
+55,"red block , blue block 're together","blue = 30, red = 10",tensor([[0.0550]]),<m> blue = red </m>
+56,"red block , blue block 're together","blue = 40, red = 10",tensor([[0.0552]]),<m> blue = red </m>
+57,"red block , blue block 're together","blue = 50, red = 10",tensor([[0.0439]]),<m> blue = red </m>
+58,"red block , blue block 're together","blue = 10, red = 20",tensor([[0.0450]]),<m> blue = red </m>
+59,"red block , blue block 're together","blue = 20, red = 20",tensor([[0.1162]]),<m> blue = red </m>
+60,"red block , blue block 're together","blue = 30, red = 20",tensor([[0.0336]]),<m> blue = red </m>
+61,"red block , blue block 're together","blue = 40, red = 20",tensor([[0.0336]]),<m> blue = red </m>
+62,"red block , blue block 're together","blue = 50, red = 20",tensor([[0.0332]]),<m> blue = red </m>
+63,"red block , blue block 're together","blue = 10, red = 30",tensor([[0.0533]]),<m> blue = red </m>
+64,"red block , blue block 're together","blue = 20, red = 30",tensor([[0.0381]]),<m> blue = red </m>
+65,"red block , blue block 're together","blue = 30, red = 30",tensor([[0.1045]]),<m> blue = red </m>
+66,"red block , blue block 're together","blue = 40, red = 30",tensor([[0.0336]]),<m> blue = red </m>
+67,"red block , blue block 're together","blue = 50, red = 30",tensor([[0.0330]]),<m> blue = red </m>
+68,"red block , blue block 're together","blue = 10, red = 40",tensor([[0.0515]]),<m> blue = red </m>
+69,"red block , blue block 're together","blue = 20, red = 40",tensor([[0.0357]]),<m> blue = red </m>
+70,"red block , blue block 're together","blue = 30, red = 40",tensor([[0.0353]]),<m> blue = red </m>
+71,"red block , blue block 're together","blue = 40, red = 40",tensor([[0.0871]]),<m> blue = red </m>
+72,"red block , blue block 're together","blue = 50, red = 40",tensor([[0.0327]]),<m> blue = red </m>
+73,"red block , blue block 're together","blue = 10, red = 50",tensor([[0.0392]]),<m> blue = red </m>
+74,"red block , blue block 're together","blue = 20, red = 50",tensor([[0.0332]]),<m> blue = red </m>
+75,"red block , blue block 're together","blue = 30, red = 50",tensor([[0.0331]]),<m> blue = red </m>
+76,"red block , blue block 're together","blue = 40, red = 50",tensor([[0.0316]]),<m> blue = red </m>
+77,"red block , blue block 're together","blue = 50, red = 50",tensor([[0.0605]]),<m> blue = red </m>
+78,"alright let 's green block , purple block two already tell purple block one 's heavier",green = purple,tensor([[0.6776]]),<m> purple > green </m>
+79,"alright let 's green block , purple block two already tell purple block one 's heavier",green != purple,tensor([[0.5686]]),<m> purple > green </m>
+80,"alright let 's green block , purple block two already tell purple block one 's heavier",green < purple,tensor([[0.4020]]),<m> purple > green </m>
+81,"alright let 's green block , purple block two already tell purple block one 's heavier",green > purple,tensor([[0.4673]]),<m> purple > green </m>
+82,"alright let 's green block , purple block two already tell purple block one 's heavier",purple < green,tensor([[0.3587]]),<m> purple > green </m>
+83,"alright let 's green block , purple block two already tell purple block one 's heavier",purple > green,tensor([[0.4786]]),<m> purple > green </m>
+84,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 10, purple = 10",tensor([[0.2667]]),<m> purple > green </m>
+85,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 10, purple = 20",tensor([[0.1973]]),<m> purple > green </m>
+86,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 10, purple = 30",tensor([[0.2286]]),<m> purple > green </m>
+87,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 10, purple = 40",tensor([[0.2514]]),<m> purple > green </m>
+88,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 10, purple = 50",tensor([[0.2072]]),<m> purple > green </m>
+89,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 20, purple = 10",tensor([[0.2169]]),<m> purple > green </m>
+90,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 20, purple = 20",tensor([[0.2224]]),<m> purple > green </m>
+91,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 20, purple = 30",tensor([[0.1599]]),<m> purple > green </m>
+92,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 20, purple = 40",tensor([[0.1620]]),<m> purple > green </m>
+93,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 20, purple = 50",tensor([[0.1650]]),<m> purple > green </m>
+94,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 30, purple = 10",tensor([[0.2191]]),<m> purple > green </m>
+95,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 30, purple = 20",tensor([[0.1105]]),<m> purple > green </m>
+96,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 30, purple = 30",tensor([[0.1988]]),<m> purple > green </m>
+97,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 30, purple = 40",tensor([[0.1355]]),<m> purple > green </m>
+98,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 30, purple = 50",tensor([[0.1128]]),<m> purple > green </m>
+99,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 40, purple = 10",tensor([[0.2293]]),<m> purple > green </m>
+100,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 40, purple = 20",tensor([[0.1469]]),<m> purple > green </m>
+101,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 40, purple = 30",tensor([[0.1093]]),<m> purple > green </m>
+102,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 40, purple = 40",tensor([[0.1932]]),<m> purple > green </m>
+103,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 40, purple = 50",tensor([[0.0931]]),<m> purple > green </m>
+104,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 50, purple = 10",tensor([[0.2122]]),<m> purple > green </m>
+105,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 50, purple = 20",tensor([[0.1512]]),<m> purple > green </m>
+106,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 50, purple = 30",tensor([[0.1101]]),<m> purple > green </m>
+107,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 50, purple = 40",tensor([[0.0866]]),<m> purple > green </m>
+108,"alright let 's green block , purple block two already tell purple block one 's heavier","green = 50, purple = 50",tensor([[0.1513]]),<m> purple > green </m>
+109,"green block , red block , purple block equal green block , red block , purple block instructions suppose",red = green + purple,tensor([[0.0408]]),<m> purple = green + red </m>
+110,"green block , red block , purple block equal green block , red block , purple block instructions suppose",red != green + purple,tensor([[0.0550]]),<m> purple = green + red </m>
+111,"green block , red block , purple block equal green block , red block , purple block instructions suppose",red < green + purple,tensor([[0.0988]]),<m> purple = green + red </m>
+112,"green block , red block , purple block equal green block , red block , purple block instructions suppose",red > green + purple,tensor([[0.0392]]),<m> purple = green + red </m>
+113,"green block , red block , purple block equal green block , red block , purple block instructions suppose",green = purple + red,tensor([[0.0449]]),<m> purple = green + red </m>
+114,"green block , red block , purple block equal green block , red block , purple block instructions suppose",green != purple + red,tensor([[0.0653]]),<m> purple = green + red </m>
+115,"green block , red block , purple block equal green block , red block , purple block instructions suppose",green < purple + red,tensor([[0.1369]]),<m> purple = green + red </m>
+116,"green block , red block , purple block equal green block , red block , purple block instructions suppose",green > purple + red,tensor([[0.0425]]),<m> purple = green + red </m>
+117,"green block , red block , purple block equal green block , red block , purple block instructions suppose",purple = green + red,tensor([[0.0617]]),<m> purple = green + red </m>
+118,"green block , red block , purple block equal green block , red block , purple block instructions suppose",purple != green + red,tensor([[0.0939]]),<m> purple = green + red </m>
+119,"green block , red block , purple block equal green block , red block , purple block instructions suppose",purple < green + red,tensor([[0.1701]]),<m> purple = green + red </m>
+120,"green block , red block , purple block equal green block , red block , purple block instructions suppose",purple > green + red,tensor([[0.0491]]),<m> purple = green + red </m>
+121,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 10, red = 10",tensor([[0.0128]]),<m> purple = green + red </m>
+122,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 20, red = 10",tensor([[0.0140]]),<m> purple = green + red </m>
+123,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 30, red = 10",tensor([[0.0171]]),<m> purple = green + red </m>
+124,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 40, red = 10",tensor([[0.0153]]),<m> purple = green + red </m>
+125,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 50, red = 10",tensor([[0.0175]]),<m> purple = green + red </m>
+126,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 10, red = 10",tensor([[0.0140]]),<m> purple = green + red </m>
+127,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 20, red = 10",tensor([[0.0143]]),<m> purple = green + red </m>
+128,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 30, red = 10",tensor([[0.0215]]),<m> purple = green + red </m>
+129,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 40, red = 10",tensor([[0.0217]]),<m> purple = green + red </m>
+130,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 50, red = 10",tensor([[0.0215]]),<m> purple = green + red </m>
+131,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 10, red = 10",tensor([[0.0158]]),<m> purple = green + red </m>
+132,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 20, red = 10",tensor([[0.0216]]),<m> purple = green + red </m>
+133,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 30, red = 10",tensor([[0.0181]]),<m> purple = green + red </m>
+134,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 40, red = 10",tensor([[0.0215]]),<m> purple = green + red </m>
+135,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 50, red = 10",tensor([[0.0254]]),<m> purple = green + red </m>
+136,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 10, red = 10",tensor([[0.0157]]),<m> purple = green + red </m>
+137,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 20, red = 10",tensor([[0.0215]]),<m> purple = green + red </m>
+138,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 30, red = 10",tensor([[0.0244]]),<m> purple = green + red </m>
+139,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 40, red = 10",tensor([[0.0148]]),<m> purple = green + red </m>
+140,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 50, red = 10",tensor([[0.0259]]),<m> purple = green + red </m>
+141,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 10, red = 10",tensor([[0.0169]]),<m> purple = green + red </m>
+142,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 20, red = 10",tensor([[0.0209]]),<m> purple = green + red </m>
+143,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 30, red = 10",tensor([[0.0256]]),<m> purple = green + red </m>
+144,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 40, red = 10",tensor([[0.0218]]),<m> purple = green + red </m>
+145,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 50, red = 10",tensor([[0.0187]]),<m> purple = green + red </m>
+146,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 10, red = 20",tensor([[0.0141]]),<m> purple = green + red </m>
+147,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 20, red = 20",tensor([[0.0145]]),<m> purple = green + red </m>
+148,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 30, red = 20",tensor([[0.0212]]),<m> purple = green + red </m>
+149,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 40, red = 20",tensor([[0.0233]]),<m> purple = green + red </m>
+150,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 50, red = 20",tensor([[0.0213]]),<m> purple = green + red </m>
+151,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 10, red = 20",tensor([[0.0132]]),<m> purple = green + red </m>
+152,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 20, red = 20",tensor([[0.0142]]),<m> purple = green + red </m>
+153,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 30, red = 20",tensor([[0.0205]]),<m> purple = green + red </m>
+154,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 40, red = 20",tensor([[0.0194]]),<m> purple = green + red </m>
+155,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 50, red = 20",tensor([[0.0203]]),<m> purple = green + red </m>
+156,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 10, red = 20",tensor([[0.0223]]),<m> purple = green + red </m>
+157,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 20, red = 20",tensor([[0.0205]]),<m> purple = green + red </m>
+158,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 30, red = 20",tensor([[0.0230]]),<m> purple = green + red </m>
+159,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 40, red = 20",tensor([[0.0238]]),<m> purple = green + red </m>
+160,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 50, red = 20",tensor([[0.0312]]),<m> purple = green + red </m>
+161,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 10, red = 20",tensor([[0.0194]]),<m> purple = green + red </m>
+162,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 20, red = 20",tensor([[0.0200]]),<m> purple = green + red </m>
+163,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 30, red = 20",tensor([[0.0313]]),<m> purple = green + red </m>
+164,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 40, red = 20",tensor([[0.0200]]),<m> purple = green + red </m>
+165,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 50, red = 20",tensor([[0.0312]]),<m> purple = green + red </m>
+166,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 10, red = 20",tensor([[0.0221]]),<m> purple = green + red </m>
+167,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 20, red = 20",tensor([[0.0220]]),<m> purple = green + red </m>
+168,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 30, red = 20",tensor([[0.0310]]),<m> purple = green + red </m>
+169,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 40, red = 20",tensor([[0.0313]]),<m> purple = green + red </m>
+170,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 50, red = 20",tensor([[0.0226]]),<m> purple = green + red </m>
+171,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 10, red = 30",tensor([[0.0141]]),<m> purple = green + red </m>
+172,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 20, red = 30",tensor([[0.0209]]),<m> purple = green + red </m>
+173,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 30, red = 30",tensor([[0.0190]]),<m> purple = green + red </m>
+174,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 40, red = 30",tensor([[0.0217]]),<m> purple = green + red </m>
+175,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 50, red = 30",tensor([[0.0311]]),<m> purple = green + red </m>
+176,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 10, red = 30",tensor([[0.0236]]),<m> purple = green + red </m>
+177,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 20, red = 30",tensor([[0.0208]]),<m> purple = green + red </m>
+178,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 30, red = 30",tensor([[0.0220]]),<m> purple = green + red </m>
+179,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 40, red = 30",tensor([[0.0313]]),<m> purple = green + red </m>
+180,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 50, red = 30",tensor([[0.0299]]),<m> purple = green + red </m>
+181,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 10, red = 30",tensor([[0.0149]]),<m> purple = green + red </m>
+182,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 20, red = 30",tensor([[0.0206]]),<m> purple = green + red </m>
+183,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 30, red = 30",tensor([[0.0177]]),<m> purple = green + red </m>
+184,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 40, red = 30",tensor([[0.0230]]),<m> purple = green + red </m>
+185,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 50, red = 30",tensor([[0.0208]]),<m> purple = green + red </m>
+186,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 10, red = 30",tensor([[0.0243]]),<m> purple = green + red </m>
+187,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 20, red = 30",tensor([[0.0286]]),<m> purple = green + red </m>
+188,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 30, red = 30",tensor([[0.0208]]),<m> purple = green + red </m>
+189,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 40, red = 30",tensor([[0.0209]]),<m> purple = green + red </m>
+190,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 50, red = 30",tensor([[0.0302]]),<m> purple = green + red </m>
+191,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 10, red = 30",tensor([[0.0215]]),<m> purple = green + red </m>
+192,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 20, red = 30",tensor([[0.0312]]),<m> purple = green + red </m>
+193,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 30, red = 30",tensor([[0.0232]]),<m> purple = green + red </m>
+194,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 40, red = 30",tensor([[0.0301]]),<m> purple = green + red </m>
+195,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 50, red = 30",tensor([[0.0207]]),<m> purple = green + red </m>
+196,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 10, red = 40",tensor([[0.0131]]),<m> purple = green + red </m>
+197,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 20, red = 40",tensor([[0.0210]]),<m> purple = green + red </m>
+198,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 30, red = 40",tensor([[0.0214]]),<m> purple = green + red </m>
+199,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 40, red = 40",tensor([[0.0167]]),<m> purple = green + red </m>
+200,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 50, red = 40",tensor([[0.0279]]),<m> purple = green + red </m>
+201,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 10, red = 40",tensor([[0.0198]]),<m> purple = green + red </m>
+202,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 20, red = 40",tensor([[0.0194]]),<m> purple = green + red </m>
+203,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 30, red = 40",tensor([[0.0253]]),<m> purple = green + red </m>
+204,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 40, red = 40",tensor([[0.0204]]),<m> purple = green + red </m>
+205,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 50, red = 40",tensor([[0.0312]]),<m> purple = green + red </m>
+206,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 10, red = 40",tensor([[0.0219]]),<m> purple = green + red </m>
+207,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 20, red = 40",tensor([[0.0216]]),<m> purple = green + red </m>
+208,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 30, red = 40",tensor([[0.0228]]),<m> purple = green + red </m>
+209,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 40, red = 40",tensor([[0.0228]]),<m> purple = green + red </m>
+210,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 50, red = 40",tensor([[0.0298]]),<m> purple = green + red </m>
+211,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 10, red = 40",tensor([[0.0148]]),<m> purple = green + red </m>
+212,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 20, red = 40",tensor([[0.0193]]),<m> purple = green + red </m>
+213,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 30, red = 40",tensor([[0.0221]]),<m> purple = green + red </m>
+214,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 40, red = 40",tensor([[0.0175]]),<m> purple = green + red </m>
+215,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 50, red = 40",tensor([[0.0206]]),<m> purple = green + red </m>
+216,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 10, red = 40",tensor([[0.0220]]),<m> purple = green + red </m>
+217,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 20, red = 40",tensor([[0.0288]]),<m> purple = green + red </m>
+218,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 30, red = 40",tensor([[0.0311]]),<m> purple = green + red </m>
+219,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 40, red = 40",tensor([[0.0220]]),<m> purple = green + red </m>
+220,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 50, red = 40",tensor([[0.0237]]),<m> purple = green + red </m>
+221,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 10, red = 50",tensor([[0.0139]]),<m> purple = green + red </m>
+222,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 20, red = 50",tensor([[0.0210]]),<m> purple = green + red </m>
+223,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 30, red = 50",tensor([[0.0222]]),<m> purple = green + red </m>
+224,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 40, red = 50",tensor([[0.0252]]),<m> purple = green + red </m>
+225,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 10, purple = 50, red = 50",tensor([[0.0226]]),<m> purple = green + red </m>
+226,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 10, red = 50",tensor([[0.0207]]),<m> purple = green + red </m>
+227,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 20, red = 50",tensor([[0.0195]]),<m> purple = green + red </m>
+228,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 30, red = 50",tensor([[0.0310]]),<m> purple = green + red </m>
+229,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 40, red = 50",tensor([[0.0310]]),<m> purple = green + red </m>
+230,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 20, purple = 50, red = 50",tensor([[0.0206]]),<m> purple = green + red </m>
+231,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 10, red = 50",tensor([[0.0216]]),<m> purple = green + red </m>
+232,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 20, red = 50",tensor([[0.0309]]),<m> purple = green + red </m>
+233,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 30, red = 50",tensor([[0.0208]]),<m> purple = green + red </m>
+234,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 40, red = 50",tensor([[0.0291]]),<m> purple = green + red </m>
+235,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 30, purple = 50, red = 50",tensor([[0.0249]]),<m> purple = green + red </m>
+236,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 10, red = 50",tensor([[0.0215]]),<m> purple = green + red </m>
+237,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 20, red = 50",tensor([[0.0293]]),<m> purple = green + red </m>
+238,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 30, red = 50",tensor([[0.0305]]),<m> purple = green + red </m>
+239,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 40, red = 50",tensor([[0.0238]]),<m> purple = green + red </m>
+240,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 40, purple = 50, red = 50",tensor([[0.0267]]),<m> purple = green + red </m>
+241,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 10, red = 50",tensor([[0.0184]]),<m> purple = green + red </m>
+242,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 20, red = 50",tensor([[0.0221]]),<m> purple = green + red </m>
+243,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 30, red = 50",tensor([[0.0207]]),<m> purple = green + red </m>
+244,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 40, red = 50",tensor([[0.0224]]),<m> purple = green + red </m>
+245,"green block , red block , purple block equal green block , red block , purple block instructions suppose","green = 50, purple = 50, red = 50",tensor([[0.0209]]),<m> purple = green + red </m>
+246,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 20, purple = 30, yellow = 50",tensor([[0.0219]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+247,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 20, purple = 50, yellow = 30",tensor([[0.0188]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+248,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 30, purple = 20, yellow = 50",tensor([[0.0339]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+249,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 30, purple = 50, yellow = 20",tensor([[0.0203]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+250,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 50, purple = 20, yellow = 30",tensor([[0.0183]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+251,purple block one 's thirty 's green block one twenty right twenty okay yellow block one 's gon na fifty okay,"green = 50, purple = 30, yellow = 20",tensor([[0.0185]]),"<m> green = 20, purple = 30, yellow = 50 </m>"
+252,But 's I weights fifty,red = 50,tensor([[0.7139]]),<m> yellow = 50 </m>
+253,But 's I weights fifty,red != 50,tensor([[0.1223]]),<m> yellow = 50 </m>
+254,But 's I weights fifty,red < 50,tensor([[0.0993]]),<m> yellow = 50 </m>
+255,But 's I weights fifty,red > 50,tensor([[0.1058]]),<m> yellow = 50 </m>
+256,But 's I weights fifty,blue = 50,tensor([[0.6454]]),<m> yellow = 50 </m>
+257,But 's I weights fifty,blue != 50,tensor([[0.1162]]),<m> yellow = 50 </m>
+258,But 's I weights fifty,blue < 50,tensor([[0.0985]]),<m> yellow = 50 </m>
+259,But 's I weights fifty,blue > 50,tensor([[0.1040]]),<m> yellow = 50 </m>
+260,But 's I weights fifty,green = 50,tensor([[0.7236]]),<m> yellow = 50 </m>
+261,But 's I weights fifty,green != 50,tensor([[0.1162]]),<m> yellow = 50 </m>
+262,But 's I weights fifty,green < 50,tensor([[0.0971]]),<m> yellow = 50 </m>
+263,But 's I weights fifty,green > 50,tensor([[0.1036]]),<m> yellow = 50 </m>
+264,But 's I weights fifty,purple = 50,tensor([[0.6120]]),<m> yellow = 50 </m>
+265,But 's I weights fifty,purple != 50,tensor([[0.1237]]),<m> yellow = 50 </m>
+266,But 's I weights fifty,purple < 50,tensor([[0.1004]]),<m> yellow = 50 </m>
+267,But 's I weights fifty,purple > 50,tensor([[0.1106]]),<m> yellow = 50 </m>
+268,But 's I weights fifty,yellow = 50,tensor([[0.6295]]),<m> yellow = 50 </m>
+269,But 's I weights fifty,yellow != 50,tensor([[0.1194]]),<m> yellow = 50 </m>
+270,But 's I weights fifty,yellow < 50,tensor([[0.0968]]),<m> yellow = 50 </m>
+271,But 's I weights fifty,yellow > 50,tensor([[0.1048]]),<m> yellow = 50 </m>
+272,But 's I weights fifty,"blue = 50, green = 50, red = 50",tensor([[0.0360]]),<m> yellow = 50 </m>
+273,But 's I weights fifty,"blue = 50, purple = 50, red = 50",tensor([[0.0379]]),<m> yellow = 50 </m>
+274,But 's I weights fifty,"blue = 50, red = 50, yellow = 50",tensor([[0.0285]]),<m> yellow = 50 </m>
+275,But 's I weights fifty,"green = 50, purple = 50, red = 50",tensor([[0.0413]]),<m> yellow = 50 </m>
+276,But 's I weights fifty,"green = 50, red = 50, yellow = 50",tensor([[0.0337]]),<m> yellow = 50 </m>
+277,But 's I weights fifty,"purple = 50, red = 50, yellow = 50",tensor([[0.0363]]),<m> yellow = 50 </m>
+278,But 's I weights fifty,"blue = 50, green = 50, purple = 50",tensor([[0.0337]]),<m> yellow = 50 </m>
+279,But 's I weights fifty,"blue = 50, green = 50, yellow = 50",tensor([[0.0280]]),<m> yellow = 50 </m>
+280,But 's I weights fifty,"blue = 50, purple = 50, yellow = 50",tensor([[0.0320]]),<m> yellow = 50 </m>
+281,But 's I weights fifty,"green = 50, purple = 50, yellow = 50",tensor([[0.0327]]),<m> yellow = 50 </m>
+282,But 's I weights fifty,"blue = 50, red = 50",tensor([[0.5184]]),<m> yellow = 50 </m>
+283,But 's I weights fifty,"green = 50, red = 50",tensor([[0.5235]]),<m> yellow = 50 </m>
+284,But 's I weights fifty,"purple = 50, red = 50",tensor([[0.5781]]),<m> yellow = 50 </m>
+285,But 's I weights fifty,"red = 50, yellow = 50",tensor([[0.5017]]),<m> yellow = 50 </m>
+286,But 's I weights fifty,"blue = 50, green = 50",tensor([[0.5396]]),<m> yellow = 50 </m>
+287,But 's I weights fifty,"blue = 50, purple = 50",tensor([[0.5537]]),<m> yellow = 50 </m>
+288,But 's I weights fifty,"blue = 50, yellow = 50",tensor([[0.4776]]),<m> yellow = 50 </m>
+289,But 's I weights fifty,"green = 50, purple = 50",tensor([[0.5426]]),<m> yellow = 50 </m>
+290,But 's I weights fifty,"green = 50, yellow = 50",tensor([[0.4441]]),<m> yellow = 50 </m>
+291,But 's I weights fifty,"purple = 50, yellow = 50",tensor([[0.5295]]),<m> yellow = 50 </m>
+292,But 's I weights fifty,"blue = 50, green = 50, purple = 50, red = 50",tensor([[0.0063]]),<m> yellow = 50 </m>
+293,But 's I weights fifty,"blue = 50, green = 50, red = 50, yellow = 50",tensor([[0.0063]]),<m> yellow = 50 </m>
+294,But 's I weights fifty,"blue = 50, purple = 50, red = 50, yellow = 50",tensor([[0.0063]]),<m> yellow = 50 </m>
+295,But 's I weights fifty,"green = 50, purple = 50, red = 50, yellow = 50",tensor([[0.0062]]),<m> yellow = 50 </m>
+296,But 's I weights fifty,"blue = 50, green = 50, purple = 50, yellow = 50",tensor([[0.0064]]),<m> yellow = 50 </m>
+297,yellow block less fifty less fifty,yellow = 50,tensor([[0.8203]]),<m> yellow < 50 </m>
+298,yellow block less fifty less fifty,yellow != 50,tensor([[0.4042]]),<m> yellow < 50 </m>
+299,yellow block less fifty less fifty,yellow < 50,tensor([[0.1338]]),<m> yellow < 50 </m>
+300,yellow block less fifty less fifty,yellow > 50,tensor([[0.1043]]),<m> yellow < 50 </m>
+301,'s 's almost settled yellow block 's less fifty,yellow = 50,tensor([[0.8193]]),<m> yellow < 50 </m>
+302,'s 's almost settled yellow block 's less fifty,yellow != 50,tensor([[0.5380]]),<m> yellow < 50 </m>
+303,'s 's almost settled yellow block 's less fifty,yellow < 50,tensor([[0.2523]]),<m> yellow < 50 </m>
+304,'s 's almost settled yellow block 's less fifty,yellow > 50,tensor([[0.2336]]),<m> yellow < 50 </m>
+305,oh yellow block fifty grams,yellow = 50,tensor([[0.8187]]),<m> yellow = 50 </m>
+306,oh yellow block fifty grams,yellow != 50,tensor([[0.1327]]),<m> yellow = 50 </m>
+307,oh yellow block fifty grams,yellow < 50,tensor([[0.0747]]),<m> yellow = 50 </m>
+308,oh yellow block fifty grams,yellow > 50,tensor([[0.0771]]),<m> yellow = 50 </m>
+309,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 20, purple = 30, red = 10",tensor([[0.0086]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+310,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 30, purple = 20, red = 10",tensor([[0.0096]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+311,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 10, purple = 30, red = 10",tensor([[0.0082]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+312,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 20, purple = 30, red = 10",tensor([[0.0101]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+313,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 30, purple = 10, red = 10",tensor([[0.0075]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+314,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 30, purple = 20, red = 10",tensor([[0.0103]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+315,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 30, purple = 30, red = 10",tensor([[0.0093]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+316,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 10, purple = 20, red = 10",tensor([[0.0094]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+317,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 20, purple = 10, red = 10",tensor([[0.0077]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+318,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 20, purple = 20, red = 10",tensor([[0.0100]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+319,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 20, purple = 30, red = 10",tensor([[0.0096]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+320,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 30, purple = 20, red = 10",tensor([[0.0112]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+321,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 10, purple = 30, red = 20",tensor([[0.0098]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+322,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 20, purple = 30, red = 20",tensor([[0.0105]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+323,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 30, purple = 10, red = 20",tensor([[0.0096]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+324,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 30, purple = 20, red = 20",tensor([[0.0096]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+325,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 30, purple = 30, red = 20",tensor([[0.0100]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+326,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 10, purple = 30, red = 20",tensor([[0.0095]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+327,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 30, purple = 10, red = 20",tensor([[0.0096]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+328,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 10, purple = 10, red = 20",tensor([[0.0094]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+329,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 10, purple = 20, red = 20",tensor([[0.0094]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+330,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 10, purple = 30, red = 20",tensor([[0.0096]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+331,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 20, purple = 10, red = 20",tensor([[0.0096]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+332,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 30, purple = 10, red = 20",tensor([[0.0106]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+333,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 10, purple = 20, red = 30",tensor([[0.0108]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+334,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 20, purple = 10, red = 30",tensor([[0.0083]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+335,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 20, purple = 20, red = 30",tensor([[0.0111]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+336,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 20, purple = 30, red = 30",tensor([[0.0096]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+337,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 10, green = 30, purple = 20, red = 30",tensor([[0.0093]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+338,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 10, purple = 10, red = 30",tensor([[0.0081]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+339,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 10, purple = 20, red = 30",tensor([[0.0097]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+340,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 10, purple = 30, red = 30",tensor([[0.0090]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+341,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 20, purple = 10, red = 30",tensor([[0.0098]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+342,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 20, green = 30, purple = 10, red = 30",tensor([[0.0090]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+343,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 10, purple = 20, red = 30",tensor([[0.0093]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
+344,"purple block thirty right thirty green block twenty red block , blue block tens","blue = 30, green = 20, purple = 10, red = 30",tensor([[0.0090]]),"<m> blue = 10, green = 20, purple = 30, red = 10 </m>"
