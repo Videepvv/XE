@@ -1,11 +1,11 @@
 from itertools import chain, combinations
 import transformers
-from transformers import BertTokenizer, BertModel, RobertaTokenizer, RobertaModel
+from transformers import BertTokenizer, BertModel, RobertaTokenizer, RobertaModel, RobertaConfig, LongformerModel, LongformerTokenizer
 import torch
 
 class UtteranceEncoding():
 
-    def __init__(self, props=None):
+    def __init__(self, props=None, llm="bert"):
         # initialize possible blocks
         self.blocks = ['red block',
                         'blue block',
@@ -28,24 +28,33 @@ class UtteranceEncoding():
                         
         self.props = []
         self.prop_embs = {}
+        self.llm = llm
 
         # initialize possible propositions (Cartesian product of blocks, weights, and relations)
         if not props:
             self.generate_props()
         else:
             self.props = props    
-        # Load pre-trained model tokenizer (vocabulary)
-        self.bert_base_uncased_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-
-        # Load pre-trained model (weights)
-        self.bert_base_uncased_model = BertModel.from_pretrained('bert-base-uncased',
-                                  output_hidden_states = True, # Whether the model returns all hidden-states
-                                  )
         
+        # Load pre-trained model tokenizer (vocabulary)
+        if self.llm == 'bert-base-uncased':
+            self.llm_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+            self.llm_model = BertModel.from_pretrained('bert-base-uncased', output_hidden_states = True)
+
+        if self.llm == 'roberta-base':
+            self.llm_tokenizer =  RobertaTokenizer.from_pretrained("roberta-base")
+            configuration = RobertaConfig(output_hidden_states=True)
+            self.llm_model = RobertaModel(configuration)
+        
+        if self.llm == 'allenai/longformer-base-4096':
+            self.llm_tokenizer = LongformerTokenizer.from_pretrained('allenai/longformer-base-4096')
+            self.llm_model = LongformerModel.from_pretrained('allenai/longformer-base-4096', output_hidden_states=True)
+
+
         for i in range(len(self.props)):
             # print(f"{i} Encoding {self.props[i]}")
             tokenized_text, seq_embedding, pooled_embedding, hidden_states = \
-                self.get_sentence_embedding(self.props[i], self.bert_base_uncased_tokenizer, self.bert_base_uncased_model)
+            self.get_sentence_embedding(self.props[i], self.llm_tokenizer, self.llm_model)
             token_embeddings = torch.squeeze(torch.stack(hidden_states, dim=0), dim=1).permute(1,0,2)
             sum_embeddings = self.get_token_embeddings(token_embeddings, 4)
             self.prop_embs[self.props[i]] = torch.mean(torch.stack(sum_embeddings),axis=0)
@@ -56,8 +65,8 @@ class UtteranceEncoding():
         
         # Add the special tokens
         marked_text = text
-        if isinstance(model,BertModel):
-            marked_text = "[CLS] " + text + " [SEP]"
+        # if isinstance(model,BertModel):
+        marked_text = "[CLS] " + text + " [SEP]"
         
         # Split the sentence into tokens
         tokenized_text = tokenizer.tokenize(marked_text)
@@ -91,6 +100,7 @@ class UtteranceEncoding():
             # hidden states from all layers. See the documentation for more details:
             # https://huggingface.co/transformers/model_doc/bert.html#bertmodel
             hidden_states = outputs[2]
+
           
         if verbose:
             print("Number of layers:", len(hidden_states), "  (initial embeddings + 12 BERT layers)")
@@ -166,9 +176,6 @@ class UtteranceEncoding():
             to_remove.reverse()
             for i in to_remove:
                 subsets.pop(i)
-        print(len(subsets))
         for subset in subsets:
             prop = " and ".join(subset)
             self.props.append(prop)
-            print(prop)
-        print(len(self.props))
